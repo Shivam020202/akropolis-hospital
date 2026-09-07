@@ -7,4 +7,4 @@
 $district_name = 'gurgaon';
 $landmarks = ['Sector 56', 'Cyber Hub', 'MG Road'];
 
-require_once '/Users/bp/Desktop/Project/components/heart-blockage-district-template.php';
+require_once dirname(__DIR__, 3) . '/components/heart-blockage-district-template.php';

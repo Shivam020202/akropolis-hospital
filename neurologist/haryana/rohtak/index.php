@@ -7,4 +7,4 @@
 $district_name = 'rohtak';
 $landmarks = ['Rohtak City', 'Meham', 'Sampla'];
 
-require_once '/Users/bp/Desktop/Project/components/neurologist-district-template.php';
+require_once dirname(__DIR__, 3) . '/components/neurologist-district-template.php';

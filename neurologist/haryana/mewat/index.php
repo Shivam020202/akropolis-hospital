@@ -7,4 +7,4 @@
 $district_name = 'mewat';
 $landmarks = ['Nuh', 'Firozpur Jhirka', 'Taoru'];
 
-require_once '/Users/bp/Desktop/Project/components/neurologist-district-template.php';
+require_once dirname(__DIR__, 3) . '/components/neurologist-district-template.php';

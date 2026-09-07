@@ -1,9 +1,9 @@
 <?php
-require_once '/Users/bp/Desktop/Project/Akropolish /includes/data.php';
+require_once dirname(__DIR__, 3) . '/includes/data.php';
 $page_title = 'Best Heart Hospital in Sonipat | Akropolis Hospital';
 $page_description = 'Akropolis Super Speciality Hospital is the Best Heart Hospital in Sonipat. Expert cardiologists, advanced cardiac treatments, and 24/7 emergency heart care near Sonipat City, Gohana, Kharkhoda. NABH accredited.';
-include '/Users/bp/Desktop/Project/Akropolish /includes/head.php';
-include '/Users/bp/Desktop/Project/Akropolish /includes/header-v2.php';
+include dirname(__DIR__, 3) . '/includes/head.php';
+include dirname(__DIR__, 3) . '/includes/header-v2.php';
 ?>
 
 <main>
@@ -241,4 +241,4 @@ function toggleFaq(index) {
 }
 </script>
 
-<?php include '/Users/bp/Desktop/Project/Akropolish /includes/footer.php'; include '/Users/bp/Desktop/Project/Akropolish /includes/scripts.php'; ?>
+<?php include dirname(__DIR__, 3) . '/includes/footer.php'; include dirname(__DIR__, 3) . '/includes/scripts.php'; ?>

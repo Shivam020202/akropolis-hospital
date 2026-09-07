@@ -7,4 +7,4 @@
 $district_name = 'palwal';
 $landmarks = ['Palwal City', 'Hassanpur', 'Hodel'];
 
-require_once '/Users/bp/Desktop/Project/components/heart-blockage-district-template.php';
+require_once dirname(__DIR__, 3) . '/components/heart-blockage-district-template.php';
