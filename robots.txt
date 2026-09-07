@@ -1,0 +1,23 @@
+User-agent: *
+Allow: /
+
+# Sitemap
+Sitemap: https://akropolishospital.com/sitemap.xml
+
+# Disallow admin areas
+Disallow: /admin/
+
+# Disallow sensitive files
+Disallow: /includes/
+Disallow: /components/
+Disallow: /css/
+Disallow: /js/
+Disallow: /*.php$
+
+# Allow static resources
+Allow: /css/*.css
+Allow: /js/*.js
+Allow: /images/
+
+# Crawl delay (optional)
+Crawl-delay: 1

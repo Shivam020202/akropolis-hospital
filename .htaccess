@@ -1,0 +1,66 @@
+RewriteEngine On
+
+<IfModule mod_headers.c>
+    Header always set Referrer-Policy "strict-origin-when-cross-origin"
+    Header always set Strict-Transport-Security "max-age=31536000; includeSubDomains"
+    Header always set X-Frame-Options "SAMEORIGIN"
+    Header always set X-Content-Type-Options "nosniff"
+</IfModule>
+
+# ─── Favicon & legacy asset fixes ────────────────────────────────────────────
+RewriteRule ^favicon\.ico$ /favicon.svg [R=301,L]
+RewriteRule ^vite\.svg$ /favicon.svg [R=301,L]
+
+
+RewriteRule ^\.well-known/apple-app-site-association$ - [R=404,L]
+RewriteRule ^apple-app-site-association$ - [R=404,L]
+
+# ─── Legacy /doctor/ (singular) → /doctors/ (plural) ─────────────────────────
+RewriteRule ^doctor/([^/]+)/?$ /doctors/$1 [R=301,L]
+
+# ─── Legacy /services/ paths → correct department pages ──────────────────────
+RewriteRule ^services/ct-scan/?$ /ct-scan [R=301,L]
+RewriteRule ^services/bronchoscopy/?$ /bronchoscopy [R=301,L]
+RewriteRule ^services/colonoscopy/?$ /colonoscopy [R=301,L]
+RewriteRule ^services/endoscopy/?$ /endoscopy [R=301,L]
+RewriteRule ^services/([^/]+)/?$ /$1 [R=301,L]
+
+# ─── Redirect parent specialty directories to main pages ─────────────────────
+RewriteRule ^orthopedic-hospital/haryana/?$ /orthopedics [R=301,L]
+RewriteRule ^haddi-ka-doctor/haryana/?$ /haddi-ka-doctor [R=301,L]
+
+# ─── Doctor sub-pages: /doctors/dr-slug → doctors/dr-slug.php ────────────────
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteCond %{REQUEST_FILENAME} !-d
+RewriteRule ^doctors/([^/]+)/?$ /doctors/$1.php [NC,L]
+
+# ─── Blog routes: /blog/{lang}/{slug} → /blog/posts/single-blog.php ──────────
+# Redirect external .php blog requests to clean URLs
+RewriteCond %{THE_REQUEST} ^[A-Z]{3,9}\ /blog/(hi|en)/([^/.]+)\.php\ HTTP/
+RewriteRule ^blog/(hi|en)/([^/.]+)\.php$ /blog/%1/%2 [R=301,L]
+
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteCond %{REQUEST_FILENAME} !-d
+RewriteRule ^blog/(hi|en)/([a-z0-9\-]+)(?:\.php)?/?$ /blog/posts/single-blog.php [NC,L]
+
+# ─── Redirect direct .php requests to extensionless URLs ────────────────────
+RewriteCond %{THE_REQUEST} ^[A-Z]{3,9}\ /([^/]+)\.php\ HTTP/
+RewriteCond %{REQUEST_URI} !^/index\.php$
+RewriteRule ^([^/]+)\.php$ /$1 [R=301,L]
+
+# ─── Fix Directory vs File Conflicts ─────────────────────────────────────────
+RewriteRule ^(doctors|haddi-ka-doctor|migraine-treatment|neurology|obstetrics-gynecology|plastic-surgery)/$ /$1 [R=301,L]
+RewriteRule ^(doctors|haddi-ka-doctor|migraine-treatment|neurology|obstetrics-gynecology|plastic-surgery)$ $1.php [L]
+
+# ─── Clean URLs: strip .php extension for all top-level pages ────────────────
+RewriteCond %{REQUEST_FILENAME} !-d
+RewriteCond %{REQUEST_FILENAME}\.php -f
+RewriteRule ^([^\.]+)/?$ $1.php [NC,L]
+
+# ─── Redirect index.php to / ─────────────────────────────────────────────────
+RewriteCond %{THE_REQUEST} ^[A-Z]{3,9}\ /index\.php\ HTTP/
+RewriteRule ^index\.php$ / [R=301,L]
+
+# ─── Redirect blog post trailing slashes to non-trailing slashes ─────────────
+RewriteCond %{REQUEST_FILENAME} !-d
+RewriteRule ^blog/(hi|en)/([a-z0-9\-]+)/$ /blog/$1/$2 [R=301,L]

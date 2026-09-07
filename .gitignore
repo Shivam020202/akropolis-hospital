@@ -1,0 +1,13 @@
+# Ignore system files
+.DS_Store
+
+# Ignore Claude files
+.claude/
+
+# Ignore log files
+*.log
+
+# Ignore temporary files
+*.tmp
+*.bak
+*.swp
