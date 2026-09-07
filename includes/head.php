@@ -38,9 +38,6 @@
     }
   </script>
 
-  <!-- Chat Widget -->
-<script defer src="https://app.wacrs.com/install-widget/bundle.js?key=06bf39fe-05ac-4d19-b868-0d9529daeeff"></script>
-
   <!-- Lucide Icons CDN -->
   <script src="https://unpkg.com/lucide@latest"></script>
 
