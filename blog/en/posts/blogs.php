@@ -253,7 +253,7 @@ $blogs = [
 <ul class="list-disc pl-6 space-y-2 my-4">
     <li><strong>Electrocardiogram (ECG):</strong> Records the electrical activity of the heart and can help identify certain rhythm problems and signs of heart injury.</li>
     <li><strong>Blood tests:</strong> May help assess cholesterol, blood sugar, and other markers. Blood tests such as troponin are important when a heart attack is suspected.</li>
-    <li><strong>Echocardiogram:</strong> Uses ultrasound to examine the heart's structure and pumping function.</li>
+    <li><strong>Echocardiogram:</strong> Uses ultrasound to examine the heart structure and pumping function.</li>
     <li><strong>Stress testing:</strong> May be used in selected patients to assess how the heart responds to physical activity or medication-induced stress.</li>
     <li><strong>CT-based imaging:</strong> May be recommended in selected cases to examine the heart or blood vessels.</li>
     <li><strong>Holter or ambulatory monitoring:</strong> Can record the heart rhythm over a longer period when intermittent palpitations or rhythm problems are suspected.</li>
