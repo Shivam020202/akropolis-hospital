@@ -166,9 +166,22 @@
 <script>
 function toggleMobileMenu() {
     const menu = document.getElementById('mobile-menu');
-    menu.classList.toggle('hidden');
-    menu.classList.toggle('open');
-    menu.classList.toggle('closed');
+
+    if (!menu) return;
+
+    const isOpen = menu.classList.contains('open');
+
+    if (isOpen) {
+        // Close menu
+        menu.classList.remove('open');
+        menu.classList.add('closed');
+        menu.classList.add('hidden');
+    } else {
+        // Open menu
+        menu.classList.remove('hidden');
+        menu.classList.remove('closed');
+        menu.classList.add('open');
+    }
 }
 function toggleMobileDeptMenu() {
     const deptMenu = document.getElementById('mobile-dept-menu');
