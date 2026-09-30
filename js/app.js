@@ -7,7 +7,6 @@ document.addEventListener('DOMContentLoaded', function() {
 
   // Initialize all components
   initNavigation();
-  initMobileMenu();
   initScrollEffects();
   initDepartmentSlider();
   initDoctorsSlider();
@@ -64,21 +63,6 @@ function loadPage(page) {
   // For simplicity, we'll reload the page with the new path
   // In a real PHP app, this would use AJAX to load content
   window.location.href = page === 'home' ? '/' : '/' + page;
-}
-
-// =========================================
-// MOBILE MENU
-// =========================================
-function initMobileMenu() {
-  const menuBtn = document.querySelector('.mobile-menu-btn');
-  const mobileMenu = document.querySelector('.mobile-menu');
-
-  if (!menuBtn || !mobileMenu) return;
-
-  menuBtn.addEventListener('click', function() {
-    mobileMenu.classList.toggle('open');
-    mobileMenu.classList.toggle('closed');
-  });
 }
 
 // =========================================
