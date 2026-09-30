@@ -8,7 +8,7 @@
       <!-- Hospital Info -->
       <div class="lg:col-span-1">
         <img
-          src="/assets/images/homepage/akropolis-official-logo-footer.webp"
+          src="/assets/images/homepage/akropolis-official-logo-footer.png"
           alt="Akropolis Hospital Logo"
           class="h-16 w-auto mb-6 bg-white p-2 rounded-lg"
         />

@@ -244,9 +244,13 @@ function initHeroAnimation() {
 // MEGA MENU GLASS EFFECT
 // =========================================
 document.addEventListener('mouseenter', function(e) {
+  if (!(e.target instanceof Element)) return;
+
   const megaMenu = e.target.closest('.mega-menu-trigger');
+
   if (megaMenu) {
     const menu = megaMenu.querySelector('.mega-menu-glass');
+
     if (menu) {
       menu.style.opacity = '1';
       menu.style.transform = 'translateX(-50%) translateY(0)';
@@ -256,9 +260,13 @@ document.addEventListener('mouseenter', function(e) {
 }, true);
 
 document.addEventListener('mouseleave', function(e) {
+  if (!(e.target instanceof Element)) return;
+
   const megaMenu = e.target.closest('.mega-menu-trigger');
+
   if (megaMenu) {
     const menu = megaMenu.querySelector('.mega-menu-glass');
+
     if (menu) {
       menu.style.opacity = '0';
       menu.style.transform = 'translateX(-50%) translateY(-10px)';

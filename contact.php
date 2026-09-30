@@ -304,9 +304,9 @@ include 'includes/head.php';
               $operatingHours = [
                 ['day' => 'Emergency Services', 'time' => '24/7 Available', 'highlight' => true],
                 ['day' => 'OPD Timings', 'time' => '8:00 AM - 8:00 PM', 'highlight' => false],
-                ['day' => 'Laboratory', 'time' => '6:00 AM - 10:00 PM', 'highlight' => false],
+                ['day' => 'Laboratory', 'time' => '24/7 Available', 'highlight' => false],
                 ['day' => 'Pharmacy', 'time' => '24/7 Available', 'highlight' => true],
-                ['day' => 'Radiology', 'time' => '7:00 AM - 9:00 PM', 'highlight' => false],
+                ['day' => 'Radiology', 'time' => '24/7 Available', 'highlight' => false],
                 ['day' => 'Dialysis Center', 'time' => '24/7 Available', 'highlight' => true]
               ];
 
