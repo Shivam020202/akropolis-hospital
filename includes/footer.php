@@ -8,7 +8,7 @@
       <!-- Hospital Info -->
       <div class="lg:col-span-1">
         <img
-          src="https://brandingpioneers.co.in/akropolis/WhatsApp%20Image%202025-08-16%20at%2012.12.12_9a8761f4.jpg"
+          src="/assets/images/homepage/akropolis-official-logo-footer.webp"
           alt="Akropolis Hospital Logo"
           class="h-16 w-auto mb-6 bg-white p-2 rounded-lg"
         />
@@ -103,24 +103,35 @@
       </div>
 
       <!-- Contact Info -->
-      <div>
-        <p class="text-xl font-bold mb-6">Contact Info</p>
-        <div class="space-y-4">
-          <div class="flex items-start space-x-3">
-            <div class="text-gray-400 mt-1"><?php echo getIcon('MapPin', 'h-5 w-5'); ?></div>
-            <p class="text-gray-300 leading-relaxed">
-              <?php echo CONTACT_INFO['address']; ?>
-            </p>
-          </div>
-          <div class="flex items-center space-x-3">
-            <div class="text-gray-400"><?php echo getIcon('Phone', 'h-5 w-5'); ?></div>
-            <a href="tel:<?php echo CONTACT_INFO['phone']; ?>" class="text-gray-300 hover:text-white"><?php echo CONTACT_INFO['phone']; ?></a>
-          </div>
-          <div class="flex items-center space-x-3">
-            <div class="text-gray-400"><?php echo getIcon('Mail', 'h-5 w-5'); ?></div>
-            <a href="mailto:<?php echo CONTACT_INFO['email']; ?>" class="text-gray-300 hover:text-white"><?php echo CONTACT_INFO['email']; ?></a>
-          </div>
-        </div>
+<div>
+  <p class="text-xl font-bold mb-6">Contact Info</p>
+
+  <p class="text-gray-300 leading-relaxed font-semibold mb-3">
+    Akropolis Super Speciality Hospital
+  </p>
+
+  <div class="space-y-4">
+    <div class="flex items-start space-x-3">
+      <div class="text-gray-400 mt-1"><?php echo getIcon('MapPin', 'h-5 w-5'); ?></div>
+      <p class="text-gray-300 leading-relaxed">
+        <?php echo CONTACT_INFO['address']; ?>
+      </p>
+    </div>
+
+    <div class="flex items-center space-x-3">
+      <div class="text-gray-400"><?php echo getIcon('Phone', 'h-5 w-5'); ?></div>
+      <a href="tel:<?php echo CONTACT_INFO['phone']; ?>" class="text-gray-300 hover:text-white">
+        <?php echo CONTACT_INFO['phone']; ?>
+      </a>
+    </div>
+
+    <div class="flex items-center space-x-3">
+      <div class="text-gray-400"><?php echo getIcon('Mail', 'h-5 w-5'); ?></div>
+      <a href="mailto:<?php echo CONTACT_INFO['email']; ?>" class="text-gray-300 hover:text-white">
+        <?php echo CONTACT_INFO['email']; ?>
+      </a>
+    </div>
+  </div>
 
         <!-- Accreditation -->
         <div class="mt-8 p-4 bg-gray-800 rounded-lg glass-dark">

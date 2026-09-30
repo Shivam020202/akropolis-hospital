@@ -1,12 +1,18 @@
 <?php
 require_once 'includes/data.php';
 require_once 'includes/schema.php';
-$page_title = 'Best Multi-Specialty Hospital Gurugram | Akropolis';
-$meta_description = 'Akropolis Super Speciality Hospital - NABH accredited multi-specialty hospital in Gurugram, Haryana. Expert doctors, advanced technology, 24×7 emergency care. Book appointment now!';
+$page_title = 'Akropolis Super Speciality Hospital';
+$page_description = 'Akropolis Super Speciality Hospital in Gurugram offers NABH-accredited healthcare, 24/7 emergency services, expert doctors, advanced diagnostics and specialised care.';
 $canonical_url = '/';
 $schema_blocks = [
     schemaWebSite(),
-    schemaBreadcrumb([['name' => 'Home', 'url' => '/']]),
+    schemaWebPage(),
+    schemaEmergencyServices(),
+    schemaOPD(),
+    schemaLaboratory(),
+    schemaPharmacy(),
+    schemaRadiology(),
+    schemaDialysisCenter(),
 ];
 include 'includes/head.php';
 ?>
@@ -49,7 +55,7 @@ include 'includes/head.php';
 
           <!-- Subheadline -->
           <p class="text-xl lg:text-2xl text-gray-600 mb-8 leading-relaxed">
-            Get top-quality healthcare at Akropolis Hospital. We use the latest technology to care for you. Our expert doctors are here to help.
+            Akropolis Super Speciality Hospital provides NABH-accredited healthcare in Gurugram with expert doctors, advanced medical facilities, specialised services and 24/7 emergency care.
           </p>
 
           <!-- Key Features -->
@@ -107,8 +113,8 @@ include 'includes/head.php';
         <div class="relative hero-image">
           <div class="relative overflow-hidden rounded-3xl shadow-2xl img-zoom">
             <img
-              src="https://brandingpioneers.co.in/akropolis/hero-banner.webp"
-              alt="Modern Hospital Building"
+              src="/assets/images/homepage/akropolis-building-hero-banner.webp"
+              alt="Akropolis Super Speciality Hospital building in Gurugram"
               class="w-full h-[500px] lg:h-[600px] object-cover"
             />
             <div class="absolute inset-0 bg-gradient-to-t from-black/20 to-transparent"></div>
@@ -169,8 +175,8 @@ include 'includes/head.php';
         <div class="relative floating-card">
           <div class="relative overflow-hidden rounded-3xl shadow-2xl img-zoom">
             <img
-              src="https://brandingpioneers.co.in/akropolis/help-desk-img.webp"
-              alt="Modern Hospital Building"
+              src="/assets/images/homepage/akropolis-hospital-location-entrance.webp"
+              alt="Akropolis hospital main entrance"
               class="w-full h-[500px] object-cover"
             />
           </div>
@@ -222,12 +228,12 @@ include 'includes/head.php';
       <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
         <?php
         $featuredDepts = [
-            ['id' => 'cardiology', 'page' => 'cardiology.php', 'title' => 'Cardiology', 'description' => 'Advanced heart care with state-of-the-art cardiac procedures.', 'icon' => 'Heart', 'image' => 'https://brandingpioneers.co.in/akropolis/Cardiology.jpg'],
-            ['id' => 'neurology', 'page' => 'neurology.php', 'title' => 'Neurology', 'description' => 'Comprehensive brain and nervous system care.', 'icon' => 'Brain', 'image' => 'https://images.pexels.com/photos/3779448/pexels-photo-3779448.jpeg?auto=compress&cs=tinysrgb&w=800'],
-            ['id' => 'nephrology', 'page' => 'nephrology.php', 'title' => 'Nephrology', 'description' => 'Comprehensive kidney care and dialysis services.', 'icon' => 'Droplets', 'image' => 'https://brandingpioneers.co.in/akropolis/Nephrology.webp'],
-            ['id' => 'orthopedics', 'page' => 'orthopedics.php', 'title' => 'Orthopedics', 'description' => 'Expert bone, joint, and muscle care.', 'icon' => 'Bone', 'image' => 'https://brandingpioneers.co.in/akropolis/Orthopaedics.jpg'],
-            ['id' => 'pediatrics', 'page' => 'pediatrics.php', 'title' => 'Pediatrics', 'description' => 'Specialized care for newborns and children.', 'icon' => 'Baby', 'image' => 'https://brandingpioneers.co.in/akropolis/NICU & Pediatrics.webp'],
-            ['id' => 'oncology', 'page' => 'oncology.php', 'title' => 'Oncology', 'description' => 'Comprehensive cancer care and treatment.', 'icon' => 'Activity', 'image' => 'https://brandingpioneers.co.in/akropolis/Oncology.webp']
+            ['id' => 'cardiology', 'page' => 'cardiology.php', 'title' => 'Cardiology', 'description' => 'Advanced heart care with state-of-the-art cardiac procedures.', 'icon' => 'Heart', 'image' => '/assets/images/homepage/cardiology-department.webp'],
+            ['id' => 'neurology', 'page' => 'neurology.php', 'title' => 'Neurology', 'description' => 'Comprehensive brain and nervous system care.', 'icon' => 'Brain', 'image' => '/assets/images/homepage/neurology-department.webp'],
+            ['id' => 'nephrology', 'page' => 'nephrology.php', 'title' => 'Nephrology', 'description' => 'Comprehensive kidney care and dialysis services.', 'icon' => 'Droplets', 'image' => '/assets/images/homepage/nephrology-department.webp'],
+            ['id' => 'orthopedics', 'page' => 'orthopedics.php', 'title' => 'Orthopedics', 'description' => 'Expert bone, joint, and muscle care.', 'icon' => 'Bone', 'image' => '/assets/images/homepage/orthopedics-department.webp'],
+            ['id' => 'pediatrics', 'page' => 'pediatrics.php', 'title' => 'Pediatrics', 'description' => 'Specialized care for newborns and children.', 'icon' => 'Baby', 'image' => '/assets/images/homepage/pediatrics-department.webp'],
+            ['id' => 'oncology', 'page' => 'oncology.php', 'title' => 'Oncology', 'description' => 'Comprehensive cancer care and treatment.', 'icon' => 'Activity', 'image' => '/assets/images/homepage/oncology-department.webp']
         ];
 
         foreach ($featuredDepts as $dept):

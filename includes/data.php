@@ -5,7 +5,7 @@
 // Contact Information
 define('CONTACT_INFO', [
     'emergency' => '9100009744',
-    'phone' => '9100009733',
+    'phone' => '9100009744',
     'email' => 'Info@akropolishospital.com',
     'address' => 'Near Vatika Chowk, Opposite Chinar Garden, Sector 69, Gurugram, Haryana 122101',
     'mapUrl' => 'https://maps.google.com/embed?pb=!1m18!1m12!1m3!1d3503.8!2d77.307!3d28.569!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x0!2zMjjCsDM0JzA4LjQiTiA3N8KwMTgnMjUuMiJF!5e0!3m2!1sen!2sin!4v1000000000000!5m2!1sen!2sin'
@@ -254,7 +254,7 @@ $doctors = [
         'experience' => '11+ years',
         'yearsAsSpecialist' => '7 years as specialist',
         'opdTiming' => 'Mon-Sat: 9:00 AM - 5:00 PM',
-        'image' => 'https://brandingpioneers.co.in/akropolis/DR. ANU-NAGPAL.png',
+        'image' => '/assets/images/homepage/Dr Anu Nagpal.webp',
         'department' => 'Obstetrics & Gynaecology',
         'registrationVerified' => true,
         'description' => 'Dr. Anu Nagpal is a highly experienced Obstetrician and Gynecologist in Badshahpur, Gurgaon with 11 years of comprehensive experience in women\'s health care.'
@@ -267,7 +267,7 @@ $doctors = [
         'experience' => '12+ years',
         'yearsAsSpecialist' => '10+ years as specialist',
         'opdTiming' => 'Mon-Sat: 8:00 AM - 2:00 PM',
-        'image' => 'https://brandingpioneers.co.in/akropolis/DR. PRATEEK-GIROTRA.png',
+        'image' => '/assets/images/homepage/Dr Prateek Girotra.webp',
         'department' => 'Orthopedics',
         'registrationVerified' => true,
         'description' => 'Dr. Prateek Girotra is a highly skilled Orthopaedic Surgeon specializing in Trauma, Joint Replacement, and Arthroscopy.'
@@ -280,7 +280,7 @@ $doctors = [
         'experience' => '12+ years',
         'yearsAsSpecialist' => '2 years as specialist',
         'opdTiming' => 'Mon-Fri: 10:00 AM - 4:00 PM',
-        'image' => 'https://brandingpioneers.co.in/akropolis/DR. RAHUL-JAIN.png',
+        'image' => '/assets/images/homepage/Dr Rahul Jain.webp',
         'department' => 'Plastic Surgery',
         'registrationVerified' => true,
         'description' => 'Dr. Rahul Jain is a dedicated Plastic and Reconstructive Surgeon with over 12 years of experience.'
@@ -292,7 +292,7 @@ $doctors = [
         'qualification' => 'MBBS, MS (Orthopaedics)',
         'experience' => '8+ years',
         'opdTiming' => 'Mon-Sat: 9:00 AM - 3:00 PM',
-        'image' => 'https://brandingpioneers.co.in/akropolis/DR. NARESH-KUMAR.png',
+        'image' => '/assets/images/homepage/Dr Naresh Kumar.webp',
         'department' => 'Orthopedics',
         'registrationVerified' => true,
         'description' => 'Dr. Naresh Kumar is a skilled Orthopaedic Surgeon with over 8 years of experience in treating a wide range of musculoskeletal conditions.'
@@ -305,7 +305,7 @@ $doctors = [
         'experience' => '8+ years',
         'yearsAsSpecialist' => '2 years as specialist',
         'opdTiming' => 'Mon-Fri: 9:00 AM - 5:00 PM',
-        'image' => 'https://brandingpioneers.co.in/akropolis/DR. ANKIT-GARG.png',
+        'image' => '/assets/images/homepage/Dr Ankit Garg.webp',
         'department' => 'Internal Medicine',
         'registrationVerified' => true,
         'description' => 'Dr. Ankit Garg is a skilled Internal Medicine Physician with expertise in diagnosing and treating complex medical conditions.'
@@ -318,7 +318,7 @@ $doctors = [
         'experience' => '50+ years',
         'yearsAsSpecialist' => '45+ years as specialist',
         'opdTiming' => 'Mon-Sat: 10:00 AM - 4:00 PM',
-        'image' => 'https://brandingpioneers.co.in/akropolis/Dr. Subhash-Chandra.png',
+        'image' => '/assets/images/homepage/Dr Subhash Chandra Chanana.webp',
         'department' => 'General & Oncology Surgery',
         'registrationVerified' => true,
         'description' => 'Dr. Subhash Chandra Chanana is a highly distinguished General and Oncological Surgeon with over five decades of medical experience.'
@@ -331,7 +331,7 @@ $doctors = [
         'experience' => '14+ years',
         'yearsAsSpecialist' => '5+ years as specialist',
         'opdTiming' => 'Mon-Sat: 9:00 AM - 5:00 PM',
-        'image' => 'https://brandingpioneers.co.in/akropolis/Jona-Manohar-Garikana.png',
+        'image' => '/assets/images/homepage/Dr. Jona Manohar Garikana.webp',
         'department' => 'Internal Medicine',
         'registrationVerified' => true,
         'description' => 'Dr. Jona Manohar Garikana is an accomplished Internal Medicine Physician with extensive international training and research experience.'
@@ -343,7 +343,7 @@ $doctors = [
         'qualification' => 'MBBS, DCH (Paediatrics), SEC DNB (Paediatrics)',
         'experience' => '12+ years',
         'opdTiming' => 'Mon-Sat: 10:00 AM - 6:00 PM',
-        'image' => 'https://brandingpioneers.co.in/akropolis/dr-madan-lal.webp',
+        'image' => '/assets/images/homepage/Dr Madan Lal.webp',
         'department' => 'Pediatrics',
         'registrationVerified' => true,
         'description' => 'Dr. Madan Lal is a highly dedicated and experienced Pediatrician with over 12 years of expertise in child healthcare.'
@@ -352,26 +352,26 @@ $doctors = [
 
 // Insurance Partner Logos
 $insuranceLogos = [
-    ['name' => 'Acko Health Insurance', 'logo' => 'https://brandingpioneers.co.in/akropolis/Acko-Health-Insurance.png'],
-    ['name' => 'Aditya Birla', 'logo' => 'https://brandingpioneers.co.in/akropolis/Aditya-Birla.png'],
-    ['name' => 'Bajaj Allianz General Insurance', 'logo' => 'https://brandingpioneers.co.in/akropolis/Bajaj-Allianz-General-Insurance-Co. Ltd.png'],
-    ['name' => 'Care Health Insurance', 'logo' => 'https://brandingpioneers.co.in/akropolis/Car-Health-Insurance.png'],
-    ['name' => 'Cholamandalam MS', 'logo' => 'https://brandingpioneers.co.in/akropolis/Cholamandalam \'.png'],
-    ['name' => 'Ericson', 'logo' => 'https://brandingpioneers.co.in/akropolis/Ericson-TPA.png'],
-    ['name' => 'GIPSA', 'logo' => 'https://brandingpioneers.co.in/akropolis/GIPSA.png'],
-    ['name' => 'Genins', 'logo' => 'https://brandingpioneers.co.in/akropolis/Genins-TPA.png'],
-    ['name' => 'Future-Generali', 'logo' => 'https://brandingpioneers.co.in/akropolis/Future-Generali.png'],
-    ['name' => 'FHP', 'logo' => 'https://brandingpioneers.co.in/akropolis/FHP- TPA.png'],
-    ['name' => 'Go-Digit', 'logo' => 'https://brandingpioneers.co.in/akropolis/Go-Digit.png'],
-    ['name' => 'Good-Health-Plan-Ltd', 'logo' => 'https://brandingpioneers.co.in/akropolis/Good-Health-Plan-Ltd.png'],
-    ['name' => 'Health-India-TPA', 'logo' => 'https://brandingpioneers.co.in/akropolis/Health-India-TPA.png'],
-    ['name' => 'Heritage-Health-TPA', 'logo' => 'https://brandingpioneers.co.in/akropolis/Heritage-Health-TPA.png'],
-    ['name' => 'IFFCO-Tokio-General-Insurance Co. Ltd', 'logo' => 'https://brandingpioneers.co.in/akropolis/IFFCO-Tokio-General-Insurance Co. Ltd.png'],
-    ['name' => 'NATIONAL-INSURANCE-COMPANY', 'logo' => 'https://brandingpioneers.co.in/akropolis/NATIONAL-INSURANCE-COMPANY.png'],
-    ['name' => 'Medsave-TPA', 'logo' => 'https://brandingpioneers.co.in/akropolis/Medsave-TPA.png'],
-    ['name' => 'Mediassist-TPA- Pvt-Insurance', 'logo' => 'https://brandingpioneers.co.in/akropolis/Mediassist-TPA- Pvt-Insurance.png'],
-    ['name' => 'MD-India', 'logo' => 'https://brandingpioneers.co.in/akropolis/MD-India.png'],
-    ['name' => 'LIBERTY-GENERA- INSURANCE', 'logo' => 'https://brandingpioneers.co.in/akropolis/LIBERTY-GENERA- INSURANCE.png']
+    ['name' => 'Acko Health Insurance', 'logo' => '/assets/images/homepage/Acko Health Insurance logo.png'],
+    ['name' => 'Aditya Birla', 'logo' => '/assets/images/homepage/Aditya Birla logo.png'],
+    ['name' => 'Bajaj Allianz General Insurance', 'logo' => '/assets/images/homepage/Bajaj Allianz General Insurance logo.png'],
+    ['name' => 'Care Health Insurance', 'logo' => '/assets/images/homepage/care_health_insurance_logo.png'],
+    ['name' => 'Cholamandalam MS', 'logo' => '/assets/images/homepage/Cholamandalam MS logo.png'],
+    ['name' => 'Ericson', 'logo' => '/assets/images/homepage/Ericson Insurance TPA logo.png'],
+    ['name' => 'GIPSA', 'logo' => '/assets/images/homepage/gipsa logo.png'],
+    ['name' => 'Genins', 'logo' => '/assets/images/homepage/Genins India Insurance TPA logo.png'],
+    ['name' => 'Generali Central Life Insurance', 'logo' => '/assets/images/homepage/Generali Central Insurance logo.png'],
+    ['name' => 'FHP', 'logo' => '/assets/images/homepage/Family-Health-Plan-Insurance-TPA-Limited logo.png'],
+    ['name' => 'Go-Digit', 'logo' => '/assets/images/homepage/Go-Digit logo.png'],
+    ['name' => 'Good-Health-Plan-Ltd', 'logo' => '/assets/images/homepage/Good-Health-Plan-Ltd logo.png'],
+    ['name' => 'Health-India-TPA', 'logo' => '/assets/images/homepage/Health-India-TPA logo.jpg'],
+    ['name' => 'Heritage-Health-TPA', 'logo' => '/assets/images/homepage/Heritage-Health-TPA logo.png'],
+    ['name' => 'IFFCO-Tokio-General-Insurance Co. Ltd', 'logo' => '/assets/images/homepage/IFFCO-Tokio-General-Insurance Co. Ltd logo.jpg'],
+    ['name' => 'NATIONAL-INSURANCE-COMPANY', 'logo' => '/assets/images/homepage/NATIONAL-INSURANCE-COMPANY logo.jpeg'],
+    ['name' => 'Medsave-TPA', 'logo' => '/assets/images/homepage/Medsave-TPA logo.webp'],
+    ['name' => 'Mediassist-TPA- Pvt-Insurance', 'logo' => '/assets/images/homepage/Mediassist-TPA-Pvt-Insurance logo.png'],
+    ['name' => 'MD-India', 'logo' => '/assets/images/homepage/MD-India logo.png'],
+    ['name' => 'LIBERTY-GENERA- INSURANCE', 'logo' => '/assets/images/homepage/Logo_Liberty_Insurance.png']
 ];
 
 // Icon SVG Map
