@@ -204,47 +204,92 @@ function initDepartmentSlider() {
 // DOCTORS SLIDER
 // =========================================
 function initDoctorsSlider() {
-  const slider = document.querySelector('.doctors-slider');
-  if (!slider) return;
+  const section = document.querySelector('#doctors');
+  if (!section) return;
 
-  const cards = slider.querySelectorAll('.doctor-card');
-  const prevBtn = slider.querySelector('.doctors-prev');
-  const nextBtn = slider.querySelector('.doctors-next');
-  const indicators = slider.querySelectorAll('.doctor-indicator');
+  const slider = section.querySelector('.doctors-slider');
+  const track = section.querySelector('.doctors-track');
+  const cards = section.querySelectorAll('.doctor-card-wrapper');
+  const prevBtn = section.querySelector('.doctors-prev');
+  const nextBtn = section.querySelector('.doctors-next');
+  const indicators = section.querySelectorAll('.doctor-indicator');
+
+  if (!slider || !track || cards.length === 0) return;
 
   let currentSlide = 0;
-  const cardsPerSlide = window.innerWidth >= 1024 ? 3 : window.innerWidth >= 768 ? 2 : 1;
-  const maxSlide = Math.ceil(cards.length / cardsPerSlide) - 1;
+
+  function getCardsPerSlide() {
+    if (window.innerWidth >= 1024) return 3;
+    if (window.innerWidth >= 768) return 2;
+    return 1;
+  }
+
+  function getMaxSlide() {
+    const cardsPerSlide = getCardsPerSlide();
+    return Math.max(0, Math.ceil(cards.length / cardsPerSlide) - 1);
+  }
 
   function updateSlider() {
-    const slideWidth = 100 / cardsPerSlide;
-    slider.querySelector('.doctors-track').style.transform = `translateX(-${currentSlide * slideWidth}%)`;
+    const maxSlide = getMaxSlide();
 
-    indicators.forEach((ind, i) => {
-      ind.classList.toggle('active', i === currentSlide);
+    if (currentSlide > maxSlide) {
+      currentSlide = maxSlide;
+    }
+
+    const slideWidth = slider.clientWidth;
+
+    track.style.transform = `translateX(-${currentSlide * slideWidth}px)`;
+
+    indicators.forEach((indicator, index) => {
+      indicator.classList.toggle('active', index === currentSlide);
+
+      if (index === currentSlide) {
+        indicator.classList.add('bg-[#328CCB]', 'w-8');
+        indicator.classList.remove('bg-gray-200', 'w-3');
+      } else {
+        indicator.classList.remove('bg-[#328CCB]', 'w-8');
+        indicator.classList.add('bg-gray-200', 'w-3');
+      }
     });
   }
 
   if (prevBtn) {
-    prevBtn.addEventListener('click', () => {
-      currentSlide = currentSlide > 0 ? currentSlide - 1 : maxSlide;
+    prevBtn.addEventListener('click', function () {
+      const maxSlide = getMaxSlide();
+
+      currentSlide = currentSlide > 0
+        ? currentSlide - 1
+        : maxSlide;
+
       updateSlider();
     });
   }
 
   if (nextBtn) {
-    nextBtn.addEventListener('click', () => {
-      currentSlide = currentSlide < maxSlide ? currentSlide + 1 : 0;
+    nextBtn.addEventListener('click', function () {
+      const maxSlide = getMaxSlide();
+
+      currentSlide = currentSlide < maxSlide
+        ? currentSlide + 1
+        : 0;
+
       updateSlider();
     });
   }
 
-  indicators.forEach((ind, i) => {
-    ind.addEventListener('click', () => {
-      currentSlide = i;
+  indicators.forEach((indicator, index) => {
+    indicator.addEventListener('click', function () {
+      const maxSlide = getMaxSlide();
+
+      currentSlide = Math.min(index, maxSlide);
+
       updateSlider();
     });
   });
+
+  window.addEventListener('resize', updateSlider);
+
+  updateSlider();
 }
 
 // =========================================

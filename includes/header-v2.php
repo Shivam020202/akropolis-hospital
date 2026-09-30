@@ -9,7 +9,7 @@
       <div class="flex items-center space-x-3 h-full">
         <a href="/" class="nav-link flex items-center h-full" data-page="home">
           <img
-             src="/assets/images/homepage/akropolis-header-logo.webp"
+             src="/assets/images/homepage/akropolis-header-logo.png"
              alt="Akropolis Hospital Logo"
             class="h-12 lg:h-16 w-auto"
           />
