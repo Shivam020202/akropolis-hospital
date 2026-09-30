@@ -494,7 +494,7 @@ include 'includes/head.php';
           </div>
           <h3 class="text-4xl lg:text-5xl font-bold text-gray-900">Latest from <span class="text-[#328CCB]">Our Blog</span></h3>
         </div>
-        <a href="/" class="text-[#328CCB] font-bold flex items-center space-x-2 hover:translate-x-2 transition-transform mt-6 md:mt-0">
+        <a href="/blog/" class="text-[#328CCB] font-bold flex items-center space-x-2 hover:translate-x-2 transition-transform mt-6 md:mt-0">
           <span>Read All Articles</span>
           <?php echo getIcon('ArrowRight', 'h-5 w-5'); ?>
         </a>
@@ -530,7 +530,7 @@ include 'includes/head.php';
               <p class="text-gray-600 text-sm mb-6 line-clamp-2">
                 <?php echo $post['excerpt']; ?>
               </p>
-              <a href="/" class="inline-flex items-center space-x-2 text-[#D66C43] font-bold hover:text-[#c55a36] transition-colors">
+              <a href="/blog/en/<?php echo $post['id']; ?>" class="inline-flex items-center space-x-2 text-[#D66C43] font-bold hover:text-[#c55a36] transition-colors">
                 <span>Read More</span>
                 <?php echo getIcon('ArrowRight', 'h-4 w-4'); ?>
               </a>

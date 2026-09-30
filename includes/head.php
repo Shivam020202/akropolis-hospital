@@ -3,9 +3,7 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="google-site-verification" content="kg93KBDXRUW22RCSQGBlsAUWoVAZ2WXvDfnzhT7rzxE" />
-  <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
-  <link rel="shortcut icon" href="/favicon.svg" />
-  <link rel="icon" type="image/x-icon" href="/favicon.svg" />
+  <link rel="icon" type="image/png" href="/assets/images/homepage/akropolis-favicon.png" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <meta name="robots" content="<?php echo $page_robots ?? 'index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1'; ?>" />
   <meta name="author" content="<?php echo $page_author ?? 'Akropolis Super Speciality Hospital'; ?>" />
