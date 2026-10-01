@@ -1044,18 +1044,402 @@ $blogs = [
 ',
 ],
     [
-        'slug'         => 'knee-replacement-recovery',
-        'title'        => 'Knee Replacement Recovery: What to Expect in the First 90 Days',
-        'excerpt'      => 'A realistic timeline and expert advice for a smooth recovery after total knee replacement surgery.',
-        'content'      => '<p>Recovery from knee replacement surgery is a journey that requires patience and dedication...</p>',
-        'image'        => 'https://images.pexels.com/photos/7659564/pexels-photo-7659564.jpeg?auto=compress&cs=tinysrgb&w=800',
-        'author'       => 'Dr. Amit Verma',
-        'category'     => 'Orthopedics',
-        'tags'         => ['Joint Replacement', 'Recovery', 'Surgery'],
-        'read_time'    => '7 min read',
-        'published_at' => '2026-05-22',
-        'status'       => 'published',
+    'slug'         => 'knee-replacement-recovery',
+    'title'        => 'Knee Replacement Recovery: What to Expect in the First 90 Days',
+    'excerpt'      => 'Learn what to expect during knee replacement recovery from the first few days through 90 days, including walking, physiotherapy, swelling, pain, driving, work, and warning signs.',
+    'image'        => '\assets\images\blog\English\knee-replacement-recovery.webp',
+    'author'       => 'Dr Naresh Kumar',
+    'category'     => 'Orthopedics',
+    'tags'         => [
+        'knee replacement',
+        'knee replacement recovery',
+        'knee surgery recovery',
+        'orthopedic surgery',
+        'physiotherapy',
+        'joint replacement'
     ],
+    'read_time'    => '10 min read',
+    'published_at' => '2026-10-01',
+    'status'       => 'published',
+
+    'faqs' => [
+        [
+            'question' => 'How long does it take to recover from knee replacement surgery?',
+            'answer'   => 'Many patients make substantial progress during the first 6 to 12 weeks, but complete recovery can take several months or longer. Recovery speed varies depending on overall health, strength, rehabilitation, the type of surgery, and other individual factors.'
+        ],
+        [
+            'question' => 'When can I walk normally after knee replacement?',
+            'answer'   => 'Walking usually begins early with an appropriate walking aid. Some patients gradually move from a walker to a cane and then to independent walking over the following weeks. The timing depends on strength, balance, pain, and individual recovery progress.'
+        ],
+        [
+            'question' => 'When can I drive after knee replacement?',
+            'answer'   => 'Driving should resume only after your healthcare team confirms that you are safe to drive. NHS guidance advises waiting at least 6 weeks after total knee replacement and checking with your doctor before driving.'
+        ],
+        [
+            'question' => 'Is swelling normal 6 weeks after knee replacement?',
+            'answer'   => 'Some swelling can still occur around 6 weeks after knee replacement, particularly after increased activity. However, sudden or rapidly increasing swelling, worsening pain, redness, warmth, wound drainage, or other new symptoms should be discussed promptly with your medical team.'
+        ],
+        [
+            'question' => 'How important is physiotherapy after knee replacement?',
+            'answer'   => 'Physiotherapy is an important part of recovery. It helps improve knee movement, muscle strength, walking ability, balance, and daily function. The rehabilitation plan should be personalized by your orthopedic and physiotherapy team.'
+        ],
+        [
+            'question' => 'What should I expect by 90 days after knee replacement?',
+            'answer'   => 'Many patients have improved mobility, strength, independence, and daily function by 90 days. Some stiffness, swelling, weakness, or an unfamiliar feeling in the knee may remain, and recovery can continue for several more months.'
+        ]
+    ],
+
+    'content' => '<div class="space-y-6">
+
+  <div class="rounded-2xl border border-[#328CCB]/20 bg-[#328CCB]/5 p-6 shadow-sm">
+    <h2 class="!mt-0 !border-0 !pb-0 !mb-3 !text-2xl">Quick Answer</h2>
+    <p class="!mb-0">Knee replacement recovery is a gradual process that usually continues for several months. During the first 90 days, most patients progress from assisted walking and swelling control to greater independence, improved knee movement, stronger leg muscles, and a return to many everyday activities. However, recovery speed varies from person to person. Your age, general health, strength before surgery, type of procedure, pain control, rehabilitation plan, and other medical conditions can all affect the timeline.</p>
+  </div>
+
+  <p>Knee replacement surgery can help people with severe knee damage regain mobility and reduce pain, but the operation is only one part of the recovery process. Rehabilitation, safe movement, wound care, pain management, and regular follow-up all contribute to recovery after surgery.</p>
+
+  <p>Many patients want to know exactly what will happen after the operation. When will they walk without a walker? How long will swelling last? When can they drive? When can they return to work? What should feel normal during the first three months?</p>
+
+  <p>This guide explains what you may expect during the first 90 days after total knee replacement. The timeline is a general guide, not a fixed schedule. Always follow the instructions given by your orthopedic surgeon and physiotherapy team.</p>
+
+  <h2>What Is Knee Replacement Recovery?</h2>
+
+  <p>Knee replacement recovery is the period after surgery when the body heals and the muscles, joint movement, balance, and walking ability gradually improve. Recovery usually begins in the hospital and continues at home with a structured rehabilitation program.</p>
+
+  <p>Modern knee replacement programs often encourage patients to begin safe movement soon after surgery. Physical therapists may help patients sit, stand, transfer, and walk with an appropriate walking aid once they are medically stable. Early movement also forms an important part of preventing complications related to prolonged inactivity.</p>
+
+  <div class="rounded-2xl border-l-4 border-[#D66C43] bg-orange-50 p-6 shadow-sm">
+    <h3 class="!mt-0 !pl-0 !border-0">Important</h3>
+    <p class="!mb-0">There is no single recovery timeline that applies to every patient. A person who walks independently at four weeks may have a completely normal recovery, while another person may need a walking aid for longer. Your own progress should be assessed against your surgical and rehabilitation plan rather than another patient.</p>
+  </div>
+
+  <h2>Knee Replacement Recovery Timeline: First 90 Days</h2>
+
+  <p>The first 90 days can be divided into several broad phases. These milestones are general expectations and can vary considerably between patients.</p>
+
+  <table>
+    <thead>
+      <tr>
+        <th>Recovery phase</th>
+        <th>What you may experience</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td>Day 1 to 3</td>
+        <td>Assisted walking, pain and swelling management, basic exercises, wound monitoring, and learning safe transfers.</td>
+      </tr>
+      <tr>
+        <td>Week 1 to 2</td>
+        <td>Recovery at home, continued physiotherapy, swelling control, wound care, short walks, and gradual improvement in movement.</td>
+      </tr>
+      <tr>
+        <td>Week 3 to 6</td>
+        <td>Increasing walking distance, improving strength and knee movement, and possible transition from a walker to a cane when safe.</td>
+      </tr>
+      <tr>
+        <td>Week 7 to 12</td>
+        <td>Greater independence, progressive strengthening, improved daily activities, and gradual return to suitable low-impact exercise.</td>
+      </tr>
+    </tbody>
+  </table>
+
+  <h2>Days 1 to 3: The Early Hospital Recovery</h2>
+
+  <p>The first few days after knee replacement are focused on safe mobility, pain control, wound monitoring, and beginning rehabilitation.</p>
+
+  <p>Once medically stable, many patients are helped out of bed and encouraged to walk with a walker or another suitable walking aid. A physiotherapist may teach basic movements and exercises designed to maintain circulation, improve knee movement, and begin rebuilding strength.</p>
+
+  <h3>What may happen during this stage?</h3>
+
+  <ul>
+    <li>Getting out of bed with assistance</li>
+    <li>Walking short distances with a walker or other prescribed aid</li>
+    <li>Learning how to sit, stand, and use the bathroom safely</li>
+    <li>Beginning prescribed knee and ankle exercises</li>
+    <li>Managing pain with medicines recommended by the medical team</li>
+    <li>Monitoring the surgical wound and swelling</li>
+    <li>Learning how to continue exercises after discharge</li>
+  </ul>
+
+  <p>Hospital discharge depends on factors such as mobility, pain control, medical stability, wound condition, and the ability to manage safely at home. Some patients go home within a short period, while others require a longer hospital stay.</p>
+
+  <h2>Week 1 to 2: Managing Pain, Swelling and Wound Care</h2>
+
+  <p>The first two weeks at home can be challenging. Pain, stiffness, tiredness, and swelling are common during this stage. The knee may feel warm or uncomfortable after activity, and swelling can increase after exercises or longer periods on your feet.</p>
+
+  <p>Elevation, appropriate cold therapy, prescribed medicines, rest periods, and the exercises recommended by your healthcare team can help manage symptoms. Cold packs should be protected with a cloth or other suitable barrier rather than placed directly on the skin.</p>
+
+  <h3>Walking during the first two weeks</h3>
+
+  <p>Walking should usually be short, controlled, and regular rather than focused on covering a long distance. Your walking aid should be used until your healthcare team considers it safe to progress.</p>
+
+  <p>Do not stop using a walker or cane simply because you want to recover faster. An unsafe walking pattern can increase the risk of falls and place unnecessary stress on the recovering knee.</p>
+
+  <h3>Physiotherapy during this stage</h3>
+
+  <p>Physiotherapy focuses on safe movement, knee range of motion, muscle activation, walking technique, and gradual strengthening. Your physiotherapist may adjust the exercises according to swelling, pain, strength, and knee movement.</p>
+
+  <div class="rounded-2xl border border-gray-200 bg-gray-50 p-6 shadow-sm">
+    <h3 class="!mt-0 !pl-0 !border-0">Recovery Tip</h3>
+    <p class="!mb-0">Do not judge your recovery by how you feel on one particular day. Recovery often has good days and difficult days. A gradual overall improvement is more useful than expecting every day to feel better than the previous day.</p>
+  </div>
+
+  <h2>Weeks 3 to 6: Building Strength and Mobility</h2>
+
+  <p>During weeks three to six, many patients begin to notice meaningful improvements in walking, confidence, and daily activities. The amount of assistance needed may decrease as the muscles around the knee become stronger.</p>
+
+  <p>Some patients gradually move from a walker to a cane and later to independent walking. The timing depends on strength, balance, pain, knee movement, and the advice of the rehabilitation team.</p>
+
+  <h3>What may improve during weeks 3 to 6?</h3>
+
+  <ul>
+    <li>Walking for longer periods</li>
+    <li>Getting in and out of a chair more easily</li>
+    <li>Improved ability to use stairs</li>
+    <li>Better knee bending and straightening</li>
+    <li>Improved quadriceps and leg strength</li>
+    <li>Greater independence with personal activities</li>
+    <li>Reduced dependence on pain medicines for some patients</li>
+  </ul>
+
+  <p>Swelling can still be present at this stage. It may become more noticeable after increased activity and can take considerably longer than six weeks to completely settle.</p>
+
+  <h2>Weeks 7 to 12: Returning to More Normal Daily Activities</h2>
+
+  <p>By weeks seven to twelve, many patients can perform more daily activities with less assistance. Physical therapy may progress toward strengthening, balance, endurance, and movement patterns that are relevant to everyday life.</p>
+
+  <p>Low-impact activities may be introduced when your orthopedic surgeon or physiotherapist considers them appropriate. Examples can include walking, stationary cycling, and other exercises selected according to your individual recovery.</p>
+
+  <p>Some patients return to desk-based work during this general period, while physically demanding work may require more time. Your return-to-work plan should consider your job duties rather than relying only on the number of weeks since surgery.</p>
+
+  <h2>What Should Your Knee Feel Like at 90 Days?</h2>
+
+  <p>At 90 days, many patients have made substantial progress, but the knee may not feel completely normal. Mild stiffness, tightness, or occasional swelling can still occur, especially after increased activity.</p>
+
+  <p>The goal of the first three months is not necessarily to make the knee feel identical to a natural knee. Instead, recovery focuses on reducing pain, improving mobility, restoring strength, improving function, and helping you return to appropriate daily activities.</p>
+
+  <p>HSS notes that many patients are significantly improved by around three months, while full strength and mobility can continue to develop for longer. Some people continue to notice gradual improvement for six months or more.</p>
+
+  <h2>Pain and Swelling After Knee Replacement</h2>
+
+  <p>Pain and swelling are expected after surgery, particularly during the early weeks. Symptoms should generally become more manageable as healing progresses, although activity can temporarily increase swelling.</p>
+
+  <h3>Ways that may help manage swelling</h3>
+
+  <ul>
+    <li>Follow the activity and rest plan provided by your care team</li>
+    <li>Elevate the leg when advised</li>
+    <li>Use cold therapy according to your medical teams instructions</li>
+    <li>Complete prescribed exercises without overexerting yourself</li>
+    <li>Avoid prolonged standing when your knee is still highly swollen</li>
+    <li>Increase activity gradually rather than making sudden increases</li>
+  </ul>
+
+  <div class="rounded-2xl border-l-4 border-[#D66C43] bg-orange-50 p-6 shadow-sm">
+    <h3 class="!mt-0 !pl-0 !border-0">When Swelling Needs Attention</h3>
+    <p class="!mb-0">A sudden increase in swelling, worsening pain, increasing redness or warmth around the wound, drainage from the incision, fever, or other new symptoms should be discussed promptly with your surgical team.</p>
+  </div>
+
+  <h2>When Can You Drive After Knee Replacement?</h2>
+
+  <p>Driving should not be based on a fixed number of days alone. Your ability to drive depends on the operated knee, reaction time, strength, pain, mobility, medicines, and the advice of your healthcare team.</p>
+
+  <p>NHS guidance advises waiting at least six weeks after total knee replacement before driving and checking with your doctor that you are fit to drive. You also need to be able to control the vehicle safely, including braking when required.</p>
+
+  <p>You should not drive while taking medicines that impair alertness or reaction time. You also need to be able to control the vehicle safely, including braking when required.</p>
+
+  <h2>When Can You Return to Work?</h2>
+
+  <p>Return to work varies according to the type of work you do and the progress of your recovery.</p>
+
+  <table>
+    <thead>
+      <tr>
+        <th>Type of work</th>
+        <th>What may affect return to work</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td>Desk-based work</td>
+        <td>Ability to sit comfortably, travel safely, manage breaks, and control pain and swelling.</td>
+      </tr>
+      <tr>
+        <td>Light physical work</td>
+        <td>Walking tolerance, balance, strength, and the amount of standing required.</td>
+      </tr>
+      <tr>
+        <td>Heavy physical work</td>
+        <td>Lifting, climbing, prolonged standing, squatting, and other demanding movements may require a longer recovery period.</td>
+      </tr>
+    </tbody>
+  </table>
+
+  <p>NHS guidance notes that return to work commonly occurs around 6 to 12 weeks, but the appropriate timing depends on the type of work and individual recovery.</p>
+
+  <h2>Physiotherapy After Knee Replacement: Why It Matters</h2>
+
+  <p>Physiotherapy is an important part of knee replacement rehabilitation. The program generally progresses from basic mobility and range-of-motion exercises toward strengthening, balance, walking, and functional activities.</p>
+
+  <p>The exact exercises should come from your physiotherapist or orthopedic team. A rehabilitation plan needs to account for the surgical procedure, your strength, pain, movement, medical conditions, and recovery progress.</p>
+
+  <h3>Common rehabilitation goals</h3>
+
+  <ul>
+    <li>Improve knee bending and straightening</li>
+    <li>Restore quadriceps and surrounding muscle strength</li>
+    <li>Improve walking technique</li>
+    <li>Improve balance and confidence</li>
+    <li>Increase endurance gradually</li>
+    <li>Return to safe daily activities</li>
+  </ul>
+
+  <p>HSS describes physical therapy as a key component of recovery and notes that the duration of therapy varies between patients. Some people stop supervised therapy after several weeks, while others continue for several months depending on their progress.</p>
+
+  <h2>What to Do and What to Avoid During the First 90 Days</h2>
+
+  <h3>What to do</h3>
+
+  <ul>
+    <li>Follow your orthopedic surgeons instructions</li>
+    <li>Attend recommended follow-up appointments</li>
+    <li>Complete prescribed rehabilitation exercises</li>
+    <li>Use your walking aid until you are safe to progress</li>
+    <li>Increase activity gradually</li>
+    <li>Keep the home environment free of fall hazards</li>
+    <li>Take prescribed medicines according to your treatment plan</li>
+    <li>Maintain a balanced diet and adequate hydration unless your doctor has given different instructions</li>
+  </ul>
+
+  <h3>What to avoid</h3>
+
+  <ul>
+    <li>Do not rush to stop using your walking aid</li>
+    <li>Do not suddenly increase walking distance or exercise intensity</li>
+    <li>Do not return to driving without medical clearance</li>
+    <li>Do not ignore increasing pain or swelling</li>
+    <li>Do not perform high-impact activities unless your orthopedic team has approved them</li>
+    <li>Do not change your medicines without discussing the change with your doctor</li>
+  </ul>
+
+  <h2>How to Make Your Home Safer After Knee Replacement</h2>
+
+  <p>Falls can be particularly concerning during the early recovery period. Preparing the home before surgery can make daily activities easier and safer after discharge.</p>
+
+  <ul>
+    <li>Remove loose rugs and floor obstacles</li>
+    <li>Keep frequently used items within easy reach</li>
+    <li>Improve lighting in hallways and stairways</li>
+    <li>Use suitable bathroom support if recommended</li>
+    <li>Keep floors dry and free from clutter</li>
+    <li>Arrange a stable chair with suitable height</li>
+    <li>Keep walking aids within easy reach</li>
+  </ul>
+
+  <h2>Warning Signs After Knee Replacement</h2>
+
+  <p>Most postoperative symptoms can be managed as part of normal recovery, but certain symptoms require prompt medical attention.</p>
+
+  <h3>Contact your medical team promptly if you notice</h3>
+
+  <ul>
+    <li>Increasing redness or warmth around the incision</li>
+    <li>New or increasing drainage from the wound</li>
+    <li>Fever or chills</li>
+    <li>Sudden or worsening knee pain</li>
+    <li>Rapidly increasing swelling</li>
+    <li>New calf pain, tenderness, warmth, redness, or swelling</li>
+  </ul>
+
+  <p>The CDC lists swelling, pain or tenderness, warmth, and redness or discoloration as possible signs of deep vein thrombosis. Symptoms such as sudden difficulty breathing, chest pain, coughing up blood, lightheadedness, or fainting can indicate a pulmonary embolism and require immediate medical attention.</p>
+
+  <div class="rounded-2xl border border-red-200 bg-red-50 p-6 shadow-sm">
+    <h3 class="!mt-0 !pl-0 !border-0 !text-red-800">Seek Emergency Medical Care</h3>
+    <p class="!mb-0">Sudden difficulty breathing, chest pain, coughing up blood, fainting, or severe new symptoms after surgery require urgent medical evaluation. Do not wait for a routine follow-up appointment.</p>
+  </div>
+
+  <h2>What Can You Reasonably Expect by Day 90?</h2>
+
+  <p>The 90-day milestone is useful for assessing progress, but it is not a deadline for complete recovery.</p>
+
+  <p>By this stage, many patients have improved walking ability, greater independence, stronger leg muscles, better knee movement, and less pain compared with the early postoperative period. Some can return to suitable low-impact activities and many can manage a broad range of everyday tasks.</p>
+
+  <p>However, some swelling, stiffness, weakness, or an unfamiliar feeling in the replaced knee can remain. Recovery can continue beyond 90 days, and HSS notes that full strength and mobility may take six months or more in some patients.</p>
+
+  <h2>What Factors Can Affect Knee Replacement Recovery?</h2>
+
+  <p>Recovery is influenced by several factors. These can include:</p>
+
+  <ul>
+    <li>Age and overall health</li>
+    <li>Strength and mobility before surgery</li>
+    <li>Weight and general fitness</li>
+    <li>Other medical conditions</li>
+    <li>Type of knee replacement procedure</li>
+    <li>Pain control</li>
+    <li>Quality and consistency of rehabilitation</li>
+    <li>Home support and ability to follow postoperative instructions</li>
+  </ul>
+
+  <p>This is why comparing your recovery directly with another patients recovery can be misleading. A personalized assessment by your orthopedic team is more useful than a rigid week-by-week expectation.</p>
+
+  <div class="my-10 rounded-2xl bg-gradient-to-r from-[#328CCB] to-[#2a7bb5] p-8 text-center text-white shadow-xl">
+    <h3 class="!mt-0 !mb-3 !border-0 !pl-0 !text-white">Need Guidance After Knee Replacement?</h3>
+    <p class="!mb-6 !text-white">If you are planning knee replacement surgery or have questions about recovery, mobility, rehabilitation, or postoperative care, discuss your situation with an orthopedic specialist.</p>
+    <a href="/orthopedics" class="article-cta inline-block rounded-full bg-[#D66C43] px-8 py-3 font-bold no-underline transition-all hover:bg-[#c55a36]" style="color:#ffffff !important; text-decoration:none !important;">Explore Orthopedic Care</a>
+  </div>
+
+  <h2>Conclusion</h2>
+
+  <p>Knee replacement recovery is a gradual process rather than a single event. The first few days focus on safe mobility and pain management, the first several weeks focus on healing and rebuilding movement, and weeks 7 to 12 often bring greater independence and a return to more everyday activities.</p>
+
+  <p>Some patients progress quickly while others need additional time. Following the rehabilitation plan, attending follow-up appointments, using walking aids safely, managing swelling, and reporting concerning symptoms can help support a safe recovery.</p>
+
+  <p>If your recovery does not follow the timeline described here, that does not automatically mean something is wrong. Your orthopedic surgeon and physiotherapy team can assess your progress and adjust your rehabilitation plan according to your individual needs.</p>
+
+  <h2>Medical References</h2>
+
+  <ol>
+    <li>
+      NHS.
+      <a href="https://www.nhs.uk/tests-and-treatments/knee-replacement/recovery/" target="_blank" rel="noopener noreferrer">Recovering from a knee replacement</a>.
+      Guidance on hospital recovery, home care, driving, work, exercise, and postoperative recovery.
+    </li>
+
+    <li>
+      NHS.
+      <a href="https://www.nhs.uk/tests-and-treatments/knee-replacement/complications/" target="_blank" rel="noopener noreferrer">Complications of a knee replacement</a>.
+      Information on blood clots, infection, wound problems, and other postoperative complications.
+    </li>
+
+    <li>
+      Hospital for Special Surgery.
+      <a href="https://www.hss.edu/health-library/move-better/knee-replacement-recovery" target="_blank" rel="noopener noreferrer">6 Things to Know About Recovery After Knee Replacement</a>.
+      Information on early walking, physical therapy, walking aids, and return to activity.
+    </li>
+
+    <li>
+      Hospital for Special Surgery.
+      <a href="https://myhssmedia.hss.edu/health-library/move-better/before-and-after-knee-replacement-surgery" target="_blank" rel="noopener noreferrer">What to Know and Do Before and After Knee Replacement Surgery</a>.
+      Information on swelling, recovery variability, pain, and realistic recovery expectations.
+    </li>
+
+    <li>
+      Centers for Disease Control and Prevention.
+      <a href="https://www.cdc.gov/blood-clots/about/" target="_blank" rel="noopener noreferrer">About Venous Thromboembolism</a>.
+      Information on deep vein thrombosis and pulmonary embolism warning signs.
+    </li>
+
+  </ol>
+
+  <div class="rounded-2xl border border-gray-200 bg-gray-50 p-6">
+    <h3 class="!mt-0 !pl-0 !border-0">Medical Disclaimer</h3>
+    <p class="!mb-0">This article is for general educational purposes only and does not replace personalized medical advice. Knee replacement recovery varies between patients. Follow the instructions provided by your orthopedic surgeon, physiotherapist, and healthcare team. If you develop new or severe symptoms after surgery, contact your medical team or seek urgent medical care when appropriate.</p>
+  </div>
+
+</div>',
+],
     [
         'slug'         => 'child-nutrition-myths',
         'title'        => 'Top 10 Child Nutrition Myths Every Parent Should Stop Believing',
