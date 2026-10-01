@@ -179,7 +179,7 @@ $blogPosts = [
         'id' => 'managing-diabetes-daily',
         'title' => 'Managing Diabetes: A Complete Daily Guide for Better Blood Sugar Control',
         'excerpt' => 'Practical, evidence-based strategies to keep your blood sugar stable throughout the day and prevent long-term complications.',
-        'image' => 'https://images.pexels.com/photos/7088489/pexels-photo-7088489.jpeg?auto=compress&cs=tinysrgb&w=800',
+        'image' => '\assets\images\blog\English\managing-diabetes-daily.webp',
         'category' => 'Endocrinology',
         'date' => 'May 28, 2026',
         'readTime' => '8 min read'
@@ -188,7 +188,7 @@ $blogPosts = [
         'id' => 'knee-replacement-recovery',
         'title' => 'Knee Replacement Recovery: What to Expect in the First 90 Days',
         'excerpt' => 'A realistic timeline and expert advice for a smooth recovery after total knee replacement surgery.',
-        'image' => 'https://images.pexels.com/photos/7659564/pexels-photo-7659564.jpeg?auto=compress&cs=tinysrgb&w=800',
+        'image' => '\assets\images\blog\English\knee-replacement-recovery.webp',
         'category' => 'Orthopedics',
         'date' => 'May 22, 2026',
         'readTime' => '7 min read'

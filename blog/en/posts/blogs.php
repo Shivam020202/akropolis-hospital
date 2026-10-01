@@ -619,28 +619,28 @@ $blogs = [
         <ol class="list-decimal pl-6 space-y-2 my-4 text-gray-700">
             <li>
                 <a href="https://www.who.int/en/news-room/fact-sheets/detail/cardiovascular-diseases-(cvds)"
-                   target="_blank" rel="noopener noreferrer">
+                   target="_blank"  rel="nofollow noopener">
                     World Health Organization: Cardiovascular Diseases
                 </a>
             </li>
 
             <li>
                 <a href="https://www.cdc.gov/heart-disease/about/index.html"
-                   target="_blank" rel="noopener noreferrer">
+                   target="_blank"  rel="nofollow noopener">
                     CDC: About Heart Disease
                 </a>
             </li>
 
             <li>
                 <a href="https://www.heart.org/en/health-topics/heart-attack/warning-signs-of-a-heart-attack"
-                   target="_blank" rel="noopener noreferrer">
+                   target="_blank"  rel="nofollow noopener">
                     American Heart Association: Warning Signs of a Heart Attack
                 </a>
             </li>
 
             <li>
                 <a href="https://www.bhf.org.uk/informationsupport/heart-matters-magazine/medical/signs-you-might-have-heart-disease"
-                   target="_blank" rel="noopener noreferrer">
+                   target="_blank"  rel="nofollow noopener">
                     British Heart Foundation: Signs You Might Have Heart Disease
                 </a>
             </li>
@@ -1034,10 +1034,10 @@ $blogs = [
     <h2>Medical References</h2>
 
     <ul>
-        <li><a href="https://diabetesjournals.org/care/issue/49/Supplement_1" target="_blank" rel="noopener noreferrer">American Diabetes Association: Standards of Care in Diabetes 2026</a></li>
+        <li><a href="https://diabetesjournals.org/care/issue/49/Supplement_1" target="_blank"  rel="nofollow noopener">American Diabetes Association: Standards of Care in Diabetes 2026</a></li>
         <li><a href="https://www.cdc.gov/diabetes/treatment/index.html" target="_blank" rel="noopener noreferrer">CDC: Diabetes Treatment</a></li>
-        <li><a href="https://www.niddk.nih.gov/health-information/diabetes/overview/healthy-living-with-diabetes" target="_blank" rel="noopener noreferrer">NIDDK: Managing Diabetes</a></li>
-        <li><a href="https://www.mayoclinic.org/diseases-conditions/diabetes/in-depth/diabetes-management/art-20047963" target="_blank" rel="noopener noreferrer">Mayo Clinic: Diabetes Management</a></li>
+        <li><a href="https://www.niddk.nih.gov/health-information/diabetes/overview/healthy-living-with-diabetes" target="_blank"  rel="nofollow noopener">NIDDK: Managing Diabetes</a></li>
+        <li><a href="https://www.mayoclinic.org/diseases-conditions/diabetes/in-depth/diabetes-management/art-20047963" target="_blank"  rel="nofollow noopener">Mayo Clinic: Diabetes Management</a></li>
     </ul>
 
     <p><strong>Medical notice:</strong> This article is intended for general health education and should not replace personalized medical advice, diagnosis, or treatment. Diabetes treatment and blood glucose targets can vary between individuals. Always follow the recommendations of your qualified healthcare professional.</p>
@@ -1403,31 +1403,31 @@ $blogs = [
   <ol>
     <li>
       NHS.
-      <a href="https://www.nhs.uk/tests-and-treatments/knee-replacement/recovery/" target="_blank" rel="noopener noreferrer">Recovering from a knee replacement</a>.
+      <a href="https://www.nhs.uk/tests-and-treatments/knee-replacement/recovery/" target="_blank"  rel="nofollow noopener">Recovering from a knee replacement</a>.
       Guidance on hospital recovery, home care, driving, work, exercise, and postoperative recovery.
     </li>
 
     <li>
       NHS.
-      <a href="https://www.nhs.uk/tests-and-treatments/knee-replacement/complications/" target="_blank" rel="noopener noreferrer">Complications of a knee replacement</a>.
+      <a href="https://www.nhs.uk/tests-and-treatments/knee-replacement/complications/" target="_blank"  rel="nofollow noopener">Complications of a knee replacement</a>.
       Information on blood clots, infection, wound problems, and other postoperative complications.
     </li>
 
     <li>
       Hospital for Special Surgery.
-      <a href="https://www.hss.edu/health-library/move-better/knee-replacement-recovery" target="_blank" rel="noopener noreferrer">6 Things to Know About Recovery After Knee Replacement</a>.
+      <a href="https://www.hss.edu/health-library/move-better/knee-replacement-recovery" target="_blank"  rel="nofollow noopener">6 Things to Know About Recovery After Knee Replacement</a>.
       Information on early walking, physical therapy, walking aids, and return to activity.
     </li>
 
     <li>
       Hospital for Special Surgery.
-      <a href="https://myhssmedia.hss.edu/health-library/move-better/before-and-after-knee-replacement-surgery" target="_blank" rel="noopener noreferrer">What to Know and Do Before and After Knee Replacement Surgery</a>.
+      <a href="https://myhssmedia.hss.edu/health-library/move-better/before-and-after-knee-replacement-surgery" target="_blank" rel="nofollow noopener">What to Know and Do Before and After Knee Replacement Surgery</a>.
       Information on swelling, recovery variability, pain, and realistic recovery expectations.
     </li>
 
     <li>
       Centers for Disease Control and Prevention.
-      <a href="https://www.cdc.gov/blood-clots/about/" target="_blank" rel="noopener noreferrer">About Venous Thromboembolism</a>.
+      <a href="https://www.cdc.gov/blood-clots/about/" target="_blank" rel="nofollow noopener">About Venous Thromboembolism</a>.
       Information on deep vein thrombosis and pulmonary embolism warning signs.
     </li>
 
@@ -1441,18 +1441,359 @@ $blogs = [
 </div>',
 ],
     [
-        'slug'         => 'child-nutrition-myths',
-        'title'        => 'Top 10 Child Nutrition Myths Every Parent Should Stop Believing',
-        'excerpt'      => 'From "force-feeding" to "no sugar at all" — our pediatricians debunk the most common nutrition myths for kids.',
-        'content'      => '<p>Parents today are bombarded with nutrition advice from social media. Here is what science actually says...</p>',
-        'image'        => 'https://images.pexels.com/photos/8460059/pexels-photo-8460059.jpeg?auto=compress&cs=tinysrgb&w=800',
-        'author'       => 'Dr. Sneha Kapoor',
-        'category'     => 'Pediatrics',
-        'tags'         => ['Child Health', 'Nutrition', 'Parenting'],
-        'read_time'    => '5 min read',
-        'published_at' => '2026-05-15',
-        'status'       => 'published',
+    'slug'         => 'child-nutrition-myths',
+    'title'        => 'Top 10 Child Nutrition Myths Every Parent Should Stop Believing',
+    'excerpt'      => 'Discover the truth behind 10 common child nutrition myths about sugar, milk, fats, supplements, picky eating, vegetarian diets, and healthy growth.',
+    'image'        => '\assets\images\blog\English\child-nutrition-myths.webp',
+    'author'       => 'Dr Madan Lal',
+    'category'     => 'Pediatrics',
+    'tags'         => [
+        'child nutrition',
+        'child nutrition myths',
+        'kids nutrition',
+        'pediatric nutrition',
+        'healthy eating for children',
+        'children diet',
+        'child growth'
     ],
+    'read_time'    => '10 min read',
+    'published_at' => '2026-10-01',
+    'status'       => 'published',
+
+    'faqs' => [
+        [
+            'question' => 'Do children need to drink milk every day?',
+            'answer'   => 'Milk is a nutritious source of protein and several important nutrients, but it is not the only way children can obtain nutrients such as calcium and protein. The right amount and type of milk depend on the child age and overall diet.'
+        ],
+        [
+            'question' => 'Should parents completely avoid sugar for children?',
+            'answer'   => 'Children should not rely on foods and drinks high in added sugar. For children 2 years and older, the American Academy of Pediatrics recommends limiting added sugar to less than 25 grams per day, while added sugar should be avoided in foods and drinks for children under 2.'
+        ],
+        [
+            'question' => 'Is a vegetarian diet healthy for children?',
+            'answer'   => 'A well-planned vegetarian diet can provide adequate nutrition for many children. The diet should include varied sources of protein and important nutrients, with professional guidance when there are concerns about growth or deficiencies.'
+        ],
+        [
+            'question' => 'Should I force my child to finish everything on the plate?',
+            'answer'   => 'Forcing a child to finish food can interfere with recognition of hunger and fullness cues. Parents can offer appropriate portions, provide nutritious choices, and allow children to respond to their own hunger and fullness.'
+        ],
+        [
+            'question' => 'Are supplements necessary for every child?',
+            'answer'   => 'No. Not every child needs supplements. A balanced diet can provide many essential nutrients, while supplements may be recommended when a deficiency, medical condition, restricted diet, or another specific need has been identified.'
+        ],
+        [
+            'question' => 'When should I consult a pediatrician about my child nutrition?',
+            'answer'   => 'Consider speaking with a pediatrician when there are concerns about poor growth, unexplained weight changes, persistent feeding difficulties, a very restricted diet, suspected nutrient deficiencies, or other problems affecting eating and development.'
+        ]
+    ],
+
+    'content' => '<div class="space-y-6">
+
+  <div class="rounded-2xl border border-[#328CCB]/20 bg-[#328CCB]/5 p-6 shadow-sm">
+    <h2 class="!mt-0 !border-0 !pb-0 !mb-3 !text-2xl">Quick Answer</h2>
+    <p class="!mb-0">Many popular beliefs about child nutrition are incomplete or misleading. Children need varied and age-appropriate foods that provide protein, carbohydrates, healthy fats, vitamins, minerals, and adequate energy for growth. Milk can be useful but is not the only source of important nutrients, healthy fats are important for development, completely banning sugar is not necessary, and forcing children to finish every bite can interfere with hunger and fullness cues. The right diet depends on age, growth, health, activity, food preferences, and individual nutritional needs.</p>
+  </div>
+
+  <p>Feeding children can sometimes feel confusing. Parents hear advice from family members, social media, advertisements, school groups, and online health articles, and not all of that advice is supported by medical evidence.</p>
+
+  <p>Some nutrition beliefs contain a small amount of truth but become misleading when presented as universal rules. Other claims may encourage unnecessary restriction, excessive supplementation, or unhealthy pressure around mealtimes.</p>
+
+  <p>In this guide, we examine 10 common child nutrition myths and explain what parents should know instead. The goal is not to create a perfect diet, but to help families make practical and informed food choices.</p>
+
+  <div class="rounded-2xl border-l-4 border-[#D66C43] bg-orange-50 p-6 shadow-sm">
+    <h3 class="!mt-0 !pl-0 !border-0">Important</h3>
+    <p class="!mb-0">Children have different nutritional needs at different ages. Advice suitable for an infant may not be suitable for a toddler, school-age child, or teenager. Always consider age, growth, medical conditions, allergies, activity level, and dietary pattern.</p>
+  </div>
+
+  <h2>Myth 1: Children Need to Avoid All Sugar</h2>
+
+  <p>One common belief is that parents should completely eliminate sugar from a child diet. The reality is more nuanced. Foods and drinks high in added sugar should be limited, but nutrition is not simply about labeling every sweet food as forbidden.</p>
+
+  <p>The American Academy of Pediatrics recommends avoiding foods and drinks with added sugar for children younger than 2 years. For children aged 2 years and older, the AAP recommends limiting added sugar to less than 25 grams per day.</p>
+
+  <p>Parents should also distinguish naturally occurring sugars from added sugars. Whole fruits contain naturally occurring sugars along with fibre, vitamins, minerals, and other nutrients.</p>
+
+  <h3>What parents can do</h3>
+
+  <ul>
+    <li>Offer water and suitable milk as regular beverages</li>
+    <li>Choose whole fruits more often than sweetened fruit products</li>
+    <li>Check food labels for added sugar</li>
+    <li>Limit soft drinks, sweetened beverages, candies, and highly sweetened packaged foods</li>
+    <li>Avoid using sweets as a reward for every good behaviour</li>
+  </ul>
+
+  <p>The goal is to develop healthy eating habits rather than create fear around individual foods.</p>
+
+  <h2>Myth 2: Children Should Follow a Low-Fat Diet</h2>
+
+  <p>Some parents believe that reducing dietary fat as much as possible will make children healthier. This is not a suitable general rule for growing children.</p>
+
+  <p>Dietary fat provides energy and helps the body absorb fat-soluble vitamins. Healthy sources of fat can be part of a balanced diet and may include nuts, seeds, dairy foods, eggs, fish, and suitable plant oils.</p>
+
+  <p>The focus should be on the overall quality and variety of the diet rather than eliminating all dietary fat.</p>
+
+  <div class="rounded-2xl border border-gray-200 bg-gray-50 p-6 shadow-sm">
+    <h3 class="!mt-0 !pl-0 !border-0">Better Approach</h3>
+    <p class="!mb-0">Instead of trying to remove all fats, focus on a varied diet and limit foods that are frequently high in unhealthy fats, excess salt, added sugar, and calories.</p>
+  </div>
+
+  <h2>Myth 3: Every Child Must Drink Milk Every Day</h2>
+
+  <p>Milk can be a nutritious food for children, providing protein and important nutrients such as calcium. However, the idea that every child must drink a specific number of glasses of milk every day is too simplistic.</p>
+
+  <p>Children can obtain nutrients from a variety of foods. Depending on age and dietary needs, options may include curd, paneer, cheese, tofu, fortified foods, pulses, nuts, seeds, and other nutrient-rich foods.</p>
+
+  <p>Parents should also be aware that excessive milk intake in toddlers can reduce appetite for other foods. The American Academy of Pediatrics notes that too much milk can contribute to milk dependency and make it harder for some toddlers to develop a varied diet.</p>
+
+  <h3>What matters more than a fixed number of glasses?</h3>
+
+  <ul>
+    <li>Overall dietary variety</li>
+    <li>Adequate protein and calcium intake</li>
+    <li>Age-appropriate portions</li>
+    <li>Healthy growth and development</li>
+    <li>Whether the child is eating a broad range of foods</li>
+  </ul>
+
+  <h2>Myth 4: A Child Must Finish Everything on the Plate</h2>
+
+  <p>Many parents were taught that leaving food on the plate is wasteful. While reducing food waste is valuable, forcing a child to finish everything can interfere with the child ability to recognize hunger and fullness.</p>
+
+  <p>Children appetite can change from meal to meal and from day to day. A child may eat a large meal one day and much less the next day without there necessarily being a health problem.</p>
+
+  <p>Parents can serve smaller portions and offer more food when the child is still hungry. This approach can reduce unnecessary pressure around mealtimes.</p>
+
+  <h3>Try this instead</h3>
+
+  <ol>
+    <li>Start with an age-appropriate portion.</li>
+    <li>Offer a variety of nutritious foods.</li>
+    <li>Allow the child to ask for more if still hungry.</li>
+    <li>Avoid forcing the child to finish everything.</li>
+    <li>Keep mealtimes calm and predictable.</li>
+  </ol>
+
+  <h2>Myth 5: A Vegetarian Diet Cannot Provide Enough Nutrition</h2>
+
+  <p>A vegetarian diet is not automatically inadequate for children. A well-planned diet can provide many nutrients through foods such as pulses, beans, lentils, dairy products, soy, tofu, nuts, seeds, whole grains, vegetables, and fruits.</p>
+
+  <p>However, parents should pay attention to nutrients that can require additional planning in vegetarian or vegan diets. Depending on the specific dietary pattern, these may include vitamin B12, iron, zinc, calcium, vitamin D, iodine, and protein.</p>
+
+  <p>Children following highly restricted diets should have their growth and nutritional intake assessed when there are concerns.</p>
+
+  <div class="rounded-2xl border-l-4 border-[#D66C43] bg-orange-50 p-6 shadow-sm">
+    <h3 class="!mt-0 !pl-0 !border-0">Remember</h3>
+    <p class="!mb-0">The quality and variety of a child diet matter more than whether the diet is vegetarian or non-vegetarian. Highly restricted diets may require guidance from a pediatrician or qualified nutrition professional.</p>
+  </div>
+
+  <h2>Myth 6: Fresh Vegetables Are Always Better Than Frozen Vegetables</h2>
+
+  <p>Fresh vegetables are excellent foods, but frozen vegetables are not automatically unhealthy. Frozen vegetables can be a convenient way to include vegetables in family meals, especially when certain fresh foods are unavailable.</p>
+
+  <p>The nutritional value of a vegetable depends on the food itself, how it is stored, and how it is prepared. Parents should pay attention to added salt, sauces, sugar, and other ingredients in processed vegetable products.</p>
+
+  <h3>A practical approach</h3>
+
+  <ul>
+    <li>Use fresh vegetables when convenient</li>
+    <li>Use plain frozen vegetables when they make healthy meals easier</li>
+    <li>Choose products with minimal added salt and sauces</li>
+    <li>Offer different colours and varieties throughout the week</li>
+  </ul>
+
+  <p>Variety and regular exposure are more important than insisting that every vegetable must be fresh.</p>
+
+  <h2>Myth 7: An Active Child Can Eat Anything</h2>
+
+  <p>Physical activity is important for children, but being active does not make a poor-quality diet nutritionally complete.</p>
+
+  <p>A growing child still needs adequate protein, carbohydrates, fats, vitamins, minerals, fibre, and fluids. A child who plays sports or spends a lot of time outdoors still benefits from regular balanced meals and nutritious snacks.</p>
+
+  <p>Physical activity also does not mean that children should be placed on restrictive diets. The goal is to provide enough nutritious food to support growth, activity, learning, and recovery.</p>
+
+  <h2>Myth 8: A Thin Child Should Simply Eat More Butter, Cheese or Ghee</h2>
+
+  <p>Parents sometimes worry when a child appears thin and may receive advice to add large amounts of butter, cheese, ghee, sweets, or other calorie-dense foods.</p>
+
+  <p>Body size alone does not tell you whether a child is healthy. Pediatricians consider growth patterns, height, weight, development, appetite, activity, medical history, and other factors when assessing a child.</p>
+
+  <p>If a child has poor weight gain, unexplained weight loss, persistent digestive symptoms, feeding problems, or another concern, the cause should be evaluated rather than simply adding high-calorie foods.</p>
+
+  <div class="rounded-2xl border border-gray-200 bg-gray-50 p-6 shadow-sm">
+    <h3 class="!mt-0 !pl-0 !border-0">When to Seek Advice</h3>
+    <p class="!mb-0">Speak with a pediatrician if you are concerned about your child growth, weight, appetite, feeding behaviour, or nutritional intake. A personalized assessment is more useful than comparing your child with other children.</p>
+  </div>
+
+  <h2>Myth 9: Supplements Are Better Than Real Food</h2>
+
+  <p>Multivitamins and other supplements are sometimes treated as a shortcut to good nutrition. They can be useful in specific situations, but they do not replace a varied diet.</p>
+
+  <p>Whole foods provide combinations of nutrients, fibre, protein, healthy fats, and other components that supplements cannot reproduce as a complete dietary pattern.</p>
+
+  <p>Some children may need supplements because of a diagnosed deficiency, restricted diet, medical condition, absorption problem, or another specific reason. The decision should be based on the child individual needs.</p>
+
+  <h3>Parents should avoid</h3>
+
+  <ul>
+    <li>Giving multiple supplements without medical advice</li>
+    <li>Assuming more vitamins are always better</li>
+    <li>Using supplements as a replacement for meals</li>
+    <li>Giving adult supplements to children unless specifically advised</li>
+  </ul>
+
+  <h2>Myth 10: Hiding Vegetables Is the Best Way to Handle Picky Eating</h2>
+
+  <p>Blending vegetables into meals can sometimes help increase exposure to nutritious foods, but hiding every disliked food is not the only strategy for picky eating.</p>
+
+  <p>Children often need repeated exposure before accepting a new food. The American Academy of Pediatrics recommends offering rejected foods again and creating positive mealtime experiences rather than turning meals into battles.</p>
+
+  <p>Children can also benefit from seeing parents and caregivers eat a variety of nutritious foods. Involving children in simple food preparation can make unfamiliar foods more interesting.</p>
+
+  <h3>Better strategies for picky eaters</h3>
+
+  <ul>
+    <li>Offer small portions of new foods</li>
+    <li>Serve a familiar food alongside a new food</li>
+    <li>Offer rejected foods again on another day</li>
+    <li>Avoid forcing or threatening children to eat</li>
+    <li>Let children participate in age-appropriate food preparation</li>
+    <li>Keep regular meal and snack routines</li>
+  </ul>
+
+  <h2>What Does a Balanced Diet for Children Look Like?</h2>
+
+  <p>A balanced child diet does not need to be complicated. The exact foods and portions depend on age and individual needs, but meals should generally include a variety of food groups.</p>
+
+  <table>
+    <thead>
+      <tr>
+        <th>Food group</th>
+        <th>Examples</th>
+        <th>Why it matters</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td>Protein foods</td>
+        <td>Dal, beans, lentils, eggs, dairy, tofu, fish, chicken</td>
+        <td>Supports growth, tissue repair, and muscle development.</td>
+      </tr>
+      <tr>
+        <td>Whole grains and other carbohydrates</td>
+        <td>Rice, oats, whole wheat, millets, potatoes</td>
+        <td>Provides energy for growth, learning, and physical activity.</td>
+      </tr>
+      <tr>
+        <td>Fruits and vegetables</td>
+        <td>Seasonal fruits, leafy vegetables, carrots, peas, tomatoes</td>
+        <td>Provides vitamins, minerals, fibre, and other beneficial nutrients.</td>
+      </tr>
+      <tr>
+        <td>Healthy fats</td>
+        <td>Nuts, seeds, suitable oils, eggs, fish</td>
+        <td>Provides energy and supports normal growth and nutrient absorption.</td>
+      </tr>
+      <tr>
+        <td>Calcium-rich foods</td>
+        <td>Milk, curd, paneer, fortified foods, suitable alternatives</td>
+        <td>Supports developing bones and teeth.</td>
+      </tr>
+    </tbody>
+  </table>
+
+  <h2>Child Nutrition Also Depends on Age</h2>
+
+  <p>Nutrition advice should always consider developmental stage. Infants have different nutritional needs from toddlers, while school-age children and teenagers have different energy and nutrient requirements again.</p>
+
+  <p>WHO recommends exclusive breastfeeding for the first six months when possible, followed by the introduction of appropriate complementary foods at around six months while breastfeeding continues. Complementary foods should be safe, nutrient-dense, and gradually become more varied and appropriate in texture.</p>
+
+  <p>For infants and young children, responsive feeding is also important. Caregivers should recognize signs of hunger and fullness rather than using force or rigid feeding rules.</p>
+
+  <h2>How Parents Can Build Healthier Eating Habits</h2>
+
+  <ol>
+    <li>Offer a variety of nutritious foods rather than focusing on one superfood.</li>
+    <li>Keep regular meal and snack routines.</li>
+    <li>Allow children to respond to hunger and fullness cues.</li>
+    <li>Make water a regular beverage choice.</li>
+    <li>Limit foods and drinks high in added sugar.</li>
+    <li>Include age-appropriate sources of protein and healthy fats.</li>
+    <li>Introduce new foods repeatedly without pressure.</li>
+    <li>Model healthy eating behaviour at home.</li>
+    <li>Avoid using food as punishment or reward whenever possible.</li>
+    <li>Discuss persistent feeding or growth concerns with a pediatrician.</li>
+  </ol>
+
+  <h2>When Should Parents Talk to a Pediatrician?</h2>
+
+  <p>Most children go through periods of changing appetite and food preferences. However, persistent problems deserve professional attention.</p>
+
+  <p>Consider speaking with a pediatrician if your child has poor growth, unexplained weight changes, persistent feeding difficulties, a very restricted diet, repeated vomiting or diarrhea, suspected food allergies, signs of nutritional deficiency, or ongoing concerns about eating.</p>
+
+  <p>A pediatric assessment can consider the child growth pattern, medical history, development, diet, activity, and other relevant factors rather than relying on appearance alone.</p>
+
+  <div class="my-10 rounded-2xl bg-gradient-to-r from-[#328CCB] to-[#2a7bb5] p-8 text-center text-white shadow-xl">
+    <h3 class="!mt-0 !mb-3 !border-0 !pl-0 !text-white">Have Questions About Your Child Nutrition?</h3>
+    <p class="!mb-6 !text-white">If you are concerned about your child growth, eating habits, feeding difficulties, or nutritional needs, discuss the situation with a pediatric specialist.</p>
+    <a href="/pediatrics.php" class="article-cta inline-block rounded-full bg-[#D66C43] px-8 py-3 font-bold no-underline transition-all hover:bg-[#c55a36]" style="color:#ffffff !important; text-decoration:none !important;">Explore Pediatric Care</a>
+  </div>
+
+  <h2>Conclusion</h2>
+
+  <p>Child nutrition is not about following one perfect food rule. Growing children need variety, adequate energy, protein, healthy fats, vitamins, minerals, fibre, and appropriate fluids, with nutritional needs changing as they grow.</p>
+
+  <p>Milk can be useful without being the only source of important nutrients. Healthy fats should not be eliminated without medical reason. Added sugar should be limited, supplements should be used when appropriate, and children should not be pressured to finish every bite.</p>
+
+  <p>When nutrition advice conflicts with your child individual needs, growth pattern, or medical condition, a pediatrician can help you make a plan based on your child rather than a general internet rule.</p>
+
+  <h2>Medical References</h2>
+
+  <ol>
+    <li>
+      World Health Organization.
+      <a href="https://www.who.int/en/news-room/fact-sheets/detail/healthy-diet" target="_blank"  rel="nofollow noopener">>Healthy diet</a>.
+      Guidance on healthy diets, infant feeding, complementary foods, sugar, salt, and nutrient-dense foods.
+    </li>
+
+    <li>
+      World Health Organization.
+      <a href="https://www.who.int/news-room/fact-sheets/detail/infant-and-young-child-feeding" target="_blank"  rel="nofollow noopener">>Infant and young child feeding</a>.
+      Guidance on breastfeeding, complementary feeding, responsive feeding, food variety, and meal frequency.
+    </li>
+
+    <li>
+      World Health Organization.
+      <a href="https://www.who.int/publications/i/item/9789240081864" target="_blank"  rel="nofollow noopener">>WHO Guideline for complementary feeding of infants and young children 6 to 23 months of age</a>.
+      Evidence-based recommendations for complementary feeding.
+    </li>
+
+    <li>
+      American Academy of Pediatrics.
+      <a href="https://www.healthychildren.org/English/healthy-living/nutrition/Pages/How-to-Reduce-Added-Sugar-in-Your-Childs-Diet.aspx" target="_blank"  rel="nofollow noopener">>How to Reduce Added Sugar in Your Child Diet</a>.
+      Guidance on added sugar, beverages, and fruit juice.
+    </li>
+
+    <li>
+      American Academy of Pediatrics.
+      <a href="https://www.healthychildren.org/English/ages-stages/toddler/nutrition/Pages/your-toddler-only-wants-milk-how-to-ease-milk-dependency-and-encourage-a-healthy-diet.aspx" target="_blank"  rel="nofollow noopener">>Your Toddler Only Wants Milk? How to Ease a Milk Dependency Habit</a>.
+      Information about excessive milk intake and developing a varied toddler diet.
+    </li>
+
+    <li>
+      American Academy of Pediatrics.
+      <a href="https://www.healthychildren.org/English/healthy-living/nutrition/pages/How-To-Please-Fussy-Eaters.aspx" target="_blank"  rel="nofollow noopener">>How to Please Fussy Eaters</a>.
+      Practical guidance for picky eating and repeated exposure to new foods.
+    </li>
+  </ol>
+
+  <div class="rounded-2xl border border-gray-200 bg-gray-50 p-6">
+    <h3 class="!mt-0 !pl-0 !border-0">Medical Disclaimer</h3>
+    <p class="!mb-0">This article is for general educational purposes only and does not replace personalized medical advice. Children have different nutritional needs based on age, growth, development, health conditions, activity, and dietary patterns. Speak with a pediatrician or qualified healthcare professional if you have concerns about your child growth, nutrition, feeding behaviour, allergies, or development.</p>
+  </div>
+
+</div>',
+],
     [
         'slug'         => 'understanding-migraine-triggers',
         'title'        => 'Understanding Migraine Triggers and How to Prevent Them Naturally',
