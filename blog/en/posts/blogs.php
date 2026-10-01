@@ -11,7 +11,7 @@ $blogs = [
     'slug'         => 'early-signs-of-heart-disease',
     'title'        => '10 Early Warning Signs of Heart Disease You Should Never Ignore',
     'excerpt'      => 'Heart disease can develop quietly and some warning signs are easy to mistake for everyday problems. Learn 10 symptoms that may need medical attention and when to seek emergency care.',
-    'image'        => 'https://images.pexels.com/photos/668300/pexels-photo-668300.jpeg?auto=compress&cs=tinysrgb&w=1200',
+    'image'        => '/assets/images/blog/English/akropolis-heart-disease-warning-signs.webp',
     'author'       => 'Dr Rajesh Kumar',
     'category'     => 'Cardiology',
     'tags'         => [

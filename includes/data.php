@@ -168,7 +168,7 @@ $services = [
 $blogPosts = [
     [
         'id' => 'early-signs-of-heart-disease',
-        'title' => '7 Early Warning Signs of Heart Disease You Should Never Ignore',
+        'title' => '10 Early Warning Signs of Heart Disease You Should Never Ignore',
         'excerpt' => 'Heart disease often develops silently. Learn the subtle warning signs that could save your life and when to consult a cardiologist.',
         'image' => 'https://images.pexels.com/photos/668300/pexels-photo-668300.jpeg?auto=compress&cs=tinysrgb&w=800',
         'category' => 'Cardiology',
