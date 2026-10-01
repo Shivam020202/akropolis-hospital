@@ -722,188 +722,208 @@ $blogs = [
     ],
 
     'content'      => '
-    <h2>Quick Answer: How Can You Manage Diabetes Every Day?</h2>
-
-    <p>Daily diabetes management focuses on keeping blood glucose within the range recommended by your healthcare team while reducing the risk of long-term complications. A complete plan usually includes blood sugar monitoring when advised, balanced meals, regular physical activity, prescribed medicines, adequate sleep, stress management, foot care, and routine medical checkups.</p>
-
-    <p>Your diabetes care plan should be personalized. Your treatment needs can vary depending on your type of diabetes, medicines, age, other health conditions, activity level, pregnancy status, and blood glucose patterns.</p>
+    <div class="my-8 rounded-xl border-l-4 border-[#328CCB] bg-blue-50 p-6 shadow-sm">
+        <h2 class="!mt-0 !mb-3 !border-0 !pb-0">Quick Answer: How Can You Manage Diabetes Every Day?</h2>
+        <p class="!mb-0">Daily diabetes management is based on consistent habits that help keep blood glucose within your recommended range and reduce the risk of complications. This includes monitoring blood sugar when advised, eating balanced meals, staying physically active, taking prescribed medicines, getting enough sleep, managing stress, caring for your feet, and attending regular medical checkups.</p>
+    </div>
 
     <h2>What Is Diabetes Management?</h2>
 
-    <p>Diabetes management means making regular lifestyle and treatment decisions that help control blood glucose and protect your overall health. It is not only about checking blood sugar. It also involves managing blood pressure, cholesterol, body weight, nutrition, physical activity, and other factors that can affect your health.</p>
+    <p>Diabetes management means making daily lifestyle and treatment choices that help control blood glucose and protect your overall health. It involves more than checking blood sugar. Your care plan may also include healthy eating, physical activity, medicines, weight management, blood pressure control, cholesterol management, and regular screening.</p>
 
-    <p>Good diabetes management can help reduce the risk of complications involving the heart, blood vessels, kidneys, eyes, nerves, and feet. Regular follow-up with your healthcare team helps identify problems early and allows your treatment plan to be adjusted when needed.</p>
+    <p>Diabetes affects people differently, so there is no single routine that works for everyone. Your treatment plan may depend on your type of diabetes, medicines, age, other health conditions, activity level, pregnancy status, and individual blood glucose targets.</p>
+
+    <div class="my-8 rounded-xl border border-[#328CCB]/30 bg-[#328CCB]/5 p-6 shadow-sm">
+        <p class="!mb-0"><strong>Key point:</strong> Good diabetes management is a long-term process. Consistency matters more than trying to make every day perfect.</p>
+    </div>
 
     <h2>7 Foundations of Daily Diabetes Management</h2>
 
     <h3>1. Monitor Your Blood Sugar as Advised</h3>
 
-    <p>Blood glucose monitoring can help you understand how food, physical activity, medicines, illness, stress, and other factors affect your glucose levels. Not everyone with diabetes needs to check glucose at the same frequency, so follow the monitoring plan recommended by your healthcare professional.</p>
+    <p>Blood glucose monitoring can show how food, physical activity, medicines, illness, stress, and other factors affect your blood sugar. The frequency of monitoring varies between people, so follow the schedule recommended by your healthcare professional.</p>
 
-    <p>Keep a record of readings when your care plan requires it. Sharing useful glucose records with your healthcare team can help them identify patterns and decide whether changes to treatment are needed.</p>
+    <p>If your care plan requires regular monitoring, keeping a record of your readings can help you and your healthcare team identify patterns. This information can be useful when deciding whether your treatment plan needs adjustment.</p>
 
     <ul>
         <li>Check your glucose according to your prescribed plan.</li>
         <li>Record readings when recommended.</li>
         <li>Note unusual readings and possible reasons for them.</li>
-        <li>Ask your healthcare team when you are unsure how to interpret a reading.</li>
+        <li>Discuss repeated high or low readings with your healthcare team.</li>
+        <li>Do not change your medication based on a single reading unless your care plan specifically instructs you to do so.</li>
     </ul>
 
     <h3>2. Know Your Personal Blood Sugar Targets</h3>
 
-    <p>Blood glucose targets are not identical for everyone. Your healthcare team may recommend different targets based on your age, diabetes type, medicines, pregnancy status, other health conditions, and risk of low blood sugar.</p>
+    <p>Blood glucose targets are individualized. Your healthcare professional may recommend different targets depending on your age, diabetes type, medicines, pregnancy status, other health conditions, and risk of low blood sugar.</p>
 
-    <p>For many nonpregnant adults with diabetes, commonly used targets include the following:</p>
+    <p>For many nonpregnant adults with diabetes, commonly used targets include:</p>
 
-    <table>
-        <thead>
-            <tr>
-                <th>Measure</th>
-                <th>Common target for many nonpregnant adults</th>
-            </tr>
-        </thead>
-        <tbody>
-            <tr>
-                <td>A1C</td>
-                <td>Below 7 percent</td>
-            </tr>
-            <tr>
-                <td>Before meals</td>
-                <td>80 to 130 mg/dL</td>
-            </tr>
-            <tr>
-                <td>Peak after meals</td>
-                <td>Below 180 mg/dL</td>
-            </tr>
-        </tbody>
-    </table>
+    <div class="my-8 overflow-x-auto rounded-xl border border-gray-200 shadow-sm">
+        <table class="w-full min-w-[600px] border-collapse">
+            <thead>
+                <tr class="bg-[#328CCB] text-white">
+                    <th class="border border-[#328CCB] px-5 py-4 text-left font-bold">Measure</th>
+                    <th class="border border-[#328CCB] px-5 py-4 text-left font-bold">Common target for many nonpregnant adults</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr class="bg-white">
+                    <td class="border border-gray-200 px-5 py-4 font-semibold text-gray-900 align-top">A1C</td>
+                    <td class="border border-gray-200 px-5 py-4 text-gray-700 align-top">Below 7 percent</td>
+                </tr>
+                <tr class="bg-gray-50">
+                    <td class="border border-gray-200 px-5 py-4 font-semibold text-gray-900 align-top">Before meals</td>
+                    <td class="border border-gray-200 px-5 py-4 text-gray-700 align-top">80 to 130 mg/dL</td>
+                </tr>
+                <tr class="bg-white">
+                    <td class="border border-gray-200 px-5 py-4 font-semibold text-gray-900 align-top">Peak after meals</td>
+                    <td class="border border-gray-200 px-5 py-4 text-gray-700 align-top">Below 180 mg/dL</td>
+                </tr>
+            </tbody>
+        </table>
+    </div>
 
-    <p>These are general targets and may not be appropriate for every person. Follow the targets provided by your own healthcare team.</p>
+    <p>These numbers are general targets and may not be appropriate for every person. Follow the blood glucose targets provided by your own healthcare team.</p>
 
     <h3>3. Build Balanced Meals</h3>
 
-    <p>Food choices have a major effect on blood glucose. A balanced eating pattern can help you manage portions, carbohydrate intake, body weight, and overall nutrition.</p>
+    <p>Food choices can have a significant effect on blood glucose. A balanced eating pattern can help with blood sugar control while providing the nutrients your body needs.</p>
 
     <ul>
         <li>Choose vegetables, whole grains, beans, and other high-fiber foods regularly.</li>
-        <li>Include appropriate sources of protein in meals.</li>
+        <li>Include appropriate sources of protein in your meals.</li>
         <li>Choose healthier sources of fat more often.</li>
         <li>Pay attention to portion sizes.</li>
-        <li>Limit foods and drinks that are high in added sugars.</li>
-        <li>Choose water or other suitable low-sugar drinks instead of sugary beverages.</li>
-        <li>Spread carbohydrate intake according to your individual meal plan.</li>
+        <li>Limit foods and drinks that contain high amounts of added sugar.</li>
+        <li>Choose water or other suitable low-sugar beverages instead of sugary drinks.</li>
+        <li>Distribute carbohydrate intake according to your individual meal plan.</li>
     </ul>
 
-    <p>You do not necessarily need to remove all carbohydrates from your diet. The amount and type of carbohydrate that works best can vary from person to person. A registered dietitian or diabetes care professional can help create a suitable meal plan.</p>
+    <p>People with diabetes can eat carbohydrates. The amount, type, portion size, and timing of carbohydrates can affect blood glucose differently from person to person. A registered dietitian or diabetes care professional can help you develop a meal plan that fits your needs.</p>
+
+    <div class="my-8 rounded-xl border-l-4 border-[#D66C43] bg-orange-50 p-6 shadow-sm">
+        <p class="!mb-0"><strong>Remember:</strong> Diabetes does not mean you have to completely eliminate carbohydrates. Focus on appropriate portions, nutritious carbohydrate sources, and the eating pattern recommended for you.</p>
+    </div>
 
     <h3>4. Stay Physically Active</h3>
 
-    <p>Regular physical activity can improve insulin sensitivity, support blood glucose control, and contribute to heart health and healthy weight management. The appropriate amount and type of activity depends on your health and fitness level.</p>
+    <p>Regular physical activity can improve insulin sensitivity, support blood glucose control, and contribute to cardiovascular health and healthy weight management. The right type and amount of activity depends on your health and fitness level.</p>
 
     <ul>
-        <li>Include regular walking or other moderate physical activity when appropriate.</li>
+        <li>Include regular walking or other suitable moderate activity.</li>
         <li>Break up long periods of sitting with movement.</li>
-        <li>Include muscle-strengthening activities when suitable.</li>
+        <li>Include muscle-strengthening activities when appropriate.</li>
         <li>Start gradually if you have been inactive.</li>
-        <li>Follow medical advice if you have complications or health conditions that affect exercise.</li>
+        <li>Follow medical advice if you have complications or another condition that affects exercise.</li>
     </ul>
 
-    <p>Physical activity can affect blood glucose, particularly when you use insulin or certain glucose-lowering medicines. Ask your healthcare team whether you need to check your glucose before or after exercise and how to manage your medicines or food around physical activity.</p>
+    <p>Exercise can affect blood glucose, especially when you use insulin or certain glucose-lowering medicines. Ask your healthcare professional whether you need to check your glucose before or after physical activity and whether any changes are needed around exercise.</p>
 
     <h3>5. Take Diabetes Medicines as Prescribed</h3>
 
-    <p>Diabetes medicines work in different ways. Some help the body use insulin more effectively, some increase insulin production, some reduce glucose production, and some help the body remove excess glucose through urine.</p>
+    <p>Diabetes medicines work in different ways. Depending on the medicine, treatment may help the body use insulin more effectively, increase insulin production, reduce glucose production, or help the body remove excess glucose.</p>
 
-    <p>Take your medicines according to the instructions provided by your healthcare professional. Do not change the dose, stop a medicine, or skip prescribed treatment without discussing it with your healthcare team.</p>
+    <p>Take your medicines according to the instructions provided by your healthcare professional. Do not stop a medicine, change the dose, or regularly skip doses without discussing it with your healthcare team.</p>
 
     <ul>
         <li>Follow your prescribed medication schedule.</li>
         <li>Keep track of medicines and doses when needed.</li>
         <li>Tell your healthcare team about side effects.</li>
         <li>Ask before starting new medicines or supplements.</li>
-        <li>Discuss missed doses instead of making treatment changes yourself.</li>
+        <li>Ask your healthcare team what to do if you miss a dose.</li>
     </ul>
 
     <h3>6. Prioritize Sleep and Stress Management</h3>
 
-    <p>Poor sleep and ongoing stress can make diabetes management more difficult. Stress can affect eating habits, physical activity, sleep, and blood glucose levels.</p>
+    <p>Poor sleep and ongoing stress can make diabetes management more difficult. Stress may affect eating habits, physical activity, sleep, and blood glucose levels.</p>
 
     <ul>
         <li>Maintain a regular sleep schedule.</li>
         <li>Create a relaxing bedtime routine.</li>
         <li>Stay physically active during the day.</li>
-        <li>Use healthy stress-management techniques such as breathing exercises, walking, relaxation, or mindfulness.</li>
-        <li>Speak with a healthcare professional if stress, anxiety, or low mood is affecting daily life.</li>
+        <li>Use healthy stress-management techniques such as walking, breathing exercises, relaxation, or mindfulness.</li>
+        <li>Talk with a healthcare professional if stress or low mood is affecting your daily life.</li>
     </ul>
 
     <h3>7. Take Care of Your Feet</h3>
 
-    <p>Diabetes can affect nerves and blood circulation, which may increase the risk of foot problems. Regular foot care can help you notice cuts, blisters, redness, swelling, or other changes before they become more serious.</p>
+    <p>Diabetes can affect nerves and blood circulation, which may increase the risk of foot problems. Regular foot care can help you notice cuts, blisters, redness, swelling, or sores before they become more serious.</p>
 
     <ul>
         <li>Check your feet regularly for cuts, blisters, redness, swelling, or sores.</li>
         <li>Keep your feet clean and dry.</li>
-        <li>Use suitable footwear that protects your feet.</li>
+        <li>Wear suitable footwear that protects your feet.</li>
         <li>Avoid walking barefoot when there is a risk of injury.</li>
-        <li>Report wounds or changes that do not heal normally to your healthcare team.</li>
+        <li>Report wounds or changes that do not heal normally to your healthcare professional.</li>
     </ul>
 
     <h2>A Simple Daily Diabetes Routine</h2>
 
-    <p>A consistent routine can make diabetes care easier to follow. Your personal routine should be adjusted according to your treatment plan.</p>
+    <p>A consistent routine can make diabetes care easier to follow. Your personal routine should always be adjusted according to your treatment plan.</p>
 
-    <table>
-        <thead>
-            <tr>
-                <th>Part of the day</th>
-                <th>Possible diabetes-care habits</th>
-            </tr>
-        </thead>
-        <tbody>
-            <tr>
-                <td>Morning</td>
-                <td>Check glucose if advised, take prescribed medicines, eat a balanced breakfast, and review your plan for the day.</td>
-            </tr>
-            <tr>
-                <td>During meals</td>
-                <td>Pay attention to portions and carbohydrate choices and follow your prescribed medication schedule.</td>
-            </tr>
-            <tr>
-                <td>After meals</td>
-                <td>Consider light physical activity if appropriate and monitor glucose when your care plan requires it.</td>
-            </tr>
-            <tr>
-                <td>During the day</td>
-                <td>Stay hydrated, avoid prolonged sitting, and monitor glucose according to your care plan.</td>
-            </tr>
-            <tr>
-                <td>Evening</td>
-                <td>Take prescribed medicines, review glucose readings if required, check your feet, and prepare for adequate sleep.</td>
-            </tr>
-        </tbody>
-    </table>
+    <div class="my-8 overflow-x-auto rounded-xl border border-gray-200 shadow-sm">
+        <table class="w-full min-w-[700px] border-collapse">
+            <thead>
+                <tr class="bg-[#328CCB] text-white">
+                    <th class="border border-[#328CCB] px-5 py-4 text-left font-bold">Part of the day</th>
+                    <th class="border border-[#328CCB] px-5 py-4 text-left font-bold">Possible diabetes-care habits</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr class="bg-white">
+                    <td class="border border-gray-200 px-5 py-4 font-semibold text-gray-900 align-top">Morning</td>
+                    <td class="border border-gray-200 px-5 py-4 text-gray-700 align-top">Check glucose if advised, take prescribed medicines, eat a balanced breakfast, and review your plan for the day.</td>
+                </tr>
+                <tr class="bg-gray-50">
+                    <td class="border border-gray-200 px-5 py-4 font-semibold text-gray-900 align-top">During meals</td>
+                    <td class="border border-gray-200 px-5 py-4 text-gray-700 align-top">Pay attention to portions and carbohydrate choices and follow your prescribed medication schedule.</td>
+                </tr>
+                <tr class="bg-white">
+                    <td class="border border-gray-200 px-5 py-4 font-semibold text-gray-900 align-top">After meals</td>
+                    <td class="border border-gray-200 px-5 py-4 text-gray-700 align-top">Consider light physical activity if appropriate and monitor glucose when your care plan requires it.</td>
+                </tr>
+                <tr class="bg-gray-50">
+                    <td class="border border-gray-200 px-5 py-4 font-semibold text-gray-900 align-top">During the day</td>
+                    <td class="border border-gray-200 px-5 py-4 text-gray-700 align-top">Stay hydrated, avoid prolonged sitting, and monitor glucose according to your care plan.</td>
+                </tr>
+                <tr class="bg-white">
+                    <td class="border border-gray-200 px-5 py-4 font-semibold text-gray-900 align-top">Evening</td>
+                    <td class="border border-gray-200 px-5 py-4 text-gray-700 align-top">Take prescribed medicines, review glucose readings if required, check your feet, and prepare for adequate sleep.</td>
+                </tr>
+            </tbody>
+        </table>
+    </div>
 
     <h2>What Is A1C and Why Does It Matter?</h2>
 
     <p>A1C is a blood test that provides an estimate of average blood glucose over roughly the previous two to three months. It is commonly used to assess long-term glucose control and help guide diabetes treatment.</p>
 
-    <p>A1C is different from a daily glucose reading. A person can have an acceptable A1C while still experiencing periods of high or low blood glucose, so your healthcare team may use A1C together with glucose readings and other information.</p>
+    <p>A1C is different from a daily glucose reading. Your healthcare team may consider A1C together with glucose readings, symptoms, medicines, and other health information when reviewing your diabetes management.</p>
+
+    <div class="my-8 rounded-xl border border-[#328CCB]/30 bg-blue-50 p-6 shadow-sm">
+        <p class="!mb-0"><strong>Important:</strong> An A1C target is not automatically the same for everyone. Your healthcare professional can help determine the target that is appropriate for you.</p>
+    </div>
 
     <h2>How to Recognize Low Blood Sugar</h2>
 
-    <p>Low blood sugar, also called hypoglycemia, can occur in people using insulin or certain diabetes medicines. Symptoms can include shaking, sweating, hunger, dizziness, confusion, weakness, irritability, or a fast heartbeat.</p>
+    <p>Low blood sugar, also called hypoglycemia, can occur in people who use insulin or certain glucose-lowering medicines. Symptoms can include shaking, sweating, hunger, dizziness, confusion, weakness, irritability, or a fast heartbeat.</p>
 
     <p>If you experience symptoms of low blood sugar, follow the treatment plan provided by your healthcare professional. Severe hypoglycemia can cause loss of consciousness or seizures and requires urgent medical attention.</p>
 
+    <div class="my-8 rounded-xl border-l-4 border-red-500 bg-red-50 p-6 shadow-sm">
+        <p class="!mb-0"><strong>Seek urgent help:</strong> Severe confusion, loss of consciousness, seizures, or inability to safely treat low blood sugar requires urgent medical attention.</p>
+    </div>
+
     <h2>How to Recognize High Blood Sugar</h2>
 
-    <p>High blood sugar, or hyperglycemia, can cause increased thirst, frequent urination, tiredness, blurred vision, and other symptoms. Persistent high glucose can increase the risk of diabetes complications.</p>
+    <p>High blood sugar, or hyperglycemia, can cause increased thirst, frequent urination, tiredness, blurred vision, and other symptoms. Persistent high glucose can increase the risk of diabetes-related complications.</p>
 
-    <p>Very high blood glucose can sometimes lead to serious conditions such as diabetic ketoacidosis or hyperosmolar hyperglycemic state. Seek urgent medical care when severe symptoms occur, especially vomiting, difficulty breathing, severe weakness, confusion, or loss of consciousness.</p>
+    <p>Very high blood glucose can sometimes lead to serious conditions such as diabetic ketoacidosis or hyperosmolar hyperglycemic state. Severe symptoms such as vomiting, difficulty breathing, severe weakness, confusion, or loss of consciousness require urgent medical evaluation.</p>
 
     <h2>When You May Need Closer Blood Sugar Monitoring</h2>
 
-    <p>Your glucose levels may need closer attention during periods when your usual routine changes or when your body is under additional stress.</p>
+    <p>Your glucose levels may need closer attention when your usual routine changes or when your body is under additional stress.</p>
 
     <ul>
         <li>During an illness or infection.</li>
@@ -933,40 +953,42 @@ $blogs = [
 
     <p>Depending on your condition and treatment plan, your healthcare team may recommend the following checks:</p>
 
-    <table>
-        <thead>
-            <tr>
-                <th>Check</th>
-                <th>Why it matters</th>
-            </tr>
-        </thead>
-        <tbody>
-            <tr>
-                <td>A1C</td>
-                <td>Assesses average glucose control over roughly 2 to 3 months.</td>
-            </tr>
-            <tr>
-                <td>Blood pressure</td>
-                <td>Helps assess cardiovascular and kidney risk.</td>
-            </tr>
-            <tr>
-                <td>Cholesterol</td>
-                <td>Helps assess cardiovascular risk.</td>
-            </tr>
-            <tr>
-                <td>Kidney testing</td>
-                <td>Helps detect diabetes-related kidney problems.</td>
-            </tr>
-            <tr>
-                <td>Eye examination</td>
-                <td>Helps detect diabetes-related eye disease.</td>
-            </tr>
-            <tr>
-                <td>Foot examination</td>
-                <td>Helps identify nerve, skin, circulation, and wound problems.</td>
-            </tr>
-        </tbody>
-    </table>
+    <div class="my-8 overflow-x-auto rounded-xl border border-gray-200 shadow-sm">
+        <table class="w-full min-w-[650px] border-collapse">
+            <thead>
+                <tr class="bg-[#328CCB] text-white">
+                    <th class="border border-[#328CCB] px-5 py-4 text-left font-bold">Check</th>
+                    <th class="border border-[#328CCB] px-5 py-4 text-left font-bold">Why it matters</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr class="bg-white">
+                    <td class="border border-gray-200 px-5 py-4 font-semibold text-gray-900 align-top">A1C</td>
+                    <td class="border border-gray-200 px-5 py-4 text-gray-700 align-top">Assesses average glucose control over roughly 2 to 3 months.</td>
+                </tr>
+                <tr class="bg-gray-50">
+                    <td class="border border-gray-200 px-5 py-4 font-semibold text-gray-900 align-top">Blood pressure</td>
+                    <td class="border border-gray-200 px-5 py-4 text-gray-700 align-top">Helps assess cardiovascular and kidney risk.</td>
+                </tr>
+                <tr class="bg-white">
+                    <td class="border border-gray-200 px-5 py-4 font-semibold text-gray-900 align-top">Cholesterol</td>
+                    <td class="border border-gray-200 px-5 py-4 text-gray-700 align-top">Helps assess cardiovascular risk.</td>
+                </tr>
+                <tr class="bg-gray-50">
+                    <td class="border border-gray-200 px-5 py-4 font-semibold text-gray-900 align-top">Kidney testing</td>
+                    <td class="border border-gray-200 px-5 py-4 text-gray-700 align-top">Helps detect diabetes-related kidney problems.</td>
+                </tr>
+                <tr class="bg-white">
+                    <td class="border border-gray-200 px-5 py-4 font-semibold text-gray-900 align-top">Eye examination</td>
+                    <td class="border border-gray-200 px-5 py-4 text-gray-700 align-top">Helps detect diabetes-related eye disease.</td>
+                </tr>
+                <tr class="bg-gray-50">
+                    <td class="border border-gray-200 px-5 py-4 font-semibold text-gray-900 align-top">Foot examination</td>
+                    <td class="border border-gray-200 px-5 py-4 text-gray-700 align-top">Helps identify nerve, skin, circulation, and wound problems.</td>
+                </tr>
+            </tbody>
+        </table>
+    </div>
 
     <h2>10 Practical Tips for Better Diabetes Management</h2>
 
@@ -977,31 +999,37 @@ $blogs = [
         <li>Stay physically active according to your health and fitness level.</li>
         <li>Take prescribed medicines at the recommended times.</li>
         <li>Stay hydrated and choose suitable low-sugar beverages.</li>
-        <li>Get adequate and consistent sleep.</li>
+        <li>Maintain a regular sleep routine.</li>
         <li>Check your feet regularly.</li>
         <li>Keep regular medical appointments and recommended screenings.</li>
-        <li>Ask your healthcare team whenever you notice persistent changes in your glucose levels or symptoms.</li>
+        <li>Ask your healthcare team about persistent changes in glucose levels or new symptoms.</li>
     </ol>
+
+    <div class="my-10 rounded-2xl bg-gradient-to-r from-[#328CCB] to-[#2a7bb5] p-8 text-center text-white shadow-xl">
+        <h3 class="!mt-0 !mb-3 !border-0 !pl-0 !text-white">Need Help Managing Diabetes?</h3>
+        <p class="!mb-6 !text-white">Get personalized guidance for diabetes management, blood sugar control, nutrition, and long-term health.</p>
+        <a href="/contact" class="article-cta inline-block rounded-full bg-[#D66C43] px-8 py-3 font-bold no-underline transition-all hover:bg-[#c55a36]" style="color:#ffffff !important; text-decoration:none !important;">Book a Consultation</a>
+    </div>
 
     <h2>When Should You See an Endocrinologist?</h2>
 
-    <p>An endocrinologist specializes in hormonal conditions, including diabetes and related metabolic disorders. You may benefit from specialist care when diabetes is difficult to control, treatment needs become complex, or you have complications or other conditions that require specialist assessment.</p>
+    <p>An endocrinologist specializes in hormonal conditions, including diabetes and related metabolic disorders. Specialist care may be considered when diabetes is difficult to control, treatment becomes complex, or complications or other medical conditions require specialist assessment.</p>
 
     <p>Talk with your primary doctor or diabetes care team about whether an endocrinology consultation is appropriate for you.</p>
 
     <h2>Diabetes Management and Long-Term Health</h2>
 
-    <p>Consistent diabetes management can help protect your health over time. Keeping blood glucose, blood pressure, and cholesterol within recommended ranges can help reduce the risk of complications.</p>
+    <p>Consistent diabetes management can help protect your health over time. Keeping blood glucose, blood pressure, and cholesterol within recommended ranges can help reduce the risk of diabetes-related complications.</p>
 
-    <p>Heart health is particularly important because diabetes is associated with an increased risk of cardiovascular disease. Maintaining a healthy eating pattern, staying active, avoiding tobacco, taking prescribed medicines, and attending recommended checkups are important parts of comprehensive diabetes care.</p>
+    <p>Heart health is also important because diabetes is associated with an increased risk of cardiovascular disease. Maintaining a healthy eating pattern, staying active, avoiding tobacco, taking prescribed medicines, and attending recommended checkups are important parts of comprehensive diabetes care.</p>
 
-    <p>For more information about heart health, you can also read our guide on <a href="/blog/en/early-signs-of-heart-disease">early warning signs of heart disease</a>.</p>
+    <p>For more information about heart health, read our guide on <a href="/blog/en/early-signs-of-heart-disease">early warning signs of heart disease</a>.</p>
 
     <h2>Managing Diabetes Is a Daily Process</h2>
 
     <p>Diabetes management does not depend on one perfect meal, one glucose reading, or one day of exercise. It is a long-term process built around consistent habits, appropriate treatment, regular monitoring, and communication with your healthcare team.</p>
 
-    <p>Start with manageable routines and focus on the areas that have the greatest impact on your health. If your glucose levels remain outside your recommended range or your treatment becomes difficult to follow, speak with your healthcare professional rather than making major changes on your own.</p>
+    <p>Focus on manageable routines and follow the treatment plan created for you. If your glucose levels remain outside your recommended range or your treatment becomes difficult to follow, speak with your healthcare professional rather than making major changes on your own.</p>
 
     <h2>Medical References</h2>
 
