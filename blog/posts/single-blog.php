@@ -198,10 +198,16 @@ include __DIR__ . '/../../includes/head.php';
   </section>
 
   <!-- Featured Image -->
-  <div class="container mx-auto px-4 max-w-4xl -mt-8">
-    <img width="800" height="600" src="<?php echo $blog['image']; ?>" alt="<?php echo htmlspecialchars($blog['title']); ?>"
-         class="w-full h-64 lg:h-96 object-cover rounded-2xl shadow-2xl" />
-  </div>
+
+<div class="container mx-auto px-4 max-w-4xl -mt-8">
+
+  <img width="800"
+       height="600"
+       src="<?php echo $blog['image']; ?>"
+       alt="<?php echo htmlspecialchars($blog['title']); ?>"
+       class="w-full aspect-[4/3] object-cover rounded-2xl shadow-2xl" />
+
+</div>
 
   <!-- Article Body -->
   <article class="py-12 lg:py-16">
