@@ -210,38 +210,86 @@ include __DIR__ . '/../../includes/head.php';
 </div>
 
   <!-- Article Body -->
-  <article class="py-12 lg:py-16">
-    <div class="container mx-auto px-4 max-w-3xl">
-      <div class="prose prose-lg max-w-none text-gray-800 leading-relaxed space-y-6
-  [&_h2]:!text-3xl
-  [&_h2]:!font-bold
-  [&_h2]:!text-gray-900
-  [&_h2]:!leading-tight
-  [&_h2]:!mt-14
-  [&_h2]:!mb-6
-  [&_h2]:!pb-3
-  [&_h2]:!border-b-2
-  [&_h2]:!border-[#328CCB]
+<article class="py-12 lg:py-16">
+  <div class="container mx-auto px-4 max-w-3xl">
 
-  [&_h3]:!text-xl
-  [&_h3]:!font-bold
-  [&_h3]:!text-gray-900
-  [&_h3]:!leading-snug
-  [&_h3]:!mt-10
-  [&_h3]:!mb-4
-  [&_h3]:!pl-4
-  [&_h3]:!border-l-4
-  [&_h3]:!border-[#D66C43]
+    <div class="prose prose-lg max-w-none text-gray-800 leading-relaxed space-y-6
 
-  [&_a:not(.article-cta)]:!text-[#328CCB]
-  [&_a:not(.article-cta)]:!font-semibold
-  [&_a:not(.article-cta)]:underline
-  [&_a:not(.article-cta)]:!underline-offset-2
-  hover:[&_a:not(.article-cta)]:!text-[#2a7bb5]
-  [&_a:not(.article-cta)]:transition-colors">
-  
-  <?php echo $blog['content']; ?>
-</div>
+      [&_h2]:!text-3xl
+      [&_h2]:!font-bold
+      [&_h2]:!text-gray-900
+      [&_h2]:!leading-tight
+      [&_h2]:!mt-14
+      [&_h2]:!mb-6
+      [&_h2]:!pb-3
+      [&_h2]:!border-b-2
+      [&_h2]:!border-[#328CCB]
+
+      [&_h3]:!text-xl
+      [&_h3]:!font-bold
+      [&_h3]:!text-gray-900
+      [&_h3]:!leading-snug
+      [&_h3]:!mt-10
+      [&_h3]:!mb-4
+      [&_h3]:!pl-4
+      [&_h3]:!border-l-4
+      [&_h3]:!border-[#D66C43]
+
+      [&_ul]:!list-disc
+      [&_ul]:!pl-7
+      [&_ul]:!my-5
+      [&_ul>li]:!pl-2
+
+      [&_ol]:!list-decimal
+      [&_ol]:!pl-7
+      [&_ol]:!my-5
+      [&_ol>li]:!pl-2
+
+      [&_table]:!w-full
+      [&_table]:!border-collapse
+      [&_table]:!border
+      [&_table]:!border-gray-200
+      [&_table]:!rounded-2xl
+      [&_table]:!overflow-hidden
+      [&_table]:!shadow-sm
+      [&_table]:!my-8
+
+      [&_thead]:!bg-[#328CCB]
+
+      [&_th]:!bg-[#328CCB]
+      [&_th]:!text-white
+      [&_th]:!font-bold
+      [&_th]:!text-left
+      [&_th]:!px-6
+      [&_th]:!py-5
+      [&_th]:!border
+      [&_th]:!border-[#328CCB]
+
+      [&_td]:!px-6
+      [&_td]:!py-5
+      [&_td]:!border
+      [&_td]:!border-gray-200
+      [&_td]:!align-top
+
+      [&_tbody_tr:nth-child(odd)]:!bg-white
+      [&_tbody_tr:nth-child(even)]:!bg-gray-50
+
+      [&_tbody_td:first-child]:!font-semibold
+      [&_tbody_td:first-child]:!text-gray-900
+
+      [&_a:not(.article-cta)]:!text-[#328CCB]
+      [&_a:not(.article-cta)]:!font-semibold
+      [&_a:not(.article-cta)]:underline
+      [&_a:not(.article-cta)]:!underline-offset-2
+      hover:[&_a:not(.article-cta)]:!text-[#2a7bb5]
+      [&_a:not(.article-cta)]:transition-colors">
+
+      <?php echo $blog['content']; ?>
+
+    </div>
+
+  </div>
+</article>
 
       <!-- Inline CTA 1 -->
       <div class="my-12 bg-gradient-to-r from-[#328CCB] to-[#2a7bb5] text-white rounded-2xl p-8 text-center shadow-xl">
