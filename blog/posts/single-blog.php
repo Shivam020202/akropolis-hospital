@@ -249,8 +249,6 @@ include __DIR__ . '/../../includes/head.php';
       [&_table]:!border-collapse
       [&_table]:!border
       [&_table]:!border-gray-200
-      [&_table]:!rounded-2xl
-      [&_table]:!overflow-hidden
       [&_table]:!shadow-sm
       [&_table]:!my-8
 
