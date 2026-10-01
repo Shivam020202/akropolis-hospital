@@ -206,9 +206,36 @@ include __DIR__ . '/../../includes/head.php';
   <!-- Article Body -->
   <article class="py-12 lg:py-16">
     <div class="container mx-auto px-4 max-w-3xl">
-      <div class="prose prose-lg max-w-none text-gray-800 leading-relaxed space-y-6 [&_a]:!text-[#328CCB] [&_a]:!font-semibold [&_a]:underline [&_a]:underline-offset-2 hover:[&_a]:!text-[#2a7bb5] [&_a]:transition-colors">
-        <?php echo $blog['content']; ?>
-      </div>
+      <div class="prose prose-lg max-w-none text-gray-800 leading-relaxed space-y-6
+  [&_h2]:!text-3xl
+  [&_h2]:!font-bold
+  [&_h2]:!text-gray-900
+  [&_h2]:!leading-tight
+  [&_h2]:!mt-14
+  [&_h2]:!mb-6
+  [&_h2]:!pb-3
+  [&_h2]:!border-b-2
+  [&_h2]:!border-[#328CCB]
+
+  [&_h3]:!text-xl
+  [&_h3]:!font-bold
+  [&_h3]:!text-gray-900
+  [&_h3]:!leading-snug
+  [&_h3]:!mt-10
+  [&_h3]:!mb-4
+  [&_h3]:!pl-4
+  [&_h3]:!border-l-4
+  [&_h3]:!border-[#D66C43]
+
+  [&_a:not(.article-cta)]:!text-[#328CCB]
+  [&_a:not(.article-cta)]:!font-semibold
+  [&_a:not(.article-cta)]:underline
+  [&_a:not(.article-cta)]:!underline-offset-2
+  hover:[&_a:not(.article-cta)]:!text-[#2a7bb5]
+  [&_a:not(.article-cta)]:transition-colors">
+  
+  <?php echo $blog['content']; ?>
+</div>
 
       <!-- Inline CTA 1 -->
       <div class="my-12 bg-gradient-to-r from-[#328CCB] to-[#2a7bb5] text-white rounded-2xl p-8 text-center shadow-xl">
