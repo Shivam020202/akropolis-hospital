@@ -658,18 +658,432 @@ $blogs = [
     ',
 ],
     [
-        'slug'         => 'managing-diabetes-daily',
-        'title'        => 'Managing Diabetes: A Complete Daily Guide for Better Blood Sugar Control',
-        'excerpt'      => 'Practical, evidence-based strategies to keep your blood sugar stable throughout the day and prevent long-term complications.',
-        'content'      => '<p>Living with diabetes requires a balanced approach to diet, exercise, medication, and monitoring...</p>',
-        'image'        => 'https://images.pexels.com/photos/7088489/pexels-photo-7088489.jpeg?auto=compress&cs=tinysrgb&w=800',
-        'author'       => 'Dr. Priya Sharma',
-        'category'     => 'Endocrinology',
-        'tags'         => ['Diabetes', 'Lifestyle', 'Nutrition'],
-        'read_time'    => '8 min read',
-        'published_at' => '2026-05-28',
-        'status'       => 'published',
+    'slug'         => 'managing-diabetes-daily',
+
+    'title'        => 'Managing Diabetes: A Complete Daily Guide for Better Blood Sugar Control',
+
+    'excerpt'      => 'Learn how to manage diabetes every day with practical guidance on blood sugar monitoring, healthy eating, physical activity, medicines, sleep, foot care, and regular checkups.',
+
+    'image'        => '\assets\images\blog\English\managing-diabetes-daily.webp',
+
+    'author'       => 'Dr. Priya Sharma',
+
+    'category'     => 'Endocrinology',
+
+    'tags'         => [
+        'Diabetes Management',
+        'Blood Sugar Control',
+        'Diabetes Diet',
+        'Diabetes Monitoring',
+        'HbA1c',
+        'Diabetes Exercise',
+        'Diabetes Medicines',
+        'Type 2 Diabetes'
     ],
+
+    'read_time'    => '10 min read',
+
+    'published_at' => '2026-10-01',
+
+    'status'       => 'published',
+
+    'faqs'         => [
+
+        [
+            'question' => 'What is a normal blood sugar level for someone with diabetes?',
+            'answer'   => 'Blood sugar targets are individualized. For many nonpregnant adults with diabetes, common ADA targets are 80 to 130 mg/dL before meals and below 180 mg/dL at peak after meals. Your doctor may recommend different targets based on your health and treatment.'
+        ],
+
+        [
+            'question' => 'How often should I check my blood sugar?',
+            'answer'   => 'The frequency depends on your type of diabetes, medicines, insulin use, risk of low blood sugar, and treatment goals. Follow the monitoring schedule recommended by your healthcare team.'
+        ],
+
+        [
+            'question' => 'Can I eat carbohydrates if I have diabetes?',
+            'answer'   => 'Yes. People with diabetes can eat carbohydrates. The amount, type, portion size, meal balance, and overall eating pattern are important. Your individual diabetes care plan should guide your carbohydrate intake.'
+        ],
+
+        [
+            'question' => 'Is walking good for diabetes?',
+            'answer'   => 'Walking is a practical form of physical activity that can support blood sugar control and overall health. Many adults with diabetes are advised to work toward at least 150 minutes of moderate physical activity each week, depending on their health and fitness level.'
+        ],
+
+        [
+            'question' => 'Can diabetes be cured?',
+            'answer'   => 'There is no universal cure for diabetes. Some people with type 2 diabetes can achieve remission through sustained lifestyle changes, weight management, and medical treatment. Type 1 diabetes requires ongoing insulin treatment.'
+        ],
+
+        [
+            'question' => 'When should I see an endocrinologist for diabetes?',
+            'answer'   => 'An endocrinology consultation may be useful when blood sugar remains difficult to control, low blood sugar occurs repeatedly, treatment is complex, insulin management is needed, or diabetes-related complications develop.'
+        ]
+
+    ],
+
+    'content'      => '
+
+<h2>Quick Answer: How Can You Manage Diabetes Every Day?</h2>
+
+<p>Managing diabetes is not about keeping blood sugar at one perfect number throughout the day. It is about following a personalized care plan that helps keep blood glucose, blood pressure, cholesterol, weight, and other health measures within the ranges recommended by your healthcare team.</p>
+
+<p>A practical daily routine usually includes taking prescribed medicines correctly, monitoring blood sugar when advised, eating balanced meals, staying physically active, getting enough sleep, managing stress, checking your feet, and attending regular medical appointments.</p>
+
+<p>Your exact blood sugar targets depend on factors such as your age, type of diabetes, medicines, other health conditions, pregnancy status, and risk of low blood sugar. Do not change your medicine or treatment targets without discussing them with your doctor.</p>
+
+<h2>What Is Diabetes Management?</h2>
+
+<p>Diabetes management means taking regular steps to keep blood glucose within your individualized target range while reducing the risk of short-term problems and long-term complications.</p>
+
+<p>Diabetes can affect the heart, kidneys, eyes, nerves, blood vessels, and feet. Good management can help prevent or delay many diabetes-related health problems. Your diabetes care plan may include lifestyle changes, blood glucose monitoring, medicines, regular laboratory tests, and screening for complications.</p>
+
+<p>The American Diabetes Association recommends assessing glycemic status with A1C and, when appropriate, blood glucose monitoring or continuous glucose monitoring. Treatment goals should be individualized rather than applied identically to every person.</p>
+
+<h2>The 7 Foundations of Daily Diabetes Management</h2>
+
+<h3>1. Monitor Your Blood Sugar as Recommended</h3>
+
+<p>Blood glucose monitoring helps you understand how meals, physical activity, medicines, illness, stress, and other factors affect your glucose levels.</p>
+
+<p>Some people use a blood glucose meter, while others may benefit from a continuous glucose monitor, also called a CGM. How often you need to check depends on your type of diabetes, treatment plan, risk of hypoglycemia, and other individual factors.</p>
+
+<p>Common times for checking may include before meals, after meals, at bedtime, or around physical activity. Your doctor should tell you when and how often to monitor.</p>
+
+<p>Keep a record of your readings when advised. Recording the date, time, food, physical activity, symptoms, and medicines can help your healthcare team identify patterns and adjust your care plan when needed.</p>
+
+<h3>2. Know Your Blood Sugar Targets</h3>
+
+<p>Blood sugar targets are individualized. For many nonpregnant adults with diabetes, the American Diabetes Association lists an A1C goal below 7 percent, a premeal glucose target of 80 to 130 mg/dL, and a peak postmeal glucose target below 180 mg/dL.</p>
+
+<table>
+<thead>
+<tr>
+<th>Measure</th>
+<th>Common target for many nonpregnant adults</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>A1C</td>
+<td>Below 7 percent</td>
+</tr>
+<tr>
+<td>Before meals</td>
+<td>80 to 130 mg/dL</td>
+</tr>
+<tr>
+<td>Peak after meals</td>
+<td>Below 180 mg/dL</td>
+</tr>
+</tbody>
+</table>
+
+<p>These are general targets and are not appropriate for every person. Older adults, people with significant health conditions, people at higher risk of hypoglycemia, pregnant women, and other groups may need different targets.</p>
+
+<p>Ask your endocrinologist or diabetes care team what your personal targets should be rather than comparing your numbers with someone else.</p>
+
+<h3>3. Build Balanced Meals Instead of Following Extreme Diets</h3>
+
+<p>Food has a major effect on blood glucose, but diabetes does not mean that you must permanently eliminate every food you enjoy.</p>
+
+<p>A healthy diabetes meal plan can include nonstarchy vegetables, whole grains, protein foods, fruits, and suitable dairy or plant-based alternatives. Portion size, carbohydrate amount, meal timing, and overall nutritional balance also matter.</p>
+
+<p>Carbohydrates generally have a greater immediate effect on blood glucose than protein or fat. Carbohydrate counting or the plate method may help some people plan meals, but the best approach depends on your treatment plan and personal needs.</p>
+
+<p>Try to make water or other unsweetened drinks your usual choice. Limit foods and drinks high in added sugar, saturated fat, sodium, and excess calories.</p>
+
+<p>For additional nutrition support, you can explore the <a href="/health-nutrition">Health and Nutrition services at Akropolis Hospital</a>.</p>
+
+<h3>4. Stay Physically Active</h3>
+
+<p>Regular physical activity can help improve blood glucose, blood pressure, cholesterol, cardiovascular health, sleep, mood, and weight management.</p>
+
+<p>For many adults with diabetes, a useful general goal is at least 150 minutes of moderate-intensity physical activity each week. Strength training is also important, and many adults can benefit from resistance exercises on at least two days each week.</p>
+
+<p>You do not have to complete all your activity in one session. Walking after meals, taking short movement breaks during long periods of sitting, and gradually increasing activity can make daily movement easier to maintain.</p>
+
+<p>If you use insulin or medicines that can cause hypoglycemia, ask your healthcare team how exercise may affect your blood glucose and whether you need additional precautions.</p>
+
+<h3>5. Take Diabetes Medicines Correctly</h3>
+
+<p>Diabetes medicines work in different ways. Depending on your type of diabetes and health needs, treatment may include oral medicines, injectable medicines, insulin, or combinations of treatments.</p>
+
+<p>Take your medicines exactly as prescribed. Do not stop insulin or change the dose of a diabetes medicine because of a single blood glucose reading unless your healthcare professional has given you a specific plan for doing so.</p>
+
+<p>If you regularly experience high or low blood glucose, discuss the pattern with your doctor. Your treatment plan may need to be reviewed.</p>
+
+<h3>6. Protect Your Sleep and Mental Health</h3>
+
+<p>Diabetes management can be demanding, and stress, poor sleep, anxiety, and diabetes-related distress can make daily self-care harder.</p>
+
+<p>Most adults should aim for about 7 to 8 hours of sleep each night. A consistent sleep schedule, regular physical activity, and a relaxing bedtime routine may support better sleep.</p>
+
+<p>If you frequently feel overwhelmed by diabetes or have persistent feelings of sadness or hopelessness, speak with your healthcare team. Mental health is an important part of diabetes care.</p>
+
+<h3>7. Check Your Feet Every Day</h3>
+
+<p>Diabetes can damage nerves and blood vessels in the feet. Reduced sensation can make it difficult to notice an injury, blister, cut, or other problem.</p>
+
+<p>Check your feet regularly for cuts, blisters, redness, swelling, skin changes, or sores. Keep your feet clean and dry, and wear properly fitting footwear.</p>
+
+<p>Contact your healthcare professional promptly if you notice a wound, infection, significant swelling, color change, or another unusual foot problem.</p>
+
+<h2>A Simple Daily Diabetes Routine</h2>
+
+<p>A routine can make diabetes care easier to remember. Your exact schedule should be personalized according to your treatment plan.</p>
+
+<table>
+<thead>
+<tr>
+<th>Part of the day</th>
+<th>Possible diabetes-care habits</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Morning</td>
+<td>Check glucose if advised, take prescribed medicines, eat a balanced breakfast, and review your plan for the day.</td>
+</tr>
+<tr>
+<td>During meals</td>
+<td>Pay attention to portions and carbohydrate choices and follow your prescribed medication schedule.</td>
+</tr>
+<tr>
+<td>After meals</td>
+<td>Consider light physical activity if appropriate and monitor glucose when your care plan requires it.</td>
+</tr>
+<tr>
+<td>During the day</td>
+<td>Stay hydrated, avoid prolonged sitting, and monitor glucose according to your doctors instructions.</td>
+</tr>
+<tr>
+<td>Evening</td>
+<td>Take prescribed medicines, review glucose readings if required, check your feet, and prepare for adequate sleep.</td>
+</tr>
+</tbody>
+</table>
+
+<h2>Understanding A1C and Why It Matters</h2>
+
+<p>A1C is a blood test that reflects average blood glucose over approximately the previous 2 to 3 months. It is one of the main tools used to assess long-term glucose control.</p>
+
+<p>The American Diabetes Association recommends assessing glycemic status at least twice a year for people who are meeting their goals and more frequently when goals are not being met or treatment has recently changed.</p>
+
+<p>A1C should be interpreted in context. Certain medical conditions can affect the accuracy of A1C, so your doctor may use other measures when appropriate.</p>
+
+<p>Akropolis Hospital also provides <a href="/laboratory">laboratory testing services</a> that include HbA1c testing for diabetes.</p>
+
+<h2>What Is Hypoglycemia?</h2>
+
+<p>Hypoglycemia means that blood glucose has fallen too low. The CDC generally defines a blood glucose level below 70 mg/dL as low blood sugar.</p>
+
+<p>Symptoms may include shakiness, sweating, hunger, dizziness, confusion, weakness, or a fast heartbeat. People taking insulin or certain diabetes medicines may be at greater risk.</p>
+
+<p>If your blood glucose is below 70 mg/dL, the CDC recommends the 15-15 approach for many people: consume 15 grams of fast-acting carbohydrate, wait 15 minutes, and check your blood glucose again. Repeat if it remains below 70 mg/dL.</p>
+
+<p>Children and some other people may need a different treatment plan. Ask your doctor what to do for low blood sugar and whether you should keep glucose tablets or another fast-acting carbohydrate available.</p>
+
+<h2>What Is Hyperglycemia?</h2>
+
+<p>Hyperglycemia means that blood glucose is higher than your target range. It can occur because of illness, stress, food choices, missed medicines, insufficient insulin, or other factors.</p>
+
+<p>Persistent high blood glucose should not be ignored. Record your readings and discuss repeated high results with your healthcare team.</p>
+
+<p>If you have diabetes and become sick, ask your doctor about sick-day instructions. People with type 1 diabetes may need ketone testing during illness or when glucose is very high because high ketone levels can be associated with diabetic ketoacidosis.</p>
+
+<h2>When Should You Check Your Diabetes More Closely?</h2>
+
+<p>Your monitoring needs may change when your health or treatment changes.</p>
+
+<ul>
+<li>You start or change a diabetes medicine.</li>
+<li>Your blood glucose is frequently above or below your target.</li>
+<li>You experience repeated episodes of hypoglycemia.</li>
+<li>You become sick or develop an infection.</li>
+<li>Your physical activity changes significantly.</li>
+<li>Your eating pattern changes substantially.</li>
+<li>You become pregnant or are planning pregnancy.</li>
+<li>You develop new symptoms or another health condition.</li>
+</ul>
+
+<p>Do not make major treatment changes based only on information from the internet. Discuss persistent glucose problems with your healthcare team.</p>
+
+<h2>Regular Diabetes Checkups and Screening</h2>
+
+<p>Diabetes care goes beyond daily glucose readings. Regular appointments help your healthcare team review your treatment and screen for complications.</p>
+
+<table>
+<thead>
+<tr>
+<th>Check</th>
+<th>Why it matters</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>A1C</td>
+<td>Assesses average glucose control over roughly 2 to 3 months.</td>
+</tr>
+<tr>
+<td>Blood pressure</td>
+<td>Helps assess cardiovascular and kidney risk.</td>
+</tr>
+<tr>
+<td>Cholesterol</td>
+<td>Helps assess cardiovascular risk.</td>
+</tr>
+<tr>
+<td>Kidney testing</td>
+<td>Helps detect diabetes-related kidney problems.</td>
+</tr>
+<tr>
+<td>Eye examination</td>
+<td>Helps detect diabetes-related eye disease.</td>
+</tr>
+<tr>
+<td>Foot examination</td>
+<td>Helps identify nerve, skin, circulation, and wound problems.</td>
+</tr>
+</tbody>
+</table>
+
+<p>The exact frequency of these checks depends on your health and diabetes history. Your doctor may recommend more frequent monitoring if you have existing complications or your treatment goals are not being met.</p>
+
+<p>You can also read our guide on the <a href="/blog/en/importance-of-regular-health-checkups">importance of regular health checkups</a>.</p>
+
+<h2>Diabetes and Long-Term Health</h2>
+
+<p>Keeping blood glucose, blood pressure, and cholesterol under appropriate control can help reduce the risk of diabetes-related complications.</p>
+
+<p>Important areas of diabetes care include:</p>
+
+<ul>
+<li>Heart and blood vessel health</li>
+<li>Kidney health</li>
+<li>Eye health</li>
+<li>Nerve health</li>
+<li>Foot health</li>
+<li>Blood pressure</li>
+<li>Cholesterol</li>
+<li>Weight management</li>
+</ul>
+
+<p>Diabetes management is therefore broader than blood sugar alone. A complete care plan considers your overall health and individual risk factors.</p>
+
+<h2>Diabetes and Heart Health</h2>
+
+<p>Diabetes is an important cardiovascular risk factor. High blood glucose can occur alongside high blood pressure, abnormal cholesterol levels, and other factors that increase cardiovascular risk.</p>
+
+<p>Managing diabetes therefore includes more than checking glucose. Blood pressure, cholesterol, smoking status, physical activity, nutrition, and other cardiovascular risk factors should also be addressed with your healthcare team.</p>
+
+<p>If you have symptoms such as chest discomfort, unexplained shortness of breath, fainting, or other concerning symptoms, seek appropriate medical evaluation. You can also read our guide to the <a href="/blog/en/early-signs-of-heart-disease">early warning signs of heart disease</a>.</p>
+
+<h2>10 Practical Tips for Better Daily Diabetes Management</h2>
+
+<ol>
+<li>Know your personal blood glucose targets.</li>
+<li>Monitor glucose according to your treatment plan.</li>
+<li>Take medicines exactly as prescribed.</li>
+<li>Build balanced meals with appropriate portions.</li>
+<li>Stay physically active throughout the week.</li>
+<li>Drink water regularly and limit sugary drinks.</li>
+<li>Check your feet and report concerning changes.</li>
+<li>Prioritize consistent, adequate sleep.</li>
+<li>Keep track of glucose readings and important symptoms.</li>
+<li>Attend scheduled appointments and recommended screening tests.</li>
+</ol>
+
+<h2>When Should You See an Endocrinologist?</h2>
+
+<p>An endocrinologist specializes in conditions involving hormones and metabolism, including diabetes.</p>
+
+<p>You may benefit from specialist care if your blood glucose remains difficult to control, you experience repeated hypoglycemia, your treatment plan is complex, you need insulin management, or you have diabetes-related complications or other endocrine conditions.</p>
+
+<p>Your diabetes care team may also include a primary care doctor, diabetes educator, dietitian, pharmacist, eye-care professional, podiatry professional, or other specialists depending on your needs.</p>
+
+<h2>Frequently Asked Questions About Diabetes Management</h2>
+
+<h3>What is a normal blood sugar level for someone with diabetes?</h3>
+
+<p>Targets vary from person to person. For many nonpregnant adults with diabetes, common targets include 80 to 130 mg/dL before meals and a peak postmeal glucose below 180 mg/dL. Your doctor may set different targets based on your individual health and treatment plan.</p>
+
+<h3>How often should I check my blood sugar?</h3>
+
+<p>There is no single schedule for everyone. The frequency depends on your type of diabetes, medicines, use of insulin or CGM, risk of hypoglycemia, and treatment goals. Follow the monitoring schedule provided by your healthcare team.</p>
+
+<h3>Can I eat carbohydrates if I have diabetes?</h3>
+
+<p>Yes. People with diabetes can eat carbohydrates, but the amount and type of carbohydrate matter. Portion control, food quality, meal balance, and your individual treatment plan are important.</p>
+
+<h3>Is walking good for diabetes?</h3>
+
+<p>Walking is a practical form of physical activity that can help with blood glucose control and overall health. Many adults with diabetes are advised to work toward at least 150 minutes of moderate activity each week, although your activity plan should be personalized.</p>
+
+<h3>Can diabetes be cured?</h3>
+
+<p>There is currently no universal cure for diabetes. Some people with type 2 diabetes can achieve remission through significant and sustained changes in weight, lifestyle, and medical treatment, but remission is different from a guaranteed permanent cure. Type 1 diabetes requires ongoing insulin treatment.</p>
+
+<h3>When should I see a diabetes specialist?</h3>
+
+<p>Consider discussing specialist care with your doctor if your blood glucose remains difficult to manage, you have repeated low blood sugar episodes, your treatment is complex, or you develop diabetes-related complications.</p>
+
+<h2>Conclusion</h2>
+
+<p>Managing diabetes successfully is a daily process rather than a single treatment or diet. Regular glucose monitoring, balanced nutrition, physical activity, prescribed medicines, adequate sleep, foot care, and routine medical checkups all have a role.</p>
+
+<p>The most important step is to build a diabetes care plan that fits your health, lifestyle, treatment, and personal goals. If your blood sugar repeatedly falls outside your target range or you develop new symptoms, speak with your healthcare team rather than changing your treatment on your own.</p>
+
+<p>For personalized diabetes evaluation and management, consult a qualified endocrinology professional.</p>
+
+<h2>Medical References</h2>
+
+<ol class="list-decimal pl-6 space-y-2 my-4 text-gray-700">
+
+<li>
+<a href="https://diabetesjournals.org/care/issue/49/Supplement_1"
+target="_blank"
+rel="noopener noreferrer">
+American Diabetes Association: Standards of Care in Diabetes 2026
+</a>
+</li>
+
+<li>
+<a href="https://www.cdc.gov/diabetes/treatment/index.html"
+target="_blank"
+rel="noopener noreferrer">
+Centers for Disease Control and Prevention: Diabetes Treatment
+</a>
+</li>
+
+<li>
+<a href="https://www.niddk.nih.gov/health-information/diabetes/overview/insulin-medicines-treatments"
+target="_blank"
+rel="noopener noreferrer">
+National Institute of Diabetes and Digestive and Kidney Diseases: Diabetes Management
+</a>
+</li>
+
+<li>
+<a href="https://www.mayoclinic.org/diseases-conditions/diabetes/in-depth/diabetes-management/art-20047963"
+target="_blank"
+rel="noopener noreferrer">
+Mayo Clinic: Diabetes Management
+</a>
+</li>
+
+</ol>
+
+<div class="bg-gray-50 border border-gray-200 p-5 my-8 rounded-xl text-sm text-gray-600">
+
+<p>
+<strong>Medical information notice:</strong>
+This article is intended for general health education and does not replace diagnosis, treatment, or advice from a qualified healthcare professional. Diabetes treatment and blood glucose targets should be individualized. If you have severe symptoms or a medical emergency, seek immediate medical care.
+</p>
+
+</div>
+
+'
+],
     [
         'slug'         => 'knee-replacement-recovery',
         'title'        => 'Knee Replacement Recovery: What to Expect in the First 90 Days',
