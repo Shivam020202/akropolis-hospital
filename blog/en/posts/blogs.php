@@ -2661,7 +2661,7 @@ $blogs = [
     'slug'         => 'pregnancy-care-first-trimester',
     'title'        => 'First Trimester Pregnancy Care: A Week-by-Week Guide for Moms-to-Be',
     'excerpt'      => 'A practical week-by-week guide to first trimester pregnancy care, including baby development, common symptoms, nutrition, prenatal visits, tests, safety tips, and warning signs.',
-    'image'        => '\assets\images\blog\English\pregnancy-care-first-trimester.webp',
+    'image'        => 'assets\images\blog\English\pregnancy-care-first-trimester.webp',
     'author'       => 'Dr Anu Nagpal',
     'category'     => 'Obstetrics & Gynecology',
     'tags'         => [
@@ -2928,7 +2928,7 @@ $blogs = [
         </p>
 
         <p>
-            Mayo Clinic notes that the first prenatal assessment may include medical history, physical examination, weight and height measurements, blood tests, and discussion of nutrition, exercise, medicines, vaccinations, dental care, travel, and other lifestyle considerations. :chatgpt-content-reference{index="1"}
+            Mayo Clinic notes that the first prenatal assessment may include medical history, physical examination, weight and height measurements, blood tests, and discussion of nutrition, exercise, medicines, vaccinations, dental care, travel, and other lifestyle considerations.
         </p>
 
         <h3>What Your Doctor May Ask About</h3>
@@ -2976,7 +2976,7 @@ $blogs = [
         <h3>Important Nutrients</h3>
 
         <ul>
-            <li><strong>Folic acid:</strong> Important for development of the fetal brain and spinal cord. ACOG recommends a prenatal vitamin containing at least 400 micrograms of folic acid starting at least one month before pregnancy when possible and during the first 12 weeks. :chatgpt-content-reference{index="2"}</li>
+            <li><strong>Folic acid:</strong> Important for development of the fetal brain and spinal cord. ACOG recommends a prenatal vitamin containing at least 400 micrograms of folic acid starting at least one month before pregnancy when possible and during the first 12 weeks.</li>
             <li><strong>Iron:</strong> Supports the increased blood supply required during pregnancy and helps prevent iron deficiency.</li>
             <li><strong>Calcium:</strong> Supports maternal bone health and fetal skeletal development.</li>
             <li><strong>Vitamin D:</strong> Important for bone and overall health.</li>
@@ -3004,7 +3004,7 @@ $blogs = [
         </ul>
 
         <p>
-            ACOG recommends discussing nutrition and prenatal vitamins with your obstetrician or another qualified healthcare professional. :chatgpt-content-reference{index="3"}
+            ACOG recommends discussing nutrition and prenatal vitamins with your obstetrician or another qualified healthcare professional.
         </p>
 
         <h2>Medicines During the First Trimester</h2>
