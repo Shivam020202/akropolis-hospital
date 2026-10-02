@@ -3771,7 +3771,7 @@ Yet conversations about mental health often become quieter as people get older. 
 </p>
 
 <p>
-Neither assumption is helpful. Mental health remains an important part of overall health throughout adulthood, and evidence on later-life mental health shows that stigma and ageism can become barriers to recognition and care. :chatgpt-content-reference{index="2"}
+Neither assumption is helpful. Mental health remains an important part of overall health throughout adulthood, and evidence on later-life mental health shows that stigma and ageism can become barriers to recognition and care.
 </p>
 
 <h2>First, Let Us Break One Important Myth: 40 Is Not Old</h2>
@@ -3781,7 +3781,7 @@ Age 40 is not a medical boundary between being young and being old. People reach
 </p>
 
 <p>
-The phrase aging can sometimes carry negative assumptions, such as believing that people inevitably become less capable, less active, less independent, or less mentally healthy with age. Research on ageism shows that negative stereotypes about aging can affect how older adults are viewed and how they view themselves. :chatgpt-content-reference{index="3"}
+The phrase aging can sometimes carry negative assumptions, such as believing that people inevitably become less capable, less active, less independent, or less mentally healthy with age. Research on ageism shows that negative stereotypes about aging can affect how older adults are viewed and how they view themselves.
 </p>
 
 <div class="my-8 rounded-2xl border border-gray-200 bg-gray-50 p-6 shadow-sm">
@@ -3798,7 +3798,7 @@ People in their 40s and 50s may be managing several responsibilities at the same
 </p>
 
 <p>
-Research and clinical guidance on midlife mental health also point to the importance of life transitions, stress, sleep, physical health, and social connection. :chatgpt-content-reference{index="4"}
+Research and clinical guidance on midlife mental health also point to the importance of life transitions, stress, sleep, physical health, and social connection.
 </p>
 
 <table>
@@ -3872,7 +3872,7 @@ Occasional worry is different from an anxiety disorder. The concern becomes more
 <h3>Depression</h3>
 
 <p>
-Depression is not a normal part of aging. It can affect mood, interest, energy, sleep, appetite, concentration, relationships, and daily functioning. Older adults may not always describe themselves as feeling sad, which can make depression easier to overlook. :chatgpt-content-reference{index="5"}
+Depression is not a normal part of aging. It can affect mood, interest, energy, sleep, appetite, concentration, relationships, and daily functioning. Older adults may not always describe themselves as feeling sad, which can make depression easier to overlook. 
 </p>
 
 <p>
@@ -3882,11 +3882,11 @@ Persistent loss of interest, hopelessness, withdrawal from normal activities, ma
 <h3>Sleep Problems</h3>
 
 <p>
-Sleep patterns can change with age, and medical conditions, medicines, pain, stress, and mental health conditions can all affect sleep. Poor-quality sleep can affect mood, concentration, decision-making, and daily functioning. :chatgpt-content-reference{index="6"}
+Sleep patterns can change with age, and medical conditions, medicines, pain, stress, and mental health conditions can all affect sleep. Poor-quality sleep can affect mood, concentration, decision-making, and daily functioning. 
 </p>
 
 <p>
-Adults generally need about seven to nine hours of sleep each night. If you regularly struggle to sleep or remain tired during the day, discuss the problem with a healthcare professional rather than assuming it is simply an age-related change. :chatgpt-content-reference{index="7"}
+Adults generally need about seven to nine hours of sleep each night. If you regularly struggle to sleep or remain tired during the day, discuss the problem with a healthcare professional rather than assuming it is simply an age-related change.
 </p>
 
 <h2>Is Forgetfulness Always a Sign of Aging?</h2>
@@ -3912,7 +3912,7 @@ However, significant or progressive changes in memory, thinking, communication, 
 </div>
 
 <p>
-Not every memory complaint indicates a neurocognitive disorder. Sleep problems, depression, anxiety, medicines, medical conditions, and other factors can also affect concentration and memory. A proper assessment is therefore more useful than making assumptions based on age alone. :chatgpt-content-reference{index="8"}
+Not every memory complaint indicates a neurocognitive disorder. Sleep problems, depression, anxiety, medicines, medical conditions, and other factors can also affect concentration and memory. A proper assessment is therefore more useful than making assumptions based on age alone.
 </p>
 
 <h2>The Mental Health Impact of Social Isolation</h2>
@@ -3922,7 +3922,7 @@ Human connection remains important throughout adulthood. Changes in employment, 
 </p>
 
 <p>
-Loneliness and social isolation are associated with poorer mental health and increased risk of depression. The World Health Organization identifies loneliness and social isolation as important risk factors for mental health conditions in later life. :chatgpt-content-reference{index="9"}
+Loneliness and social isolation are associated with poorer mental health and increased risk of depression. The World Health Organization identifies loneliness and social isolation as important risk factors for mental health conditions in later life.
 </p>
 
 <h3>Simple Ways to Stay Connected</h3>
@@ -3943,7 +3943,7 @@ Social connection does not have to mean having a large social circle. A few supp
 <h2>Can Physical Activity Support Mental Health After 40?</h2>
 
 <p>
-Yes. Physical activity supports both physical and emotional wellbeing. The National Institute on Aging notes that regular activity can reduce feelings of depression and anxiety, improve sleep, support cognitive function, and provide opportunities for social connection. :chatgpt-content-reference{index="10"}
+Yes. Physical activity supports both physical and emotional wellbeing. The National Institute on Aging notes that regular activity can reduce feelings of depression and anxiety, improve sleep, support cognitive function, and provide opportunities for social connection.
 </p>
 
 <p>
@@ -3960,7 +3960,7 @@ The most useful activity is often one that you can perform safely and consistent
 <h2>Sleep Is Part of Mental Health</h2>
 
 <p>
-Sleep and mental health influence each other. Stress and anxiety can make it difficult to sleep, while inadequate sleep can make emotional regulation and concentration more difficult. :chatgpt-content-reference{index="11"}
+Sleep and mental health influence each other. Stress and anxiety can make it difficult to sleep, while inadequate sleep can make emotional regulation and concentration more difficult.
 </p>
 
 <h3>Healthy Sleep Habits</h3>
@@ -3982,7 +3982,7 @@ For many women, the years after 40 may overlap with perimenopause, the transitio
 </p>
 
 <p>
-Mood changes, anxiety, sleep problems, irritability, and difficulty concentrating can occur during the menopause transition. ACOG notes that hormonal changes and physical symptoms can contribute to emotional changes, while the wider pressures of the 40s and 50s can add to the burden. :chatgpt-content-reference{index="12"}
+Mood changes, anxiety, sleep problems, irritability, and difficulty concentrating can occur during the menopause transition. ACOG notes that hormonal changes and physical symptoms can contribute to emotional changes, while the wider pressures of the 40s and 50s can add to the burden.
 </p>
 
 <p>
@@ -3996,7 +3996,7 @@ Stigma can take several forms. Someone may fear being judged, worry that others 
 </p>
 
 <p>
-Research on aging and mental health describes both ageism and mental health stigma as barriers that can contribute to underrecognition and unequal access to care. :chatgpt-content-reference{index="13"}
+Research on aging and mental health describes both ageism and mental health stigma as barriers that can contribute to underrecognition and unequal access to care. 
 </p>
 
 <table>
@@ -4059,7 +4059,7 @@ Consider speaking with a healthcare professional if you notice:
         If you or someone you know is at immediate risk of self-harm or suicide, do not stay alone with the situation. Seek emergency medical care or contact an appropriate local emergency or crisis service immediately.
     </p>
     <p class="!mb-0">
-        A person expressing hopelessness, saying they have no reason to live, or talking about self-harm needs prompt attention rather than dismissal. :chatgpt-content-reference{index="14"}
+        A person expressing hopelessness, saying they have no reason to live, or talking about self-harm needs prompt attention rather than dismissal. 
     </p>
 </div>
 
