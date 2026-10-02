@@ -3221,18 +3221,490 @@ $blogs = [
     </div>',
 ],
     [
-        'slug'         => 'kidney-stones-prevention',
-        'title'        => 'Kidney Stones: Causes, Symptoms, and How to Prevent Them',
-        'excerpt'      => 'Kidney stones are increasingly common. Learn what causes them, how to recognize the symptoms, and simple prevention tips.',
-        'content'      => '<p>Kidney stones affect 1 in 10 people at some point in their lives. The good news: most are preventable...</p>',
-        'image'        => 'https://images.pexels.com/photos/4386466/pexels-photo-4386466.jpeg?auto=compress&cs=tinysrgb&w=800',
-        'author'       => 'Dr. Sanjay Roy',
-        'category'     => 'Nephrology',
-        'tags'         => ['Kidney Health', 'Nephrology', 'Hydration'],
-        'read_time'    => '6 min read',
-        'published_at' => '2026-04-15',
-        'status'       => 'published',
+    'slug'         => 'kidney-stones-prevention',
+    'title'        => 'Kidney Stones: Causes, Symptoms, and How to Prevent Them',
+    'excerpt'      => 'Learn what causes kidney stones, how to recognize common symptoms, who is at higher risk, and what you can do to reduce the chance of developing them again.',
+    'image'        => '\assets\images\blog\English\kidney-stones-causes-symptoms-and-prevention.webp',
+    'author'       => 'Dr Sanjay Roy',
+    'category'     => 'Nephrology',
+    'tags'         => [
+        'kidney stones',
+        'kidney stone symptoms',
+        'kidney stone causes',
+        'kidney stone prevention',
+        'kidney health',
+        'nephrology',
+        'kidney stone diet',
+        'urinary health'
     ],
+    'read_time'    => '10 min read',
+    'published_at' => '2026-10-02',
+    'status'       => 'published',
+
+    'faqs' => [
+        [
+            'question' => 'What are the most common symptoms of kidney stones?',
+            'answer'   => 'Common symptoms include sharp pain in the side or back, pain that may move toward the lower abdomen or groin, painful urination, blood in the urine, frequent urination, nausea, and vomiting. Fever or chills may indicate an infection and require prompt medical attention.'
+        ],
+        [
+            'question' => 'What causes kidney stones?',
+            'answer'   => 'Kidney stones form when certain minerals and salts become concentrated in urine and form crystals. Dehydration, high sodium intake, certain dietary patterns, family history, some medical conditions, and certain medicines or supplements can increase the risk.'
+        ],
+        [
+            'question' => 'How much water should I drink to prevent kidney stones?',
+            'answer'   => 'Fluid needs vary between individuals. People with a history of kidney stones are often advised to drink enough fluid to keep urine well diluted and produce a high urine volume. Your doctor may recommend a specific target, especially if you have kidney disease or another condition that requires fluid restriction.'
+        ],
+        [
+            'question' => 'Should I stop eating calcium if I have kidney stones?',
+            'answer'   => 'Usually, no. Adequate dietary calcium can help reduce the absorption of oxalate in the digestive tract. Low-calcium diets may increase the risk of some calcium oxalate stones. Calcium supplements should only be used when medically appropriate and according to your doctors advice.'
+        ],
+        [
+            'question' => 'When should I seek urgent medical care for a kidney stone?',
+            'answer'   => 'Seek urgent medical care if severe stone pain occurs with fever or chills, persistent vomiting, difficulty passing urine, significant blood in the urine, or severe pain that does not improve. These symptoms can indicate complications such as infection or urinary obstruction.'
+        ],
+        [
+            'question' => 'Can kidney stones come back after treatment?',
+            'answer'   => 'Yes. Having one kidney stone increases the chance of developing another. Prevention depends on the type of stone, fluid intake, diet, medical conditions, and sometimes prescription medicine. Stone analysis and urine testing can help guide a personalized prevention plan.'
+        ]
+    ],
+
+    'content' => '
+<div class="my-8 rounded-2xl border-l-4 border-[#328CCB] bg-blue-50 p-6 shadow-sm">
+    <h2 class="!mt-0 !mb-3 !border-0 !pl-0">Quick Answer</h2>
+    <p class="!mb-0">
+        Kidney stones are hard crystals that form when certain minerals and salts become too concentrated in urine. They may remain in the kidney without causing symptoms, but pain can begin when a stone moves into the ureter. Common symptoms include sharp side or back pain, pain during urination, blood in the urine, nausea, vomiting, and frequent urination. Staying well hydrated, reducing excess sodium, maintaining appropriate dietary calcium, and following a stone-specific diet can help reduce the risk of future stones.
+    </p>
+</div>
+
+<p>
+Kidney stones are a common urinary system problem that can affect people of different ages. A stone may be very small and pass without symptoms, while a larger stone can become stuck and cause severe pain or block the normal flow of urine.
+</p>
+
+<p>
+The good news is that many kidney stones can be prevented from recurring. The most effective prevention plan depends on why the stone formed, what type of stone it is, your medical history, your diet, and your urine composition.
+</p>
+
+<h2>What Are Kidney Stones?</h2>
+
+<p>
+Kidney stones are hard deposits made from minerals and salts that form inside the kidneys. They develop when urine contains more crystal-forming substances than the available fluid can dilute.
+</p>
+
+<p>
+Calcium, oxalate, uric acid, and other substances can form crystals when their concentration becomes high enough. Over time, these crystals can join together and develop into a kidney stone.
+</p>
+
+<p>
+A small stone may pass through the urinary tract without causing noticeable symptoms. A stone that moves into the ureter can irritate the urinary tract or block urine flow, which may cause sudden and severe pain.
+</p>
+
+<div class="my-8 rounded-2xl border border-gray-200 bg-gray-50 p-6 shadow-sm">
+    <h3 class="!mt-0 !border-0 !pl-0">Important to Know</h3>
+    <p class="!mb-0">
+        Kidney stone prevention is not the same for everyone. The right approach depends on the type of stone and the factors that caused it. If you have had a kidney stone before, ask your healthcare professional whether stone analysis or urine testing is appropriate.
+    </p>
+</div>
+
+<h2>What Causes Kidney Stones?</h2>
+
+<p>
+There is usually not one single cause. Stones develop when the balance between water and stone-forming substances in urine allows crystals to form and grow.
+</p>
+
+<p>
+Some people are more likely to develop stones because of genetics, medical conditions, dietary habits, dehydration, or certain medicines and supplements.
+</p>
+
+<h3>1. Not Drinking Enough Fluids</h3>
+
+<p>
+Dehydration makes urine more concentrated. When there is less water available to dilute minerals and salts, crystals have a greater opportunity to form.
+</p>
+
+<p>
+Fluid needs increase with hot weather, heavy exercise, sweating, vomiting, diarrhea, and other situations that cause fluid loss.
+</p>
+
+<h3>2. High Sodium Intake</h3>
+
+<p>
+A diet high in sodium can increase the amount of calcium that the kidneys release into urine. Higher urinary calcium can contribute to the formation of calcium-based kidney stones.
+</p>
+
+<p>
+Processed foods, packaged snacks, instant meals, sauces, pickles, processed meats, and restaurant foods can contain substantial amounts of sodium.
+</p>
+
+<h3>3. Certain Dietary Patterns</h3>
+
+<p>
+High intake of animal protein, excessive sugar, and certain high-oxalate foods may increase the risk of some types of stones, especially in people who are already susceptible.
+</p>
+
+<p>
+Dietary recommendations should be individualized rather than based on a general list of foods to avoid.
+</p>
+
+<h3>4. Family or Personal History</h3>
+
+<p>
+People with a family history of kidney stones may have a higher risk of developing them. If you have already had a kidney stone, your chance of developing another stone can also be higher.
+</p>
+
+<h3>5. Certain Medical Conditions</h3>
+
+<p>
+Some digestive disorders, metabolic conditions, repeated urinary tract infections, hyperparathyroidism, renal tubular acidosis, and certain inherited conditions can increase the risk of kidney stones.
+</p>
+
+<h3>6. Certain Medicines and Supplements</h3>
+
+<p>
+Some medicines and supplements can affect the concentration of stone-forming substances in urine. Examples can include high-dose vitamin C supplements and certain medicines used for specific medical conditions.
+</p>
+
+<p>
+Do not stop a prescribed medicine on your own. Discuss possible stone risk with your healthcare professional before changing any medicine or supplement.
+</p>
+
+<h2>Types of Kidney Stones</h2>
+
+<p>
+Knowing the type of kidney stone is important because prevention can differ depending on the stone composition.
+</p>
+
+<table>
+    <thead>
+        <tr>
+            <th>Stone type</th>
+            <th>Common characteristics</th>
+            <th>Possible risk factors</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr>
+            <td>Calcium stones</td>
+            <td>The most common type and often made from calcium oxalate or calcium phosphate.</td>
+            <td>Dehydration, high sodium intake, metabolic factors, and some dietary patterns.</td>
+        </tr>
+        <tr>
+            <td>Uric acid stones</td>
+            <td>Can develop when urine contains high levels of uric acid.</td>
+            <td>High animal protein intake, dehydration, metabolic conditions, and some genetic factors.</td>
+        </tr>
+        <tr>
+            <td>Struvite stones</td>
+            <td>Associated with certain urinary tract infections and can grow quickly.</td>
+            <td>Repeated or specific urinary tract infections.</td>
+        </tr>
+        <tr>
+            <td>Cystine stones</td>
+            <td>Uncommon stones caused by an inherited condition called cystinuria.</td>
+            <td>Genetic changes that cause excess cystine to enter urine.</td>
+        </tr>
+    </tbody>
+</table>
+
+<h2>Kidney Stone Symptoms You Should Know</h2>
+
+<p>
+Kidney stones may cause no symptoms while they remain inside the kidney. Symptoms often begin when a stone moves into the ureter or interferes with urine flow.
+</p>
+
+<table>
+    <thead>
+        <tr>
+            <th>Symptom</th>
+            <th>What it may feel like</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr>
+            <td>Sharp pain</td>
+            <td>Severe pain in the side or back, sometimes spreading toward the lower abdomen or groin.</td>
+        </tr>
+        <tr>
+            <td>Pain that comes in waves</td>
+            <td>Pain may become more intense and then ease as the stone moves.</td>
+        </tr>
+        <tr>
+            <td>Painful urination</td>
+            <td>Burning or discomfort while passing urine.</td>
+        </tr>
+        <tr>
+            <td>Blood in urine</td>
+            <td>Urine may appear pink, red, or brown.</td>
+        </tr>
+        <tr>
+            <td>Frequent urination</td>
+            <td>A strong or frequent urge to urinate, sometimes with only a small amount of urine.</td>
+        </tr>
+        <tr>
+            <td>Nausea or vomiting</td>
+            <td>Severe pain can be accompanied by stomach upset and vomiting.</td>
+        </tr>
+        <tr>
+            <td>Cloudy or foul-smelling urine</td>
+            <td>May occur with urinary tract problems and can be particularly concerning when combined with fever.</td>
+        </tr>
+    </tbody>
+</table>
+
+<h2>When Is Kidney Stone Pain an Emergency?</h2>
+
+<div class="my-8 rounded-2xl border-l-4 border-[#D66C43] bg-orange-50 p-6 shadow-sm">
+    <h3 class="!mt-0 !border-0 !pl-0">Do Not Ignore These Warning Signs</h3>
+    <p>
+        A kidney stone can sometimes block urine flow and may occur alongside a urinary infection. Seek urgent medical attention if you have severe stone pain together with fever or chills, repeated vomiting, difficulty passing urine, or significant blood in the urine.
+    </p>
+    <p class="!mb-0">
+        Severe pain that prevents you from finding a comfortable position also deserves prompt medical evaluation.
+    </p>
+</div>
+
+<h2>Who Is More Likely to Develop Kidney Stones?</h2>
+
+<p>
+Your risk may be higher if one or more of the following factors apply:
+</p>
+
+<ul>
+    <li>You have had a kidney stone before.</li>
+    <li>A close family member has had kidney stones.</li>
+    <li>You regularly drink too little fluid.</li>
+    <li>You live or work in a hot environment and lose a lot of fluid through sweating.</li>
+    <li>Your diet is high in sodium.</li>
+    <li>You consume large amounts of animal protein.</li>
+    <li>You have obesity or certain metabolic conditions.</li>
+    <li>You have certain digestive diseases or previous gastrointestinal surgery.</li>
+    <li>You have repeated urinary tract infections.</li>
+    <li>You have a medical or inherited condition that affects mineral metabolism.</li>
+    <li>You take certain medicines or high-dose supplements that may increase stone risk.</li>
+</ul>
+
+<h2>How to Prevent Kidney Stones</h2>
+
+<p>
+Prevention is especially important after a previous kidney stone because recurrence is common. The goal is to keep urine sufficiently diluted and reduce the concentration of substances that can form crystals.
+</p>
+
+<h3>1. Drink Enough Water</h3>
+
+<p>
+Adequate fluid intake is one of the most important steps for preventing many kidney stones. Water helps dilute urine and can reduce the concentration of minerals that contribute to stone formation.
+</p>
+
+<p>
+Your individual fluid requirement depends on your body, activity level, climate, medical conditions, and medications. People who have previously formed stones may be advised to produce around 2 litres or more of urine each day, but the target should be individualized by a healthcare professional.
+</p>
+
+<p>
+If you have kidney failure, heart failure, or another condition requiring fluid restriction, do not increase your fluid intake without medical advice.
+</p>
+
+<h3>2. Reduce Excess Sodium</h3>
+
+<p>
+Reducing excess salt can be helpful for people who are prone to calcium stones. Check food labels and limit highly processed foods, packaged snacks, instant foods, processed meats, and heavily salted meals.
+</p>
+
+<h3>3. Do Not Automatically Avoid Dietary Calcium</h3>
+
+<p>
+One common misunderstanding is that people with calcium stones should stop eating calcium-rich foods. In many cases, adequate calcium from food is part of a healthy stone prevention plan.
+</p>
+
+<p>
+Dietary calcium can bind oxalate in the digestive tract and reduce the amount of oxalate that reaches the urine. Very low calcium intake may increase the risk of calcium oxalate stones in some people.
+</p>
+
+<p>
+Calcium supplements are different and should be discussed with your healthcare professional before use.
+</p>
+
+<h3>4. Moderate Animal Protein</h3>
+
+<p>
+Large amounts of animal protein can increase the risk of some types of kidney stones. If you are prone to stones, your healthcare professional or dietitian may recommend moderating meat and other animal protein while maintaining adequate overall nutrition.
+</p>
+
+<h3>5. Be Careful With High-Oxalate Foods When Appropriate</h3>
+
+<p>
+Some foods contain substantial amounts of oxalate. These include spinach, nuts, certain vegetables, chocolate, tea, and other foods.
+</p>
+
+<p>
+This does not mean everyone should completely remove these foods from their diet. If you have calcium oxalate stones, your doctor or dietitian can determine whether reducing specific high-oxalate foods is appropriate for you.
+</p>
+
+<h3>6. Limit Excess Added Sugar</h3>
+
+<p>
+A diet high in added sugars may contribute to kidney stone risk. Reducing sugary drinks and highly processed foods can support both kidney health and overall metabolic health.
+</p>
+
+<h3>7. Be Careful With Supplements</h3>
+
+<p>
+Do not assume that a supplement is safe simply because it is available without a prescription. Some supplements may affect stone risk in susceptible people.
+</p>
+
+<p>
+Discuss high-dose vitamin C, calcium supplements, and other supplements with your healthcare professional if you have a history of kidney stones.
+</p>
+
+<h2>What Tests Can Help Find the Cause?</h2>
+
+<p>
+If you have symptoms of a kidney stone, your healthcare professional may use your medical history, physical examination, urine testing, blood tests, and imaging to determine what is happening.
+</p>
+
+<p>
+Imaging may help identify the size and location of a stone and whether it is affecting urine flow. In people who repeatedly develop stones, additional testing can help identify factors that may be driving recurrence.
+</p>
+
+<table>
+    <thead>
+        <tr>
+            <th>Assessment</th>
+            <th>Why it may be useful</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr>
+            <td>Urine testing</td>
+            <td>Can identify blood, infection, and other urinary abnormalities.</td>
+        </tr>
+        <tr>
+            <td>Blood tests</td>
+            <td>Can help assess kidney function and certain mineral or metabolic abnormalities.</td>
+        </tr>
+        <tr>
+            <td>Imaging</td>
+            <td>Can help identify the size and location of a stone and possible urinary blockage.</td>
+        </tr>
+        <tr>
+            <td>Stone analysis</td>
+            <td>Can identify the composition of a passed or removed stone and guide prevention.</td>
+        </tr>
+        <tr>
+            <td>24-hour urine testing</td>
+            <td>May help identify abnormal levels of substances associated with recurrent stone formation.</td>
+        </tr>
+    </tbody>
+</table>
+
+<h2>What Happens If You Already Have a Kidney Stone?</h2>
+
+<p>
+Treatment depends on the size, location, composition, symptoms, and whether the stone is blocking urine flow or associated with infection.
+</p>
+
+<p>
+Some smaller stones can pass naturally with appropriate medical guidance and symptom management. Larger stones or stones that cause persistent obstruction, complications, or significant symptoms may require a procedure to break up or remove them.
+</p>
+
+<p>
+Do not rely on home remedies alone if you have severe symptoms. A healthcare professional can determine whether observation is appropriate or whether treatment is needed.
+</p>
+
+<h2>Simple Daily Habits for Kidney Stone Prevention</h2>
+
+<ol>
+    <li>Keep water available throughout the day and drink regularly.</li>
+    <li>Increase fluids appropriately during hot weather or heavy physical activity.</li>
+    <li>Reduce excess salt and highly processed foods.</li>
+    <li>Maintain adequate dietary calcium unless your doctor advises otherwise.</li>
+    <li>Moderate excessive animal protein intake.</li>
+    <li>Avoid excessive sugary drinks and added sugars.</li>
+    <li>Do not take high-dose supplements without discussing them with your healthcare professional.</li>
+    <li>If you have passed a stone, ask whether stone analysis is appropriate.</li>
+    <li>Follow a personalized diet if you have recurrent stones.</li>
+    <li>Attend follow-up appointments if your doctor recommends metabolic or urine testing.</li>
+</ol>
+
+<div class="my-10 rounded-2xl bg-gradient-to-r from-[#328CCB] to-[#2a7bb5] p-8 text-center text-white shadow-xl">
+    <h3 class="!mt-0 !mb-3 !border-0 !pl-0 !text-white">Need Help With Kidney Stone Prevention?</h3>
+    <p class="!mb-6 !text-white">
+        Recurrent kidney stones may require a closer look at your urine, diet, kidney function, and underlying risk factors. A nephrology consultation can help develop an appropriate prevention and treatment plan.
+    </p>
+    <a href="/nephrology"
+       class="article-cta inline-block rounded-full bg-[#D66C43] px-8 py-3 font-bold no-underline transition-all hover:bg-[#c55a36]"
+       style="color:#ffffff !important; text-decoration:none !important;">
+        Explore Nephrology Care
+    </a>
+</div>
+
+<h2>Key Takeaways</h2>
+
+<ul>
+    <li>Kidney stones form when minerals and salts become concentrated enough in urine to form crystals.</li>
+    <li>Dehydration, high sodium intake, family history, certain medical conditions, and some medicines or supplements can increase risk.</li>
+    <li>Severe side or back pain, blood in the urine, painful urination, nausea, and vomiting are common symptoms.</li>
+    <li>Fever or chills together with suspected kidney stones requires prompt medical attention.</li>
+    <li>Drinking enough fluid is one of the most important prevention measures for many people.</li>
+    <li>Do not automatically remove calcium-rich foods from your diet because adequate dietary calcium can be protective for some calcium oxalate stone formers.</li>
+    <li>People with recurrent stones may benefit from stone analysis and metabolic or urine testing.</li>
+    <li>Prevention should be personalized according to the type of stone and your individual risk factors.</li>
+</ul>
+
+<h2>Conclusion</h2>
+
+<p>
+Kidney stones can be painful, but understanding the causes and risk factors can make prevention more effective. Adequate hydration, lower sodium intake, balanced nutrition, appropriate dietary calcium, and healthy lifestyle habits can reduce the risk of future stones for many people.
+</p>
+
+<p>
+If you have already had a kidney stone, do not assume that drinking more water alone is always enough. Identifying the type of stone and understanding why it formed can help your healthcare professional create a more specific prevention plan.
+</p>
+
+<h2>Medical References</h2>
+
+<ul>
+    <li>
+        <a href="https://www.mayoclinic.org/diseases-conditions/kidney-stones/symptoms-causes/syc-20355755"
+           target="_blank"
+           rel="nofollow noopener">
+            Mayo Clinic: Kidney Stones, Symptoms and Causes
+        </a>
+    </li>
+    <li>
+        <a href="https://www.niddk.nih.gov/health-information/urologic-diseases/kidney-stones/symptoms-causes"
+           target="_blank"
+           rel="nofollow noopener">
+            NIDDK: Symptoms and Causes of Kidney Stones
+        </a>
+    </li>
+    <li>
+        <a href="https://www.niddk.nih.gov/health-information/urologic-diseases/kidney-stones/treatment"
+           target="_blank"
+           rel="nofollow noopener">
+            NIDDK: Kidney Stone Treatment and Prevention
+        </a>
+    </li>
+    <li>
+        <a href="https://www.kidneyfund.org/all-about-kidneys/other-kidney-problems/kidney-stones"
+           target="_blank"
+           rel="nofollow noopener">
+            American Kidney Fund: Kidney Stones
+        </a>
+    </li>
+    <li>
+        <a href="https://my.clevelandclinic.org/health/diseases/15604-kidney-stones"
+           target="_blank"
+           rel="nofollow noopener">
+            Cleveland Clinic: Kidney Stones
+        </a>
+    </li>
+</ul>
+
+<div class="my-8 rounded-2xl border border-gray-200 bg-gray-50 p-6 text-sm text-gray-700">
+    <strong>Medical Notice:</strong>
+    This article is intended for general health education and should not replace medical evaluation, diagnosis, or treatment. Kidney stone symptoms can overlap with other urinary and abdominal conditions. If you have severe pain, fever, chills, difficulty passing urine, persistent vomiting, or other concerning symptoms, seek medical attention promptly.
+</div>
+',
+],
     [
         'slug'         => 'mental-health-after-40',
         'title'        => 'Mental Health After 40: Breaking the Stigma Around Aging and Wellbeing',
