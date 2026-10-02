@@ -3706,16 +3706,487 @@ If you have already had a kidney stone, do not assume that drinking more water a
 ',
 ],
     [
-        'slug'         => 'mental-health-after-40',
-        'title'        => 'Mental Health After 40: Breaking the Stigma Around Aging and Wellbeing',
-        'excerpt'      => 'Mental health is just as important as physical health. Here is how to recognize signs of depression and anxiety in midlife.',
-        'content'      => '<p>Mental health challenges in middle age are more common than people think. Recognizing the signs early can change lives...</p>',
-        'image'        => 'https://images.pexels.com/photos/3771069/pexels-photo-3771069.jpeg?auto=compress&cs=tinysrgb&w=800',
-        'author'       => 'Dr. Kavita Joshi',
-        'category'     => 'Mental Health',
-        'tags'         => ['Mental Health', 'Wellbeing', 'Aging'],
-        'read_time'    => '7 min read',
-        'published_at' => '2026-04-08',
-        'status'       => 'published',
+    'slug'         => 'mental-health-after-40',
+    'title'        => 'Mental Health After 40: Breaking the Stigma Around Aging and Wellbeing',
+    'excerpt'      => 'Mental health after 40 deserves the same attention as physical health. Learn how to recognize emotional changes, challenge age-related stigma, manage stress, protect sleep and social connection, and know when professional support can help.',
+    'image'        => '\assets\images\blog\English\mental-health-for-aged-people.webp',
+    'author'       => 'Dr Kavita Joshi',
+    'category'     => 'Mental Health',
+    'tags'         => [
+        'mental health after 40',
+        'mental health and aging',
+        'mental wellbeing',
+        'aging and mental health',
+        'depression after 40',
+        'anxiety after 40',
+        'stress management',
+        'healthy aging',
+        'mental health stigma'
     ],
+    'read_time'    => '11 min read',
+    'published_at' => '2026-10-02',
+    'status'       => 'published',
+
+    'faqs' => [
+        [
+            'question' => 'Is depression a normal part of aging?',
+            'answer'   => 'No. Depression is not a normal part of aging. Persistent sadness, loss of interest, hopelessness, major sleep changes, low energy, or difficulty functioning deserve attention from a healthcare professional.'
+        ],
+        [
+            'question' => 'Why can mental health become difficult after 40?',
+            'answer'   => 'People in their 40s and beyond may experience several changes at the same time, including work pressure, family responsibilities, caregiving, financial concerns, health changes, relationship changes, and shifts in sleep. These factors can contribute to stress, anxiety, or depression in some people.'
+        ],
+        [
+            'question' => 'Can loneliness affect mental health after 40?',
+            'answer'   => 'Yes. Social isolation and loneliness are associated with poorer mental health and a higher risk of depression. Maintaining meaningful relationships and regular social activities can support emotional wellbeing.'
+        ],
+        [
+            'question' => 'Can exercise improve mental health after 40?',
+            'answer'   => 'Regular physical activity can support mental and emotional health. Exercise may reduce feelings of depression and anxiety, improve sleep, and provide opportunities for social connection.'
+        ],
+        [
+            'question' => 'Can menopause affect mental health?',
+            'answer'   => 'Yes. During the perimenopause and menopause transition, hormonal changes, sleep problems, physical symptoms, and life stress can affect mood and anxiety. Persistent or disruptive symptoms should be discussed with a healthcare professional.'
+        ],
+        [
+            'question' => 'When should I seek professional help for my mental health?',
+            'answer'   => 'Consider professional help when symptoms persist, interfere with work or relationships, affect sleep or daily activities, cause significant distress, or become difficult to manage. If you are thinking about self-harm or suicide, seek immediate emergency support.'
+        ]
+    ],
+
+    'content' => '
+<div class="my-8 rounded-2xl border-l-4 border-[#328CCB] bg-blue-50 p-6 shadow-sm">
+    <h2 class="!mt-0 !mb-3 !border-0 !pl-0">Quick Answer</h2>
+    <p class="!mb-0">
+        Mental health after 40 deserves the same attention as physical health. Getting older does not automatically mean becoming depressed, anxious, lonely, or less emotionally capable. However, midlife and later life can bring work pressure, family responsibilities, caregiving, financial concerns, health changes, relationship changes, sleep problems, and other transitions that may affect emotional wellbeing. Recognizing changes early, staying socially connected, maintaining healthy routines, and seeking professional support when needed can help protect mental health at every age.
+    </p>
+</div>
+
+<p>
+Turning 40 can feel like a milestone. For some people, it brings confidence, experience, stronger relationships, and a clearer sense of priorities. For others, it may come with new responsibilities, changing health, career pressure, family concerns, or questions about the future.
+</p>
+
+<p>
+Yet conversations about mental health often become quieter as people get older. Some people may believe that feeling persistently low is simply part of aging, while others may worry that asking for psychological support is a sign of weakness.
+</p>
+
+<p>
+Neither assumption is helpful. Mental health remains an important part of overall health throughout adulthood, and evidence on later-life mental health shows that stigma and ageism can become barriers to recognition and care. :chatgpt-content-reference{index="2"}
+</p>
+
+<h2>First, Let Us Break One Important Myth: 40 Is Not Old</h2>
+
+<p>
+Age 40 is not a medical boundary between being young and being old. People reach their 40s with very different physical health, social circumstances, careers, family situations, and emotional experiences.
+</p>
+
+<p>
+The phrase aging can sometimes carry negative assumptions, such as believing that people inevitably become less capable, less active, less independent, or less mentally healthy with age. Research on ageism shows that negative stereotypes about aging can affect how older adults are viewed and how they view themselves. :chatgpt-content-reference{index="3"}
+</p>
+
+<div class="my-8 rounded-2xl border border-gray-200 bg-gray-50 p-6 shadow-sm">
+    <h3 class="!mt-0 !border-0 !pl-0">Important to Know</h3>
+    <p class="!mb-0">
+        Mental health problems are health conditions, not personal failures. Feeling overwhelmed or needing professional support does not mean that a person is weak or unable to cope. Seeking help is a practical step toward better health.
+    </p>
+</div>
+
+<h2>Why Mental Health Can Feel Different After 40</h2>
+
+<p>
+People in their 40s and 50s may be managing several responsibilities at the same time. Career demands, parenting, caring for older family members, financial decisions, relationship changes, and personal health concerns can overlap.
+</p>
+
+<p>
+Research and clinical guidance on midlife mental health also point to the importance of life transitions, stress, sleep, physical health, and social connection. :chatgpt-content-reference{index="4"}
+</p>
+
+<table>
+    <thead>
+        <tr>
+            <th>Life change</th>
+            <th>How it may affect wellbeing</th>
+            <th>What can help</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr>
+            <td>Career pressure</td>
+            <td>Long working hours, uncertainty, or responsibility can increase stress.</td>
+            <td>Set realistic boundaries, schedule recovery time, and discuss persistent stress.</td>
+        </tr>
+        <tr>
+            <td>Family responsibilities</td>
+            <td>Parenting and caregiving can leave little time for personal needs.</td>
+            <td>Share responsibilities and maintain regular time for rest and connection.</td>
+        </tr>
+        <tr>
+            <td>Health changes</td>
+            <td>New symptoms or chronic conditions may create worry or frustration.</td>
+            <td>Address physical symptoms and emotional concerns together.</td>
+        </tr>
+        <tr>
+            <td>Relationship changes</td>
+            <td>Separation, conflict, bereavement, or changing family roles can affect mood.</td>
+            <td>Stay connected with trusted people and seek support when needed.</td>
+        </tr>
+        <tr>
+            <td>Sleep problems</td>
+            <td>Poor sleep can affect mood, concentration, energy, and stress tolerance.</td>
+            <td>Build a consistent sleep routine and discuss persistent sleep problems with a doctor.</td>
+        </tr>
+        <tr>
+            <td>Financial concerns</td>
+            <td>Money worries can create persistent stress and uncertainty.</td>
+            <td>Break problems into manageable steps and seek practical support when appropriate.</td>
+        </tr>
+    </tbody>
+</table>
+
+<h2>Common Mental Health Concerns After 40</h2>
+
+<p>
+Mental health is broad. A person may experience temporary stress without having a mental health disorder, while another person may develop a condition that needs professional assessment and treatment.
+</p>
+
+<h3>Stress and Emotional Overload</h3>
+
+<p>
+Some stress is a normal response to demanding situations. Problems arise when stress becomes persistent, overwhelming, or difficult to manage.
+</p>
+
+<p>
+Signs may include irritability, constant worrying, difficulty concentrating, poor sleep, fatigue, headaches, or feeling unable to switch off from responsibilities.
+</p>
+
+<h3>Anxiety</h3>
+
+<p>
+Anxiety can involve excessive worry, restlessness, tension, difficulty concentrating, sleep problems, or physical symptoms such as a racing heart.
+</p>
+
+<p>
+Occasional worry is different from an anxiety disorder. The concern becomes more important when fear or worry is persistent, difficult to control, or interferes with everyday activities.
+</p>
+
+<h3>Depression</h3>
+
+<p>
+Depression is not a normal part of aging. It can affect mood, interest, energy, sleep, appetite, concentration, relationships, and daily functioning. Older adults may not always describe themselves as feeling sad, which can make depression easier to overlook. :chatgpt-content-reference{index="5"}
+</p>
+
+<p>
+Persistent loss of interest, hopelessness, withdrawal from normal activities, major changes in sleep or appetite, or difficulty carrying out usual responsibilities should not simply be dismissed as getting older.
+</p>
+
+<h3>Sleep Problems</h3>
+
+<p>
+Sleep patterns can change with age, and medical conditions, medicines, pain, stress, and mental health conditions can all affect sleep. Poor-quality sleep can affect mood, concentration, decision-making, and daily functioning. :chatgpt-content-reference{index="6"}
+</p>
+
+<p>
+Adults generally need about seven to nine hours of sleep each night. If you regularly struggle to sleep or remain tired during the day, discuss the problem with a healthcare professional rather than assuming it is simply an age-related change. :chatgpt-content-reference{index="7"}
+</p>
+
+<h2>Is Forgetfulness Always a Sign of Aging?</h2>
+
+<p>
+Occasional forgetfulness can happen at many ages. Taking longer to remember a name or misplacing an item does not automatically mean that a person has dementia.
+</p>
+
+<p>
+However, significant or progressive changes in memory, thinking, communication, judgment, or the ability to manage everyday activities deserve medical assessment.
+</p>
+
+<div class="my-8 rounded-2xl border-l-4 border-[#D66C43] bg-orange-50 p-6 shadow-sm">
+    <h3 class="!mt-0 !border-0 !pl-0">When Memory Changes Need Attention</h3>
+    <ul class="!mb-0">
+        <li>Repeatedly asking the same questions within a short period.</li>
+        <li>Getting lost in familiar places.</li>
+        <li>Having increasing difficulty following familiar instructions.</li>
+        <li>Not recognizing familiar people.</li>
+        <li>Struggling to manage usual daily activities.</li>
+        <li>Showing a clear change from previous functioning.</li>
+    </ul>
+</div>
+
+<p>
+Not every memory complaint indicates a neurocognitive disorder. Sleep problems, depression, anxiety, medicines, medical conditions, and other factors can also affect concentration and memory. A proper assessment is therefore more useful than making assumptions based on age alone. :chatgpt-content-reference{index="8"}
+</p>
+
+<h2>The Mental Health Impact of Social Isolation</h2>
+
+<p>
+Human connection remains important throughout adulthood. Changes in employment, retirement planning, family structure, relocation, illness, bereavement, or reduced mobility can sometimes decrease social interaction.
+</p>
+
+<p>
+Loneliness and social isolation are associated with poorer mental health and increased risk of depression. The World Health Organization identifies loneliness and social isolation as important risk factors for mental health conditions in later life. :chatgpt-content-reference{index="9"}
+</p>
+
+<h3>Simple Ways to Stay Connected</h3>
+
+<ul>
+    <li>Schedule regular calls or visits with family and friends.</li>
+    <li>Join a walking group, hobby group, community activity, or class.</li>
+    <li>Volunteer for a cause that feels meaningful.</li>
+    <li>Maintain relationships across generations.</li>
+    <li>Use technology to stay connected when distance makes regular visits difficult.</li>
+    <li>Talk openly with trusted people instead of withdrawing when stress increases.</li>
+</ul>
+
+<p>
+Social connection does not have to mean having a large social circle. A few supportive relationships can provide companionship, practical help, emotional support, and a sense of belonging.
+</p>
+
+<h2>Can Physical Activity Support Mental Health After 40?</h2>
+
+<p>
+Yes. Physical activity supports both physical and emotional wellbeing. The National Institute on Aging notes that regular activity can reduce feelings of depression and anxiety, improve sleep, support cognitive function, and provide opportunities for social connection. :chatgpt-content-reference{index="10"}
+</p>
+
+<p>
+The most useful activity is often one that you can perform safely and consistently. Depending on your health and fitness level, this might include walking, cycling, swimming, strength training, yoga, dancing, gardening, or another enjoyable activity.
+</p>
+
+<div class="my-8 rounded-2xl border border-gray-200 bg-gray-50 p-6 shadow-sm">
+    <h3 class="!mt-0 !border-0 !pl-0">A Practical Starting Point</h3>
+    <p class="!mb-0">
+        If you have been inactive, start gradually rather than trying to change everything in one week. If you have a chronic condition, significant pain, balance problems, or another health concern, ask your healthcare professional what level of activity is appropriate for you.
+    </p>
+</div>
+
+<h2>Sleep Is Part of Mental Health</h2>
+
+<p>
+Sleep and mental health influence each other. Stress and anxiety can make it difficult to sleep, while inadequate sleep can make emotional regulation and concentration more difficult. :chatgpt-content-reference{index="11"}
+</p>
+
+<h3>Healthy Sleep Habits</h3>
+
+<ul>
+    <li>Keep a consistent sleep and wake schedule.</li>
+    <li>Create a relaxing bedtime routine.</li>
+    <li>Keep the bedroom comfortable, quiet, and suitable for sleep.</li>
+    <li>Exercise regularly, while avoiding vigorous exercise close to bedtime if it affects your sleep.</li>
+    <li>Limit caffeine later in the day.</li>
+    <li>Avoid relying on alcohol as a way to fall asleep.</li>
+    <li>Talk with a healthcare professional if persistent sleep problems continue.</li>
+</ul>
+
+<h2>For Women: Mental Health During the Menopause Transition</h2>
+
+<p>
+For many women, the years after 40 may overlap with perimenopause, the transition toward menopause. Hormonal changes during this period can occur alongside demanding work, family responsibilities, caregiving, and other midlife pressures.
+</p>
+
+<p>
+Mood changes, anxiety, sleep problems, irritability, and difficulty concentrating can occur during the menopause transition. ACOG notes that hormonal changes and physical symptoms can contribute to emotional changes, while the wider pressures of the 40s and 50s can add to the burden. :chatgpt-content-reference{index="12"}
+</p>
+
+<p>
+This does not mean that every mood change is caused by menopause. Persistent or disruptive symptoms should be discussed with an appropriate healthcare professional so that possible mental health, sleep, hormonal, or other medical causes can be considered.
+</p>
+
+<h2>Breaking the Stigma Around Mental Health After 40</h2>
+
+<p>
+Stigma can take several forms. Someone may fear being judged, worry that others will see them as weak, believe they should handle problems alone, or assume that emotional difficulties are simply part of getting older.
+</p>
+
+<p>
+Research on aging and mental health describes both ageism and mental health stigma as barriers that can contribute to underrecognition and unequal access to care. :chatgpt-content-reference{index="13"}
+</p>
+
+<table>
+    <thead>
+        <tr>
+            <th>Stigma-based belief</th>
+            <th>A healthier way to think about it</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr>
+            <td>I should be able to handle everything myself.</td>
+            <td>Asking for support is a normal part of managing health.</td>
+        </tr>
+        <tr>
+            <td>Feeling depressed is just part of getting older.</td>
+            <td>Depression is not a normal part of aging and can be treated.</td>
+        </tr>
+        <tr>
+            <td>Therapy means something is wrong with me.</td>
+            <td>Therapy can provide practical tools for managing thoughts, emotions, relationships, and life changes.</td>
+        </tr>
+        <tr>
+            <td>I am too old to change.</td>
+            <td>People can continue learning, building relationships, developing skills, and adapting throughout adulthood.</td>
+        </tr>
+        <tr>
+            <td>I should stay silent to avoid worrying my family.</td>
+            <td>Honest communication can help trusted people provide appropriate support.</td>
+        </tr>
+    </tbody>
+</table>
+
+<h2>When Should You Talk to a Mental Health Professional?</h2>
+
+<p>
+You do not need to wait until a problem becomes severe before asking for help. Early discussion can make it easier to understand what is happening and identify appropriate support.
+</p>
+
+<p>
+Consider speaking with a healthcare professional if you notice:
+</p>
+
+<ul>
+    <li>Persistent sadness, emptiness, or hopelessness.</li>
+    <li>Loss of interest in activities that once felt enjoyable.</li>
+    <li>Constant or difficult-to-control worry.</li>
+    <li>Major changes in sleep or appetite.</li>
+    <li>Unexplained changes in energy or motivation.</li>
+    <li>Increasing social withdrawal.</li>
+    <li>Difficulty functioning at work or at home.</li>
+    <li>Persistent concentration or memory concerns.</li>
+    <li>Increasing use of alcohol or other substances to cope.</li>
+    <li>Emotional symptoms that continue despite reasonable lifestyle changes.</li>
+</ul>
+
+<div class="my-8 rounded-2xl border-l-4 border-[#D66C43] bg-orange-50 p-6 shadow-sm">
+    <h3 class="!mt-0 !border-0 !pl-0">Get Immediate Help for a Mental Health Emergency</h3>
+    <p>
+        If you or someone you know is at immediate risk of self-harm or suicide, do not stay alone with the situation. Seek emergency medical care or contact an appropriate local emergency or crisis service immediately.
+    </p>
+    <p class="!mb-0">
+        A person expressing hopelessness, saying they have no reason to live, or talking about self-harm needs prompt attention rather than dismissal. :chatgpt-content-reference{index="14"}
+    </p>
+</div>
+
+<h2>How to Build Better Mental Wellbeing After 40</h2>
+
+<p>
+Mental wellbeing is not created by one habit. A sustainable approach usually combines physical health, emotional awareness, meaningful relationships, adequate rest, and appropriate professional support.
+</p>
+
+<ol>
+    <li><strong>Make mental health part of routine healthcare.</strong> Mention persistent changes in mood, sleep, memory, or stress during medical appointments.</li>
+    <li><strong>Protect your sleep.</strong> Treat ongoing sleep problems as a health issue rather than something you simply have to tolerate.</li>
+    <li><strong>Move regularly.</strong> Choose safe physical activity that you can maintain consistently.</li>
+    <li><strong>Stay socially connected.</strong> Make relationships and meaningful activities part of your routine.</li>
+    <li><strong>Make time for enjoyable activities.</strong> Hobbies, learning, music, reading, gardening, travel, and creative activities can add purpose and engagement.</li>
+    <li><strong>Manage stress before it becomes overwhelming.</strong> Use practical strategies such as structured routines, relaxation exercises, breathing practices, or professional counselling when appropriate.</li>
+    <li><strong>Limit unhealthy coping habits.</strong> Avoid relying on alcohol, tobacco, or other substances to manage emotional distress.</li>
+    <li><strong>Challenge negative beliefs about aging.</strong> Getting older does not mean that growth, learning, relationships, or emotional wellbeing have to stop.</li>
+    <li><strong>Ask for help early.</strong> Professional support is appropriate whenever emotional symptoms begin affecting daily life.</li>
+</ol>
+
+<div class="my-10 rounded-2xl bg-gradient-to-r from-[#328CCB] to-[#2a7bb5] p-8 text-center text-white shadow-xl">
+    <h3 class="!mt-0 !mb-3 !border-0 !pl-0 !text-white">Your Mental Health Deserves Attention at Every Age</h3>
+    <p class="!mb-6 !text-white">
+        Persistent stress, anxiety, low mood, sleep problems, or changes in emotional wellbeing should not simply be dismissed as part of getting older. Talk with a qualified healthcare professional when symptoms begin affecting your daily life.
+    </p>
+    <a href="/contact"
+       class="article-cta inline-block rounded-full bg-[#D66C43] px-8 py-3 font-bold no-underline transition-all hover:bg-[#c55a36]"
+       style="color:#ffffff !important; text-decoration:none !important;">
+        Book a Consultation
+    </a>
+</div>
+
+<h2>Key Takeaways</h2>
+
+<ul>
+    <li>Turning 40 does not mean that poor mental health is inevitable.</li>
+    <li>Depression is not a normal part of aging and can be treated.</li>
+    <li>Stress, caregiving, financial pressure, health changes, relationship changes, and sleep problems can affect emotional wellbeing.</li>
+    <li>Loneliness and social isolation can increase the risk of poor mental health.</li>
+    <li>Regular physical activity can support mood, sleep, cognitive health, and social connection.</li>
+    <li>Persistent memory changes should be assessed rather than automatically attributed to age.</li>
+    <li>Women may experience mood and sleep changes during the perimenopause and menopause transition.</li>
+    <li>Ageism and mental health stigma can discourage people from seeking care.</li>
+    <li>Professional mental health support is appropriate when symptoms persist or interfere with daily life.</li>
+    <li>Asking for help is a health decision, not a sign of weakness.</li>
+</ul>
+
+<h2>Conclusion</h2>
+
+<p>
+Mental health after 40 is not about trying to remain exactly the same as you were at 20 or 30. It is about understanding the changes that come with different stages of adult life and taking care of your emotional health with the same seriousness you give your physical health.
+</p>
+
+<p>
+Aging can bring challenges, but it can also bring experience, resilience, stronger relationships, knowledge, and a clearer sense of purpose. Breaking the stigma means recognizing that emotional wellbeing remains important throughout life and that support is available when it is needed.
+</p>
+
+<p>
+If stress, anxiety, low mood, sleep problems, loneliness, or other changes begin affecting your daily life, do not simply assume that age is the reason. A conversation with a qualified healthcare professional can be an important first step toward understanding what is happening and deciding what support may help.
+</p>
+
+<h2>Medical References</h2>
+
+<ul>
+    <li>
+        <a href="https://www.who.int/news-room/fact-sheets/mental-health-of-older-adults"
+           target="_blank"
+           rel="nofollow noopener">
+            World Health Organization: Mental Health of Older Adults
+        </a>
+    </li>
+    <li>
+        <a href="https://www.nia.nih.gov/health/mental-and-emotional-health/depression-and-older-adults"
+           target="_blank"
+           rel="nofollow noopener">
+            National Institute on Aging: Depression and Older Adults
+        </a>
+    </li>
+    <li>
+        <a href="https://www.nia.nih.gov/health/exercise-and-physical-activity/health-benefits-exercise-and-physical-activity"
+           target="_blank"
+           rel="nofollow noopener">
+            National Institute on Aging: Health Benefits of Exercise and Physical Activity
+        </a>
+    </li>
+    <li>
+        <a href="https://www.nia.nih.gov/health/sleep/sleep-and-older-adults"
+           target="_blank"
+           rel="nofollow noopener">
+            National Institute on Aging: Sleep and Older Adults
+        </a>
+    </li>
+    <li>
+        <a href="https://www.acog.org/womens-health/experts-and-stories/the-latest/mood-changes-during-perimenopause-are-real-heres-what-to-know"
+           target="_blank"
+           rel="nofollow noopener">
+            ACOG: Mood Changes During Perimenopause
+        </a>
+    </li>
+    <li>
+        <a href="https://pmc.ncbi.nlm.nih.gov/articles/PMC9453913/"
+           target="_blank"
+           rel="nofollow noopener">
+            World Psychiatry: Mental Health Care for Older Adults
+        </a>
+    </li>
+    <li>
+        <a href="https://deconstructingstigma.org/guides/older-adult"
+           target="_blank"
+           rel="nofollow noopener">
+            Deconstructing Stigma: Aging and Emotional Wellbeing
+        </a>
+    </li>
+    <li>
+        <a href="https://tampacounselingandwellness.com/mh-blogs/mental-health-after-40/"
+           target="_blank"
+           rel="nofollow noopener">
+            Tampa Counseling and Wellness: Mental Health After 40
+        </a>
+    </li>
+</ul>
+
+<div class="my-8 rounded-2xl border border-gray-200 bg-gray-50 p-6 text-sm text-gray-700">
+    <strong>Medical Notice:</strong>
+    This article is intended for general health education and should not replace professional medical evaluation, diagnosis, or treatment. Mental health symptoms can have psychological, physical, hormonal, medication-related, or social causes. If symptoms are persistent, severe, or affecting daily life, consult a qualified healthcare professional. If you or someone else is at immediate risk of self-harm or suicide, seek emergency medical help immediately.
+</div>
+',
+],
 ];
