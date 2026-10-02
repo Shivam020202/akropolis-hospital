@@ -2658,18 +2658,568 @@ $blogs = [
     </div>',
 ],
     [
-        'slug'         => 'pregnancy-care-first-trimester',
-        'title'        => 'First Trimester Pregnancy Care: A Week-by-Week Guide for Moms-to-Be',
-        'excerpt'      => 'The first 12 weeks are crucial. Essential tips on diet, exercise, screenings, and what to expect during early pregnancy.',
-        'content'      => '<p>Discovering you are pregnant is the beginning of an incredible journey. The first trimester sets the foundation...</p>',
-        'image'        => 'https://images.pexels.com/photos/1556652/pexels-photo-1556652.jpeg?auto=compress&cs=tinysrgb&w=800',
-        'author'       => 'Dr. Neha Gupta',
-        'category'     => 'Obstetrics & Gynecology',
-        'tags'         => ['Pregnancy', 'Women Health', 'Maternity'],
-        'read_time'    => '9 min read',
-        'published_at' => '2026-04-22',
-        'status'       => 'published',
+    'slug'         => 'pregnancy-care-first-trimester',
+    'title'        => 'First Trimester Pregnancy Care: A Week-by-Week Guide for Moms-to-Be',
+    'excerpt'      => 'A practical week-by-week guide to first trimester pregnancy care, including baby development, common symptoms, nutrition, prenatal visits, tests, safety tips, and warning signs.',
+    'image'        => '\assets\images\blog\English\pregnancy-care-first-trimester.webp',
+    'author'       => 'Dr Anu Nagpal',
+    'category'     => 'Obstetrics & Gynecology',
+    'tags'         => [
+        'first trimester pregnancy',
+        'pregnancy care',
+        'first trimester care',
+        'pregnancy week by week',
+        'prenatal care',
+        'pregnancy nutrition',
+        'pregnancy symptoms',
+        'obstetrics and gynecology'
     ],
+    'read_time'    => '12 min read',
+    'published_at' => '2026-10-02',
+    'status'       => 'published',
+
+    'faqs' => [
+        [
+            'question' => 'What happens during the first trimester of pregnancy?',
+            'answer'   => 'The first trimester covers approximately weeks 1 through 12 of pregnancy. During this period, early pregnancy is established, the placenta develops, and the embryo undergoes rapid development of the brain, spinal cord, heart, limbs, and other organs. The mother may experience fatigue, nausea, breast tenderness, frequent urination, and other hormonal changes.'
+        ],
+        [
+            'question' => 'When should I have my first prenatal appointment?',
+            'answer'   => 'You should contact your obstetrician or other pregnancy care provider when you learn that you are pregnant so that prenatal care can be started at an appropriate time. The first visit usually includes a review of your medical and pregnancy history, physical assessment, pregnancy dating, and discussion of tests, nutrition, medicines, lifestyle, and risk factors.'
+        ],
+        [
+            'question' => 'How much folic acid should I take during early pregnancy?',
+            'answer'   => 'ACOG recommends a daily prenatal vitamin containing at least 400 micrograms of folic acid starting at least one month before pregnancy when possible and during the first 12 weeks. Some people may need a higher dose because of specific medical or pregnancy risk factors, so discuss the appropriate dose with your obstetrician.'
+        ],
+        [
+            'question' => 'What foods should I avoid during the first trimester?',
+            'answer'   => 'Pregnancy food safety includes avoiding alcohol, raw or undercooked animal foods, unpasteurized products when they may contain harmful bacteria, and fish that are high in mercury. Food safety recommendations should be discussed with your pregnancy care provider, especially if you have specific dietary or medical concerns.'
+        ],
+        [
+            'question' => 'Is nausea and vomiting normal during the first trimester?',
+            'answer'   => 'Nausea with or without vomiting is common during early pregnancy and can occur at any time of day. Severe or persistent vomiting can cause dehydration and may require medical treatment, so contact your healthcare provider if you cannot keep fluids down or are becoming weak or dehydrated.'
+        ],
+        [
+            'question' => 'What symptoms require urgent medical attention during the first trimester?',
+            'answer'   => 'Heavy vaginal bleeding, severe or persistent abdominal or pelvic pain, fainting, severe weakness, fever, difficulty breathing, persistent vomiting with inability to keep fluids down, or other sudden or severe symptoms require prompt medical assessment. Severe headache with vision changes should also be discussed urgently with a healthcare professional.'
+        ]
+    ],
+
+    'content' => '<div class="space-y-6">
+
+        <div class="rounded-2xl border border-[#328CCB]/20 bg-[#328CCB]/5 p-6 lg:p-8">
+            <h2 class="!mt-0 !border-0 !pl-0">Quick Answer</h2>
+            <p class="!mb-0">
+                The first trimester covers approximately the first 12 weeks of pregnancy and is a period of rapid development for both the mother and baby. Early prenatal care, appropriate nutrition, folic acid, safe medicines, regular follow-up, and awareness of warning signs are important during this stage. Pregnancy symptoms vary widely, so the absence of a particular symptom does not by itself indicate a problem. Your obstetrician can guide you through the tests, scans, medicines, nutrition, and lifestyle changes that are appropriate for your pregnancy.
+            </p>
+        </div>
+
+        <p>
+            Finding out that you are pregnant can bring excitement, happiness, questions, and sometimes anxiety. The first trimester can feel especially overwhelming because your body begins changing quickly while your baby is undergoing major early development.
+        </p>
+
+        <p>
+            Understanding what happens during these first 12 weeks can make the process easier to navigate. It can also help you recognise which changes are common, understand why prenatal appointments matter, and know when you should contact your healthcare provider.
+        </p>
+
+        <div class="rounded-2xl border-l-4 border-[#D66C43] bg-orange-50 p-6">
+            <h3 class="!mt-0 !border-0 !pl-0">Important to Know</h3>
+            <p class="!mb-0">
+                Pregnancy is not identical for every woman. Some women experience significant nausea and fatigue, while others have relatively few symptoms. Pregnancy symptoms alone cannot confirm whether a pregnancy is progressing normally. Prenatal appointments and appropriate testing provide much more useful information about maternal and fetal health.
+            </p>
+        </div>
+
+        <h2>What Is the First Trimester?</h2>
+
+        <p>
+            Pregnancy is generally dated from the first day of the last menstrual period. This means that the first one or two weeks of the 40-week pregnancy timeline occur before conception usually takes place.
+        </p>
+
+        <p>
+            The first trimester generally covers weeks 1 through 12. During this period, conception and implantation occur, the placenta begins developing, and the embryo undergoes rapid formation of the nervous system, heart, limbs, and other organs.
+        </p>
+
+        <p>
+            This is also the time when many women begin prenatal care, review medicines and health conditions, and make important changes to nutrition and daily habits.
+        </p>
+
+        <h2>First Trimester Pregnancy: Week-by-Week Guide</h2>
+
+        <h3>Weeks 1 and 2: Pregnancy Dating Begins</h3>
+
+        <p>
+            Weeks 1 and 2 can seem confusing because conception usually has not happened yet. Pregnancy is dated from the first day of the last menstrual period, which gives healthcare professionals a standard way to calculate gestational age and estimate the due date.
+        </p>
+
+        <p>
+            If you are planning a pregnancy, this is a useful time to review your medicines, medical conditions, vaccinations, lifestyle, and nutrition with your healthcare provider. Folic acid is particularly important before conception and during early pregnancy.
+        </p>
+
+        <h3>Week 3: Fertilization and Early Development</h3>
+
+        <p>
+            Around this stage, fertilization may occur. The sperm and egg combine to form a zygote, which begins dividing as it travels toward the uterus.
+        </p>
+
+        <p>
+            You may not notice any pregnancy symptoms at this stage. The process is occurring at a microscopic level while the developing group of cells moves toward implantation.
+        </p>
+
+        <h3>Week 4: Implantation</h3>
+
+        <p>
+            The developing blastocyst reaches the uterus and implants into the uterine lining. The cells that will eventually form the embryo and placenta continue to develop.
+        </p>
+
+        <p>
+            Around this time, pregnancy hormone levels begin rising. Some women may notice a missed period or other early pregnancy changes, while others may not feel different yet.
+        </p>
+
+        <h3>Week 5: Pregnancy Hormones Rise</h3>
+
+        <p>
+            By week 5, pregnancy hormone levels are increasing rapidly. The early embryo consists of layers of cells that will eventually develop into different organs and body systems.
+        </p>
+
+        <p>
+            The early structures that will form the brain, spinal cord, heart, digestive system, and other organs are developing. This makes early pregnancy care particularly important.
+        </p>
+
+        <h3>Week 6: Early Brain and Heart Development</h3>
+
+        <p>
+            During week 6, the neural tube that develops into the brain and spinal cord is closing. Early heart development is also taking place, and structures that will become the eyes, ears, arms, and other body parts begin to form.
+        </p>
+
+        <p>
+            Some women experience nausea, fatigue, breast tenderness, frequent urination, or increased sensitivity to smells around this time. Symptoms can vary significantly between individuals.
+        </p>
+
+        <h3>Week 7: Rapid Brain and Facial Development</h3>
+
+        <p>
+            The developing baby undergoes rapid changes during week 7. Brain development continues, facial structures begin taking shape, and the limb buds become more defined.
+        </p>
+
+        <p>
+            You may also notice stronger pregnancy symptoms. Nausea and vomiting can become more noticeable, while fatigue may make normal daily activities feel more demanding.
+        </p>
+
+        <h3>Week 8: Fingers, Eyes, and Ears Begin Developing</h3>
+
+        <p>
+            By week 8, the developing baby has more recognisable body structures. Fingers begin forming, the eyes become more noticeable, and structures of the ears continue to develop.
+        </p>
+
+        <p>
+            Pregnancy symptoms may continue or increase. Eating smaller meals more frequently may help some women manage nausea. If vomiting becomes severe or you cannot maintain adequate fluid intake, contact your healthcare provider.
+        </p>
+
+        <h3>Week 9: Toes and Facial Features Develop</h3>
+
+        <p>
+            During week 9, the arms continue to grow and elbows develop. Toes become visible, while the eyelids and facial structures continue developing.
+        </p>
+
+        <p>
+            At this stage, maintaining regular prenatal care and following advice about nutrition, medicines, activity, and pregnancy safety remains important.
+        </p>
+
+        <h3>Week 10: Fingers and Toes Become More Defined</h3>
+
+        <p>
+            By week 10, the head becomes more rounded and the elbows can bend. Fingers and toes continue to lengthen as the webbing between them decreases.
+        </p>
+
+        <p>
+            The developing baby is undergoing rapid organ and body development, while your body continues adapting to pregnancy hormones.
+        </p>
+
+        <h3>Week 11: The Developing Baby Is Now Called a Fetus</h3>
+
+        <p>
+            Around week 11, the developing baby is referred to as a fetus. The face continues to develop, the outer genital structures begin developing, and red blood cells begin forming in the liver.
+        </p>
+
+        <p>
+            Your healthcare provider may discuss first-trimester screening options and the timing of upcoming ultrasound or blood tests depending on your pregnancy and local clinical practice.
+        </p>
+
+        <h3>Week 12: The End of the First Trimester Approaches</h3>
+
+        <p>
+            By week 12, fingernails are beginning to develop and the face has a more recognisable profile. The intestines have moved into the abdomen and development continues rapidly.
+        </p>
+
+        <p>
+            This is also an important stage for reviewing your first-trimester screening, upcoming appointments, and the transition into the second trimester.
+        </p>
+
+        <div class="my-8 w-full overflow-x-auto rounded-2xl border border-gray-200 shadow-sm">
+            <table class="w-full min-w-[750px] border-collapse">
+                <thead>
+                    <tr>
+                        <th>Pregnancy Stage</th>
+                        <th>Important Development</th>
+                        <th>What You May Notice</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>Weeks 1 to 2</td>
+                        <td>Pregnancy dating begins; conception usually has not yet occurred.</td>
+                        <td>Usually no pregnancy-specific symptoms.</td>
+                    </tr>
+                    <tr>
+                        <td>Weeks 3 to 4</td>
+                        <td>Fertilization, cell division, travel toward the uterus, and implantation.</td>
+                        <td>Some women may notice a missed period or early changes.</td>
+                    </tr>
+                    <tr>
+                        <td>Weeks 5 to 6</td>
+                        <td>Rapid early development of the brain, spinal cord, heart, and other organs.</td>
+                        <td>Nausea, fatigue, breast tenderness, and frequent urination may begin.</td>
+                    </tr>
+                    <tr>
+                        <td>Weeks 7 to 8</td>
+                        <td>Brain, facial structures, eyes, ears, arms, fingers, and other structures develop.</td>
+                        <td>Nausea, fatigue, food aversions, and increased sensitivity to smells may occur.</td>
+                    </tr>
+                    <tr>
+                        <td>Weeks 9 to 10</td>
+                        <td>Arms, elbows, fingers, toes, eyelids, and facial structures continue developing.</td>
+                        <td>Pregnancy symptoms may remain noticeable.</td>
+                    </tr>
+                    <tr>
+                        <td>Weeks 11 to 12</td>
+                        <td>The developing baby is called a fetus; facial features and other structures continue maturing.</td>
+                        <td>Some early pregnancy symptoms may begin changing as the trimester progresses.</td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+
+        <h2>Common First Trimester Pregnancy Symptoms</h2>
+
+        <p>
+            Pregnancy symptoms are caused by a combination of hormonal and physical changes. Their intensity varies from woman to woman and can even vary between different pregnancies in the same woman.
+        </p>
+
+        <ul>
+            <li>Nausea with or without vomiting.</li>
+            <li>Breast tenderness or swelling.</li>
+            <li>Fatigue and increased need for rest.</li>
+            <li>Frequent urination.</li>
+            <li>Food cravings or food aversions.</li>
+            <li>Increased sensitivity to smells.</li>
+            <li>Bloating or constipation.</li>
+            <li>Mild emotional or mood changes.</li>
+            <li>Mild cramping can occur in early pregnancy, although significant or persistent pain requires medical assessment.</li>
+        </ul>
+
+        <p>
+            Morning sickness can occur at any time of day, not only in the morning. If nausea or vomiting is severe, speak with your healthcare provider because treatment may be available.
+        </p>
+
+        <h2>Your First Prenatal Appointment</h2>
+
+        <p>
+            Once you know you are pregnant, contact your obstetrician or pregnancy care provider to arrange prenatal care. The first appointment provides an opportunity to understand your health history, pregnancy history, risk factors, medicines, lifestyle, and pregnancy dating.
+        </p>
+
+        <p>
+            Mayo Clinic notes that the first prenatal assessment may include medical history, physical examination, weight and height measurements, blood tests, and discussion of nutrition, exercise, medicines, vaccinations, dental care, travel, and other lifestyle considerations. :chatgpt-content-reference{index="1"}
+        </p>
+
+        <h3>What Your Doctor May Ask About</h3>
+
+        <ul>
+            <li>Date of your last menstrual period.</li>
+            <li>Previous pregnancies and pregnancy outcomes.</li>
+            <li>Existing medical conditions.</li>
+            <li>Previous surgeries or significant illnesses.</li>
+            <li>Family medical history.</li>
+            <li>Current prescription medicines and supplements.</li>
+            <li>Smoking, alcohol, caffeine, and recreational drug exposure.</li>
+            <li>Allergies and previous reactions to medicines.</li>
+            <li>Workplace or environmental exposures.</li>
+            <li>Previous vaccination history when relevant.</li>
+        </ul>
+
+        <h2>Tests and Scans During the First Trimester</h2>
+
+        <p>
+            The exact tests required during pregnancy vary according to your health, pregnancy history, symptoms, local clinical guidelines, and the recommendations of your obstetrician.
+        </p>
+
+        <p>
+            Your initial prenatal assessment may include blood tests to determine blood group and Rh status and to check for certain infections or health conditions. Urine testing and other investigations may also be recommended.
+        </p>
+
+        <p>
+            Ultrasound may be recommended at different points depending on the clinical situation. An early ultrasound can help assess pregnancy location, gestational age, viability, and development when indicated. First-trimester screening for certain chromosomal conditions may also involve ultrasound and blood tests.
+        </p>
+
+        <div class="rounded-2xl border border-[#328CCB]/20 bg-[#328CCB]/5 p-6">
+            <h3 class="!mt-0 !border-0 !pl-0">Why Pregnancy Dating Matters</h3>
+            <p class="!mb-0">
+                Establishing an accurate estimated due date helps your healthcare team schedule pregnancy tests and monitor fetal growth at appropriate stages. Your last menstrual period is often used initially, while ultrasound may help confirm or adjust dating when clinically appropriate.
+            </p>
+        </div>
+
+        <h2>Nutrition During the First Trimester</h2>
+
+        <p>
+            Good nutrition supports maternal health and fetal development throughout pregnancy. Instead of focusing on eating for two, focus on nutrient-dense foods and a balanced diet that provides protein, vegetables, fruits, whole grains, healthy fats, and appropriate sources of calcium and other nutrients.
+        </p>
+
+        <h3>Important Nutrients</h3>
+
+        <ul>
+            <li><strong>Folic acid:</strong> Important for development of the fetal brain and spinal cord. ACOG recommends a prenatal vitamin containing at least 400 micrograms of folic acid starting at least one month before pregnancy when possible and during the first 12 weeks. :chatgpt-content-reference{index="2"}</li>
+            <li><strong>Iron:</strong> Supports the increased blood supply required during pregnancy and helps prevent iron deficiency.</li>
+            <li><strong>Calcium:</strong> Supports maternal bone health and fetal skeletal development.</li>
+            <li><strong>Vitamin D:</strong> Important for bone and overall health.</li>
+            <li><strong>Protein:</strong> Supports the growth and development of maternal and fetal tissues.</li>
+        </ul>
+
+        <p>
+            Your obstetrician may recommend a prenatal vitamin based on your individual needs. Do not start high-dose vitamins, herbal products, or other supplements without discussing them with your healthcare provider.
+        </p>
+
+        <h2>Foods and Drinks to Be Careful About</h2>
+
+        <p>
+            Pregnancy changes the approach to food safety because certain infections and substances can pose risks to the mother or developing baby.
+        </p>
+
+        <ul>
+            <li>Avoid alcohol during pregnancy.</li>
+            <li>Avoid raw or undercooked meat, poultry, eggs, and seafood.</li>
+            <li>Choose pasteurised milk and dairy products.</li>
+            <li>Follow local guidance regarding fish and mercury exposure.</li>
+            <li>Wash fruits and vegetables thoroughly.</li>
+            <li>Take care with food storage and preparation to reduce the risk of foodborne infection.</li>
+            <li>Discuss caffeine intake with your obstetrician and follow pregnancy-specific guidance.</li>
+        </ul>
+
+        <p>
+            ACOG recommends discussing nutrition and prenatal vitamins with your obstetrician or another qualified healthcare professional. :chatgpt-content-reference{index="3"}
+        </p>
+
+        <h2>Medicines During the First Trimester</h2>
+
+        <p>
+            Do not assume that a medicine is safe during pregnancy simply because it is available without a prescription. Some medicines are appropriate during pregnancy, while others may require avoidance, dose adjustment, or a safer alternative.
+        </p>
+
+        <p>
+            Tell your obstetrician about prescription medicines, over-the-counter medicines, vitamins, supplements, and herbal products that you use. Do not stop an important prescription medicine suddenly without medical advice.
+        </p>
+
+        <h2>Exercise and Daily Activity</h2>
+
+        <p>
+            For many healthy pregnancies, regular physical activity can be beneficial. The appropriate type and intensity depend on your health, fitness level, pregnancy, and any complications or restrictions identified by your healthcare provider.
+        </p>
+
+        <p>
+            Walking, swimming, pregnancy-appropriate strength exercises, and other suitable activities may be options for many women. However, if you have been advised to restrict activity or have a high-risk pregnancy, follow your obstetrician advice.
+        </p>
+
+        <h2>Sleep, Rest, and Emotional Well-Being</h2>
+
+        <p>
+            Fatigue is common during early pregnancy. Your body is adapting to hormonal changes and the increased demands of pregnancy, so allowing yourself additional rest can be important.
+        </p>
+
+        <p>
+            Emotional changes can also occur. Excitement and happiness may exist alongside anxiety, uncertainty, or mood changes. Talk to your partner, family, or healthcare professional if emotional symptoms become persistent, severe, or difficult to manage.
+        </p>
+
+        <h2>What Should You Avoid During the First Trimester?</h2>
+
+        <p>
+            Pregnancy safety involves avoiding known harmful exposures and discussing uncertain situations with your healthcare provider.
+        </p>
+
+        <ul>
+            <li>Alcohol and recreational drugs.</li>
+            <li>Smoking and secondhand tobacco smoke.</li>
+            <li>Medicines or supplements that have not been reviewed for pregnancy safety.</li>
+            <li>Raw or undercooked foods that may carry infection risk.</li>
+            <li>Unpasteurised foods that may contain harmful bacteria.</li>
+            <li>High-mercury fish.</li>
+            <li>Activities with a significant risk of abdominal injury.</li>
+            <li>Unnecessary exposure to toxic chemicals or harmful workplace substances.</li>
+        </ul>
+
+        <p>
+            Do not make major changes to your prescribed treatment without first discussing them with your doctor.
+        </p>
+
+        <h2>Work and Travel During the First Trimester</h2>
+
+        <p>
+            Many women continue their normal work and daily activities during early pregnancy. Whether adjustments are needed depends on the nature of your work and your health.
+        </p>
+
+        <p>
+            If your work involves heavy lifting, prolonged standing, radiation, toxic chemicals, infectious exposure, or other potential hazards, discuss your workplace conditions with your obstetrician.
+        </p>
+
+        <p>
+            Travel is also possible for many pregnant women, but individual circumstances matter. Discuss travel plans with your healthcare provider, especially if you have a high-risk pregnancy, significant symptoms, a history of pregnancy complications, or a long journey planned.
+        </p>
+
+        <h2>Warning Signs During the First Trimester</h2>
+
+        <p>
+            Many first-trimester symptoms are common, but some symptoms require prompt medical attention. Contact your healthcare provider if you are concerned about a new or worsening symptom.
+        </p>
+
+        <div class="my-8 w-full overflow-x-auto rounded-2xl border border-gray-200 shadow-sm">
+            <table class="w-full min-w-[650px] border-collapse">
+                <thead>
+                    <tr>
+                        <th>Symptom</th>
+                        <th>Why Medical Assessment May Be Needed</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>Heavy vaginal bleeding</td>
+                        <td>Can require urgent assessment to determine the cause.</td>
+                    </tr>
+                    <tr>
+                        <td>Severe or persistent abdominal or pelvic pain</td>
+                        <td>May require evaluation for pregnancy-related complications.</td>
+                    </tr>
+                    <tr>
+                        <td>Fainting or severe weakness</td>
+                        <td>Can indicate a problem requiring prompt medical assessment.</td>
+                    </tr>
+                    <tr>
+                        <td>Persistent vomiting with inability to keep fluids down</td>
+                        <td>Can lead to dehydration and may require treatment.</td>
+                    </tr>
+                    <tr>
+                        <td>Fever or signs of infection</td>
+                        <td>Some infections require timely diagnosis and treatment during pregnancy.</td>
+                    </tr>
+                    <tr>
+                        <td>Severe headache with vision changes</td>
+                        <td>Requires medical assessment, particularly when symptoms are sudden or severe.</td>
+                    </tr>
+                    <tr>
+                        <td>Difficulty breathing or chest pain</td>
+                        <td>Sudden or significant symptoms require urgent evaluation.</td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+
+        <p>
+            If symptoms are severe, sudden, or potentially life-threatening, seek emergency medical care rather than waiting for your next prenatal appointment.
+        </p>
+
+        <h2>A Simple First Trimester Care Checklist</h2>
+
+        <ol>
+            <li>Contact your obstetrician after confirming your pregnancy.</li>
+            <li>Start or continue an appropriate prenatal vitamin as advised by your doctor.</li>
+            <li>Make sure your prenatal vitamin provides the recommended amount of folic acid.</li>
+            <li>Review all medicines and supplements with your healthcare provider.</li>
+            <li>Follow a balanced and varied diet.</li>
+            <li>Stay appropriately hydrated.</li>
+            <li>Avoid alcohol, tobacco, and recreational drugs.</li>
+            <li>Follow pregnancy food safety precautions.</li>
+            <li>Stay physically active if your pregnancy and health allow it.</li>
+            <li>Get enough rest and pay attention to emotional well-being.</li>
+            <li>Attend recommended prenatal appointments and tests.</li>
+            <li>Ask questions whenever you are unsure about a symptom, medicine, food, exercise, or travel plan.</li>
+        </ol>
+
+        <div class="my-10 rounded-2xl bg-gradient-to-r from-[#328CCB] to-[#2a7bb5] p-8 text-center text-white shadow-xl">
+            <h3 class="!mt-0 !mb-3 !border-0 !pl-0 !text-white">Need Guidance During Your Pregnancy?</h3>
+            <p class="!mb-6 !text-white">
+                From early pregnancy assessment and prenatal care to pregnancy monitoring and delivery planning, get personalised guidance from the Obstetrics and Gynecology team at Akropolis Super Speciality Hospital.
+            </p>
+            <a href="/obstetrics-gynecology" class="article-cta inline-block rounded-full bg-[#D66C43] px-8 py-3 font-bold no-underline transition-all hover:bg-[#c55a36]" style="color:#ffffff !important; text-decoration:none !important;">
+                Explore Obstetrics &amp; Gynecology
+            </a>
+        </div>
+
+        <h2>Meet Your Pregnancy Care Specialist</h2>
+
+        <p>
+            For personalised pregnancy guidance, you can also learn more about <a href="/doctors/dr-anu-nagpal">Dr Anu Nagpal, Obstetrician &amp; Gynecologist</a> at Akropolis Super Speciality Hospital.
+        </p>
+
+        <h2>Key Takeaways</h2>
+
+        <ul>
+            <li>The first trimester covers approximately weeks 1 through 12 and involves rapid maternal and fetal changes.</li>
+            <li>Pregnancy is dated from the first day of the last menstrual period, so weeks 1 and 2 usually occur before conception.</li>
+            <li>Early prenatal care helps assess maternal health, pregnancy dating, risk factors, medicines, and appropriate testing.</li>
+            <li>Folic acid is particularly important during early pregnancy. ACOG recommends a prenatal vitamin containing at least 400 micrograms of folic acid during the first 12 weeks.</li>
+            <li>Nausea, fatigue, breast tenderness, frequent urination, food aversions, and increased sensitivity to smells are common early pregnancy changes.</li>
+            <li>Not every pregnant woman experiences the same symptoms, and symptom intensity alone cannot determine whether a pregnancy is progressing normally.</li>
+            <li>Food safety, medicine safety, appropriate activity, rest, and avoidance of alcohol and tobacco are important parts of pregnancy care.</li>
+            <li>Heavy bleeding, severe pain, persistent vomiting with inability to keep fluids down, fever, fainting, severe headache with vision changes, and other serious symptoms require medical assessment.</li>
+        </ul>
+
+        <h2>Conclusion</h2>
+
+        <p>
+            The first trimester is a period of rapid change and development. While it can bring nausea, fatigue, emotional changes, and many new questions, good prenatal care can help you understand what is happening and make informed decisions throughout early pregnancy.
+        </p>
+
+        <p>
+            The most important steps are to begin prenatal care, take recommended prenatal vitamins, follow a balanced diet, review medicines with your doctor, avoid harmful exposures, attend recommended appointments, and seek help when symptoms are severe or unusual.
+        </p>
+
+        <p>
+            Every pregnancy is different. Your obstetrician can adapt your care plan according to your medical history, pregnancy history, test results, symptoms, and individual needs.
+        </p>
+
+        <h2>Medical References</h2>
+
+        <ul>
+            <li>
+                <a href="https://www.mayoclinic.org/healthy-lifestyle/pregnancy-week-by-week/in-depth/prenatal-care/art-20044882" target="_blank" rel="nofollow noopener">
+                    Mayo Clinic: Prenatal Care, First Trimester Visits
+                </a>
+            </li>
+            <li>
+                <a href="https://www.mayoclinic.org/healthy-lifestyle/pregnancy-week-by-week/in-depth/prenatal-care/art-20045302" target="_blank" rel="nofollow noopener">
+                    Mayo Clinic: Fetal Development, The First Trimester
+                </a>
+            </li>
+            <li>
+                <a href="https://www.mayoclinic.org/healthy-lifestyle/pregnancy-week-by-week/in-depth/pregnancy/art-20047208" target="_blank" rel="nofollow noopener">
+                    Mayo Clinic: First Trimester Pregnancy, What to Expect
+                </a>
+            </li>
+            <li>
+                <a href="https://www.acog.org/womens-health/faqs/healthy-eating-during-pregnancy" target="_blank" rel="nofollow noopener">
+                    American College of Obstetricians and Gynecologists: Healthy Eating During Pregnancy
+                </a>
+            </li>
+            <li>
+                <a href="https://oasisindia.in/blog/first-trimester-pregnancy-guide/" target="_blank" rel="nofollow noopener">
+                    Oasis India: First Trimester Pregnancy Guide
+                </a>
+            </li>
+        </ul>
+
+        <div class="rounded-2xl border border-gray-200 bg-gray-50 p-6 text-sm text-gray-600">
+            <strong class="text-gray-900">Medical Notice:</strong>
+            This article is intended for general health education and should not replace personalised medical advice, diagnosis, or treatment. Pregnancy care varies according to maternal health, pregnancy history, gestational age, symptoms, test results, and individual risk factors. Always consult your obstetrician or qualified healthcare professional for advice specific to your pregnancy.
+        </div>
+
+    </div>',
+],
     [
         'slug'         => 'kidney-stones-prevention',
         'title'        => 'Kidney Stones: Causes, Symptoms, and How to Prevent Them',
