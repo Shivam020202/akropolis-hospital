@@ -120,7 +120,7 @@ include 'includes/head.php';
             'title' => 'Cardiology',
             'description' => 'Advanced heart care with state-of-the-art cardiac procedures, interventional cardiology, and comprehensive cardiovascular treatments.',
             'icon' => 'Heart',
-            'image' => 'https://brandingpioneers.co.in/akropolis/Cardiology.jpg',
+            'image' => '\assets\images\homepage\cardiology-department.webp',
             'services' => ['Cardiac Catheterization', 'Angioplasty & Stenting', 'Echocardiography', 'Stress Testing', 'Holter Monitoring', 'Pacemaker Implantation'],
             'category' => 'surgical',
             'page' => 'cardiology.php'
@@ -130,7 +130,7 @@ include 'includes/head.php';
             'title' => 'Neurology',
             'description' => 'Comprehensive brain and nervous system care with advanced neurological treatments and diagnostic services.',
             'icon' => 'Brain',
-            'image' => 'https://brandingpioneers.co.in/akropolis/Neurology.webp',
+            'image' => '\assets\images\homepage\neurology-department.webp',
             'services' => ['Stroke Management', 'Epilepsy Treatment', 'Neurological Diagnostics', 'Movement Disorders', 'Memory Disorders', 'Headache Treatment'],
             'category' => 'medical',
             'page' => 'neurology.php'
@@ -140,7 +140,7 @@ include 'includes/head.php';
             'title' => 'Nephrology & Dialysis',
             'description' => 'Comprehensive kidney care with advanced treatments for all renal conditions and dialysis services.',
             'icon' => 'Droplets',
-            'image' => 'https://brandingpioneers.co.in/akropolis/Nephrology.webp',
+            'image' => '\assets\images\homepage\nephrology-department.webp',
             'services' => ['Kidney Disease Treatment', 'Dialysis Services', 'Transplant Care', 'Hypertension Management', 'Chronic Kidney Disease', 'Acute Kidney Injury'],
             'category' => 'medical',
             'page' => 'nephrology.php'
@@ -150,7 +150,7 @@ include 'includes/head.php';
             'title' => 'Oncology',
             'description' => 'Comprehensive cancer care with advanced treatment options and multidisciplinary approach.',
             'icon' => 'Activity',
-            'image' => 'https://brandingpioneers.co.in/akropolis/Oncology.webp',
+            'image' => '\assets\images\homepage\oncology-department.webp',
             'services' => ['Cancer Diagnosis', 'Chemotherapy', 'Radiation Therapy', 'Surgical Oncology', 'Immunotherapy', 'Palliative Care'],
             'category' => 'medical',
             'page' => 'oncology.php'
@@ -160,7 +160,7 @@ include 'includes/head.php';
             'title' => 'Obstetrics & Gynecology',
             'description' => "Comprehensive women's health and reproductive care with advanced gynecological treatments and maternity services.",
             'icon' => 'Heart',
-            'image' => 'https://brandingpioneers.co.in/akropolis/Gynecology.webp',
+            'image' => '\assets\images\homepage\obstetrics-gynecology-department.webp',
             'services' => ['Maternity Care', 'Gynecological Surgery', 'Fertility Treatment', "Women's Health Screening", 'High-Risk Pregnancy', 'Laparoscopic Surgery'],
             'category' => 'medical',
             'page' => 'obstetrics-gynecology.php'
@@ -170,7 +170,7 @@ include 'includes/head.php';
             'title' => 'Orthopedics & Joint Replacement',
             'description' => 'Expert bone, joint, and muscle care with advanced orthopedic surgery and comprehensive musculoskeletal treatments.',
             'icon' => 'Bone',
-            'image' => 'https://brandingpioneers.co.in/akropolis/Orthopaedics.jpg',
+            'image' => '\assets\images\homepage\orthopedics-department.webp',
             'services' => ['Joint Replacement Surgery', 'Arthroscopic Surgery', 'Fracture Treatment', 'Sports Medicine', 'Spine Surgery', 'Trauma Care'],
             'category' => 'surgical',
             'page' => 'orthopedics.php'
@@ -180,7 +180,7 @@ include 'includes/head.php';
             'title' => 'Plastic & Reconstructive Surgery',
             'description' => 'Comprehensive surgical services with minimally invasive techniques and advanced surgical procedures.',
             'icon' => 'Scissors',
-            'image' => 'https://brandingpioneers.co.in/akropolis/Plastic-Surgery.webp',
+            'image' => '\assets\images\homepage\plastic-reconstructive-surgery-department.webp',
             'services' => ['Cosmetic Surgery', 'Reconstructive Surgery', 'Burn Treatment', 'Aesthetic Procedures', 'Hand Surgery', 'Microsurgery'],
             'category' => 'surgical',
             'page' => 'plastic-surgery.php'
@@ -190,7 +190,7 @@ include 'includes/head.php';
             'title' => 'ENT (Ear, Nose & Throat)',
             'description' => 'Ear, nose, and throat care with advanced ENT surgery and comprehensive treatment for hearing and speech disorders.',
             'icon' => 'Ear',
-            'image' => 'https://brandingpioneers.co.in/akropolis/ENT.webp',
+            'image' => '\assets\images\homepage\ent-department.webp',
             'services' => ['Hearing Loss Treatment', 'Sinus Surgery', 'Throat Disorders', 'Voice & Speech Therapy', 'Tonsillectomy', 'Ear Microsurgery'],
             'category' => 'surgical',
             'page' => 'ent.php'
@@ -200,7 +200,7 @@ include 'includes/head.php';
             'title' => 'Ophthalmology (Eye Care)',
             'description' => 'Advanced eye care and vision treatment with comprehensive ophthalmological services.',
             'icon' => 'Eye',
-            'image' => 'https://brandingpioneers.co.in/akropolis/Ophthalmology.webp',
+            'image' => '\assets\images\homepage\ophthalmology-eye-care-department.webp',
             'services' => ['Cataract Surgery', 'Retinal Treatment', 'Glaucoma Management', 'Vision Correction', 'Corneal Transplant', 'Pediatric Ophthalmology'],
             'category' => 'surgical',
             'page' => 'ophthalmology.php'
@@ -210,7 +210,7 @@ include 'includes/head.php';
             'title' => 'Dermatology & Cosmetology',
             'description' => 'Comprehensive skin, hair, and nail care with advanced dermatological treatments.',
             'icon' => 'Sparkles',
-            'image' => 'https://brandingpioneers.co.in/akropolis/Dermatology.webp',
+            'image' => '\assets\images\homepage\dermatology-cosmetology-department.webp',
             'services' => ['Skin Disease Treatment', 'Cosmetic Dermatology', 'Hair Treatment', 'Laser Therapy', 'Acne Treatment', 'Anti-Aging Treatments'],
             'category' => 'medical',
             'page' => 'dermatology.php'
@@ -220,7 +220,7 @@ include 'includes/head.php';
             'title' => 'Gastroenterology & Endoscopy',
             'description' => 'Advanced digestive system care with comprehensive gastroenterological treatments.',
             'icon' => 'Pill',
-            'image' => 'https://brandingpioneers.co.in/akropolis/Gastroenterology.webp',
+            'image' => '\assets\images\homepage\gastroenterology-endoscopy-department.webp',
             'services' => ['Endoscopy', 'Colonoscopy', 'Liver Disease Treatment', 'Digestive Disorders', 'ERCP Procedures', 'IBD Treatment'],
             'category' => 'medical',
             'page' => 'gastroenterology.php'
@@ -230,7 +230,7 @@ include 'includes/head.php';
             'title' => 'NICU & Pediatrics',
             'description' => 'Specialized care for newborns and children with advanced pediatric treatments.',
             'icon' => 'Baby',
-            'image' => 'https://brandingpioneers.co.in/akropolis/NICU & Pediatrics.webp',
+            'image' => '\assets\images\homepage\nicu-pediatrics-department.webp',
             'services' => ['Newborn Care', 'Pediatric Surgery', 'Child Development', 'Vaccination Programs', 'NICU Services', 'Pediatric Emergency'],
             'category' => 'medical',
             'page' => 'pediatrics.php'
@@ -240,7 +240,7 @@ include 'includes/head.php';
             'title' => 'Health & Nutrition',
             'description' => 'Comprehensive nutritional counseling and wellness programs for optimal health.',
             'icon' => 'Apple',
-            'image' => 'https://brandingpioneers.co.in/akropolis/Health & Nutrition.webp',
+            'image' => '\assets\images\homepage\health-nutrition-department.webp',
             'services' => ['Diet Planning', 'Nutritional Counseling', 'Weight Management', 'Wellness Programs', 'Lifestyle Modification', 'Therapeutic Nutrition'],
             'category' => 'diagnostic',
             'page' => 'health-nutrition.php'
