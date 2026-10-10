@@ -42,20 +42,26 @@
   <!-- Custom Styles -->
   <link rel="stylesheet" href="/css/styles.css">
 
-  <!-- JSON-LD Structured Data -->
-  <?php
-  if (!function_exists('schemaHospital')) {
-      require_once __DIR__ . '/schema.php';
-  }
-  // Always output base hospital schema
-  echo renderSchema(schemaHospital(strtok($_SERVER['REQUEST_URI'] ?? '/', '?')));
-  // Output any page-specific schema blocks set before including head.php
-  if (!empty($schema_blocks) && is_array($schema_blocks)) {
-      foreach ($schema_blocks as $block) {
-          echo renderSchema($block);
-      }
-  }
-  ?>
+<!-- JSON-LD Structured Data -->
+<?php
+if (!function_exists('schemaHospital')) {
+    require_once __DIR__ . '/schema.php';
+}
+
+$requestPath = parse_url($_SERVER['REQUEST_URI'] ?? '/', PHP_URL_PATH);
+$isHomepage = ($requestPath === '/' || $requestPath === '/index.php');
+
+if ($isHomepage) {
+    echo renderSchema(schemaHospital('/'));
+}
+
+if (!empty($schema_blocks) && is_array($schema_blocks)) {
+    foreach ($schema_blocks as $block) {
+        echo renderSchema($block);
+    }
+}
+?>
+
 </head>
 <body class="min-h-screen bg-white">
   <div id="root">
