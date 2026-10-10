@@ -106,9 +106,14 @@
 <div>
   <p class="text-xl font-bold mb-6">Contact Info</p>
 
-  <p class="text-gray-300 leading-relaxed font-semibold mb-3 pl-8">
+<div class="flex items-center space-x-3 mb-3">
+  <div class="text-gray-400 mt-1 flex-shrink-0">
+    <?php echo getIcon('Building2', 'h-5 w-5'); ?>
+  </div>
+  <p class="text-gray-300 leading-relaxed font-semibold m-0">
     Akropolis Super Speciality Hospital
   </p>
+</div>
 
   <div class="space-y-4">
     <div class="flex items-start space-x-3">
