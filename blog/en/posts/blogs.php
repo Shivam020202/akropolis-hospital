@@ -7,7 +7,6 @@
  */
 
 $blogs = [
-
 [
     'slug' => 'knee-replacement-cost-in-india',
     'title' => 'Knee Replacement Surgery Cost in India: Factors That Affect the Total Cost',
