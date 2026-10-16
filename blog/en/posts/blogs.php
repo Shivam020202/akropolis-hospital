@@ -7,7 +7,7 @@
  */
 
 $blogs = [
-[
+     [
     'slug' => 'knee-replacement-cost-in-india',
     'title' => 'Knee Replacement Surgery Cost in India: Factors That Affect the Total Cost',
     'excerpt' => 'Understand the knee replacement cost in India, including implant prices, surgeon fees, hospital packages, robotic surgery, insurance coverage, and recovery expenses.',
@@ -295,7 +295,7 @@ $blogs = [
 <p>Before making a decision, obtain a written itemized estimate, check exactly what the package includes, confirm your insurance benefits, and discuss the clinical options with an orthopedic specialist. A clear understanding of both medical needs and financial commitments can help you plan treatment more confidently.</p>
 
 <p><strong>Medical Notice:</strong> This article is for general educational purposes only and does not replace professional medical advice, diagnosis, or treatment. Cost ranges are indicative and may change. The appropriate procedure and final cost depend on clinical assessment, the hospital treatment plan, and the terms of any insurance policy. Consult a qualified orthopedic specialist and obtain a written estimate before making treatment decisions.</p>'
-]
+],
 
 [
     'slug' => 'knee-osteoarthritis',
