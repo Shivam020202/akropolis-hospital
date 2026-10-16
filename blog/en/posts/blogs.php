@@ -7,6 +7,297 @@
  */
 
 $blogs = [
+
+[
+    'slug' => 'knee-replacement-cost-in-india',
+    'title' => 'Knee Replacement Surgery Cost in India: Factors That Affect the Total Cost',
+    'excerpt' => 'Understand the knee replacement cost in India, including implant prices, surgeon fees, hospital packages, robotic surgery, insurance coverage, and recovery expenses.',
+    'image' => '/assets/images/blog/English/knee-replacement-cost-india.webp',
+    'image_alt' => 'Knee replacement surgery cost in India, showing an artificial knee implant and key treatment cost factors',
+    'author' => 'Dr Prateek Girotra',
+    'category' => 'Orthopedics',
+    'tags' => ['knee replacement cost in India', 'knee replacement surgery', 'total knee replacement', 'knee implant cost', 'orthopedic surgery cost', 'knee replacement insurance'],
+    'read_time' => '10 min read',
+    'published_at' => '2026-10-16',
+    'status' => 'published',
+    'faqs' => [
+        [
+            'question' => 'What is the knee replacement cost in India?',
+            'answer' => 'The cost varies by hospital, city, implant, procedure, room category, and patient health. Published estimates commonly range from around ₹1.5 lakh to ₹5.5 lakh or more per knee, but this is not a fixed national price. Request an itemized estimate from the hospital for your specific treatment plan.'
+        ],
+        [
+            'question' => 'What factors affect the total cost of knee replacement surgery?',
+            'answer' => 'Major factors include the type of knee replacement, implant selection, surgeon and hospital fees, city, robotic assistance, room category, preoperative investigations, length of stay, medicines, physiotherapy, and any additional medical care required.'
+        ],
+        [
+            'question' => 'Is robotic knee replacement more expensive than conventional surgery?',
+            'answer' => 'Robotic-assisted knee replacement may cost more because of technology, equipment, planning, and related hospital charges. Whether it is suitable depends on the patient and the surgeon assessment. Higher cost does not automatically mean a better outcome for every patient.'
+        ],
+        [
+            'question' => 'Does health insurance cover knee replacement surgery in India?',
+            'answer' => 'Some health insurance policies cover medically necessary knee replacement surgery, subject to policy terms. Waiting periods, exclusions, co-payments, room rent limits, sub-limits, and pre-existing disease conditions may affect the payable amount. Confirm coverage with your insurer before admission.'
+        ],
+        [
+            'question' => 'Does the knee replacement package include the implant?',
+            'answer' => 'Some hospital packages include a specified implant, while others may have implant-related exclusions or additional charges for particular options. Ask the hospital to confirm the implant brand or model, material, warranty information where applicable, and any upgrade costs in writing.'
+        ],
+        [
+            'question' => 'Is the cost of physiotherapy included in a knee replacement package?',
+            'answer' => 'The package may include a limited number of inpatient physiotherapy sessions, but continued rehabilitation after discharge may be charged separately. Confirm the number of sessions included and the estimated cost of outpatient physiotherapy.'
+        ],
+        [
+            'question' => 'Does replacing both knees cost twice as much as replacing one knee?',
+            'answer' => 'Bilateral knee replacement generally costs more than surgery on one knee, but the total may not be exactly double. The estimate depends on whether both knees are treated during one operation or in separate procedures, along with the hospital stay and medical needs.'
+        ],
+        [
+            'question' => 'How can I get an accurate estimate for knee replacement surgery?',
+            'answer' => 'Arrange an orthopedic consultation and share relevant medical reports and imaging. Ask the hospital for a written, itemized estimate covering the procedure, implant, surgeon and anesthesia fees, hospital stay, tests, medicines, rehabilitation, follow-up care, and possible additional charges.'
+        ]
+    ],
+    'content' => '<div class="quick-answer my-6 rounded-xl border-l-4 border-[#328CCB] bg-blue-50 p-5">
+<h2 class="!mt-0">Quick Answer</h2>
+<p>The <strong>knee replacement cost in India</strong> depends on the type of surgery, implant selected, hospital, city, surgeon fees, room category, and the patient medical condition. Published estimates can range from approximately ₹1.5 lakh to ₹5.5 lakh or more per knee, but prices vary widely and these figures are not a confirmed quotation from Akropolis Hospital.</p>
+<p>The quoted package may not cover every expense. Before choosing a hospital, request an itemized estimate that explains implant costs, investigations, medicines, hospital stay, physiotherapy, follow-up visits, and any charges that may apply if additional care is required.</p>
+</div>
+
+<p>Knee pain caused by advanced arthritis or severe joint damage can make walking, climbing stairs, and daily activities difficult. When non-surgical treatments no longer provide enough relief, an orthopedic specialist may consider knee replacement surgery.</p>
+
+<p>For patients and families, understanding the financial commitment is an important part of planning treatment. However, comparing only the headline price can be misleading. Two hospitals may quote different amounts because their packages include different implants, room categories, hospital services, and rehabilitation support.</p>
+
+<p>This guide explains the main factors affecting knee replacement cost in India, what a treatment package may include, how insurance can affect out-of-pocket expenses, and what to ask before making a decision.</p>
+
+<h2>How Much Does Knee Replacement Cost in India?</h2>
+
+<p>There is no single fixed price for knee replacement surgery across India. Published cost estimates differ because hospitals use different package structures and treat patients with different clinical needs. A general online estimate should be treated as a starting point for financial planning, not as a final treatment quote.</p>
+
+<p>Some published estimates place knee replacement surgery at around ₹1.5 lakh to ₹5.5 lakh or more per knee. The actual amount at a particular hospital may fall outside this range depending on the procedure, implant, hospital facilities, and medical requirements.</p>
+
+<div class="my-6 rounded-xl border border-orange-200 bg-orange-50 p-5">
+<h3 class="!mt-0 !border-0 !pl-0">Important Cost Note</h3>
+<p class="!mb-0">The figures in this article are indicative estimates based on publicly available information. They are not Akropolis Hospital prices, a guaranteed package, or a substitute for a written estimate after an orthopedic assessment.</p>
+</div>
+
+<h2>Factors That Affect the Knee Replacement Cost in India</h2>
+
+<h3>1. Type of Knee Replacement Surgery</h3>
+
+<p>The procedure recommended for a patient is one of the main cost factors. The extent of joint damage, symptoms, imaging findings, and overall health help the orthopedic surgeon determine which approach may be appropriate.</p>
+
+<ul>
+<li><strong>Partial knee replacement:</strong> Only the damaged part of the knee joint is replaced when the remaining joint structures are suitable. It may have a different cost from total replacement.</li>
+<li><strong>Total knee replacement:</strong> The damaged joint surfaces are replaced with artificial components. The cost depends on the implant, surgical requirements, and hospital package.</li>
+<li><strong>Bilateral knee replacement:</strong> Both knees are treated. The total expense depends on whether the procedures are performed together or separately and on the patient medical risk.</li>
+<li><strong>Revision knee replacement:</strong> An existing implant is replaced or revised. This may be more complex and expensive than primary surgery because of the additional surgical work and resources required.</li>
+</ul>
+
+<p>The most suitable procedure should be based on clinical assessment rather than price alone.</p>
+
+<h3>2. Type, Brand, and Material of the Knee Implant</h3>
+
+<p>A knee implant is an important part of the total treatment cost. Different implants vary in design, material, available sizes, and other specifications. The choice should be based on the patient anatomy, joint condition, activity requirements, and the surgeon assessment.</p>
+
+<p>Ask the hospital whether the package includes the implant and which implant is proposed. If more than one option is suitable, request an explanation of the differences and any additional charges.</p>
+
+<ul>
+<li>Implant brand and model</li>
+<li>Materials used in the implant components</li>
+<li>Whether the quoted implant is included in the package</li>
+<li>Additional cost for an alternative implant, if applicable</li>
+<li>Documentation and implant identification details provided after surgery</li>
+</ul>
+
+<p>A higher-priced implant is not automatically the best choice for every patient. Discuss the expected benefits, limitations, and suitability of the available options with your orthopedic surgeon.</p>
+
+<h3>3. Hospital and City</h3>
+
+<p>The location and type of hospital can affect the overall estimate. Operating theatre facilities, nursing services, infection prevention systems, diagnostic services, staffing, and inpatient facilities all contribute to treatment costs.</p>
+
+<p>Prices may also differ between cities and between hospitals in the same city. However, a city-wide average cannot tell you exactly what an individual patient will pay. Compare the services included in each estimate rather than relying only on the lowest advertised figure.</p>
+
+<h3>4. Surgeon and Anesthesia Fees</h3>
+
+<p>The surgeon and anesthesia team provide essential services before, during, and after surgery. Their fees may be listed separately or included in the hospital package.</p>
+
+<p>When reviewing a quotation, check whether it covers the orthopedic surgeon, assistant surgeon where applicable, anesthesiologist, and routine postoperative reviews. Ask whether any separate professional fees may apply.</p>
+
+<h3>5. Conventional or Robotic-Assisted Surgery</h3>
+
+<p>Some hospitals offer conventional knee replacement as well as robotic-assisted or computer-guided approaches. Robotic-assisted surgery may involve additional technology, planning, equipment, and service charges, which can increase the quoted cost.</p>
+
+<p>The appropriate approach depends on the individual case, the available technology, and the surgeon assessment. Robotic assistance is not automatically necessary for every patient, and a higher price does not guarantee a better result.</p>
+
+<p>Before agreeing to a particular approach, ask the surgeon why it is being recommended, what potential benefits and limitations apply to your case, and how much extra it will cost.</p>
+
+<h3>6. Room Category and Length of Hospital Stay</h3>
+
+<p>Room selection can influence hospital charges. A private room, shared room, or higher-category room may have different daily rates. The length of admission also affects the final bill.</p>
+
+<p>Some patients may need a longer stay because of medical conditions, mobility concerns, or recovery requirements. Ask how many inpatient days are included in the package and what charges apply if the stay extends beyond that period.</p>
+
+<h3>7. Preoperative Tests and Medical Evaluation</h3>
+
+<p>Before surgery, the medical team assesses whether the patient is fit for the procedure and anesthesia. Depending on the case, the evaluation may include consultations, blood tests, imaging, heart assessment, and other investigations.</p>
+
+<p>Some investigations may be included in a package, while others may be billed separately. Patients with existing health conditions may need additional assessment or specialist advice.</p>
+
+<h3>8. Existing Medical Conditions</h3>
+
+<p>Conditions such as diabetes, heart disease, high blood pressure, kidney disease, or other significant medical problems may require additional monitoring, tests, medication adjustments, or specialist input.</p>
+
+<p>These needs can affect the overall expense and length of admission. Patients should share their medical history and current medicines with the treating team so that the care plan and estimate reflect their needs as accurately as possible.</p>
+
+<h3>9. Medicines, Rehabilitation, and Follow-Up Care</h3>
+
+<p>Knee replacement treatment does not end when the operation is complete. Pain management, mobility training, physiotherapy, follow-up appointments, and home recovery support may all contribute to the total cost.</p>
+
+<p>Some hospital packages include a limited amount of inpatient physiotherapy or routine medication. Continued rehabilitation after discharge may be charged separately.</p>
+
+<p>Ask about:</p>
+
+<ul>
+<li>Postoperative medicines and any discharge prescriptions</li>
+<li>Inpatient physiotherapy sessions included in the package</li>
+<li>Expected outpatient physiotherapy requirements</li>
+<li>Walking aids or other recovery equipment, if needed</li>
+<li>Follow-up consultations and routine investigations</li>
+<li>Transport or home support expenses, where relevant</li>
+</ul>
+
+<h3>10. Unexpected Medical Needs or Complications</h3>
+
+<p>Not every patient follows the same recovery pathway. If an unexpected medical issue occurs, additional treatment, investigations, medicines, or a longer hospital stay may be required.</p>
+
+<p>It is not possible to predict every additional expense in advance. Ask the hospital how extra services are billed and whether the estimate identifies exclusions or circumstances that could increase the final amount.</p>
+
+<h2>What Is Usually Included in a Knee Replacement Package?</h2>
+
+<p>Package inclusions differ between hospitals. A clear written estimate should identify the services covered and those that may cost extra.</p>
+
+<table>
+<thead>
+<tr>
+<th>Cost Component</th>
+<th>What to Confirm</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Procedure and professional fees</td>
+<td>Whether surgeon, assistant surgeon, and anesthesia fees are included</td>
+</tr>
+<tr>
+<td>Knee implant</td>
+<td>Implant brand or model, type, and any additional cost for alternatives</td>
+</tr>
+<tr>
+<td>Operation theatre</td>
+<td>Whether theatre, equipment, and routine surgical consumables are covered</td>
+</tr>
+<tr>
+<td>Hospital accommodation</td>
+<td>Room category, number of included days, and extra-day charges</td>
+</tr>
+<tr>
+<td>Tests and investigations</td>
+<td>Which preoperative and postoperative tests are included</td>
+</tr>
+<tr>
+<td>Medicines and supplies</td>
+<td>Which medicines and consumables are covered and which are billed separately</td>
+</tr>
+<tr>
+<td>Physiotherapy</td>
+<td>Number of sessions included during admission and after discharge</td>
+</tr>
+<tr>
+<td>Follow-up care</td>
+<td>Included consultations, routine reviews, and additional visit charges</td>
+</tr>
+<tr>
+<td>Additional treatment</td>
+<td>How complications, extra investigations, or an extended stay are billed</td>
+</tr>
+</tbody>
+</table>
+
+<div class="my-6 rounded-xl border border-blue-200 bg-blue-50 p-5">
+<h3 class="!mt-0 !border-0 !pl-0">Ask for an Itemized Estimate</h3>
+<p class="!mb-0">A written estimate should separate the main treatment charges from optional services and possible additional expenses. This makes it easier to compare hospitals fairly and plan for costs beyond the initial package.</p>
+</div>
+
+<h2>Does Health Insurance Cover Knee Replacement Surgery?</h2>
+
+<p>Some health insurance policies cover knee replacement when it is medically necessary, but the amount payable depends on the terms of the individual policy. The approved amount may differ from the full hospital bill.</p>
+
+<p>Before scheduling surgery, contact your insurer or third-party administrator and confirm:</p>
+
+<ul>
+<li>Whether the procedure is covered under your policy</li>
+<li>Whether a waiting period applies, including for pre-existing conditions</li>
+<li>Whether the policy has a specific limit for joint replacement surgery</li>
+<li>Whether room rent limits or proportionate deductions apply</li>
+<li>Whether a co-payment or deductible is required</li>
+<li>Which hospitals are available for cashless treatment under the policy</li>
+<li>Which medical reports and preauthorization documents are needed</li>
+<li>How non-covered expenses, implant upgrades, or additional services are handled</li>
+</ul>
+
+<p>Do not assume that a cashless facility means every charge will be covered. Request confirmation of the approved amount and clarify which expenses may remain payable by you.</p>
+
+<p>For general information about health insurance and knee replacement expenses, you can review the <a href="https://www.axismaxlife.com/blog/health-insurance/knee-replacement-surgery-cost-in-india" target="_blank" rel="nofollow noopener">knee replacement cost and insurance guide from Axis Max Life Insurance</a>. Always confirm your own policy terms directly with your insurer.</p>
+
+<h2>How to Compare Knee Replacement Quotes Between Hospitals</h2>
+
+<p>The lowest initial quotation may not represent the lowest final expense if important services are excluded. Use the following steps to compare estimates on a like-for-like basis.</p>
+
+<ol>
+<li><strong>Confirm the recommended procedure.</strong> Check whether each estimate is for partial, total, bilateral, robotic-assisted, or revision surgery.</li>
+<li><strong>Compare the implant details.</strong> Confirm the implant included in each quote and ask about any additional charges for alternatives.</li>
+<li><strong>Check the hospital stay.</strong> Compare the room category and the number of inpatient days covered.</li>
+<li><strong>Review professional fees.</strong> Confirm whether surgeon and anesthesia fees are included.</li>
+<li><strong>Check investigations and medicines.</strong> Identify tests, medicines, and consumables that may be billed separately.</li>
+<li><strong>Include rehabilitation costs.</strong> Ask how much physiotherapy is included and what continued recovery support may cost.</li>
+<li><strong>Review insurance approval.</strong> Confirm the expected insurer contribution and your estimated out-of-pocket share.</li>
+<li><strong>Ask about exclusions.</strong> Request written clarification of extra-day charges, additional procedures, and other possible expenses.</li>
+</ol>
+
+<h2>Questions to Ask Before Booking Knee Replacement Surgery</h2>
+
+<ul>
+<li>What procedure is recommended for my knee condition, and why?</li>
+<li>What is the total estimated cost for my treatment plan?</li>
+<li>Which implant is included in the package?</li>
+<li>Are surgeon fees, anesthesia, tests, and medicines included?</li>
+<li>How many hospital days and physiotherapy sessions are covered?</li>
+<li>What expenses are excluded from the package?</li>
+<li>What happens financially if I need a longer hospital stay?</li>
+<li>Will the hospital help with insurance preauthorization and billing documents?</li>
+<li>What follow-up appointments and rehabilitation will I need?</li>
+</ul>
+
+<h2>When Should You Consult an Orthopedic Specialist?</h2>
+
+<p>Cost planning is important, but the decision to undergo knee replacement should begin with a clinical assessment. An orthopedic specialist may consider surgery when severe joint damage causes persistent pain or difficulty with daily activities and non-surgical treatments no longer provide enough relief.</p>
+
+<p>Not everyone with knee pain needs a replacement. Depending on the diagnosis, treatment may include exercise, physiotherapy, weight management where appropriate, medicines, walking support, or other options.</p>
+
+<p>If knee pain is affecting your mobility, read our guide to <a href="/blog/en/knee-pain-while-walking">knee pain while walking or climbing stairs</a> for an overview of common causes and treatment options. You can also explore the <a href="/orthopedics">Akropolis Orthopedics Department</a> and learn more about <a href="/doctors/dr-prateek-girotra">Dr Prateek Girotra</a>.</p>
+
+<div class="my-10 rounded-2xl bg-gradient-to-r from-[#328CCB] to-[#2a7bb5] p-8 text-center text-white shadow-xl">
+<h3 class="!mt-0 !mb-3 !border-0 !pl-0 !text-white">Planning Knee Replacement Treatment?</h3>
+<p class="!mb-6 !text-white">Speak with the hospital team about arranging an orthopedic consultation and understanding the next steps for a treatment estimate based on your medical needs.</p>
+<a href="/contact" class="article-cta inline-block rounded-full bg-[#D66C43] px-8 py-3 font-bold no-underline transition-all hover:bg-[#c55a36]" style="color:#ffffff !important; text-decoration:none !important;">Contact Akropolis Hospital</a>
+</div>
+
+<h2>Conclusion</h2>
+
+<p>The knee replacement cost in India depends on several factors, including the procedure, implant, hospital, city, professional fees, room category, medical condition, and rehabilitation needs. The price displayed in an online article may not reflect the complete cost of an individual treatment plan.</p>
+
+<p>Before making a decision, obtain a written itemized estimate, check exactly what the package includes, confirm your insurance benefits, and discuss the clinical options with an orthopedic specialist. A clear understanding of both medical needs and financial commitments can help you plan treatment more confidently.</p>
+
+<p><strong>Medical Notice:</strong> This article is for general educational purposes only and does not replace professional medical advice, diagnosis, or treatment. Cost ranges are indicative and may change. The appropriate procedure and final cost depend on clinical assessment, the hospital treatment plan, and the terms of any insurance policy. Consult a qualified orthopedic specialist and obtain a written estimate before making treatment decisions.</p>'
+]
+
 [
     'slug' => 'knee-osteoarthritis',
     'title' => 'Knee Osteoarthritis: Symptoms, Stages and Treatment Options',
