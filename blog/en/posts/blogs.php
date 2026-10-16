@@ -293,10 +293,12 @@ $blogs = [
 <p>The knee replacement cost in India depends on several factors, including the procedure, implant, hospital, city, professional fees, room category, medical condition, and rehabilitation needs. The price displayed in an online article may not reflect the complete cost of an individual treatment plan.</p>
 
 <p>Before making a decision, obtain a written itemized estimate, check exactly what the package includes, confirm your insurance benefits, and discuss the clinical options with an orthopedic specialist. A clear understanding of both medical needs and financial commitments can help you plan treatment more confidently.</p>
+
 <div class="my-8 rounded-2xl border border-gray-200 bg-gray-50 p-6 text-sm text-gray-700">
     <strong>Medical Notice:</strong>
  This article is for general educational purposes only and does not replace professional medical advice, diagnosis, or treatment. Cost ranges are indicative and may change. The appropriate procedure and final cost depend on clinical assessment, the hospital treatment plan, and the terms of any insurance policy. Consult a qualified orthopedic specialist and obtain a written estimate before making treatment decisions.
 </div>
+'
 ],
 
 [
