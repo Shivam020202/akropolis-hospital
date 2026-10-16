@@ -7,7 +7,6 @@
  */
 
 $blogs = [
-
 [
     'slug' => 'knee-osteoarthritis',
     'title' => 'Knee Osteoarthritis: Symptoms, Stages and Treatment Options',
@@ -16,6 +15,15 @@ $blogs = [
     'image_alt' => 'Knee osteoarthritis symptoms, stages, cartilage damage and treatment options',
     'author' => 'Dr Prateek Girotra',
     'category' => 'Orthopedics',
+    'tags' => [
+        'knee osteoarthritis',
+        'knee arthritis symptoms',
+        'stages of knee osteoarthritis',
+        'osteoarthritis treatment',
+        'knee pain',
+        'knee replacement surgery',
+        'joint health'
+    ],
     'read_time' => '11 min read',
     'published_at' => '2026-10-16',
     'status' => 'published',
@@ -354,13 +362,7 @@ $blogs = [
     <li><a href="https://www.ncbi.nlm.nih.gov/books/NBK507884/" target="_blank" rel="nofollow noopener">NCBI Bookshelf: Knee Osteoarthritis, StatPearls</a></li>
     <li><a href="https://www.mayoclinic.org/diseases-conditions/osteoarthritis/diagnosis-treatment/drc-20351930" target="_blank" rel="nofollow noopener">Mayo Clinic: Osteoarthritis Diagnosis and Treatment</a></li>
     <li><a href="https://www.medicalnewstoday.com/articles/what-are-the-4-stages-of-osteoarthritis" target="_blank" rel="nofollow noopener">Medical News Today: The Four Stages of Osteoarthritis</a></li>
-    <li>
-        <a href="https://www.nhs.uk/conditions/osteoarthritis/treatment/"
-           target="_blank"
-           rel="nofollow noopener">
-            NHS: Osteoarthritis Treatment and Support
-        </a>
-    </li>
+    <li> <a href="https://www.nhs.uk/conditions/osteoarthritis/treatment/" target="_blank" rel="nofollow noopener"> NHS: Osteoarthritis Treatment and Support </a></li>
 </ul>
 
 <div class="my-6 rounded-xl border border-gray-200 bg-gray-50 p-5">
