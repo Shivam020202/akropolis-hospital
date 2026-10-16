@@ -7,6 +7,594 @@
  */
 
 $blogs = [
+[
+    'slug'         => 'knee-pain-while-walking',
+    'title'        => 'Knee Pain While Walking or Climbing Stairs: Causes and Treatment',
+    'excerpt'      => 'Experiencing knee pain while walking or climbing stairs? Learn about common causes, warning signs, treatment options, exercises, and ways to protect your knee health.',
+    'image'        => '/assets/images/blog/English/knee-pain-while-walking.webp',
+    'author'       => 'Dr Prateek Girotra',
+    'category'     => 'Orthopedics',
+    'tags'         => [
+        'knee pain while walking',
+        'knee pain climbing stairs',
+        'knee pain causes',
+        'knee pain treatment',
+        'knee osteoarthritis',
+        'patellofemoral pain',
+        'knee exercises',
+        'orthopaedics'
+    ],
+    'read_time'    => '11 min read',
+    'published_at' => '2026-10-16',
+    'status'       => 'published',
+
+    'faqs' => [
+        [
+            'question' => 'Why does my knee hurt when I walk?',
+            'answer'   => 'Knee pain while walking can result from osteoarthritis, irritation around the kneecap, tendon problems, meniscus injuries, ligament injuries, bursitis, or overuse. The cause depends on the location of pain, how it started, and whether swelling, stiffness, or instability is present.'
+        ],
+        [
+            'question' => 'Why does my knee hurt when climbing stairs?',
+            'answer'   => 'Pain while climbing stairs can occur when the kneecap joint is irritated, when knee osteoarthritis affects movement, or when muscles and tendons around the knee are overloaded. Persistent or worsening pain should be assessed by a healthcare professional.'
+        ],
+        [
+            'question' => 'Can knee pain while walking be treated at home?',
+            'answer'   => 'Mild knee pain after overuse may improve with temporary activity modification, wrapped ice packs, and a gradual return to comfortable movement. Severe pain, major swelling, inability to bear weight, fever, redness, or a locked knee requires prompt medical assessment.'
+        ],
+        [
+            'question' => 'Which exercises are good for knee pain?',
+            'answer'   => 'Depending on the cause, a physiotherapist may recommend gentle range-of-motion exercises, quadriceps strengthening, straight-leg raises, and hip-strengthening exercises. Stop any exercise that causes sharp or increasing pain and seek professional guidance if symptoms persist.'
+        ],
+        [
+            'question' => 'Does knee pain while walking always mean arthritis?',
+            'answer'   => 'No. Knee pain can also result from overuse, patellofemoral pain, tendon irritation, bursitis, meniscus injuries, ligament injuries, or other conditions. A clinical assessment helps identify the likely cause.'
+        ],
+        [
+            'question' => 'When should I see a doctor for knee pain?',
+            'answer'   => 'Seek urgent care if you cannot bear weight, the knee is severely swollen or deformed, it locks, or it becomes hot and red with fever. Arrange an appointment if pain persists, repeatedly returns, limits daily activities, or is associated with instability.'
+        ]
+    ],
+
+    'content' => '
+<div class="my-8 rounded-2xl border-l-4 border-[#328CCB] bg-blue-50 p-6 shadow-sm">
+    <h2 class="!mt-0 !mb-3 !border-0 !pl-0">Quick Answer</h2>
+    <p class="!mb-0">
+        Knee pain while walking or climbing stairs can be caused by osteoarthritis, patellofemoral pain, tendon irritation, meniscus injuries, ligament injuries, or overuse. The location of pain, associated swelling, stiffness, and the way symptoms began can help identify the likely cause. Mild pain may improve with temporary activity modification and appropriate home care, but persistent, severe, or worsening symptoms need medical assessment. Treatment may include physiotherapy, strengthening exercises, medicines when appropriate, or a procedure for selected conditions.
+    </p>
+</div>
+
+<p>
+Walking and climbing stairs are routine activities, so knee pain during these movements can quickly affect daily life. You may notice discomfort when taking the first few steps, pain around the kneecap while going upstairs, stiffness after sitting, or difficulty walking for longer periods.
+</p>
+
+<p>
+These symptoms can have several causes. Some involve irritation from increased activity, while others are related to arthritis, an injury, or problems with the muscles and structures that support the knee.
+</p>
+
+<p>
+Understanding why your knee hurts is important because the right treatment depends on the underlying problem. This guide explains the common causes of knee pain while walking, how the condition may be assessed, and what can help you move more comfortably.
+</p>
+
+<div class="my-8 rounded-2xl border border-gray-200 bg-gray-50 p-6 shadow-sm">
+    <h3 class="!mt-0 !border-0 !pl-0">Important to Know</h3>
+    <p class="!mb-0">
+        Knee pain is a symptom, not a diagnosis. Pain during walking does not automatically mean that you have arthritis or need surgery. A healthcare professional can assess your symptoms and recommend treatment according to the cause, severity, and effect on daily activities.
+    </p>
+</div>
+
+<h2>Why Does Knee Pain Increase While Walking or Climbing Stairs?</h2>
+
+<p>
+The knee is a complex joint that allows the leg to bend and straighten while supporting body weight. It contains bones, cartilage, ligaments, tendons, muscles, and other tissues that work together during movement.
+</p>
+
+<p>
+Walking places repeated loads on the knee. Climbing stairs requires the knee to bend while the muscles around the joint work harder to lift and lower the body. If a joint surface, tendon, ligament, or surrounding tissue is irritated or injured, these movements may trigger pain.
+</p>
+
+<p>
+The location of discomfort can offer clues, although it cannot confirm a diagnosis on its own.
+</p>
+
+<table>
+    <thead>
+        <tr>
+            <th>Where you feel pain</th>
+            <th>Possible causes</th>
+            <th>What to notice</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr>
+            <td>Front of the knee or around the kneecap</td>
+            <td>Patellofemoral pain, kneecap arthritis, or tendon irritation</td>
+            <td>Pain on stairs, squatting, or standing after prolonged sitting</td>
+        </tr>
+        <tr>
+            <td>Inner side of the knee</td>
+            <td>Osteoarthritis, meniscus problems, or ligament irritation</td>
+            <td>Stiffness, tenderness, swelling, or pain during twisting</td>
+        </tr>
+        <tr>
+            <td>Outer side of the knee</td>
+            <td>Iliotibial band irritation, meniscus problems, or ligament injury</td>
+            <td>Pain after repetitive activity or during bending</td>
+        </tr>
+        <tr>
+            <td>Behind the knee</td>
+            <td>Hamstring or calf tendon problems, a Baker cyst, or joint-related conditions</td>
+            <td>Tightness, swelling, or discomfort when bending the knee</td>
+        </tr>
+        <tr>
+            <td>Throughout the knee</td>
+            <td>Osteoarthritis, inflammation, significant injury, or other joint conditions</td>
+            <td>General stiffness, swelling, reduced movement, or pain with weight-bearing</td>
+        </tr>
+    </tbody>
+</table>
+
+<p>
+These patterns are only general clues. Different knee conditions can produce similar symptoms, so a medical assessment may be needed to determine the cause.
+</p>
+
+<h2>Common Causes of Knee Pain While Walking</h2>
+
+<h3>1. Knee Osteoarthritis</h3>
+
+<p>
+Osteoarthritis is a common cause of knee pain, particularly in middle-aged and older adults. It involves changes in the joint cartilage and other structures that can lead to pain, stiffness, and reduced movement.
+</p>
+
+<p>
+People with knee osteoarthritis may experience pain during walking, climbing stairs, standing for long periods, or getting up after sitting. Stiffness can be more noticeable after rest, and some people experience swelling or a grinding sensation.
+</p>
+
+<p>
+Previous knee injuries, excess body weight, muscle weakness, joint alignment, age, and family history can influence the risk of osteoarthritis.
+</p>
+
+<p>
+Treatment often begins with strengthening exercises, suitable physical activity, weight management when appropriate, and pain relief selected according to individual health needs. Surgery may be considered when severe symptoms continue despite suitable nonsurgical treatment.
+</p>
+
+<h3>2. Patellofemoral Pain Syndrome</h3>
+
+<p>
+Patellofemoral pain syndrome causes discomfort around or behind the kneecap. It may develop when repeated loading, changes in activity, or weakness in the muscles supporting the knee and hip contribute to irritation around the kneecap joint.
+</p>
+
+<p>
+Typical symptoms include:
+</p>
+
+<ul>
+    <li>Pain at the front of the knee while climbing or descending stairs.</li>
+    <li>Discomfort during squatting, running, jumping, or kneeling.</li>
+    <li>Pain after sitting with the knee bent for a long time.</li>
+    <li>A dull ache that becomes more noticeable with repeated activity.</li>
+</ul>
+
+<p>
+This condition can affect active people and those who are not involved in sports. Treatment commonly includes temporarily reducing painful activities and following a suitable rehabilitation programme.
+</p>
+
+<h3>3. Tendonitis or Tendon Irritation</h3>
+
+<p>
+Tendons connect muscles to bones and help transfer force during movement. Repetitive loading, sudden increases in exercise, or certain sports can irritate a tendon around the knee.
+</p>
+
+<p>
+Patellar tendon problems often cause pain below the kneecap, particularly during jumping, running, or repeated knee bending. Other tendon problems can cause discomfort above the kneecap or around the back of the joint.
+</p>
+
+<p>
+Treatment may involve adjusting activity levels, progressive strengthening, and physiotherapy. Persistent pain should be assessed because not every tendon problem is the same.
+</p>
+
+<h3>4. Meniscus Injury</h3>
+
+<p>
+The menisci are two pieces of tough cartilage that help distribute load and absorb shock between the thighbone and shinbone. A meniscus tear may occur when the knee twists under load, but degenerative tears can also develop over time.
+</p>
+
+<p>
+Possible symptoms include:
+</p>
+
+<ul>
+    <li>Pain along the inner or outer joint line.</li>
+    <li>Swelling or stiffness.</li>
+    <li>Pain when turning or twisting the knee.</li>
+    <li>A catching sensation or difficulty fully bending or straightening the knee.</li>
+</ul>
+
+<p>
+Treatment depends on the type of tear, the symptoms, the patient age, activity needs, and whether the knee is mechanically blocked. Some cases improve with rehabilitation, while selected injuries may require surgical assessment.
+</p>
+
+<h3>5. Ligament Sprain or Injury</h3>
+
+<p>
+Ligaments help stabilise the knee. A sudden twist, fall, collision, or change of direction can stretch or tear one of these structures.
+</p>
+
+<p>
+A ligament injury may cause pain, swelling, instability, or a feeling that the knee is giving way. Some injuries occur with a popping sensation at the time of trauma.
+</p>
+
+<p>
+If knee pain begins after a significant injury, especially with rapid swelling or difficulty bearing weight, seek prompt medical assessment. The severity of the injury determines whether rehabilitation, bracing, or surgery may be appropriate.
+</p>
+
+<h3>6. Bursitis</h3>
+
+<p>
+Bursae are small fluid-filled sacs that reduce friction between tissues around a joint. When a bursa becomes irritated, it can cause localised pain and swelling.
+</p>
+
+<p>
+Knee bursitis may be associated with repeated kneeling, direct pressure, injury, or inflammation. Pain may increase when bending the knee or pressing on the affected area.
+</p>
+
+<p>
+A hot, red, swollen knee, particularly with fever, needs urgent medical evaluation because an infection must be considered.
+</p>
+
+<h3>7. Muscle Weakness or Sudden Increase in Activity</h3>
+
+<p>
+The quadriceps, hamstrings, and hip muscles help control movement and support the knee. Weakness, reduced flexibility, or poor tolerance for a sudden increase in activity may contribute to discomfort during walking and stair climbing.
+</p>
+
+<p>
+For example, pain may develop after starting a new exercise programme, walking much farther than usual, repeatedly climbing stairs, or returning to sports after a long break.
+</p>
+
+<p>
+Gradually increasing activity and improving strength can help reduce excessive loading. However, persistent pain should not be assumed to be caused only by weak muscles.
+</p>
+
+<h2>Why Does Knee Pain Hurt More When Climbing Stairs?</h2>
+
+<p>
+Climbing stairs requires more knee bending and greater muscle effort than walking on level ground. This increases the load placed on certain parts of the knee, particularly the joint between the kneecap and thighbone.
+</p>
+
+<p>
+Descending stairs can also be difficult because the thigh muscles must control the body as it lowers onto the next step.
+</p>
+
+<p>
+Pain on stairs is commonly associated with:
+</p>
+
+<ul>
+    <li>Patellofemoral pain syndrome.</li>
+    <li>Knee osteoarthritis.</li>
+    <li>Quadriceps weakness or reduced muscle control.</li>
+    <li>Patellar tendon irritation.</li>
+    <li>Meniscus or other joint injuries.</li>
+</ul>
+
+<p>
+If stairs trigger pain, temporarily reduce repeated stair climbing where practical. Use a handrail, take your time, and avoid forcing the knee through sharp pain. These changes may make movement more comfortable while you arrange an assessment if symptoms persist.
+</p>
+
+<h2>When Is Knee Pain a Warning Sign?</h2>
+
+<div class="my-8 rounded-2xl border-l-4 border-[#D66C43] bg-orange-50 p-6 shadow-sm">
+    <h3 class="!mt-0 !border-0 !pl-0">Seek Urgent Medical Care If:</h3>
+    <ul class="!mb-0">
+        <li>You cannot bear weight on the affected leg or move the knee normally after an injury.</li>
+        <li>The knee becomes severely swollen, visibly deformed, or suddenly unstable.</li>
+        <li>The knee locks and you cannot fully straighten it.</li>
+        <li>The knee becomes hot and red, especially with fever or chills.</li>
+        <li>You develop severe pain or rapidly increasing swelling.</li>
+        <li>You develop new calf swelling or pain with breathlessness or chest pain. These symptoms can indicate a blood clot or another emergency.</li>
+    </ul>
+</div>
+
+<p>
+Arrange a medical appointment if knee pain continues for more than a few days without clear improvement, repeatedly returns, disturbs sleep, or limits walking and everyday activities. Seek assessment sooner if symptoms are worsening.
+</p>
+
+<h2>How Is the Cause of Knee Pain Diagnosed?</h2>
+
+<p>
+A healthcare professional usually begins by asking when the pain started, where it occurs, what makes it worse, and whether an injury or increase in activity preceded it.
+</p>
+
+<p>
+The assessment may include checking swelling, tenderness, joint movement, muscle strength, stability, and the way you walk or bend the knee.
+</p>
+
+<table>
+    <thead>
+        <tr>
+            <th>Assessment or test</th>
+            <th>Why it may be used</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr>
+            <td>Medical history and physical examination</td>
+            <td>Helps identify the pain pattern, possible injury, movement limitations, and signs of instability or inflammation.</td>
+        </tr>
+        <tr>
+            <td>X-ray</td>
+            <td>May show bone changes, fractures, alignment issues, or features of osteoarthritis.</td>
+        </tr>
+        <tr>
+            <td>MRI</td>
+            <td>May be considered when a meniscus, ligament, cartilage, or other soft-tissue problem is suspected.</td>
+        </tr>
+        <tr>
+            <td>Ultrasound</td>
+            <td>Can help assess selected soft-tissue problems, fluid collections, or tendon conditions.</td>
+        </tr>
+        <tr>
+            <td>Blood tests or joint fluid analysis</td>
+            <td>May be needed when infection, gout, or an inflammatory condition is suspected.</td>
+        </tr>
+    </tbody>
+</table>
+
+<p>
+Not everyone with knee pain needs a scan. The choice of investigation depends on the clinical findings and whether the result is likely to change treatment.
+</p>
+
+<h2>Treatment for Knee Pain While Walking</h2>
+
+<p>
+Treatment depends on the underlying cause, the severity of symptoms, and how much the pain affects daily life. Many knee problems can initially be managed without surgery.
+</p>
+
+<h3>1. Modify Activities Temporarily</h3>
+
+<p>
+Reduce activities that clearly increase pain, such as repeated stair climbing, deep squats, running, or jumping. Avoid complete inactivity for prolonged periods unless a healthcare professional advises it.
+</p>
+
+<p>
+As symptoms improve, gradually return to comfortable movement. A suitable plan should help you maintain activity without repeatedly aggravating the knee.
+</p>
+
+<h3>2. Use Ice for Recent Pain or Swelling</h3>
+
+<p>
+For a recent injury or swelling, a cold pack wrapped in a towel may help ease discomfort. Apply it for around 15 to 20 minutes at a time and allow the skin to return to normal temperature between applications.
+</p>
+
+<p>
+Do not place ice directly on the skin. If you have reduced sensation or circulation problems, ask a healthcare professional before using cold therapy.
+</p>
+
+<h3>3. Consider Pain Relief Safely</h3>
+
+<p>
+Depending on the cause, a healthcare professional may recommend a suitable pain-relief medicine or topical treatment. Anti-inflammatory medicines are not appropriate for everyone and can carry risks for people with certain kidney, heart, stomach, or blood pressure conditions, as well as those taking specific medicines.
+</p>
+
+<p>
+Ask a doctor or pharmacist which option is appropriate for you. Do not use pain relief to push through an activity that is making an injury worse.
+</p>
+
+<h3>4. Physiotherapy and Strengthening</h3>
+
+<p>
+Physiotherapy can help improve knee movement, muscle strength, balance, and control. A physiotherapist may assess the quadriceps, hamstrings, hip muscles, and movement patterns before selecting exercises.
+</p>
+
+<p>
+The programme should match the condition. Exercises that help one person may aggravate another problem, especially during the early stages of an injury.
+</p>
+
+<h3>5. Weight Management When Appropriate</h3>
+
+<p>
+For people carrying excess body weight, gradual weight reduction may reduce the load placed on the knee during walking and stair climbing. It can be particularly helpful as part of a broader treatment plan for knee osteoarthritis.
+</p>
+
+<p>
+Weight management should be approached in a sustainable way and combined with suitable activity, nutrition, and medical guidance when needed.
+</p>
+
+<h3>6. Braces, Supports, or Footwear Changes</h3>
+
+<p>
+Some people benefit from a knee brace, supportive footwear, or an orthotic device, depending on the diagnosis. These options are not necessary for everyone and should be selected according to the problem being treated.
+</p>
+
+<h3>7. Injections or Surgery in Selected Cases</h3>
+
+<p>
+If symptoms remain significant despite appropriate nonsurgical care, a specialist may discuss additional treatments. The options depend on the condition and can include selected injections or surgery for particular injuries or advanced joint disease.
+</p>
+
+<p>
+Surgery is not the first treatment for every case of knee pain. The decision should consider the diagnosis, severity, expected benefits, possible risks, and the effect of symptoms on daily life.
+</p>
+
+<h2>Exercises That May Help Support Knee Function</h2>
+
+<p>
+Strengthening and movement exercises can help many people with knee pain, but the correct exercises depend on the cause. The examples below are general starting points, not a personalised rehabilitation plan.
+</p>
+
+<h3>1. Gentle Knee Bends</h3>
+
+<p>
+Sit or lie down with the leg supported. Slowly bend the knee within a comfortable range and then straighten it again. Avoid forcing the movement or continuing if pain increases sharply.
+</p>
+
+<h3>2. Quadriceps Tightening</h3>
+
+<p>
+Sit or lie with the leg straight. Gently tighten the muscles at the front of the thigh while keeping the knee straight. Hold briefly, relax, and repeat if comfortable.
+</p>
+
+<h3>3. Straight-Leg Raises</h3>
+
+<p>
+Lie on your back with one knee bent and the other leg straight. Tighten the thigh of the straight leg and raise it a short distance while keeping the knee straight. Lower it slowly.
+</p>
+
+<h3>4. Gentle Hip Strengthening</h3>
+
+<p>
+Hip-strengthening exercises may help improve control of the leg during movement. A physiotherapist can recommend suitable options based on your strength, balance, and symptoms.
+</p>
+
+<div class="my-8 rounded-2xl border-l-4 border-[#D66C43] bg-orange-50 p-6 shadow-sm">
+    <h3 class="!mt-0 !border-0 !pl-0">Exercise Safety</h3>
+    <p class="!mb-0">
+        Stop an exercise if it causes sharp pain, increasing swelling, instability, or a feeling that the knee is locking. Do not begin strengthening exercises immediately after a significant injury without appropriate assessment. If pain persists, ask a physiotherapist or doctor for an individual plan.
+    </p>
+</div>
+
+<h2>How to Reduce Knee Pain During Everyday Activities</h2>
+
+<p>
+Small changes in your daily routine may make walking and stair climbing more manageable while you address the underlying cause.
+</p>
+
+<ul>
+    <li><strong>Choose comfortable footwear:</strong> Wear shoes that fit well and provide suitable support for your activity.</li>
+    <li><strong>Increase walking gradually:</strong> Avoid sudden increases in distance, speed, or walking frequency.</li>
+    <li><strong>Use a handrail:</strong> Hold the rail when using stairs, particularly if the knee feels weak or painful.</li>
+    <li><strong>Avoid repeated deep bending:</strong> Temporarily reduce deep squats and kneeling if they aggravate symptoms.</li>
+    <li><strong>Break up long periods of sitting:</strong> Change position regularly and move gently when comfortable.</li>
+    <li><strong>Build strength progressively:</strong> Follow a suitable exercise plan rather than increasing resistance too quickly.</li>
+    <li><strong>Respond to swelling:</strong> New or increasing swelling after activity may mean the knee needs assessment or a change in the rehabilitation plan.</li>
+</ul>
+
+<h2>Can Knee Pain Be Prevented?</h2>
+
+<p>
+Not every knee condition can be prevented, but some habits may reduce the risk of overuse injuries and support joint function.
+</p>
+
+<ol>
+    <li>Warm up before sports or more demanding exercise.</li>
+    <li>Increase exercise intensity and duration gradually.</li>
+    <li>Strengthen the muscles around the knee and hip.</li>
+    <li>Include suitable flexibility and balance exercises in your routine.</li>
+    <li>Use appropriate footwear for walking, running, and sports.</li>
+    <li>Allow time for recovery after strenuous activity.</li>
+    <li>Address recurring knee pain early rather than repeatedly pushing through it.</li>
+    <li>Maintain a healthy weight when appropriate for your health and circumstances.</li>
+</ol>
+
+<h2>When Should You Consult an Orthopaedic Specialist?</h2>
+
+<p>
+Consider an orthopaedic assessment if knee pain continues despite initial care, interferes with walking or stair climbing, repeatedly returns, or is associated with swelling, instability, or restricted movement.
+</p>
+
+<p>
+An orthopaedic specialist can assess whether the symptoms are related to arthritis, a tendon problem, a meniscus or ligament injury, or another condition. A suitable treatment plan may involve activity modification, physiotherapy, medication, additional investigations, or a procedure when clinically indicated.
+</p>
+
+<div class="my-10 rounded-2xl bg-gradient-to-r from-[#328CCB] to-[#2a7bb5] p-8 text-center text-white shadow-xl">
+    <h3 class="!mt-0 !mb-3 !border-0 !pl-0 !text-white">Do Not Let Persistent Knee Pain Limit Your Daily Life</h3>
+    <p class="!mb-6 !text-white">
+        If knee pain is making walking, climbing stairs, or routine activities difficult, seek a professional assessment to understand the cause and discuss suitable treatment options.
+    </p>
+    <a href="/contact"
+       class="article-cta inline-block rounded-full bg-[#D66C43] px-8 py-3 font-bold no-underline transition-all hover:bg-[#c55a36]"
+       style="color:#ffffff !important; text-decoration:none !important;">
+        Book a Consultation
+    </a>
+</div>
+
+<h2>Key Takeaways</h2>
+
+<ul>
+    <li>Knee pain while walking can result from osteoarthritis, patellofemoral pain, tendon irritation, injuries, or overuse.</li>
+    <li>Pain while climbing stairs often increases because the knee must bend and support greater muscular effort.</li>
+    <li>The location of pain can offer clues, but it cannot confirm the diagnosis.</li>
+    <li>Many knee problems can improve with appropriate activity changes, strengthening, and physiotherapy.</li>
+    <li>Medicines, injections, braces, and surgery may be considered in selected cases based on the diagnosis.</li>
+    <li>Seek urgent care for severe swelling, inability to bear weight, a locked knee, or a hot and red knee with fever.</li>
+    <li>Persistent or recurring symptoms deserve medical assessment rather than repeated self-treatment.</li>
+</ul>
+
+<h2>Conclusion</h2>
+
+<p>
+Knee pain while walking or climbing stairs can make everyday activities uncomfortable, but the cause is not always the same. Arthritis, kneecap-related pain, tendon irritation, injuries, and changes in activity can all contribute to symptoms.
+</p>
+
+<p>
+The best treatment begins with understanding the cause. Temporary activity modification, suitable pain relief, and a structured exercise programme may help many people, while some conditions need further investigation or specialist treatment.
+</p>
+
+<p>
+If knee pain is persistent, worsening, or affecting your ability to move comfortably, arrange a medical assessment. Early evaluation can help identify the problem and guide a treatment plan that supports safer movement and better daily function.
+</p>
+
+<h2>Medical References</h2>
+
+<ul>
+    <li>
+        <a href="https://www.mayoclinic.org/diseases-conditions/knee-pain/symptoms-causes/syc-20350849"
+           target="_blank"
+           rel="nofollow noopener">
+            Mayo Clinic: Knee Pain, Symptoms and Causes
+        </a>
+    </li>
+    <li>
+        <a href="https://www.mayoclinic.org/diseases-conditions/patellofemoral-pain-syndrome/symptoms-causes/syc-20350792"
+           target="_blank"
+           rel="nofollow noopener">
+            Mayo Clinic: Patellofemoral Pain Syndrome
+        </a>
+    </li>
+    <li>
+        <a href="https://www.nhs.uk/symptoms/knee-pain/"
+           target="_blank"
+           rel="nofollow noopener">
+            NHS: Knee Pain, Symptoms and When to Seek Help
+        </a>
+    </li>
+    <li>
+        <a href="https://www.nhs.uk/conditions/osteoarthritis/treatment/"
+           target="_blank"
+           rel="nofollow noopener">
+            NHS: Osteoarthritis Treatment and Support
+        </a>
+    </li>
+    <li>
+        <a href="https://www.orthoinfo.org/diseases--conditions/patellofemoral-pain-syndrome/"
+           target="_blank"
+           rel="nofollow noopener">
+            American Academy of Orthopaedic Surgeons: Patellofemoral Pain Syndrome
+        </a>
+    </li>
+    <li>
+        <a href="https://www.medicalnewstoday.com/articles/311263"
+           target="_blank"
+           rel="nofollow noopener">
+            Medical News Today: Knee Pain When Walking Up Stairs
+        </a>
+    </li>
+    <li>
+        <a href="https://www.hingehealth.com/gb/en/resources/articles/pain-in-knee-when-climbing-stairs/"
+           target="_blank"
+           rel="nofollow noopener">
+            Hinge Health: Knee Pain When Climbing Stairs
+        </a>
+    </li>
+</ul>
+
+<div class="my-8 rounded-2xl border border-gray-200 bg-gray-50 p-6 text-sm text-gray-700">
+    <strong>Medical Notice:</strong>
+    This article is intended for general health education and does not replace professional medical advice, diagnosis, or treatment. Knee pain can have several causes that require different approaches. Seek medical care for persistent symptoms and urgent assessment for severe pain, major swelling, inability to bear weight, a locked knee, or a hot and red knee with fever.
+</div>
+',
+],
+
     [
     'slug'         => 'early-signs-of-heart-disease',
     'title'        => '10 Early Warning Signs of Heart Disease You Should Never Ignore',
