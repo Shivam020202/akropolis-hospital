@@ -34,9 +34,64 @@ if (!$doctor) {
     exit;
 }
 
-$page_title = $doctor['name'] . ' | ' . $doctor['specialization'] . ' | Akropolis';
-$page_description = $doctor['name'] . ' is an experienced ' . $doctor['specialization'] . ' at Akropolis Super Speciality Hospital, Gurugram. ' . ($doctor['bio'] ?? 'Expert specialist providing advanced healthcare.');
-$canonical_url = '/doctors/' . $doctor['id'];
+$doctorSeo = [
+    'dr-anu-nagpal' => [
+        'title' => 'Dr. Anu Nagpal, Obstetrician & Gynaecologist | Akropolis',
+        'description' => "Consult Dr. Anu Nagpal, an experienced obstetrician and gynecologist at Akropolis Super Speciality Hospital, for expert women's healthcare, pregnancy care and gynecological treatment. She has 11+ years of overall experience, including 7 years of specialist experience.",
+    ],
+
+    'dr-prateek-girotra' => [
+        'title' => 'Dr. Prateek Girotra, Orthopaedic Surgeon | Akropolis',
+        'description' => 'Consult Dr. Prateek Girotra, an experienced orthopaedic surgeon and Director & Head of Orthopedics at Akropolis Super Speciality Hospital, for expert care in trauma, joint replacement and arthroscopy. He has 12+ years of overall experience, including 10+ years as a specialist.',
+    ],
+
+    'dr-rahul-jain' => [
+        'title' => 'Dr. Rahul Jain, Plastic & Reconstructive Surgeon | Akropolis',
+        'description' => 'Consult Dr. Rahul Jain, an experienced plastic and reconstructive surgeon at Akropolis Super Speciality Hospital, for specialist plastic and reconstructive surgical care. He has 12+ years of overall experience, including 2 years as a specialist.',
+    ],
+
+    'dr-naresh-kumar' => [
+        'title' => 'Dr. Naresh Kumar, Orthopedic Surgeon | Akropolis',
+        'description' => 'Consult Dr. Naresh Kumar, an experienced orthopaedic surgeon at Akropolis Super Speciality Hospital, for expert evaluation and treatment of musculoskeletal conditions. He has over 8 years of experience in orthopaedic care.',
+    ],
+
+    'dr-ankit-garg' => [
+        'title' => 'Dr. Ankit Garg, Internal Medicine Physician | Akropolis',
+        'description' => 'Consult Dr. Ankit Garg, an experienced internal medicine physician at Akropolis Super Speciality Hospital, for expert medical evaluation, diagnosis and treatment of complex medical conditions. He has 8+ years of overall experience, including 2 years as a specialist.',
+    ],
+
+    'dr-subhash-chanana' => [
+        'title' => 'Dr. Subhash Chandra Chanana, General & Onco Surgeon | Akropolis',
+        'description' => 'Consult Dr. Subhash Chandra Chanana, an experienced senior consultant in general and onco surgery at Akropolis Super Speciality Hospital, for specialist general and oncological surgical care. He has 50+ years of overall experience, including 45+ years as a specialist.',
+    ],
+
+    'dr-jona-garikana' => [
+        'title' => 'Dr. Jona Manohar Garikana, Internal Medicine Physician | Akropolis',
+        'description' => 'Consult Dr. Jona Manohar Garikana, an experienced internal medicine physician at Akropolis Super Speciality Hospital, for expert medical evaluation, diagnosis and treatment of adult health conditions. He has 14+ years of overall experience, including 5+ years as a specialist.',
+    ],
+
+    'dr-madan-lal' => [
+        'title' => 'Dr. Madan Lal, Consultant Paediatrician | Akropolis',
+        'description' => 'Consult Dr. Madan Lal, an experienced paediatrician at Akropolis Super Speciality Hospital, for expert child healthcare, paediatric assessment and treatment. He has over 12 years of experience in paediatrics and child healthcare.',
+    ],
+];
+
+$doctorId = $doctor['id'] ?? '';
+
+if (isset($doctorSeo[$doctorId])) {
+    $page_title = $doctorSeo[$doctorId]['title'];
+    $page_description = $doctorSeo[$doctorId]['description'];
+} else {
+    $page_title = $doctor['name'] . ' | ' . $doctor['specialization'] . ' | Akropolis';
+
+    $page_description = $doctor['name'] . ' is an experienced ' .
+        $doctor['specialization'] .
+        ' at Akropolis Super Speciality Hospital, Gurugram. ' .
+        ($doctor['bio'] ?? 'Expert specialist providing advanced healthcare.');
+}
+
+$canonical_url = '/doctors/' . $doctorId;
+
 $schema_blocks = [
     schemaPhysician([
         'name'           => $doctor['name'],
