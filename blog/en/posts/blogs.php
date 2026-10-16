@@ -12,6 +12,7 @@ $blogs = [
     'title'        => 'Knee Pain While Walking or Climbing Stairs: Causes and Treatment',
     'excerpt'      => 'Experiencing knee pain while walking or climbing stairs? Learn about common causes, warning signs, treatment options, exercises, and ways to protect your knee health.',
     'image'        => '/assets/images/blog/English/knee-pain-while-walking.webp',
+    'image_alt'    => 'Knee pain while walking or climbing stairs, showing common causes and treatment options', 
     'author'       => 'Dr Prateek Girotra',
     'category'     => 'Orthopedics',
     'tags'         => [
@@ -545,13 +546,6 @@ If knee pain is persistent, worsening, or affecting your ability to move comfort
         </a>
     </li>
     <li>
-        <a href="https://www.mayoclinic.org/diseases-conditions/patellofemoral-pain-syndrome/symptoms-causes/syc-20350792"
-           target="_blank"
-           rel="nofollow noopener">
-            Mayo Clinic: Patellofemoral Pain Syndrome
-        </a>
-    </li>
-    <li>
         <a href="https://www.nhs.uk/symptoms/knee-pain/"
            target="_blank"
            rel="nofollow noopener">
@@ -577,13 +571,6 @@ If knee pain is persistent, worsening, or affecting your ability to move comfort
            target="_blank"
            rel="nofollow noopener">
             Medical News Today: Knee Pain When Walking Up Stairs
-        </a>
-    </li>
-    <li>
-        <a href="https://www.hingehealth.com/gb/en/resources/articles/pain-in-knee-when-climbing-stairs/"
-           target="_blank"
-           rel="nofollow noopener">
-            Hinge Health: Knee Pain When Climbing Stairs
         </a>
     </li>
 </ul>
