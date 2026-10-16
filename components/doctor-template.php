@@ -207,17 +207,22 @@ $lastName = isset($nameParts[count($nameParts) - 1]) ? $nameParts[count($namePar
           </div>
 
           <!-- Book Appointment Button -->
-          <a
-            href="/contact"
-            class="bg-[#D66C43] hover:bg-[#c55a36] text-white px-6 py-4 rounded-xl font-semibold text-lg transition-all duration-300 transform hover:scale-105 flex items-center justify-center space-x-2 shadow-lg w-fit mx-auto cta-glow"
-          >
-            <?php echo getIcon('Calendar', 'h-5 w-5'); ?>
-            <span>Book Appointment</span>
-          </a>
+<a
+    href="https://akropolishospital.com/contact"
+    class="bg-[#D66C43] hover:bg-[#c55a36] text-white px-6 py-4 rounded-xl font-semibold text-lg transition-all duration-300 transform hover:scale-105 flex items-center justify-center space-x-2 shadow-lg w-fit mx-auto cta-glow"
+>
+    <?php echo getIcon('Calendar', 'h-5 w-5'); ?>
+    <span>Book Appointment</span>
+</a>
 
           <div class="mt-4 text-center">
             <p class="text-sm text-gray-500">
-              Call: <a href="tel:<?php echo CONTACT_INFO['phone']; ?>" class="text-[#328CCB] font-semibold"><?php echo CONTACT_INFO['phone']; ?></a>
+              Call: <a
+    href="tel:<?php echo preg_replace('/[^0-9+]/', '', CONTACT_INFO['phone']); ?>"
+    class="text-[#328CCB] font-semibold hover:underline"
+>
+    <?php echo htmlspecialchars(CONTACT_INFO['phone']); ?>
+</a>
             </p>
           </div>
         </div>
