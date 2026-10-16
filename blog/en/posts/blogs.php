@@ -7,6 +7,369 @@
  */
 
 $blogs = [
+
+[
+    'slug' => 'knee-osteoarthritis',
+    'title' => 'Knee Osteoarthritis: Symptoms, Stages and Treatment Options',
+    'excerpt' => 'Understand knee osteoarthritis symptoms, the four commonly described stages, diagnosis, and treatment options, including exercise, medication, injections, and knee replacement surgery.',
+    'image' => '/assets/images/blog/English/knee-osteoarthritis.webp',
+    'image_alt' => 'Knee osteoarthritis symptoms, stages, cartilage damage and treatment options',
+    'author' => 'Dr Prateek Girotra',
+    'category' => 'Orthopedics',
+    'read_time' => '11 min read',
+    'published_at' => '2026-10-16',
+    'status' => 'published',
+    'faqs' => [
+        [
+            'question' => 'What are the early symptoms of knee osteoarthritis?',
+            'answer' => 'Early symptoms may include mild knee pain during walking or climbing stairs, stiffness after sitting, and discomfort after physical activity. Some people have structural changes before noticeable symptoms develop.'
+        ],
+        [
+            'question' => 'What are the four stages of knee osteoarthritis?',
+            'answer' => 'The commonly described stages are minor, mild, moderate, and severe. They reflect increasing joint changes, but staging systems vary and symptoms do not always match X-ray findings.'
+        ],
+        [
+            'question' => 'Can knee osteoarthritis be treated without surgery?',
+            'answer' => 'Yes. Many people manage symptoms with strengthening exercises, physical therapy, activity changes, weight management when appropriate, and suitable pain relief. Surgery may be considered if symptoms remain severe despite nonsurgical treatment.'
+        ],
+        [
+            'question' => 'Can walking make knee osteoarthritis worse?',
+            'answer' => 'Appropriate walking is often beneficial, but excessive activity or walking beyond your current tolerance may increase pain. A clinician or physiotherapist can help adjust duration, pace, and activity level.'
+        ],
+        [
+            'question' => 'Does knee osteoarthritis always require knee replacement?',
+            'answer' => 'No. Knee replacement is generally considered when pain and functional limitations remain substantial despite appropriate nonsurgical care. The decision depends on symptoms, examination findings, imaging, health, and personal goals.'
+        ],
+        [
+            'question' => 'When should I see a doctor for knee arthritis symptoms?',
+            'answer' => 'Arrange an assessment for persistent, worsening, or activity-limiting knee pain. Seek urgent medical care if the knee becomes suddenly very painful, hot, red, or markedly swollen, especially with fever, or if you cannot bear weight after an injury.'
+        ]
+    ],
+    'content' => '
+<div class="my-6 rounded-xl border border-blue-200 bg-blue-50 p-5">
+    <h2 class="!mt-0 !border-0 !pb-0">Quick Answer</h2>
+    <p>Knee osteoarthritis is a long-term joint condition in which cartilage and other structures of the knee gradually change. Common symptoms include pain during movement, stiffness after rest, swelling, reduced flexibility, and difficulty walking or climbing stairs.</p>
+    <p>Doctors may describe the condition as minor, mild, moderate, or severe. Treatment depends on symptoms, daily function, examination findings, and imaging when needed. Exercise, physical therapy, weight management when appropriate, and suitable pain relief can help manage symptoms. Knee replacement may be considered when severe symptoms continue despite nonsurgical treatment.</p>
+</div>
+
+<h2>What Is Knee Osteoarthritis?</h2>
+
+<p>Knee osteoarthritis is a common form of arthritis that affects the joint between the thighbone, shinbone, and kneecap. It develops as the joint cartilage and surrounding tissues undergo changes over time.</p>
+
+<p>Healthy cartilage helps the bones move smoothly and distributes pressure across the joint. In osteoarthritis, cartilage may become thinner or damaged. The underlying bone, joint lining, and other tissues can also change, contributing to pain, stiffness, and reduced movement.</p>
+
+<p>Knee osteoarthritis is a long-term condition, but symptoms and progression vary widely. Some people have changes on an X-ray with few symptoms, while others experience substantial pain and difficulty with everyday activities.</p>
+
+<p>There is currently no established treatment that reliably restores all lost knee cartilage. However, appropriate care can reduce pain, improve mobility, support daily activities, and help many people remain active.</p>
+
+<h2>Common Symptoms of Knee Osteoarthritis</h2>
+
+<p>Symptoms often develop gradually and may fluctuate from day to day. They can become more noticeable after activity or following a period of sitting or resting.</p>
+
+<h3>1. Knee Pain During Movement</h3>
+
+<p>Pain is one of the most common symptoms. It may appear during walking, climbing stairs, standing for long periods, squatting, or getting up from a chair. In more advanced cases, pain may also occur at rest or during the night.</p>
+
+<p>If your knee hurts during everyday movement, read our guide to <a href="/blog/en/knee-pain-while-walking">knee pain while walking or climbing stairs</a> for more information about common causes and treatment options.</p>
+
+<h3>2. Stiffness After Rest</h3>
+
+<p>Your knee may feel stiff when you get out of bed or stand up after sitting for a long time. Stiffness associated with osteoarthritis is often most noticeable after inactivity and may ease as you begin moving.</p>
+
+<h3>3. Swelling Around the Knee</h3>
+
+<p>The knee may appear puffy or feel swollen. This can occur when the joint lining becomes irritated or fluid accumulates in the joint. Persistent or sudden swelling should be assessed rather than automatically attributed to arthritis.</p>
+
+<h3>4. Grinding, Clicking, or Crackling Sounds</h3>
+
+<p>You may notice sounds or a grinding sensation when bending or straightening your knee. These sounds alone do not confirm osteoarthritis, and painless clicking is common in people without significant joint disease.</p>
+
+<h3>5. Reduced Flexibility</h3>
+
+<p>Bending or straightening the knee may become more difficult. You might struggle to squat, kneel, use stairs, or sit comfortably with the knee bent for long periods.</p>
+
+<h3>6. Weakness or a Feeling of Instability</h3>
+
+<p>Pain can lead people to move less, which may weaken the muscles that support the knee. This can affect balance and confidence while walking. A knee that repeatedly gives way or becomes locked needs medical assessment because other joint problems may also be involved.</p>
+
+<div class="my-6 rounded-xl border-l-4 border-orange-500 bg-orange-50 p-5">
+    <h3 class="!mt-0 !border-0 !pl-0">Important to Know</h3>
+    <p>Knee pain does not always mean osteoarthritis. Meniscus injuries, tendon problems, bursitis, inflammatory arthritis, gout, and infections can cause similar symptoms. A proper assessment helps identify the cause and select appropriate treatment.</p>
+</div>
+
+<h2>What Causes Knee Osteoarthritis?</h2>
+
+<p>Knee osteoarthritis usually develops through a combination of age-related changes, joint loading, previous injury, and individual risk factors. It is not simply a condition caused by cartilage wearing out from normal use.</p>
+
+<p>Factors that can increase the likelihood of developing knee osteoarthritis include:</p>
+
+<ul>
+    <li><strong>Increasing age:</strong> The likelihood of developing osteoarthritis rises as people get older.</li>
+    <li><strong>Previous knee injury:</strong> Fractures, ligament injuries, meniscus damage, and some previous surgeries can increase long-term risk.</li>
+    <li><strong>Higher body weight:</strong> Extra body weight increases the mechanical load on the knee. Metabolic factors may also contribute to osteoarthritis risk.</li>
+    <li><strong>Family history:</strong> Genetic factors can influence the likelihood of developing the condition.</li>
+    <li><strong>Repeated joint stress:</strong> Certain work activities or sports can place substantial or repeated demands on the knee.</li>
+    <li><strong>Joint alignment:</strong> Differences in leg or joint alignment can affect how forces are distributed across the knee.</li>
+    <li><strong>Other joint conditions:</strong> Some diseases or structural problems can contribute to secondary osteoarthritis.</li>
+</ul>
+
+<p>Having one or more risk factors does not mean you will definitely develop knee osteoarthritis. People without obvious risk factors can also develop the condition.</p>
+
+<h2>The Four Commonly Described Stages of Knee Osteoarthritis</h2>
+
+<p>Healthcare professionals may use a four-stage description to explain how knee osteoarthritis changes over time. The stages are often called minor, mild, moderate, and severe.</p>
+
+<p>Some clinicians use the Kellgren-Lawrence grading system, which classifies osteoarthritis according to X-ray findings. Other descriptions use different staging approaches. These systems are helpful for explaining structural changes, but they cannot predict exactly how much pain a person will experience.</p>
+
+<div class="my-6 overflow-x-auto">
+<table>
+    <thead>
+        <tr>
+            <th>Stage</th>
+            <th>Typical joint changes</th>
+            <th>Possible symptoms</th>
+            <th>Usual management focus</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr>
+            <td>Stage 1: Minor</td>
+            <td>Very small changes may be present, such as early bone spurs.</td>
+            <td>Often no symptoms or occasional mild discomfort.</td>
+            <td>Education, appropriate activity, and maintaining muscle strength.</td>
+        </tr>
+        <tr>
+            <td>Stage 2: Mild</td>
+            <td>Bone spurs and early joint-space changes may be visible on X-rays.</td>
+            <td>Intermittent pain, stiffness after rest, or discomfort after activity.</td>
+            <td>Strengthening, activity adjustment, and symptom management.</td>
+        </tr>
+        <tr>
+            <td>Stage 3: Moderate</td>
+            <td>More noticeable joint-space narrowing and other structural changes.</td>
+            <td>More frequent pain, swelling, stiffness, and difficulty with some activities.</td>
+            <td>Structured exercise, physical therapy, and appropriate medical treatment.</td>
+        </tr>
+        <tr>
+            <td>Stage 4: Severe</td>
+            <td>Substantial joint damage and marked joint-space loss may be present.</td>
+            <td>Persistent pain, limited movement, and difficulty with everyday tasks.</td>
+            <td>Individualized symptom management and assessment for possible surgery.</td>
+        </tr>
+    </tbody>
+</table>
+</div>
+
+<h3>Stage 1: Minor Knee Osteoarthritis</h3>
+
+<p>At this stage, structural changes may be minimal. A person may not experience noticeable pain, and X-rays may show little or no clear joint-space narrowing.</p>
+
+<p>When symptoms are absent or mild, treatment may focus on maintaining strength, staying active, managing joint stress, and understanding the early signs of a problem. Preventive measures cannot guarantee that osteoarthritis will not develop or progress.</p>
+
+<h3>Stage 2: Mild Knee Osteoarthritis</h3>
+
+<p>Early structural changes may be more visible on imaging. Some people begin to experience pain after longer walks, repeated stair climbing, or other demanding activities. Stiffness after sitting may also occur.</p>
+
+<p>Exercise and strengthening are important at this stage. A healthcare professional can recommend suitable activity modifications and pain relief if symptoms interfere with daily life.</p>
+
+<h3>Stage 3: Moderate Knee Osteoarthritis</h3>
+
+<p>Changes in the joint may become more pronounced, and symptoms may occur more frequently. Walking, standing, squatting, or climbing stairs can become uncomfortable. Swelling, stiffness, and reduced range of motion may also develop.</p>
+
+<p>Treatment often involves a structured exercise plan, physical therapy, suitable medication, and other options based on the person and their medical history. Persistent symptoms may require a more detailed review of treatment choices.</p>
+
+<h3>Stage 4: Severe Knee Osteoarthritis</h3>
+
+<p>Advanced osteoarthritis may involve substantial cartilage loss, changes in the underlying bone, and marked joint-space narrowing on X-rays. Pain and stiffness can significantly affect walking, sleep, work, and independence.</p>
+
+<p>Nonsurgical care can still help manage symptoms. If pain and functional limitations remain severe despite appropriate treatment, an orthopaedic surgeon may discuss partial or total knee replacement.</p>
+
+<div class="my-6 rounded-xl border border-blue-200 bg-blue-50 p-5">
+    <h3 class="!mt-0 !border-0 !pl-0">Do the Stages Always Progress in Order?</h3>
+    <p>No. The four stages are a simplified way of describing structural severity. Symptoms can fluctuate, and not everyone progresses at the same rate. An X-ray stage alone should not determine treatment. Your pain, mobility, overall health, examination, and personal goals all matter.</p>
+</div>
+
+<h2>How Is Knee Osteoarthritis Diagnosed?</h2>
+
+<p>A doctor usually begins by discussing your symptoms, medical history, previous injuries, and the activities that make your knee hurt. The examination may include checking tenderness, swelling, joint movement, muscle strength, alignment, and how you walk.</p>
+
+<p>Tests are selected according to your symptoms and examination findings. Not everyone needs every imaging test.</p>
+
+<div class="my-6 overflow-x-auto">
+<table>
+    <thead>
+        <tr>
+            <th>Assessment or test</th>
+            <th>What it helps assess</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr>
+            <td>Medical history</td>
+            <td>When the pain began, how it changes with activity, previous injuries, and other health conditions.</td>
+        </tr>
+        <tr>
+            <td>Physical examination</td>
+            <td>Swelling, tenderness, movement, stability, alignment, and muscle strength.</td>
+        </tr>
+        <tr>
+            <td>X-ray</td>
+            <td>Joint-space narrowing, bone spurs, and other bony changes associated with osteoarthritis.</td>
+        </tr>
+        <tr>
+            <td>MRI</td>
+            <td>Detailed views of cartilage, menisci, ligaments, and other soft tissues when additional information is needed.</td>
+        </tr>
+        <tr>
+            <td>Blood tests or joint-fluid testing</td>
+            <td>May be used when another condition, such as inflammatory arthritis, gout, or joint infection, is suspected.</td>
+        </tr>
+    </tbody>
+</table>
+</div>
+
+<p>Blood tests do not diagnose ordinary knee osteoarthritis directly. They may help investigate other causes of joint symptoms. MRI is also not routinely necessary when the clinical assessment and X-rays already provide enough information.</p>
+
+<h2>Knee Osteoarthritis Treatment Options</h2>
+
+<p>Treatment aims to reduce pain, maintain movement, improve strength, and help you continue daily activities. The right approach depends on symptom severity, health conditions, medication risks, activity requirements, and treatment preferences.</p>
+
+<h3>1. Exercise and Physical Therapy</h3>
+
+<p>Exercise is a core part of treatment for symptomatic knee osteoarthritis. Strengthening the muscles around the knee, particularly the quadriceps and hip muscles, can improve support, balance, and function.</p>
+
+<p>A physiotherapist may develop a plan that includes:</p>
+
+<ul>
+    <li>Quadriceps and hip-strengthening exercises.</li>
+    <li>Gentle knee-bending and straightening movements.</li>
+    <li>Low-impact aerobic activity, such as stationary cycling or swimming.</li>
+    <li>Balance and functional training where appropriate.</li>
+    <li>A gradual increase in activity based on comfort and ability.</li>
+</ul>
+
+<p>Exercise may cause temporary mild discomfort, but sharp or escalating pain is a reason to stop and seek advice about modifying the plan. Exercises should be tailored to your condition rather than copied from a general list without assessment.</p>
+
+<h3>2. Weight Management When Appropriate</h3>
+
+<p>For people who carry excess body weight, gradual weight loss can reduce pressure on the knees and may improve pain and mobility. A sustainable approach combines suitable physical activity with balanced nutrition and realistic goals.</p>
+
+<p>Weight management is not a requirement for every person with knee osteoarthritis. Treatment should remain respectful, individualized, and focused on overall health and function.</p>
+
+<h3>3. Medication for Pain Relief</h3>
+
+<p>Medication may help reduce symptoms so that everyday activities and exercise are easier. Options can include topical anti-inflammatory medicines, oral nonsteroidal anti-inflammatory drugs, and other pain relievers selected according to individual circumstances.</p>
+
+<p>Oral anti-inflammatory medicines may cause stomach bleeding, kidney problems, fluid retention, or cardiovascular complications in some people. They may not be suitable for people with certain medical conditions or those taking specific medicines.</p>
+
+<p>Speak with a doctor or pharmacist before starting a medicine, particularly if you have kidney disease, heart disease, high blood pressure, a history of stomach ulcers, or take blood thinners. Do not regularly rely on pain medicines without reviewing ongoing symptoms and risks.</p>
+
+<h3>4. Heat, Cold, and Supportive Devices</h3>
+
+<p>Heat may help ease stiffness, while a cold pack wrapped in a towel may help with temporary soreness or swelling. Avoid applying extreme temperatures directly to the skin.</p>
+
+<p>Some people benefit from a suitable knee brace, walking aid, or footwear adjustment. A clinician or physiotherapist can help determine whether a device is appropriate and how to use it safely.</p>
+
+<h3>5. Injections for Selected Patients</h3>
+
+<p>In some cases, a clinician may consider an injection into the knee joint when symptoms remain troublesome despite other measures.</p>
+
+<ul>
+    <li><strong>Corticosteroid injections:</strong> These may provide short-term relief for some people, although the duration and degree of benefit vary.</li>
+    <li><strong>Hyaluronic acid injections:</strong> Evidence of meaningful benefit is inconsistent, and recommendations differ between professional guidelines.</li>
+    <li><strong>Platelet-rich plasma injections:</strong> Evidence, preparation methods, and clinical recommendations vary. These injections are not a guaranteed way to regrow cartilage.</li>
+</ul>
+
+<p>Injections are not suitable for everyone and do not reverse established cartilage loss. Discuss expected benefits, uncertainties, risks, and costs with your treating clinician before choosing an injection.</p>
+
+<h3>6. Knee Replacement Surgery</h3>
+
+<p>Knee replacement may be considered when osteoarthritis causes substantial pain and limits daily activities despite appropriate nonsurgical treatment. It is not recommended solely because an X-ray shows advanced changes.</p>
+
+<p>During surgery, damaged joint surfaces are replaced with artificial components designed to improve function and reduce pain. Depending on the location and extent of the joint damage, a surgeon may discuss partial or total knee replacement.</p>
+
+<p>Before making a decision, your surgeon will review your symptoms, imaging, general health, mobility, expectations, and ability to participate in rehabilitation. Recovery requires a planned rehabilitation programme, and outcomes vary between individuals.</p>
+
+<p>If you are considering surgery or preparing for recovery, read our guide to <a href="/blog/en/knee-replacement-recovery">knee replacement recovery</a> for more information about the rehabilitation process.</p>
+
+<p>For an orthopaedic assessment, you can also visit the <a href="/orthopedics">Akropolis Orthopedics Department</a> or learn more about <a href="/doctors/dr-prateek-girotra">Dr Prateek Girotra</a>.</p>
+
+<h2>Can Knee Osteoarthritis Be Prevented From Getting Worse?</h2>
+
+<p>There is no guaranteed way to stop osteoarthritis from progressing. However, several measures may help manage symptoms and maintain joint function.</p>
+
+<ol>
+    <li><strong>Stay active:</strong> Choose regular movement that fits your ability, such as walking on comfortable surfaces, cycling, or swimming.</li>
+    <li><strong>Build muscle strength:</strong> Follow a suitable strengthening programme to support the knee and improve function.</li>
+    <li><strong>Adjust activity when needed:</strong> Break demanding tasks into shorter sessions and increase activity gradually.</li>
+    <li><strong>Manage body weight if appropriate:</strong> A sustainable plan may reduce mechanical stress on the knee.</li>
+    <li><strong>Address injuries early:</strong> Seek assessment for significant knee injuries and follow recommended rehabilitation.</li>
+    <li><strong>Review persistent symptoms:</strong> Do not assume worsening pain is an unavoidable part of ageing. Reassessment may identify treatment options or another cause.</li>
+</ol>
+
+<h2>When Should You See a Doctor?</h2>
+
+<p>Arrange an appointment with a healthcare professional if knee pain persists, keeps returning, becomes progressively worse, or affects walking, sleep, work, or other daily activities.</p>
+
+<p>Seek urgent medical care if you experience any of the following:</p>
+
+<ul>
+    <li>A suddenly very painful knee.</li>
+    <li>A hot, red, or markedly swollen knee, particularly with fever or feeling unwell.</li>
+    <li>An inability to bear weight or move the knee after an injury.</li>
+    <li>A major injury, visible deformity, or rapid swelling after trauma.</li>
+    <li>A locked knee or sudden loss of movement.</li>
+</ul>
+
+<p>These symptoms may indicate a condition that requires prompt assessment rather than routine arthritis management.</p>
+
+<h2>Key Takeaways</h2>
+
+<ul>
+    <li>Knee osteoarthritis affects cartilage and other joint structures and may cause pain, stiffness, swelling, and reduced movement.</li>
+    <li>The commonly described stages are minor, mild, moderate, and severe, but staging systems vary.</li>
+    <li>X-ray findings do not always match pain severity or daily function.</li>
+    <li>Exercise, physical therapy, appropriate medication, and lifestyle measures form the foundation of treatment for many people.</li>
+    <li>Injections may help selected patients, but benefits vary and they do not reliably restore lost cartilage.</li>
+    <li>Knee replacement may be considered when severe symptoms continue despite appropriate nonsurgical care.</li>
+    <li>Sudden severe pain, a hot swollen knee, fever, or inability to bear weight requires prompt medical attention.</li>
+</ul>
+
+<h2>Conclusion</h2>
+
+<p>Knee osteoarthritis can make walking, climbing stairs, and other daily activities difficult, but an appropriate treatment plan can help many people manage symptoms and preserve mobility. Understanding the stages can provide useful context, although treatment should be guided by symptoms, function, medical assessment, and individual goals.</p>
+
+<p>If knee pain is persistent or limiting your daily activities, consider an assessment by an orthopaedic specialist. Early evaluation can help clarify the cause of the pain and identify suitable treatment options.</p>
+
+<div class="my-10 rounded-2xl bg-gradient-to-r from-[#328CCB] to-[#2a7bb5] p-8 text-center text-white shadow-xl">
+    <h3 class="!mt-0 !mb-3 !border-0 !pl-0 !text-white">Get Help for Persistent Knee Pain</h3>
+    <p class="!mb-6 !text-white">Speak with the Akropolis team about an orthopaedic assessment and a treatment plan suited to your symptoms and mobility goals.</p>
+    <a href="/contact" class="article-cta inline-block rounded-full bg-[#D66C43] px-8 py-3 font-bold no-underline transition-all hover:bg-[#c55a36]" style="color:#ffffff !important; text-decoration:none !important;">Book a Consultation</a>
+</div>
+
+<h2>Medical References</h2>
+
+<ul>
+    <li><a href="https://my.clevelandclinic.org/health/diseases/21750-osteoarthritis-knee" target="_blank" rel="nofollow noopener">Cleveland Clinic: Knee Osteoarthritis</a></li>
+    <li><a href="https://www.ncbi.nlm.nih.gov/books/NBK507884/" target="_blank" rel="nofollow noopener">NCBI Bookshelf: Knee Osteoarthritis, StatPearls</a></li>
+    <li><a href="https://www.mayoclinic.org/diseases-conditions/osteoarthritis/diagnosis-treatment/drc-20351930" target="_blank" rel="nofollow noopener">Mayo Clinic: Osteoarthritis Diagnosis and Treatment</a></li>
+    <li><a href="https://www.medicalnewstoday.com/articles/what-are-the-4-stages-of-osteoarthritis" target="_blank" rel="nofollow noopener">Medical News Today: The Four Stages of Osteoarthritis</a></li>
+    <li>
+        <a href="https://www.nhs.uk/conditions/osteoarthritis/treatment/"
+           target="_blank"
+           rel="nofollow noopener">
+            NHS: Osteoarthritis Treatment and Support
+        </a>
+    </li>
+</ul>
+
+<div class="my-6 rounded-xl border border-gray-200 bg-gray-50 p-5">
+    <h3 class="!mt-0 !border-0 !pl-0">Medical Notice</h3>
+    <p>This article is for general educational purposes and does not replace professional medical advice, diagnosis, or treatment. Symptoms and treatment needs vary between individuals. Consult a qualified healthcare professional for advice about your condition. Seek urgent care for severe or sudden symptoms.</p>
+</div>
+'
+],
+
 [
     'slug'         => 'knee-pain-while-walking',
     'title'        => 'Knee Pain While Walking or Climbing Stairs: Causes and Treatment',
@@ -550,13 +913,6 @@ If knee pain is persistent, worsening, or affecting your ability to move comfort
            target="_blank"
            rel="nofollow noopener">
             NHS: Knee Pain, Symptoms and When to Seek Help
-        </a>
-    </li>
-    <li>
-        <a href="https://www.nhs.uk/conditions/osteoarthritis/treatment/"
-           target="_blank"
-           rel="nofollow noopener">
-            NHS: Osteoarthritis Treatment and Support
         </a>
     </li>
     <li>
