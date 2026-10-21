@@ -8,6 +8,309 @@
 
 $blogs = [
 [
+    'slug' => 'sciatica-symptoms-causes-treatment-recovery',
+    'title' => 'Sciatica: Symptoms, Causes, Treatment and Recovery',
+    'excerpt' => 'Learn about sciatica symptoms, common causes, diagnosis, treatment options and recovery. Understand when leg pain needs medical attention and how to manage it safely.',
+    'image' => '\assets\images\blog\English\sciatica-symptoms-causes-treatment-recovery.webp',
+    'image_alt' => 'Sciatica symptoms and treatment showing a herniated spinal disc pressing on a nearby nerve',
+    'author' => 'Dr Prateek Girotra',
+    'category' => 'Orthopedics',
+    'tags' => ['Sciatica', 'Sciatica Symptoms', 'Sciatica Causes', 'Sciatica Treatment', 'Back Pain', 'Orthopedics'],
+    'read_time' => '10 min read',
+    'published_at' => '2026-10-21',
+    'status' => 'published',
+
+    'faqs' => [
+        [
+            'question' => 'What are the common symptoms of sciatica?',
+            'answer' => 'Common symptoms include pain that travels from the lower back or buttock down one leg, tingling, numbness and sometimes muscle weakness. Symptoms may become more noticeable while sitting, coughing or sneezing.'
+        ],
+        [
+            'question' => 'What causes sciatica?',
+            'answer' => 'Sciatica usually develops when a nerve root in the lower spine becomes irritated or compressed. Common causes include a herniated disc, age-related spinal changes and narrowing of the spinal canal.'
+        ],
+        [
+            'question' => 'Can sciatica go away on its own?',
+            'answer' => 'Many cases improve over several weeks with appropriate activity modification and conservative treatment. Recovery varies depending on the cause, severity and whether nerve symptoms persist.'
+        ],
+        [
+            'question' => 'What is the best treatment for sciatica?',
+            'answer' => 'Treatment depends on the underlying cause and severity. Staying gently active, guided exercises, physiotherapy and suitable pain relief may help. Persistent or severe symptoms need medical assessment.'
+        ],
+        [
+            'question' => 'Is walking good for sciatica?',
+            'answer' => 'Gentle walking may help many people maintain movement and avoid prolonged inactivity. Start with a comfortable distance and stop or seek advice if walking significantly worsens pain, weakness or numbness.'
+        ],
+        [
+            'question' => 'When should I seek emergency care for sciatica?',
+            'answer' => 'Seek emergency medical care for new bladder or bowel control problems, difficulty passing urine, numbness around the genitals or anus, or severe or worsening weakness, particularly when symptoms affect both legs.'
+        ],
+        [
+            'question' => 'Does sciatica always require surgery?',
+            'answer' => 'No. Most people do not need surgery. It may be considered when severe symptoms do not improve with appropriate non-surgical treatment or when significant nerve compression causes progressive weakness or other serious problems.'
+        ],
+        [
+            'question' => 'How long does sciatica recovery take?',
+            'answer' => 'Many people improve within a few weeks, but recovery can take longer depending on the cause and severity. Persistent, worsening or recurring symptoms should be assessed by a healthcare professional.'
+        ]
+    ],
+
+    'content' => '<div class="quick-answer my-6 rounded-xl border-l-4 border-[#328CCB] bg-blue-50 p-5">
+        <h2 class="!mt-0">Quick Answer: What Is Sciatica?</h2>
+        <p>Sciatica is pain that travels along the sciatic nerve pathway, usually because a nerve root in the lower spine is irritated or compressed. It often causes pain from the lower back or buttock into one leg and may also cause tingling, numbness or muscle weakness.</p>
+        <p>Many cases improve with conservative treatment, but the right approach depends on the underlying cause. New bladder or bowel problems, numbness around the groin or anus, or severe or worsening weakness require urgent medical assessment.</p>
+    </div>
+
+    <p>Sciatica can make ordinary activities such as sitting, walking, bending and sleeping uncomfortable. The pain may feel sharp, burning or electric and can travel from the lower back through the buttock and down the leg.</p>
+
+    <p>Understanding <strong>sciatica symptoms, causes, treatment and recovery</strong> can help you recognise when self-care may be appropriate and when a medical assessment is needed. Sciatica is a symptom of an underlying problem rather than a diagnosis that identifies one specific disease.</p>
+
+    <p>If you also experience persistent lower back discomfort, read our guide to <a href="/blog/en/lower-back-pain-causes-treatment">lower back pain causes and treatment</a> for related information.</p>
+
+    <h2>What Is Sciatica?</h2>
+
+    <p>The sciatic nerves are formed from nerve roots in the lower spine. They pass through the buttocks and travel down each leg. These nerves help control muscles and carry sensation from parts of the lower body.</p>
+
+    <p>Sciatica develops when a nerve root or part of the sciatic nerve pathway becomes irritated or compressed. A herniated disc is a common cause, although spinal narrowing and other conditions can also contribute.</p>
+
+    <p>The term sciatica describes a pattern of symptoms. A healthcare professional may need to identify the underlying cause before recommending treatment.</p>
+
+    <h2>Common Sciatica Symptoms</h2>
+
+    <p>Sciatica often affects one side of the body. Symptoms vary from mild discomfort to pain that interferes with walking, working or sleeping.</p>
+
+    <ul>
+        <li><strong>Pain travelling down the leg:</strong> Pain may start in the lower back or buttock and extend into the thigh, calf or foot.</li>
+        <li><strong>Burning or electric sensations:</strong> Some people describe the pain as sharp, shooting or like an electric shock.</li>
+        <li><strong>Tingling:</strong> Pins and needles may occur in the leg or foot.</li>
+        <li><strong>Numbness:</strong> Some areas of the leg or foot may feel less sensitive.</li>
+        <li><strong>Muscle weakness:</strong> Severe nerve irritation can make certain movements more difficult.</li>
+        <li><strong>Pain aggravated by movement:</strong> Sitting for long periods, coughing, sneezing or certain movements may worsen symptoms.</li>
+    </ul>
+
+    <div class="my-6 rounded-xl border-l-4 border-[#D66C43] bg-orange-50 p-5">
+        <h3 class="!mt-0">Warning Signs That Need Emergency Care</h3>
+        <p>Seek emergency medical care if you develop any of the following:</p>
+        <ul>
+            <li>New difficulty passing urine or loss of bladder control.</li>
+            <li>Loss of bowel control.</li>
+            <li>Numbness around the genitals, inner thighs or anus, sometimes described as saddle numbness.</li>
+            <li>Severe or rapidly worsening weakness in one or both legs.</li>
+            <li>Sciatica-like symptoms in both legs, especially when accompanied by weakness, numbness or bladder or bowel changes.</li>
+        </ul>
+        <p>These symptoms can indicate serious nerve compression that needs immediate assessment. Do not wait for a routine appointment.</p>
+    </div>
+
+    <h2>What Causes Sciatica?</h2>
+
+    <p>Sciatica usually occurs when a nerve root in the lower spine is irritated or compressed. The underlying cause influences which treatment is likely to help.</p>
+
+    <h3>1. Herniated or Slipped Disc</h3>
+
+    <p>The discs between the spinal bones help absorb pressure and allow movement. If the inner material of a disc pushes through its outer layer, it may irritate a nearby nerve root and cause sciatica.</p>
+
+    <p>Read our guide to <a href="/blog/en/slip-disc-symptoms-diagnosis-treatment">slip disc symptoms, diagnosis and treatment</a> to understand how disc problems are assessed and managed.</p>
+
+    <h3>2. Age-Related Spinal Changes</h3>
+
+    <p>As people get older, spinal discs and joints can change. These changes may contribute to narrowing around the nerve roots, which is known as spinal stenosis, or to other forms of nerve compression.</p>
+
+    <h3>3. Bone Spurs</h3>
+
+    <p>Bone spurs can develop as part of age-related changes in the spine. If they narrow the space around a nerve root, they may contribute to pain or other nerve symptoms.</p>
+
+    <h3>4. Other Causes</h3>
+
+    <p>Less commonly, sciatica-like symptoms may be associated with spinal injuries, certain inflammatory conditions or other medical problems. A clinician can help determine whether the symptoms are caused by nerve compression or another condition.</p>
+
+    <h2>Who Is More Likely to Develop Sciatica?</h2>
+
+    <p>Several factors may increase the likelihood of developing lower back problems that irritate the sciatic nerve.</p>
+
+    <ul>
+        <li><strong>Prolonged sitting:</strong> Long periods without movement may aggravate back discomfort in some people.</li>
+        <li><strong>Heavy lifting:</strong> Repeated lifting, especially with poor technique, may place additional stress on the back.</li>
+        <li><strong>Limited physical activity:</strong> Low activity levels can contribute to reduced strength and physical conditioning.</li>
+        <li><strong>Excess body weight:</strong> Additional mechanical load may contribute to back problems.</li>
+        <li><strong>Age-related changes:</strong> Disc degeneration and spinal narrowing become more common with age.</li>
+        <li><strong>Smoking:</strong> Smoking is associated with poorer spinal disc health.</li>
+    </ul>
+
+    <p>These factors do not mean that a person will definitely develop sciatica. People without these risk factors can also experience it.</p>
+
+    <h2>How Is Sciatica Diagnosed?</h2>
+
+    <p>Diagnosis usually begins with a medical history and physical examination. The clinician may ask where the pain travels, when it started, which movements make it worse and whether you have tingling, numbness or weakness.</p>
+
+    <p>The examination may include checking muscle strength, sensation, reflexes, walking and movements that reproduce the symptoms. The findings help the clinician assess whether a nerve root may be affected.</p>
+
+    <h3>Tests That May Be Recommended</h3>
+
+    <table class="w-full">
+        <thead>
+            <tr>
+                <th>Test</th>
+                <th>Purpose</th>
+                <th>When It May Be Used</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>Physical and neurological examination</td>
+                <td>Checks strength, sensation, reflexes and movement.</td>
+                <td>Part of the initial assessment.</td>
+            </tr>
+            <tr>
+                <td>MRI scan</td>
+                <td>Shows discs, nerves and other soft tissues.</td>
+                <td>When symptoms are severe, persistent or concerning, or when results may change treatment.</td>
+            </tr>
+            <tr>
+                <td>CT scan</td>
+                <td>Provides detailed images of spinal structures.</td>
+                <td>When clinically appropriate, including when MRI is unsuitable or additional detail is needed.</td>
+            </tr>
+            <tr>
+                <td>X-ray</td>
+                <td>Shows bones and alignment but does not directly show nerve compression well.</td>
+                <td>When a bone problem, injury or another specific condition is suspected.</td>
+            </tr>
+            <tr>
+                <td>Nerve conduction studies or electromyography</td>
+                <td>Assess nerve and muscle function.</td>
+                <td>In selected cases when the diagnosis is unclear or another nerve condition is possible.</td>
+            </tr>
+        </tbody>
+    </table>
+
+    <p>Not everyone with sciatica needs imaging. A clinician generally considers the severity and duration of symptoms, examination findings and whether a scan would affect the treatment plan.</p>
+
+    <h2>Sciatica Treatment Options</h2>
+
+    <p>The goal of treatment is to reduce pain, maintain function and address the underlying cause. Many people improve without surgery, but treatment should be tailored to the individual.</p>
+
+    <table class="w-full">
+        <thead>
+            <tr>
+                <th>Treatment</th>
+                <th>How It May Help</th>
+                <th>Important Considerations</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>Gentle activity</td>
+                <td>Helps maintain mobility and reduce prolonged inactivity.</td>
+                <td>Adjust activity to symptoms and avoid movements that cause a marked increase in pain.</td>
+            </tr>
+            <tr>
+                <td>Physiotherapy</td>
+                <td>May improve movement, strength and physical function.</td>
+                <td>Exercises should be selected according to the assessment and individual tolerance.</td>
+            </tr>
+            <tr>
+                <td>Pain relief medicines</td>
+                <td>May help some people manage symptoms.</td>
+                <td>Benefits vary. Ask a healthcare professional or pharmacist about suitability, risks and interactions.</td>
+            </tr>
+            <tr>
+                <td>Heat or cold packs</td>
+                <td>May provide temporary comfort.</td>
+                <td>Wrap packs in a towel and avoid direct contact with skin to prevent burns or cold injury.</td>
+            </tr>
+            <tr>
+                <td>Spinal injections</td>
+                <td>May be considered for selected cases of severe pain.</td>
+                <td>They are not suitable for everyone and do not guarantee lasting relief.</td>
+            </tr>
+            <tr>
+                <td>Surgery</td>
+                <td>May relieve pressure on an affected nerve.</td>
+                <td>Considered in selected cases, such as persistent disabling symptoms despite appropriate treatment or significant neurological problems.</td>
+            </tr>
+        </tbody>
+    </table>
+
+    <h3>1. Stay Gently Active</h3>
+
+    <p>Prolonged bed rest is generally not recommended for uncomplicated sciatica. Short walks and regular changes of position may help you maintain movement, provided they do not significantly worsen your symptoms.</p>
+
+    <p>Start at a comfortable level and increase activity gradually. If an activity causes worsening weakness, spreading numbness or severe pain, stop and seek medical advice.</p>
+
+    <h3>2. Use Physiotherapy and Guided Exercises</h3>
+
+    <p>A physiotherapist may recommend exercises that improve mobility, strength and movement control. The programme depends on the suspected cause of the symptoms, your physical abilities and the response to each exercise.</p>
+
+    <p>Avoid forcing stretches or copying exercises from the internet when they increase leg pain or neurological symptoms. An individual assessment can help identify suitable movements.</p>
+
+    <h3>3. Discuss Medicines With a Healthcare Professional</h3>
+
+    <p>Some medicines may help with pain, but no single medicine is appropriate for everyone with sciatica. The potential benefit depends on the medicine and the individual, and certain medicines carry important risks.</p>
+
+    <p>Do not start, combine or continue pain medicines for a prolonged period without appropriate advice, especially if you have kidney disease, stomach ulcers, cardiovascular conditions, take blood thinners or are pregnant.</p>
+
+    <h3>4. Consider Injections or Surgery When Appropriate</h3>
+
+    <p>For selected patients, a specialist may discuss an injection to help manage severe symptoms. The potential benefit, limitations and risks should be explained before the procedure.</p>
+
+    <p>Surgery may be considered when symptoms remain disabling despite suitable non-surgical treatment or when examination and imaging show nerve compression that matches the symptoms. Significant or progressive weakness and emergency warning signs require prompt assessment rather than routine treatment planning.</p>
+
+    <h2>How Long Does Sciatica Recovery Take?</h2>
+
+    <p>Many people begin to improve within a few weeks, and some recover over approximately four to six weeks. Others take longer, particularly when nerve compression is substantial or the underlying condition persists.</p>
+
+    <p>Recovery depends on the cause, symptom severity, overall health and response to treatment. Pain may improve before numbness or weakness fully resolves, so ongoing neurological symptoms should not be ignored.</p>
+
+    <p>Arrange a medical assessment if pain is severe, keeps returning, interferes with daily activities or does not improve with appropriate self-care. Worsening weakness or new bladder, bowel or saddle-area symptoms need urgent assessment.</p>
+
+    <h2>How Can You Reduce the Risk of Recurring Sciatica?</h2>
+
+    <p>Not every episode can be prevented, but practical habits may support spinal health and reduce the risk of some back problems.</p>
+
+    <ul>
+        <li><strong>Move regularly:</strong> Break up long periods of sitting with comfortable movement.</li>
+        <li><strong>Build strength gradually:</strong> Follow a suitable exercise routine for the back, abdomen and hips.</li>
+        <li><strong>Lift carefully:</strong> Keep the load close to your body and avoid twisting while lifting.</li>
+        <li><strong>Maintain a healthy weight:</strong> If appropriate, gradual weight management may reduce mechanical stress on the back.</li>
+        <li><strong>Stop smoking:</strong> Seek support if you need help quitting.</li>
+        <li><strong>Respond to recurring symptoms:</strong> Get assessed when pain persists, worsens or is accompanied by numbness or weakness.</li>
+    </ul>
+
+    <p>These measures support general back health but cannot guarantee that sciatica will not recur.</p>
+
+    <h2>When Should You See an Orthopaedic Specialist?</h2>
+
+    <p>Consider a medical assessment if leg pain repeatedly returns, symptoms interfere with sleep or everyday activities, or numbness and weakness develop. A specialist can assess whether the symptoms are consistent with sciatica and whether additional tests or treatment are needed.</p>
+
+    <p>At <a href="/orthopedics">Akropolis Hospital Orthopedics</a>, patients can seek an assessment for back and musculoskeletal concerns. Learn more about <a href="/doctors/dr-prateek-girotra">Dr Prateek Girotra</a> before arranging a consultation.</p>
+
+    <div class="my-10 rounded-2xl bg-gradient-to-r from-[#328CCB] to-[#2a7bb5] p-8 text-center text-white shadow-xl">
+        <h3 class="!mt-0 !mb-3 !border-0 !pl-0 !text-white">Concerned About Sciatica or Persistent Leg Pain?</h3>
+        <p class="!mb-6 !text-white">A clinical assessment can help identify the possible cause of your symptoms and guide the next steps in care.</p>
+        <a href="/contact" class="article-cta inline-block rounded-full bg-[#D66C43] px-8 py-3 font-bold no-underline transition-all hover:bg-[#c55a36]" style="color:#ffffff !important; text-decoration:none !important;">Book a Consultation</a>
+    </div>
+
+    <h2>Conclusion</h2>
+
+    <p>Sciatica causes pain that travels along the sciatic nerve pathway and may be accompanied by tingling, numbness or weakness. A herniated disc and age-related spinal changes are common causes, but the underlying problem varies from person to person.</p>
+
+    <p>Many cases improve with appropriate conservative care, including gentle activity and guided exercises. Persistent symptoms deserve assessment, while new bladder or bowel problems, saddle numbness or severe or worsening weakness require emergency medical attention.</p>
+
+    <h2>Medical References and Further Reading</h2>
+
+    <ul>
+        <li><a href="https://my.clevelandclinic.org/health/diseases/12792-sciatica" target="_blank" rel="nofollow noopener">Cleveland Clinic: Sciatica</a> explains common symptoms, causes, diagnosis and treatment approaches.</li>
+        <li><a href="https://www.mayoclinic.org/diseases-conditions/sciatica/symptoms-causes/syc-20377435" target="_blank" rel="nofollow noopener">Mayo Clinic: Sciatica symptoms and causes</a> describes typical symptoms and conditions that can irritate or compress the sciatic nerve.</li>
+        <li><a href="https://www.nhs.uk/conditions/sciatica/" target="_blank" rel="nofollow noopener">NHS: Sciatica</a> provides practical self-care guidance and explains symptoms that require urgent medical attention.</li>
+        <li><a href="https://www.medanta.org/patient-education-blog/what-is-sciatica-symptoms-causes-and-treatment" target="_blank" rel="nofollow noopener">Medanta: Sciatica symptoms, causes and treatment</a> offers additional patient education on the condition and available care.</li>
+    </ul>
+
+    <div class="my-6 rounded-xl bg-gray-50 p-5 text-sm text-gray-700">
+        <strong>Medical Disclaimer:</strong> This article is intended for general educational purposes and does not replace professional medical advice, diagnosis or treatment. Symptoms and treatment needs differ between individuals. Seek advice from a qualified healthcare professional for personal medical concerns. Seek emergency care for the warning signs described above.
+    </div>'
+],
+
+[
     'slug' => 'slip-disc-symptoms-diagnosis-treatment',
     'title' => 'Slip Disc: Symptoms, Diagnosis and Treatment Options',
     'excerpt' => 'Learn about slip disc symptoms, how doctors diagnose a herniated disc, treatment options without surgery, recovery, and warning signs that need urgent care.',
