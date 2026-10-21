@@ -6,7 +6,310 @@
  * (sorted by 'published_at' date, newest first).
  */
 
-$blogs = [
+$blogs = [  
+[
+    'slug' => 'lower-back-pain-causes-treatment',
+    'title' => 'Lower Back Pain: Causes, Treatment and When to See a Doctor',
+    'excerpt' => 'Learn about common causes of lower back pain, symptoms, home care, medical treatments, and warning signs that need urgent medical attention.',
+    'image' => '\assets\images\blog\English\lower-back-pain.webp',
+    'image_alt' => 'Lower back pain causes and treatment, showing the lumbar spine and the area commonly affected by pain',
+    'author' => 'Dr Prateek Girotra',
+    'category' => 'Orthopedics',
+    'tags' => ['lower back pain', 'lower back pain causes', 'back pain treatment', 'lumbar pain', 'sciatica', 'back pain relief', 'orthopedics'],
+    'read_time' => '10 min read',
+    'published_at' => '2026-10-21',
+    'status' => 'published',
+    'faqs' => [
+        [
+            'question' => 'What is the most common cause of lower back pain?',
+            'answer' => 'Muscle or ligament strain is a common cause of lower back pain. It can happen after lifting something heavy, bending suddenly, twisting, or spending a long time in one position. However, persistent or severe pain may have another cause and should be assessed by a healthcare professional.'
+        ],
+        [
+            'question' => 'How can I relieve lower back pain at home?',
+            'answer' => 'For uncomplicated lower back pain, gentle movement, short walks, avoiding prolonged bed rest, and using a wrapped cold pack or comfortable heat may help. Avoid heavy lifting and movements that worsen the pain. Seek medical advice before using pain medicines if you have other health conditions or take other medicines.'
+        ],
+        [
+            'question' => 'How long does lower back pain usually last?',
+            'answer' => 'Many episodes of acute lower back pain improve within days to a few weeks. Recovery depends on the cause and severity. Pain that persists for several weeks, worsens, or interferes with daily activities should be evaluated.'
+        ],
+        [
+            'question' => 'Can lower back pain be caused by a slipped disc?',
+            'answer' => 'Yes. A bulging or herniated spinal disc can irritate or compress a nearby nerve. This may cause back pain with pain, tingling, numbness, or weakness that travels into the buttock or leg. Disc changes can also appear on scans without causing symptoms, so results need to be interpreted alongside the examination.'
+        ],
+        [
+            'question' => 'When is lower back pain an emergency?',
+            'answer' => 'Seek emergency medical care for new difficulty controlling or passing urine or stool, numbness around the groin or saddle area, or rapidly worsening leg weakness. Back pain after a major accident, or pain accompanied by serious symptoms such as fever or severe abdominal pain, also requires urgent assessment.'
+        ],
+        [
+            'question' => 'Do I need an MRI for lower back pain?',
+            'answer' => 'Not everyone with lower back pain needs an MRI. A clinician usually starts with a medical history and physical examination. Imaging may be considered when warning signs are present, a serious cause is suspected, neurological symptoms are significant or worsening, or the result is likely to change treatment.'
+        ],
+        [
+            'question' => 'Can walking help lower back pain?',
+            'answer' => 'Gentle walking can help many people with uncomplicated lower back pain stay active and maintain mobility. Start with a comfortable distance and stop if symptoms become significantly worse. Follow medical advice if you have a serious injury, marked weakness, or another condition that limits activity.'
+        ],
+        [
+            'question' => 'Can lower back pain be related to kidney problems?',
+            'answer' => 'Yes. Kidney stones or a kidney infection can cause pain in the back or side, sometimes with fever, painful urination, blood in the urine, nausea, or vomiting. These symptoms need medical assessment because the cause may not be a spinal or muscle problem.'
+        ]
+    ],
+    'content' => '<div class="quick-answer my-6 rounded-xl border-l-4 border-[#328CCB] bg-blue-50 p-5">
+<h2 class="!mt-0">Quick Answer</h2>
+<p><strong>Lower back pain</strong> is discomfort in the area between the lower ribs and the buttocks. Common causes include muscle strain, ligament injuries, prolonged static positions, and problems affecting spinal discs or joints. Some episodes improve within a few days or weeks with appropriate self-care and gradual return to normal activity.</p>
+<p>Gentle movement, comfortable heat or cold, and avoiding heavy lifting may help when the pain is uncomplicated. Seek urgent medical attention if back pain occurs with new bladder or bowel problems, numbness around the groin, or rapidly worsening leg weakness. Fever, major trauma, or other concerning symptoms also need prompt assessment.</p>
+</div>
+
+<p>Lower back pain can make ordinary activities such as sitting, standing, walking, sleeping, and bending uncomfortable. It may begin suddenly after lifting something heavy, or develop gradually without an obvious trigger. The pain may remain in the lower back or spread into the buttocks and legs.</p>
+
+<p>Although muscle strain is a common cause, not all back pain comes from muscles. Spinal discs, joints, nerves, fractures, infections, and certain conditions affecting organs outside the spine can also cause symptoms.</p>
+
+<p>This guide explains common causes of lower back pain, practical steps that may help, available medical treatments, and symptoms that should not be ignored.</p>
+
+<h2>What Is Lower Back Pain?</h2>
+
+<p>The lower back, also called the lumbar region, supports much of the body weight and helps the body bend, turn, stand, and walk. It contains vertebrae, cushioning discs, joints, ligaments, muscles, and nerves. Problems affecting any of these structures may cause pain.</p>
+
+<p>Healthcare professionals may describe back pain according to how long it lasts:</p>
+
+<ul>
+<li><strong>Acute back pain:</strong> Lasts less than four weeks.</li>
+<li><strong>Subacute back pain:</strong> Lasts between four and twelve weeks.</li>
+<li><strong>Chronic back pain:</strong> Continues for more than twelve weeks.</li>
+</ul>
+
+<p>These time categories describe the duration of symptoms. They do not identify the cause or determine how serious the condition is.</p>
+
+<h2>Common Causes of Lower Back Pain</h2>
+
+<h3>1. Muscle or Ligament Strain</h3>
+
+<p>A strain is one of the common reasons for sudden lower back pain. It may happen after lifting a heavy object, bending awkwardly, twisting quickly, or increasing physical activity beyond what the body is used to.</p>
+
+<p>The pain may feel sore, sharp, or tight. Muscle spasms can also make it difficult to stand upright or move comfortably. Many uncomplicated strains improve with time and appropriate activity adjustments.</p>
+
+<h3>2. Bulging or Herniated Disc</h3>
+
+<p>Spinal discs act as cushions between the bones of the spine. A disc may bulge or develop a herniation, sometimes irritating a nearby nerve. This can cause lower back pain and, in some cases, pain that travels into the buttock or leg.</p>
+
+<p>When nerve irritation causes symptoms along the path of the sciatic nerve, the condition is commonly called sciatica. Some people experience tingling, numbness, or weakness as well as pain.</p>
+
+<p>Not every disc abnormality causes symptoms. A scan result must be interpreted alongside the medical history and physical examination.</p>
+
+<h3>3. Age-Related Changes and Arthritis</h3>
+
+<p>Spinal discs and joints can change with age. Some people develop stiffness or pain associated with arthritis or degenerative changes in the spine. However, age-related changes on an X-ray or MRI do not always explain the pain.</p>
+
+<p>Management depends on the symptoms, examination findings, daily limitations, and any associated nerve problems. Treatment may include activity adjustments, physiotherapy, and suitable pain management.</p>
+
+<h3>4. Spinal Stenosis</h3>
+
+<p>Spinal stenosis means that spaces within the spinal canal or nerve pathways have narrowed. In some people, this puts pressure on nerves and causes pain, tingling, numbness, or weakness in the legs.</p>
+
+<p>Symptoms may become worse while standing or walking and improve when sitting or bending forward. A medical assessment can help determine whether this pattern is related to spinal stenosis or another condition.</p>
+
+<h3>5. Osteoporosis and Spinal Fractures</h3>
+
+<p>Osteoporosis weakens bones and can increase the risk of fractures. A vertebral compression fracture may cause sudden back pain, sometimes after a minor fall or movement that would not normally cause an injury.</p>
+
+<p>Older adults and people with known osteoporosis or other fracture risk factors should seek medical advice if they develop sudden or severe back pain, particularly after an injury.</p>
+
+<h3>6. Prolonged Sitting and Physical Inactivity</h3>
+
+<p>Sitting for long periods, limited physical activity, and sudden increases in workload can contribute to discomfort for some people. There is no single sitting posture that prevents all back pain, and back pain is not always caused by poor posture.</p>
+
+<p>Changing position regularly, taking short movement breaks, and gradually building strength and activity tolerance may help reduce discomfort and improve function.</p>
+
+<h3>7. Other Medical Conditions</h3>
+
+<p>Occasionally, lower back pain is caused by a condition outside the muscles and joints of the spine. Possible causes include kidney stones, kidney infection, spinal infection, and certain abdominal or pelvic conditions.</p>
+
+<p>Symptoms such as fever, painful urination, blood in the urine, severe abdominal pain, or feeling very unwell can help indicate that a different medical assessment is needed.</p>
+
+<h2>Symptoms That May Occur With Lower Back Pain</h2>
+
+<p>Symptoms vary depending on the cause. You may experience one or more of the following:</p>
+
+<ul>
+<li>A dull ache, sharp pain, or burning sensation in the lower back</li>
+<li>Stiffness after sitting or resting</li>
+<li>Pain that worsens with bending, lifting, or twisting</li>
+<li>Muscle tightness or spasms</li>
+<li>Pain that spreads into the buttock or leg</li>
+<li>Tingling or numbness in a leg or foot</li>
+<li>Difficulty standing straight or moving comfortably</li>
+</ul>
+
+<p>Back pain with leg symptoms may involve nerve irritation. New or worsening weakness, difficulty walking, or changes in bladder or bowel function need particular attention.</p>
+
+<h2>How to Relieve Lower Back Pain at Home</h2>
+
+<p>For uncomplicated lower back pain without warning signs, simple measures may help reduce discomfort and maintain mobility. The right approach depends on the cause and severity of the symptoms.</p>
+
+<h3>1. Keep Moving Gently</h3>
+
+<p>Short walks and ordinary activities, adjusted to your comfort level, may help prevent stiffness. Prolonged bed rest is generally not recommended for uncomplicated back pain.</p>
+
+<p>Temporarily reduce activities that clearly worsen the pain, especially heavy lifting or repeated twisting. Return to normal activities gradually as symptoms allow.</p>
+
+<h3>2. Try Comfortable Heat or Cold</h3>
+
+<p>A cold pack wrapped in a towel may help during the early period after a strain. Gentle heat may ease stiffness or muscle tightness. Use either for short periods and avoid placing ice or very hot objects directly against the skin.</p>
+
+<p>Stop if the skin becomes painful, excessively red, or numb. People with reduced skin sensation should take extra care when applying heat or cold.</p>
+
+<h3>3. Adjust Your Sitting and Sleeping Position</h3>
+
+<p>Change positions regularly rather than remaining seated for hours. When sitting, use a supportive chair and keep your feet comfortably supported. During sleep, choose a position that feels comfortable and does not increase symptoms.</p>
+
+<p>No single mattress or sleeping position is best for everyone. The goal is to support comfortable rest without making pain worse.</p>
+
+<h3>4. Avoid Heavy Lifting During a Painful Episode</h3>
+
+<p>Until symptoms settle, avoid lifting loads that strain your back. When lifting is necessary, keep the object close to your body, use your legs, and avoid twisting while carrying it. Ask for help with heavy or awkward items.</p>
+
+<h3>5. Use Pain Medicines Carefully</h3>
+
+<p>Some people may benefit from medicines for short-term pain relief. However, medicines are not suitable for everyone. Anti-inflammatory medicines can carry risks for people with kidney disease, stomach ulcers, certain heart conditions, pregnancy, or those taking particular medicines.</p>
+
+<p>Ask a qualified healthcare professional or pharmacist which option is appropriate for you. Follow the recommended dose and do not combine medicines with similar ingredients without professional advice.</p>
+
+<div class="my-6 rounded-xl border border-orange-200 bg-orange-50 p-5">
+<h3 class="!mt-0 !border-0 !pl-0">Do Not Push Through Severe Pain</h3>
+<p class="!mb-0">Stop an activity that causes a marked increase in pain, new tingling, or weakness. If symptoms are severe, follow an injury, or affect your ability to walk safely, seek medical assessment rather than relying only on home care.</p>
+</div>
+
+<h2>Medical Treatment for Lower Back Pain</h2>
+
+<p>If the pain is severe, keeps returning, affects daily activities, or does not improve, a clinician can assess the cause and recommend appropriate treatment.</p>
+
+<table>
+<thead>
+<tr>
+<th>Treatment</th>
+<th>When It May Help</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Clinical assessment</td>
+<td>Helps identify the likely cause, assess nerve function, and check for warning signs</td>
+</tr>
+<tr>
+<td>Physiotherapy</td>
+<td>May improve movement, strength, flexibility, and confidence with daily activities</td>
+</tr>
+<tr>
+<td>Medication</td>
+<td>May help manage symptoms when selected according to individual risks and needs</td>
+</tr>
+<tr>
+<td>Activity and movement plan</td>
+<td>Supports a gradual return to usual activities and helps avoid prolonged inactivity</td>
+</tr>
+<tr>
+<td>Further investigations</td>
+<td>May be needed when a serious cause is suspected or results could change treatment</td>
+</tr>
+<tr>
+<td>Injections or specialist procedures</td>
+<td>May be considered for selected conditions when simpler treatments are not sufficient</td>
+</tr>
+<tr>
+<td>Surgery</td>
+<td>May be appropriate for specific structural problems or significant nerve compression in selected patients</td>
+</tr>
+</tbody>
+</table>
+
+<h3>Physiotherapy and Exercise</h3>
+
+<p>A physiotherapist can help develop a programme suited to the symptoms, strength, mobility, and medical history of the individual. Depending on the cause, treatment may include graded strengthening, mobility exercises, movement training, and guidance on returning to daily activities.</p>
+
+<p>There is no single exercise programme that is right for every type of back pain. Exercises should be modified if they increase pain or cause new symptoms down the leg.</p>
+
+<h3>Do You Need an X-Ray or MRI?</h3>
+
+<p>Not everyone with lower back pain needs imaging. A clinician may be able to begin assessment using the symptom history and physical examination. Imaging is more likely to be considered when there are warning signs, a suspected fracture or other serious condition, significant or worsening neurological symptoms, or persistent symptoms where the results could change management.</p>
+
+<p>An MRI can show discs, nerves, and other soft tissues, while an X-ray is more useful for assessing certain bone changes. The appropriate test depends on the clinical question.</p>
+
+<h3>When Is Surgery Considered?</h3>
+
+<p>Surgery is not usually the first treatment for common uncomplicated lower back pain. It may be considered when a specific structural problem is identified and symptoms, nerve impairment, or functional limitations justify an operation.</p>
+
+<p>The decision depends on the diagnosis, severity, response to non-surgical treatment, and expected benefits and risks. An orthopedic or spine specialist can explain the available options after assessment.</p>
+
+<h2>When to See a Doctor for Lower Back Pain</h2>
+
+<p>Arrange a medical assessment if lower back pain is severe, keeps returning, interferes with normal activities, or does not begin to improve over the following weeks. You should also seek assessment if pain spreads down a leg, causes persistent tingling or numbness, or is accompanied by unexplained weight loss or significant night pain.</p>
+
+<h3>Seek Emergency Medical Care for These Warning Signs</h3>
+
+<ul>
+<li><strong>New bladder or bowel problems:</strong> Difficulty passing urine, loss of bladder or bowel control, or new inability to sense when you need to go.</li>
+<li><strong>Numbness around the groin or saddle area:</strong> Reduced sensation around the inner thighs, genitals, or buttocks.</li>
+<li><strong>Rapidly worsening leg weakness:</strong> New or progressive weakness, especially when it affects walking or both legs.</li>
+<li><strong>Major injury:</strong> Back pain after a serious fall, road accident, or significant impact.</li>
+<li><strong>Severe illness with back pain:</strong> Fever or chills with significant back pain, particularly if you feel very unwell or have risk factors for infection.</li>
+</ul>
+
+<p>New bladder or bowel dysfunction, saddle-area numbness, and progressive leg weakness can indicate serious nerve compression that requires immediate assessment. Do not wait for a routine appointment if these symptoms occur.</p>
+
+<h2>How to Help Prevent Recurrent Lower Back Pain</h2>
+
+<p>Not every episode can be prevented, but several habits may support back health and reduce the risk of some injuries.</p>
+
+<ul>
+<li><strong>Stay physically active:</strong> Build a regular routine that includes activities suited to your ability.</li>
+<li><strong>Strengthen supporting muscles:</strong> With appropriate guidance, work on core, hip, and back strength.</li>
+<li><strong>Increase activity gradually:</strong> Avoid sudden jumps in lifting, exercise, or work demands.</li>
+<li><strong>Lift with care:</strong> Keep loads close to the body and avoid twisting while lifting.</li>
+<li><strong>Take movement breaks:</strong> Change position regularly during long periods of sitting or driving.</li>
+<li><strong>Address relevant health factors:</strong> Discuss weight management, smoking, sleep, and other health concerns with a healthcare professional when appropriate.</li>
+</ul>
+
+<p>Good movement habits can help, but back pain should not automatically be blamed on posture, body weight, or lack of exercise. Persistent symptoms deserve a proper assessment.</p>
+
+<h2>Related Orthopedic Resources</h2>
+
+<p>Back pain and knee pain affect different parts of the musculoskeletal system, but both can interfere with walking and everyday activities. If you also have knee symptoms, these resources may be useful:</p>
+
+<ul>
+<li><a href="/blog/en/knee-pain-while-walking">Knee pain while walking or climbing stairs</a></li>
+<li><a href="/blog/en/knee-osteoarthritis">Knee osteoarthritis: symptoms, stages and treatment options</a></li>
+<li><a href="/blog/en/knee-replacement-recovery">Knee replacement recovery</a></li>
+</ul>
+
+<p>For assessment of musculoskeletal symptoms, visit the <a href="/orthopedics">Akropolis Orthopedics Department</a> or learn more about <a href="/doctors/dr-prateek-girotra">Dr Prateek Girotra</a>.</p>
+
+<div class="my-10 rounded-2xl bg-gradient-to-r from-[#328CCB] to-[#2a7bb5] p-8 text-center text-white shadow-xl">
+<h3 class="!mt-0 !mb-3 !border-0 !pl-0 !text-white">Do Not Ignore Persistent Back Pain</h3>
+<p class="!mb-6 !text-white">If lower back pain is affecting your daily activities, seek a clinical assessment to understand the possible cause and discuss suitable next steps.</p>
+<a href="/contact" class="article-cta inline-block rounded-full bg-[#D66C43] px-8 py-3 font-bold no-underline transition-all hover:bg-[#c55a36]" style="color:#ffffff !important; text-decoration:none !important;">Contact Akropolis Hospital</a>
+</div>
+
+<h2>Conclusion</h2>
+
+<p>Lower back pain can result from muscle strain, spinal disc problems, arthritis, nerve irritation, fractures, or conditions outside the spine. Many uncomplicated episodes improve with appropriate self-care and a gradual return to activity, while persistent or worsening symptoms may need medical evaluation.</p>
+
+<p>Do not ignore warning signs such as new bladder or bowel problems, numbness around the groin, or rapidly worsening leg weakness. A timely assessment can help identify the cause, guide treatment, and reduce the risk of missing a serious condition.</p>
+
+<h2>Medical References and Further Reading</h2>
+
+<ul>
+<li><a href="https://medlineplus.gov/ency/article/007425.htm" target="_blank" rel="nofollow noopener">MedlinePlus: Low Back Pain, Acute</a></li>
+<li><a href="https://my.clevelandclinic.org/health/diseases/7936-lower-back-pain" target="_blank" rel="nofollow noopener">Cleveland Clinic: Lower Back Pain</a></li>
+<li><a href="https://www.mayoclinic.org/diseases-conditions/back-pain/symptoms-causes/syc-20369906" target="_blank" rel="nofollow noopener">Mayo Clinic: Back Pain Symptoms and Causes</a></li>
+<li><a href="https://www.who.int/news-room/fact-sheets/detail/low-back-pain" target="_blank" rel="nofollow noopener">World Health Organization: Low Back Pain</a></li>
+</ul>
+
+<div class="my-8 rounded-2xl border border-gray-200 bg-gray-50 p-6 text-sm text-gray-700">
+    <strong>Medical Notice:</strong>
+This article is for general educational purposes only and does not replace professional medical advice, diagnosis, or treatment. Symptoms and treatment needs vary between individuals. Seek urgent medical care for emergency warning signs and consult a qualified healthcare professional for a personal assessment.
+</div>
+'
+],
+
      [
     'slug' => 'knee-replacement-cost-in-india',
     'title' => 'Knee Replacement Surgery Cost in India: Factors That Affect the Total Cost',
