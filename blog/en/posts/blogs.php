@@ -323,14 +323,32 @@ $blogs = [
 
 <h2>Medical References and Further Reading</h2>
 
+<h2>Medical References and Further Reading</h2>
+
+<p>The following medical resources provide additional information about frozen shoulder, including its symptoms, possible causes, diagnosis, treatment options and expected recovery. They can help readers understand the condition and prepare for a discussion with a qualified healthcare professional.</p>
+
 <ul>
-    <li><a href="https://www.mayoclinic.org/diseases-conditions/frozen-shoulder/symptoms-causes/syc-20372684" target="_blank" rel="nofollow noopener">Mayo Clinic: Frozen shoulder symptoms and causes</a></li>
-    <li><a href="https://my.clevelandclinic.org/health/diseases/frozen-shoulder-adhesive-capsulitis" target="_blank" rel="nofollow noopener">Cleveland Clinic: Frozen Shoulder (Adhesive Capsulitis)</a></li>
-    <li><a href="https://www.nhsinform.scot/illnesses-and-conditions/muscle-bone-and-joints/arm-shoulder-and-hand-problems-and-conditions/frozen-shoulder/" target="_blank" rel="nofollow noopener">NHS inform: Frozen shoulder</a></li>
-    <li><a href="https://www.health.harvard.edu/pain/how-to-release-a-frozen-shoulder" target="_blank" rel="nofollow noopener">Harvard Health: How to release a frozen shoulder</a></li>
+    <li>
+        <strong><a href="https://www.mayoclinic.org/diseases-conditions/frozen-shoulder/symptoms-causes/syc-20372684" target="_blank" rel="nofollow noopener">Mayo Clinic: Frozen Shoulder Symptoms and Causes</a></strong>
+        <p>Learn about common symptoms, risk factors and the gradual development of frozen shoulder. This resource helps explain why shoulder pain and stiffness may increase over time and when medical evaluation may be appropriate.</p>
+    </li>
+    <li>
+        <strong><a href="https://my.clevelandclinic.org/health/diseases/frozen-shoulder-adhesive-capsulitis" target="_blank" rel="nofollow noopener">Cleveland Clinic: Frozen Shoulder (Adhesive Capsulitis)</a></strong>
+        <p>Explore how frozen shoulder affects the joint capsule, the typical stages of the condition, associated risk factors and available treatment approaches. It also provides useful context about the gradual nature of recovery.</p>
+    </li>
+    <li>
+        <strong><a href="https://www.nhsinform.scot/illnesses-and-conditions/muscle-bone-and-joints/arm-shoulder-and-hand-problems-and-conditions/frozen-shoulder/" target="_blank" rel="nofollow noopener">NHS inform: Frozen Shoulder</a></strong>
+        <p>Review practical guidance on managing shoulder pain and stiffness, staying gently active and approaching exercises safely. This resource also explains that improvement can take considerable time and that recovery varies between individuals.</p>
+    </li>
+    <li>
+        <strong><a href="https://www.health.harvard.edu/pain/how-to-release-a-frozen-shoulder" target="_blank" rel="nofollow noopener">Harvard Health Publishing: How to Release a Frozen Shoulder</a></strong>
+        <p>Find guidance on gentle shoulder stretches and mobility exercises that may help manage stiffness. The article also explains why movements should be performed carefully and should not be forced through significant pain.</p>
+    </li>
 </ul>
 
-<p><strong>Medical Disclaimer:</strong> This article is for general educational purposes only and is not a substitute for professional medical advice, diagnosis or treatment. Symptoms and recovery vary from person to person. Consult a qualified healthcare professional for an assessment and an individual treatment plan.</p>
+<div class="my-8 rounded-2xl border border-gray-200 bg-gray-50 p-6 text-sm text-gray-700">
+ <strong>Medical Disclaimer:</strong> This article is for general educational purposes only and is not a substitute for professional medical advice, diagnosis or treatment. Symptoms and recovery vary from person to person. Consult a qualified healthcare professional for an assessment and an individual treatment plan.
+</div>
 '
 ],
 
