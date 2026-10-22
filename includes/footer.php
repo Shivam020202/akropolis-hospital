@@ -27,20 +27,52 @@
             </div>
           </div>
         </div>
+        
+<!-- Social Media -->
+<div class="flex space-x-4">
 
-        <!-- Social Media -->
-        <div class="flex space-x-4">
-          <a href="https://www.facebook.com/profile.php?id=61580596171533#" target="_blank" class="bg-gray-800 hover:bg-[#328CCB] p-2 rounded-lg transition-colors duration-200" rel="noopener noreferrer">
-            <?php echo getIcon('Facebook', 'h-5 w-5'); ?>
-          </a>
-          <a href="https://www.instagram.com/akropolishospital/" target="_blank" class="bg-gray-800 hover:bg-[#D66C43] p-2 rounded-lg transition-colors duration-200" rel="noopener noreferrer">
-            <?php echo getIcon('Instagram', 'h-5 w-5'); ?>
-          </a>
-          <a href="https://www.youtube.com/@akropolishospital/videos" target="_blank" class="bg-gray-800 hover:bg-[#D66C43] p-2 rounded-lg transition-colors duration-200" rel="noopener noreferrer">
-            <?php echo getIcon('Youtube', 'h-5 w-5'); ?>
-          </a>
-        </div>
-      </div>
+  <!-- Facebook -->
+  <a href="https://www.facebook.com/akropolishospital"
+     target="_blank"
+     rel="noopener noreferrer"
+     aria-label="Facebook"
+     title="Facebook"
+     class="bg-gray-800 hover:bg-[#328CCB] p-2 rounded-lg transition-colors duration-200">
+    <?php echo getIcon('Facebook', 'h-5 w-5'); ?>
+  </a>
+
+  <!-- Instagram -->
+  <a href="https://www.instagram.com/akropolishospital"
+     target="_blank"
+     rel="noopener noreferrer"
+     aria-label="Instagram"
+     title="Instagram"
+     class="bg-gray-800 hover:bg-[#D66C43] p-2 rounded-lg transition-colors duration-200">
+    <?php echo getIcon('Instagram', 'h-5 w-5'); ?>
+  </a>
+
+  <!-- LinkedIn -->
+  <a href="https://www.linkedin.com/company/akropolis-superspeciality-hospital"
+     target="_blank"
+     rel="noopener noreferrer"
+     aria-label="LinkedIn"
+     title="LinkedIn"
+     class="bg-gray-800 hover:bg-[#328CCB] p-2 rounded-lg transition-colors duration-200">
+    <?php echo getIcon('Linkedin', 'h-5 w-5'); ?>
+  </a>
+
+  <!-- YouTube -->
+  <a href="https://youtube.com/@akropolishospital"
+     target="_blank"
+     rel="noopener noreferrer"
+     aria-label="YouTube"
+     title="YouTube"
+     class="bg-gray-800 hover:bg-[#D66C43] p-2 rounded-lg transition-colors duration-200">
+    <?php echo getIcon('Youtube', 'h-5 w-5'); ?>
+  </a>
+
+</div>
+
 
       <!-- Quick Links -->
       <div>
