@@ -8,6 +8,374 @@
 
 $blogs = [
 [
+    'slug' => 'acl-tear-symptoms-diagnosis-treatment-recovery-time',
+    'title' => 'ACL Tear: Symptoms, Diagnosis, Treatment and Recovery Time',
+    'excerpt' => 'Learn about ACL tear symptoms, common causes, diagnosis, treatment options and recovery time. Understand when physiotherapy may help, when surgery is considered and how rehabilitation supports a safe return to activity.',
+    'image' => '/assets/images/blog/English/acl-tear-symptoms-diagnosis-treatment-recovery-time.webp',
+    'image_alt' => 'Medical illustration of an anterior cruciate ligament tear in the knee, showing the injured ligament and surrounding knee structures',
+    'author' => 'Dr Prateek Girotra',
+    'category' => 'Orthopedics',
+    'tags' => ['ACL Tear', 'ACL Tear Symptoms', 'ACL Tear Diagnosis', 'ACL Tear Treatment', 'ACL Tear Recovery Time', 'Knee Ligament Injury', 'Orthopedics'],
+    'read_time' => '10 min read',
+    'published_at' => '2026-10-22',
+    'status' => 'published',
+
+    'faqs' => [
+        [
+            'question' => 'What are the common symptoms of an ACL tear?',
+            'answer' => 'Common symptoms include a popping sensation at the time of injury, rapid knee swelling, pain, difficulty bearing weight, reduced movement and a feeling that the knee may give way. Symptoms vary depending on the severity of the injury and any associated damage.'
+        ],
+        [
+            'question' => 'How is an ACL tear diagnosed?',
+            'answer' => 'ACL tear diagnosis usually involves a review of the injury history, a physical examination and ligament stability tests. An MRI may be used to assess the ACL and associated injuries, while X-rays can help identify fractures or other bone problems.'
+        ],
+        [
+            'question' => 'Can an ACL tear heal without surgery?',
+            'answer' => 'Some people with partial tears or selected complete tears can manage their symptoms and activity needs with structured rehabilitation. However, a completely torn ACL has limited ability to heal in a way that restores normal function. Treatment depends on knee stability, associated injuries, activity goals and specialist assessment.'
+        ],
+        [
+            'question' => 'What is the best treatment for an ACL tear?',
+            'answer' => 'ACL tear treatment may include activity modification, swelling and pain management, a rehabilitation programme and, when appropriate, ACL reconstruction surgery. The best option depends on the injury, knee stability, associated damage and the activities the person wants to resume.'
+        ],
+        [
+            'question' => 'How long does ACL tear recovery take?',
+            'answer' => 'Recovery time depends on the severity of the injury and the treatment plan. Rehabilitation without surgery can take several months. After ACL reconstruction, many patients need nine to twelve months or longer before returning to demanding sports, subject to functional testing and clinical clearance.'
+        ],
+        [
+            'question' => 'Can I walk with a torn ACL?',
+            'answer' => 'Some people can walk with an ACL tear, but pain, swelling or knee instability may make walking difficult. Being able to walk does not rule out a significant ligament injury. Avoid twisting, running and sports until the knee has been assessed.'
+        ],
+        [
+            'question' => 'Is ACL surgery always necessary?',
+            'answer' => 'No. Surgery is not required for every ACL tear. Some patients can achieve acceptable knee function with structured rehabilitation and activity modification. Reconstruction may be considered when the knee repeatedly gives way, associated injuries require surgery or the person wants to return to activities involving pivoting and rapid direction changes.'
+        ],
+        [
+            'question' => 'When can I return to sports after ACL surgery?',
+            'answer' => 'Return to sport often takes nine to twelve months or longer after ACL reconstruction, particularly for sports involving jumping, pivoting and rapid direction changes. Clearance should depend on knee stability, strength, movement quality, sport-specific testing and assessment by the treating team, rather than time alone.'
+        ],
+        [
+            'question' => 'What should I do immediately after a suspected ACL tear?',
+            'answer' => 'Stop the activity, protect the knee from further twisting, apply a wrapped cold pack for short periods and elevate the leg if comfortable. Avoid forcing movement or returning to sport. Seek prompt medical assessment, especially if you cannot bear weight, have severe pain or swelling, or the knee looks deformed.'
+        ]
+    ],
+
+    'content' => '
+<div class="my-6 rounded-xl border border-blue-200 bg-blue-50 p-6">
+    <h2 class="!mt-0 !border-0 !pl-0 text-xl font-bold text-blue-900">Quick Answer: What Is an ACL Tear?</h2>
+    <p class="!mb-0">An anterior cruciate ligament (ACL) tear is an injury to one of the main ligaments that helps stabilise the knee. It commonly occurs during sudden stops, changes in direction, awkward landings or knee trauma. Symptoms may include a popping sensation, rapid swelling, pain and a feeling that the knee is unstable. Treatment can involve structured rehabilitation, activity modification or ACL reconstruction surgery. Recovery depends on the severity of the injury, associated damage and treatment plan.</p>
+</div>
+
+<p>A sudden twist of the knee during football, badminton, basketball or another physical activity can cause a serious ligament injury. Some people notice a popping sensation followed by swelling, while others mainly experience pain, difficulty walking or a feeling that the knee may give way.</p>
+
+<p>One possible cause is an anterior cruciate ligament injury, commonly called an ACL tear. This injury can affect knee stability during everyday movement and may prevent a person from safely returning to sports.</p>
+
+<p>Understanding <strong>ACL Tear symptoms, ACL Tear Diagnosis, ACL Tear Treatment and ACL Tear Recovery Time</strong> can help you recognise the warning signs, understand the available treatment options and know what to expect during rehabilitation.</p>
+
+<h2>What Is an ACL Tear?</h2>
+
+<p>The anterior cruciate ligament is a strong band of tissue inside the knee. It connects the femur, or thigh bone, to the tibia, or shin bone. Along with other ligaments and surrounding muscles, it helps control forward movement and rotation of the tibia relative to the femur.</p>
+
+<p>An ACL tear occurs when the ligament is stretched beyond its normal capacity or torn. The injury may be partial, meaning some ligament fibres remain intact, or complete, meaning the ligament is torn through.</p>
+
+<p>An ACL injury may occur on its own or alongside damage to other structures, including the meniscus, cartilage or additional knee ligaments. These associated injuries can affect treatment decisions and recovery.</p>
+
+<h2>ACL Tear Symptoms</h2>
+
+<p><strong>ACL Tear symptoms</strong> can appear immediately after an injury, although the severity varies. Some people develop substantial swelling within a few hours, while others experience more moderate symptoms.</p>
+
+<p>Common symptoms include:</p>
+
+<ul>
+    <li><strong>A popping sensation:</strong> Some people hear or feel a pop at the moment the knee is injured. However, not every ACL tear produces this sensation.</li>
+    <li><strong>Rapid knee swelling:</strong> Swelling may develop within the first few hours because of bleeding and inflammation inside the joint.</li>
+    <li><strong>Knee pain:</strong> Pain may be significant immediately after the injury and can make standing or walking difficult.</li>
+    <li><strong>Knee instability:</strong> The knee may feel as if it is giving way, particularly when turning, pivoting or changing direction.</li>
+    <li><strong>Reduced range of motion:</strong> Swelling and pain can make it difficult to bend or fully straighten the knee.</li>
+    <li><strong>Difficulty bearing weight:</strong> Walking may be painful or feel unsafe, especially soon after the injury.</li>
+</ul>
+
+<p>These symptoms are not exclusive to an ACL tear. Meniscus injuries, fractures, dislocations and other ligament injuries can produce similar problems. A clinical examination is needed to identify the likely cause.</p>
+
+<div class="my-6 rounded-xl border-l-4 border-amber-500 bg-amber-50 p-5">
+    <h3 class="!mt-0 !border-0 !pl-0 font-bold text-amber-900">When to seek urgent medical attention</h3>
+    <p class="!mb-0">Seek prompt medical assessment after a significant knee injury, especially if swelling develops quickly, you cannot bear weight or the knee feels unstable. A visibly deformed knee, a cold or pale foot, new numbness, or severe pain after trauma requires urgent assessment. Do not attempt to force the knee back into position or continue playing through the injury.</p>
+</div>
+
+<h2>What Causes an ACL Tear?</h2>
+
+<p>ACL injuries commonly occur when the knee experiences sudden rotational force or moves beyond its normal range. Direct contact can also cause an ACL tear, but many injuries occur without another player or object striking the knee.</p>
+
+<p>Common causes include:</p>
+
+<ul>
+    <li><strong>Sudden changes in direction:</strong> Planting one foot while rapidly turning can place substantial rotational stress on the knee.</li>
+    <li><strong>Sudden stopping:</strong> Decelerating quickly during running or sport can increase stress on the knee joint.</li>
+    <li><strong>Awkward landings:</strong> Landing from a jump with poor control or an unfavourable knee position may contribute to injury.</li>
+    <li><strong>Direct impact:</strong> A collision or blow to the knee can damage the ACL and other knee structures.</li>
+    <li><strong>Falls and accidents:</strong> A fall or road traffic accident can produce forces that injure the ligament.</li>
+</ul>
+
+<h3>Who is at greater risk?</h3>
+
+<p>ACL tears can affect athletes and non-athletes. The risk may be higher during activities involving jumping, rapid direction changes and repeated pivoting. Previous ACL injury, inadequate neuromuscular control, fatigue and certain movement patterns may also contribute to risk.</p>
+
+<p>Sports such as football, basketball, badminton, handball and skiing involve movements that can place considerable demands on knee stability. However, an ACL tear can occur during routine activities or accidents as well.</p>
+
+<p>Structured strength training, balance work, landing technique and neuromuscular warm-up programmes may help reduce ACL injury risk in some sporting populations. They cannot prevent every injury.</p>
+
+<h2>Partial and Complete ACL Tears</h2>
+
+<p>ACL injuries are often described as partial or complete tears. Some clinicians also use a grading system to describe the severity of ligament sprains. The terminology can vary, so the grade should not be used on its own to decide treatment.</p>
+
+<table class="w-full">
+    <thead>
+        <tr>
+            <th>Injury description</th>
+            <th>What it means</th>
+            <th>What it may mean for treatment</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr>
+            <td><strong>Mild sprain</strong></td>
+            <td>The ligament is stretched, with little or no tearing of its fibres.</td>
+            <td>Rehabilitation may be sufficient when examination findings and knee stability support this approach.</td>
+        </tr>
+        <tr>
+            <td><strong>Partial tear</strong></td>
+            <td>Some ligament fibres are torn, while some remain intact.</td>
+            <td>Treatment depends on functional stability, associated injuries and activity goals.</td>
+        </tr>
+        <tr>
+            <td><strong>Complete tear</strong></td>
+            <td>The ligament is torn through, often causing greater risk of instability.</td>
+            <td>Some patients need reconstruction, while selected patients may be managed with structured rehabilitation and activity modification.</td>
+        </tr>
+    </tbody>
+</table>
+
+<p>These descriptions are a simplified guide, not a substitute for examination. A partial tear can still cause significant instability, and symptoms alone cannot reliably establish the extent of ligament damage.</p>
+
+<h2>ACL Tear Diagnosis</h2>
+
+<p><strong>ACL Tear Diagnosis</strong> usually begins with a review of how the injury occurred and a physical examination of the knee. The clinician will ask about the direction of the movement, whether there was a pop, how quickly swelling developed and whether the knee feels unstable.</p>
+
+<h3>1. Physical examination</h3>
+
+<p>The clinician may assess swelling, tenderness, range of motion and knee stability. Specific tests may include:</p>
+
+<ul>
+    <li><strong>Lachman test:</strong> Evaluates forward movement of the tibia relative to the femur.</li>
+    <li><strong>Anterior drawer test:</strong> Checks for excessive forward movement of the tibia.</li>
+    <li><strong>Pivot shift test:</strong> Assesses rotational instability in the knee.</li>
+</ul>
+
+<p>Pain and swelling can make some tests difficult immediately after an injury. The clinician may need to repeat parts of the examination after the acute symptoms settle.</p>
+
+<h3>2. Imaging tests</h3>
+
+<table class="w-full">
+    <thead>
+        <tr>
+            <th>Test</th>
+            <th>Why it may be used</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr>
+            <td><strong>X-ray</strong></td>
+            <td>Helps identify fractures or other bone injuries. An X-ray does not directly show most ACL tears.</td>
+        </tr>
+        <tr>
+            <td><strong>MRI</strong></td>
+            <td>Provides detailed images of the ACL and can help identify meniscus, cartilage and other ligament injuries.</td>
+        </tr>
+        <tr>
+            <td><strong>CT scan</strong></td>
+            <td>May be used in selected cases when additional detail about a suspected bone injury is needed.</td>
+        </tr>
+    </tbody>
+</table>
+
+<p>An MRI is commonly used when an ACL tear is suspected or when associated injuries need assessment. Not every patient requires every imaging test. The choice depends on the examination findings and clinical circumstances.</p>
+
+<h2>ACL Tear Treatment Options</h2>
+
+<p><strong>ACL Tear Treatment</strong> depends on whether the injury is partial or complete, the degree of instability, associated knee damage, age, general health and activity goals. Treatment may involve rehabilitation alone or surgery followed by rehabilitation.</p>
+
+<h3>1. Immediate care after the injury</h3>
+
+<p>Until the knee has been assessed, the priority is to protect it from further damage.</p>
+
+<ul>
+    <li>Stop sports and activities that involve twisting, jumping or sudden changes in direction.</li>
+    <li>Rest from painful weight-bearing activities and use crutches if recommended or needed for safe movement.</li>
+    <li>Apply a cold pack wrapped in a towel for about 15 to 20 minutes at a time. Do not place ice directly on the skin.</li>
+    <li>Elevate the leg when resting if comfortable.</li>
+    <li>Use compression only if it is comfortable and does not cause numbness, increased pain or changes in foot colour.</li>
+    <li>Arrange medical assessment to determine the extent of the injury.</li>
+</ul>
+
+<p>Do not attempt to test knee stability repeatedly or return to sport simply because the pain has reduced.</p>
+
+<h3>2. Non-surgical treatment and physiotherapy</h3>
+
+<p>Some people can achieve good functional outcomes without ACL reconstruction. This may be appropriate for selected partial tears, people whose knees remain stable during daily activities, or individuals who do not plan to return to high-demand pivoting sports.</p>
+
+<p>Non-surgical management may include:</p>
+
+<ul>
+    <li>Physiotherapy to restore knee movement and reduce swelling.</li>
+    <li>Progressive strengthening of the quadriceps, hamstrings and surrounding muscles.</li>
+    <li>Balance and neuromuscular training to improve control of the leg.</li>
+    <li>Temporary activity modification and a brace when clinically appropriate.</li>
+    <li>Gradual return to suitable activities under professional guidance.</li>
+</ul>
+
+<p>Rehabilitation does not reconnect a completely torn ACL. Instead, it aims to improve strength, coordination and functional stability. Repeated episodes of the knee giving way may increase the risk of additional damage to the meniscus or cartilage, so ongoing instability should be reassessed.</p>
+
+<h3>3. ACL reconstruction surgery</h3>
+
+<p>ACL reconstruction may be recommended when the knee remains unstable, the person wants to return to sports involving pivoting or rapid direction changes, or associated injuries require surgical management.</p>
+
+<p>During reconstruction, the surgeon usually replaces the damaged ligament with a graft. The graft may be taken from a tendon in the patient or, in selected cases, from donor tissue. The choice depends on factors such as age, activity level, anatomy, previous surgery and the surgeon assessment.</p>
+
+<p>ACL reconstruction is different from simply stitching the torn ligament back together. The procedure is commonly performed using arthroscopic techniques, and most patients need a structured rehabilitation programme afterwards.</p>
+
+<h3>4. Is surgery necessary for every ACL tear?</h3>
+
+<p>No. Surgery is not automatically required for every ACL injury. The decision should be based on a discussion between the patient and orthopaedic specialist about knee stability, associated damage, desired activities, treatment risks and rehabilitation commitment.</p>
+
+<p>A person who wants to return to football or another sport involving repeated pivoting may have different treatment needs from someone whose main goals are comfortable walking and routine daily activities. The choice should be individualised rather than based on the MRI result alone.</p>
+
+<h2>ACL Tear Recovery Time</h2>
+
+<p><strong>ACL Tear Recovery Time</strong> varies according to the extent of the injury, the treatment selected, associated damage and the goals for recovery. Returning to ordinary daily activities and returning to competitive sport are different milestones.</p>
+
+<table class="w-full">
+    <thead>
+        <tr>
+            <th>Recovery stage</th>
+            <th>General expectation</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr>
+            <td><strong>Initial injury management</strong></td>
+            <td>The first days and weeks focus on controlling swelling, protecting the knee and restoring comfortable movement.</td>
+        </tr>
+        <tr>
+            <td><strong>Early rehabilitation</strong></td>
+            <td>Exercises aim to restore knee extension, bending, muscle activation and safe walking as appropriate.</td>
+        </tr>
+        <tr>
+            <td><strong>Strength and stability training</strong></td>
+            <td>Progressive exercises help rebuild strength, balance and control over the following months.</td>
+        </tr>
+        <tr>
+            <td><strong>Return to daily activities</strong></td>
+            <td>Timing depends on symptoms, knee function, treatment and work or activity demands.</td>
+        </tr>
+        <tr>
+            <td><strong>Return to demanding sports after reconstruction</strong></td>
+            <td>Many patients require around nine to twelve months or longer, with clearance based on functional recovery and clinical assessment.</td>
+        </tr>
+    </tbody>
+</table>
+
+<p>These timeframes are general estimates, not guaranteed deadlines. Recovery after non-surgical treatment also varies and depends on whether the knee remains stable during the activities the person wants to perform.</p>
+
+<h3>What affects ACL recovery?</h3>
+
+<ul>
+    <li><strong>Severity of the injury:</strong> A partial tear and a complete tear may have different treatment needs.</li>
+    <li><strong>Associated injuries:</strong> Meniscus damage, cartilage injury or other ligament injuries may change the rehabilitation plan.</li>
+    <li><strong>Rehabilitation consistency:</strong> Following a supervised, progressive programme supports recovery of movement, strength and coordination.</li>
+    <li><strong>Functional stability:</strong> Repeated giving-way episodes can affect activity progression and may lead to further injury.</li>
+    <li><strong>Return-to-sport demands:</strong> Activities involving jumping, pivoting and sudden direction changes require a higher level of knee control than ordinary walking.</li>
+</ul>
+
+<h3>When can you return to sports?</h3>
+
+<p>Return to sport should not be based on the calendar alone. After ACL reconstruction, the treating team may assess pain, swelling, full knee movement, strength, balance, hopping performance, movement quality and sport-specific readiness.</p>
+
+<p>Returning too early can increase the risk of another injury. Even when the knee feels better, strength and coordination may not yet be sufficient for demanding activity. Follow the clearance plan provided by the orthopaedic surgeon and physiotherapist.</p>
+
+<h2>Can an ACL Tear Lead to Long-Term Knee Problems?</h2>
+
+<p>An ACL tear does not guarantee that long-term knee problems will develop. However, some people have persistent instability, additional meniscus or cartilage damage, or an increased risk of knee osteoarthritis over time.</p>
+
+<p>Appropriate assessment and rehabilitation are important whether treatment involves surgery or not. Repeated knee instability should not be ignored, because it can place additional stress on other structures within the joint.</p>
+
+<p>ACL reconstruction can improve stability for appropriately selected patients, but it does not eliminate every future risk of cartilage damage or osteoarthritis. Follow-up care and a gradual return to activity remain important.</p>
+
+<h2>How to Help Reduce the Risk of an ACL Injury</h2>
+
+<p>ACL injuries cannot always be prevented, but structured training may reduce risk in some people, particularly athletes.</p>
+
+<ul>
+    <li>Warm up before sport and high-intensity exercise.</li>
+    <li>Build strength in the legs, hips and core through an appropriate training programme.</li>
+    <li>Practise controlled landing, deceleration and direction-change techniques.</li>
+    <li>Include balance and neuromuscular exercises in regular training.</li>
+    <li>Allow adequate recovery between demanding sessions.</li>
+    <li>Do not continue playing when knee pain, swelling or instability develops.</li>
+</ul>
+
+<p>A physiotherapist or qualified sports professional can help tailor prevention exercises to your activity level and movement needs.</p>
+
+<h2>When Should You Consult an Orthopaedic Specialist?</h2>
+
+<p>Seek medical assessment if you experience sudden knee swelling, a popping sensation during an injury, difficulty bearing weight, reduced knee movement or repeated episodes of the knee giving way.</p>
+
+<p>Early evaluation can help identify the injury, check for associated damage and guide the next steps. A clinician may recommend imaging, temporary support, rehabilitation or a surgical opinion depending on the findings.</p>
+
+<p>You can learn more about the <a href="/orthopedics">orthopaedic services at Akropolis Super Speciality Hospital</a> or read about <a href="/doctors/dr-prateek-girotra">Dr Prateek Girotra</a>. If knee discomfort continues during walking, our article on <a href="/blog/en/knee-pain-while-walking">knee pain while walking</a> explains other possible causes and when an assessment may be needed.</p>
+
+<div class="my-10 rounded-2xl bg-gradient-to-r from-[#328CCB] to-[#2a7bb5] p-8 text-center text-white shadow-xl">
+    <h3 class="!mt-0 !mb-3 !border-0 !pl-0 !text-white">Get Your Knee Injury Assessed</h3>
+    <p class="!mb-6 !text-white">Knee pain, swelling or instability after an injury should not be ignored. A clinical assessment can help identify the problem and guide an appropriate treatment and rehabilitation plan.</p>
+    <a href="/contact" class="article-cta inline-block rounded-full bg-[#D66C43] px-8 py-3 font-bold no-underline transition-all hover:bg-[#c55a36]" style="color:#ffffff !important; text-decoration:none !important;">Book a Consultation</a>
+</div>
+
+<h2>Conclusion</h2>
+
+<p>An ACL tear is a knee ligament injury that can cause pain, swelling, restricted movement and instability. Diagnosis usually involves a clinical examination and, when indicated, imaging such as an MRI.</p>
+
+<p>ACL tear treatment may involve structured rehabilitation alone or reconstruction surgery followed by physiotherapy. Surgery is not necessary for every patient, and the right approach depends on knee stability, associated injuries and activity goals.</p>
+
+<p>ACL tear recovery time varies considerably. Returning to demanding sports requires more than pain relief and should depend on restored strength, movement, stability and functional readiness. A timely assessment and an individualised rehabilitation plan can help guide a safer recovery.</p>
+
+<h2>Medical References and Further Reading</h2>
+
+<p>The following resources provide additional information about ACL injury symptoms, diagnostic tests, treatment decisions and rehabilitation. They are intended to support patient education and do not replace an individual medical assessment.</p>
+
+<ul>
+    <li>
+        <strong><a href="https://my.clevelandclinic.org/health/diseases/16576-acl-tear" target="_blank" rel="nofollow noopener">Cleveland Clinic: ACL Tear</a></strong>
+        <p>Learn about common ACL tear symptoms, how the injury occurs, the role of physical examination and imaging, and the main treatment options. This resource also explains why recovery time varies and why returning to sport before clearance can increase the risk of reinjury.</p>
+    </li>
+    <li>
+        <strong><a href="https://www.mayoclinic.org/diseases-conditions/acl-injury/diagnosis-treatment/drc-20350744" target="_blank" rel="nofollow noopener">Mayo Clinic: ACL Injury Diagnosis and Treatment</a></strong>
+        <p>Explore how clinicians assess ACL injuries and decide between non-surgical care and reconstruction. This resource is useful for understanding physical examination, imaging, treatment planning and the importance of rehabilitation.</p>
+    </li>
+    <li>
+        <strong><a href="https://orthoinfo.org/treatment/acl-injury-does-it-require-surgery" target="_blank" rel="nofollow noopener">American Academy of Orthopaedic Surgeons: Does an ACL Injury Require Surgery?</a></strong>
+        <p>Understand why ACL reconstruction is not required for every injury and how activity goals, knee stability and associated damage influence the decision. The resource also describes rehabilitation goals and the functional requirements for returning to sports.</p>
+    </li>
+    <li>
+        <strong><a href="https://www.nhs.uk/tests-and-treatments/acl-anterior-cruciate-ligament-surgery/recovering/" target="_blank" rel="nofollow noopener">NHS: Recovering from ACL Surgery</a></strong>
+        <p>Find practical information about post-operative care, pain and swelling management, crutches, physiotherapy and gradual return to activities. The guidance emphasises following the treating team instructions throughout recovery.</p>
+    </li>
+</ul>
+
+<div class="my-8 rounded-2xl border border-gray-200 bg-gray-50 p-6 text-sm text-gray-700">
+<strong>Medical Disclaimer:</strong> This article is for general educational purposes only and is not a substitute for professional medical advice, diagnosis or treatment. ACL injuries vary in severity, and the most suitable treatment depends on individual clinical findings and activity goals. Consult a qualified healthcare professional for assessment and a personalised treatment plan.
+</div>
+'
+],   
+
+[
     'slug' => 'frozen-shoulder-symptoms-causes-treatment-recovery-time',
     'title' => 'Frozen Shoulder: Symptoms, Causes, Treatment and Recovery Time',
     'excerpt' => 'Learn about frozen shoulder symptoms, causes, treatment options and recovery time. Understand the stages of frozen shoulder and when to consult an orthopaedic specialist.',
@@ -322,10 +690,6 @@ $blogs = [
 <p>Appropriate pain management, gentle movement and physiotherapy can help many people manage the condition. In selected cases, injections or specialist procedures may be considered. Because other shoulder conditions can cause similar symptoms, an accurate assessment is important before starting treatment.</p>
 
 <h2>Medical References and Further Reading</h2>
-
-<h2>Medical References and Further Reading</h2>
-
-<p>The following medical resources provide additional information about frozen shoulder, including its symptoms, possible causes, diagnosis, treatment options and expected recovery. They can help readers understand the condition and prepare for a discussion with a qualified healthcare professional.</p>
 
 <ul>
     <li>
