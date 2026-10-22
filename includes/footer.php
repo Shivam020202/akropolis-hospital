@@ -4,7 +4,7 @@
 ?>
 <footer class="footer-glass bg-gray-900 text-white">
   <div class="container mx-auto px-4 py-16">
-    <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8">
+    <div class="grid grid-cols-2 lg:grid-cols-4 gap-8">
       <!-- Hospital Info -->
       <div class="lg:col-span-1">
         <img
@@ -29,7 +29,7 @@
         </div>
         
 <!-- Social Media -->
-<div class="flex space-x-4">
+<div class="flex items-center space-x-4">
 
   <!-- Facebook -->
   <a href="https://www.facebook.com/akropolishospital"
@@ -52,14 +52,20 @@
   </a>
 
   <!-- LinkedIn -->
-  <a href="https://www.linkedin.com/company/akropolis-superspeciality-hospital"
-     target="_blank"
-     rel="noopener noreferrer"
-     aria-label="LinkedIn"
-     title="LinkedIn"
-     class="bg-gray-800 hover:bg-[#328CCB] p-2 rounded-lg transition-colors duration-200">
-    <?php echo getIcon('Linkedin', 'h-5 w-5'); ?>
-  </a>
+<a href="https://www.linkedin.com/company/akropolis-superspeciality-hospital"
+   target="_blank"
+   rel="noopener noreferrer"
+   aria-label="LinkedIn"
+   title="LinkedIn"
+   class="bg-gray-800 hover:bg-[#328CCB] p-2 rounded-lg transition-colors duration-200">
+  <svg xmlns="http://www.w3.org/2000/svg"
+       class="h-5 w-5 block flex-shrink-0"
+       viewBox="0 0 24 24"
+       fill="currentColor"
+       aria-hidden="true">
+    <path d="M5.2 3.5a2.2 2.2 0 1 0 0 4.4 2.2 2.2 0 0 0 0-4.4ZM3.3 9.5h3.8V21H3.3V9.5Zm6.2 0h3.6v1.6h.1a4 4 0 0 1 3.6-2c3.9 0 4.6 2.5 4.6 5.7V21h-3.8v-5.5c0-1.3 0-3-1.9-3s-2.2 1.4-2.2 2.9V21H9.5V9.5Z"/>
+  </svg>
+</a>
 
   <!-- YouTube -->
   <a href="https://youtube.com/@akropolishospital"
@@ -134,50 +140,49 @@
         </ul>
       </div>
 
-<!-- Contact Info -->
-<div>
-  <p class="text-xl font-bold mb-6">Contact Info</p>
+      <!-- Contact Info -->
+      <div>
+        <p class="text-xl font-bold mb-6">Contact Info</p>
 
-<div class="flex items-center space-x-3 mb-3">
-  <div class="text-gray-400 mt-1 flex-shrink-0">
-    <?php echo getIcon('Building2', 'h-5 w-5'); ?>
-  </div>
-  <p class="text-gray-300 leading-relaxed font-semibold m-0">
-    Akropolis Super Speciality Hospital
-  </p>
-</div>
+        <div class="flex items-center space-x-3 mb-3">
+          <div class="text-gray-400 mt-1 flex-shrink-0">
+            <?php echo getIcon('Building2', 'h-5 w-5'); ?>
+          </div>
+          <p class="text-gray-300 leading-relaxed font-semibold m-0">
+            Akropolis Super Speciality Hospital
+          </p>
+        </div>
 
-  <div class="space-y-4">
-    <div class="flex items-start space-x-3">
-      <div class="text-gray-400 mt-1 flex-shrink-0">
-        <?php echo getIcon('MapPin', 'h-5 w-5'); ?>
-      </div>
-      <p class="text-gray-300 leading-relaxed">
-        <?php echo CONTACT_INFO['address']; ?>
-      </p>
-    </div>
+        <div class="space-y-4">
+          <div class="flex items-start space-x-3">
+            <div class="text-gray-400 mt-1 flex-shrink-0">
+              <?php echo getIcon('MapPin', 'h-5 w-5'); ?>
+            </div>
+            <p class="text-gray-300 leading-relaxed">
+              <?php echo CONTACT_INFO['address']; ?>
+            </p>
+          </div>
 
-    <div class="flex items-center space-x-3">
-      <div class="text-gray-400 flex-shrink-0">
-        <?php echo getIcon('Phone', 'h-5 w-5'); ?>
-      </div>
-      <a href="tel:<?php echo CONTACT_INFO['phone']; ?>"
-         class="text-gray-300 hover:text-white">
-        <?php echo CONTACT_INFO['phone']; ?>
-      </a>
-    </div>
+          <div class="flex items-center space-x-3">
+            <div class="text-gray-400 flex-shrink-0">
+              <?php echo getIcon('Phone', 'h-5 w-5'); ?>
+            </div>
+            <a href="tel:<?php echo CONTACT_INFO['phone']; ?>"
+               class="text-gray-300 hover:text-white">
+              <?php echo CONTACT_INFO['phone']; ?>
+            </a>
+          </div>
 
-    <div class="flex items-center space-x-3">
-      <div class="text-gray-400 flex-shrink-0">
-        <?php echo getIcon('Mail', 'h-5 w-5'); ?>
-      </div>
-      <a href="mailto:<?php echo CONTACT_INFO['email']; ?>"
-         class="text-gray-300 hover:text-white">
-        <?php echo CONTACT_INFO['email']; ?>
-      </a>
-    </div>
-  </div>
-</div>
+          <div class="flex items-center space-x-3">
+            <div class="text-gray-400 flex-shrink-0">
+              <?php echo getIcon('Mail', 'h-5 w-5'); ?>
+            </div>
+            <a href="mailto:<?php echo CONTACT_INFO['email']; ?>"
+               class="text-gray-300 hover:text-white">
+              <?php echo CONTACT_INFO['email']; ?>
+            </a>
+          </div>
+        </div>
 
         <!-- Accreditation -->
         <div class="mt-8 p-4 bg-gray-800 rounded-lg glass-dark">
