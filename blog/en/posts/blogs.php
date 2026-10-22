@@ -7,6 +7,333 @@
  */
 
 $blogs = [
+[
+    'slug' => 'frozen-shoulder-symptoms-causes-treatment-recovery-time',
+    'title' => 'Frozen Shoulder: Symptoms, Causes, Treatment and Recovery Time',
+    'excerpt' => 'Learn about frozen shoulder symptoms, causes, treatment options and recovery time. Understand the stages of frozen shoulder and when to consult an orthopaedic specialist.',
+    'image' => '/assets/images/blog/English/frozen-shoulder-symptoms-causes-treatment-recovery-time.webp',
+    'image_alt' => 'Medical illustration showing frozen shoulder, restricted shoulder movement and inflammation around the shoulder joint capsule',
+    'author' => 'Dr Prateek Girotra',
+    'category' => 'Orthopedics',
+    'tags' => ['Frozen Shoulder', 'Frozen Shoulder Symptoms', 'Frozen Shoulder Causes', 'Frozen Shoulder Treatment', 'Frozen Shoulder Recovery Time', 'Shoulder Pain', 'Orthopedics'],
+    'read_time' => '10 min read',
+    'published_at' => '2026-10-22',
+    'status' => 'published',
+
+    'faqs' => [
+        [
+            'question' => 'What are the first symptoms of frozen shoulder?',
+            'answer' => 'The first symptoms usually include a gradual onset of shoulder pain, discomfort during movement and increasing stiffness. Pain may become more noticeable at night or when lying on the affected side.'
+        ],
+        [
+            'question' => 'What causes frozen shoulder?',
+            'answer' => 'Frozen shoulder develops when the capsule surrounding the shoulder joint becomes inflamed, thickened and tight. It may occur without a clear cause, but diabetes, prolonged shoulder immobility, injury and some surgeries are associated with an increased risk.'
+        ],
+        [
+            'question' => 'How long does frozen shoulder take to recover?',
+            'answer' => 'Frozen shoulder recovery time varies. Many people improve over several months, but full recovery can take one to three years or sometimes longer. The duration depends on symptom severity, individual health and response to treatment.'
+        ],
+        [
+            'question' => 'What is the best treatment for frozen shoulder?',
+            'answer' => 'Treatment may include pain relief, gentle mobility exercises and physiotherapy. A doctor may recommend a corticosteroid injection or other procedures when appropriate. The best approach depends on pain severity, movement restriction and individual medical factors.'
+        ],
+        [
+            'question' => 'Can frozen shoulder heal without surgery?',
+            'answer' => 'Yes. Many people improve without surgery through time, pain management and an appropriate exercise or physiotherapy plan. Surgery is generally considered only when substantial symptoms persist despite suitable non-surgical treatment.'
+        ],
+        [
+            'question' => 'Is frozen shoulder linked to diabetes?',
+            'answer' => 'Yes. Frozen shoulder is more common in people with diabetes. People with diabetes who develop shoulder pain and stiffness should discuss their symptoms with a healthcare professional.'
+        ],
+        [
+            'question' => 'Which exercises are helpful for frozen shoulder?',
+            'answer' => 'Gentle pendulum movements, supported stretches and other range-of-motion exercises may help maintain mobility. Exercises should be appropriate for the stage of the condition and should not be forced through severe pain. A physiotherapist can help select suitable movements.'
+        ],
+        [
+            'question' => 'When should I see a doctor for shoulder pain and stiffness?',
+            'answer' => 'Seek medical assessment if shoulder pain or stiffness persists, worsens, disrupts sleep or interferes with daily activities. Sudden severe pain, a major injury, visible deformity, a hot or swollen joint with fever, new weakness or numbness, or chest pain with breathlessness requires urgent assessment.'
+        ]
+    ],
+
+    'content' => '
+<div class="my-6 rounded-xl border border-blue-200 bg-blue-50 p-6">
+    <h2 class="!mt-0 !border-0 !pl-0 text-xl font-bold text-blue-900">Quick Answer: What Is Frozen Shoulder?</h2>
+    <p class="!mb-0">Frozen shoulder, also called adhesive capsulitis, is a condition that causes shoulder pain and progressive stiffness. The capsule surrounding the shoulder joint becomes inflamed and tight, making it difficult to move the arm freely. Frozen shoulder treatment may include pain management, gentle exercises and physiotherapy. Recovery varies from person to person and can take several months to a few years.</p>
+</div>
+
+<p>Shoulder stiffness can make everyday activities surprisingly difficult. Reaching for a shelf, putting on a shirt, combing your hair or sleeping comfortably may become painful when shoulder movement is restricted.</p>
+
+<p>One possible cause is frozen shoulder. The condition usually develops gradually and can affect both active movement, when you move your arm yourself, and passive movement, when another person or a clinician moves your arm for you.</p>
+
+<p>Understanding <strong>Frozen Shoulder symptoms, causes, treatment and recovery time</strong> can help you recognise when to seek medical advice and how to manage the condition safely.</p>
+
+<h2>What Is Frozen Shoulder?</h2>
+
+<p>Frozen shoulder, medically known as adhesive capsulitis, affects the capsule of connective tissue surrounding the shoulder joint. In a healthy shoulder, this capsule allows the joint to move through a wide range of positions.</p>
+
+<p>With frozen shoulder, the capsule becomes inflamed, thickened and tight. Adhesions may develop, further restricting movement. The result is usually a combination of pain and stiffness that develops over time.</p>
+
+<p>Frozen shoulder is different from ordinary muscle soreness. The restriction often affects several directions of movement, including lifting the arm and rotating it outward. However, other shoulder conditions can cause similar symptoms, so a clinical assessment is important.</p>
+
+<h2>Frozen Shoulder Symptoms</h2>
+
+<p><strong>Frozen Shoulder symptoms</strong> usually begin gradually. Some people first notice pain, while others mainly experience stiffness that becomes more obvious over several weeks or months.</p>
+
+<p>Common symptoms include:</p>
+
+<ul>
+    <li><strong>Shoulder pain:</strong> A dull ache or deeper pain around the shoulder that may worsen with movement.</li>
+    <li><strong>Night pain:</strong> Discomfort that makes sleeping difficult, particularly when lying on the affected side.</li>
+    <li><strong>Progressive stiffness:</strong> Increasing difficulty moving the arm in everyday activities.</li>
+    <li><strong>Reduced range of motion:</strong> Difficulty reaching overhead, behind the back or away from the body.</li>
+    <li><strong>Difficulty with daily tasks:</strong> Challenges with dressing, washing, grooming and reaching for objects.</li>
+    <li><strong>Pain during stretching:</strong> Discomfort when the shoulder is moved towards the limits of its available range.</li>
+</ul>
+
+<div class="my-6 rounded-xl border-l-4 border-amber-500 bg-amber-50 p-5">
+    <h3 class="!mt-0 !border-0 !pl-0 font-bold text-amber-900">When shoulder pain needs urgent attention</h3>
+    <p class="!mb-0">Do not assume that every painful or stiff shoulder is frozen shoulder. Sudden severe pain after an injury, a visibly deformed shoulder, new arm weakness or numbness, or a hot and swollen joint with fever requires prompt medical assessment. Shoulder pain accompanied by chest pressure or pain, breathlessness, sweating or faintness may be an emergency.</p>
+</div>
+
+<h2>Frozen Shoulder Causes and Risk Factors</h2>
+
+<p><strong>Frozen Shoulder causes</strong> are not always clear. In many cases, the condition develops without a specific injury or identifiable event. It is thought to involve inflammation and changes in the shoulder joint capsule.</p>
+
+<p>Some circumstances are associated with a higher risk of developing frozen shoulder.</p>
+
+<table class="w-full">
+    <thead>
+        <tr>
+            <th>Risk factor</th>
+            <th>How it may be related</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr>
+            <td>Diabetes</td>
+            <td>Frozen shoulder occurs more frequently in people with diabetes.</td>
+        </tr>
+        <tr>
+            <td>Prolonged immobility</td>
+            <td>Keeping the shoulder still for an extended period after an injury, surgery or illness may contribute to stiffness.</td>
+        </tr>
+        <tr>
+            <td>Shoulder injury or surgery</td>
+            <td>Pain and restricted movement during recovery may increase the risk in some people.</td>
+        </tr>
+        <tr>
+            <td>Age</td>
+            <td>The condition is most common in adults between 40 and 60 years of age.</td>
+        </tr>
+        <tr>
+            <td>Other health conditions</td>
+            <td>Some thyroid disorders and other medical conditions have been associated with an increased risk.</td>
+        </tr>
+    </tbody>
+</table>
+
+<p>Frozen shoulder is more common in women than in men. Having a risk factor does not mean that someone will definitely develop the condition, and people without known risk factors can also experience it.</p>
+
+<h2>The Three Stages of Frozen Shoulder</h2>
+
+<p>Frozen shoulder is commonly described in three stages. These stages help explain how symptoms may change, but the timing and severity vary. Not everyone experiences clearly separated stages.</p>
+
+<table class="w-full">
+    <thead>
+        <tr>
+            <th>Stage</th>
+            <th>What may happen</th>
+            <th>Typical pattern</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr>
+            <td><strong>Freezing stage</strong></td>
+            <td>Pain gradually increases, and shoulder movement begins to become restricted.</td>
+            <td>Often lasts several weeks to months.</td>
+        </tr>
+        <tr>
+            <td><strong>Frozen stage</strong></td>
+            <td>Pain may become less intense, but stiffness and restricted movement can remain significant.</td>
+            <td>May last several months.</td>
+        </tr>
+        <tr>
+            <td><strong>Thawing stage</strong></td>
+            <td>Shoulder movement gradually improves as stiffness decreases.</td>
+            <td>Recovery may continue over many months.</td>
+        </tr>
+    </tbody>
+</table>
+
+<p>These timeframes are approximate, not deadlines. Pain can persist during more than one stage, and improvement may be slow rather than steady.</p>
+
+<h2>How Is Frozen Shoulder Diagnosed?</h2>
+
+<p>A healthcare professional will usually begin by asking about your symptoms, when they started, any previous injury or surgery, your medical history and how the pain affects everyday activities.</p>
+
+<p>The physical examination is particularly important. The clinician may assess how far you can move the shoulder yourself and how much movement is possible when the arm is moved with assistance. Restricted movement in both situations can support a diagnosis of frozen shoulder.</p>
+
+<table class="w-full">
+    <thead>
+        <tr>
+            <th>Assessment</th>
+            <th>Purpose</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr>
+            <td>Medical history</td>
+            <td>Identifies the symptom pattern, previous injuries, surgery and relevant health conditions.</td>
+        </tr>
+        <tr>
+            <td>Physical examination</td>
+            <td>Assesses pain, stiffness, strength and shoulder range of motion.</td>
+        </tr>
+        <tr>
+            <td>X-ray</td>
+            <td>May help identify arthritis, fractures or other bone-related problems that can cause similar symptoms.</td>
+        </tr>
+        <tr>
+            <td>Ultrasound or MRI</td>
+            <td>May be recommended when the clinician needs to investigate other causes, such as rotator cuff problems. These tests are not necessary in every case.</td>
+        </tr>
+    </tbody>
+</table>
+
+<p>Frozen shoulder is generally diagnosed through the history and examination, with imaging used when needed to investigate alternative explanations. An MRI is not automatically required for every patient.</p>
+
+<h2>Frozen Shoulder Treatment Options</h2>
+
+<p><strong>Frozen Shoulder treatment</strong> aims to reduce pain, preserve or gradually improve movement and help you return to everyday activities. Treatment depends on symptom severity, the stage of the condition, the individual medical history and response to earlier treatment.</p>
+
+<h3>1. Pain management and activity changes</h3>
+
+<p>Your doctor may recommend suitable pain relief to make daily activities and gentle movement more manageable. The right medicine depends on your medical history, other medicines and any existing health conditions. Do not start or increase medication without checking whether it is appropriate for you.</p>
+
+<p>Try to keep the shoulder gently active within a comfortable range. Avoid prolonged unnecessary immobilisation unless a clinician has advised it, but also avoid movements that repeatedly cause severe pain.</p>
+
+<h3>2. Physiotherapy and gentle exercises</h3>
+
+<p>Physiotherapy may help maintain mobility and gradually improve shoulder movement. A physiotherapist can tailor the exercises to your symptoms and current range of motion.</p>
+
+<p>Exercises may include:</p>
+
+<ul>
+    <li><strong>Pendulum exercise:</strong> Lean forward while supporting yourself with your unaffected arm, then allow the affected arm to hang relaxed and make small, gentle movements.</li>
+    <li><strong>Supported forward reach:</strong> Use your unaffected arm or a suitable surface to assist a gentle forward movement of the affected arm.</li>
+    <li><strong>Gentle external rotation:</strong> With your elbow close to your body, use a stick or your other hand to guide a small outward movement if advised by your physiotherapist.</li>
+    <li><strong>Supported wall movement:</strong> Slide your hand up a wall only as far as comfortable, without forcing the shoulder.</li>
+</ul>
+
+<p>These are examples, not a personalised exercise prescription. Stop an exercise if it causes sharp pain, a significant increase in symptoms or worsening pain that does not settle. Forceful stretching may aggravate an irritable shoulder, especially during the painful early stage.</p>
+
+<h3>3. Heat or cold therapy</h3>
+
+<p>Some people find a warm pack helpful before gentle movement, while a cold pack may help ease discomfort after activity. Use a cloth barrier between the pack and your skin, limit application time and avoid extreme temperatures. Do not apply heat or cold to areas with reduced sensation without professional advice.</p>
+
+<h3>4. Corticosteroid injections</h3>
+
+<p>A clinician may consider a corticosteroid injection into or around the shoulder joint to help reduce pain, particularly when symptoms are severe. In suitable patients, an injection may provide short-term relief and make movement or physiotherapy easier.</p>
+
+<p>An injection does not guarantee complete recovery or immediately remove all stiffness. Benefits, risks and suitability should be discussed with the treating clinician. People with diabetes should also discuss possible temporary changes in blood glucose after a corticosteroid injection.</p>
+
+<h3>5. Other procedures for persistent symptoms</h3>
+
+<p>If pain and restricted movement remain substantial despite appropriate non-surgical treatment, a specialist may discuss additional options.</p>
+
+<ul>
+    <li><strong>Hydrodilatation:</strong> A procedure in which fluid is injected into the joint to help stretch the tight capsule.</li>
+    <li><strong>Manipulation under anaesthesia:</strong> The shoulder is moved by a clinician while the patient is under anaesthesia. This is considered selectively and has potential risks.</li>
+    <li><strong>Arthroscopic capsular release:</strong> A surgical procedure that releases part of the tight joint capsule in selected cases.</li>
+</ul>
+
+<p>These procedures are not routine first-line treatment. Their potential benefits, risks and rehabilitation requirements should be reviewed with an orthopaedic specialist. Surgery is needed only in a minority of cases.</p>
+
+<h2>Frozen Shoulder Recovery Time</h2>
+
+<p><strong>Frozen Shoulder recovery time</strong> differs between individuals. Many people improve gradually over several months, while others need one to three years or sometimes longer to regain comfortable movement. Some may continue to experience residual stiffness even after pain improves.</p>
+
+<table class="w-full">
+    <thead>
+        <tr>
+            <th>Recovery factor</th>
+            <th>What to understand</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr>
+            <td>Pain relief</td>
+            <td>Pain may improve before the shoulder regains its full range of motion.</td>
+        </tr>
+        <tr>
+            <td>Movement improvement</td>
+            <td>Progress is often gradual and may vary from week to week.</td>
+        </tr>
+        <tr>
+            <td>Physiotherapy</td>
+            <td>A suitable plan may help maintain mobility, but it does not guarantee a particular recovery date.</td>
+        </tr>
+        <tr>
+            <td>Underlying health conditions</td>
+            <td>Diabetes and other individual health factors may affect the course of the condition.</td>
+        </tr>
+        <tr>
+            <td>Complete recovery</td>
+            <td>Recovery may take many months or years, and some people retain a degree of stiffness.</td>
+        </tr>
+    </tbody>
+</table>
+
+<p>There is no single treatment that guarantees a rapid cure. The aim is to manage pain, maintain safe movement and support gradual functional improvement while avoiding unnecessary aggravation.</p>
+
+<h2>What Can You Do at Home?</h2>
+
+<p>Simple changes may help you manage symptoms while following the treatment plan recommended by your healthcare professional.</p>
+
+<ul>
+    <li>Perform only gentle movements that are appropriate for your current symptoms.</li>
+    <li>Follow the exercise plan provided by your physiotherapist rather than forcing the shoulder through pain.</li>
+    <li>Use a comfortable sleeping position and support the affected arm with a pillow if helpful.</li>
+    <li>Adjust activities that repeatedly trigger pain, while avoiding unnecessary long-term immobilisation.</li>
+    <li>Keep follow-up appointments if symptoms are persistent or treatment needs adjustment.</li>
+    <li>If you have diabetes, continue appropriate diabetes care and discuss shoulder symptoms with your doctor.</li>
+</ul>
+
+<p>Do not rely on home exercises alone if the diagnosis is uncertain, symptoms are worsening or daily activities are becoming increasingly difficult.</p>
+
+<h2>When Should You Consult an Orthopaedic Specialist?</h2>
+
+<p>Consider a medical assessment if shoulder pain or stiffness persists, interferes with sleep, limits dressing or grooming, or prevents you from carrying out routine activities.</p>
+
+<p>An orthopaedic specialist can assess whether frozen shoulder is the likely cause or whether another condition, such as a rotator cuff injury, arthritis or a neck-related problem, may be responsible.</p>
+
+<p>You can learn more about the <a href="/orthopedics">orthopaedic services at Akropolis Super Speciality Hospital</a> or read about <a href="/doctors/dr-prateek-girotra">Dr Prateek Girotra</a>.</p>
+
+<div class="my-10 rounded-2xl bg-gradient-to-r from-[#328CCB] to-[#2a7bb5] p-8 text-center text-white shadow-xl">
+    <h3 class="!mt-0 !mb-3 !border-0 !pl-0 !text-white">Get Your Shoulder Pain Assessed</h3>
+    <p class="!mb-6 !text-white">Persistent shoulder pain and stiffness deserve a proper assessment. Discuss your symptoms with a qualified healthcare professional and understand which treatment options may be suitable for you.</p>
+    <a href="/contact" class="article-cta inline-block rounded-full bg-[#D66C43] px-8 py-3 font-bold no-underline transition-all hover:bg-[#c55a36]" style="color:#ffffff !important; text-decoration:none !important;">Book a Consultation</a>
+</div>
+
+<h2>Conclusion</h2>
+
+<p>Frozen shoulder can cause persistent pain and significant restriction in shoulder movement, making everyday tasks difficult. Symptoms often develop gradually, and recovery may take several months or years.</p>
+
+<p>Appropriate pain management, gentle movement and physiotherapy can help many people manage the condition. In selected cases, injections or specialist procedures may be considered. Because other shoulder conditions can cause similar symptoms, an accurate assessment is important before starting treatment.</p>
+
+<h2>Medical References and Further Reading</h2>
+
+<ul>
+    <li><a href="https://www.mayoclinic.org/diseases-conditions/frozen-shoulder/symptoms-causes/syc-20372684" target="_blank" rel="nofollow noopener">Mayo Clinic: Frozen shoulder symptoms and causes</a></li>
+    <li><a href="https://my.clevelandclinic.org/health/diseases/frozen-shoulder-adhesive-capsulitis" target="_blank" rel="nofollow noopener">Cleveland Clinic: Frozen Shoulder (Adhesive Capsulitis)</a></li>
+    <li><a href="https://www.nhsinform.scot/illnesses-and-conditions/muscle-bone-and-joints/arm-shoulder-and-hand-problems-and-conditions/frozen-shoulder/" target="_blank" rel="nofollow noopener">NHS inform: Frozen shoulder</a></li>
+    <li><a href="https://www.health.harvard.edu/pain/how-to-release-a-frozen-shoulder" target="_blank" rel="nofollow noopener">Harvard Health: How to release a frozen shoulder</a></li>
+</ul>
+
+<p><strong>Medical Disclaimer:</strong> This article is for general educational purposes only and is not a substitute for professional medical advice, diagnosis or treatment. Symptoms and recovery vary from person to person. Consult a qualified healthcare professional for an assessment and an individual treatment plan.</p>
+'
+],
+
     [
     'slug' => 'cervical-spondylosis-symptoms-neck-stiffness-treatment',
     'title' => 'Cervical Spondylosis: Symptoms, Neck Stiffness and Treatment',
@@ -318,8 +645,6 @@ $blogs = [
         <li><a href="https://my.clevelandclinic.org/health/diseases/17685-cervical-spondylosis" target="_blank" rel="nofollow noopener">Cleveland Clinic: Cervical Spondylosis</a> explains common symptoms, age-related changes, risk factors, diagnosis and treatment options.</li>
         <li><a href="https://www.mayoclinic.org/diseases-conditions/cervical-spondylosis/diagnosis-treatment/drc-20370792" target="_blank" rel="nofollow noopener">Mayo Clinic: Cervical Spondylosis Diagnosis and Treatment</a> describes clinical examinations, imaging, medicines, physical therapy and surgical options.</li>
         <li><a href="https://www.nhsinform.scot/illnesses-and-conditions/muscle-bone-and-joints/neck-and-back-problems-and-conditions/cervical-spondylosis/" target="_blank" rel="nofollow noopener">NHS inform: Cervical Spondylosis</a> provides information on symptoms, self-management, exercise and warning signs that need medical attention.</li>
-        <li><a href="https://www.maxhealthcare.in/blogs/cervical-spondylosis-symptoms-causes-risk-factors" target="_blank" rel="nofollow noopener">Max Healthcare: Cervical Spondylosis Symptoms, Causes and Risk Factors</a> offers additional patient education on the condition and factors associated with it.</li>
-        <li><a href="https://pmc.ncbi.nlm.nih.gov/articles/PMC1819511/" target="_blank" rel="nofollow noopener">BMJ: Cervical Spondylosis and Neck Pain</a> provides clinical background on cervical degeneration and the assessment of neck symptoms.</li>
         <li><a href="https://www.hss.edu/health-library/conditions-and-treatments/spondylosis" target="_blank" rel="nofollow noopener">Hospital for Special Surgery: Spondylosis</a> provides additional information about spinal degeneration and related care.</li>
     </ul>
 
