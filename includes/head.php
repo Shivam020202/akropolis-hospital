@@ -10,6 +10,15 @@
 
   gtag('config', 'G-763ZNVV4WC');
 </script>
+
+<!-- Google Tag Manager -->
+<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+})(window,document,'script','dataLayer','GTM-P6HPDGP6');</script>
+<!-- End Google Tag Manager -->
+ 
   <meta charset="UTF-8" />
   <meta name="google-site-verification" content="kg93KBDXRUW22RCSQGBlsAUWoVAZ2WXvDfnzhT7rzxE" />
   <link rel="icon" type="image/png" href="/assets/images/homepage/akropolis-favicon.png" />
@@ -73,4 +82,8 @@ if (!empty($schema_blocks) && is_array($schema_blocks)) {
 
 </head>
 <body class="min-h-screen bg-white">
+  <!-- Google Tag Manager (noscript) -->
+<noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-P6HPDGP6"
+height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+<!-- End Google Tag Manager (noscript) -->
   <div id="root">
