@@ -348,8 +348,6 @@ $blogs = [
 
 <h2>Medical References and Further Reading</h2>
 
-<p>The following resources provide additional information about ACL injury symptoms, diagnostic tests, treatment decisions and rehabilitation. They are intended to support patient education and do not replace an individual medical assessment.</p>
-
 <ul>
     <li>
         <strong><a href="https://my.clevelandclinic.org/health/diseases/16576-acl-tear" target="_blank" rel="nofollow noopener">Cleveland Clinic: ACL Tear</a></strong>
