@@ -1,4 +1,6 @@
 RewriteEngine On
+# Serve the dynamically generated sitemap
+RewriteRule ^sitemap\.xml$ sitemap.php [L]
 
 <IfModule mod_headers.c>
     Header always set Referrer-Policy "strict-origin-when-cross-origin"
