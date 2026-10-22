@@ -72,10 +72,10 @@
   </a>
 
 </div>
+</div>
 
-
-      <!-- Quick Links -->
-      <div>
+<!-- Quick Links -->
+<div>
         <p class="text-xl font-bold mb-6">Quick Links</p>
         <ul class="space-y-3">
           <?php
