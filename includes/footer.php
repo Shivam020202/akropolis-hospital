@@ -3,8 +3,8 @@
 // =========================================
 ?>
 <footer class="footer-glass bg-gray-900 text-white">
-  <div class="container mx-auto px-4 py-16">
-    <div class="grid grid-cols-2 lg:grid-cols-4 gap-8">
+  <div class="container mx-auto px-4 pt-16 pb-28 md:py-16">
+    <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8">
       <!-- Hospital Info -->
       <div class="lg:col-span-1">
         <img
