@@ -68,7 +68,7 @@
 </a>
 
   <!-- YouTube -->
-  <a href="https://youtube.com/@akropolishospital"
+  <a href="https://www.youtube.com/@akropolishhospital"
      target="_blank"
      rel="noopener noreferrer"
      aria-label="YouTube"
