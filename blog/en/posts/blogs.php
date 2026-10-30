@@ -8,6 +8,510 @@
 
 $blogs = [
 [
+    'slug' => 'heel-pain-while-walking-causes-treatment',
+    'title' => 'Heel Pain While Walking: Causes and Treatment',
+    'excerpt' => 'Heel pain while walking can make standing, exercising and everyday activities uncomfortable. Learn about common heel pain causes, plantar fasciitis, diagnosis, treatment options and when to consult an orthopaedic specialist.',
+    'image' => '/assets/images/blog/English/heel-pain-causes-treatment.webp',
+    'image_alt' => 'Medical illustration showing the plantar fascia and common areas of heel pain',
+    'author' => 'Dr Prateek Girotra',
+    'category' => 'Orthopedics',
+    'tags' => [
+        'Heel Pain',
+        'Heel Pain Causes',
+        'Heel Pain Treatment',
+        'Heel Pain While Walking',
+        'Plantar Fasciitis',
+        'Foot Pain',
+    ],
+    'read_time' => '9 min read',
+    'published_at' => '2026-10-30',
+    'status' => 'published',
+
+    'faqs' => [
+        [
+            'question' => 'Why does my heel hurt when I walk?',
+            'answer' => 'Heel pain while walking can be caused by plantar fasciitis, Achilles tendinopathy, heel fat pad problems, stress fractures, bursitis or nerve irritation. The location and timing of the pain help guide diagnosis.'
+        ],
+        [
+            'question' => 'Is heel pain while walking a sign of plantar fasciitis?',
+            'answer' => 'It can be. Plantar fasciitis commonly causes pain under the heel that is worse during the first steps after waking up or resting. However, other conditions can cause similar symptoms, so an examination may be needed.'
+        ],
+        [
+            'question' => 'Why does my heel hurt when I take my first steps in the morning?',
+            'answer' => 'Pain during the first steps after sleeping or sitting for a long time is a common pattern of plantar fasciitis. The discomfort may ease after a little movement but can return after prolonged standing or walking.'
+        ],
+        [
+            'question' => 'How long does heel pain take to heal?',
+            'answer' => 'Recovery depends on the cause, severity and treatment. Some mild cases improve over several weeks, while persistent plantar heel pain may take several months to settle. A healthcare professional can guide recovery based on the diagnosis.'
+        ],
+        [
+            'question' => 'Can I continue walking with heel pain?',
+            'answer' => 'You may need to reduce walking or other activities that increase the pain. Avoid pushing through sharp or worsening pain. If you cannot bear weight, have severe pain after an injury or notice significant swelling, seek prompt medical assessment.'
+        ],
+        [
+            'question' => 'What is the best treatment for heel pain?',
+            'answer' => 'Treatment depends on the cause. It may include activity modification, supportive footwear, ice, appropriate stretching, physiotherapy and medication when suitable. Injections or surgery are considered only in selected cases.'
+        ],
+        [
+            'question' => 'Can heel spurs cause pain?',
+            'answer' => 'Heel spurs are bony growths that may be seen on an X-ray. They are often painless and can occur alongside plantar fasciitis. Finding a heel spur does not automatically mean it is the source of the pain.'
+        ],
+        [
+            'question' => 'When should I see a doctor for heel pain?',
+            'answer' => 'Seek medical advice if heel pain is severe, worsening, repeatedly returning or affecting normal activities. Urgent assessment is needed after a serious injury, if you cannot walk or bear weight, or if the heel is painful with fever, marked swelling or signs of infection.'
+        ],
+        [
+            'question' => 'Can the wrong footwear cause heel pain?',
+            'answer' => 'Footwear with poor cushioning or support may increase stress on the heel, especially during prolonged standing, walking or exercise. Supportive shoes that fit properly may help reduce discomfort.'
+        ]
+    ],
+
+    'content' => '
+<div class="my-6 rounded-xl border border-blue-200 bg-blue-50 p-6">
+    <h2 class="!mt-0 !border-0 !pl-0 text-xl font-bold text-blue-900">Quick Answer: Why Does Your Heel Hurt While Walking?</h2>
+    <p class="!mb-0">Heel pain while walking can develop due to plantar fasciitis, Achilles tendon problems, heel fat pad irritation, stress fractures or nerve-related conditions. Pain under the heel that is worse during the first steps after waking up is commonly associated with plantar fasciitis. However, pain at the back or sides of the heel may have a different cause. <strong>Heel Pain Treatment</strong> depends on the diagnosis and may include supportive footwear, activity modification, stretching, physiotherapy and medical treatment when needed.</p>
+</div>
+
+<p>Walking is something most people do throughout the day without thinking about it. However, when every step causes discomfort in the heel, even simple activities such as getting out of bed, going to work, climbing stairs or taking a short walk can become difficult.</p>
+
+<p>Heel pain may feel like a sharp, stabbing sensation, a dull ache or tenderness when the foot touches the ground. Some people notice the pain mainly in the morning, while others experience it after standing for several hours or exercising.</p>
+
+<p>One common reason is plantar fasciitis, a condition involving the strong band of tissue running along the bottom of the foot. However, it is not the only possible explanation. Problems involving the Achilles tendon, heel cushioning, bones, nerves or surrounding soft tissues can also cause discomfort.</p>
+
+<p>Understanding the possible <strong>heel pain causes</strong> is important because the right treatment depends on the structure involved. This guide explains common conditions, symptoms, diagnosis and treatment options to help you understand when medical assessment may be needed.</p>
+
+<h2>Understanding the Heel and Plantar Fascia</h2>
+
+<p>The heel is the back part of the foot and contains several structures that help absorb impact and support body weight during standing and walking.</p>
+
+<p>The heel bone, called the calcaneus, is the largest bone in the foot. It connects with surrounding bones, tendons, ligaments and soft tissues that help the foot move and remain stable.</p>
+
+<p>Some important structures around the heel include:</p>
+
+<ul>
+    <li><strong>Plantar fascia:</strong> A strong band of connective tissue running along the bottom of the foot. It connects the heel bone to the front of the foot and supports the arch.</li>
+    <li><strong>Achilles tendon:</strong> A thick tendon connecting the calf muscles to the back of the heel bone. It helps with walking, running and pushing the foot downwards.</li>
+    <li><strong>Heel fat pad:</strong> A specialised layer of cushioning tissue underneath the heel bone that helps absorb impact.</li>
+    <li><strong>Heel bone:</strong> The calcaneus supports body weight and helps transfer forces through the foot during movement.</li>
+    <li><strong>Nerves and blood vessels:</strong> These supply the foot and contribute to sensation and normal tissue function.</li>
+</ul>
+
+<p>Discomfort can develop when one or more of these structures becomes irritated, overloaded or injured.</p>
+
+<h2>Common Heel Pain Causes</h2>
+
+<p>There are several possible <strong>heel pain causes</strong>. The location of discomfort, the activity that triggers it and the time when it becomes worse can help a healthcare professional narrow down the possibilities.</p>
+
+<h3>1. Plantar Fasciitis</h3>
+
+<p>Plantar fasciitis is one of the most common causes of pain underneath the heel. It affects the plantar fascia, the thick band of connective tissue that runs along the sole of the foot and supports the arch.</p>
+
+<p>Repeated stress or excessive loading can irritate this tissue and cause pain around its attachment near the heel bone. The condition is sometimes described as plantar fasciopathy because long-lasting cases may involve changes in the tissue rather than simple inflammation alone.</p>
+
+<p>Common symptoms include:</p>
+
+<ul>
+    <li>Sharp or stabbing pain underneath the heel.</li>
+    <li>Discomfort during the first few steps after waking up.</li>
+    <li>Pain when standing up after sitting for a long time.</li>
+    <li>Temporary improvement after moving around.</li>
+    <li>Pain that returns after prolonged walking, running or standing.</li>
+    <li>Tenderness around the bottom of the heel.</li>
+</ul>
+
+<p>The pain may be particularly noticeable when the foot is placed on the floor after a period of rest. Some people find that it becomes less intense after a few minutes of movement, although prolonged activity can make it worse again.</p>
+
+<h3>2. Achilles Tendinopathy</h3>
+
+<p>The Achilles tendon connects the calf muscles to the back of the heel bone. It plays an important role in pushing the foot downwards while walking, running and climbing stairs.</p>
+
+<p>Achilles tendinopathy develops when the tendon becomes painful and loses some of its normal ability to tolerate loading. It may occur after an increase in running, jumping or other repetitive activities.</p>
+
+<p>Possible symptoms include:</p>
+
+<ul>
+    <li>Pain at the back of the heel or slightly above it.</li>
+    <li>Stiffness around the ankle, especially after resting.</li>
+    <li>Tenderness or thickening along the Achilles tendon.</li>
+    <li>Discomfort during running, climbing stairs or standing on the toes.</li>
+    <li>Pain that increases when physical activity is intensified.</li>
+</ul>
+
+<p>Achilles tendon pain is different from typical plantar fasciitis because it is generally felt at the back of the heel rather than underneath it.</p>
+
+<h3>3. Heel Fat Pad Syndrome</h3>
+
+<p>The heel fat pad acts as a natural cushion between the heel bone and the ground. It absorbs some of the impact created when the foot touches the floor.</p>
+
+<p>When this cushioning tissue becomes irritated, damaged or less effective, pressure on the heel may cause pain.</p>
+
+<p>Symptoms can include:</p>
+
+<ul>
+    <li>A deep, bruise-like ache underneath the centre of the heel.</li>
+    <li>Pain when walking barefoot on hard surfaces.</li>
+    <li>Discomfort during prolonged standing.</li>
+    <li>Tenderness when direct pressure is applied to the heel.</li>
+</ul>
+
+<p>Unlike the typical first-step pattern of plantar fasciitis, heel fat pad pain may become more noticeable with repeated direct pressure on the heel.</p>
+
+<h3>4. Heel Spurs</h3>
+
+<p>A heel spur is a small bony growth that develops around the heel bone. It may be identified during an X-ray performed for heel pain.</p>
+
+<p>Heel spurs can occur alongside plantar fasciitis, but they are not necessarily the cause of discomfort. Many people have heel spurs without experiencing any symptoms.</p>
+
+<p>Treatment should focus on identifying and managing the condition responsible for the pain rather than assuming that the bony growth needs to be removed.</p>
+
+<h3>5. Calcaneal Stress Fracture</h3>
+
+<p>A stress fracture is a small crack in a bone that develops due to repeated loading or excessive physical stress. The calcaneus, or heel bone, can develop a stress fracture when it is repeatedly exposed to forces that exceed its ability to recover.</p>
+
+<p>This may happen in people who suddenly increase their running distance, training intensity or high-impact activity. It can also occur in people with weakened bones.</p>
+
+<p>Symptoms may include:</p>
+
+<ul>
+    <li>Gradually increasing heel pain during weight-bearing activities.</li>
+    <li>Pain that becomes worse with walking or running.</li>
+    <li>Swelling or tenderness around the heel.</li>
+    <li>Discomfort that may continue even after activity stops.</li>
+</ul>
+
+<p>A suspected stress fracture needs medical assessment. Continuing high-impact activity without evaluation may worsen the injury.</p>
+
+<h3>6. Bursitis Around the Heel</h3>
+
+<p>Bursae are small fluid-filled sacs that help reduce friction between bones, tendons and nearby tissues. Inflammation or irritation of a bursa near the heel can cause pain and swelling.</p>
+
+<p>Retrocalcaneal bursitis affects a bursa located between the Achilles tendon and heel bone. It can cause discomfort at the back of the heel, particularly when wearing shoes that press against the area.</p>
+
+<p>Symptoms may include local tenderness, swelling, warmth and pain during walking or ankle movement.</p>
+
+<h3>7. Nerve Compression and Nerve-Related Pain</h3>
+
+<p>Some heel pain is related to irritation or compression of nerves around the ankle and foot. One example is tarsal tunnel syndrome, which involves compression of the tibial nerve or its branches near the inner ankle.</p>
+
+<p>Depending on the affected nerve, symptoms may include:</p>
+
+<ul>
+    <li>Burning or tingling sensations around the heel or sole.</li>
+    <li>Numbness in parts of the foot.</li>
+    <li>Sharp or shooting pain.</li>
+    <li>Discomfort that becomes worse after prolonged standing or walking.</li>
+</ul>
+
+<p>People with diabetes or certain nerve conditions may also experience foot pain or altered sensation. Numbness, tingling or loss of feeling should not be ignored.</p>
+
+<h3>8. Achilles Tendon Rupture</h3>
+
+<p>An Achilles tendon rupture is a serious injury in which the tendon partially or completely tears. It may happen during sudden acceleration, jumping or an abrupt change in direction.</p>
+
+<p>Some people report hearing or feeling a popping sensation at the time of injury. Pain and swelling may develop around the back of the ankle or heel, and pushing off the foot or standing on the toes can become difficult.</p>
+
+<p>A suspected rupture needs prompt medical assessment. Do not try to test the tendon repeatedly or continue sports and strenuous walking.</p>
+
+<h3>9. Other Causes of Heel Pain</h3>
+
+<p>Other conditions can also contribute to discomfort around the heel. These include:</p>
+
+<ul>
+    <li><strong>Heel bruising:</strong> A direct impact or landing on a hard surface may injure the soft tissues underneath the heel.</li>
+    <li><strong>Haglund deformity:</strong> A bony prominence at the back of the heel may cause irritation from footwear and nearby soft tissues.</li>
+    <li><strong>Inflammatory arthritis:</strong> Conditions such as rheumatoid arthritis or certain types of spondyloarthritis may cause heel or tendon attachment pain.</li>
+    <li><strong>Bone or soft-tissue infection:</strong> Infection can cause pain, swelling, warmth and sometimes fever. It needs prompt medical assessment.</li>
+    <li><strong>Skin conditions:</strong> Plantar warts, calluses and other local skin problems can make pressure on the heel painful.</li>
+    <li><strong>Sever disease:</strong> This condition can cause heel pain in growing children and adolescents, particularly those involved in running and jumping sports. It affects the growth area at the back of the heel bone.</li>
+</ul>
+
+<p>These conditions are less common than plantar fasciitis and Achilles-related problems, but they may need specific investigations and treatment.</p>
+
+<h2>Why Does Heel Pain Feel Worse During the First Steps in the Morning?</h2>
+
+<p>One of the familiar patterns of plantar fasciitis is pain during the first few steps after waking up or getting out of bed.</p>
+
+<p>During sleep or prolonged sitting, the foot remains relatively inactive. When you stand up and place weight on the foot, the plantar fascia is stretched and loaded. If the tissue is already irritated, this movement can cause sharp discomfort around the heel.</p>
+
+<p>The pain may ease as the foot begins moving. However, it can return after prolonged standing, walking or running because these activities repeatedly load the plantar fascia.</p>
+
+<p>Although this pattern is commonly associated with plantar fasciitis, it does not confirm the diagnosis on its own. A clinical assessment is useful when symptoms persist or interfere with daily activities.</p>
+
+<h2>Who Is More Likely to Develop Heel Pain?</h2>
+
+<p>Heel pain can affect people of different ages and activity levels. Certain factors may increase the stress placed on the heel and surrounding tissues.</p>
+
+<ul>
+    <li><strong>Prolonged standing:</strong> Spending many hours on hard floors can increase pressure on the heel.</li>
+    <li><strong>Sudden increase in exercise:</strong> Increasing running distance, walking time or training intensity too quickly may overload the foot.</li>
+    <li><strong>Unsupportive footwear:</strong> Shoes with poor cushioning or inadequate support may increase discomfort during weight-bearing activities.</li>
+    <li><strong>Foot structure:</strong> Flat feet or high arches may influence how pressure is distributed across the foot.</li>
+    <li><strong>Calf muscle tightness:</strong> Limited ankle flexibility may increase stress on the plantar fascia and Achilles tendon.</li>
+    <li><strong>Excess body weight:</strong> Additional load may increase stress on weight-bearing structures.</li>
+    <li><strong>Previous foot injury:</strong> Earlier injuries may affect normal movement and load distribution.</li>
+    <li><strong>Occupational demands:</strong> Jobs involving prolonged walking or standing may increase exposure to repetitive loading.</li>
+</ul>
+
+<p>These factors do not guarantee that heel pain will develop. They simply help explain why some people may be more likely to experience problems with the heel and foot.</p>
+
+<h2>Heel Pain Diagnosis: How Is the Cause Identified?</h2>
+
+<p>The correct <strong>Heel Pain Treatment</strong> begins with identifying the structure responsible for the discomfort. An orthopaedic specialist may review your symptoms, examine your foot and recommend investigations when necessary.</p>
+
+<h3>1. Medical History</h3>
+
+<p>The doctor may ask questions about:</p>
+
+<ul>
+    <li>When the heel pain started.</li>
+    <li>Whether it developed suddenly or gradually.</li>
+    <li>Whether the pain is underneath, behind or around the sides of the heel.</li>
+    <li>Whether the first steps in the morning are particularly painful.</li>
+    <li>Whether walking, running or prolonged standing makes the pain worse.</li>
+    <li>Whether there was a recent injury or sudden increase in exercise.</li>
+    <li>Whether you experience tingling, numbness, swelling or fever.</li>
+    <li>Whether you have diabetes, arthritis or a history of bone problems.</li>
+</ul>
+
+<p>These details help the specialist understand the pattern of symptoms and identify possible causes.</p>
+
+<h3>2. Physical Examination</h3>
+
+<p>A physical examination may include:</p>
+
+<ul>
+    <li><strong>Heel tenderness:</strong> Checking which part of the heel is painful when pressure is applied.</li>
+    <li><strong>Plantar fascia assessment:</strong> Examining the bottom of the foot and its response to stretching.</li>
+    <li><strong>Achilles tendon assessment:</strong> Checking for tenderness, swelling or changes in tendon function.</li>
+    <li><strong>Ankle movement:</strong> Assessing flexibility and range of motion.</li>
+    <li><strong>Walking pattern:</strong> Observing whether pain changes the way you stand or walk.</li>
+    <li><strong>Nerve assessment:</strong> Checking sensation and other signs of possible nerve involvement.</li>
+</ul>
+
+<p>The findings help distinguish between plantar fasciitis, tendon problems, nerve-related conditions and other possible causes.</p>
+
+<h3>3. Imaging Tests</h3>
+
+<p>Most cases of typical plantar fasciitis can be diagnosed through medical history and physical examination. Imaging is not necessary for everyone. It may be recommended when the symptoms are unusual, persistent or suggest another condition.</p>
+
+<table class="w-full">
+    <thead>
+        <tr>
+            <th>Investigation</th>
+            <th>Purpose</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr>
+            <td><strong>X-ray</strong></td>
+            <td>Helps assess the heel bone, fractures, bone alignment and certain structural changes. It may also show a heel spur.</td>
+        </tr>
+        <tr>
+            <td><strong>MRI</strong></td>
+            <td>Provides detailed information about soft tissues, bone marrow, stress injuries and selected tendon or fascia problems.</td>
+        </tr>
+        <tr>
+            <td><strong>Ultrasound</strong></td>
+            <td>May help assess the plantar fascia, Achilles tendon and certain soft-tissue conditions.</td>
+        </tr>
+    </tbody>
+</table>
+
+<p>An X-ray may be requested when a fracture or bone-related condition is suspected. An early stress fracture may not always be visible on an X-ray. If clinical suspicion remains despite a normal X-ray, an MRI may be recommended for further assessment. MRI or ultrasound may also be considered when further assessment of soft tissues is needed. The choice depends on the clinical findings.</p>
+
+<h2>Heel Pain Treatment Options</h2>
+
+<p><strong>Heel Pain Treatment</strong> depends on the underlying cause, how long the symptoms have been present and how much they affect normal movement. Many common causes can initially be managed with non-surgical care.</p>
+
+<p>The aim is to reduce unnecessary stress on the affected tissue, manage discomfort and gradually restore comfortable movement.</p>
+
+<h3>1. Activity Modification</h3>
+
+<p>Temporarily reducing activities that aggravate heel pain can help the affected tissues recover. This does not mean complete bed rest or avoiding all movement.</p>
+
+<p>Depending on the condition, useful changes may include:</p>
+
+<ul>
+    <li>Reducing running, jumping and other high-impact activities.</li>
+    <li>Limiting prolonged standing on hard surfaces.</li>
+    <li>Taking short breaks during long periods of walking or standing.</li>
+    <li>Choosing low-impact activities such as swimming or cycling when appropriate.</li>
+    <li>Gradually returning to normal activity as symptoms improve.</li>
+</ul>
+
+<h3>2. Supportive Footwear and Heel Cushions</h3>
+
+<p>Footwear can influence how pressure is distributed across the heel and sole. Shoes with appropriate cushioning, a comfortable fit and suitable arch support may help reduce discomfort.</p>
+
+<p>Some people may benefit from soft heel cups, insoles or orthotic devices. The right option depends on the foot structure and underlying condition.</p>
+
+<p>Consider the following footwear habits:</p>
+
+<ul>
+    <li>Choose shoes with comfortable cushioning and adequate support.</li>
+    <li>Avoid worn-out footwear that has lost its cushioning.</li>
+    <li>Limit prolonged walking barefoot on hard surfaces if it increases pain.</li>
+    <li>Avoid shoes that press against a painful area at the back of the heel.</li>
+    <li>Choose footwear that fits properly without squeezing the toes or heel.</li>
+</ul>
+
+<h3>3. Ice and Short-Term Pain Management</h3>
+
+<p>Applying a cold pack wrapped in a towel may help ease discomfort after activity. It can be applied for around 15 to 20 minutes, depending on comfort and skin sensitivity. Do not place ice directly against the skin.</p>
+
+<p>A healthcare professional may also recommend suitable pain-relief medication when needed. Medication choice should take medical history, existing conditions and possible side effects into account.</p>
+
+<p>People with kidney disease, stomach ulcers, heart conditions or other medical concerns should seek professional advice before using anti-inflammatory medicines.</p>
+
+<h3>4. Stretching Exercises</h3>
+
+<p>Gentle stretching may help improve flexibility in the calf muscles and plantar fascia. These exercises are commonly included in rehabilitation programmes for plantar heel pain.</p>
+
+<p>Examples may include:</p>
+
+<ul>
+    <li><strong>Calf stretch:</strong> Gently stretching the calf muscles while keeping the heel supported on the floor.</li>
+    <li><strong>Plantar fascia stretch:</strong> Gently drawing the toes towards the body to stretch the bottom of the foot.</li>
+    <li><strong>Foot mobility exercises:</strong> Performing comfortable movements of the ankle and toes.</li>
+</ul>
+
+<p>Exercises should be performed within a comfortable range. Do not force a stretch if it produces sharp pain. The right exercise programme depends on whether the problem involves the plantar fascia, Achilles tendon, bone or another structure.</p>
+
+<p>People with Achilles tendon pain should follow an exercise plan suited to the location and severity of the tendon problem. Some stretching positions may increase discomfort when the tendon is irritated near its attachment to the heel bone.</p>
+
+<h3>5. Physiotherapy</h3>
+
+<p>Physiotherapy can help people with persistent heel pain improve flexibility, strength and movement. A physiotherapist may assess foot mechanics, ankle mobility, calf strength and walking patterns before recommending exercises.</p>
+
+<p>A rehabilitation programme may include:</p>
+
+<ul>
+    <li>Plantar fascia and calf stretching.</li>
+    <li>Progressive strengthening of the foot and lower leg muscles.</li>
+    <li>Balance and movement-control exercises.</li>
+    <li>Footwear and activity guidance.</li>
+    <li>Gradual return to walking, running or sports.</li>
+</ul>
+
+<p>For Achilles tendinopathy, progressive tendon-loading exercises may be recommended. The exercise plan should be adjusted to the severity and stage of the condition.</p>
+
+<h3>6. Night Splints and Other Support Devices</h3>
+
+<p>Some people with plantar fasciitis experience significant pain during the first steps after waking up. A night splint holds the ankle and foot in a position that gently stretches the plantar fascia and calf muscles while sleeping.</p>
+
+<p>Heel pads, arch supports or a temporary walking boot may also be considered in selected cases. These devices are not necessary for everyone and should be chosen according to the diagnosis.</p>
+
+<h3>7. Injections and Advanced Treatments</h3>
+
+<p>If symptoms continue despite appropriate non-surgical treatment, a specialist may discuss additional options.</p>
+
+<p>Depending on the diagnosis, these may include:</p>
+
+<ul>
+    <li><strong>Corticosteroid injections:</strong> May provide temporary relief in selected cases of plantar heel pain. Repeated injections can carry risks, including weakening or rupture of the plantar fascia and changes to the heel fat pad.</li>
+    <li><strong>Extracorporeal shock wave therapy:</strong> Uses sound waves applied to the affected area and may be considered for persistent plantar heel pain or selected tendon conditions.</li>
+    <li><strong>Other specialist procedures:</strong> Certain procedures may be considered when symptoms remain significant and the patient is an appropriate candidate.</li>
+</ul>
+
+<p>These treatments are not suitable for every person. A specialist should explain their expected benefits, limitations and possible risks before proceeding.</p>
+
+<h3>8. Surgery for Persistent Heel Pain</h3>
+
+<p>Surgery is rarely needed for common plantar fasciitis. It may be considered in selected cases when symptoms remain severe despite an adequate period of appropriate non-surgical treatment and the diagnosis has been carefully confirmed.</p>
+
+<p>Depending on the condition, a procedure may involve releasing part of the plantar fascia or addressing a specific structural problem. Surgery for Achilles tendon injuries or other heel conditions follows a different approach.</p>
+
+<p>The decision depends on the diagnosis, severity, functional limitations and expected benefits. Recovery and rehabilitation requirements also vary according to the procedure.</p>
+
+<h2>When Should You See a Doctor for Heel Pain?</h2>
+
+<p>Mild heel discomfort after unfamiliar activity may improve with appropriate activity changes and supportive footwear. However, persistent pain should not be ignored, especially when it affects normal walking.</p>
+
+<p>Arrange a medical assessment if you experience:</p>
+
+<ul>
+    <li>Heel pain that continues or repeatedly returns.</li>
+    <li>Pain that makes walking or standing difficult.</li>
+    <li>Discomfort that is gradually getting worse.</li>
+    <li>Tingling, numbness or reduced sensation in the foot.</li>
+    <li>Swelling or stiffness around the heel or ankle.</li>
+    <li>Pain that does not improve with appropriate self-care.</li>
+    <li>Heel pain along with diabetes or a condition that affects circulation or nerve function.</li>
+</ul>
+
+<div class="my-6 rounded-xl border-l-4 border-red-500 bg-red-50 p-5">
+    <h3 class="!mt-0 !border-0 !pl-0 font-bold text-red-900">Warning Signs That Need Urgent Medical Attention</h3>
+    <p>Seek urgent medical care if you develop severe heel pain after an injury, cannot walk or put weight on the foot, notice a sudden popping sensation around the Achilles tendon, or experience significant swelling or bruising. Heel pain accompanied by fever, marked redness, warmth or feeling unwell may indicate an infection and also needs urgent assessment.</p>
+</div>
+
+<h2>How Can You Reduce the Risk of Heel Pain?</h2>
+
+<p>Not all causes of heel pain can be prevented. However, a few practical habits may help reduce excessive stress on the heel and surrounding tissues.</p>
+
+<ul>
+    <li><strong>Increase exercise gradually:</strong> Avoid sudden increases in running distance, walking time or training intensity.</li>
+    <li><strong>Wear suitable footwear:</strong> Choose shoes with comfortable cushioning and support for your activity.</li>
+    <li><strong>Stretch regularly:</strong> Maintain comfortable flexibility in the calf muscles and foot.</li>
+    <li><strong>Allow time for recovery:</strong> Include suitable rest between demanding physical activities.</li>
+    <li><strong>Vary your activities:</strong> Combine high-impact exercise with lower-impact activities when appropriate.</li>
+    <li><strong>Replace worn-out shoes:</strong> Footwear that has lost its cushioning may offer less support.</li>
+    <li><strong>Address early symptoms:</strong> Reduce activities that repeatedly trigger pain instead of continuing through worsening discomfort.</li>
+</ul>
+
+<h2>Conclusion</h2>
+
+<p>Heel pain while walking can develop due to several conditions, including plantar fasciitis, Achilles tendinopathy, heel fat pad problems, stress fractures and nerve-related conditions. The location and timing of the pain can provide useful clues, but they cannot confirm the cause on their own.</p>
+
+<p>The right <strong>Heel Pain Treatment</strong> depends on an accurate assessment. Many people improve with activity modification, supportive footwear, stretching and physiotherapy. Other conditions may require specific medical treatment or, less commonly, surgery.</p>
+
+<p>If heel pain is persistent, worsening or affecting your ability to walk comfortably, consult an appropriate healthcare professional. Early assessment can help identify the underlying problem and guide treatment based on your needs.</p>
+
+<h2>When to Consult an Orthopaedic Specialist</h2>
+
+<p>Persistent heel pain may affect your mobility, work and everyday routine. An orthopaedic assessment can help determine whether the discomfort is related to the plantar fascia, Achilles tendon, heel bone, surrounding soft tissues or nerves.</p>
+
+<p>At <strong>Akropolis Super Speciality Hospital</strong>, patients can explore orthopaedic evaluation and care based on their symptoms and clinical needs. Learn more about our <a href="/orthopedics">orthopaedic services</a> or visit the profile of <a href="/doctors/dr-prateek-girotra">Dr Prateek Girotra</a>.</p>
+
+<div class="my-10 rounded-2xl bg-gradient-to-r from-[#328CCB] to-[#2a7bb5] p-8 text-center text-white shadow-xl">
+    <h3 class="!mt-0 !mb-3 !border-0 !pl-0 !text-white">Do Not Ignore Persistent Heel Pain</h3>
+    <p class="!mb-6 !text-white">Heel discomfort can affect your ability to walk, work and stay active. A timely clinical assessment can help identify the cause and guide an appropriate treatment plan.</p>
+    <a href="/contact" class="article-cta inline-block rounded-full bg-[#D66C43] px-8 py-3 font-bold no-underline transition-all hover:bg-[#c55a36]" style="color:#ffffff !important; text-decoration:none !important;">Book a Consultation</a>
+</div>
+
+<h2>Medical References and Further Reading</h2>
+
+<p>The following medical resources provide additional information about heel pain, plantar fasciitis, diagnosis and treatment. They are included for patient education and do not replace an individual medical consultation.</p>
+
+<ul>
+    <li>
+        <strong><a href="https://www.mayoclinic.org/diseases-conditions/plantar-fasciitis/symptoms-causes/syc-20354846" target="_blank" rel="nofollow noopener">Mayo Clinic: Plantar Fasciitis Symptoms and Causes</a></strong>
+        <p>Explains the symptoms and possible causes of plantar fasciitis, including the characteristic pain during the first steps after waking up or resting.</p>
+    </li>
+    <li>
+        <strong><a href="https://my.clevelandclinic.org/health/symptoms/heel-pain" target="_blank" rel="nofollow noopener">Cleveland Clinic: Heel Pain</a></strong>
+        <p>Provides an overview of common heel pain causes, risk factors, diagnosis, treatment and situations in which medical assessment is recommended.</p>
+    </li>
+    <li>
+        <strong><a href="https://www.nhs.uk/symptoms/foot-pain/heel-pain/" target="_blank" rel="nofollow noopener">NHS: Heel Pain</a></strong>
+        <p>Describes possible causes of heel pain, practical self-care measures and warning signs that require medical attention.</p>
+    </li>
+    <li>
+        <strong><a href="https://www.nhs.uk/conditions/plantar-fasciitis/" target="_blank" rel="nofollow noopener">NHS: Plantar Fasciitis</a></strong>
+        <p>Explains the typical symptoms of plantar fasciitis, common risk factors, home care, footwear advice and treatment options for persistent symptoms.</p>
+    </li>
+    <li>
+        <strong><a href="https://www.medicalnewstoday.com/articles/181453" target="_blank" rel="nofollow noopener">Medical News Today: Heel Pain</a></strong>
+        <p>Provides additional patient education about possible causes, symptoms and management approaches for heel discomfort.</p>
+    </li>
+</ul>
+
+<div class="my-8 rounded-2xl border border-gray-200 bg-gray-50 p-6 text-sm text-gray-700">
+    <strong>Medical Disclaimer:</strong> This article is intended for general educational purposes only. It does not replace professional medical advice, diagnosis or treatment. Heel pain can have different causes, and symptoms may vary between individuals. Consult a qualified healthcare professional for an appropriate examination and a treatment plan based on your condition.
+</div>
+'
+],
+
+[
     'slug' => 'hip-pain-causes-diagnosis-treatment-options',
     'title' => 'Hip Pain: Common Causes, Diagnosis and Treatment Options',
     'excerpt' => 'Hip pain can affect walking, sitting, sleeping and everyday movement. Understand common hip pain causes, symptoms by location, diagnosis methods and treatment options, including physiotherapy and surgery.',
