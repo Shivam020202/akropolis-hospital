@@ -131,40 +131,33 @@ $faqs = [
 // ==================================================
 // 6. STRUCTURED DATA
 // ==================================================
-
 // ==================================================
-// PHYSICIAN STRUCTURED DATA
+// WEBPAGE STRUCTURED DATA
 // ==================================================
 
-$physicianSchema = [
+$webPageSchema = [
 
     '@context' => 'https://schema.org',
 
-    '@type' => 'Physician',
+    '@type' => 'WebPage',
 
-    'name' => $doctorName,
+    '@id' => 'https://akropolishospital.com/haddi-ka-doctor/haryana/gurugram/#webpage',
 
-    'image' => $doctorImage,
+    'url' => 'https://akropolishospital.com/haddi-ka-doctor/haryana/gurugram/',
 
-    'description' => 'Dr. Prateek Girotra, Director & Head of Orthopedics at Akropolis Super Speciality Hospital, Gurugram.',
+    'name' => 'गुरुग्राम में सबसे अच्छा हड्डी का डॉक्टर | डॉ. प्रतीक गिरोत्रा',
 
-    'medicalSpecialty' => 'https://schema.org/Musculoskeletal',
+    'description' => $page_description,
 
-    'url' => 'https://akropolishospital.com/doctors/dr-prateek-girotra',
+    'inLanguage' => 'hi-IN',
 
-    'telephone' => $hospitalPhone,
-
-    'address' => [
-        '@type' => 'PostalAddress',
-        'streetAddress' => $hospitalAddress,
-        'addressLocality' => 'Gurugram',
-        'addressRegion' => 'Haryana',
-        'postalCode' => '122101',
-        'addressCountry' => 'IN'
+    'about' => [
+        '@type' => 'MedicalSpecialty',
+        'name' => 'Orthopedics'
     ],
 
-    'worksFor' => [
-        '@type' => 'Hospital',
+    'publisher' => [
+        '@type' => 'Organization',
         'name' => 'Akropolis Super Speciality Hospital',
         'url' => 'https://akropolishospital.com/'
     ]
@@ -2004,15 +1997,16 @@ include $rootPath . '/includes/head.php';
     <!-- =====================================
          STRUCTURED DATA
     ====================================== -->
+    <!-- WebPage Schema -->
+<script type="application/ld+json">
+<?php
+echo json_encode(
+    $webPageSchema,
+    $schemaFlags | JSON_UNESCAPED_SLASHES | JSON_UNESCAPED_UNICODE
+);
+?>
+</script>
 
-    <script type="application/ld+json">
-        <?php
-        echo json_encode(
-            $physicianSchema,
-            $schemaFlags | JSON_UNESCAPED_SLASHES | JSON_UNESCAPED_UNICODE
-        );
-        ?>
-    </script>
 
     <script type="application/ld+json">
         <?php
