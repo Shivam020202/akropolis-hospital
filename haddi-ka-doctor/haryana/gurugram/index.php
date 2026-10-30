@@ -2,35 +2,30 @@
 /**
  * Gurugram Haddi Ka Doctor Landing Page
  * Akropolis Super Speciality Hospital
- * URL: /haddi-ka-doctor/haryana/gurugram/
+ * File: /haddi-ka-doctor/haryana/gurugram/index.php
  */
 
-// --------------------------------------------------
-// 1. ROOT PATH AND SHARED WEBSITE DATA
-// --------------------------------------------------
+// ==================================================
+// 1. LOAD SHARED WEBSITE DATA
+// ==================================================
 
 $rootPath = dirname(__DIR__, 3);
 
 require_once $rootPath . '/includes/data.php';
 
-// --------------------------------------------------
-// 2. PAGE SEO DETAILS
-// --------------------------------------------------
+// ==================================================
+// 2. SEO METADATA
+// ==================================================
 
-$district_name = 'gurugram';
-$district_display = 'Gurugram';
+$page_title = 'गुरुग्राम में सबसे अच्छा हड्डी का डॉक्टर | डॉ. प्रतीक गिरोत्रा';
 
-$page_title = 'Gurugram में हड्डी के डॉक्टर | Dr. Prateek Girotra';
+$page_description = 'गुरुग्राम में सबसे अच्छे हड्डी के डॉक्टर की तलाश है? हड्डियों और जोड़ों की समस्याओं के विशेषज्ञ परामर्श के लिए डॉ. प्रतीक गिरोत्रा से मिलें।';
 
-$meta_description = 'Gurugram में हड्डी और जोड़ों की समस्याओं के लिए Dr. Prateek Girotra से परामर्श लें। Akropolis Super Speciality Hospital में Orthopaedic care, 24×7 Emergency और Cashless Insurance Assistance उपलब्ध है।';
-
-// Canonical URL
-// Use a relative path because head.php adds the website domain.
 $canonical_url = '/haddi-ka-doctor/haryana/gurugram/';
 
-// --------------------------------------------------
-// 3. DOCTOR DATA
-// --------------------------------------------------
+// ==================================================
+// 3. FIND DOCTOR
+// ==================================================
 
 $doctor = null;
 
@@ -41,30 +36,36 @@ foreach ($doctors as $d) {
     }
 }
 
-// Safe fallback if doctor data is unavailable
 if (!$doctor) {
     http_response_code(404);
+
+    $page_title = 'Doctor Not Found | Akropolis Super Speciality Hospital';
+    $page_description = 'Doctor information is currently unavailable. Contact Akropolis Super Speciality Hospital for assistance.';
+    $canonical_url = '/haddi-ka-doctor/haryana/gurugram/';
+
     include $rootPath . '/includes/head.php';
     include $rootPath . '/includes/header-v2.php';
     ?>
-    <main class="gp-container gp-error">
+
+    <main style="padding:80px 20px;text-align:center;">
         <h1>Doctor information is currently unavailable.</h1>
         <p>Please contact Akropolis Super Speciality Hospital for assistance.</p>
         <a href="/" class="gp-btn">Go to Homepage</a>
     </main>
+
     <?php
     include $rootPath . '/includes/footer.php';
     include $rootPath . '/includes/scripts.php';
     exit;
 }
 
-// --------------------------------------------------
-// 4. SAFE CONTACT AND DOCTOR VALUES
-// --------------------------------------------------
+// ==================================================
+// 4. CONTACT AND DOCTOR INFORMATION
+// ==================================================
 
 $hospitalPhone = CONTACT_INFO['phone'] ?? '';
 $emergencyPhone = CONTACT_INFO['emergency'] ?? $hospitalPhone;
-$hospitalAddress = CONTACT_INFO['address'] ?? 'Gurugram, Haryana';
+$hospitalAddress = CONTACT_INFO['address'] ?? 'Sector 69, Gurugram, Haryana';
 
 $doctorName = $doctor['name'] ?? 'Dr. Prateek Girotra';
 $doctorImage = $doctor['image'] ?? '';
@@ -74,40 +75,67 @@ $doctorOpdTiming = $doctor['opdTiming'] ?? 'Please call the hospital to confirm 
 
 $phoneLink = preg_replace('/[^0-9+]/', '', $hospitalPhone);
 
-// --------------------------------------------------
+// ==================================================
 // 5. FAQ CONTENT
-// --------------------------------------------------
+// ==================================================
 
 $faqs = [
+
     [
-        'q' => 'गुरुग्राम में हड्डियों और जोड़ों के इलाज के लिए किस डॉक्टर से परामर्श लें?',
-        'a' => 'आप Akropolis Super Speciality Hospital में Dr. Prateek Girotra से हड्डियों, जोड़ों, फ्रैक्चर और अन्य ऑर्थोपेडिक समस्याओं के लिए परामर्श ले सकते हैं।'
+        'q' => 'गुरुग्राम में सबसे अच्छा हड्डी का डॉक्टर कैसे चुनें?',
+        'a' => 'हड्डी के डॉक्टर का चयन करते समय उनकी विशेषज्ञता, अनुभव, संबंधित उपचार में दक्षता और अस्पताल में उपलब्ध सुविधाओं को ध्यान में रखें। अपनी समस्या के अनुसार Dr. Prateek Girotra से Akropolis Super Speciality Hospital में परामर्श ले सकते हैं।'
     ],
+
     [
-        'q' => 'Dr. Prateek Girotra किन समस्याओं का इलाज करते हैं?',
-        'a' => 'उनकी ऑर्थोपेडिक विशेषज्ञता में घुटने और कूल्हे का प्रत्यारोपण, स्पोर्ट्स इंजरी, आर्थ्रोस्कोपी, ट्रॉमा और फ्रैक्चर से जुड़ी समस्याएं शामिल हैं।'
+        'q' => 'गुरुग्राम में सबसे अच्छे हड्डी के डॉक्टर से कब मिलना चाहिए?',
+        'a' => 'लगातार जोड़ों में दर्द, घुटने या कूल्हे में परेशानी, फ्रैक्चर, स्पोर्ट्स इंजरी, पीठ दर्द या चलने-फिरने में कठिनाई होने पर ऑर्थोपेडिक डॉक्टर से परामर्श लेना चाहिए।'
     ],
+
+    [
+        'q' => 'गुड़गांव में सर्वश्रेष्ठ ऑर्थोपेडिक डॉक्टर से कब परामर्श लेना चाहिए?',
+        'a' => 'यदि आपको हड्डियों, जोड़ों, मांसपेशियों, घुटनों या रीढ़ से जुड़ी परेशानी है, तो ऑर्थोपेडिक विशेषज्ञ से परामर्श लें। डॉक्टर आपकी स्थिति का मूल्यांकन करके उचित उपचार विकल्प सुझा सकते हैं।'
+    ],
+
+    [
+        'q' => 'Dr. Prateek Girotra किन समस्याओं के लिए परामर्श देते हैं?',
+        'a' => 'Dr. Prateek Girotra की ऑर्थोपेडिक विशेषज्ञता में Knee Replacement, Hip Replacement, Sports Injury, Arthroscopy, Fracture और Trauma Care जैसे क्षेत्र शामिल हैं।'
+    ],
+
+    [
+        'q' => 'क्या अस्पताल में घुटने और कूल्हे के प्रत्यारोपण की सुविधा है?',
+        'a' => 'Akropolis Super Speciality Hospital में Knee Replacement और Hip Replacement से संबंधित ऑर्थोपेडिक सेवाएं उपलब्ध हैं। मरीज की स्थिति और जांच के आधार पर डॉक्टर उचित उपचार विकल्प बताते हैं।'
+    ],
+
+    [
+        'q' => 'क्या अस्पताल में स्पोर्ट्स इंजरी और फ्रैक्चर का इलाज उपलब्ध है?',
+        'a' => 'अस्पताल में Orthopaedic Consultation और Emergency Services उपलब्ध हैं। स्पोर्ट्स इंजरी या फ्रैक्चर की स्थिति में जांच और मरीज की जरूरत के अनुसार उपचार की योजना बनाई जाती है।'
+    ],
+
+    [
+        'q' => 'क्या हड्डियों और जोड़ों के इलाज के लिए Physiotherapy की जरूरत पड़ सकती है?',
+        'a' => 'कुछ ऑर्थोपेडिक समस्याओं और सर्जरी के बाद रिकवरी में Physiotherapy उपयोगी हो सकती है। इसकी जरूरत, समय और व्यायाम का प्रकार डॉक्टर या Physiotherapy विशेषज्ञ की सलाह के अनुसार तय किया जाता है।'
+    ],
+
     [
         'q' => 'क्या Akropolis Super Speciality Hospital में Cashless Insurance की सुविधा उपलब्ध है?',
         'a' => 'हाँ, अस्पताल में Cashless Insurance की सुविधा उपलब्ध है। आपकी पॉलिसी, बीमा कंपनी या TPA की नेटवर्क पात्रता और Pre-authorisation के आधार पर Cashless Treatment की प्रक्रिया की पुष्टि की जाती है। अधिक जानकारी के लिए अस्पताल की Insurance Desk से संपर्क करें।'
     ],
+
     [
         'q' => 'क्या अस्पताल में 24×7 Emergency सुविधा उपलब्ध है?',
-        'a' => 'हाँ, Akropolis Super Speciality Hospital में 24×7 Emergency सेवा उपलब्ध है। किसी गंभीर चोट या दुर्घटना की स्थिति में अस्पताल की Emergency Team से संपर्क करें।'
+        'a' => 'हाँ, Akropolis Super Speciality Hospital में 24×7 Emergency सेवा उपलब्ध है। गंभीर चोट या दुर्घटना की स्थिति में अस्पताल की Emergency Team से संपर्क करें।'
     ],
-    [
-        'q' => 'क्या Orthopaedic OPD के लिए पहले से Appointment लेना जरूरी है?',
-        'a' => 'Appointment पहले से लेना बेहतर रहता है, ताकि आप डॉक्टर के उपलब्ध समय की पुष्टि कर सकें और अपनी Consultation की योजना बना सकें।'
-    ],
+
     [
         'q' => 'Akropolis Super Speciality Hospital कहाँ स्थित है?',
         'a' => 'Akropolis Super Speciality Hospital, Sector 69, Gurugram, Haryana में स्थित है। अस्पताल आने से पहले संपर्क करके Appointment और OPD Timing की पुष्टि कर लें।'
     ]
+
 ];
 
-// --------------------------------------------------
+// ==================================================
 // 6. STRUCTURED DATA
-// --------------------------------------------------
+// ==================================================
 
 $physicianSchema = [
     '@context' => 'https://schema.org',
@@ -152,9 +180,9 @@ foreach ($faqs as $faq) {
 
 $schemaFlags = JSON_HEX_TAG | JSON_HEX_APOS | JSON_HEX_AMP | JSON_HEX_QUOT;
 
-// --------------------------------------------------
-// 7. LOAD WEBSITE HEAD
-// --------------------------------------------------
+// ==================================================
+// 7. WEBSITE HEAD
+// ==================================================
 
 include $rootPath . '/includes/head.php';
 
@@ -192,7 +220,7 @@ include $rootPath . '/includes/head.php';
     color: #173f68;
     font-size: clamp(25px, 3vw, 34px);
     font-weight: 800;
-    line-height: 1.3;
+    line-height: 1.35;
     margin: 0 0 12px;
 }
 
@@ -223,6 +251,16 @@ include $rootPath . '/includes/head.php';
     transform: translateY(-2px);
 }
 
+.gp-btn-outline {
+    background: #fff;
+    color: #328ccb !important;
+    border: 1px solid #328ccb;
+}
+
+.gp-btn-outline:hover {
+    background: #eef7fc;
+}
+
 /* Emergency bar */
 
 .gp-emergency {
@@ -239,7 +277,7 @@ include $rootPath . '/includes/head.php';
     text-decoration: none;
 }
 
-/* Breadcrumbs */
+/* Breadcrumb */
 
 .gp-breadcrumb {
     background: #fff;
@@ -281,7 +319,8 @@ include $rootPath . '/includes/head.php';
 .gp-doctor-card,
 .gp-content-card,
 .gp-facility-card,
-.gp-faq-card {
+.gp-faq-card,
+.gp-location-box {
     background: #fff;
     border: 1px solid #e9eef3;
     border-radius: 18px;
@@ -308,7 +347,7 @@ include $rootPath . '/includes/head.php';
     color: #173f68;
     font-size: clamp(28px, 3.6vw, 42px);
     font-weight: 850;
-    line-height: 1.25;
+    line-height: 1.4;
     margin: 0 0 18px;
 }
 
@@ -324,16 +363,6 @@ include $rootPath . '/includes/head.php';
     flex-wrap: wrap;
     gap: 12px;
     margin-top: 25px;
-}
-
-.gp-btn-outline {
-    background: #fff;
-    color: #328ccb !important;
-    border: 1px solid #328ccb;
-}
-
-.gp-btn-outline:hover {
-    background: #eef7fc;
 }
 
 /* Doctor card */
@@ -415,7 +444,7 @@ include $rootPath . '/includes/head.php';
     background: #eaf5fc;
 }
 
-/* Content */
+/* Content cards */
 
 .gp-content-card {
     padding: 36px;
@@ -496,7 +525,7 @@ include $rootPath . '/includes/head.php';
 .gp-facility-card p {
     color: #667587;
     font-size: 14px;
-    line-height: 1.75;
+    line-height: 1.8;
     margin: 0;
 }
 
@@ -580,7 +609,7 @@ include $rootPath . '/includes/head.php';
     margin: 0 0 13px;
     color: #fff;
     font-size: clamp(24px, 3vw, 32px);
-    line-height: 1.3;
+    line-height: 1.4;
     font-weight: 850;
 }
 
@@ -730,12 +759,9 @@ include $rootPath . '/includes/head.php';
     transform: rotate(180deg);
 }
 
-/* Location CTA */
+/* Location */
 
 .gp-location-box {
-    background: #fff;
-    border: 1px solid #e8edf2;
-    border-radius: 16px;
     padding: 28px;
 }
 
@@ -838,10 +864,6 @@ include $rootPath . '/includes/head.php';
     </a>
 </div>
 
-<!-- =========================================
-     HEADER
-========================================= -->
-
 <?php include $rootPath . '/includes/header-v2.php'; ?>
 
 <main class="gurugram-page">
@@ -881,22 +903,28 @@ include $rootPath . '/includes/head.php';
                     </span>
 
                     <h1>
-                        गुरुग्राम में हड्डी और जोड़ों के विशेषज्ञ डॉक्टर
+                        गुरुग्राम में सबसे अच्छा हड्डी का डॉक्टर
                     </h1>
 
                     <p>
-                        हड्डियों, जोड़ों, घुटनों, कूल्हों या मांसपेशियों से जुड़ी
-                        समस्या आपकी रोजमर्रा की जिंदगी को प्रभावित कर सकती है।
-                        सही समय पर विशेषज्ञ से परामर्श लेना समस्या को समझने और
-                        उचित उपचार की योजना बनाने में मदद करता है।
+                        यदि आप <strong>गुरुग्राम में सबसे अच्छे हड्डी के डॉक्टर</strong>
+                        की तलाश कर रहे हैं, तो सही विशेषज्ञ से परामर्श लेना
+                        आपकी हड्डियों और जोड़ों की समस्या को समझने की दिशा में
+                        एक महत्वपूर्ण कदम है।
                     </p>
 
                     <p>
-                        <strong>Akropolis Super Speciality Hospital, Gurugram</strong>
-                        में आप Orthopaedic समस्याओं के लिए
-                        <strong><?php echo htmlspecialchars($doctorName); ?></strong>
-                        से परामर्श ले सकते हैं। वे अस्पताल में
-                        Director & Head of Orthopedics के रूप में कार्यरत हैं।
+                        <strong>Akropolis Super Speciality Hospital</strong>
+                        में <strong>Dr. Prateek Girotra</strong> हड्डियों,
+                        जोड़ों, घुटनों, कूल्हों, फ्रैक्चर और स्पोर्ट्स इंजरी
+                        से संबंधित समस्याओं के लिए ऑर्थोपेडिक परामर्श देते हैं।
+                        वे अस्पताल में Director & Head of Orthopedics के रूप
+                        में कार्यरत हैं।
+                    </p>
+
+                    <p>
+                        उपचार की योजना मरीज की स्थिति, मेडिकल हिस्ट्री और
+                        आवश्यक जांच के आधार पर तय की जाती है।
                     </p>
 
                     <div class="gp-hero-actions">
@@ -927,7 +955,7 @@ include $rootPath . '/includes/head.php';
                     <?php if (!empty($doctorImage)): ?>
                         <img
                             src="<?php echo htmlspecialchars($doctorImage); ?>"
-                            alt="<?php echo htmlspecialchars($doctorName); ?> - Orthopaedic Surgeon in Gurugram"
+                            alt="<?php echo htmlspecialchars($doctorName); ?> - Orthopaedic Doctor in Gurugram"
                             class="gp-doctor-image"
                             loading="eager"
                         >
@@ -986,9 +1014,7 @@ include $rootPath . '/includes/head.php';
                             </div>
                             <div>
                                 <strong>Hospital Location</strong>
-                                <span>
-                                    Sector 69, Gurugram, Haryana
-                                </span>
+                                <span>Sector 69, Gurugram, Haryana</span>
                             </div>
                         </div>
 
@@ -1001,20 +1027,17 @@ include $rootPath . '/includes/head.php';
     </section>
 
     <!-- =====================================
-         ORTHOPAEDIC SPECIALITIES
+         ORTHOPAEDIC EXPERTISE
     ====================================== -->
 
     <section class="gp-section gp-section-white">
         <div class="gp-container">
 
             <div class="gp-section-heading">
-                <h2>
-                    हड्डी और जोड़ों से जुड़ी समस्याओं के लिए विशेषज्ञ देखभाल
-                </h2>
-
+                <h2>हड्डियों और जोड़ों की समस्याओं के लिए विशेषज्ञ देखभाल</h2>
                 <p>
-                    Orthopaedic समस्याओं का उपचार उनकी स्थिति, गंभीरता और
-                    मरीज की स्वास्थ्य संबंधी जरूरतों के आधार पर तय किया जाता है।
+                    Orthopaedic समस्याओं का उपचार उनकी स्थिति, गंभीरता
+                    और मरीज की स्वास्थ्य संबंधी जरूरतों के आधार पर तय किया जाता है।
                 </p>
             </div>
 
@@ -1023,8 +1046,8 @@ include $rootPath . '/includes/head.php';
                 <p>
                     Dr. Prateek Girotra, Akropolis Super Speciality Hospital
                     में Orthopedics विभाग का नेतृत्व करते हैं। उनकी विशेषज्ञता
-                    हड्डियों और जोड़ों से जुड़ी कई स्थितियों के मूल्यांकन और
-                    उपचार में है।
+                    हड्डियों और जोड़ों से जुड़ी विभिन्न स्थितियों के मूल्यांकन
+                    और उपचार में है।
                 </p>
 
                 <ul class="gp-highlight-list">
@@ -1037,10 +1060,354 @@ include $rootPath . '/includes/head.php';
                 </ul>
 
                 <p>
-                    यदि आपको लगातार दर्द, सूजन, चलने में परेशानी, जोड़ों में
-                    अकड़न या चोट के बाद असुविधा हो रही है, तो Orthopaedic
-                    Specialist से परामर्श लेना उचित हो सकता है।
+                    यदि आपको लगातार दर्द, सूजन, चलने में परेशानी,
+                    जोड़ों में अकड़न या चोट के बाद असुविधा हो रही है,
+                    तो Orthopaedic Specialist से परामर्श लेना उचित हो सकता है।
                 </p>
+
+            </div>
+
+        </div>
+    </section>
+
+    <!-- =====================================
+         COMPREHENSIVE ORTHOPAEDIC CARE
+    ====================================== -->
+
+    <section class="gp-section">
+        <div class="gp-container">
+
+            <div class="gp-section-heading">
+                <h2>गुरुग्राम में हड्डियों और जोड़ों की व्यापक देखभाल</h2>
+                <p>
+                    हड्डियों, जोड़ों, मांसपेशियों और रीढ़ से जुड़ी समस्याओं के
+                    मूल्यांकन और उपचार के लिए विशेषज्ञ ऑर्थोपेडिक देखभाल।
+                </p>
+            </div>
+
+            <div class="gp-content-card">
+
+                <p>
+                    यदि आप <strong>हड्डी का डॉक्टर गुरुग्राम</strong>
+                    खोज रहे हैं, तो डॉक्टर की विशेषज्ञता, अस्पताल में उपलब्ध
+                    सुविधाओं और आपकी समस्या के अनुसार उपचार विकल्पों को समझना
+                    जरूरी है।
+                </p>
+
+                <p>
+                    Akropolis Super Speciality Hospital में ऑर्थोपेडिक
+                    सेवाओं के अंतर्गत मरीजों की हड्डियों और जोड़ों से संबंधित
+                    समस्याओं का मूल्यांकन किया जाता है। उपचार की योजना
+                    मरीज की उम्र, स्वास्थ्य, मेडिकल हिस्ट्री और जांच रिपोर्ट
+                    के आधार पर बनाई जाती है।
+                </p>
+
+                <div class="gp-facility-grid">
+
+                    <div class="gp-facility-card">
+                        <h3>Advanced Operation Theatres</h3>
+                        <p>
+                            ऑर्थोपेडिक सर्जरी और संबंधित प्रक्रियाओं के लिए
+                            ऑपरेशन थिएटर की सुविधाएं।
+                        </p>
+                    </div>
+
+                    <div class="gp-facility-card">
+                        <h3>Expert Orthopaedic Care</h3>
+                        <p>
+                            हड्डियों, जोड़ों, फ्रैक्चर और स्पोर्ट्स इंजरी
+                            से जुड़ी समस्याओं का विशेषज्ञ मूल्यांकन।
+                        </p>
+                    </div>
+
+                    <div class="gp-facility-card">
+                        <h3>24×7 Emergency Support</h3>
+                        <p>
+                            दुर्घटना, गंभीर चोट और अन्य आपातकालीन स्थितियों
+                            में चौबीसों घंटे Emergency Services।
+                        </p>
+                    </div>
+
+                    <div class="gp-facility-card">
+                        <h3>NABH Accreditation</h3>
+                        <p>
+                            अस्पताल में NABH Entry Level Accreditation
+                            के अंतर्गत निर्धारित गुणवत्ता और सुरक्षा प्रक्रियाएं।
+                        </p>
+                    </div>
+
+                </div>
+
+            </div>
+
+        </div>
+    </section>
+
+    <!-- =====================================
+         ORTHOPAEDIC TREATMENT APPROACHES
+    ====================================== -->
+
+    <section class="gp-section gp-section-white">
+        <div class="gp-container">
+
+            <div class="gp-section-heading">
+                <h2>ऑर्थोपेडिक उपचार के लिए अलग-अलग तरीके</h2>
+                <p>
+                    हर मरीज की स्थिति अलग होती है। उपचार का तरीका
+                    समस्या और चिकित्सकीय जांच के अनुसार निर्धारित किया जाता है।
+                </p>
+            </div>
+
+            <div class="gp-facility-grid">
+
+                <div class="gp-facility-card">
+                    <h3>Minimally Invasive Surgery</h3>
+                    <p>
+                        कुछ ऑर्थोपेडिक समस्याओं में छोटे चीरे और विशेष
+                        सर्जिकल तकनीकों के माध्यम से उपचार किया जा सकता है।
+                        इसकी उपयुक्तता डॉक्टर तय करते हैं।
+                    </p>
+                </div>
+
+                <div class="gp-facility-card">
+                    <h3>Joint Preservation</h3>
+                    <p>
+                        जोड़ों की कार्यक्षमता बनाए रखने और उनकी स्थिति में
+                        सुधार करने के लिए मरीज की जरूरत के अनुसार उपचार
+                        विकल्पों पर विचार किया जाता है।
+                    </p>
+                </div>
+
+                <div class="gp-facility-card">
+                    <h3>Pain Management</h3>
+                    <p>
+                        घुटने, कूल्हे, कंधे और अन्य जोड़ों के दर्द के कारण
+                        का मूल्यांकन करके उचित उपचार योजना बनाई जाती है।
+                    </p>
+                </div>
+
+                <div class="gp-facility-card">
+                    <h3>Rehabilitation & Recovery</h3>
+                    <p>
+                        सर्जरी या चोट के बाद डॉक्टर की सलाह के अनुसार
+                        Physiotherapy और Rehabilitation की सहायता से
+                        रिकवरी की योजना बनाई जा सकती है।
+                    </p>
+                </div>
+
+            </div>
+
+        </div>
+    </section>
+
+    <!-- =====================================
+         ORTHOPAEDIC SERVICES
+    ====================================== -->
+
+    <section class="gp-section">
+        <div class="gp-container">
+
+            <div class="gp-section-heading">
+                <h2>गुरुग्राम में उपलब्ध ऑर्थोपेडिक सेवाएं</h2>
+                <p>
+                    हड्डियों और जोड़ों से जुड़ी विभिन्न समस्याओं के लिए
+                    विशेषज्ञ परामर्श और उपचार विकल्प।
+                </p>
+            </div>
+
+            <div class="gp-facility-grid">
+
+                <div class="gp-facility-card">
+                    <h3>Joint Replacement Surgery</h3>
+                    <p>
+                        गंभीर रूप से प्रभावित घुटने या कूल्हे के जोड़ के लिए
+                        Knee Replacement और Hip Replacement जैसे विकल्पों
+                        का मूल्यांकन।
+                    </p>
+                </div>
+
+                <div class="gp-facility-card">
+                    <h3>Sports Injury Treatment</h3>
+                    <p>
+                        खेल या शारीरिक गतिविधियों के दौरान होने वाली
+                        Ligament, Muscle और Joint Injuries का मूल्यांकन
+                        और उपचार।
+                    </p>
+                </div>
+
+                <div class="gp-facility-card">
+                    <h3>Spine Surgery</h3>
+                    <p>
+                        रीढ़ की हड्डी और उससे संबंधित समस्याओं के लिए
+                        विशेषज्ञ मूल्यांकन और आवश्यक उपचार विकल्प।
+                    </p>
+                </div>
+
+                <div class="gp-facility-card">
+                    <h3>Arthroscopy</h3>
+                    <p>
+                        जोड़ों से जुड़ी कुछ समस्याओं के निदान और उपचार
+                        के लिए Arthroscopy प्रक्रिया पर विचार किया जा सकता है।
+                    </p>
+                </div>
+
+                <div class="gp-facility-card">
+                    <h3>Fracture Care</h3>
+                    <p>
+                        दुर्घटना या चोट के कारण होने वाले फ्रैक्चर का
+                        मूल्यांकन और उचित उपचार योजना।
+                    </p>
+                </div>
+
+                <div class="gp-facility-card">
+                    <h3>Paediatric Orthopaedics</h3>
+                    <p>
+                        बच्चों की हड्डियों, जोड़ों और विकास से संबंधित
+                        ऑर्थोपेडिक समस्याओं का मूल्यांकन।
+                    </p>
+                </div>
+
+            </div>
+
+        </div>
+    </section>
+
+    <!-- =====================================
+         ORTHOPAEDIC CONDITIONS
+    ====================================== -->
+
+    <section class="gp-section gp-section-white">
+        <div class="gp-container">
+
+            <div class="gp-section-heading">
+                <h2>हड्डियों और जोड़ों की किन समस्याओं का मूल्यांकन किया जाता है?</h2>
+                <p>
+                    लगातार दर्द, चोट या चलने-फिरने में परेशानी होने पर
+                    ऑर्थोपेडिक विशेषज्ञ से परामर्श लें।
+                </p>
+            </div>
+
+            <div class="gp-content-card">
+
+                <ul class="gp-highlight-list">
+                    <li>Arthritis और Joint Stiffness</li>
+                    <li>Fractures और Dislocations</li>
+                    <li>Knee Pain और Hip Pain</li>
+                    <li>Tendonitis और Bursitis</li>
+                    <li>Ligament Injuries</li>
+                    <li>Sports Injuries</li>
+                    <li>ACL और MCL Injuries</li>
+                    <li>Rotator Cuff Injuries</li>
+                    <li>Back Pain और Spinal Disorders</li>
+                    <li>Carpal Tunnel Syndrome</li>
+                    <li>Bone Tumours</li>
+                    <li>Osteoporosis</li>
+                </ul>
+
+                <p>
+                    इन समस्याओं के लक्षण एक-दूसरे से मिलते-जुलते हो सकते हैं।
+                    इसलिए सही निदान के लिए डॉक्टर की जांच और जरूरत के अनुसार
+                    मेडिकल टेस्ट महत्वपूर्ण हैं।
+                </p>
+
+            </div>
+
+        </div>
+    </section>
+
+    <!-- =====================================
+         EMERGENCY WARNING SIGNS
+    ====================================== -->
+
+    <section class="gp-section">
+        <div class="gp-container">
+
+            <div class="gp-section-heading">
+                <h2>ऑर्थोपेडिक इमरजेंसी के संकेत जिन्हें नजरअंदाज न करें</h2>
+                <p>
+                    कुछ चोटों और लक्षणों में तुरंत मेडिकल सहायता की जरूरत हो सकती है।
+                </p>
+            </div>
+
+            <div class="gp-content-card">
+
+                <ul>
+                    <li>
+                        दुर्घटना या गिरने के बाद तेज दर्द और गंभीर सूजन।
+                    </li>
+                    <li>
+                        हाथ या पैर में असामान्य आकार या स्पष्ट विकृति।
+                    </li>
+                    <li>
+                        चोट के बाद प्रभावित अंग पर वजन रखने या चलने में असमर्थता।
+                    </li>
+                    <li>
+                        खुले घाव के साथ हड्डी टूटने की आशंका।
+                    </li>
+                    <li>
+                        चोट के बाद हाथ या पैर में सुन्नपन, कमजोरी या ठंडापन।
+                    </li>
+                </ul>
+
+                <p>
+                    ऐसे लक्षण होने पर तुरंत Emergency Medical Care लें।
+                    Akropolis Super Speciality Hospital में 24×7 Emergency
+                    Services उपलब्ध हैं।
+                </p>
+
+                <a
+                    href="tel:<?php echo htmlspecialchars($phoneLink); ?>"
+                    class="gp-btn"
+                >
+                    Call Emergency Support
+                </a>
+
+            </div>
+
+        </div>
+    </section>
+
+    <!-- =====================================
+         PATIENT RESOURCES
+    ====================================== -->
+
+    <section class="gp-section gp-section-white">
+        <div class="gp-container">
+
+            <div class="gp-section-heading">
+                <h2>मरीजों और परिवारों के लिए जरूरी जानकारी</h2>
+                <p>
+                    इलाज से पहले, उपचार के दौरान और रिकवरी के समय
+                    मरीजों को सही जानकारी और मार्गदर्शन मिलना जरूरी है।
+                </p>
+            </div>
+
+            <div class="gp-facility-grid">
+
+                <div class="gp-facility-card">
+                    <h3>Pre-Surgery Evaluation</h3>
+                    <p>
+                        सर्जरी से पहले मेडिकल हिस्ट्री, जांच रिपोर्ट और
+                        स्वास्थ्य संबंधी जरूरतों का मूल्यांकन किया जाता है।
+                    </p>
+                </div>
+
+                <div class="gp-facility-card">
+                    <h3>Post-Operative Care</h3>
+                    <p>
+                        सर्जरी के बाद डॉक्टर की सलाह, फॉलो-अप और
+                        रिकवरी संबंधी निर्देशों का पालन करना महत्वपूर्ण है।
+                    </p>
+                </div>
+
+                <div class="gp-facility-card">
+                    <h3>Physical Therapy Guidance</h3>
+                    <p>
+                        जरूरत के अनुसार Physiotherapy और निर्धारित
+                        व्यायाम से शारीरिक गतिविधियों को बेहतर बनाने
+                        में सहायता मिल सकती है।
+                    </p>
+                </div>
 
             </div>
 
@@ -1055,10 +1422,7 @@ include $rootPath . '/includes/head.php';
         <div class="gp-container">
 
             <div class="gp-section-heading">
-                <h2>
-                    Akropolis Super Speciality Hospital में उपलब्ध सुविधाएं
-                </h2>
-
+                <h2>Akropolis Super Speciality Hospital में उपलब्ध सुविधाएं</h2>
                 <p>
                     मरीजों को जांच, उपचार और देखभाल के लिए अस्पताल में
                     विभिन्न चिकित्सा सुविधाएं उपलब्ध हैं।
@@ -1095,7 +1459,7 @@ include $rootPath . '/includes/head.php';
                     <h3>Modern Operation Theatres</h3>
                     <p>
                         जरूरत के अनुसार सर्जिकल प्रक्रियाओं के लिए
-                        आधुनिक Operation Theatre सुविधाएं।
+                        ऑपरेशन थिएटर सुविधाएं।
                     </p>
                 </div>
 
@@ -1121,17 +1485,14 @@ include $rootPath . '/includes/head.php';
     </section>
 
     <!-- =====================================
-         HOSPITAL OPERATING HOURS
+         OPERATING HOURS
     ====================================== -->
 
     <section class="gp-section gp-section-white">
         <div class="gp-container">
 
             <div class="gp-section-heading">
-                <h2>
-                    Hospital Operating Hours
-                </h2>
-
+                <h2>Hospital Operating Hours</h2>
                 <p>
                     अस्पताल की विभिन्न सेवाओं के सामान्य संचालन समय की जानकारी।
                     डॉक्टर की OPD Timing अलग हो सकती है।
@@ -1151,27 +1512,22 @@ include $rootPath . '/includes/head.php';
                         <td>Emergency Services</td>
                         <td>24×7</td>
                     </tr>
-
                     <tr>
                         <td>OPD Services</td>
                         <td>8:00 AM – 8:00 PM</td>
                     </tr>
-
                     <tr>
                         <td>Laboratory</td>
                         <td>24×7</td>
                     </tr>
-
                     <tr>
                         <td>Pharmacy</td>
                         <td>24×7</td>
                     </tr>
-
                     <tr>
                         <td>Radiology</td>
                         <td>24×7</td>
                     </tr>
-
                     <tr>
                         <td>Dialysis Centre</td>
                         <td>24×7</td>
@@ -1249,10 +1605,7 @@ include $rootPath . '/includes/head.php';
         <div class="gp-container">
 
             <div class="gp-section-heading">
-                <h2>
-                    NABH Accreditation
-                </h2>
-
+                <h2>NABH Accreditation</h2>
                 <p>
                     Akropolis Super Speciality Hospital follows
                     established healthcare quality and patient-safety processes.
@@ -1266,9 +1619,7 @@ include $rootPath . '/includes/head.php';
                 </div>
 
                 <div>
-                    <h3>
-                        NABH Entry Level Accreditation
-                    </h3>
+                    <h3>NABH Entry Level Accreditation</h3>
 
                     <p>
                         Akropolis Super Speciality Hospital holds
@@ -1294,10 +1645,7 @@ include $rootPath . '/includes/head.php';
         <div class="gp-container">
 
             <div class="gp-section-heading">
-                <h2>
-                    डॉक्टर से मिलने से पहले इन बातों का ध्यान रखें
-                </h2>
-
+                <h2>डॉक्टर से मिलने से पहले इन बातों का ध्यान रखें</h2>
                 <p>
                     अपनी Consultation को अधिक उपयोगी बनाने के लिए
                     जरूरी मेडिकल जानकारी साथ लेकर आएं।
@@ -1341,9 +1689,7 @@ include $rootPath . '/includes/head.php';
 
             <div class="gp-location-box">
 
-                <h2>
-                    Akropolis Super Speciality Hospital, Gurugram
-                </h2>
+                <h2>Akropolis Super Speciality Hospital, Gurugram</h2>
 
                 <p>
                     Akropolis Super Speciality Hospital, Sector 69,
@@ -1393,9 +1739,7 @@ include $rootPath . '/includes/head.php';
 
             <div class="gp-faq-card">
 
-                <h2>
-                    अक्सर पूछे जाने वाले प्रश्न (FAQs)
-                </h2>
+                <h2>अक्सर पूछे जाने वाले प्रश्न (FAQs)</h2>
 
                 <?php foreach ($faqs as $index => $faq): ?>
 
@@ -1515,8 +1859,8 @@ document.addEventListener('DOMContentLoaded', function () {
 
             const isOpen = item.classList.contains('active');
 
-            // Close all FAQ items
             faqItems.forEach(function (otherItem) {
+
                 otherItem.classList.remove('active');
 
                 const otherButton = otherItem.querySelector('.gp-faq-question');
@@ -1524,13 +1868,17 @@ document.addEventListener('DOMContentLoaded', function () {
 
                 otherButton.setAttribute('aria-expanded', 'false');
                 otherIcon.textContent = '+';
+
             });
 
-            // Open selected FAQ item
             if (!isOpen) {
+
                 item.classList.add('active');
+
                 button.setAttribute('aria-expanded', 'true');
+
                 item.querySelector('.gp-faq-icon').textContent = '−';
+
             }
 
         });
@@ -1541,10 +1889,12 @@ document.addEventListener('DOMContentLoaded', function () {
 </script>
 
 <?php
-// =========================================
-// FOOTER AND GLOBAL SCRIPTS
-// =========================================
+
+// ==================================================
+// 8. FOOTER AND GLOBAL SCRIPTS
+// ==================================================
 
 include $rootPath . '/includes/footer.php';
 include $rootPath . '/includes/scripts.php';
+
 ?>
