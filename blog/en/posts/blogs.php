@@ -192,7 +192,7 @@ $blogs = [
     <li>Stiffness or reduced hip movement.</li>
 </ul>
 
-<p>Not every labral tear causes symptoms. Imaging findings need to be interpreted alongside the person's examination and daily limitations.</p>
+<p>Not every labral tear causes symptoms. Imaging findings need to be interpreted alongside the person\'s examination and daily limitations.</p>
 
 <h3>5. Hip Impingement</h3>
 
