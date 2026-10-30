@@ -132,15 +132,28 @@ $faqs = [
 // 6. STRUCTURED DATA
 // ==================================================
 
+// ==================================================
+// PHYSICIAN STRUCTURED DATA
+// ==================================================
+
 $physicianSchema = [
+
     '@context' => 'https://schema.org',
+
     '@type' => 'Physician',
+
     'name' => $doctorName,
+
     'image' => $doctorImage,
-    'medicalSpecialty' => 'OrthopedicSurgery',
+
     'description' => 'Dr. Prateek Girotra, Director & Head of Orthopedics at Akropolis Super Speciality Hospital, Gurugram.',
+
+    'medicalSpecialty' => 'https://schema.org/Musculoskeletal',
+
     'url' => 'https://akropolishospital.com/doctors/dr-prateek-girotra',
+
     'telephone' => $hospitalPhone,
+
     'address' => [
         '@type' => 'PostalAddress',
         'streetAddress' => $hospitalAddress,
@@ -149,11 +162,13 @@ $physicianSchema = [
         'postalCode' => '122101',
         'addressCountry' => 'IN'
     ],
+
     'worksFor' => [
         '@type' => 'Hospital',
         'name' => 'Akropolis Super Speciality Hospital',
         'url' => 'https://akropolishospital.com/'
     ]
+
 ];
 
 $faqSchema = [
