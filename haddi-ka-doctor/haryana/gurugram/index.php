@@ -24,7 +24,9 @@ $page_title = 'Gurugram में हड्डी के डॉक्टर | Dr
 
 $meta_description = 'Gurugram में हड्डी और जोड़ों की समस्याओं के लिए Dr. Prateek Girotra से परामर्श लें। Akropolis Super Speciality Hospital में Orthopaedic care, 24×7 Emergency और Cashless Insurance Assistance उपलब्ध है।';
 
-$canonical_url = 'https://akropolishospital.com/haddi-ka-doctor/haryana/gurugram/';
+// Canonical URL
+// Use a relative path because head.php adds the website domain.
+$canonical_url = '/haddi-ka-doctor/haryana/gurugram/';
 
 // --------------------------------------------------
 // 3. DOCTOR DATA
