@@ -8,6 +8,482 @@
 
 $blogs = [
 [
+    'slug' => 'meniscus-tear-symptoms-diagnosis-treatment-options',
+    'title' => 'Meniscus Tear: Symptoms, Diagnosis and Treatment Options',
+    'excerpt' => 'A meniscus tear can cause knee pain, swelling, stiffness and difficulty moving the joint. Learn about common meniscus tear symptoms, diagnosis, non-surgical treatment, surgery options and recovery considerations.',
+    'image' => '\assets\images\blog\English\meniscus-tear-symptoms-diagnosis-treatment-options.webp',
+    'image_alt' => 'Medical illustration showing a torn meniscus in the knee joint',
+    'author' => 'Dr Prateek Girotra',
+    'category' => 'Orthopedics',
+    'tags' => ['Meniscus Tear', 'Meniscus Tear Symptoms', 'Meniscus Tear Diagnosis', 'Meniscus Tear Treatment', 'Knee Cartilage Injury', 'Knee Pain', 'Orthopedics'],
+    'read_time' => '10 min read',
+    'published_at' => '2026-10-30',
+    'status' => 'draft',
+
+    'faqs' => [
+        [
+            'question' => 'What are the common symptoms of a meniscus tear?',
+            'answer' => 'Common symptoms include pain along the knee joint, swelling, stiffness, difficulty bending or straightening the knee, catching and locking sensations, and a feeling that the knee may give way. Symptoms depend on the location and type of tear.'
+        ],
+        [
+            'question' => 'Can you walk with a torn meniscus?',
+            'answer' => 'Some people can walk with a meniscus tear, particularly when the injury is mild or degenerative. Others may experience pain, swelling or locking that makes walking difficult. Being able to walk does not rule out a meniscus injury.'
+        ],
+        [
+            'question' => 'How is a meniscus tear diagnosed?',
+            'answer' => 'Diagnosis usually involves a review of symptoms and injury history, a physical examination and imaging when indicated. MRI is commonly used to assess the meniscus and other soft tissues, while X-rays help identify bone problems or arthritis.'
+        ],
+        [
+            'question' => 'Can a meniscus tear heal without surgery?',
+            'answer' => 'Some meniscus tears can improve with activity modification, pain and swelling management and physiotherapy. Tears in the outer region have better healing potential because of their blood supply. The possibility of healing depends on the tear pattern, location and individual clinical factors.'
+        ],
+        [
+            'question' => 'What is the best treatment for a meniscus tear?',
+            'answer' => 'Treatment depends on the tear type, location, symptoms, age and activity level. Options include rest from aggravating activities, physiotherapy and, in selected cases, arthroscopic meniscus repair or partial meniscectomy.'
+        ],
+        [
+            'question' => 'What is the difference between meniscus repair and meniscectomy?',
+            'answer' => 'Meniscus repair involves stitching the torn tissue to support healing and preserve the meniscus. Partial meniscectomy involves trimming the damaged portion when it cannot be repaired. The choice depends on the tear pattern, location and tissue quality.'
+        ],
+        [
+            'question' => 'How long does recovery from meniscus surgery take?',
+            'answer' => 'Recovery depends on the procedure. Recovery after partial meniscectomy is generally faster than after meniscus repair. Repair may require several months of rehabilitation and activity restrictions to protect the healing tissue. The treating surgeon provides an individual recovery plan.'
+        ],
+        [
+            'question' => 'Can a meniscus tear cause knee osteoarthritis?',
+            'answer' => 'A meniscus injury can affect how forces are distributed through the knee. Loss of meniscus tissue, associated cartilage damage and other joint changes may increase the risk of osteoarthritis over time.'
+        ],
+        [
+            'question' => 'When should I see an orthopaedic specialist for knee pain?',
+            'answer' => 'Seek medical assessment if knee pain persists, swelling does not settle, the knee repeatedly catches or locks, you cannot fully bend or straighten it, or it feels unstable. Sudden severe pain, inability to bear weight or a visibly deformed knee requires prompt medical attention.'
+        ]
+    ],
+
+    'content' => '
+<div class="my-6 rounded-xl border border-blue-200 bg-blue-50 p-6">
+    <h2 class="!mt-0 !border-0 !pl-0 text-xl font-bold text-blue-900">Quick Answer: What Is a Meniscus Tear?</h2>
+    <p class="!mb-0">A meniscus tear is an injury to one of the two cushioning fibrocartilage structures inside the knee. It can occur after a sudden twisting movement, sports injury or gradual age-related wear. Common symptoms include knee pain, swelling, stiffness, catching and difficulty bending or straightening the leg. Treatment may involve activity modification, physiotherapy or surgery, depending on the tear and the person\'s symptoms and activity needs.</p>
+</div>
+
+<p>Knee pain does not always come from bones or ligaments. Sometimes, the problem involves the cartilage structures that cushion the knee joint. A meniscus tear is one such injury and can affect people of different ages, including athletes, physically active individuals and older adults.</p>
+
+<p>Some meniscus injuries happen suddenly when a person twists the knee while playing a sport or changing direction. Others develop gradually as the tissue becomes weaker with age. The symptoms can range from mild discomfort to significant pain, swelling and difficulty moving the knee.</p>
+
+<p>Understanding <strong>Meniscus Tear Symptoms, Meniscus Tear Diagnosis and Meniscus Tear Treatment</strong> can help you recognise the problem and understand when medical assessment may be needed. The right treatment depends on the type and location of the tear, the condition of the knee and the person\'s daily activities.</p>
+
+<h2>What Is a Meniscus?</h2>
+
+<p>The meniscus is a crescent-shaped, wedge-like structure made of tough fibrocartilage inside the knee joint. Each knee has two menisci positioned between the thighbone, called the femur, and the shinbone, called the tibia.</p>
+
+<p>These structures act as cushions between the bones. They help distribute body weight, absorb impact and improve the way the surfaces of the knee joint fit together.</p>
+
+<p>The two menisci are:</p>
+
+<ul>
+    <li><strong>Medial meniscus:</strong> Located on the inner side of the knee. It is relatively less mobile and is commonly involved in knee injuries.</li>
+    <li><strong>Lateral meniscus:</strong> Located on the outer side of the knee. It helps distribute pressure across the outer part of the joint.</li>
+</ul>
+
+<p>The meniscus plays an important role in maintaining knee function. It helps the joint manage everyday activities such as walking, climbing stairs, squatting and running.</p>
+
+<h2>What Is a Meniscus Tear?</h2>
+
+<p>A meniscus tear occurs when the fibrocartilage is damaged or split. The injury may involve a small section of the meniscus or a larger area that affects how the knee moves and bears weight.</p>
+
+<p>Meniscus tears are broadly divided into two categories:</p>
+
+<h3>1. Acute meniscus tear</h3>
+
+<p>An acute tear occurs suddenly, often during physical activity or an accident. It may happen when the foot remains planted on the ground while the knee twists or rotates. A direct impact or deep squatting movement combined with rotation can also contribute to the injury.</p>
+
+<h3>2. Degenerative meniscus tear</h3>
+
+<p>A degenerative tear develops gradually as the meniscus becomes weaker with age and repeated stress. In some cases, a relatively minor movement, such as getting up from a low chair or stepping on an uneven surface, may trigger symptoms.</p>
+
+<p>Degenerative meniscus tears are more common in middle-aged and older adults. They may also occur alongside knee osteoarthritis, which can influence the treatment approach.</p>
+
+<h2>Meniscus Tear Symptoms</h2>
+
+<p><strong>Meniscus Tear Symptoms</strong> vary according to the size, location and pattern of the injury. Some people notice pain immediately after a twisting movement, while others develop discomfort gradually.</p>
+
+<p>Common symptoms include:</p>
+
+<ul>
+    <li><strong>Knee pain:</strong> Pain may occur along the inner or outer joint line, depending on which meniscus is affected. It may become more noticeable while twisting, squatting or climbing stairs.</li>
+    <li><strong>Swelling:</strong> The knee may become swollen after the injury. Swelling can develop gradually over several hours or days.</li>
+    <li><strong>Stiffness:</strong> The knee may feel tight or difficult to move, particularly after sitting for a long time.</li>
+    <li><strong>Difficulty bending or straightening:</strong> Pain, swelling or a displaced piece of meniscus tissue may restrict normal knee movement.</li>
+    <li><strong>Catching or locking:</strong> Some people feel that something is catching inside the knee. A displaced tear can sometimes physically block movement.</li>
+    <li><strong>Clicking or popping:</strong> Clicking may occur during knee movement. However, clicking alone does not confirm a meniscus tear.</li>
+    <li><strong>Feeling of instability:</strong> The knee may feel unreliable or as if it could give way during certain movements.</li>
+</ul>
+
+<h3>Can you walk with a torn meniscus?</h3>
+
+<p>Yes, some people can walk with a torn meniscus. The ability to bear weight depends on the severity and location of the injury, the amount of swelling and whether the knee is mechanically blocked.</p>
+
+<p>A person may initially be able to walk after an injury but notice increasing pain and swelling over the next few days. Others may experience difficulty walking from the beginning.</p>
+
+<p>Being able to walk does not mean the meniscus is healthy. Persistent pain, swelling, catching or restricted movement should be assessed by a healthcare professional.</p>
+
+<div class="my-6 rounded-xl border-l-4 border-amber-500 bg-amber-50 p-5">
+    <h3 class="!mt-0 !border-0 !pl-0 font-bold text-amber-900">When should you seek prompt medical attention?</h3>
+    <p class="!mb-0">Seek prompt medical assessment if you cannot bear weight, have severe pain or swelling, or cannot move the knee normally after an injury. A knee that becomes locked and cannot fully straighten also needs timely evaluation. A visibly deformed knee, a cold or pale foot, or new numbness after trauma requires urgent medical attention.</p>
+</div>
+
+<h2>What Causes a Meniscus Tear?</h2>
+
+<p>The meniscus can tear when excessive force is placed on the knee or when the tissue becomes weaker over time. The causes are different for acute and degenerative injuries.</p>
+
+<h3>Common causes of acute tears</h3>
+
+<ul>
+    <li><strong>Sudden twisting:</strong> Rotating the knee while the foot remains planted can place stress on the meniscus.</li>
+    <li><strong>Sports injuries:</strong> Football, basketball, tennis and other activities involving rapid direction changes can increase the risk.</li>
+    <li><strong>Deep squatting:</strong> A forceful or poorly controlled deep squat, particularly with rotation, may injure the meniscus.</li>
+    <li><strong>Direct impact:</strong> A collision or blow to the knee can damage the meniscus, sometimes along with other structures.</li>
+    <li><strong>Combined ligament injuries:</strong> Meniscus tears can occur alongside injuries such as an ACL tear.</li>
+</ul>
+
+<h3>Common causes of degenerative tears</h3>
+
+<ul>
+    <li>Age-related changes that reduce the strength and resilience of meniscus tissue.</li>
+    <li>Repeated stress on the knee over time.</li>
+    <li>Existing knee osteoarthritis and changes within the joint.</li>
+    <li>Minor twisting or bending movements affecting already weakened tissue.</li>
+</ul>
+
+<p>For more information about another common knee ligament injury, read our guide to <a href="/blog/en/acl-tear-symptoms-diagnosis-treatment-recovery-time">ACL tear symptoms, diagnosis and treatment</a>.</p>
+
+<h2>Types of Meniscus Tears</h2>
+
+<p>Meniscus tears can have different shapes and patterns. Identifying the tear pattern helps the orthopaedic specialist understand the injury and consider suitable treatment options.</p>
+
+<table class="w-full">
+    <thead>
+        <tr>
+            <th>Tear type</th>
+            <th>Description</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr>
+            <td><strong>Longitudinal tear</strong></td>
+            <td>Runs along the length of the meniscus, generally following the direction of its fibres.</td>
+        </tr>
+        <tr>
+            <td><strong>Bucket-handle tear</strong></td>
+            <td>A displaced type of longitudinal tear in which a portion of the meniscus can move towards the centre of the knee. It may cause locking or restricted movement.</td>
+        </tr>
+        <tr>
+            <td><strong>Radial tear</strong></td>
+            <td>Extends from the inner free edge towards the outer part of the meniscus. It can affect the ability of the tissue to distribute load.</td>
+        </tr>
+        <tr>
+            <td><strong>Horizontal tear</strong></td>
+            <td>Splits the meniscus into upper and lower layers and is often associated with degenerative changes.</td>
+        </tr>
+        <tr>
+            <td><strong>Complex tear</strong></td>
+            <td>Combines more than one tear pattern and may be associated with tissue degeneration.</td>
+        </tr>
+        <tr>
+            <td><strong>Flap tear</strong></td>
+            <td>Creates a loose or displaced portion of meniscus tissue that may cause catching or irritation.</td>
+        </tr>
+    </tbody>
+</table>
+
+<p>The tear pattern alone does not determine whether surgery is needed. The specialist also considers symptoms, knee function, tissue quality and the location of the injury.</p>
+
+<h2>Meniscus Tear Diagnosis</h2>
+
+<p><strong>Meniscus Tear Diagnosis</strong> involves understanding how the injury occurred, evaluating knee movement and checking for signs of damage inside the joint. A physical examination and imaging tests may be used together to assess the condition.</p>
+
+<h3>1. Medical history and physical examination</h3>
+
+<p>The orthopaedic specialist may ask when the pain started, whether there was a twisting injury, how the swelling developed and which movements make the symptoms worse.</p>
+
+<p>The examination may include checking:</p>
+
+<ul>
+    <li>Swelling and tenderness around the knee joint.</li>
+    <li>Pain along the inner or outer joint line.</li>
+    <li>Ability to bend and fully straighten the knee.</li>
+    <li>Knee movement and stability.</li>
+    <li>Pain or clicking during specific examination movements.</li>
+</ul>
+
+<h3>2. Meniscus examination tests</h3>
+
+<p>Some physical tests can help identify a possible meniscus injury. They are interpreted alongside the medical history and other examination findings.</p>
+
+<ul>
+    <li><strong>McMurray test:</strong> The clinician moves the knee through a controlled range while rotating the lower leg to check for pain or a clicking sensation that may suggest meniscal damage.</li>
+    <li><strong>Thessaly test:</strong> The patient stands and gently rotates the body with the knee slightly bent. Pain or other symptoms may indicate a possible meniscus injury. This test may not be suitable when the knee is very painful or unstable.</li>
+    <li><strong>Joint line tenderness:</strong> The clinician checks for tenderness along the inner or outer joint line where the meniscus is located.</li>
+</ul>
+
+<p>No single physical test can confirm every meniscus tear. The findings need to be considered together with the patient\'s symptoms and, when appropriate, imaging results.</p>
+
+<h3>3. Imaging tests</h3>
+
+<table class="w-full">
+    <thead>
+        <tr>
+            <th>Imaging test</th>
+            <th>Purpose</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr>
+            <td><strong>X-ray</strong></td>
+            <td>Helps identify fractures, bone changes and signs of osteoarthritis. The meniscus itself does not normally appear on an X-ray.</td>
+        </tr>
+        <tr>
+            <td><strong>MRI</strong></td>
+            <td>Provides detailed images of soft tissues, including the meniscus, ligaments and cartilage. It is commonly used to assess suspected meniscus tears.</td>
+        </tr>
+        <tr>
+            <td><strong>CT arthrography or ultrasound</strong></td>
+            <td>May be considered in selected circumstances when MRI is unsuitable or additional information is required. These tests do not replace MRI in every situation.</td>
+        </tr>
+    </tbody>
+</table>
+
+<p>MRI is an important investigation for evaluating meniscus injuries because it can show the location and pattern of a tear and help identify associated damage. However, imaging findings should be interpreted in the context of symptoms and examination results. Not every tear seen on an MRI requires surgery.</p>
+
+<h3>4. Knee arthroscopy</h3>
+
+<p>Knee arthroscopy is a minimally invasive surgical procedure in which a small camera is inserted into the knee through a small incision. It allows the surgeon to view the structures inside the joint directly.</p>
+
+<p>Arthroscopy may be used when surgery is indicated to assess and treat the meniscus. It is not generally performed only to confirm a diagnosis when appropriate clinical assessment and imaging can provide the required information.</p>
+
+<h2>Meniscus Tear Treatment Options</h2>
+
+<p><strong>Meniscus Tear Treatment</strong> depends on several factors, including the location and pattern of the tear, symptoms, age, activity level, tissue quality and the presence of other knee conditions.</p>
+
+<p>Many patients do not need immediate surgery. Treatment may begin with activity modification and physiotherapy. Surgery may be considered when symptoms persist, the knee remains mechanically blocked or the tear has features that may benefit from repair.</p>
+
+<h3>1. Initial care and activity modification</h3>
+
+<p>After a suspected meniscus injury, the first step is to avoid movements that increase pain or place additional stress on the knee.</p>
+
+<p>Initial care may include:</p>
+
+<ul>
+    <li><strong>Rest from aggravating activities:</strong> Temporarily avoid running, jumping, deep squatting and twisting movements that worsen symptoms.</li>
+    <li><strong>Cold therapy:</strong> Apply a cold pack wrapped in a towel for around 15 to 20 minutes at a time to help manage pain and swelling. Do not apply ice directly to the skin.</li>
+    <li><strong>Compression:</strong> A suitable compression bandage may help control swelling if it does not cause numbness, increased pain or changes in foot colour.</li>
+    <li><strong>Elevation:</strong> Raise the affected leg when resting, if comfortable, to help manage swelling.</li>
+    <li><strong>Support when walking:</strong> Crutches or other support may be recommended if walking is painful or unsafe.</li>
+</ul>
+
+<p>These measures can help manage symptoms, but they do not replace a proper examination. Do not try to force a locked knee to straighten or return to sports while symptoms remain.</p>
+
+<h3>2. Medication for pain and swelling</h3>
+
+<p>A healthcare professional may recommend suitable pain-relief or anti-inflammatory medication depending on the patient\'s symptoms and medical history.</p>
+
+<p>Not all medicines are appropriate for everyone. Existing medical conditions, allergies, other medications and possible side effects should be considered before taking painkillers or anti-inflammatory medicines.</p>
+
+<h3>3. Physiotherapy and rehabilitation</h3>
+
+<p>Physiotherapy is an important part of treatment for many meniscus injuries. A structured programme can help improve knee movement, strengthen the surrounding muscles and support better joint function.</p>
+
+<p>Depending on the condition, rehabilitation may include:</p>
+
+<ul>
+    <li><strong>Range-of-motion exercises:</strong> Help improve comfortable bending and straightening of the knee.</li>
+    <li><strong>Quadriceps strengthening:</strong> Strengthens the muscles at the front of the thigh that support knee movement.</li>
+    <li><strong>Hamstring strengthening:</strong> Helps improve support and control around the knee.</li>
+    <li><strong>Hip and lower-limb strengthening:</strong> Supports better alignment and control during walking and other activities.</li>
+    <li><strong>Balance exercises:</strong> Help improve coordination and control of the affected leg.</li>
+    <li><strong>Functional training:</strong> Gradually prepares the patient for everyday movements and, where appropriate, sports-related activities.</li>
+</ul>
+
+<p>Exercises should be selected and progressed according to the injury and the patient\'s tolerance. Avoid copying strenuous exercises from online videos without professional guidance, especially when the knee is swollen or painful.</p>
+
+<h3>4. Meniscus repair surgery</h3>
+
+<p>Meniscus repair is a surgical procedure in which the torn tissue is stitched together to support healing. The aim is to preserve the meniscus and maintain its role in cushioning and distributing forces across the knee.</p>
+
+<p>Repair may be considered when the tear has a suitable pattern and location, the tissue is of adequate quality and the patient is likely to benefit from preservation.</p>
+
+<p>The outer region of the meniscus has a better blood supply than the inner region. Tears in this area generally have greater healing potential. Some tears in the middle region may also be considered for repair depending on their characteristics.</p>
+
+<p>Not every tear can be repaired. The final decision depends on the tear pattern, vascularity, tissue quality, associated injuries and the surgeon\'s assessment.</p>
+
+<h3>5. Partial meniscectomy</h3>
+
+<p>When a torn portion cannot be repaired and continues to cause symptoms, the surgeon may recommend a partial meniscectomy. During this procedure, the damaged portion of the meniscus is trimmed while as much healthy tissue as possible is preserved.</p>
+
+<p>Partial meniscectomy may be considered for selected unstable or displaced tears that are not suitable for repair. It is different from removing the entire meniscus.</p>
+
+<p>Preserving functional meniscus tissue is important because removing too much tissue can reduce the knee\'s ability to distribute load and absorb impact. Loss of meniscus tissue may increase the risk of degenerative changes over time.</p>
+
+<h3>6. Meniscus transplant</h3>
+
+<p>Meniscus transplantation may be considered in selected patients who have lost a substantial amount of meniscus tissue and continue to experience symptoms. The procedure involves placing donor meniscus tissue into the knee.</p>
+
+<p>It is not a routine treatment for every meniscus tear. Suitability depends on factors such as age, knee alignment, cartilage condition, activity needs and the overall health of the joint.</p>
+
+<h2>How Does the Location of a Tear Affect Healing?</h2>
+
+<p>The meniscus does not have an equal blood supply throughout its structure. This is important because blood flow supports the healing process.</p>
+
+<table class="w-full">
+    <thead>
+        <tr>
+            <th>Meniscus region</th>
+            <th>Blood supply</th>
+            <th>Healing potential</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr>
+            <td><strong>Red-red zone</strong></td>
+            <td>Outer region with a relatively good blood supply.</td>
+            <td>Generally has better natural healing potential and may be suitable for repair.</td>
+        </tr>
+        <tr>
+            <td><strong>Red-white zone</strong></td>
+            <td>Middle region with a limited blood supply.</td>
+            <td>Healing potential varies according to the tear and individual factors.</td>
+        </tr>
+        <tr>
+            <td><strong>White-white zone</strong></td>
+            <td>Inner region with little direct blood supply.</td>
+            <td>Has limited natural healing potential, which can make repair more challenging.</td>
+        </tr>
+    </tbody>
+</table>
+
+<p>This classification is a general guide. It does not mean that every tear in the outer region will heal or that every tear in the inner region requires surgery. The complete clinical picture determines the treatment plan.</p>
+
+<h2>Recovery After Meniscus Tear Treatment</h2>
+
+<p>Recovery depends on the type of tear, treatment method, associated injuries and the patient\'s general health. A person receiving physiotherapy without surgery may follow a different recovery plan from someone who undergoes meniscus repair.</p>
+
+<h3>Recovery after non-surgical treatment</h3>
+
+<p>Patients managed without surgery may gradually improve as pain and swelling settle and knee strength returns. The duration varies according to the injury and the response to rehabilitation.</p>
+
+<p>Progress is generally assessed by looking at:</p>
+
+<ul>
+    <li>Reduction in pain and swelling.</li>
+    <li>Improved ability to bend and straighten the knee.</li>
+    <li>Better strength in the surrounding muscles.</li>
+    <li>Comfortable walking and stair climbing.</li>
+    <li>Ability to perform daily activities without significant symptoms.</li>
+</ul>
+
+<h3>Recovery after partial meniscectomy</h3>
+
+<p>Recovery after partial meniscectomy is generally faster than recovery after meniscus repair because the damaged tissue is trimmed rather than stitched for healing. Many patients can resume routine activities within a few weeks. General rehabilitation guidance suggests approximately three to six weeks for recovery, although timing varies with the amount of tissue removed, symptoms and activity demands.</p>
+
+<p>Patients may begin walking and rehabilitation relatively early, depending on the surgeon\'s instructions and the condition of the knee. Returning to sports may take longer and should depend on functional recovery and clinical clearance.</p>
+
+<h3>Recovery after meniscus repair</h3>
+
+<p>Meniscus repair usually requires a longer recovery period because the repaired tissue needs time to heal. Rehabilitation commonly takes around three to six months, although some patients may need longer depending on the tear pattern, surgical technique and associated injuries.</p>
+
+<p>Some patients may need temporary restrictions on weight-bearing or knee bending, depending on the tear pattern and surgical technique. Rehabilitation generally progresses through controlled movement, muscle strengthening, balance training and gradual functional activities.</p>
+
+<p>Returning to demanding sports requires clearance from the treating team. Do not compare your recovery directly with another patient. The location and type of tear, the procedure performed and the presence of other injuries can all change the rehabilitation plan.</p>
+
+<h2>Can a Meniscus Tear Lead to Knee Osteoarthritis?</h2>
+
+<p>The meniscus helps distribute pressure across the knee joint and reduces concentrated stress on the joint surfaces. When it is damaged or a substantial amount of tissue is removed, the way forces pass through the knee can change.</p>
+
+<p>Meniscus injuries may be associated with an increased risk of knee osteoarthritis, particularly when there is additional cartilage damage or significant loss of meniscus tissue.</p>
+
+<p>This does not mean every person with a meniscus tear will develop arthritis. Appropriate assessment, treatment and rehabilitation can help manage symptoms and support knee function.</p>
+
+<p>To understand more about age-related changes in the knee, read our article on <a href="/blog/en/knee-osteoarthritis">knee osteoarthritis</a>.</p>
+
+<h2>How Can You Reduce the Risk of a Meniscus Tear?</h2>
+
+<p>Not every meniscus injury can be prevented, particularly when it is related to age-related tissue changes or an accident. However, certain habits can help support knee strength and movement control.</p>
+
+<ul>
+    <li><strong>Strengthen the leg muscles:</strong> Regular exercises for the quadriceps, hamstrings and hip muscles can improve support around the knee.</li>
+    <li><strong>Warm up before exercise:</strong> Prepare the muscles and joints before sports or demanding physical activity.</li>
+    <li><strong>Use proper movement techniques:</strong> Learn controlled landing, squatting and direction-changing techniques.</li>
+    <li><strong>Increase activity gradually:</strong> Avoid sudden increases in exercise intensity or training volume.</li>
+    <li><strong>Wear suitable footwear:</strong> Choose footwear appropriate for the activity and playing surface.</li>
+    <li><strong>Respond to knee pain:</strong> Do not ignore persistent swelling, pain or restricted movement after exercise.</li>
+</ul>
+
+<h2>When Should You Consult an Orthopaedic Specialist?</h2>
+
+<p>Knee pain can have several causes, including meniscus injuries, ligament damage, cartilage problems and osteoarthritis. A proper assessment helps identify the likely cause and determine whether further investigations are needed.</p>
+
+<p>Consider consulting an orthopaedic specialist if you experience:</p>
+
+<ul>
+    <li>Persistent pain along the inner or outer side of the knee.</li>
+    <li>Swelling that does not settle.</li>
+    <li>Difficulty fully bending or straightening the knee.</li>
+    <li>Repeated catching or locking sensations.</li>
+    <li>Pain while walking, climbing stairs or squatting.</li>
+    <li>A feeling that the knee may give way.</li>
+</ul>
+
+<p>Explore the <a href="/orthopedics">orthopaedic services at Akropolis Super Speciality Hospital</a> or learn more about <a href="/doctors/dr-prateek-girotra">Dr Prateek Girotra</a>. If your main concern is discomfort during everyday walking, our guide to <a href="/blog/en/knee-pain-while-walking">knee pain while walking</a> discusses other possible causes and when to seek medical advice.</p>
+
+<div class="my-10 rounded-2xl bg-gradient-to-r from-[#328CCB] to-[#2a7bb5] p-8 text-center text-white shadow-xl">
+    <h3 class="!mt-0 !mb-3 !border-0 !pl-0 !text-white">Do Not Ignore Persistent Knee Pain</h3>
+    <p class="!mb-6 !text-white">Knee pain, swelling or restricted movement can affect your daily activities. A clinical assessment can help identify the cause and guide an appropriate treatment plan.</p>
+    <a href="/contact" class="article-cta inline-block rounded-full bg-[#D66C43] px-8 py-3 font-bold no-underline transition-all hover:bg-[#c55a36]" style="color:#ffffff !important; text-decoration:none !important;">Book a Consultation</a>
+</div>
+
+<h2>Conclusion</h2>
+
+<p>A meniscus tear is a common knee cartilage injury that can affect people of different ages and activity levels. It may occur after a sudden twisting movement or develop gradually due to age-related changes in the tissue.</p>
+
+<p>Common symptoms include knee pain, swelling, stiffness, catching and difficulty bending or straightening the leg. Diagnosis generally involves a medical history, physical examination and imaging when required.</p>
+
+<p>Meniscus Tear Treatment may include activity modification, physiotherapy and, in selected cases, arthroscopic surgery. Meniscus repair aims to preserve the damaged tissue, while partial meniscectomy removes only the portion that cannot be repaired. The appropriate approach depends on the individual injury and clinical findings.</p>
+
+<p>Persistent knee symptoms should not be ignored. An orthopaedic assessment can help determine the cause of discomfort and guide treatment that supports knee function and long-term joint health.</p>
+
+<h2>Medical References and Further Reading</h2>
+
+<p>The following medical resources provide additional information about meniscus anatomy, injury mechanisms, diagnostic methods and treatment decisions. They are included for patient education and should not replace an individual consultation.</p>
+
+<ul>
+    <li>
+        <strong><a href="https://my.clevelandclinic.org/health/diseases/17219-torn-meniscus" target="_blank" rel="nofollow noopener">Cleveland Clinic: Torn Meniscus</a></strong>
+        <p>Provides an overview of meniscus anatomy, common causes and symptoms, including swelling, stiffness and difficulty moving the knee. It also discusses physical examination, imaging, non-surgical care and situations in which surgery may be considered.</p>
+    </li>
+    <li>
+        <strong><a href="https://pmc.ncbi.nlm.nih.gov/articles/PMC7359983/" target="_blank" rel="nofollow noopener">Meniscal Tears: Current Understanding, Diagnosis, and Management</a></strong>
+        <p>This peer-reviewed review article discusses the biomechanics of the meniscus, diagnostic assessment, MRI findings and the importance of blood supply when planning treatment. It also examines the role of preserving and repairing meniscal tissue where appropriate.</p>
+    </li>
+    <li>
+        <strong><a href="https://www.mayoclinic.org/diseases-conditions/torn-meniscus/diagnosis-treatment/drc-20354823" target="_blank" rel="nofollow noopener">Mayo Clinic: Torn Meniscus Diagnosis and Treatment</a></strong>
+        <p>Explains how a torn meniscus is evaluated through physical examination and imaging. It also describes conservative management, physiotherapy, arthroscopic repair and partial removal of damaged meniscus tissue.</p>
+    </li>
+    <li>
+        <strong><a href="https://orthoinfo.aaos.org/en/diseases--conditions/meniscus-tears/" target="_blank" rel="nofollow noopener">American Academy of Orthopaedic Surgeons: Meniscus Tears</a></strong>
+        <p>Describes meniscus anatomy, common injury mechanisms, diagnostic tests and treatment options. It explains how the blood supply differs across the meniscus and why tear location can influence healing and the choice between repair and removal of damaged tissue.</p>
+    </li>
+    <li>
+        <strong><a href="https://www.aaos.org/quality/quality-programs/acute-isolated-meniscal-pathology/" target="_blank" rel="nofollow noopener">American Academy of Orthopaedic Surgeons: Acute Isolated Meniscal Pathology Clinical Practice Guideline</a></strong>
+        <p>Provides evidence-based recommendations for evaluating and treating acute isolated meniscus injuries. It covers clinical assessment, imaging, rehabilitation and treatment considerations, including meniscus preservation.</p>
+    </li>
+</ul>
+
+<div class="my-8 rounded-2xl border border-gray-200 bg-gray-50 p-6 text-sm text-gray-700">
+<strong>Medical Disclaimer:</strong> This article is intended for general educational purposes only. It does not replace professional medical advice, diagnosis or treatment. Knee pain and meniscus injuries can vary considerably between individuals. Consult a qualified healthcare professional for an appropriate examination and a treatment plan based on your condition.
+</div>
+'
+],
+
+[
     'slug' => 'acl-tear-symptoms-diagnosis-treatment-recovery-time',
     'title' => 'ACL Tear: Symptoms, Diagnosis, Treatment and Recovery Time',
     'excerpt' => 'Learn about ACL tear symptoms, common causes, diagnosis, treatment options and recovery time. Understand when physiotherapy may help, when surgery is considered and how rehabilitation supports a safe return to activity.',
