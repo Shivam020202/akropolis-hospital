@@ -497,10 +497,6 @@ $blogs = [
         <strong><a href="https://pmc.ncbi.nlm.nih.gov/articles/PMC12179863/" target="_blank" rel="nofollow noopener">PubMed Central: Research Article on Hip Pain</a></strong>
         <p>Peer-reviewed research supplied for further reading. Consult the full article for its specific study question, methods, findings and limitations before applying its conclusions to individual care.</p>
     </li>
-    <li>
-        <strong><a href="https://painspecialistsaustralia.com.au/hip-pain" target="_blank" rel="nofollow noopener">Pain Specialists Australia: Hip Pain</a></strong>
-        <p>Provides an overview of pain location, possible musculoskeletal and nerve-related causes, clinical assessment and treatment approaches for acute and persistent hip pain.</p>
-    </li>
 </ul>
 
 <div class="my-8 rounded-2xl border border-gray-200 bg-gray-50 p-6 text-sm text-gray-700">
