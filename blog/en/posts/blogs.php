@@ -8,6 +8,508 @@
 
 $blogs = [
 [
+    'slug' => 'hip-pain-causes-diagnosis-treatment-options',
+    'title' => 'Hip Pain: Common Causes, Diagnosis and Treatment Options',
+    'excerpt' => 'Hip pain can affect walking, sitting, sleeping and everyday movement. Understand common hip pain causes, symptoms by location, diagnosis methods and treatment options, including physiotherapy and surgery.',
+    'image' => '\assets\images\blog\English\hip-pain-causes-diagnosis-treatment-options.webp',
+    'image_alt' => 'Medical illustration showing the hip joint and common areas of hip pain',
+    'author' => 'Dr Prateek Girotra',
+    'category' => 'Orthopedics',
+    'tags' => [
+        'Hip Pain',
+        'Hip Pain Causes',
+        'Hip Pain Diagnosis',
+        'Hip Pain Treatment',
+        'Hip Joint Pain',
+        'Hip Arthritis',
+        'Orthopedics'
+    ],
+    'read_time' => '10 min read',
+    'published_at' => '2026-10-30',
+    'status' => 'published',
+
+    'faqs' => [
+        [
+            'question' => 'What are the most common causes of hip pain?',
+            'answer' => 'Common causes include hip osteoarthritis, muscle strains, tendon problems, bursitis, labral tears and injuries. Pain can also originate from the lower back or nearby nerves rather than the hip joint itself.'
+        ],
+        [
+            'question' => 'How do I know if my hip pain is coming from the joint or muscles?',
+            'answer' => 'Pain deep in the groin or front of the hip may be associated with the hip joint, while pain over the outer hip may involve surrounding tendons or bursae. Buttock pain can sometimes originate from the lower back. These patterns are clues, not a diagnosis.'
+        ],
+        [
+            'question' => 'Can lower back problems cause hip pain?',
+            'answer' => 'Yes. Conditions such as a slipped or herniated disc, spinal stenosis and sciatica can cause pain that spreads into the buttock, hip or leg. A clinical examination helps distinguish spinal pain from a hip joint problem.'
+        ],
+        [
+            'question' => 'How is hip pain diagnosed?',
+            'answer' => 'Diagnosis usually involves a review of symptoms and medical history, followed by a physical examination. Depending on the suspected cause, the doctor may recommend an X-ray, MRI, ultrasound or other investigations.'
+        ],
+        [
+            'question' => 'Can hip pain be treated without surgery?',
+            'answer' => 'Many causes of hip pain can be managed without surgery. Treatment may include activity modification, physiotherapy, suitable medication and guided rehabilitation. The right approach depends on the underlying condition.'
+        ],
+        [
+            'question' => 'Does hip arthritis always require a hip replacement?',
+            'answer' => 'No. Many people with hip arthritis can initially be managed with exercise, physiotherapy, activity changes and medication when appropriate. Hip replacement may be considered when severe symptoms continue to affect daily life despite suitable non-surgical treatment.'
+        ],
+        [
+            'question' => 'When should I be concerned about hip pain?',
+            'answer' => 'Seek prompt medical assessment after an injury if you cannot stand or put weight on the affected leg. Severe pain, fever with a hot or swollen joint, or sudden inability to move the hip also needs urgent medical attention.'
+        ],
+        [
+            'question' => 'Can hip pain cause knee pain?',
+            'answer' => 'Yes. Problems in the hip can sometimes cause pain that is felt in the thigh or knee. Pain around the knee may therefore need an assessment of both the knee and hip, depending on the symptoms.'
+        ],
+        [
+            'question' => 'Which doctor should I consult for persistent hip pain?',
+            'answer' => 'An orthopaedic specialist can assess persistent hip pain, identify the possible source and recommend appropriate investigations or treatment. A referral to another specialist may be needed if the pain originates from the spine or another condition.'
+        ]
+    ],
+
+    'content' => '
+<div class="my-6 rounded-xl border border-blue-200 bg-blue-50 p-6">
+    <h2 class="!mt-0 !border-0 !pl-0 text-xl font-bold text-blue-900">Quick Answer: What Causes Hip Pain?</h2>
+    <p class="!mb-0">Hip pain can develop because of problems inside the hip joint, injuries to surrounding muscles and tendons, arthritis or conditions affecting the lower back and nerves. Common symptoms include groin pain, outer hip discomfort, stiffness and difficulty walking. <strong>Hip Pain Diagnosis</strong> usually involves a medical history and physical examination, with imaging when needed. <strong>Hip Pain Treatment</strong> may include activity modification, medication, physiotherapy or surgery, depending on the underlying cause.</p>
+</div>
+
+<p>Hip pain can make simple activities such as walking, climbing stairs, sitting for long periods or getting out of bed uncomfortable. Some people experience a dull ache around the hip, while others notice sharp pain during movement or stiffness after resting.</p>
+
+<p>The discomfort does not always come from the hip joint itself. Muscles, tendons, ligaments, bursae and nearby nerves can also contribute to pain in this area. In some cases, a problem in the lower back may cause symptoms that spread towards the hip, buttock or leg.</p>
+
+<p>Understanding <strong>Hip Pain Causes, Hip Pain Diagnosis and Hip Pain Treatment</strong> can help you recognise when the discomfort needs medical attention. The right treatment depends on where the pain originates, how long it has been present and whether other symptoms are involved.</p>
+
+<h2>Understanding the Hip Joint</h2>
+
+<p>The hip is a strong ball-and-socket joint that connects the thighbone, known as the femur, to the pelvis. The rounded upper end of the femur fits into a cup-shaped part of the pelvis called the acetabulum.</p>
+
+<p>The joint is supported by several structures that work together to provide stability and movement:</p>
+
+<ul>
+    <li><strong>Articular cartilage:</strong> A smooth protective covering over the joint surfaces that allows the bones to move against each other with less friction.</li>
+    <li><strong>Labrum:</strong> A ring of cartilage around the hip socket that helps deepen the socket and support joint stability.</li>
+    <li><strong>Ligaments:</strong> Strong bands of tissue that help hold the joint together.</li>
+    <li><strong>Muscles and tendons:</strong> Support the hip and help control movements such as walking, standing, bending and rotating the leg.</li>
+    <li><strong>Bursae:</strong> Small fluid-filled sacs that reduce friction between bones and nearby soft tissues.</li>
+</ul>
+
+<p>Because these structures work together, a problem affecting any one of them can cause discomfort around the hip.</p>
+
+<h2>Hip Pain Symptoms: Where Do You Feel the Pain?</h2>
+
+<p>The location of hip pain can provide useful clues about its possible cause. However, pain patterns can overlap, so the location alone cannot confirm a diagnosis.</p>
+
+<table class="w-full">
+    <thead>
+        <tr>
+            <th>Pain location</th>
+            <th>Possible causes</th>
+            <th>Common symptoms</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr>
+            <td><strong>Front of the hip or groin</strong></td>
+            <td>Hip osteoarthritis, labral tear, hip joint irritation or muscle strain</td>
+            <td>Deep discomfort, stiffness and pain during hip movement</td>
+        </tr>
+        <tr>
+            <td><strong>Outer side of the hip</strong></td>
+            <td>Greater trochanteric pain syndrome, tendon problems or bursitis</td>
+            <td>Tenderness, pain when lying on that side or discomfort while walking</td>
+        </tr>
+        <tr>
+            <td><strong>Back of the hip or buttock</strong></td>
+            <td>Lower back conditions, sciatica or problems involving surrounding muscles</td>
+            <td>Buttock pain, radiating discomfort, tingling or numbness in some cases</td>
+        </tr>
+        <tr>
+            <td><strong>Hip and upper thigh</strong></td>
+            <td>Hip joint conditions, muscle injuries or referred pain</td>
+            <td>Pain during walking, standing or certain leg movements</td>
+        </tr>
+    </tbody>
+</table>
+
+<p>For example, pain felt deep in the groin may suggest a problem involving the hip joint. Pain on the outside of the hip may be related to surrounding tendons or bursae. Pain extending from the lower back into the buttock and leg may indicate a spinal or nerve-related problem.</p>
+
+<h2>Common Hip Pain Causes</h2>
+
+<p>There are several possible <strong>Hip Pain Causes</strong>. Some develop suddenly after an injury, while others appear gradually due to repeated strain, joint degeneration or an underlying medical condition.</p>
+
+<h3>1. Hip Osteoarthritis</h3>
+
+<p>Hip osteoarthritis is a degenerative joint condition in which the protective cartilage gradually becomes thinner and damaged. As the joint changes, movement may become uncomfortable and stiffness can develop.</p>
+
+<p>Common symptoms include:</p>
+
+<ul>
+    <li>Pain around the groin, front of the hip or upper thigh.</li>
+    <li>Stiffness after waking up or sitting for a long time.</li>
+    <li>Discomfort while walking, climbing stairs or standing.</li>
+    <li>Reduced ability to rotate or move the hip.</li>
+    <li>Pain that may become more noticeable after physical activity.</li>
+</ul>
+
+<p>Hip osteoarthritis is more common with increasing age, but previous injuries, joint structure and other factors can also influence its development. The severity of symptoms does not always match the amount of change seen on an X-ray.</p>
+
+<h3>2. Muscle Strains and Tendon Injuries</h3>
+
+<p>The muscles and tendons around the hip help control leg movement and stabilise the pelvis. Sudden movements, repetitive exercise, heavy lifting or an increase in training intensity can place excessive stress on these tissues.</p>
+
+<p>A hip muscle strain occurs when muscle fibres are overstretched or injured. Tendon problems may develop when a tendon becomes irritated or overloaded over time.</p>
+
+<p>Symptoms can include localised tenderness, pain during movement, muscle tightness and discomfort when stretching or using the affected muscle. The location depends on which muscle or tendon is involved.</p>
+
+<h3>3. Greater Trochanteric Pain Syndrome and Hip Bursitis</h3>
+
+<p>Pain on the outer side of the hip is often associated with a condition called <strong>greater trochanteric pain syndrome (GTPS)</strong>. It can involve irritation or injury of the tendons around the greater trochanter, a bony area on the outer side of the upper thighbone. In some cases, nearby bursae may also be involved.</p>
+
+<p>People with this condition may notice:</p>
+
+<ul>
+    <li>Pain over the outer side of the hip.</li>
+    <li>Discomfort when lying on the affected side.</li>
+    <li>Pain while climbing stairs or walking for longer periods.</li>
+    <li>Tenderness when pressing the outer hip.</li>
+    <li>Discomfort when standing on one leg.</li>
+</ul>
+
+<p>Although the term hip bursitis is commonly used, outer hip pain is not always caused by bursitis alone. A proper assessment helps identify whether the tendons, bursa or other surrounding tissues are involved.</p>
+
+<h3>4. Hip Labral Tear</h3>
+
+<p>The labrum is a ring of cartilage surrounding the hip socket. It helps support the joint and maintain stability. A labral tear occurs when this tissue becomes damaged.</p>
+
+<p>It may develop following an injury, repetitive hip movements or structural conditions such as femoroacetabular impingement.</p>
+
+<p>Possible symptoms include:</p>
+
+<ul>
+    <li>Pain deep in the groin or front of the hip.</li>
+    <li>Clicking, catching or locking sensations.</li>
+    <li>Discomfort during twisting or deep bending movements.</li>
+    <li>Stiffness or reduced hip movement.</li>
+</ul>
+
+<p>Not every labral tear causes symptoms. Imaging findings need to be interpreted alongside the person's examination and daily limitations.</p>
+
+<h3>5. Hip Impingement</h3>
+
+<p>Femoroacetabular impingement (FAI), also called hip impingement, occurs when the shape of the ball, socket or both causes abnormal contact during certain hip movements.</p>
+
+<p>This contact may irritate or damage the labrum and cartilage over time. People may experience groin pain, stiffness or discomfort when bringing the knee towards the chest, squatting or rotating the hip.</p>
+
+<p>FAI does not always cause pain or require treatment. Management depends on symptoms, examination findings and the condition of the joint.</p>
+
+<h3>6. Hip Fractures and Other Injuries</h3>
+
+<p>A hip fracture is a break in the upper part of the thighbone or nearby structures. It may occur after a fall, road accident or other significant injury. In older adults, weakened bones due to osteoporosis can increase the risk of a fracture following a relatively minor fall.</p>
+
+<p>Common warning signs include:</p>
+
+<ul>
+    <li>Sudden, severe pain around the hip or groin.</li>
+    <li>Difficulty standing or putting weight on the affected leg.</li>
+    <li>Swelling or bruising after an injury.</li>
+    <li>Restricted movement of the affected leg.</li>
+</ul>
+
+<p>A suspected hip fracture requires urgent medical assessment. Do not try to walk on an injured leg if a fracture is possible. A normal-looking leg or the ability to move it does not reliably rule out a fracture after trauma.</p>
+
+<h3>7. Avascular Necrosis of the Hip</h3>
+
+<p>Avascular necrosis (AVN), also called osteonecrosis, develops when the blood supply to part of a bone becomes reduced or interrupted. When this affects the femoral head, the bone tissue may become damaged and can gradually lose its normal structure.</p>
+
+<p>AVN can cause deep hip or groin pain, initially during activity and sometimes later even at rest. The condition may progress if the affected bone weakens or collapses.</p>
+
+<p>Risk factors can include certain long-term medication exposures, heavy alcohol use, previous trauma and some medical conditions. The exact risk varies between individuals.</p>
+
+<h3>8. Lower Back Problems and Sciatica</h3>
+
+<p>Not all pain around the hip comes from the hip joint. Conditions affecting the lumbar spine can cause referred pain in the buttock, outer hip or leg.</p>
+
+<p>For example, a herniated or slipped disc may irritate a nearby nerve. Sciatica can cause pain that travels from the lower back or buttock down the leg. Tingling, numbness or weakness may also occur.</p>
+
+<p>Buttock or outer hip pain is not always sciatica. It may also arise from surrounding muscles, tendons, the pelvis or other structures. A clinical examination helps distinguish between these possibilities.</p>
+
+<p>If your symptoms involve back pain along with radiating leg discomfort, read our guide to <a href="/blog/en/lower-back-pain-causes-treatment">lower back pain causes and treatment</a> and <a href="/blog/en/sciatica-symptoms-causes-treatment-recovery">sciatica symptoms, causes and treatment</a>.</p>
+
+<h3>9. Hip Joint Infection and Inflammatory Conditions</h3>
+
+<p>Infections involving a joint can cause significant pain and inflammation. A hip joint infection, also known as septic arthritis, is a serious condition that needs urgent medical treatment.</p>
+
+<p>Warning signs may include severe joint pain, fever, warmth, swelling and difficulty moving the hip. Symptoms can develop quickly, and fever may not always be present.</p>
+
+<p>Inflammatory conditions such as rheumatoid arthritis can also affect the hip and cause pain, stiffness and reduced movement.</p>
+
+<h2>Who Is More Likely to Develop Hip Pain?</h2>
+
+<p>Hip pain can affect people of different ages and activity levels. Certain factors may increase the likelihood of developing a hip problem:</p>
+
+<ul>
+    <li><strong>Increasing age:</strong> Degenerative joint changes become more common as people get older.</li>
+    <li><strong>Previous injury:</strong> A past fracture, dislocation or sports injury may affect joint function.</li>
+    <li><strong>Repetitive physical activity:</strong> Running, jumping, heavy lifting and repeated hip movements can place stress on muscles and tendons.</li>
+    <li><strong>Reduced muscle strength:</strong> Weakness around the hip and pelvis can affect movement control.</li>
+    <li><strong>Excess body weight:</strong> Additional body weight can increase the load placed on weight-bearing joints.</li>
+    <li><strong>Bone health conditions:</strong> Osteoporosis and other conditions affecting bone strength can increase fracture risk.</li>
+    <li><strong>Spinal conditions:</strong> Problems affecting the lower back may cause pain that spreads towards the hip.</li>
+</ul>
+
+<p>Having one or more risk factors does not mean that a person will necessarily develop hip pain. It simply helps explain why certain problems may be more likely in some individuals.</p>
+
+<h2>Hip Pain Diagnosis: How Is the Cause Identified?</h2>
+
+<p><strong>Hip Pain Diagnosis</strong> begins with understanding the symptoms and identifying which structures may be responsible. Since hip pain can originate from the joint, surrounding tissues or lower back, a detailed assessment is important.</p>
+
+<h3>1. Medical History</h3>
+
+<p>The orthopaedic specialist may ask questions such as:</p>
+
+<ul>
+    <li>When did the pain begin?</li>
+    <li>Did it start suddenly or develop gradually?</li>
+    <li>Where exactly do you feel the discomfort?</li>
+    <li>Does walking, sitting, climbing stairs or lying on one side make it worse?</li>
+    <li>Have you experienced a recent fall or sports injury?</li>
+    <li>Do you also have back pain, tingling, numbness or weakness?</li>
+    <li>Have you experienced fever, swelling or other general symptoms?</li>
+</ul>
+
+<p>These details help the doctor understand the nature of the pain and decide which conditions need to be considered.</p>
+
+<h3>2. Physical Examination</h3>
+
+<p>A physical examination helps assess hip movement, strength, tenderness and overall function. Depending on the symptoms, the specialist may check:</p>
+
+<ul>
+    <li><strong>Range of motion:</strong> How comfortably the hip can bend, straighten and rotate.</li>
+    <li><strong>Muscle strength:</strong> Whether the muscles around the hip and pelvis are functioning properly.</li>
+    <li><strong>Tenderness:</strong> Whether pressure over specific areas reproduces the pain.</li>
+    <li><strong>Walking pattern:</strong> Whether pain or weakness changes the way the person walks.</li>
+    <li><strong>Spinal and nerve function:</strong> Whether symptoms may be related to the lower back or nearby nerves.</li>
+</ul>
+
+<p>Some examination movements may reproduce discomfort and provide additional clues. No single movement or physical test confirms every cause of hip pain.</p>
+
+<h3>3. Imaging Tests</h3>
+
+<p>Imaging is recommended when the clinical assessment suggests that further investigation is needed. The choice depends on the suspected condition.</p>
+
+<table class="w-full">
+    <thead>
+        <tr>
+            <th>Investigation</th>
+            <th>What it helps assess</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr>
+            <td><strong>X-ray</strong></td>
+            <td>Bone alignment, fractures, joint space changes, arthritis and certain structural abnormalities.</td>
+        </tr>
+        <tr>
+            <td><strong>MRI</strong></td>
+            <td>Soft tissues, bone marrow, labrum, tendons, cartilage and certain early bone conditions.</td>
+        </tr>
+        <tr>
+            <td><strong>Ultrasound</strong></td>
+            <td>Selected tendon, muscle and bursa problems, fluid collections and some soft-tissue conditions.</td>
+        </tr>
+        <tr>
+            <td><strong>CT scan</strong></td>
+            <td>Detailed bone assessment, complex fractures and selected structural problems.</td>
+        </tr>
+    </tbody>
+</table>
+
+<p>For many adults with persistent hip pain, X-rays are the usual first imaging investigation after clinical assessment. They can help identify osteoarthritis, fractures and structural changes. MRI, ultrasound or CT may be recommended when additional information is needed about soft tissues, bone injuries or specific joint conditions. The choice depends on the suspected diagnosis and clinical findings.</p>
+
+<p>Not everyone with hip pain needs every imaging test. The doctor selects investigations according to the symptoms and examination findings. If a fracture is suspected after trauma, further imaging may be required even when initial X-rays do not show a clear fracture.</p>
+
+<h3>4. Blood Tests and Other Investigations</h3>
+
+<p>Blood tests may be recommended if the doctor suspects an infection, inflammatory condition or another underlying medical problem. Additional investigations may be needed in selected cases to understand the source of persistent symptoms.</p>
+
+<h2>Hip Pain Treatment Options</h2>
+
+<p><strong>Hip Pain Treatment</strong> depends on the condition causing the symptoms. A mild muscle strain may improve with activity modification and rehabilitation, while a fracture, severe joint infection or advanced joint damage requires a different approach.</p>
+
+<p>Many people can initially be treated without surgery. The treatment plan is generally based on pain severity, joint function, age, activity needs and overall health.</p>
+
+<h3>1. Rest and Activity Modification</h3>
+
+<p>Reducing activities that aggravate the hip can help manage pain and prevent additional irritation. This does not necessarily mean avoiding all movement or remaining in bed for long periods.</p>
+
+<p>Depending on the cause, temporary changes may include:</p>
+
+<ul>
+    <li>Reducing running, jumping or other high-impact activities.</li>
+    <li>Avoiding deep squats or movements that cause sharp pain.</li>
+    <li>Taking breaks from prolonged sitting or standing.</li>
+    <li>Using suitable support while walking if recommended.</li>
+    <li>Gradually returning to normal activity as symptoms improve.</li>
+</ul>
+
+<p>After an injury, a cold pack wrapped in a towel may help reduce discomfort. Avoid applying ice directly to the skin. If a fracture or serious injury is suspected, seek medical assessment rather than relying on home treatment.</p>
+
+<h3>2. Medication for Pain Relief</h3>
+
+<p>A healthcare professional may recommend medication to manage pain and inflammation. The choice depends on the suspected condition, medical history, other medicines and possible side effects.</p>
+
+<p>Some medicines used for musculoskeletal pain may not be suitable for people with certain kidney, stomach, heart or other health conditions. Do not start or continue pain-relief medication for prolonged periods without medical advice.</p>
+
+<h3>3. Physiotherapy and Exercise</h3>
+
+<p>Physiotherapy can play an important role in managing many causes of hip pain. A structured programme may improve muscle strength, flexibility, balance and movement control.</p>
+
+<p>Depending on the diagnosis, rehabilitation may include:</p>
+
+<ul>
+    <li><strong>Hip strengthening:</strong> Exercises targeting the muscles that support the hip and pelvis.</li>
+    <li><strong>Gluteal strengthening:</strong> Helps improve pelvic control and stability during walking.</li>
+    <li><strong>Gentle mobility exercises:</strong> Supports comfortable hip movement when appropriate.</li>
+    <li><strong>Core strengthening:</strong> Improves support and coordination around the trunk and pelvis.</li>
+    <li><strong>Balance training:</strong> Helps improve stability during standing and walking.</li>
+    <li><strong>Gait training:</strong> Helps address changes in walking patterns caused by pain or weakness.</li>
+</ul>
+
+<p>Exercises should be selected according to the underlying condition. A programme suitable for muscle weakness may not be appropriate for a fracture, acute injury or certain joint conditions. Avoid forcing painful movements or following strenuous online exercise routines without guidance.</p>
+
+<h3>4. Injections and Other Specialist Treatments</h3>
+
+<p>In selected cases, a specialist may consider an injection to manage pain or inflammation. The type of injection and its suitability depend on the diagnosis and the structures involved.</p>
+
+<p>For example, an injection may be considered for certain inflammatory conditions or selected joint problems. It is not appropriate for every cause of hip pain, and it does not replace the need to understand the underlying condition.</p>
+
+<h3>5. Hip Arthroscopy</h3>
+
+<p>Hip arthroscopy is a minimally invasive procedure in which a surgeon uses a small camera and specialised instruments to examine and treat selected problems inside the hip joint.</p>
+
+<p>It may be considered for certain labral tears, femoroacetabular impingement and other conditions when symptoms persist and the patient is an appropriate candidate.</p>
+
+<p>Hip arthroscopy is not suitable for every person with hip pain. The decision depends on the joint condition, imaging findings, symptoms and expected benefits.</p>
+
+<h3>6. Hip Replacement Surgery</h3>
+
+<p>Hip replacement, also known as hip arthroplasty, may be recommended for people with severe hip joint damage, commonly due to advanced osteoarthritis. During the procedure, damaged joint surfaces are replaced with artificial components.</p>
+
+<p>A specialist may consider hip replacement when:</p>
+
+<ul>
+    <li>Hip pain significantly affects walking and everyday activities.</li>
+    <li>Joint stiffness makes normal movement difficult.</li>
+    <li>Symptoms continue despite appropriate non-surgical treatment.</li>
+    <li>Examination and imaging findings support advanced joint damage.</li>
+</ul>
+
+<p>Hip replacement is a major operation, and it is not the first treatment for every person with hip pain. The decision should involve a discussion of expected benefits, possible risks, rehabilitation and individual health factors.</p>
+
+<h3>7. Treatment for Fractures and Other Serious Conditions</h3>
+
+<p>Some causes of hip pain need condition-specific treatment. A hip fracture may require surgical management, depending on its location and severity. A joint infection requires urgent medical treatment, which may include antibiotics and a procedure to drain infected fluid.</p>
+
+<p>Conditions such as avascular necrosis also need specialist evaluation because treatment depends on the stage of bone damage and whether the joint surface has collapsed.</p>
+
+<h2>When Should You See a Doctor for Hip Pain?</h2>
+
+<p>Mild discomfort after unfamiliar physical activity may settle with appropriate rest and activity modification. However, persistent or worsening symptoms should not be ignored.</p>
+
+<p>Arrange a medical assessment if you experience:</p>
+
+<ul>
+    <li>Hip pain that continues or repeatedly returns.</li>
+    <li>Discomfort that affects walking, climbing stairs or sleeping.</li>
+    <li>Stiffness or reduced movement in the hip.</li>
+    <li>Pain that spreads towards the thigh, knee or buttock.</li>
+    <li>Repeated clicking, catching or instability along with pain.</li>
+    <li>Symptoms that do not improve with appropriate self-care.</li>
+</ul>
+
+<div class="my-6 rounded-xl border-l-4 border-red-500 bg-red-50 p-5">
+    <h3 class="!mt-0 !border-0 !pl-0 font-bold text-red-900">Warning Signs That Need Urgent Medical Attention</h3>
+    <p>Seek urgent medical care if you have sudden severe hip pain after a fall or injury, cannot stand or put weight on the affected leg, or have a visibly deformed hip. Severe hip pain accompanied by fever, feeling unwell, or a hot and swollen joint may indicate an infection. Do not delay assessment in these situations.</p>
+</div>
+
+<h2>How Can You Reduce the Risk of Hip Problems?</h2>
+
+<p>Not every hip condition can be prevented. However, certain habits may help maintain muscle strength, support joint function and reduce the risk of avoidable injuries.</p>
+
+<ul>
+    <li><strong>Stay physically active:</strong> Regular, suitable physical activity helps maintain muscle strength and joint movement.</li>
+    <li><strong>Build strength gradually:</strong> Increase exercise intensity and training volume at a manageable pace.</li>
+    <li><strong>Warm up before exercise:</strong> Prepare the muscles and joints before sports or demanding activity.</li>
+    <li><strong>Use proper movement techniques:</strong> Pay attention to posture and technique while lifting weights, squatting and running.</li>
+    <li><strong>Maintain a healthy body weight:</strong> This can help manage the load placed on weight-bearing joints.</li>
+    <li><strong>Support bone health:</strong> Discuss bone health assessment and appropriate prevention measures with a healthcare professional when needed.</li>
+    <li><strong>Address persistent pain early:</strong> Avoid repeatedly pushing through pain that affects your normal movement.</li>
+</ul>
+
+<h2>Hip Pain or Knee Pain: Can One Affect the Other?</h2>
+
+<p>The hip, thigh and knee work together during walking and other daily movements. A problem in one area can sometimes change the way a person moves and place additional stress on another area.</p>
+
+<p>Some hip conditions can also cause pain that is felt in the thigh or knee. Similarly, people with lower back conditions may experience discomfort around the hip and leg. This is why a doctor may examine more than one joint when the source of pain is unclear.</p>
+
+<p>If you are also experiencing knee discomfort, you may find our guides on <a href="/blog/en/knee-osteoarthritis">knee osteoarthritis</a> and <a href="/blog/en/knee-pain-while-walking">knee pain while walking</a> useful.</p>
+
+<h2>When to Consult an Orthopaedic Specialist</h2>
+
+<p>Persistent hip pain can have several possible causes, and treating the wrong condition may delay appropriate care. An orthopaedic assessment can help identify whether the symptoms are related to the hip joint, surrounding soft tissues or another part of the musculoskeletal system.</p>
+
+<p>At <strong>Akropolis Super Speciality Hospital</strong>, patients can explore orthopaedic evaluation and care based on their symptoms and clinical needs. Learn more about our <a href="/orthopedics">orthopaedic services</a> or visit the profile of <a href="/doctors/dr-prateek-girotra">Dr Prateek Girotra</a>.</p>
+
+<div class="my-10 rounded-2xl bg-gradient-to-r from-[#328CCB] to-[#2a7bb5] p-8 text-center text-white shadow-xl">
+    <h3 class="!mt-0 !mb-3 !border-0 !pl-0 !text-white">Do Not Ignore Persistent Hip Pain</h3>
+    <p class="!mb-6 !text-white">Hip discomfort can affect your mobility and everyday routine. A timely clinical assessment can help identify the cause and guide an appropriate treatment plan.</p>
+    <a href="/contact" class="article-cta inline-block rounded-full bg-[#D66C43] px-8 py-3 font-bold no-underline transition-all hover:bg-[#c55a36]" style="color:#ffffff !important; text-decoration:none !important;">Book a Consultation</a>
+</div>
+
+<h2>Conclusion</h2>
+
+<p>Hip pain can develop due to several conditions involving the joint, bones, muscles, tendons, bursae or nearby nerves. Common causes include osteoarthritis, muscle and tendon injuries, greater trochanteric pain syndrome, labral tears and lower back problems.</p>
+
+<p>The location of pain can offer useful clues, but it does not always identify the exact cause. A medical history, physical examination and selected imaging tests help guide <strong>Hip Pain Diagnosis</strong>.</p>
+
+<p><strong>Hip Pain Treatment</strong> depends on the underlying condition and may include activity modification, medication, physiotherapy, injections or surgery. Many patients can begin with non-surgical treatment, while selected serious or advanced conditions may require specialist procedures.</p>
+
+<p>If hip pain is persistent, worsening or affecting your ability to walk and perform daily activities, seek an appropriate medical assessment. Identifying the cause is an important step towards choosing the right treatment and maintaining mobility.</p>
+
+<h2>Medical References and Further Reading</h2>
+
+<p>The following resources provide additional information about hip joint anatomy, common causes of pain, diagnostic assessment and treatment approaches. They are included for patient education and do not replace an individual medical consultation.</p>
+
+<ul>
+    <li>
+        <strong><a href="https://my.clevelandclinic.org/health/symptoms/21118-hip-pain" target="_blank" rel="nofollow noopener">Cleveland Clinic: Hip Pain</a></strong>
+        <p>Explains common causes of hip pain, including arthritis, bursitis, injuries and structural conditions. It also discusses symptom management, physical therapy, surgery and when to seek medical care.</p>
+    </li>
+    <li>
+        <strong><a href="https://www.webmd.com/pain-management/hip-pain-causes-and-treatment" target="_blank" rel="nofollow noopener">WebMD: Hip Pain Causes and Treatment</a></strong>
+        <p>Provides patient-oriented information about possible causes of hip discomfort and approaches to managing symptoms. Readers can use it as supplementary educational material alongside clinical advice.</p>
+    </li>
+    <li>
+        <strong><a href="https://www.hss.edu/health-library/conditions-and-treatments/list/hip-pain-causes" target="_blank" rel="nofollow noopener">Hospital for Special Surgery: Hip Pain Causes, Conditions and Treatments</a></strong>
+        <p>Discusses how pain location can help guide assessment and describes conditions such as osteoarthritis, labral tears, stress fractures, soft-tissue injuries and spinal problems.</p>
+    </li>
+    <li>
+        <strong><a href="https://pmc.ncbi.nlm.nih.gov/articles/PMC12179863/" target="_blank" rel="nofollow noopener">PubMed Central: Research Article on Hip Pain</a></strong>
+        <p>Peer-reviewed research supplied for further reading. Consult the full article for its specific study question, methods, findings and limitations before applying its conclusions to individual care.</p>
+    </li>
+    <li>
+        <strong><a href="https://painspecialistsaustralia.com.au/hip-pain" target="_blank" rel="nofollow noopener">Pain Specialists Australia: Hip Pain</a></strong>
+        <p>Provides an overview of pain location, possible musculoskeletal and nerve-related causes, clinical assessment and treatment approaches for acute and persistent hip pain.</p>
+    </li>
+</ul>
+
+<div class="my-8 rounded-2xl border border-gray-200 bg-gray-50 p-6 text-sm text-gray-700">
+    <strong>Medical Disclaimer:</strong> This article is intended for general educational purposes only. It does not replace professional medical advice, diagnosis or treatment. Hip pain can have different causes, and symptoms may vary between individuals. Consult a qualified healthcare professional for an appropriate examination and a treatment plan based on your condition.
+</div>
+'
+],
+
+[
     'slug' => 'meniscus-tear-symptoms-diagnosis-treatment-options',
     'title' => 'Meniscus Tear: Symptoms, Diagnosis and Treatment Options',
     'excerpt' => 'A meniscus tear can cause knee pain, swelling, stiffness and difficulty moving the joint. Learn about common meniscus tear symptoms, diagnosis, non-surgical treatment, surgery options and recovery considerations.',
