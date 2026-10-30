@@ -18,7 +18,7 @@ $blogs = [
     'tags' => ['Meniscus Tear', 'Meniscus Tear Symptoms', 'Meniscus Tear Diagnosis', 'Meniscus Tear Treatment', 'Knee Cartilage Injury', 'Knee Pain', 'Orthopedics'],
     'read_time' => '10 min read',
     'published_at' => '2026-10-30',
-    'status' => 'draft',
+    'status' => 'published',
 
     'faqs' => [
         [
