@@ -851,6 +851,179 @@ include $rootPath . '/includes/head.php';
         flex-direction: column;
     }
 }
+
+/* =========================================
+   HINDI TEXT READABILITY IMPROVEMENTS
+========================================= */
+
+/* Main Hindi paragraphs */
+.gurugram-page p {
+    color: #405166;
+    font-size: 16px;
+    font-weight: 450;
+    line-height: 1.95;
+}
+
+/* Hero description */
+.gp-hero-content p {
+    color: #35485e;
+    font-size: 17px;
+    font-weight: 500;
+    line-height: 1.95;
+}
+
+/* Section descriptions */
+.gp-section-heading p {
+    color: #526174;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 1.85;
+}
+
+/* Main content paragraphs */
+.gp-content-card p {
+    color: #405166;
+    font-size: 16px;
+    font-weight: 450;
+    line-height: 1.95;
+}
+
+/* Facility card descriptions */
+.gp-facility-card p {
+    color: #46576b;
+    font-size: 15px;
+    font-weight: 500;
+    line-height: 1.85;
+}
+
+/* Facility card headings */
+.gp-facility-card h3 {
+    color: #173f68;
+    font-size: 18px;
+    font-weight: 750;
+    line-height: 1.5;
+}
+
+/* Lists and highlighted content */
+.gp-content-card li {
+    color: #405166;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 1.85;
+}
+
+/* Highlighted service boxes */
+.gp-highlight-list li {
+    color: #263f57;
+    font-size: 15px;
+    font-weight: 650;
+    line-height: 1.7;
+}
+
+/* FAQ questions */
+.gp-faq-question {
+    color: #263f57;
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 1.7;
+}
+
+/* FAQ answers */
+.gp-faq-answer {
+    color: #405166;
+    font-size: 15px;
+    font-weight: 450;
+    line-height: 1.95;
+}
+
+/* Doctor profile details */
+.gp-doctor-qualification,
+.gp-doctor-detail span {
+    color: #526174;
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 1.8;
+}
+
+/* Patient checklist */
+.gp-checklist-item {
+    color: #405166;
+    font-size: 15px;
+    font-weight: 450;
+    line-height: 1.85;
+}
+
+/* Operating hours */
+.gp-hours-table td {
+    color: #405166;
+    font-size: 15px;
+    font-weight: 500;
+}
+
+/* Location information */
+.gp-location-box p {
+    color: #405166;
+    font-size: 16px;
+    line-height: 1.9;
+}
+
+/* NABH content */
+.gp-nabh-card p {
+    color: #405166;
+    font-size: 15px;
+    font-weight: 450;
+    line-height: 1.9;
+}
+
+/* Insurance CTA supporting text */
+.gp-insurance-cta p {
+    color: #fff;
+    font-size: 16px;
+    font-weight: 450;
+    line-height: 1.9;
+}
+
+/* =========================================
+   MOBILE READABILITY
+========================================= */
+
+@media (max-width: 600px) {
+
+    .gurugram-page p,
+    .gp-content-card p,
+    .gp-location-box p {
+        font-size: 16px;
+        line-height: 1.9;
+    }
+
+    .gp-hero-content p {
+        font-size: 16px;
+        line-height: 1.9;
+    }
+
+    .gp-section-heading p {
+        font-size: 15px;
+        line-height: 1.85;
+    }
+
+    .gp-facility-card p,
+    .gp-faq-answer,
+    .gp-checklist-item {
+        font-size: 15px;
+        line-height: 1.85;
+    }
+
+    .gp-faq-question {
+        font-size: 15px;
+        line-height: 1.7;
+    }
+
+    .gp-highlight-list li {
+        font-size: 15px;
+    }
+
+}
+
 </style>
 
 <!-- =========================================
