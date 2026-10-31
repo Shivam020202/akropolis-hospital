@@ -157,7 +157,7 @@ include dirname(__DIR__) . '/includes/head.php';
         <!-- Hero Image -->
         <div class="relative hero-image">
           <div class="relative overflow-hidden rounded-3xl shadow-2xl img-zoom">
-            <img width="800" height="600" src="https://brandingpioneers.co.in/akropolis/Orthopaedics.jpg" alt="<?php echo $target_keyword; ?> - Expert Orthopedic Care" class="w-full h-[400px] lg:h-[500px] object-cover" />
+            <img width="800" height="600" src="assets/images/homepage/akropolis-building-hero-banner.webp" alt="<?php echo $target_keyword; ?> - Expert Orthopedic Care" class="w-full h-[400px] lg:h-[500px] object-cover" />
           </div>
           <div class="absolute -bottom-6 -right-6 bg-white rounded-2xl shadow-xl p-5 border border-gray-100 floating-card glass-card float-slow">
             <div class="flex items-center space-x-4">
@@ -349,7 +349,7 @@ include dirname(__DIR__) . '/includes/head.php';
       <div class="grid lg:grid-cols-2 gap-16 items-center">
         <div class="relative floating-card">
           <div class="relative overflow-hidden rounded-3xl shadow-2xl img-zoom">
-            <img width="800" height="600" src="https://brandingpioneers.co.in/akropolis/help-desk-img.webp" alt="Akropolis Super Speciality Hospital" class="w-full h-[500px] object-cover" />
+            <img width="800" height="600" src="/assets/images/homepage/akropolis-hospital-location-entrance.webp" alt="Akropolis Super Speciality Hospital" class="w-full h-[500px] object-cover" />
           </div>
           <div class="absolute -bottom-6 -left-6 bg-[#328CCB] text-white rounded-2xl shadow-xl p-6">
             <div class="text-4xl font-bold mb-1">15+</div>
