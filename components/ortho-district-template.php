@@ -7,13 +7,26 @@
 
 // SEO Variables
 $district_display = ucwords(str_replace('-', ' ', $district_name));
-$target_keyword = "Best Orthopedic Hospital in $district_display";
-$meta_title = "$target_keyword | Akropolis Hospital";
-$meta_description = "Akropolis Super Speciality Hospital is the $target_keyword. Expert orthopedic surgeons, advanced joint replacements, sports injury treatments near " . implode(', ', $landmarks) . ". NABH accredited.";
 
-// Open Graph
-$og_title = "$target_keyword | Akropolis Hospital";
-$og_description = "Expert orthopedic care near $landmarks[0]. Joint replacements, spine surgery, sports medicine. Book appointment now!";
+$is_gurugram = in_array(
+    strtolower($district_name),
+    ['gurugram', 'gurgaon'],
+    true
+);
+
+if ($is_gurugram) {
+    $target_keyword = "Best Orthopedic Hospital in Gurugram";
+    $meta_title = "Best Orthopedic Hospital in Gurugram | Akropolis Hospital";
+    $meta_description = "Visit Akropolis Super Speciality Hospital in Sector 69, Gurugram, for orthopaedic consultation and treatment for bone, joint, fracture and sports injury conditions.";
+    $og_description = "Explore orthopaedic consultation and treatment at Akropolis Super Speciality Hospital, Sector 69, Gurugram.";
+} else {
+    $target_keyword = "Orthopedic Care for Patients from $district_display";
+    $meta_title = "Orthopedic Treatment for $district_display Patients | Akropolis Hospital";
+    $meta_description = "Patients from $district_display can access orthopaedic consultation and treatment at Akropolis Super Speciality Hospital, Sector 69, Gurugram. Contact us to plan your visit.";
+    $og_description = "Orthopaedic consultation and treatment for patients from $district_display at Akropolis Super Speciality Hospital, Gurugram.";
+}
+
+$og_title = $meta_title;
 
 // Include Data
 require_once dirname(__DIR__) . '/includes/data.php';
@@ -64,7 +77,14 @@ include dirname(__DIR__) . '/includes/head.php';
           <!-- Trust Badge -->
           <div class="inline-flex items-center space-x-2 bg-yellow-100 text-yellow-800 px-4 py-2 rounded-full text-sm font-medium mb-6 float">
             <?php echo getIcon('Award', 'h-4 w-4'); ?>
-            <span>NABH Accredited Hospital Near <?php echo $landmarks[0]; ?></span>
+            <span>
+    <?php if ($is_gurugram): ?>
+        NABH-Accredited Hospital in Gurugram
+    <?php else: ?>
+        NABH-Accredited Hospital | Serving Patients from
+        <?php echo htmlspecialchars($district_display); ?>
+    <?php endif; ?>
+</span>
           </div>
 
           <!-- Localized H1 -->
@@ -74,8 +94,20 @@ include dirname(__DIR__) . '/includes/head.php';
 
           <!-- Localized Description -->
           <p class="text-xl lg:text-2xl text-gray-600 mb-8 leading-relaxed">
-            Expert orthopedic surgeons and advanced joint replacements available near <?php echo $landmarks[0]; ?>, <?php echo $landmarks[1]; ?>, and <?php echo $landmarks[2]; ?>. Book your consultation today.
-          </p>
+    <?php if ($is_gurugram): ?>
+        Akropolis Super Speciality Hospital, located in Sector 69,
+        Gurugram, provides orthopaedic consultation and treatment
+        for bone, joint, fracture and sports injury conditions.
+        Book your consultation today.
+    <?php else: ?>
+        Patients from <?php echo htmlspecialchars($district_display); ?>
+        can access orthopaedic consultation and treatment at
+        Akropolis Super Speciality Hospital, Sector 69, Gurugram.
+        Our specialists provide evaluation and care for bone and
+        joint conditions, fractures and sports injuries.
+        Contact our team to plan your visit.
+    <?php endif; ?>
+</p>
 
           <!-- Key Features -->
           <div class="flex flex-wrap justify-center lg:justify-start gap-4 mb-8">
@@ -198,41 +230,80 @@ include dirname(__DIR__) . '/includes/head.php';
   <section class="py-20 bg-white section-fade">
     <div class="container mx-auto px-4">
       <div class="max-w-4xl mx-auto">
-        <h2 class="text-3xl lg:text-4xl font-bold text-gray-900 mb-8">Comprehensive Orthopedic Solutions in <?php echo $district_display; ?></h2>
-
+<h2 class="text-3xl lg:text-4xl font-bold text-gray-900 mb-8">
+    Orthopaedic Care for Patients from <?php echo htmlspecialchars($district_display); ?>
+</h2>
         <div class="prose prose-lg text-gray-600 space-y-6">
           <p>
-            Akropolis Hospital is the <strong><?php echo $target_keyword; ?></strong>. We provide expert bone and joint care for patients in <?php echo $district_display; ?>. Do you have a sports injury near <strong><?php echo $landmarks[0]; ?></strong>? Or do you need joint surgery near <strong><?php echo $landmarks[1]; ?></strong>? Our skilled doctors are ready to help.
-          </p>
-          <p>
-            Our hospital has top tools like digital X-rays, MRIs, and CT scans. We use small cuts for surgery so you heal faster and feel better. We are experts in trauma care, spine surgery, and child bone care. Patients from <?php echo $district_display; ?> and <?php echo $landmarks[2]; ?> trust us for their care.
-          </p>
-          <p>
-            If you travel from <?php echo $district_display; ?>, you will find our hospital easy to reach. We have plenty of free parking. We care for you before and after surgery. We also offer physical therapy to help you get back on your feet.
-          </p>
+    Patients from <?php echo htmlspecialchars($district_display); ?>
+    looking for orthopaedic consultation can visit
+    <strong>Akropolis Super Speciality Hospital</strong>,
+    located in Sector 69, Gurugram. Our orthopaedic team evaluates
+    bone and joint conditions, fractures, sports injuries and
+    other musculoskeletal problems.
+</p>
+
+<p>
+    Depending on the patient's condition, treatment may include
+    medication, rehabilitation, minimally invasive procedures
+    or surgery. Diagnostic evaluation and the appropriate
+    treatment plan are determined by the treating specialist.
+</p>
+
+<p>
+    If you are travelling from <?php echo htmlspecialchars($district_display); ?>,
+    please contact our hospital team before your visit to confirm
+    appointment availability, consultation details and directions
+    to our Gurugram facility.
+</p>
         </div>
 
         <div class="grid md:grid-cols-2 gap-8 mt-12">
           <!-- Landmarks Box -->
-          <div class="bg-gray-50 p-8 rounded-2xl border border-gray-100">
-            <h3 class="text-xl font-bold text-gray-900 mb-4 flex items-center space-x-2">
-              <?php echo getIcon('MapPin', 'h-5 w-5 text-[#D66C43]'); ?>
-              <span>Serving Near <?php echo $district_display; ?></span>
-            </h3>
-            <ul class="space-y-3">
-              <?php foreach ($landmarks as $landmark): ?>
-                <li class="flex items-center space-x-3">
-                  <?php echo getIcon('MapPin', 'h-4 w-4 text-[#D66C43]'); ?>
-                  <span class="text-gray-700"><?php echo $landmark; ?></span>
-                </li>
-              <?php endforeach; ?>
-            </ul>
-            <div class="mt-6 p-4 bg-blue-50 rounded-xl border border-blue-100">
-              <p class="text-sm text-gray-600">
-                <strong class="text-[#328CCB]">Easy Access:</strong> Located on main road with ample parking space for patients from <?php echo $district_display; ?>.
-              </p>
-            </div>
-          </div>
+          <!-- Patient Areas / Hospital Location Box -->
+<div class="bg-gray-50 p-8 rounded-2xl border border-gray-100">
+
+    <h3 class="text-xl font-bold text-gray-900 mb-4 flex items-center space-x-2">
+        <?php echo getIcon('MapPin', 'h-5 w-5 text-[#D66C43]'); ?>
+
+        <span>
+            <?php if ($is_gurugram): ?>
+                Our Hospital Location
+            <?php else: ?>
+                Patients Travelling from <?php echo htmlspecialchars($district_display); ?>
+            <?php endif; ?>
+        </span>
+    </h3>
+
+    <?php if (!$is_gurugram): ?>
+
+        <p class="text-gray-700 leading-relaxed mb-5">
+            We welcome patients from <?php echo htmlspecialchars($district_display); ?>
+            seeking orthopaedic consultation and treatment at our
+            Gurugram hospital.
+        </p>
+
+    <?php endif; ?>
+
+    <div class="flex items-start space-x-3">
+        <?php echo getIcon('MapPin', 'h-5 w-5 text-[#D66C43] mt-1 flex-shrink-0'); ?>
+
+        <p class="text-gray-700 leading-relaxed">
+            <strong>Akropolis Super Speciality Hospital</strong><br>
+            Near Vatika Chowk, Opposite Chinar Garden,
+            Sector 69, Gurugram, Haryana 122101.
+        </p>
+    </div>
+
+    <div class="mt-6 p-4 bg-blue-50 rounded-xl border border-blue-100">
+        <p class="text-sm text-gray-600">
+            <strong class="text-[#328CCB]">Plan Your Visit:</strong>
+            Contact our hospital team for appointment information
+            and directions to our Gurugram facility.
+        </p>
+    </div>
+
+</div>
 
           <!-- Specializations Box -->
           <div class="bg-blue-50 p-8 rounded-2xl border border-blue-100">
@@ -426,7 +497,10 @@ include dirname(__DIR__) . '/includes/head.php';
     <div class="container mx-auto px-4">
       <div class="text-center mb-12">
         <h3 class="text-3xl font-bold text-gray-900">Insurance & TPA Partners</h3>
-        <p class="text-gray-600 mt-2">Cashless treatment available for patients from <?php echo $district_display; ?></p>
+        <p class="text-gray-600 mt-2">
+    Cashless treatment assistance is available for eligible
+    health insurance policies at our Gurugram hospital.
+</p>
       </div>
       <div class="insurance-slider relative">
         <div class="insurance-track flex items-center animate-scroll">
@@ -607,10 +681,23 @@ include dirname(__DIR__) . '/includes/head.php';
   <section class="py-20 bg-gradient-to-r from-[#328CCB] to-[#2a7bb5] text-white section-fade">
     <div class="container mx-auto px-4">
       <div class="max-w-4xl mx-auto text-center">
-        <h3 class="text-4xl lg:text-5xl font-bold mb-6">Looking for the Best Orthopedic Hospital Near <?php echo $landmarks[0]; ?>?</h3>
+        <h3 class="text-4xl lg:text-5xl font-bold mb-6">
+    <?php if ($is_gurugram): ?>
+        Looking for Orthopaedic Care in Gurugram?
+    <?php else: ?>
+        Need Orthopaedic Care? Visit Our Gurugram Hospital
+    <?php endif; ?>
+</h3>
         <p class="text-xl text-blue-100 mb-12">
-          Book an appointment with our orthopedic experts today. Serving <?php echo $district_display; ?> and all of Haryana.
-        </p>
+    <?php if ($is_gurugram): ?>
+        Consult our orthopaedic specialists at Akropolis Super
+        Speciality Hospital, Sector 69, Gurugram.
+    <?php else: ?>
+        Patients from <?php echo htmlspecialchars($district_display); ?>
+        can contact Akropolis Super Speciality Hospital to enquire
+        about orthopaedic appointments and treatment in Gurugram.
+    <?php endif; ?>
+</p>
         <div class="flex flex-col sm:flex-row items-center justify-center gap-6">
           <a href="/doctors" class="bg-white text-[#328CCB] hover:bg-gray-100 px-10 py-5 rounded-xl font-bold text-lg transition-all duration-300 transform hover:scale-105 flex items-center space-x-2 shadow-xl">
             <?php echo getIcon('Calendar', 'h-5 w-5'); ?>
