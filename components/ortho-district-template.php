@@ -160,7 +160,7 @@ include dirname(__DIR__) . '/includes/head.php';
             <img
     width="800"
     height="600"
-    src="/assets/images/homepage/akropolis-building-hero-banner.webp"
+    src="\assets\images\Shared Template\akropolis-orthopaedic-district-hero.webp"
     alt="<?php echo htmlspecialchars($target_keyword, ENT_QUOTES, 'UTF-8'); ?> - Expert Orthopedic Care"
     class="w-full h-[400px] lg:h-[500px] object-cover"
     loading="eager"
