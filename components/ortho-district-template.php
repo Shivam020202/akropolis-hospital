@@ -456,31 +456,52 @@ include dirname(__DIR__) . '/includes/head.php';
         <div class="space-y-4">
           <?php
           $faqs = [
-            [
-              'q' => "Which is the best orthopedic hospital in <?php echo $district_display; ?>?",
-              'a' => "Akropolis Super Speciality Hospital is widely regarded as the best orthopedic hospital in <?php echo $district_display; ?>, offering advanced surgical and non-surgical treatments with NABH accreditation."
-            ],
-            [
-              'q' => "How far is Akropolis Hospital from <?php echo $landmarks[0]; ?> in <?php echo $district_display; ?>?",
-              'a' => "Our hospital is conveniently located and easily accessible from <?php echo $landmarks[0]; ?> and <?php echo $landmarks[1]; ?>. We serve patients from all parts of <?php echo $district_display; ?> with free parking facilities."
-            ],
-            [
-              'q' => "Do you offer robotic joint replacement in <?php echo $district_display; ?>?",
-              'a' => "Yes, we provide state-of-the-art robotic-assisted joint replacement surgeries for higher precision and faster recovery. This facility is available for all patients from <?php echo $district_display; ?>."
-            ],
-            [
-              'q' => "Are sports injury treatments available near <?php echo $landmarks[0]; ?>?",
-              'a' => "Our orthopedic team includes sports medicine specialists who provide comprehensive care for athletes and active individuals. We serve patients from <?php echo $district_display; ?> and nearby areas."
-            ],
-            [
-              'q' => "How can I book an appointment with an ortho specialist from <?php echo $district_display; ?>?",
-              'a' => "You can book an appointment by calling <?php echo CONTACT_INFO['phone']; ?> or using our online booking system. Walk-ins are also welcome from <?php echo $district_display; ?>."
-            ],
-            [
-              'q' => "Do you accept insurance for orthopedic treatments?",
-              'a' => "Yes, we accept all major insurance providers and have TPA partnerships. Patients from <?php echo $district_display; ?> can avail cashless treatment at our hospital."
-            ]
-          ];
+    [
+        'q' => "Which orthopedic services are available for patients from {$district_display}?",
+        'a' => "Akropolis Super Speciality Hospital provides orthopaedic consultation and treatment for bone, joint, fracture, sports injury and spine-related conditions. The appropriate treatment is determined after clinical assessment."
+    ],
+
+    [
+        'q' => "How can patients from {$district_display} book an orthopedic consultation?",
+        'a' => "Patients can contact Akropolis Super Speciality Hospital at " . CONTACT_INFO['phone'] . " to enquire about appointments, doctor availability and consultation arrangements."
+    ],
+
+    [
+        'q' => "Are knee and hip replacement procedures available?",
+        'a' => "The orthopaedic department provides evaluation for patients with severe knee and hip joint problems. Depending on the diagnosis, symptoms and overall health, the doctor may discuss surgical or non-surgical treatment options, including joint replacement."
+    ],
+
+    [
+        'q' => "Can I consult an orthopaedic specialist for a sports injury?",
+        'a' => "Yes. Patients experiencing sports-related injuries, ligament problems, joint pain or restricted movement can seek an orthopaedic assessment. Treatment may include medication, rehabilitation or a surgical procedure, depending on the injury."
+    ],
+
+    [
+        'q' => "What should I do if someone suffers a fracture or serious bone injury?",
+        'a' => "Seek prompt medical attention after a suspected fracture, particularly if there is severe pain, swelling, visible deformity, an open wound or difficulty moving the affected limb. For serious injuries, contact the hospital's 24/7 Emergency Services."
+    ],
+
+    [
+        'q' => "Is robotic-assisted joint replacement suitable for every patient?",
+        'a' => "No. Robotic-assisted surgery is not suitable or necessary for every patient. The orthopaedic specialist evaluates the joint condition, medical history and investigation reports before recommending an appropriate surgical approach."
+    ],
+
+    [
+        'q' => "What medical reports should I bring for an orthopaedic consultation?",
+        'a' => "Bring previous X-rays, MRI or CT scans, blood test reports, prescriptions and details of any earlier surgery or treatment. These records can help the doctor understand your medical history and plan further evaluation."
+    ],
+
+    [
+        'q' => "Is cashless health insurance available at Akropolis Super Speciality Hospital?",
+        'a' => "Cashless treatment assistance is available for eligible health insurance policies. Approval depends on your insurer or TPA network eligibility, policy coverage and pre-authorisation. Contact the hospital team to confirm the applicable process before admission."
+    ],
+
+    [
+        'q' => "Does Akropolis Super Speciality Hospital provide emergency care?",
+        'a' => "The hospital provides 24/7 Emergency Services. Patients experiencing serious injuries or medical emergencies should seek immediate medical attention rather than wait for a routine outpatient appointment."
+    ]
+
+];
           foreach ($faqs as $index => $faq):
           ?>
             <div class="bg-white rounded-xl shadow-sm overflow-hidden border border-gray-100">
@@ -605,79 +626,167 @@ include dirname(__DIR__) . '/includes/head.php';
   </section>
 
   <!-- Schema Markup -->
-  <?php
-  $page_url = "https://akropolishospital.com/orthopedic-hospital/haryana/$district_name/";
-  ?>
+ <!-- ==========================================
+     STRUCTURED DATA
+     District Orthopedic Landing Pages
+=========================================== -->
 
-  <!-- Breadcrumb Schema -->
-  <script type="application/ld+json">
-  {
-    "@context": "https://schema.org",
-    "@type": "BreadcrumbList",
-    "itemListElement": [{
-      "@type": "ListItem",
-      "position": 1,
-      "name": "Home",
-      "item": "https://akropolishospital.com/"
-    },{
-      "@type": "ListItem",
-      "position": 2,
-      "name": "Orthopedics",
-      "item": "https://akropolishospital.com/orthopedics.php"
-    },{
-      "@type": "ListItem",
-      "position": 3,
-      "name": "<?php echo $district_display; ?>",
-      "item": "<?php echo $page_url; ?>"
-    }]
-  }
-  </script>
+<?php
 
-  <!-- FAQ Schema -->
-  <script type="application/ld+json">
-  {
-    "@context": "https://schema.org",
-    "@type": "FAQPage",
-    "mainEntity": [
-      <?php foreach ($faqs as $index => $faq): ?>
-      {
-        "@type": "Question",
-        "name": "<?php echo addslashes(str_replace(['<?php', '?>'], '', $faq['q'])); ?>",
-        "acceptedAnswer": {
-          "@type": "Answer",
-          "text": "<?php echo addslashes(str_replace(['<?php', '?>'], '', $faq['a'])); ?>"
-        }
-      }<?php echo $index < count($faqs) - 1 ? ',' : ''; ?>
-      <?php endforeach; ?>
+// Page URLs
+$site_url = 'https://akropolishospital.com/';
+
+$page_url = $site_url . 'orthopedic-hospital/haryana/' . $district_name . '/';
+
+
+// ==========================================
+// 1. BREADCRUMB SCHEMA
+// ==========================================
+
+$breadcrumbSchema = [
+
+    '@context' => 'https://schema.org',
+
+    '@type' => 'BreadcrumbList',
+
+    'itemListElement' => [
+
+        [
+            '@type' => 'ListItem',
+            'position' => 1,
+            'name' => 'Home',
+            'item' => $site_url
+        ],
+
+        [
+            '@type' => 'ListItem',
+            'position' => 2,
+            'name' => 'Orthopedics',
+            'item' => $site_url . 'orthopedics.php'
+        ],
+
+        [
+            '@type' => 'ListItem',
+            'position' => 3,
+            'name' => $district_display,
+            'item' => $page_url
+        ]
+
     ]
-  }
-  </script>
 
-  <!-- LocalBusiness Schema -->
-  <script type="application/ld+json">
-  {
-    "@context": "https://schema.org",
-    "@type": "Hospital",
-    "name": "Akropolis Super Speciality Hospital - Orthopedics",
-    "description": "<?php echo $meta_description; ?>",
-    "url": "<?php echo $page_url; ?>",
-    "telephone": "<?php echo CONTACT_INFO['phone']; ?>",
-    "address": {
-      "@type": "PostalAddress",
-      "streetAddress": "Sector 69",
-      "addressLocality": "Gurugram",
-      "addressRegion": "Haryana",
-      "postalCode": "122101",
-      "addressCountry": "IN"
-    },
-    "geo": {
-      "@type": "GeoCoordinates",
-      "latitude": "28.569",
-      "longitude": "77.307"
-    },
-    "medicalSpecialty": "OrthopedicSurgery"
-  }
-  </script>
+];
+
+
+// ==========================================
+// 2. WEBPAGE SCHEMA
+// ==========================================
+
+$webPageSchema = [
+
+    '@context' => 'https://schema.org',
+
+    '@type' => 'WebPage',
+
+    '@id' => $page_url . '#webpage',
+
+    'url' => $page_url,
+
+    'name' => $meta_title,
+
+    'description' => $meta_description,
+
+    'inLanguage' => 'en-IN',
+
+    'publisher' => [
+
+        '@type' => 'Organization',
+
+        'name' => 'Akropolis Super Speciality Hospital',
+
+        'url' => $site_url
+
+    ]
+
+];
+
+
+// ==========================================
+// 3. FAQPAGE SCHEMA
+// ==========================================
+
+$faqSchema = [
+
+    '@context' => 'https://schema.org',
+
+    '@type' => 'FAQPage',
+
+    'mainEntity' => []
+
+];
+
+foreach ($faqs as $faq) {
+
+    $faqSchema['mainEntity'][] = [
+
+        '@type' => 'Question',
+
+        'name' => $faq['q'],
+
+        'acceptedAnswer' => [
+
+            '@type' => 'Answer',
+
+            'text' => $faq['a']
+
+        ]
+
+    ];
+
+}
+
+
+// ==========================================
+// 4. SAFE JSON-LD OUTPUT
+// ==========================================
+
+$schemaFlags = JSON_UNESCAPED_SLASHES
+    | JSON_UNESCAPED_UNICODE
+    | JSON_HEX_TAG
+    | JSON_HEX_APOS
+    | JSON_HEX_AMP
+    | JSON_HEX_QUOT;
+
+
+// BreadcrumbList
+$breadcrumbJson = json_encode($breadcrumbSchema, $schemaFlags);
+
+if ($breadcrumbJson !== false) {
+    echo '<script type="application/ld+json">' . "\n";
+    echo $breadcrumbJson;
+    echo "\n</script>\n";
+}
+
+
+// WebPage
+$webPageJson = json_encode($webPageSchema, $schemaFlags);
+
+if ($webPageJson !== false) {
+    echo '<script type="application/ld+json">' . "\n";
+    echo $webPageJson;
+    echo "\n</script>\n";
+}
+
+
+// FAQPage
+$faqJson = json_encode($faqSchema, $schemaFlags);
+
+if ($faqJson !== false) {
+    echo '<script type="application/ld+json">' . "\n";
+    echo $faqJson;
+    echo "\n</script>\n";
+}
+
+?>
 </main>
 
 <script>
