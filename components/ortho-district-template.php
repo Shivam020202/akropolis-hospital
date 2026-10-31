@@ -357,7 +357,14 @@ include dirname(__DIR__) . '/includes/head.php';
       <div class="grid lg:grid-cols-2 gap-16 items-center">
         <div class="relative floating-card">
           <div class="relative overflow-hidden rounded-3xl shadow-2xl img-zoom">
-            <img width="800" height="600" src="/assets/images/homepage/akropolis-hospital-location-entrance.webp" alt="Akropolis Super Speciality Hospital" class="w-full h-[500px] object-cover" />
+            <img
+    src="/assets/images/shared-template/akropolis-about-hospital.webp"
+    alt="Akropolis Super Speciality Hospital in Sector 69, Gurugram"
+    width="1920"
+    height="1080"
+    class="w-full h-auto object-contain"
+    loading="lazy"
+/>
           </div>
           <div class="absolute -bottom-6 -left-6 bg-[#328CCB] text-white rounded-2xl shadow-xl p-6">
             <div class="text-4xl font-bold mb-1">15+</div>
