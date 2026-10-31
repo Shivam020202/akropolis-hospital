@@ -157,12 +157,12 @@ include dirname(__DIR__) . '/includes/head.php';
         <!-- Hero Image -->
         <div class="relative hero-image">
           <div class="relative overflow-hidden rounded-3xl shadow-2xl img-zoom">
-            <img
-    width="800"
-    height="600"
-    src="\assets\images\Shared Template\akropolis-orthopaedic-district-hero.webp"
-    alt="<?php echo htmlspecialchars($target_keyword, ENT_QUOTES, 'UTF-8'); ?> - Expert Orthopedic Care"
-    class="w-full h-[400px] lg:h-[500px] object-cover"
+           <img
+    src="/assets/images/shared-template/akropolis-orthopaedic-district-hero.webp"
+    alt="<?php echo htmlspecialchars($target_keyword, ENT_QUOTES, 'UTF-8'); ?> - Orthopaedic Care at Akropolis Super Speciality Hospital"
+    width="1920"
+    height="1080"
+    class="w-full h-auto object-contain"
     loading="eager"
     fetchpriority="high"
 />
