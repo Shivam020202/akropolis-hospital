@@ -85,7 +85,7 @@ include __DIR__ . '/../includes/head.php';
                     </div>
                     <h3 class="text-xl font-bold text-gray-900 leading-snug mb-4">Akropolis Super Speciality Hospital: Grand Opening Marks a New Era in Healthcare</h3>
                     <p class="text-gray-600 leading-relaxed mb-6 flex-grow">Announcement covering the grand opening of Akropolis Super Speciality Hospital in Gurugram.</p>
-                    <a href="https://www.aninews.in/news/business/business/akropolis-super-speciality-hospital-grand-opening-marks-a-new-era-in-healthcare20231023182225/" target="_blank" rel="noopener noreferrer" class="inline-flex items-center gap-2 text-[#D66C43] font-semibold hover:underline">
+                    <a href="https://www.aninews.in/news/business/business/akropolis-super-speciality-hospital-grand-opening-marks-a-new-era-in-healthcare20231023182225/" target="_blank" rel="nofollow noopener noreferrer" class="inline-flex items-center gap-2 text-[#D66C43] font-semibold hover:underline">
                         Read on ANI News <?php echo getIcon('ExternalLink', 'h-4 w-4'); ?>
                     </a>
                 </article>
@@ -97,7 +97,7 @@ include __DIR__ . '/../includes/head.php';
                     </div>
                     <h3 class="text-xl font-bold text-gray-900 leading-snug mb-4">Akropolis Super Speciality Hospital: Grand Opening Marks a New Era in Healthcare</h3>
                     <p class="text-gray-600 leading-relaxed mb-6 flex-grow">The grand opening announcement carried in ThePrint’s ANI Press Releases section.</p>
-                    <a href="https://theprint.in/ani-press-releases/akropolis-super-speciality-hospital-grand-opening-marks-a-new-era-in-healthcare/1815783/" target="_blank" rel="noopener noreferrer" class="inline-flex items-center gap-2 text-[#D66C43] font-semibold hover:underline">
+                    <a href="https://theprint.in/ani-press-releases/akropolis-super-speciality-hospital-grand-opening-marks-a-new-era-in-healthcare/1815783/" target="_blank" rel="nofollow noopener noreferrer" class="inline-flex items-center gap-2 text-[#D66C43] font-semibold hover:underline">
                         Read on ThePrint <?php echo getIcon('ExternalLink', 'h-4 w-4'); ?>
                     </a>
                 </article>
@@ -113,7 +113,7 @@ include __DIR__ . '/../includes/head.php';
                         The publisher states that the content was provided by PNN and that no Business
                         Standard journalist was involved in its creation.
                     </p>
-                    <a href="https://www.business-standard.com/content/press-releases-ani/akropolis-super-speciality-hospital-grand-opening-marks-a-new-era-in-healthcare-123102300839_1.html" target="_blank" rel="noopener noreferrer" class="inline-flex items-center gap-2 text-[#D66C43] font-semibold hover:underline">
+                    <a href="https://www.business-standard.com/content/press-releases-ani/akropolis-super-speciality-hospital-grand-opening-marks-a-new-era-in-healthcare-123102300839_1.html" target="_blank" rel="nofollow noopener noreferrer" class="inline-flex items-center gap-2 text-[#D66C43] font-semibold hover:underline">
                         Read on Business Standard <?php echo getIcon('ExternalLink', 'h-4 w-4'); ?>
                     </a>
                 </article>
@@ -125,7 +125,7 @@ include __DIR__ . '/../includes/head.php';
                     </div>
                     <h3 class="text-xl font-bold text-gray-900 leading-snug mb-4">Akropolis Super Speciality Hospital opens in Haryana, India</h3>
                     <p class="text-gray-600 leading-relaxed mb-6 flex-grow">Healthcare industry coverage announcing the opening of Akropolis Super Speciality Hospital.</p>
-                    <a href="https://www.hospitalmanagement.net/news/akropolis-super-speciality-hospital/" target="_blank" rel="noopener noreferrer" class="inline-flex items-center gap-2 text-[#D66C43] font-semibold hover:underline">
+                    <a href="https://www.hospitalmanagement.net/news/akropolis-super-speciality-hospital/" target="_blank" rel="nofollow noopener noreferrer" class="inline-flex items-center gap-2 text-[#D66C43] font-semibold hover:underline">
                         Read on Hospital Management <?php echo getIcon('ExternalLink', 'h-4 w-4'); ?>
                     </a>
                 </article>
