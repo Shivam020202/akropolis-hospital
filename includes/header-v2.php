@@ -47,7 +47,7 @@
               data-page="<?php echo $item['page'] ?? ''; ?>"
             >
               <span><?php echo $item['name']; ?></span>
-              <?php if (isset($item['hasMegaMenu']) || isset($item['hasDropdown'])): ?>
+              <?php if (isset($item['hasMegaMenu']) || isset($item['hasDropdown']) || !empty($item['children'])): ?>
                 <?php echo getIcon('ChevronDown', 'h-4 w-4 transition-transform duration-200'); ?>
               <?php endif; ?>
             </a>
