@@ -21,16 +21,7 @@
         <?php
         $navigation = [
             ['name' => 'Home', 'href' => '/', 'page' => 'home'],
-             [
-        'name' => 'About',
-        'href' => '/about',
-        'page' => 'about',
-        'hasDropdown' => true,
-        'children' => [
-            ['name' => 'About Akropolis', 'href' => '/about', 'page' => 'about'],
-            ['name' => 'Press & Media', 'href' => '/press-media', 'page' => 'press-media']
-        ]
-    ],
+            ['name' => 'About', 'href' => '/about', 'page' => 'about'],
             ['name' => 'Departments', 'href' => '/departments', 'page' => 'departments', 'hasMegaMenu' => true],
             ['name' => 'Doctors', 'href' => '/doctors', 'page' => 'doctors'],
             ['name' => 'Services', 'href' => '/departments#services', 'hasDropdown' => true],
