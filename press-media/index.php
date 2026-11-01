@@ -105,7 +105,7 @@ include __DIR__ . '/../includes/head.php';
                 <article class="bg-white border border-gray-200 rounded-2xl p-7 shadow-sm hover:shadow-lg transition-shadow duration-300 flex flex-col">
                     <div class="flex items-center justify-between gap-3 mb-5">
                         <span class="text-xl font-bold text-gray-900">Business Standard</span>
-                        <span class="text-xs font-semibold text-[#D66C43] bg-[#D66C43]/10 px-3 py-2 rounded-full">Sponsored content</span>
+                        <span class="text-xs font-semibold text-[#328CCB] bg-[#328CCB]/10 px-3 py-2 rounded-full">ANI press release</span>
                     </div>
                     <h3 class="text-xl font-bold text-gray-900 leading-snug mb-4">Akropolis Super Speciality Hospital: Grand Opening Marks a New Era in Healthcare</h3>
                     <p class="text-gray-600 leading-relaxed mb-6 flex-grow">
@@ -132,9 +132,7 @@ include __DIR__ . '/../includes/head.php';
             </div>
 
             <p class="max-w-6xl mx-auto mt-8 text-sm text-gray-500 leading-relaxed">
-                Editorial note: The ANI News, ThePrint and Business Standard placements relate to
-                press-release/partner content about the same hospital opening announcement. They are
-                presented as separate publication placements, not as three independent editorial endorsements.
+                Editorial transparency: The ANI News, ThePrint and Business Standard features share the same hospital opening announcement distributed through press-release channels. They are listed as separate publication placements and should not be interpreted as independent editorial endorsements.
             </p>
         </div>
     </section>
