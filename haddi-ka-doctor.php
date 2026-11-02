@@ -637,10 +637,6 @@ include __DIR__ . '/includes/header-v2.php';
 
             </ul>
 
-            <p class="text-xs text-gray-500 mt-4">
-              Selected publications based on the doctor profile supplied by the hospital.
-            </p>
-
           </div>
 
 
