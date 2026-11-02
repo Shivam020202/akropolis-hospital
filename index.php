@@ -516,16 +516,6 @@ All over good experience',
     ],
 
     [
-        'name' => 'Sonia Manger',
-        'image' => '/assets/images/google-reviews/sonia-manger.png',
-        'date' => '9 weeks ago',
-        'rating' => 5,
-        'review' => 'Our experience at the hospital was really good. Dr. Shashi Kant, Neurologist, is a highly experienced and excellent doctor. He treated my brother with great care and guided us throughout the treatment. We stayed here for four days, and although it was a very difficult time for our family, we felt safe and comfortable. We even spent our nights sleeping peacefully in the waiting area. The cafeteria also became our second home during those four days. The person working there was very kind, helpful, and welcoming, which made our difficult days a little easier.
-We are truly grateful to Dr. Shashi Kant and the entire hospital team for their care, support, and kindness',
-        'url' => 'https://maps.app.goo.gl/iotxFPg7yqvyhqDU6'
-    ],
-
-    [
         'name' => 'Anil Yadav',
         'image' => '/assets/images/google-reviews/anil-yadav.png',
         'date' => '9 weeks ago',
