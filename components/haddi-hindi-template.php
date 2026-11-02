@@ -223,20 +223,30 @@ if (
         . ltrim($doctorImageSchema, '/');
 }
 
+
 /* -----------------------------------------------
-   9. DISTRICT-SPECIFIC SEO METADATA
+   9. DYNAMIC DISTRICT-SPECIFIC SEO METADATA
 ------------------------------------------------ */
 
+// Dynamic SEO title.
 $page_title =
-    'Haddi Ka Doctor for '
-    . $district_display
-    . ' Patients | Dr. Prateek Girotra';
+    'Haddi Ka Doctor for ' . $district_display .
+    ' Patients | Dr. Prateek Girotra';
+
+// Dynamic meta description.
+$metaPhone = $appointmentTel !== ''
+    ? $appointmentTel
+    : '9100009744';
 
 $page_description =
-    $district_display
-    . ' से Gurugram में डॉ. प्रतीक गिरोत्रा से Trauma, Joint Replacement और Arthroscopy के लिए परामर्श लें। Akropolis Hospital में अपॉइंटमेंट बुक करें।';
+    $district_display .
+    ' से Gurugram में डॉ. प्रतीक गिरोत्रा से Trauma, Joint Replacement व Arthroscopy के लिए परामर्श लें। Akropolis Hospital: ' .
+    $metaPhone . '.';
 
+// Maintain compatibility with head.php.
+$meta_title = $page_title;
 $meta_description = $page_description;
+
 
 include dirname(__DIR__) . '/includes/head.php';
 
