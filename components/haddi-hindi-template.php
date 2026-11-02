@@ -223,7 +223,6 @@ if (
         . ltrim($doctorImageSchema, '/');
 }
 
-
 /* -----------------------------------------------
    9. DYNAMIC DISTRICT-SPECIFIC SEO METADATA
 ------------------------------------------------ */
@@ -234,14 +233,9 @@ $page_title =
     ' Patients | Dr. Prateek Girotra';
 
 // Dynamic meta description.
-$metaPhone = $appointmentTel !== ''
-    ? $appointmentTel
-    : '9100009744';
-
 $page_description =
     $district_display .
-    ' से Gurugram में डॉ. प्रतीक गिरोत्रा से Trauma, Joint Replacement व Arthroscopy के लिए परामर्श लें। Akropolis Hospital: ' .
-    $metaPhone . '.';
+    ' से Gurugram में Dr. Prateek Girotra से Orthopedic परामर्श लें। Trauma, Joint Replacement व Arthroscopy के लिए Akropolis Hospital से संपर्क करें।';
 
 // Maintain compatibility with head.php.
 $meta_title = $page_title;
