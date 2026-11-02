@@ -456,6 +456,373 @@ include 'includes/head.php';
     </div>
   </section>
 
+  
+<?php
+/**
+ * Akropolis Super Speciality Hospital
+ * Google Reviews Homepage Section
+ */
+
+$google_rating = '4.7';
+$google_review_count = '1,655';
+
+$google_review_cta = 'https://g.page/r/Cb2miHWP9JTyEBE/review';
+
+$google_reviews = [
+
+    [
+        'name' => 'Vijendra Singh',
+        'image' => '/assets/images/google-reviews/vijendra-singh.png',
+        'date' => '3 days ago',
+        'rating' => 5,
+        'review' => 'Nice Experience..
+Very very satisfied with staff and doctors and hospital..',
+        'url' => 'https://maps.app.goo.gl/moCjQsgkca74rZfAA'
+    ],
+
+    [
+        'name' => 'Vikash Sharma',
+        'image' => '/assets/images/google-reviews/vikash-sharma.png',
+        'date' => '3 weeks ago',
+        'rating' => 5,
+        'review' => 'Behaviour of staff is so good and they are so helpfull.
+
+They all are very carefully handling patients and keep maintain higiene.',
+        'url' => 'https://maps.app.goo.gl/FDg9J44iMR7kx4CS9'
+    ],
+
+    [
+        'name' => 'Vipin Kumar',
+        'image' => '/assets/images/google-reviews/vipin-kumar.png',
+        'date' => '4 weeks ago',
+        'rating' => 5,
+        'review' => 'Dr very good
+Nursing staff very good',
+        'url' => 'https://maps.app.goo.gl/kXFQfb6DfHrbDejh7'
+    ],
+
+    [
+        'name' => 'Suresh Kumar',
+        'image' => '/assets/images/google-reviews/suresh-kumar.png',
+        'date' => '8 weeks ago',
+        'rating' => 5,
+        'review' => 'Nice experience
+Good doctors
+Dr Sunil sir
+Dr jona
+Treatment is very very good
+All over good experience',
+        'url' => 'https://maps.app.goo.gl/fPoHDfo84tBKmd3H9'
+    ],
+
+    [
+        'name' => 'Sonia Manger',
+        'image' => '/assets/images/google-reviews/sonia-manger.png',
+        'date' => '9 weeks ago',
+        'rating' => 5,
+        'review' => 'Our experience at the hospital was really good. Dr. Shashi Kant, Neurologist, is a highly experienced and excellent doctor. He treated my brother with great care and guided us throughout the treatment. We stayed here for four days, and although it was a very difficult time for our family, we felt safe and comfortable. We even spent our nights sleeping peacefully in the waiting area. The cafeteria also became our second home during those four days. The person working there was very kind, helpful, and welcoming, which made our difficult days a little easier.
+We are truly grateful to Dr. Shashi Kant and the entire hospital team for their care, support, and kindness',
+        'url' => 'https://maps.app.goo.gl/iotxFPg7yqvyhqDU6'
+    ],
+
+    [
+        'name' => 'Anil Yadav',
+        'image' => '/assets/images/google-reviews/anil-yadav.png',
+        'date' => '9 weeks ago',
+        'rating' => 5,
+        'review' => 'EXCELLENT SERVICE
+NICE EXPERIENCE
+GOOD STAFF AND DOCTORS..',
+        'url' => 'https://maps.app.goo.gl/j1gRvLjaysM3osj78'
+    ],
+
+    [
+        'name' => 'Brajesh Kumar',
+        'image' => '/assets/images/google-reviews/brajesh-kumar.png',
+        'date' => '13 weeks ago',
+        'rating' => 5,
+        'review' => 'Good service',
+        'url' => 'https://maps.app.goo.gl/7ze1p1LCrnNARWNq9'
+    ],
+
+    [
+        'name' => 'Shwetank Mishra',
+        'image' => '/assets/images/google-reviews/shwetank-mishra.png',
+        'date' => '15 weeks ago',
+        'rating' => 5,
+        'review' => 'Best surgeon dr. Prateek girotra and best treatment Akropolis hospital badshapur and supportive staff',
+        'url' => 'https://maps.app.goo.gl/dJ6fWiq9aY3oXhfRA'
+    ]
+
+];
+?>
+
+<!-- =====================================================
+     AKROPOLIS GOOGLE REVIEWS SECTION
+====================================================== -->
+
+<section id="google-reviews"
+         class="ak-google-reviews py-16 lg:py-20 bg-white">
+
+    <div class="container mx-auto px-4">
+
+        <!-- Section Heading -->
+        <div class="text-center mb-10">
+
+            <span class="inline-block text-sm font-semibold
+                         tracking-wider uppercase
+                         text-[#328CCB] mb-3">
+                Patient Experiences
+            </span>
+
+            <h2 class="text-3xl md:text-4xl font-bold
+                       text-gray-900 mb-3">
+                What Our Patients Say
+            </h2>
+
+            <p class="text-gray-600 max-w-2xl mx-auto">
+                Discover genuine patient experiences and feedback
+                about Akropolis Super Speciality Hospital, Gurugram.
+            </p>
+
+        </div>
+
+
+        <!-- Google Rating Summary -->
+        <div class="ak-google-summary
+                    bg-gray-50 border border-gray-100
+                    rounded-2xl p-6 md:p-8 mb-8
+                    flex flex-col md:flex-row
+                    items-center justify-between gap-6">
+
+            <div class="text-center md:text-left">
+
+                <h3 class="text-2xl font-bold text-gray-900 mb-2">
+                    Google Reviews
+                </h3>
+
+                <div class="flex items-center justify-center
+                            md:justify-start gap-3">
+
+                    <span class="text-5xl font-bold text-gray-800">
+                        <?php echo htmlspecialchars($google_rating, ENT_QUOTES, 'UTF-8'); ?>
+                    </span>
+
+                    <div>
+
+                        <div class="text-2xl tracking-wider
+                                    text-[#F4B400]"
+                             aria-label="5 out of 5 stars">
+                            ★★★★★
+                        </div>
+
+                        <p class="text-sm text-gray-500">
+                            (<?php echo htmlspecialchars($google_review_count, ENT_QUOTES, 'UTF-8'); ?> reviews)
+                        </p>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+
+            <!-- Google Review CTA -->
+            <a href="<?php echo htmlspecialchars($google_review_cta, ENT_QUOTES, 'UTF-8'); ?>"
+               target="_blank"
+               rel="nofollow noopener noreferrer"
+               class="inline-flex items-center justify-center
+                      gap-2 bg-[#328CCB]
+                      hover:bg-[#267BB7] text-white
+                      font-semibold px-7 py-4 rounded-xl
+                      transition-all duration-200
+                      shadow-md hover:shadow-lg">
+
+                Review Us on Google
+
+                <span aria-hidden="true">↗</span>
+
+            </a>
+
+        </div>
+
+
+        <!-- Review Cards -->
+        <div class="relative">
+
+            <div class="ak-google-reviews-track
+                        flex gap-5 overflow-x-auto
+                        pb-5 snap-x snap-mandatory"
+                 aria-label="Google patient reviews">
+
+                <?php foreach ($google_reviews as $review): ?>
+
+                    <article class="ak-google-review-card
+                                    flex-shrink-0
+                                    w-[285px] md:w-[320px]
+                                    bg-gray-50 border border-gray-100
+                                    rounded-2xl p-5 md:p-6
+                                    snap-start flex flex-col">
+
+                        <!-- Reviewer Profile -->
+                        <div class="flex items-center gap-3 mb-5">
+
+                            <img
+                                src="<?php echo htmlspecialchars($review['image'], ENT_QUOTES, 'UTF-8'); ?>"
+                                alt="<?php echo htmlspecialchars($review['name'], ENT_QUOTES, 'UTF-8'); ?>"
+                                width="52"
+                                height="52"
+                                loading="lazy"
+                                decoding="async"
+                                class="w-12 h-12 rounded-full
+                                       object-cover border border-gray-200"
+                            />
+
+                            <div class="min-w-0">
+
+                                <h3 class="font-semibold
+                                           text-gray-900 truncate">
+                                    <?php echo htmlspecialchars($review['name'], ENT_QUOTES, 'UTF-8'); ?>
+                                </h3>
+
+                                <p class="text-sm text-gray-500">
+                                    <?php echo htmlspecialchars($review['date'], ENT_QUOTES, 'UTF-8'); ?>
+                                </p>
+
+                            </div>
+
+                            <span class="ml-auto text-[#4285F4]
+                                         font-bold text-lg"
+                                  aria-label="Google">
+                                G
+                            </span>
+
+                        </div>
+
+
+                        <!-- Star Rating -->
+                        <div class="text-[#F4B400] text-xl
+                                    tracking-wider mb-4"
+                             aria-label="<?php echo (int)$review['rating']; ?> out of 5 stars">
+
+                            <?php echo str_repeat('★', (int)$review['rating']); ?>
+
+                        </div>
+
+
+                        <!-- Exact Google Review -->
+                        <p class="text-gray-700 text-sm
+                                  leading-7 flex-grow
+                                  whitespace-pre-line">
+                            <?php echo htmlspecialchars(
+                                $review['review'],
+                                ENT_QUOTES,
+                                'UTF-8'
+                            ); ?>
+                        </p>
+
+
+                        <!-- Individual Google Review Link -->
+                        <a
+                            href="<?php echo htmlspecialchars($review['url'], ENT_QUOTES, 'UTF-8'); ?>"
+                            target="_blank"
+                            rel="nofollow noopener noreferrer"
+                            class="inline-flex items-center gap-2
+                                   mt-5 pt-4 border-t
+                                   border-gray-200
+                                   text-[#328CCB] font-semibold
+                                   hover:text-[#D66C43]
+                                   transition-colors"
+                        >
+                            View on Google
+                            <span aria-hidden="true">↗</span>
+                        </a>
+
+                    </article>
+
+                <?php endforeach; ?>
+
+            </div>
+
+
+            <!-- Scroll Guidance -->
+            <p class="text-center text-sm text-gray-500 mt-3">
+                Swipe or scroll to explore more patient reviews.
+            </p>
+
+        </div>
+
+
+        <!-- Bottom CTA -->
+        <div class="text-center mt-8">
+
+            <a href="<?php echo htmlspecialchars($google_review_cta, ENT_QUOTES, 'UTF-8'); ?>"
+               target="_blank"
+               rel="nofollow noopener noreferrer"
+               class="inline-flex items-center gap-2
+                      text-[#D66C43] font-semibold
+                      hover:text-[#328CCB]
+                      transition-colors">
+
+                Share Your Experience on Google
+                <span aria-hidden="true">→</span>
+
+            </a>
+
+        </div>
+
+    </div>
+
+</section>
+
+
+<!-- Google Reviews Styling -->
+<style>
+
+.ak-google-reviews-track {
+    scrollbar-width: thin;
+    scrollbar-color: #328CCB #f3f4f6;
+    -webkit-overflow-scrolling: touch;
+}
+
+.ak-google-reviews-track::-webkit-scrollbar {
+    height: 6px;
+}
+
+.ak-google-reviews-track::-webkit-scrollbar-track {
+    background: #f3f4f6;
+    border-radius: 20px;
+}
+
+.ak-google-reviews-track::-webkit-scrollbar-thumb {
+    background: #328CCB;
+    border-radius: 20px;
+}
+
+.ak-google-review-card {
+    min-height: 330px;
+}
+
+.ak-google-review-card img {
+    flex-shrink: 0;
+}
+
+@media (max-width: 640px) {
+
+    .ak-google-review-card {
+        min-height: 320px;
+        width: 85%;
+    }
+
+    .ak-google-summary {
+        text-align: center;
+    }
+
+}
+
+</style>
+
+
   <!-- Insurance Section -->
   <section class="py-16 bg-white overflow-hidden section-fade">
     <div class="container mx-auto px-4">
