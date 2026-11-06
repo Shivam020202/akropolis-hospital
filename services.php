@@ -432,63 +432,6 @@ include 'includes/head.php';
         </div>
     </section>
 
-
-    <!-- =========================================================
-         INTERNAL NAVIGATION
-    ========================================================== -->
-    <section class="py-10 bg-white border-t border-gray-100">
-
-        <div class="container mx-auto px-4">
-
-            <div class="flex flex-wrap justify-center gap-3">
-
-                <a
-                    href="/"
-                    class="px-5 py-3 rounded-lg bg-gray-50 hover:bg-[#328CCB]/10 text-gray-700 hover:text-[#328CCB] font-medium transition-colors"
-                >
-                    Home
-                </a>
-
-                <a
-                    href="/about"
-                    class="px-5 py-3 rounded-lg bg-gray-50 hover:bg-[#328CCB]/10 text-gray-700 hover:text-[#328CCB] font-medium transition-colors"
-                >
-                    About Akropolis
-                </a>
-
-                <a
-                    href="/departments"
-                    class="px-5 py-3 rounded-lg bg-gray-50 hover:bg-[#328CCB]/10 text-gray-700 hover:text-[#328CCB] font-medium transition-colors"
-                >
-                    Departments
-                </a>
-
-                <a
-                    href="/doctors"
-                    class="px-5 py-3 rounded-lg bg-gray-50 hover:bg-[#328CCB]/10 text-gray-700 hover:text-[#328CCB] font-medium transition-colors"
-                >
-                    Doctors
-                </a>
-
-                <a
-                    href="/contact"
-                    class="px-5 py-3 rounded-lg bg-gray-50 hover:bg-[#328CCB]/10 text-gray-700 hover:text-[#328CCB] font-medium transition-colors"
-                >
-                    Contact
-                </a>
-
-                <a
-                    href="/press-media/"
-                    class="px-5 py-3 rounded-lg bg-gray-50 hover:bg-[#328CCB]/10 text-gray-700 hover:text-[#328CCB] font-medium transition-colors"
-                >
-                    Press &amp; Media
-                </a>
-
-            </div>
-
-        </div>
-    </section>
-
 </main>
 
 <!-- Footer -->
