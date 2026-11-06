@@ -1,8 +1,4 @@
 <?php
-ini_set('display_errors', 1);
-ini_set('display_startup_errors', 1);
-error_reporting(E_ALL);
-
 require_once __DIR__ . '/includes/data.php';
 require_once __DIR__ . '/includes/schema.php';
 
@@ -13,11 +9,7 @@ $page_description = 'Learn about Akropolis Super Speciality Hospital in Sector 6
 $canonical_url = '/about';
 
 $schema_blocks = [
-    schemaAboutPage(
-        'About Akropolis Super Speciality Hospital',
-        $page_description,
-        $canonical_url
-    ),
+    schemaWebPage(),
     schemaBreadcrumb([
         ['name' => 'Home', 'url' => '/'],
         ['name' => 'About', 'url' => '/about']
