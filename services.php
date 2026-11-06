@@ -1162,32 +1162,31 @@ include 'includes/head.php';
 
                     <?php foreach ($laboratory_services as $lab): ?>
 
-                        <a
-                            href="/laboratory"
-                            class="group flex items-center justify-between gap-4 p-5 rounded-2xl bg-gray-50 border border-gray-100 hover:border-[#328CCB]/30 hover:bg-[#328CCB]/5 transition-all"
-                        >
+    <div
+        class="group flex items-center justify-between gap-4 p-5 rounded-2xl bg-gray-50 border border-gray-100"
+    >
 
-                            <span
-                                class="font-semibold text-gray-800 group-hover:text-[#328CCB]"
-                            >
+        <span
+            class="font-semibold text-gray-800"
+        >
 
-                                <?php echo htmlspecialchars(
-                                    $lab,
-                                    ENT_QUOTES,
-                                    'UTF-8'
-                                ); ?>
+            <?php echo htmlspecialchars(
+                $lab,
+                ENT_QUOTES,
+                'UTF-8'
+            ); ?>
 
-                            </span>
+        </span>
 
 
-                            <?php echo getIcon(
-                                'ArrowRight',
-                                'h-4 w-4 text-gray-400 group-hover:text-[#328CCB]'
-                            ); ?>
+        <?php echo getIcon(
+            'ArrowRight',
+            'h-4 w-4 text-gray-400'
+        ); ?>
 
-                        </a>
+    </div>
 
-                    <?php endforeach; ?>
+<?php endforeach; ?>
 
                 </div>
 
