@@ -867,7 +867,7 @@ include 'includes/head.php';
                 <a
                     href="https://www.aninews.in/news/business/business/akropolis-super-speciality-hospital-grand-opening-marks-a-new-era-in-healthcare20231023182225/"
                     target="_blank"
-                    rel="noopener noreferrer"
+                    rel="nofollow noopener noreferrer"
                     class="group bg-white p-6 rounded-2xl border border-gray-100 hover:border-[#328CCB]/30 hover:shadow-lg transition-all"
                 >
 
@@ -895,7 +895,7 @@ include 'includes/head.php';
                 <a
                     href="https://theprint.in/ani-press-releases/akropolis-super-speciality-hospital-grand-opening-marks-a-new-era-in-healthcare/1815783/"
                     target="_blank"
-                    rel="noopener noreferrer"
+                    rel="nofollow noopener noreferrer"
                     class="group bg-white p-6 rounded-2xl border border-gray-100 hover:border-[#328CCB]/30 hover:shadow-lg transition-all"
                 >
 
@@ -923,7 +923,7 @@ include 'includes/head.php';
                 <a
                     href="https://www.business-standard.com/content/press-releases-ani/akropolis-super-speciality-hospital-grand-opening-marks-a-new-era-in-healthcare-123102300839_1.html"
                     target="_blank"
-                    rel="noopener noreferrer"
+                    rel="nofollow noopener noreferrer"
                     class="group bg-white p-6 rounded-2xl border border-gray-100 hover:border-[#328CCB]/30 hover:shadow-lg transition-all"
                 >
 
@@ -951,7 +951,7 @@ include 'includes/head.php';
                 <a
                     href="https://www.hospitalmanagement.net/news/akropolis-super-speciality-hospital/"
                     target="_blank"
-                    rel="noopener noreferrer"
+                    rel="nofollow noopener noreferrer"
                     class="group bg-white p-6 rounded-2xl border border-gray-100 hover:border-[#328CCB]/30 hover:shadow-lg transition-all"
                 >
 
