@@ -3,7 +3,9 @@ require_once 'includes/data.php';
 require_once 'includes/schema.php';
 
 $page_title = 'About Akropolis Super Speciality Hospital | Gurugram';
-$page_description = 'Learn about Akropolis Super Speciality Hospital in Sector 69, Gurugram, including its healthcare journey since 2000, NABH accreditation, medical departments, advanced diagnostic services and 24×7 emergency care.';
+
+$page_description = 'Learn about Akropolis Super Speciality Hospital in Sector 69, Gurugram, including its hospital opening on 23 October 2023, NABH accreditation, medical departments, diagnostic services and 24×7 emergency care.';
+
 $canonical_url = '/about';
 
 $schema_blocks = [
@@ -35,6 +37,7 @@ include 'includes/head.php';
 <div class="bg-[#D66C43] text-white py-2 px-4 text-center sticky top-0 z-50">
     <div class="container mx-auto flex items-center justify-center space-x-2">
         <?php echo getIcon('Phone', 'h-4 w-4'); ?>
+
         <span class="font-semibold text-sm md:text-base">
             Emergency 24×7:
             <?php echo htmlspecialchars(CONTACT_INFO['emergency'], ENT_QUOTES, 'UTF-8'); ?>
@@ -55,6 +58,7 @@ include 'includes/head.php';
         <div class="absolute inset-0 bg-gradient-to-br from-[#0F1A33] via-[#163B5C] to-[#328CCB]"></div>
 
         <div class="absolute -right-32 -top-32 w-96 h-96 rounded-full bg-[#328CCB]/20 blur-3xl"></div>
+
         <div class="absolute -left-32 bottom-0 w-96 h-96 rounded-full bg-[#D66C43]/10 blur-3xl"></div>
 
         <div class="container mx-auto px-4 py-20 lg:py-28 relative z-10">
@@ -66,6 +70,7 @@ include 'includes/head.php';
 
                     <div class="inline-flex items-center gap-2 bg-white/10 border border-white/20 rounded-full px-4 py-2 mb-6">
                         <?php echo getIcon('Award', 'h-5 w-5 text-yellow-300'); ?>
+
                         <span class="text-sm font-semibold">
                             NABH Accredited Hospital
                         </span>
@@ -80,9 +85,9 @@ include 'includes/head.php';
                     </h1>
 
                     <p class="text-lg lg:text-xl text-blue-100 leading-relaxed max-w-2xl mb-8">
-                        A healthcare institution serving patients in Gurugram since 2000,
-                        with medical departments, advanced diagnostic services and
-                        24×7 emergency care under one roof.
+                        A healthcare institution in Sector 69, Gurugram, opened on 23 October 2023,
+                        with medical departments, diagnostic services and 24×7 emergency
+                        care serving patients from Gurugram and surrounding areas.
                     </p>
 
                     <div class="flex flex-wrap gap-4">
@@ -136,6 +141,7 @@ include 'includes/head.php';
                             </div>
 
                             <div>
+
                                 <div class="font-bold text-sm mb-1">
                                     Our Location
                                 </div>
@@ -144,6 +150,7 @@ include 'includes/head.php';
                                     Near Vatika Chowk, Opposite Chinar Garden,
                                     Sector 69, Gurugram, Haryana 122101
                                 </div>
+
                             </div>
 
                         </div>
@@ -155,6 +162,7 @@ include 'includes/head.php';
             </div>
 
         </div>
+
     </section>
 
 
@@ -180,13 +188,12 @@ include 'includes/head.php';
                 </h2>
 
                 <p class="text-lg text-gray-600 leading-relaxed">
-                    Since 2000, Akropolis Super Speciality Hospital has continued
-                    to serve patients from Gurugram and surrounding areas with
-                    a broad range of medical and diagnostic services.
+                    Since opening on 23 October 2023, Akropolis Super Speciality Hospital
+                    has served patients from Gurugram and surrounding areas with
+                    medical and diagnostic services.
                 </p>
 
             </div>
-
 
             <div class="grid grid-cols-1 lg:grid-cols-2 gap-14 lg:gap-20 items-center">
 
@@ -212,7 +219,6 @@ include 'includes/head.php';
 
                 </div>
 
-
                 <!-- Content -->
                 <div>
 
@@ -226,9 +232,8 @@ include 'includes/head.php';
                     <div class="space-y-5 text-gray-600 leading-relaxed text-lg">
 
                         <p>
-                            Founded in 2000, Akropolis Super Speciality Hospital
-                            has developed into a healthcare destination in
-                            Sector 69, Gurugram, providing care across multiple
+                            Akropolis Super Speciality Hospital opened on 23 October 2023
+                            in Sector 69, Gurugram, providing care across multiple
                             medical specialties.
                         </p>
 
@@ -246,7 +251,6 @@ include 'includes/head.php';
                         </p>
 
                     </div>
-
 
                     <div class="grid grid-cols-1 sm:grid-cols-2 gap-5 mt-10">
 
@@ -266,7 +270,6 @@ include 'includes/head.php';
                             </p>
 
                         </div>
-
 
                         <div class="p-5 rounded-2xl bg-[#D66C43]/5 border border-[#D66C43]/10">
 
@@ -325,7 +328,6 @@ include 'includes/head.php';
 
             </div>
 
-
             <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6">
 
                 <!-- NABH -->
@@ -345,7 +347,6 @@ include 'includes/head.php';
                     </p>
 
                 </div>
-
 
                 <!-- Departments -->
                 <div class="bg-white rounded-3xl p-7 border border-gray-100 shadow-sm hover:shadow-lg transition-shadow">
@@ -374,7 +375,6 @@ include 'includes/head.php';
 
                 </div>
 
-
                 <!-- Diagnostics -->
                 <div class="bg-white rounded-3xl p-7 border border-gray-100 shadow-sm hover:shadow-lg transition-shadow">
 
@@ -400,7 +400,6 @@ include 'includes/head.php';
                     </a>
 
                 </div>
-
 
                 <!-- Emergency -->
                 <div class="bg-white rounded-3xl p-7 border border-gray-100 shadow-sm hover:shadow-lg transition-shadow">
@@ -474,39 +473,38 @@ include 'includes/head.php';
 
                 </div>
 
-
                 <div class="lg:col-span-2">
 
                     <div class="grid grid-cols-2 sm:grid-cols-3 gap-4">
 
                         <?php
                         $departments = [
-                            'Orthopedics',
-                            'Plastic Surgery',
-                            'Obstetrics & Gynecology',
-                            'Cardiology',
-                            'Neurology',
-                            'Nephrology',
-                            'Gastroenterology',
-                            'Pediatrics',
-                            'Dermatology',
-                            'ENT',
-                            'Ophthalmology',
-                            'Oncology'
+                            ['name' => 'Orthopedics', 'href' => '/orthopedics'],
+                            ['name' => 'Plastic Surgery', 'href' => '/plastic-surgery'],
+                            ['name' => 'Obstetrics & Gynecology', 'href' => '/obstetrics-gynecology'],
+                            ['name' => 'Cardiology', 'href' => '/cardiology'],
+                            ['name' => 'Neurology', 'href' => '/neurology'],
+                            ['name' => 'Nephrology', 'href' => '/nephrology'],
+                            ['name' => 'Gastroenterology', 'href' => '/gastroenterology'],
+                            ['name' => 'Pediatrics', 'href' => '/pediatrics'],
+                            ['name' => 'Dermatology', 'href' => '/dermatology'],
+                            ['name' => 'ENT', 'href' => '/ent'],
+                            ['name' => 'Ophthalmology', 'href' => '/ophthalmology'],
+                            ['name' => 'Oncology', 'href' => '/oncology']
                         ];
                         ?>
 
                         <?php foreach ($departments as $department): ?>
 
                             <a
-                                href="/departments"
+                                href="<?php echo htmlspecialchars($department['href'], ENT_QUOTES, 'UTF-8'); ?>"
                                 class="group p-5 rounded-2xl bg-gray-50 border border-gray-100 hover:border-[#328CCB]/30 hover:bg-[#328CCB]/5 transition-all"
                             >
 
                                 <div class="flex items-center justify-between gap-3">
 
                                     <span class="font-semibold text-gray-800 group-hover:text-[#328CCB] transition-colors">
-                                        <?php echo htmlspecialchars($department, ENT_QUOTES, 'UTF-8'); ?>
+                                        <?php echo htmlspecialchars($department['name'], ENT_QUOTES, 'UTF-8'); ?>
                                     </span>
 
                                     <?php echo getIcon('ArrowUpRight', 'h-4 w-4 text-gray-400 group-hover:text-[#328CCB]'); ?>
@@ -556,24 +554,23 @@ include 'includes/head.php';
 
             </div>
 
-
             <div class="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-6 gap-4">
 
                 <?php
                 $services = [
-                    'CT Scan',
-                    'Endoscopy',
-                    'Dialysis',
-                    'Laboratory',
-                    'Bronchoscopy',
-                    'Colonoscopy'
+                    ['name' => 'CT Scan', 'href' => '/ct-scan'],
+                    ['name' => 'Endoscopy', 'href' => '/endoscopy'],
+                    ['name' => 'Dialysis', 'href' => '/dialysis'],
+                    ['name' => 'Laboratory', 'href' => '/laboratory'],
+                    ['name' => 'Bronchoscopy', 'href' => '/bronchoscopy'],
+                    ['name' => 'Colonoscopy', 'href' => '/colonoscopy']
                 ];
                 ?>
 
                 <?php foreach ($services as $service): ?>
 
                     <a
-                        href="/services"
+                        href="<?php echo htmlspecialchars($service['href'], ENT_QUOTES, 'UTF-8'); ?>"
                         class="bg-white p-6 rounded-2xl border border-gray-100 text-center hover:border-[#328CCB]/30 hover:shadow-md transition-all"
                     >
 
@@ -582,7 +579,7 @@ include 'includes/head.php';
                         </div>
 
                         <span class="font-semibold text-gray-800 text-sm">
-                            <?php echo htmlspecialchars($service, ENT_QUOTES, 'UTF-8'); ?>
+                            <?php echo htmlspecialchars($service['name'], ENT_QUOTES, 'UTF-8'); ?>
                         </span>
 
                     </a>
@@ -623,7 +620,6 @@ include 'includes/head.php';
                 </p>
 
             </div>
-
 
             <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6">
 
@@ -700,39 +696,51 @@ include 'includes/head.php';
             <div class="grid grid-cols-2 lg:grid-cols-4 gap-8">
 
                 <div class="text-center">
+
                     <div class="text-4xl lg:text-5xl font-bold text-[#62B5F5] mb-2">
-                        2000
+                        23 Oct 2023
                     </div>
+
                     <div class="text-blue-100">
-                        Founded
+                        Hospital Opened
                     </div>
+
                 </div>
 
                 <div class="text-center">
+
                     <div class="text-4xl lg:text-5xl font-bold text-[#62B5F5] mb-2">
-                        50+
+                        12+
                     </div>
+
                     <div class="text-blue-100">
-                        Doctors
+                        Medical Departments
                     </div>
+
                 </div>
 
                 <div class="text-center">
+
                     <div class="text-4xl lg:text-5xl font-bold text-[#62B5F5] mb-2">
                         24×7
                     </div>
+
                     <div class="text-blue-100">
                         Emergency Care
                     </div>
+
                 </div>
 
                 <div class="text-center">
+
                     <div class="text-4xl lg:text-5xl font-bold text-[#62B5F5] mb-2">
                         NABH
                     </div>
+
                     <div class="text-blue-100">
                         Accredited
                     </div>
+
                 </div>
 
             </div>
@@ -752,6 +760,7 @@ include 'includes/head.php';
             <div class="bg-gradient-to-r from-[#328CCB] to-[#246EA3] rounded-3xl p-8 lg:p-14 text-white overflow-hidden relative">
 
                 <div class="absolute -right-20 -top-20 w-64 h-64 rounded-full bg-white/10"></div>
+
                 <div class="absolute -left-20 -bottom-20 w-64 h-64 rounded-full bg-white/5"></div>
 
                 <div class="relative z-10 grid grid-cols-1 lg:grid-cols-2 gap-10 items-center">
@@ -773,7 +782,6 @@ include 'includes/head.php';
                         </p>
 
                     </div>
-
 
                     <div class="bg-white/10 border border-white/20 rounded-2xl p-6">
 
@@ -797,7 +805,6 @@ include 'includes/head.php';
                             </div>
 
                         </div>
-
 
                         <div class="flex flex-wrap gap-3">
 
@@ -831,6 +838,167 @@ include 'includes/head.php';
 
 
     <!-- =========================================================
+         PRESS & MEDIA
+    ========================================================== -->
+    <section class="py-20 lg:py-24 bg-gray-50">
+
+        <div class="container mx-auto px-4">
+
+            <div class="max-w-3xl mx-auto text-center mb-12">
+
+                <div class="inline-flex items-center gap-2 bg-white text-[#328CCB] px-4 py-2 rounded-full text-sm font-semibold mb-5 border border-gray-100">
+                    <?php echo getIcon('Newspaper', 'h-4 w-4'); ?>
+                    Press &amp; Media
+                </div>
+
+                <h2 class="text-3xl lg:text-5xl font-bold text-gray-900 mb-5">
+                    Akropolis in the News
+                </h2>
+
+                <p class="text-lg text-gray-600 leading-relaxed">
+                    Explore published media coverage and announcements featuring
+                    Akropolis Super Speciality Hospital.
+                </p>
+
+            </div>
+
+            <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-5">
+
+                <a
+                    href="https://www.aninews.in/news/business/business/akropolis-super-speciality-hospital-grand-opening-marks-a-new-era-in-healthcare20231023182225/"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    class="group bg-white p-6 rounded-2xl border border-gray-100 hover:border-[#328CCB]/30 hover:shadow-lg transition-all"
+                >
+
+                    <div class="flex items-center justify-between mb-5">
+
+                        <span class="text-xs font-semibold text-[#328CCB] bg-[#328CCB]/10 px-3 py-1.5 rounded-full">
+                            ANI News
+                        </span>
+
+                        <?php echo getIcon('ExternalLink', 'h-4 w-4 text-gray-400 group-hover:text-[#328CCB]'); ?>
+
+                    </div>
+
+                    <h3 class="font-bold text-gray-900 leading-snug">
+                        Akropolis Super Speciality Hospital: Grand Opening Marks a New Era in Healthcare
+                    </h3>
+
+                    <p class="mt-3 text-sm text-gray-500">
+                        Press release coverage
+                    </p>
+
+                </a>
+
+
+                <a
+                    href="https://theprint.in/ani-press-releases/akropolis-super-speciality-hospital-grand-opening-marks-a-new-era-in-healthcare/1815783/"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    class="group bg-white p-6 rounded-2xl border border-gray-100 hover:border-[#328CCB]/30 hover:shadow-lg transition-all"
+                >
+
+                    <div class="flex items-center justify-between mb-5">
+
+                        <span class="text-xs font-semibold text-[#328CCB] bg-[#328CCB]/10 px-3 py-1.5 rounded-full">
+                            ThePrint
+                        </span>
+
+                        <?php echo getIcon('ExternalLink', 'h-4 w-4 text-gray-400 group-hover:text-[#328CCB]'); ?>
+
+                    </div>
+
+                    <h3 class="font-bold text-gray-900 leading-snug">
+                        Akropolis Super Speciality Hospital: Grand Opening Marks a New Era in Healthcare
+                    </h3>
+
+                    <p class="mt-3 text-sm text-gray-500">
+                        ANI press release
+                    </p>
+
+                </a>
+
+
+                <a
+                    href="https://www.business-standard.com/content/press-releases-ani/akropolis-super-speciality-hospital-grand-opening-marks-a-new-era-in-healthcare-123102300839_1.html"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    class="group bg-white p-6 rounded-2xl border border-gray-100 hover:border-[#328CCB]/30 hover:shadow-lg transition-all"
+                >
+
+                    <div class="flex items-center justify-between mb-5">
+
+                        <span class="text-xs font-semibold text-[#328CCB] bg-[#328CCB]/10 px-3 py-1.5 rounded-full">
+                            Business Standard
+                        </span>
+
+                        <?php echo getIcon('ExternalLink', 'h-4 w-4 text-gray-400 group-hover:text-[#328CCB]'); ?>
+
+                    </div>
+
+                    <h3 class="font-bold text-gray-900 leading-snug">
+                        Akropolis Super Speciality Hospital: Grand Opening Marks a New Era in Healthcare
+                    </h3>
+
+                    <p class="mt-3 text-sm text-gray-500">
+                        Sponsored content / press release
+                    </p>
+
+                </a>
+
+
+                <a
+                    href="https://www.hospitalmanagement.net/news/akropolis-super-speciality-hospital/"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    class="group bg-white p-6 rounded-2xl border border-gray-100 hover:border-[#328CCB]/30 hover:shadow-lg transition-all"
+                >
+
+                    <div class="flex items-center justify-between mb-5">
+
+                        <span class="text-xs font-semibold text-[#328CCB] bg-[#328CCB]/10 px-3 py-1.5 rounded-full">
+                            Hospital Management
+                        </span>
+
+                        <?php echo getIcon('ExternalLink', 'h-4 w-4 text-gray-400 group-hover:text-[#328CCB]'); ?>
+
+                    </div>
+
+                    <h3 class="font-bold text-gray-900 leading-snug">
+                        Akropolis Super Speciality Hospital opens in Haryana, India
+                    </h3>
+
+                    <p class="mt-3 text-sm text-gray-500">
+                        Industry coverage
+                    </p>
+
+                </a>
+
+            </div>
+
+            <div class="mt-8 flex flex-col sm:flex-row items-center justify-between gap-4 bg-white border border-gray-100 rounded-2xl p-5">
+
+                <p class="text-sm text-gray-500 leading-relaxed">
+                    The listed coverage includes published announcements and industry coverage related to Akropolis Super Speciality Hospital.
+                </p>
+
+                <a
+                    href="/press-media/"
+                    class="shrink-0 inline-flex items-center gap-2 text-[#328CCB] font-semibold"
+                >
+                    View Press &amp; Media
+                    <?php echo getIcon('ArrowRight', 'h-4 w-4'); ?>
+                </a>
+
+            </div>
+
+        </div>
+
+    </section>
+
+
+    <!-- =========================================================
          FINAL INTERNAL LINKS
     ========================================================== -->
     <section class="pb-20 bg-white">
@@ -843,18 +1011,25 @@ include 'includes/head.php';
                     href="/doctors"
                     class="group p-6 rounded-2xl border border-gray-200 hover:border-[#328CCB]/40 hover:shadow-md transition-all"
                 >
+
                     <div class="flex items-center justify-between">
+
                         <div>
+
                             <div class="text-sm text-gray-500 mb-1">
                                 Medical Team
                             </div>
+
                             <h3 class="font-bold text-gray-900">
                                 Meet Our Doctors
                             </h3>
+
                         </div>
 
                         <?php echo getIcon('ArrowRight', 'h-5 w-5 text-[#328CCB] group-hover:translate-x-1 transition-transform'); ?>
+
                     </div>
+
                 </a>
 
 
@@ -862,18 +1037,25 @@ include 'includes/head.php';
                     href="/departments"
                     class="group p-6 rounded-2xl border border-gray-200 hover:border-[#328CCB]/40 hover:shadow-md transition-all"
                 >
+
                     <div class="flex items-center justify-between">
+
                         <div>
+
                             <div class="text-sm text-gray-500 mb-1">
                                 Specialist Care
                             </div>
+
                             <h3 class="font-bold text-gray-900">
                                 Explore Departments
                             </h3>
+
                         </div>
 
                         <?php echo getIcon('ArrowRight', 'h-5 w-5 text-[#328CCB] group-hover:translate-x-1 transition-transform'); ?>
+
                     </div>
+
                 </a>
 
 
@@ -881,18 +1063,25 @@ include 'includes/head.php';
                     href="/contact"
                     class="group p-6 rounded-2xl border border-gray-200 hover:border-[#328CCB]/40 hover:shadow-md transition-all"
                 >
+
                     <div class="flex items-center justify-between">
+
                         <div>
+
                             <div class="text-sm text-gray-500 mb-1">
                                 Need Assistance?
                             </div>
+
                             <h3 class="font-bold text-gray-900">
                                 Contact Akropolis
                             </h3>
+
                         </div>
 
                         <?php echo getIcon('ArrowRight', 'h-5 w-5 text-[#328CCB] group-hover:translate-x-1 transition-transform'); ?>
+
                     </div>
+
                 </a>
 
             </div>
