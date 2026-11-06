@@ -96,13 +96,13 @@ include 'includes/head.php';
 
                 <!-- FIXED: Full internal URL + anchor -->
                 <a
-                    href="/services#diagnostic-services"
-                    class="inline-flex items-center gap-2 bg-white text-[#174B75] hover:bg-gray-100 px-6 py-3 rounded-lg font-semibold transition"
-                >
-                    Explore Diagnostic Services
-
-                    <?php echo getIcon('ArrowDown', 'h-5 w-5'); ?>
-                </a>
+    href="#diagnostic-services"
+    onclick="event.preventDefault(); document.getElementById('diagnostic-services').scrollIntoView({ behavior: 'smooth', block: 'start' });"
+    class="inline-flex items-center gap-2 bg-white text-[#174B75] hover:bg-gray-100 px-6 py-3 rounded-lg font-semibold transition"
+>
+    Explore Diagnostic Services
+    <?php echo getIcon('ArrowDown', 'h-5 w-5'); ?>
+</a>
 
 
                 <a
