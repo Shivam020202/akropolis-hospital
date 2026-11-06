@@ -615,8 +615,7 @@ include 'includes/head.php';
 
                 Diagnostic tests help doctors evaluate symptoms, investigate
                 medical conditions and monitor treatment. Akropolis provides
-                access to a range of diagnostic services included in its
-                NABH Scope of Services.
+                access to a range of diagnostic services.
 
             </p>
 
@@ -1408,10 +1407,7 @@ include 'includes/head.php';
 
             <p class="text-lg text-gray-600 leading-relaxed">
 
-                Patients commonly search for individual diagnostic tests,
-                specialist departments and treatment-related services based
-                on their symptoms, doctor's advice or ongoing medical care.
-                Explore the relevant services available at Akropolis.
+               Akropolis Super Speciality Hospital provides a range of diagnostic tests, medical services and specialist care in Gurugram to support evaluation, diagnosis and treatment. Explore the diagnostic and medical services available at Akropolis based on your healthcare needs and your doctor's advice.
 
             </p>
 
