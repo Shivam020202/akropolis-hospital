@@ -9,9 +9,10 @@ $page_description = 'Akropolis Super Speciality Hospital provides medical and di
 
 $canonical_url = '/services';
 
+
 /*
 |--------------------------------------------------------------------------
-| PAGE SCHEMA
+| FAQ SCHEMA
 |--------------------------------------------------------------------------
 */
 
@@ -20,6 +21,7 @@ $faq_schema = [
     '@type' => 'FAQPage',
     '@id' => 'https://akropolishospital.com/services#faq',
     'mainEntity' => [
+
         [
             '@type' => 'Question',
             'name' => 'What diagnostic services are available at Akropolis Super Speciality Hospital?',
@@ -28,6 +30,7 @@ $faq_schema = [
                 'text' => 'The NABH Scope of Services for Akropolis Super Speciality Hospital includes 2D Echo, CT Scanning, Spirometry, Tread Mill Testing, Ultrasound and X-Ray. The hospital website also provides information about Endoscopy, Dialysis, Laboratory, Bronchoscopy and Colonoscopy services.'
             ]
         ],
+
         [
             '@type' => 'Question',
             'name' => 'Does Akropolis Hospital provide CT Scan, Ultrasound and X-Ray services?',
@@ -36,14 +39,16 @@ $faq_schema = [
                 'text' => 'Yes. CT Scanning, Ultrasound and X-Ray are included in the NABH Scope of Services for Akropolis Super Speciality Hospital.'
             ]
         ],
+
         [
             '@type' => 'Question',
             'name' => 'Does Akropolis Super Speciality Hospital provide 2D Echo and cardiac diagnostic services?',
             'acceptedAnswer' => [
                 '@type' => 'Answer',
-                'text' => '2D Echo is included in the NABH Scope of Services. The hospital also has Interventional Cardiology as part of its clinical services.'
+                'text' => '2D Echo is included in the NABH Scope of Services. Interventional Cardiology is also included within the hospital clinical services.'
             ]
         ],
+
         [
             '@type' => 'Question',
             'name' => 'What laboratory services are available at Akropolis Hospital?',
@@ -52,6 +57,7 @@ $faq_schema = [
                 'text' => 'The NABH Scope of Services includes Clinical Bio-Chemistry, Clinical Serology, Clinical Pathology, Haematology and Histopathology.'
             ]
         ],
+
         [
             '@type' => 'Question',
             'name' => 'Does Akropolis Hospital provide dialysis services?',
@@ -60,6 +66,7 @@ $faq_schema = [
                 'text' => 'Yes. Nephrology, including Dialysis, is included in the NABH Scope of Services for Akropolis Super Speciality Hospital.'
             ]
         ],
+
         [
             '@type' => 'Question',
             'name' => 'Which medical specialties are available at Akropolis Super Speciality Hospital?',
@@ -68,14 +75,16 @@ $faq_schema = [
                 'text' => 'The NABH Scope of Services includes Anaesthesiology, Interventional Cardiology, Dentistry, Dermatology and Venereology, General Medicine, General Surgery including Laparoscopic Surgery, Medical Gastroenterology, Nephrology including Dialysis, Neurology, Neurosurgery, Obstetrics and Gynaecology including High Risk Pregnancy, Ophthalmology, Orthopaedics including Joint Replacement, Otorhinolaryngology, Paediatrics, Plastic and Reconstructive Surgery, Psychiatry on an OPD-only basis, and Respiratory Medicine.'
             ]
         ],
+
         [
             '@type' => 'Question',
             'name' => 'Do I need a prescription or referral for a diagnostic test?',
             'acceptedAnswer' => [
                 '@type' => 'Answer',
-                'text' => 'Whether a prescription or referral is required depends on the diagnostic test, the clinical situation and the hospital or treating doctor protocol. Patients should contact the hospital before visiting if they are unsure about the requirements for a particular test.'
+                'text' => 'Whether a prescription or referral is required depends on the diagnostic test, clinical situation and hospital or treating doctor protocol. If you are unsure about the requirements for a particular test, contact the hospital before visiting.'
             ]
         ],
+
         [
             '@type' => 'Question',
             'name' => 'Where is Akropolis Super Speciality Hospital located in Gurugram?',
@@ -84,6 +93,7 @@ $faq_schema = [
                 'text' => 'Akropolis Super Speciality Hospital is located in Sector 69, Gurugram, near Vatika Chowk and opposite Chinar Garden, Haryana 122101.'
             ]
         ],
+
         [
             '@type' => 'Question',
             'name' => 'Does Akropolis Super Speciality Hospital provide emergency care?',
@@ -92,8 +102,16 @@ $faq_schema = [
                 'text' => 'Akropolis Super Speciality Hospital provides 24×7 emergency care. Patients requiring urgent medical attention should contact the hospital emergency service or seek immediate medical care.'
             ]
         ]
+
     ]
 ];
+
+
+/*
+|--------------------------------------------------------------------------
+| PAGE SCHEMA
+|--------------------------------------------------------------------------
+*/
 
 $schema_blocks = [
 
@@ -220,7 +238,7 @@ include 'includes/head.php';
             <div class="flex flex-wrap justify-center gap-3 mt-8">
 
                 <a
-                    href="/services#diagnostic-services"
+                    href="#diagnostic-services"
                     class="inline-flex items-center gap-2 bg-white text-[#174B75] hover:bg-gray-100 px-6 py-3 rounded-lg font-semibold transition"
                 >
 
@@ -310,7 +328,7 @@ include 'includes/head.php';
 
 
 <!-- =========================================================
-     NABH CLINICAL SERVICES
+     MEDICAL SPECIALTIES
 ========================================================== -->
 
 <section
@@ -355,12 +373,18 @@ include 'includes/head.php';
 
         <?php
 
+        /*
+        |--------------------------------------------------------------------------
+        | CLINICAL SERVICES
+        |--------------------------------------------------------------------------
+        | Only services with a dedicated relevant page are linked.
+        */
+
         $clinical_services = [
 
             [
                 'name' => 'Anaesthesiology',
-                'description' => 'Anaesthesiology services supporting surgical and clinical care.',
-                'href' => '/departments'
+                'description' => 'Anaesthesiology services supporting surgical and clinical care.'
             ],
 
             [
@@ -371,8 +395,7 @@ include 'includes/head.php';
 
             [
                 'name' => 'Dentistry',
-                'description' => 'Dental care services within the hospital clinical scope.',
-                'href' => '/departments'
+                'description' => 'Dental care services within the hospital clinical scope.'
             ],
 
             [
@@ -383,14 +406,12 @@ include 'includes/head.php';
 
             [
                 'name' => 'General Medicine',
-                'description' => 'Medical assessment and management for a range of adult health conditions.',
-                'href' => '/departments'
+                'description' => 'Medical assessment and management for a range of adult health conditions.'
             ],
 
             [
                 'name' => 'General Surgery',
-                'description' => 'General surgical services, including laparoscopic surgery.',
-                'href' => '/departments'
+                'description' => 'General surgical services, including laparoscopic surgery.'
             ],
 
             [
@@ -413,8 +434,7 @@ include 'includes/head.php';
 
             [
                 'name' => 'Neurosurgery',
-                'description' => 'Surgical care for conditions involving the brain, spine and nervous system.',
-                'href' => '/departments'
+                'description' => 'Surgical care for conditions involving the brain, spine and nervous system.'
             ],
 
             [
@@ -455,14 +475,12 @@ include 'includes/head.php';
 
             [
                 'name' => 'Psychiatry',
-                'description' => 'Psychiatric services on an OPD-only basis within the NABH scope.',
-                'href' => '/departments'
+                'description' => 'Psychiatric services on an OPD-only basis within the NABH scope.'
             ],
 
             [
                 'name' => 'Respiratory Medicine',
-                'description' => 'Specialist medical care for respiratory and breathing-related conditions.',
-                'href' => '/departments'
+                'description' => 'Specialist medical care for respiratory and breathing-related conditions.'
             ]
 
         ];
@@ -474,10 +492,21 @@ include 'includes/head.php';
 
             <?php foreach ($clinical_services as $service): ?>
 
-                <a
-                    href="<?php echo htmlspecialchars($service['href'], ENT_QUOTES, 'UTF-8'); ?>"
-                    class="group bg-white rounded-2xl border border-gray-100 p-6 shadow-sm hover:shadow-lg hover:-translate-y-1 transition-all duration-300"
-                >
+                <?php if (!empty($service['href'])): ?>
+
+                    <a
+                        href="<?php echo htmlspecialchars($service['href'], ENT_QUOTES, 'UTF-8'); ?>"
+                        class="group bg-white rounded-2xl border border-gray-100 p-6 shadow-sm hover:shadow-lg hover:-translate-y-1 transition-all duration-300"
+                    >
+
+                <?php else: ?>
+
+                    <div
+                        class="bg-white rounded-2xl border border-gray-100 p-6 shadow-sm"
+                    >
+
+                <?php endif; ?>
+
 
                     <div
                         class="w-12 h-12 rounded-xl bg-[#328CCB]/10 text-[#328CCB] flex items-center justify-center mb-5"
@@ -489,7 +518,7 @@ include 'includes/head.php';
 
 
                     <h3
-                        class="text-lg font-bold text-gray-900 mb-3 group-hover:text-[#328CCB] transition-colors"
+                        class="text-lg font-bold text-gray-900 mb-3 <?php echo !empty($service['href']) ? 'group-hover:text-[#328CCB]' : ''; ?> transition-colors"
                     >
 
                         <?php echo htmlspecialchars(
@@ -512,20 +541,33 @@ include 'includes/head.php';
                     </p>
 
 
-                    <span
-                        class="inline-flex items-center gap-2 text-[#328CCB] font-semibold mt-5 text-sm"
-                    >
+                    <?php if (!empty($service['href'])): ?>
 
-                        Explore
+                        <span
+                            class="inline-flex items-center gap-2 text-[#328CCB] font-semibold mt-5 text-sm"
+                        >
 
-                        <?php echo getIcon(
-                            'ArrowRight',
-                            'h-4 w-4 group-hover:translate-x-1 transition-transform'
-                        ); ?>
+                            Explore
 
-                    </span>
+                            <?php echo getIcon(
+                                'ArrowRight',
+                                'h-4 w-4 group-hover:translate-x-1 transition-transform'
+                            ); ?>
 
-                </a>
+                        </span>
+
+                    <?php endif; ?>
+
+
+                <?php if (!empty($service['href'])): ?>
+
+                    </a>
+
+                <?php else: ?>
+
+                    </div>
+
+                <?php endif; ?>
 
             <?php endforeach; ?>
 
@@ -601,9 +643,7 @@ include 'includes/head.php';
 
             [
                 'name' => 'Spirometry',
-                'description' => 'A pulmonary function test used to assess breathing and lung function.',
-                'href' => '/departments',
-                'link_text' => 'Explore Medical Care'
+                'description' => 'A pulmonary function test used to assess breathing and lung function.'
             ],
 
             [
@@ -615,16 +655,12 @@ include 'includes/head.php';
 
             [
                 'name' => 'Ultrasound',
-                'description' => 'Diagnostic imaging using ultrasound technology for clinical evaluation.',
-                'href' => '/contact',
-                'link_text' => 'Enquire About Service'
+                'description' => 'Diagnostic imaging using ultrasound technology for clinical evaluation.'
             ],
 
             [
                 'name' => 'X-Ray',
-                'description' => 'Diagnostic imaging used to evaluate bones and other structures.',
-                'href' => '/contact',
-                'link_text' => 'Enquire About Service'
+                'description' => 'Diagnostic imaging used to evaluate bones and other structures.'
             ]
 
         ];
@@ -636,10 +672,21 @@ include 'includes/head.php';
 
             <?php foreach ($diagnostic_services as $service): ?>
 
-                <a
-                    href="<?php echo htmlspecialchars($service['href'], ENT_QUOTES, 'UTF-8'); ?>"
-                    class="group rounded-2xl border border-gray-100 bg-gray-50 p-7 hover:bg-white hover:shadow-xl hover:-translate-y-1 transition-all duration-300"
-                >
+                <?php if (!empty($service['href'])): ?>
+
+                    <a
+                        href="<?php echo htmlspecialchars($service['href'], ENT_QUOTES, 'UTF-8'); ?>"
+                        class="group rounded-2xl border border-gray-100 bg-gray-50 p-7 hover:bg-white hover:shadow-xl hover:-translate-y-1 transition-all duration-300"
+                    >
+
+                <?php else: ?>
+
+                    <div
+                        class="rounded-2xl border border-gray-100 bg-gray-50 p-7"
+                    >
+
+                <?php endif; ?>
+
 
                     <div
                         class="w-14 h-14 rounded-xl bg-white text-[#328CCB] flex items-center justify-center mb-6 shadow-sm"
@@ -651,7 +698,7 @@ include 'includes/head.php';
 
 
                     <h3
-                        class="text-xl font-bold text-gray-900 mb-3 group-hover:text-[#328CCB] transition-colors"
+                        class="text-xl font-bold text-gray-900 mb-3 <?php echo !empty($service['href']) ? 'group-hover:text-[#328CCB]' : ''; ?> transition-colors"
                     >
 
                         <?php echo htmlspecialchars(
@@ -663,7 +710,7 @@ include 'includes/head.php';
                     </h3>
 
 
-                    <p class="text-gray-600 leading-relaxed mb-5">
+                    <p class="text-gray-600 leading-relaxed <?php echo !empty($service['href']) ? 'mb-5' : ''; ?>">
 
                         <?php echo htmlspecialchars(
                             $service['description'],
@@ -674,24 +721,37 @@ include 'includes/head.php';
                     </p>
 
 
-                    <span
-                        class="inline-flex items-center gap-2 text-[#328CCB] font-semibold"
-                    >
+                    <?php if (!empty($service['href'])): ?>
 
-                        <?php echo htmlspecialchars(
-                            $service['link_text'],
-                            ENT_QUOTES,
-                            'UTF-8'
-                        ); ?>
+                        <span
+                            class="inline-flex items-center gap-2 text-[#328CCB] font-semibold"
+                        >
 
-                        <?php echo getIcon(
-                            'ArrowRight',
-                            'h-4 w-4 group-hover:translate-x-1 transition-transform'
-                        ); ?>
+                            <?php echo htmlspecialchars(
+                                $service['link_text'],
+                                ENT_QUOTES,
+                                'UTF-8'
+                            ); ?>
 
-                    </span>
+                            <?php echo getIcon(
+                                'ArrowRight',
+                                'h-4 w-4 group-hover:translate-x-1 transition-transform'
+                            ); ?>
 
-                </a>
+                        </span>
+
+                    <?php endif; ?>
+
+
+                <?php if (!empty($service['href'])): ?>
+
+                    </a>
+
+                <?php else: ?>
+
+                    </div>
+
+                <?php endif; ?>
 
             <?php endforeach; ?>
 
@@ -967,7 +1027,7 @@ include 'includes/head.php';
             </a>
 
 
-            <!-- All Services -->
+            <!-- Medical Departments -->
 
             <a
                 href="/departments"
@@ -1190,25 +1250,21 @@ include 'includes/head.php';
 
             [
                 'name' => 'Pharmacy',
-                'description' => 'Pharmacy services included within the NABH Scope of Services.',
-                'href' => '/contact',
-                'link_text' => 'Enquire About Pharmacy'
+                'description' => 'Pharmacy services supporting patient care within the hospital.'
             ],
 
             [
                 'name' => 'Blood Transfusion Services',
-                'description' => 'Blood transfusion services included within the NABH Scope of Services.',
-                'href' => '/contact',
-                'link_text' => 'Enquire About Service'
+                'description' => 'Blood transfusion services included within the hospital scope of services.'
             ],
 
             [
                 'name' => 'Ambulance',
-                'description' => 'Ambulance services included within the NABH Scope of Services.',
-                'href' => 'tel:' . htmlspecialchars(
-                    CONTACT_INFO['emergency'],
-                    ENT_QUOTES,
-                    'UTF-8'
+                'description' => 'Ambulance support for patients requiring urgent medical assistance.',
+                'href' => 'tel:' . preg_replace(
+                    '/[^0-9+]/',
+                    '',
+                    CONTACT_INFO['emergency']
                 ),
                 'link_text' => 'Call Emergency'
             ],
@@ -1222,9 +1278,7 @@ include 'includes/head.php';
 
             [
                 'name' => 'Physiotherapy',
-                'description' => 'Physiotherapy included within the NABH Scope of Services.',
-                'href' => '/contact',
-                'link_text' => 'Enquire About Service'
+                'description' => 'Physiotherapy services supporting rehabilitation and patient care.'
             ]
 
         ];
@@ -1236,10 +1290,21 @@ include 'includes/head.php';
 
             <?php foreach ($support_services as $service): ?>
 
-                <a
-                    href="<?php echo $service['href']; ?>"
-                    class="group bg-white rounded-2xl border border-gray-100 p-7 shadow-sm hover:shadow-xl hover:-translate-y-1 transition-all duration-300"
-                >
+                <?php if (!empty($service['href'])): ?>
+
+                    <a
+                        href="<?php echo htmlspecialchars($service['href'], ENT_QUOTES, 'UTF-8'); ?>"
+                        class="group bg-white rounded-2xl border border-gray-100 p-7 shadow-sm hover:shadow-xl hover:-translate-y-1 transition-all duration-300"
+                    >
+
+                <?php else: ?>
+
+                    <div
+                        class="bg-white rounded-2xl border border-gray-100 p-7 shadow-sm"
+                    >
+
+                <?php endif; ?>
+
 
                     <div
                         class="w-14 h-14 rounded-xl bg-[#328CCB]/10 text-[#328CCB] flex items-center justify-center mb-6"
@@ -1251,7 +1316,7 @@ include 'includes/head.php';
 
 
                     <h3
-                        class="text-xl font-bold text-gray-900 mb-3 group-hover:text-[#328CCB]"
+                        class="text-xl font-bold text-gray-900 mb-3 <?php echo !empty($service['href']) ? 'group-hover:text-[#328CCB]' : ''; ?>"
                     >
 
                         <?php echo htmlspecialchars(
@@ -1263,7 +1328,7 @@ include 'includes/head.php';
                     </h3>
 
 
-                    <p class="text-gray-600 leading-relaxed mb-5">
+                    <p class="text-gray-600 leading-relaxed <?php echo !empty($service['href']) ? 'mb-5' : ''; ?>">
 
                         <?php echo htmlspecialchars(
                             $service['description'],
@@ -1274,21 +1339,34 @@ include 'includes/head.php';
                     </p>
 
 
-                    <span
-                        class="inline-flex items-center gap-2 text-[#328CCB] font-semibold"
-                    >
+                    <?php if (!empty($service['href'])): ?>
 
-                        <?php echo htmlspecialchars(
-                            $service['link_text'],
-                            ENT_QUOTES,
-                            'UTF-8'
-                        ); ?>
+                        <span
+                            class="inline-flex items-center gap-2 text-[#328CCB] font-semibold"
+                        >
 
-                        <?php echo getIcon('ArrowRight', 'h-4 w-4'); ?>
+                            <?php echo htmlspecialchars(
+                                $service['link_text'],
+                                ENT_QUOTES,
+                                'UTF-8'
+                            ); ?>
 
-                    </span>
+                            <?php echo getIcon('ArrowRight', 'h-4 w-4'); ?>
 
-                </a>
+                        </span>
+
+                    <?php endif; ?>
+
+
+                <?php if (!empty($service['href'])): ?>
+
+                    </a>
+
+                <?php else: ?>
+
+                    </div>
+
+                <?php endif; ?>
 
             <?php endforeach; ?>
 
@@ -1301,7 +1379,7 @@ include 'includes/head.php';
 
 
 <!-- =========================================================
-     COMMON SEARCH INTENT / PATIENT GUIDANCE
+     PATIENT SEARCH INTENT
 ========================================================== -->
 
 <section class="py-16 lg:py-20 bg-white">
@@ -1334,7 +1412,7 @@ include 'includes/head.php';
                 Patients commonly search for individual diagnostic tests,
                 specialist departments and treatment-related services based
                 on their symptoms, doctor's advice or ongoing medical care.
-                Use the links below to explore relevant services at Akropolis.
+                Explore the relevant services available at Akropolis.
 
             </p>
 
@@ -1481,7 +1559,7 @@ include 'includes/head.php';
 
 
 <!-- =========================================================
-     WHY CHOOSE / LOCATION
+     LOCATION / CONTACT
 ========================================================== -->
 
 <section class="py-16 lg:py-20 bg-gray-50">
@@ -1557,7 +1635,11 @@ include 'includes/head.php';
 
                     <a
                         href="tel:<?php echo htmlspecialchars(
-                            CONTACT_INFO['emergency'],
+                            preg_replace(
+                                '/[^0-9+]/',
+                                '',
+                                CONTACT_INFO['emergency']
+                            ),
                             ENT_QUOTES,
                             'UTF-8'
                         ); ?>"
