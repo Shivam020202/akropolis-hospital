@@ -127,7 +127,7 @@ include 'includes/head.php';
     <!-- =========================================================
          SERVICE CARDS
     ========================================================== -->
-    <section class="py-16 lg:py-20 bg-gray-50">
+    <section id="diagnostic-services" class="py-16 lg:py-20 bg-gray-50">
 
         <div class="container mx-auto px-4">
 
