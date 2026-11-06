@@ -35,7 +35,7 @@
 
           ['name' => 'Departments', 'href' => '/departments', 'page' => 'departments', 'hasMegaMenu' => true],
           ['name' => 'Doctors', 'href' => '/doctors', 'page' => 'doctors'],
-          ['name' => 'Services', 'href' => '/departments#services', 'hasDropdown' => true],
+          ['name' => 'Services', 'href' => '/services', 'page' => 'services', 'hasDropdown' => true],
           ['name' => 'Blog', 'href' => '/blog', 'page' => 'blog'],
           ['name' => 'Contact', 'href' => '/contact', 'page' => 'contact']
       ];
