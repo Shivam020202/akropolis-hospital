@@ -2,8 +2,8 @@
 require_once 'includes/data.php';
 require_once 'includes/schema.php';
 
-$page_title = 'Medical & Diagnostic Services | Akropolis Super Speciality Hospital';
-$page_description = 'Explore medical and diagnostic services at Akropolis Super Speciality Hospital in Sector 69, Gurugram, including CT Scan, Endoscopy, Dialysis, Laboratory, Bronchoscopy and Colonoscopy.';
+$page_title = 'Best Hospital for Advanced Diagnostic & Medical Services in Gurugram | Akropolis';
+$page_description = 'Akropolis Super Speciality Hospital provides advanced diagnostic and medical services in Gurugram, including CT Scan, Endoscopy, Dialysis, Laboratory, Bronchoscopy and Colonoscopy.';
 $canonical_url = '/services';
 
 $schema_blocks = [
@@ -48,62 +48,49 @@ include 'includes/head.php';
 
 <main>
 
-    <!-- =========================================================
-         HERO
-    ========================================================== -->
-    <section class="relative overflow-hidden bg-[#0F1A33] text-white">
+<!-- Services Hero -->
+<section class="relative overflow-hidden bg-gradient-to-br from-[#0F2747] via-[#174B75] to-[#328CCB] py-16 lg:py-20">
+    <div class="container mx-auto px-4">
+        <div class="max-w-4xl mx-auto text-center text-white">
 
-        <div class="absolute inset-0 bg-gradient-to-br from-[#0F1A33] via-[#163B5C] to-[#328CCB]"></div>
+            <div class="inline-flex items-center gap-2 px-4 py-2 rounded-full bg-white/10 border border-white/20 text-sm font-medium mb-6">
+                <?php echo getIcon('Activity', 'h-4 w-4'); ?>
+                Advanced Diagnostic &amp; Medical Services
+            </div>
 
-        <div class="absolute -right-32 -top-32 w-96 h-96 rounded-full bg-[#328CCB]/20 blur-3xl"></div>
-        <div class="absolute -left-32 bottom-0 w-96 h-96 rounded-full bg-[#D66C43]/10 blur-3xl"></div>
+            <h1 class="text-4xl md:text-5xl lg:text-6xl font-bold leading-tight mb-6">
+                Best Hospital for Advanced Diagnostic &amp; Medical Services in Gurugram
+            </h1>
 
-        <div class="container mx-auto px-4 py-20 lg:py-28 relative z-10">
+            <p class="max-w-3xl mx-auto text-lg md:text-xl text-white/90 leading-relaxed">
+                Akropolis Super Speciality Hospital provides advanced diagnostic and medical services in Gurugram, bringing specialist medical care, diagnostic facilities and clinical support together under one roof.
+            </p>
 
-            <div class="max-w-4xl mx-auto text-center">
+            <p class="max-w-3xl mx-auto mt-4 text-base md:text-lg text-white/80 leading-relaxed">
+                From CT Scan, Endoscopy, Dialysis and Laboratory services to Bronchoscopy and Colonoscopy, our diagnostic services support doctors in evaluating and managing a wide range of medical conditions.
+            </p>
 
-                <div class="inline-flex items-center gap-2 bg-white/10 border border-white/20 rounded-full px-4 py-2 mb-6">
-                    <?php echo getIcon('Activity', 'h-4 w-4 text-[#7CC7FF]'); ?>
-                    <span class="text-sm font-semibold">
-                        Medical &amp; Diagnostic Services
-                    </span>
-                </div>
+            <div class="flex flex-wrap justify-center gap-3 mt-8">
+                <a
+                    href="#diagnostic-services"
+                    class="inline-flex items-center gap-2 bg-white text-[#174B75] hover:bg-gray-100 px-6 py-3 rounded-lg font-semibold transition"
+                >
+                    Explore Diagnostic Services
+                    <?php echo getIcon('ArrowDown', 'h-5 w-5'); ?>
+                </a>
 
-                <h1 class="text-4xl lg:text-6xl font-bold leading-tight mb-6">
-                    Healthcare Services at
-                    <span class="text-[#7CC7FF]"> Akropolis</span>
-                </h1>
-
-                <p class="text-lg lg:text-xl text-blue-100 leading-relaxed max-w-3xl mx-auto mb-8">
-                    Explore the medical and diagnostic services available at
-                    Akropolis Super Speciality Hospital in Sector 69, Gurugram,
-                    supporting patients across a range of healthcare needs.
-                </p>
-
-                <div class="flex flex-col sm:flex-row justify-center gap-4">
-
-                    <a
-                        href="/departments"
-                        class="inline-flex items-center justify-center gap-2 bg-[#328CCB] hover:bg-[#2a7bb5] text-white px-6 py-3 rounded-lg font-semibold transition-all duration-300"
-                    >
-                        Explore Departments
-                        <?php echo getIcon('ArrowRight', 'h-5 w-5'); ?>
-                    </a>
-
-                    <a
-                        href="/contact"
-                        class="inline-flex items-center justify-center gap-2 bg-white/10 hover:bg-white/20 border border-white/30 text-white px-6 py-3 rounded-lg font-semibold transition-all duration-300"
-                    >
-                        Contact Akropolis
-                        <?php echo getIcon('ArrowRight', 'h-5 w-5'); ?>
-                    </a>
-
-                </div>
-
+                <a
+                    href="/contact"
+                    class="inline-flex items-center gap-2 bg-[#D66C43] hover:bg-[#c55f3a] text-white px-6 py-3 rounded-lg font-semibold transition"
+                >
+                    Contact Akropolis
+                    <?php echo getIcon('ArrowRight', 'h-5 w-5'); ?>
+                </a>
             </div>
 
         </div>
-    </section>
+    </div>
+</section>
 
 
     <!-- =========================================================
