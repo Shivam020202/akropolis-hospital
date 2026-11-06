@@ -1,6 +1,6 @@
 <?php
-require_once __DIR__ . '/../includes/data.php';
-require_once __DIR__ . '/../includes/schema.php';
+require_once __DIR__ . '/includes/data.php';
+require_once __DIR__ . '/includes/schema.php';
 
 $page_title = 'About Akropolis Super Speciality Hospital | Gurugram';
 
@@ -20,8 +20,8 @@ $schema_blocks = [
     ])
 ];
 
-include __DIR__ . '/../includes/head.php';
-include __DIR__ . '/../includes/header-v2.php';
+include __DIR__ . '/includes/head.php';
+include __DIR__ . '/includes/header-v2.php';
 ?>
 
 <!-- Emergency Bar -->
@@ -56,9 +56,9 @@ include __DIR__ . '/../includes/header-v2.php';
             </h1>
 
             <p class="mt-6 text-lg md:text-xl text-gray-600 leading-relaxed max-w-3xl mx-auto">
-                A multi-specialty healthcare facility in Sector 69, Gurugram,
-                bringing specialist medical care, diagnostic services and
-                emergency care together under one roof.
+                A healthcare facility in Sector 69, Gurugram, bringing
+                specialist medical care, diagnostic services and emergency
+                care together within one hospital.
             </p>
 
             <div class="mt-8 flex flex-wrap justify-center gap-3">
@@ -540,6 +540,6 @@ include __DIR__ . '/../includes/header-v2.php';
 
 
 <?php
-include __DIR__ . '/../includes/footer.php';
-include __DIR__ . '/../includes/scripts.php';
+include __DIR__ . '/includes/footer.php';
+include __DIR__ . '/includes/scripts.php';
 ?>
