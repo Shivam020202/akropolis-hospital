@@ -312,10 +312,7 @@ include 'includes/head.php';
 
             <p class="text-gray-600 text-lg leading-relaxed mt-4">
 
-                The hospital's current NABH Scope of Services covers clinical
-                specialties, diagnostic services, laboratory services,
-                pharmacy, blood transfusion services, ambulance, dietetics
-                and physiotherapy.
+                The hospital's current NABH Scope of Services covers a broad range of clinical specialities, diagnostic services, laboratory services and allied healthcare services available at Akropolis.
 
             </p>
 
@@ -361,10 +358,7 @@ include 'includes/head.php';
 
             <p class="text-lg text-gray-600 leading-relaxed">
 
-                Akropolis Super Speciality Hospital provides specialist
-                medical services across multiple clinical departments.
-                The following clinical services are included in the
-                hospital's NABH Scope of Services.
+                Akropolis Super Speciality Hospital provides specialist medical care across multiple clinical departments, supporting patients with assessment, diagnosis, treatment and ongoing care.
 
             </p>
 
@@ -1119,9 +1113,7 @@ include 'includes/head.php';
 
                 <p class="text-gray-600 leading-relaxed mb-6">
 
-                    Laboratory services play an important role in supporting
-                    clinical evaluation and diagnosis. The NABH Scope of
-                    Services lists five laboratory disciplines for Akropolis.
+                    Laboratory services play an important role in supporting clinical evaluation and diagnosis. Akropolis provides laboratory services across clinical biochemistry, serology, pathology, haematology and histopathology.
 
                 </p>
 
@@ -1233,9 +1225,7 @@ include 'includes/head.php';
 
             <p class="text-lg text-gray-600 leading-relaxed">
 
-                Healthcare often involves more than diagnosis and treatment.
-                The NABH Scope of Services also includes supporting services
-                that contribute to patient care and hospital operations.
+                Healthcare often involves more than diagnosis and treatment. Akropolis also provides supporting services that contribute to patient care, recovery and hospital operations.
 
             </p>
 
@@ -1253,7 +1243,7 @@ include 'includes/head.php';
 
             [
                 'name' => 'Blood Transfusion Services',
-                'description' => 'Blood transfusion services included within the hospital scope of services.'
+                'description' => 'Blood transfusion services support appropriate clinical care when required.'
             ],
 
             [
@@ -1707,283 +1697,278 @@ include 'includes/head.php';
 
                 <!-- FAQ 1 -->
 
-                <details
-                    class="group border border-gray-200 rounded-2xl bg-gray-50"
-                >
+<details
+    class="group border border-gray-200 rounded-2xl bg-gray-50"
+>
 
-                    <summary
-                        class="cursor-pointer list-none flex items-center justify-between gap-6 p-6 font-bold text-gray-900"
-                    >
+    <summary
+        class="cursor-pointer list-none flex items-center justify-between gap-6 p-6 font-bold text-gray-900"
+    >
 
-                        What diagnostic services are available at Akropolis Super Speciality Hospital?
+        What diagnostic services are available at Akropolis Super Speciality Hospital?
 
-                        <span class="text-[#328CCB] text-xl group-open:rotate-45 transition-transform">
-                            +
-                        </span>
+        <span class="text-[#328CCB] text-xl group-open:rotate-45 transition-transform">
+            +
+        </span>
 
-                    </summary>
+    </summary>
 
 
-                    <div class="px-6 pb-6 text-gray-600 leading-relaxed">
+    <div class="px-6 pb-6 text-gray-600 leading-relaxed">
 
-                        The NABH Scope of Services includes 2D Echo, CT Scanning,
-                        Spirometry, Tread Mill Testing, Ultrasound and X-Ray.
-                        The hospital website also provides information about
-                        Endoscopy, Dialysis, Laboratory, Bronchoscopy and
-                        Colonoscopy services.
+        Akropolis Super Speciality Hospital provides diagnostic services
+        including 2D Echo, CT Scan, Spirometry, Tread Mill Testing,
+        Ultrasound and X-Ray. The hospital also provides Endoscopy,
+        Dialysis, Laboratory, Bronchoscopy and Colonoscopy services.
 
-                    </div>
+    </div>
 
-                </details>
+</details>
 
 
-                <!-- FAQ 2 -->
+<!-- FAQ 2 -->
 
-                <details
-                    class="group border border-gray-200 rounded-2xl bg-gray-50"
-                >
+<details
+    class="group border border-gray-200 rounded-2xl bg-gray-50"
+>
 
-                    <summary
-                        class="cursor-pointer list-none flex items-center justify-between gap-6 p-6 font-bold text-gray-900"
-                    >
+    <summary
+        class="cursor-pointer list-none flex items-center justify-between gap-6 p-6 font-bold text-gray-900"
+    >
 
-                        Does Akropolis Hospital provide CT Scan, Ultrasound and X-Ray services?
+        Does Akropolis Hospital provide CT Scan, Ultrasound and X-Ray services?
 
-                        <span class="text-[#328CCB] text-xl group-open:rotate-45 transition-transform">
-                            +
-                        </span>
+        <span class="text-[#328CCB] text-xl group-open:rotate-45 transition-transform">
+            +
+        </span>
 
-                    </summary>
+    </summary>
 
 
-                    <div class="px-6 pb-6 text-gray-600 leading-relaxed">
+    <div class="px-6 pb-6 text-gray-600 leading-relaxed">
 
-                        Yes. CT Scanning, Ultrasound and X-Ray are included in
-                        the NABH Scope of Services for Akropolis Super Speciality
-                        Hospital.
+        Yes. Akropolis Super Speciality Hospital provides CT Scan,
+        Ultrasound and X-Ray services in Gurugram.
 
-                    </div>
+    </div>
 
-                </details>
+</details>
 
 
-                <!-- FAQ 3 -->
+<!-- FAQ 3 -->
 
-                <details
-                    class="group border border-gray-200 rounded-2xl bg-gray-50"
-                >
+<details
+    class="group border border-gray-200 rounded-2xl bg-gray-50"
+>
 
-                    <summary
-                        class="cursor-pointer list-none flex items-center justify-between gap-6 p-6 font-bold text-gray-900"
-                    >
+    <summary
+        class="cursor-pointer list-none flex items-center justify-between gap-6 p-6 font-bold text-gray-900"
+    >
 
-                        Does Akropolis Hospital provide 2D Echo and cardiac diagnostic services?
+        Does Akropolis Hospital provide 2D Echo and cardiac diagnostic services?
 
-                        <span class="text-[#328CCB] text-xl group-open:rotate-45 transition-transform">
-                            +
-                        </span>
+        <span class="text-[#328CCB] text-xl group-open:rotate-45 transition-transform">
+            +
+        </span>
 
-                    </summary>
+    </summary>
 
 
-                    <div class="px-6 pb-6 text-gray-600 leading-relaxed">
+    <div class="px-6 pb-6 text-gray-600 leading-relaxed">
 
-                        2D Echo is included in the NABH Scope of Services.
-                        Interventional Cardiology is also included within the
-                        hospital's clinical services.
+        Yes. Akropolis provides 2D Echo as a cardiac diagnostic service.
+        Interventional Cardiology is also available as part of the
+        hospital's clinical services.
 
-                    </div>
+    </div>
 
-                </details>
+</details>
 
 
-                <!-- FAQ 4 -->
+<!-- FAQ 4 -->
 
-                <details
-                    class="group border border-gray-200 rounded-2xl bg-gray-50"
-                >
+<details
+    class="group border border-gray-200 rounded-2xl bg-gray-50"
+>
 
-                    <summary
-                        class="cursor-pointer list-none flex items-center justify-between gap-6 p-6 font-bold text-gray-900"
-                    >
+    <summary
+        class="cursor-pointer list-none flex items-center justify-between gap-6 p-6 font-bold text-gray-900"
+    >
 
-                        What laboratory services are available at Akropolis Hospital?
+        What laboratory services are available at Akropolis Hospital?
 
-                        <span class="text-[#328CCB] text-xl group-open:rotate-45 transition-transform">
-                            +
-                        </span>
+        <span class="text-[#328CCB] text-xl group-open:rotate-45 transition-transform">
+            +
+        </span>
 
-                    </summary>
+    </summary>
 
 
-                    <div class="px-6 pb-6 text-gray-600 leading-relaxed">
+    <div class="px-6 pb-6 text-gray-600 leading-relaxed">
 
-                        The NABH Scope of Services includes Clinical
-                        Bio-Chemistry, Clinical Serology, Clinical Pathology,
-                        Haematology and Histopathology.
+        Akropolis provides laboratory services including Clinical
+        Bio-Chemistry, Clinical Serology, Clinical Pathology,
+        Haematology and Histopathology.
 
-                    </div>
+    </div>
 
-                </details>
+</details>
 
 
-                <!-- FAQ 5 -->
+<!-- FAQ 5 -->
 
-                <details
-                    class="group border border-gray-200 rounded-2xl bg-gray-50"
-                >
+<details
+    class="group border border-gray-200 rounded-2xl bg-gray-50"
+>
 
-                    <summary
-                        class="cursor-pointer list-none flex items-center justify-between gap-6 p-6 font-bold text-gray-900"
-                    >
+    <summary
+        class="cursor-pointer list-none flex items-center justify-between gap-6 p-6 font-bold text-gray-900"
+    >
 
-                        Does Akropolis Hospital provide dialysis services?
+        Does Akropolis Hospital provide dialysis services?
 
-                        <span class="text-[#328CCB] text-xl group-open:rotate-45 transition-transform">
-                            +
-                        </span>
+        <span class="text-[#328CCB] text-xl group-open:rotate-45 transition-transform">
+            +
+        </span>
 
-                    </summary>
+    </summary>
 
 
-                    <div class="px-6 pb-6 text-gray-600 leading-relaxed">
+    <div class="px-6 pb-6 text-gray-600 leading-relaxed">
 
-                        Yes. Nephrology, including Dialysis, is included in
-                        the NABH Scope of Services.
+        Yes. Dialysis services are available through the hospital's
+        Nephrology services.
 
-                    </div>
+    </div>
 
-                </details>
+</details>
 
 
-                <!-- FAQ 6 -->
+<!-- FAQ 6 -->
 
-                <details
-                    class="group border border-gray-200 rounded-2xl bg-gray-50"
-                >
+<details
+    class="group border border-gray-200 rounded-2xl bg-gray-50"
+>
 
-                    <summary
-                        class="cursor-pointer list-none flex items-center justify-between gap-6 p-6 font-bold text-gray-900"
-                    >
+    <summary
+        class="cursor-pointer list-none flex items-center justify-between gap-6 p-6 font-bold text-gray-900"
+    >
 
-                        Which medical specialties are available at Akropolis Super Speciality Hospital?
+        Which medical specialties are available at Akropolis Super Speciality Hospital?
 
-                        <span class="text-[#328CCB] text-xl group-open:rotate-45 transition-transform">
-                            +
-                        </span>
+        <span class="text-[#328CCB] text-xl group-open:rotate-45 transition-transform">
+            +
+        </span>
 
-                    </summary>
+    </summary>
 
 
-                    <div class="px-6 pb-6 text-gray-600 leading-relaxed">
+    <div class="px-6 pb-6 text-gray-600 leading-relaxed">
 
-                        The NABH Scope of Services includes Anaesthesiology,
-                        Interventional Cardiology, Dentistry, Dermatology and
-                        Venereology, General Medicine, General Surgery including
-                        Laparoscopic Surgery, Medical Gastroenterology,
-                        Nephrology including Dialysis, Neurology, Neurosurgery,
-                        Obstetrics and Gynaecology including High Risk Pregnancy,
-                        Ophthalmology, Orthopaedics including Joint Replacement,
-                        Otorhinolaryngology, Paediatrics, Plastic and
-                        Reconstructive Surgery, Psychiatry on an OPD-only basis,
-                        and Respiratory Medicine.
+        Akropolis provides medical specialties including Anaesthesiology,
+        Interventional Cardiology, Dentistry, Dermatology and Venereology,
+        General Medicine, General Surgery including Laparoscopic Surgery,
+        Medical Gastroenterology, Nephrology including Dialysis,
+        Neurology, Neurosurgery, Obstetrics and Gynaecology including
+        High Risk Pregnancy, Ophthalmology, Orthopaedics including Joint
+        Replacement, Otorhinolaryngology, Paediatrics, Plastic and
+        Reconstructive Surgery, Psychiatry on an OPD-only basis, and
+        Respiratory Medicine.
 
-                    </div>
+    </div>
 
-                </details>
+</details>
 
 
-                <!-- FAQ 7 -->
+<!-- FAQ 7 -->
 
-                <details
-                    class="group border border-gray-200 rounded-2xl bg-gray-50"
-                >
+<details
+    class="group border border-gray-200 rounded-2xl bg-gray-50"
+>
 
-                    <summary
-                        class="cursor-pointer list-none flex items-center justify-between gap-6 p-6 font-bold text-gray-900"
-                    >
+    <summary
+        class="cursor-pointer list-none flex items-center justify-between gap-6 p-6 font-bold text-gray-900"
+    >
 
-                        Do I need a prescription or referral for a diagnostic test?
+        Do I need a prescription or referral for a diagnostic test?
 
-                        <span class="text-[#328CCB] text-xl group-open:rotate-45 transition-transform">
-                            +
-                        </span>
+        <span class="text-[#328CCB] text-xl group-open:rotate-45 transition-transform">
+            +
+        </span>
 
-                    </summary>
+    </summary>
 
 
-                    <div class="px-6 pb-6 text-gray-600 leading-relaxed">
+    <div class="px-6 pb-6 text-gray-600 leading-relaxed">
 
-                        Whether a prescription or referral is required depends
-                        on the diagnostic test, clinical situation and hospital
-                        or treating doctor protocol. If you are unsure about
-                        the requirements for a particular test, contact the
-                        hospital before visiting.
+        Whether a prescription or referral is required depends on the
+        diagnostic test, clinical situation and hospital or treating
+        doctor protocol. If you are unsure about the requirements for
+        a particular test, contact the hospital before visiting.
 
-                    </div>
+    </div>
 
-                </details>
+</details>
 
 
-                <!-- FAQ 8 -->
+<!-- FAQ 8 -->
 
-                <details
-                    class="group border border-gray-200 rounded-2xl bg-gray-50"
-                >
+<details
+    class="group border border-gray-200 rounded-2xl bg-gray-50"
+>
 
-                    <summary
-                        class="cursor-pointer list-none flex items-center justify-between gap-6 p-6 font-bold text-gray-900"
-                    >
+    <summary
+        class="cursor-pointer list-none flex items-center justify-between gap-6 p-6 font-bold text-gray-900"
+    >
 
-                        Where is Akropolis Super Speciality Hospital located in Gurugram?
+        Where is Akropolis Super Speciality Hospital located in Gurugram?
 
-                        <span class="text-[#328CCB] text-xl group-open:rotate-45 transition-transform">
-                            +
-                        </span>
+        <span class="text-[#328CCB] text-xl group-open:rotate-45 transition-transform">
+            +
+        </span>
 
-                    </summary>
+    </summary>
 
 
-                    <div class="px-6 pb-6 text-gray-600 leading-relaxed">
+    <div class="px-6 pb-6 text-gray-600 leading-relaxed">
 
-                        Akropolis Super Speciality Hospital is located in
-                        Sector 69, Gurugram, near Vatika Chowk and opposite
-                        Chinar Garden, Haryana 122101.
+        Akropolis Super Speciality Hospital is located in Sector 69,
+        Gurugram, near Vatika Chowk and opposite Chinar Garden,
+        Haryana 122101.
 
-                    </div>
+    </div>
 
-                </details>
+</details>
 
 
-                <!-- FAQ 9 -->
+<!-- FAQ 9 -->
 
-                <details
-                    class="group border border-gray-200 rounded-2xl bg-gray-50"
-                >
+<details
+    class="group border border-gray-200 rounded-2xl bg-gray-50"
+>
 
-                    <summary
-                        class="cursor-pointer list-none flex items-center justify-between gap-6 p-6 font-bold text-gray-900"
-                    >
+    <summary
+        class="cursor-pointer list-none flex items-center justify-between gap-6 p-6 font-bold text-gray-900"
+    >
 
-                        Does Akropolis Super Speciality Hospital provide emergency care?
+        Does Akropolis Super Speciality Hospital provide emergency care?
 
-                        <span class="text-[#328CCB] text-xl group-open:rotate-45 transition-transform">
-                            +
-                        </span>
+        <span class="text-[#328CCB] text-xl group-open:rotate-45 transition-transform">
+            +
+        </span>
 
-                    </summary>
+    </summary>
 
 
-                    <div class="px-6 pb-6 text-gray-600 leading-relaxed">
+    <div class="px-6 pb-6 text-gray-600 leading-relaxed">
 
-                        Akropolis Super Speciality Hospital provides 24×7
-                        emergency care. Patients requiring urgent medical
-                        attention should contact the hospital emergency service
-                        or seek immediate medical care.
+        Akropolis Super Speciality Hospital provides 24×7 emergency care.
+        Patients requiring urgent medical attention should contact the
+        hospital emergency service or seek immediate medical care.
 
-                    </div>
+    </div>
 
-                </details>
+</details>
 
 
             </div>
