@@ -419,39 +419,188 @@ include 'includes/head.php';
           </div>
         </div>
 
-        <!-- Trust & Stats Column -->
-        <div class="lg:pl-12">
-          <h3 class="text-3xl font-bold text-gray-900 mb-8">Why Thousands Trust Us?</h3>
-          <div class="space-y-6">
-            <div class="flex items-start space-x-4 p-6 bg-white rounded-2xl shadow-sm border border-gray-100 hover:shadow-md transition-all duration-300">
-              <div class="bg-blue-50 p-3 rounded-xl">
-                <?php echo getIcon('Award', 'h-8 w-8 text-[#328CCB]'); ?>
-              </div>
-              <div>
-                <h4 class="font-bold text-gray-900 mb-1 text-lg">NABH Accredited</h4>
-                <p class="text-gray-600">This is a top mark for quality care in India. It means you are safe with us.</p>
-              </div>
-            </div>
-            <div class="flex items-start space-x-4 p-6 bg-white rounded-2xl shadow-sm border border-gray-100 hover:shadow-md transition-all duration-300">
-              <div class="bg-green-50 p-3 rounded-xl">
-                <?php echo getIcon('Heart', 'h-8 w-8 text-green-600'); ?>
-              </div>
-              <div>
-                <h4 class="font-bold text-gray-900 mb-1 text-lg">Patient-First Approach</h4>
-                <p class="text-gray-600">We put you first. We care for you with kindness, honesty, and great medical skill.</p>
-              </div>
-            </div>
-            <div class="flex items-start space-x-4 p-6 bg-white rounded-2xl shadow-sm border border-gray-100 hover:shadow-md transition-all duration-300">
-              <div class="bg-orange-50 p-3 rounded-xl">
-                <?php echo getIcon('Zap', 'h-8 w-8 text-[#D66C43]'); ?>
-              </div>
-              <div>
-                <h4 class="font-bold text-gray-900 mb-1 text-lg">24/7 Response</h4>
-                <p class="text-gray-600">We are always ready. Our emergency, heart, and trauma teams work all day and night.</p>
-              </div>
-            </div>
-          </div>
+        <!-- Trust & Standards Column -->
+<div class="lg:pl-12">
+
+    <div class="mb-8">
+
+        <div
+            class="inline-flex items-center gap-2 bg-[#328CCB]/10 text-[#328CCB] px-4 py-2 rounded-full text-sm font-semibold mb-4"
+        >
+
+            <?php echo getIcon('ShieldCheck', 'h-4 w-4'); ?>
+
+            Trusted Healthcare Standards
+
         </div>
+
+
+        <h3 class="text-3xl lg:text-4xl font-bold text-gray-900 leading-tight mb-4">
+
+            A Higher Standard of
+
+            <span class="text-[#328CCB]">
+                Hospital Care
+            </span>
+
+        </h3>
+
+
+        <p class="text-gray-600 leading-relaxed">
+
+            Akropolis combines NABH-accredited quality standards, specialist
+            medical care, advanced diagnostic services and round-the-clock
+            emergency support to provide comprehensive healthcare in Gurugram.
+
+        </p>
+
+    </div>
+
+
+    <div class="space-y-4">
+
+
+        <!-- NABH Accreditation -->
+
+        <div
+            class="flex items-start gap-4 p-5 bg-white rounded-2xl shadow-sm border border-gray-100 hover:shadow-md transition-all duration-300"
+        >
+
+            <div class="bg-blue-50 p-3 rounded-xl flex-shrink-0">
+
+                <?php echo getIcon(
+                    'Award',
+                    'h-7 w-7 text-[#328CCB]'
+                ); ?>
+
+            </div>
+
+
+            <div>
+
+                <h4 class="font-bold text-gray-900 mb-1 text-lg">
+                    NABH-Accredited Hospital
+                </h4>
+
+                <p class="text-gray-600 leading-relaxed">
+
+                    Akropolis is an NABH-accredited hospital committed to
+                    recognised standards for quality and patient care.
+
+                </p>
+
+            </div>
+
+        </div>
+
+
+        <!-- Advanced Facilities -->
+
+        <div
+            class="flex items-start gap-4 p-5 bg-white rounded-2xl shadow-sm border border-gray-100 hover:shadow-md transition-all duration-300"
+        >
+
+            <div class="bg-blue-50 p-3 rounded-xl flex-shrink-0">
+
+                <?php echo getIcon(
+                    'Building2',
+                    'h-7 w-7 text-[#328CCB]'
+                ); ?>
+
+            </div>
+
+
+            <div>
+
+                <h4 class="font-bold text-gray-900 mb-1 text-lg">
+                    Advanced Hospital Facilities
+                </h4>
+
+                <p class="text-gray-600 leading-relaxed">
+
+                    Specialist departments, diagnostic services and supporting
+                    hospital facilities bring multiple aspects of patient care
+                    together under one roof.
+
+                </p>
+
+            </div>
+
+        </div>
+
+
+        <!-- Specialist Care -->
+
+        <div
+            class="flex items-start gap-4 p-5 bg-white rounded-2xl shadow-sm border border-gray-100 hover:shadow-md transition-all duration-300"
+        >
+
+            <div class="bg-blue-50 p-3 rounded-xl flex-shrink-0">
+
+                <?php echo getIcon(
+                    'Stethoscope',
+                    'h-7 w-7 text-[#328CCB]'
+                ); ?>
+
+            </div>
+
+
+            <div>
+
+                <h4 class="font-bold text-gray-900 mb-1 text-lg">
+                    Specialist-Led Medical Care
+                </h4>
+
+                <p class="text-gray-600 leading-relaxed">
+
+                    Patients can access specialist medical care across multiple
+                    departments, supported by dedicated clinical teams and
+                    diagnostic services.
+
+                </p>
+
+            </div>
+
+        </div>
+
+
+        <!-- 24/7 Emergency -->
+
+        <div
+            class="flex items-start gap-4 p-5 bg-white rounded-2xl shadow-sm border border-gray-100 hover:shadow-md transition-all duration-300"
+        >
+
+            <div class="bg-orange-50 p-3 rounded-xl flex-shrink-0">
+
+                <?php echo getIcon(
+                    'Clock3',
+                    'h-7 w-7 text-[#D66C43]'
+                ); ?>
+
+            </div>
+
+
+            <div>
+
+                <h4 class="font-bold text-gray-900 mb-1 text-lg">
+                    24/7 Emergency Care
+                </h4>
+
+                <p class="text-gray-600 leading-relaxed">
+
+                    Round-the-clock emergency services are available for
+                    patients requiring urgent medical attention.
+
+                </p>
+
+            </div>
+
+        </div>
+
+
+    </div>
+
+</div>
       </div>
     </div>
   </section>
