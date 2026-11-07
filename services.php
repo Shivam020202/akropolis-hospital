@@ -469,7 +469,7 @@ include 'includes/head.php';
 
             [
                 'name' => 'Psychiatry',
-                'description' => 'Psychiatric services on an OPD-only basis within the NABH scope.'
+                'description' => 'Psychiatric consultation and services are available on an OPD-only basis'
             ],
 
             [
@@ -868,9 +868,7 @@ include 'includes/head.php';
 
                 <p class="text-gray-600 leading-relaxed mb-5">
 
-                    Dialysis is included within the NABH clinical scope under
-                    Nephrology, supporting patients requiring renal replacement
-                    therapy.
+                    Dialysis services are available under Nephrology for patients requiring renal replacement therapy.
 
                 </p>
 
