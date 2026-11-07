@@ -1,8 +1,8 @@
 <?php
 require_once 'includes/data.php';
 require_once 'includes/schema.php';
-$page_title = 'Akropolis Super Speciality Hospital';
-$page_description = 'Akropolis Super Speciality Hospital in Gurugram offers NABH-accredited healthcare, 24/7 emergency services, expert doctors, advanced diagnostics and specialised care.';
+$page_title = 'Best Hospital in Gurgaon | Akropolis Super Speciality Hospital';
+$page_description = 'Best Super Speciality Hospital in Gurgaon, Akropolis offers advanced medical and diagnostic services, specialist care and 24/7 emergency services.';
 $canonical_url = '/';
 $schema_blocks = [
     schemaWebSite(),
@@ -194,7 +194,7 @@ include 'includes/head.php';
               <span class="text-[#328CCB]"> Healthcare Excellence</span>
             </h2>
             <p class="text-gray-600 text-lg leading-relaxed">
-              Akropolis Hospital is a top choice for your health. We offer great medical care with modern tools. Our hospital is NABH accredited. This means we meet high standards to keep you safe and healthy.
+              Akropolis Super Speciality Hospital combines specialist medical care, advanced diagnostic services, modern hospital facilities and patient-focused care in Gurugram. Our clinical and support services are designed to provide coordinated healthcare across multiple specialties.
             </p>
           </div>
 
@@ -221,7 +221,7 @@ include 'includes/head.php';
           <span>Our Departments</span>
         </div>
         <h3 class="text-4xl lg:text-5xl font-bold text-gray-900 mt-2 mb-6">
-          World-Class <span class="text-[#328CCB]">Medical Excellence</span>
+          Comprehensive <span class="text-[#328CCB]"> Medical Care Across Specialties</span>
         </h3>
       </div>
 
