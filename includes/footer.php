@@ -203,7 +203,7 @@
     <div class="container mx-auto px-4">
       <div class="flex flex-col md:flex-row items-center justify-between">
         <p class="text-gray-400 text-center md:text-left">
-          © 2025 Akropolis Super Speciality Hospital. All rights reserved.
+          © 2026 Akropolis Super Speciality Hospital. All rights reserved.
         </p>
         <div class="flex space-x-6 mt-4 md:mt-0">
           <a href="/sitemap.xml" class="text-gray-400 hover:text-white transition-colors duration-200" target="_blank" rel="noopener noreferrer">
