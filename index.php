@@ -1,8 +1,8 @@
 <?php
 require_once 'includes/data.php';
 require_once 'includes/schema.php';
-$page_title = 'Best Hospital in Gurgaon | Akropolis Super Speciality Hospital';
-$page_description = 'Best Super Speciality Hospital in Gurgaon, Akropolis offers advanced medical and diagnostic services, specialist care and 24/7 emergency services.';
+$page_title = 'Akropolis Super Speciality Hospital | Best Hospital in Gurgaon';
+$page_description = 'Looking for the best super speciality hospital in Gurgaon? Akropolis offers advanced medical and diagnostic care, specialist services and 24/7 emergency care in Gurugram.';
 $canonical_url = '/';
 $schema_blocks = [
     schemaWebSite(),
