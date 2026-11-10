@@ -1233,16 +1233,18 @@ include 'includes/head.php';
 
                                 <p class="text-gray-700 leading-relaxed">
 
-                                    Emergency services are available 24/7.
+    <a
+        href="tel:<?php echo CONTACT_INFO['emergency']; ?>"
+        class="text-[#D66C43] font-semibold hover:underline"
+    >
+        <?php echo CONTACT_INFO['emergency']; ?>
+    </a>
 
-                                    <a
-                                        href="tel:<?php echo CONTACT_INFO['emergency']; ?>"
-                                        class="text-[#D66C43] font-semibold hover:underline"
-                                    >
-                                        Call <?php echo CONTACT_INFO['emergency']; ?>
-                                    </a>
+    <span class="text-gray-700">
+        &nbsp;•&nbsp; Emergency services available 24/7
+    </span>
 
-                                </p>
+</p>
 
                             </div>
 
