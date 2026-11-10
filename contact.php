@@ -1150,6 +1150,32 @@ include 'includes/head.php';
 
                     </h2>
 
+                    <!-- Business Name -->
+
+<div class="flex items-start gap-4 mb-6">
+
+    <div class="bg-[#328CCB]/10 p-3 rounded-xl flex-shrink-0">
+
+        <?php echo getIcon(
+            'Building2',
+            'h-6 w-6 text-[#328CCB]'
+        ); ?>
+
+    </div>
+
+    <div>
+
+        <div class="text-sm font-semibold text-gray-500 mb-1">
+            Hospital
+        </div>
+
+        <div class="font-bold text-gray-900 text-lg">
+            Akropolis Super Speciality Hospital
+        </div>
+
+    </div>
+
+</div>
 
                     <div class="space-y-7 mb-8">
 
