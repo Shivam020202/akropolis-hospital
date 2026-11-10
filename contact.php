@@ -914,19 +914,43 @@ include 'includes/head.php';
 
                             $operatingHours = [
 
-                                [
-                                    'day' => 'Emergency Services',
-                                    'time' => '24/7 Available',
-                                    'highlight' => true
-                                ],
+    [
+        'day' => 'Emergency Services',
+        'time' => '24/7 Available',
+        'highlight' => true
+    ],
 
-                                [
-                                    'day' => 'OPD Timings',
-                                    'time' => '8:00 AM - 8:00 PM',
-                                    'highlight' => false
-                                ]
+    [
+        'day' => 'OPD Timings',
+        'time' => '8:00 AM - 8:00 PM',
+        'highlight' => false
+    ],
 
-                            ];
+    [
+        'day' => 'Laboratory',
+        'time' => '24/7 Available',
+        'highlight' => false
+    ],
+
+    [
+        'day' => 'Pharmacy',
+        'time' => '24/7 Available',
+        'highlight' => true
+    ],
+
+    [
+        'day' => 'Radiology',
+        'time' => '24/7 Available',
+        'highlight' => false
+    ],
+
+    [
+        'day' => 'Dialysis Center',
+        'time' => '24/7 Available',
+        'highlight' => true
+    ]
+
+];
 
                             foreach ($operatingHours as $hour):
 
@@ -962,9 +986,8 @@ include 'includes/head.php';
 
                         <p class="text-sm text-gray-500 mt-5 leading-relaxed">
 
-                            Service-specific timings may vary. Please contact
-                            the hospital before visiting for laboratory,
-                            radiology, pharmacy or dialysis services.
+                            For appointments, service information or assistance before your visit,
+    please contact Akropolis Super Speciality Hospital.
 
                         </p>
 
