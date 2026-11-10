@@ -305,7 +305,7 @@ include 'includes/head.php';
             <!-- Directions -->
 
             <a
-                href="https://maps.app.goo.gl/GdmJvL8Yuz1VUMvw8"
+                href="https://maps.app.goo.gl/K9MHnMvWnVQS6eXs8"
                 target="_blank"
                 rel="noopener noreferrer"
                 class="group bg-white border border-gray-100 rounded-2xl p-6 shadow-sm hover:shadow-lg transition-all duration-300"
@@ -1257,7 +1257,7 @@ include 'includes/head.php';
                     <!-- Directions CTA -->
 
                     <a
-                        href="https://maps.app.goo.gl/GdmJvL8Yuz1VUMvw8"
+                        href="https://maps.app.goo.gl/K9MHnMvWnVQS6eXs8"
                         target="_blank"
                         rel="noopener noreferrer"
                         aria-label="Get directions to Akropolis Super Speciality Hospital in Gurugram"
@@ -1437,6 +1437,272 @@ include 'includes/head.php';
                     </p>
 
                 </a>
+
+            </div>
+
+        </div>
+
+    </div>
+
+</section>
+
+<!-- =========================================================
+     EMAIL & SOCIAL MEDIA
+========================================================= -->
+
+<section class="py-20 bg-gray-50">
+
+    <div class="container mx-auto px-4">
+
+        <div class="max-w-6xl mx-auto">
+
+            <!-- Section Header -->
+
+            <div class="text-center mb-12">
+
+                <div
+                    class="inline-flex items-center gap-2 bg-[#328CCB]/10 text-[#328CCB] px-4 py-2 rounded-full text-sm font-medium mb-6"
+                >
+
+                    <?php echo getIcon('MessageCircle', 'h-4 w-4'); ?>
+
+                    <span>
+                        Stay Connected
+                    </span>
+
+                </div>
+
+
+                <h2 class="text-4xl lg:text-5xl font-bold text-gray-900 mb-5">
+
+                    Connect With
+                    <span class="text-[#328CCB]">
+                        Akropolis
+                    </span>
+
+                </h2>
+
+
+                <p class="text-gray-600 text-lg max-w-3xl mx-auto leading-relaxed">
+
+                    Have a question or want to stay updated with Akropolis
+                    Super Speciality Hospital? Contact us by email or connect
+                    with us through our official social media channels.
+
+                </p>
+
+            </div>
+
+
+            <div class="grid lg:grid-cols-2 gap-8">
+
+
+                <!-- =================================================
+                     EMAIL CONTACT
+                ================================================== -->
+
+                <div
+                    class="bg-white rounded-3xl shadow-lg border border-gray-100 p-8 lg:p-10"
+                >
+
+                    <div class="flex items-start gap-5">
+
+                        <div
+                            class="bg-[#328CCB]/10 p-4 rounded-2xl flex-shrink-0"
+                        >
+
+                            <?php echo getIcon(
+                                'Mail',
+                                'h-7 w-7 text-[#328CCB]'
+                            ); ?>
+
+                        </div>
+
+
+                        <div>
+
+                            <p class="text-sm font-semibold text-[#328CCB] mb-2">
+                                Email Us
+                            </p>
+
+
+                            <h3 class="text-2xl font-bold text-gray-900 mb-3">
+                                Contact Our Hospital Team
+                            </h3>
+
+
+                            <p class="text-gray-600 leading-relaxed mb-5">
+
+                                For general enquiries, appointment-related
+                                questions or hospital information, you can
+                                contact the Akropolis team by email.
+
+                            </p>
+
+
+                            <a
+                                href="mailto:Info@akropolishospital.com"
+                                class="inline-flex items-center gap-2 text-[#328CCB] font-semibold hover:underline break-all"
+                                aria-label="Email Akropolis Super Speciality Hospital"
+                            >
+
+                                <?php echo getIcon(
+                                    'Mail',
+                                    'h-5 w-5'
+                                ); ?>
+
+                                Info@akropolishospital.com
+
+                            </a>
+
+                        </div>
+
+                    </div>
+
+                </div>
+
+
+                <!-- =================================================
+                     SOCIAL MEDIA
+                ================================================== -->
+
+                <div
+                    class="bg-white rounded-3xl shadow-lg border border-gray-100 p-8 lg:p-10"
+                >
+
+                    <div class="flex items-start gap-5">
+
+                        <div
+                            class="bg-[#D66C43]/10 p-4 rounded-2xl flex-shrink-0"
+                        >
+
+                            <?php echo getIcon(
+                                'Share2',
+                                'h-7 w-7 text-[#D66C43]'
+                            ); ?>
+
+                        </div>
+
+
+                        <div class="w-full">
+
+                            <p class="text-sm font-semibold text-[#D66C43] mb-2">
+                                Follow Akropolis
+                            </p>
+
+
+                            <h3 class="text-2xl font-bold text-gray-900 mb-3">
+                                Connect With Us Online
+                            </h3>
+
+
+                            <p class="text-gray-600 leading-relaxed mb-6">
+
+                                Follow the official Akropolis Super Speciality
+                                Hospital channels for hospital updates,
+                                healthcare information and news.
+
+                            </p>
+
+
+                            <div class="grid grid-cols-2 gap-3">
+
+
+                                <!-- Facebook -->
+
+                                <a
+                                    href="https://www.facebook.com/akropolishospital"
+                                    target="_blank"
+                                    rel="noopener noreferrer"
+                                    class="flex items-center gap-3 p-3 rounded-xl border border-gray-100 hover:border-[#328CCB]/30 hover:bg-[#328CCB]/5 transition-all duration-300"
+                                    aria-label="Akropolis Super Speciality Hospital on Facebook"
+                                >
+
+                                    <?php echo getIcon(
+                                        'Facebook',
+                                        'h-5 w-5 text-[#328CCB]'
+                                    ); ?>
+
+                                    <span class="font-semibold text-gray-800">
+                                        Facebook
+                                    </span>
+
+                                </a>
+
+
+                                <!-- Instagram -->
+
+                                <a
+                                    href="https://www.instagram.com/akropolishospital"
+                                    target="_blank"
+                                    rel="noopener noreferrer"
+                                    class="flex items-center gap-3 p-3 rounded-xl border border-gray-100 hover:border-[#328CCB]/30 hover:bg-[#328CCB]/5 transition-all duration-300"
+                                    aria-label="Akropolis Super Speciality Hospital on Instagram"
+                                >
+
+                                    <?php echo getIcon(
+                                        'Instagram',
+                                        'h-5 w-5 text-[#328CCB]'
+                                    ); ?>
+
+                                    <span class="font-semibold text-gray-800">
+                                        Instagram
+                                    </span>
+
+                                </a>
+
+
+                                <!-- LinkedIn -->
+
+                                <a
+                                    href="https://www.linkedin.com/company/akropolis-superspeciality-hospital"
+                                    target="_blank"
+                                    rel="noopener noreferrer"
+                                    class="flex items-center gap-3 p-3 rounded-xl border border-gray-100 hover:border-[#328CCB]/30 hover:bg-[#328CCB]/5 transition-all duration-300"
+                                    aria-label="Akropolis Super Speciality Hospital on LinkedIn"
+                                >
+
+                                    <?php echo getIcon(
+                                        'Linkedin',
+                                        'h-5 w-5 text-[#328CCB]'
+                                    ); ?>
+
+                                    <span class="font-semibold text-gray-800">
+                                        LinkedIn
+                                    </span>
+
+                                </a>
+
+
+                                <!-- YouTube -->
+
+                                <a
+                                    href="https://www.youtube.com/@akropolishhospital"
+                                    target="_blank"
+                                    rel="noopener noreferrer"
+                                    class="flex items-center gap-3 p-3 rounded-xl border border-gray-100 hover:border-[#328CCB]/30 hover:bg-[#328CCB]/5 transition-all duration-300"
+                                    aria-label="Akropolis Super Speciality Hospital on YouTube"
+                                >
+
+                                    <?php echo getIcon(
+                                        'Youtube',
+                                        'h-5 w-5 text-[#328CCB]'
+                                    ); ?>
+
+                                    <span class="font-semibold text-gray-800">
+                                        YouTube
+                                    </span>
+
+                                </a>
+
+
+                            </div>
+
+                        </div>
+
+                    </div>
+
+                </div>
 
             </div>
 
