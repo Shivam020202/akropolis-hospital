@@ -1613,7 +1613,7 @@ include 'includes/head.php';
                                 <a
                                     href="https://www.facebook.com/akropolishospital"
                                     target="_blank"
-                                    rel="noopener noreferrer"
+                                    rel="nofollow noopener noreferrer"
                                     class="flex items-center gap-3 p-3 rounded-xl border border-gray-100 hover:border-[#328CCB]/30 hover:bg-[#328CCB]/5 transition-all duration-300"
                                     aria-label="Akropolis Super Speciality Hospital on Facebook"
                                 >
@@ -1635,7 +1635,7 @@ include 'includes/head.php';
                                 <a
                                     href="https://www.instagram.com/akropolishospital"
                                     target="_blank"
-                                    rel="noopener noreferrer"
+                                    rel="nofollow noopener noreferrer"
                                     class="flex items-center gap-3 p-3 rounded-xl border border-gray-100 hover:border-[#328CCB]/30 hover:bg-[#328CCB]/5 transition-all duration-300"
                                     aria-label="Akropolis Super Speciality Hospital on Instagram"
                                 >
@@ -1657,7 +1657,7 @@ include 'includes/head.php';
                                 <a
                                     href="https://www.linkedin.com/company/akropolis-superspeciality-hospital"
                                     target="_blank"
-                                    rel="noopener noreferrer"
+                                    rel="nofollow noopener noreferrer"
                                     class="flex items-center gap-3 p-3 rounded-xl border border-gray-100 hover:border-[#328CCB]/30 hover:bg-[#328CCB]/5 transition-all duration-300"
                                     aria-label="Akropolis Super Speciality Hospital on LinkedIn"
                                 >
@@ -1679,7 +1679,7 @@ include 'includes/head.php';
                                 <a
                                     href="https://www.youtube.com/@akropolishhospital"
                                     target="_blank"
-                                    rel="noopener noreferrer"
+                                    rel="nofollow noopener noreferrer"
                                     class="flex items-center gap-3 p-3 rounded-xl border border-gray-100 hover:border-[#328CCB]/30 hover:bg-[#328CCB]/5 transition-all duration-300"
                                     aria-label="Akropolis Super Speciality Hospital on YouTube"
                                 >
