@@ -438,12 +438,15 @@ include 'includes/head.php';
 
                 <!-- FORMESTER FORM: FUNCTIONALITY PRESERVED -->
 
-                <form
-                    accept-charset="UTF-8"
-                    action="https://app.formester.com/forms/26PHowyy9/submissions"
-                    method="POST"
-                    class="space-y-6"
-                >
+                <script src="https://assets.formester.com/widget/standard.js" type="module"></script>
+
+<formester-standard-form
+    set-auto-height="true"
+    height="100%"
+    width="100%"
+    id="NrmiBdRiK"
+    url="https://bjnnijac.formester.com/f/NrmiBdRiK"
+></formester-standard-form>
 
                     <!-- Name Field -->
 
