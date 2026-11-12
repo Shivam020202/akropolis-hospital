@@ -47,6 +47,7 @@ function schemaHospital(string $pageUrl = ''): string {
             'https://www.facebook.com/akropolishospital/',
             'https://www.instagram.com/akropolishospital/',
             'https://www.linkedin.com/company/akropolis-superspeciality-hospital',
+            'https://www.youtube.com/@akropolishhospital',
         ],
 
         'medicalSpecialty' => [
