@@ -435,7 +435,6 @@ include 'includes/head.php';
 
                 </div>
 
-
                 <!-- FORMESTER FORM: FUNCTIONALITY PRESERVED -->
 
                 <script src="https://assets.formester.com/widget/standard.js" type="module"></script>
@@ -447,6 +446,7 @@ include 'includes/head.php';
     id="NrmiBdRiK"
     url="https://bjnnijac.formester.com/f/NrmiBdRiK"
 ></formester-standard-form>
+</div>
 
             <!-- =================================================
                  OPERATING HOURS + FEATURES
