@@ -97,17 +97,41 @@ include __DIR__ . '/../includes/head.php';
 ?>
 
 <!-- Sitewide Emergency Bar -->
-<div class="bg-[#D66C43] text-white py-2 px-4 text-center sticky top-0 z-50">
-    <div class="container mx-auto flex items-center justify-center space-x-2">
+<div class="anu-site-emergency-bar">
+    <div class="anu-site-emergency-inner">
         <?php echo getIcon('Phone', 'h-4 w-4'); ?>
-        <span class="font-semibold text-sm md:text-base">
-            Emergency 24×7: <?php echo CONTACT_INFO['emergency']; ?>
-        </span>
+        <span>Emergency 24×7: <?php echo htmlspecialchars(CONTACT_INFO['emergency'], ENT_QUOTES, 'UTF-8'); ?></span>
     </div>
 </div>
 
-<!-- Sitewide Main Navigation -->
-<?php include __DIR__ . '/../includes/header-v2.php'; ?>
+<?php include __DIR__ . '/../includes/header-v2.php'; ?><?php
+/* =========================================================
+   PAGE-LOCAL REFERENCE ICONS
+   These are intentionally inline SVGs so this page does not
+   depend on fallback icon names for the reference artwork.
+   ========================================================= */
+if (!function_exists('anuReferenceIcon')) {
+    function anuReferenceIcon(string $name, string $class = 'w-5 h-5'): string
+    {
+        $icons = [
+            'obstetrics' => '<circle cx="12" cy="7" r="3"/><path d="M7.5 20c.5-3.2 2-5 4.5-5s4 1.8 4.5 5"/><path d="M15.5 12.5c1.7.1 3 .9 3.8 2.2"/>',
+            'gynecology' => '<path d="M8 4v4.5a4 4 0 0 0 8 0V4"/><path d="M8 4c0 1.7 1.2 3 4 3s4-1.3 4-3"/><path d="M12 12.5V19"/><path d="M9.5 19h5"/>',
+            'women' => '<circle cx="12" cy="7" r="2.8"/><path d="M8.2 20c.3-4.2 1.5-6.5 3.8-6.5s3.5 2.3 3.8 6.5"/><path d="M7 14.5c1.4-.8 3-1.2 5-1.2s3.6.4 5 1.2"/>',
+            'pregnancy' => '<rect x="5" y="4" width="12" height="16" rx="2"/><path d="M9 4.5h6"/><path d="M8.5 12.5l2 2 4.5-5"/><path d="M17 16l2.8-2.8"/>',
+            'evaluation' => '<rect x="5" y="4" width="12" height="16" rx="2"/><path d="M9 4.5h4"/><path d="M8.5 10h5"/><path d="M8.5 14l1.8 1.8 4-4"/>',
+            'maternity' => '<circle cx="12" cy="12" r="8"/><circle cx="12" cy="9" r="2.2"/><path d="M8.8 17c.4-2.5 1.5-3.8 3.2-3.8s2.8 1.3 3.2 3.8"/>',
+            'highrisk' => '<circle cx="12" cy="12" r="8"/><path d="M8.5 12.2l2.2 2.2 4.8-5"/>',
+            'gynecare' => '<circle cx="12" cy="12" r="8"/><path d="M8 9.5c1.2-1.6 2.5-2.3 4-2.3s2.8.7 4 2.3"/><path d="M8.5 13c1.2 2 2.4 3 3.5 3s2.3-1 3.5-3"/>',
+            'infertility' => '<circle cx="12" cy="12" r="8"/><path d="M8.8 11.5c1.5-2.2 4.9-2.2 6.4 0 1.2 1.8.2 4.1-1.7 5.2-1 .6-1.8 1.1-1.8 2"/><path d="M12 8v1"/>',
+            'calendar' => '<rect x="4" y="5" width="16" height="15" rx="2"/><path d="M8 3v4M16 3v4M4 9h16"/><path d="M8.5 14l2 2 5-5"/>',
+        ];
+        $body = $icons[$name] ?? $icons['evaluation'];
+        return '<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" class="' . htmlspecialchars($class, ENT_QUOTES, 'UTF-8') . '" aria-hidden="true">' . $body . '</svg>';
+    }
+}
+?>
+
+
 
 <!-- =========================================================
      PAGE-SPECIFIC STYLES
@@ -565,82 +589,42 @@ include __DIR__ . '/../includes/head.php';
     .anu-dept-card {
         position: relative;
         overflow: hidden;
-        padding: 28px 34px 30px;
-        min-height: 170px;
+        padding: 30px 34px;
         background: linear-gradient(105deg, #F0FAFF 0%, #F7FCFF 100%);
         border: 1px solid #D7EDF9;
         border-radius: 17px;
     }
 
-    .anu-dept-content {
-        position: relative;
-        z-index: 2;
-        max-width: calc(100% - 180px);
-    }
-
     .anu-dept-card h2 {
         font-size: 1.35rem;
-        line-height: 1.25;
-        margin-bottom: 7px;
-    }
-
-    .anu-dept-card h2 .accent {
-        color: var(--ak-blue);
+        margin-bottom: 8px;
     }
 
     .anu-dept-card p {
         color: #5E6B7A;
         max-width: 720px;
-        line-height: 1.55;
+        line-height: 1.6;
         font-size: 0.82rem;
-        margin-bottom: 16px;
+        margin-bottom: 17px;
     }
 
     .anu-chip-row {
-        display: grid;
-        grid-template-columns: max-content max-content max-content;
+        display: flex;
+        flex-wrap: wrap;
         gap: 8px;
-        align-items: start;
     }
 
     .anu-chip {
         display: inline-flex;
         align-items: center;
-        gap: 7px;
-        width: fit-content;
+        gap: 6px;
         background: #fff;
         border: 1px solid #DDEAF2;
-        border-radius: 8px;
+        border-radius: 999px;
         padding: 7px 11px;
         color: #344054;
         font-size: 0.72rem;
-        line-height: 1.25;
         font-weight: 700;
-        box-shadow: 0 2px 5px rgba(17,52,86,.025);
-        white-space: nowrap;
-    }
-
-    .anu-chip svg {
-        flex: 0 0 auto;
-    }
-
-    .anu-dept-illustration {
-        position: absolute;
-        right: 14px;
-        top: 50%;
-        width: 150px;
-        height: 150px;
-        transform: translateY(-50%);
-        color: #8FC8EF;
-        opacity: .72;
-        z-index: 1;
-        pointer-events: none;
-    }
-
-    .anu-dept-illustration svg {
-        width: 100%;
-        height: 100%;
-        display: block;
     }
 
     /* Consultation reasons */
@@ -976,6 +960,177 @@ include __DIR__ . '/../includes/head.php';
         color: var(--ak-blue);
     }
 
+
+    /* =========================================================
+       REFERENCE-MATCH ICONS + DEPARTMENT VISUAL
+       ========================================================= */
+
+    .anu-site-emergency-bar {
+        height: 32px;
+        background: #D66C43;
+        color: #fff;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        position: relative;
+        z-index: 60;
+    }
+
+    .anu-site-emergency-inner {
+        width: min(1180px, calc(100% - 32px));
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        gap: 7px;
+        font-size: 0.78rem;
+        line-height: 1;
+        font-weight: 700;
+    }
+
+    .anu-page .anu-reference-care-grid {
+        gap: 14px;
+    }
+
+    .anu-page .anu-reference-care-card {
+        min-height: 158px;
+        padding: 20px 14px 17px;
+        border-radius: 12px;
+        box-shadow: 0 5px 18px rgba(17,52,86,.055);
+    }
+
+    .anu-reference-icon {
+        width: 42px;
+        height: 42px;
+        margin: 0 auto 11px;
+        border-radius: 12px;
+        display: inline-flex;
+        align-items: center;
+        justify-content: center;
+        background: #EEF8FD;
+        color: #328CCB;
+    }
+
+    .anu-reference-icon.pink {
+        background: #FFF0F5;
+        color: #D9487C;
+    }
+
+    .anu-reference-icon.orange {
+        background: #FFF2EC;
+        color: #D66C43;
+    }
+
+    .anu-reference-icon svg {
+        display: block;
+    }
+
+    .anu-page .anu-reference-care-card h3 {
+        font-size: 0.82rem;
+        margin-bottom: 6px;
+    }
+
+    .anu-page .anu-reference-care-card p {
+        font-size: 0.68rem;
+        line-height: 1.45;
+    }
+
+    .anu-department-reference-section {
+        padding-top: 42px;
+        padding-bottom: 42px;
+    }
+
+    .anu-page .anu-dept-reference-card {
+        min-height: 205px;
+        padding: 27px 30px;
+        display: grid;
+        grid-template-columns: minmax(0, 1fr) 245px;
+        gap: 25px;
+        align-items: center;
+        border-radius: 16px;
+        background: linear-gradient(104deg, #F1FAFE 0%, #F7FCFF 100%);
+        border: 1px solid #D9EDF8;
+        box-shadow: none;
+    }
+
+    .anu-dept-reference-copy {
+        position: relative;
+        z-index: 2;
+    }
+
+    .anu-page .anu-dept-reference-card h2 {
+        font-size: 1.23rem;
+        line-height: 1.25;
+        margin-bottom: 7px;
+        color: #123B70;
+    }
+
+    .anu-page .anu-dept-reference-card h2 span {
+        color: #328CCB;
+    }
+
+    .anu-page .anu-dept-reference-card > .anu-dept-reference-copy > p {
+        max-width: 720px;
+        margin-bottom: 16px;
+        font-size: 0.74rem;
+        line-height: 1.55;
+        color: #596878;
+    }
+
+    .anu-page .anu-reference-chip-row {
+        gap: 8px;
+    }
+
+    .anu-page .anu-reference-chip-row .anu-chip {
+        padding: 6px 10px;
+        border-radius: 8px;
+        font-size: 0.65rem;
+        line-height: 1.25;
+        color: #334155;
+        background: #fff;
+        border-color: #DCEBF4;
+    }
+
+    .anu-page .anu-reference-chip-row .anu-chip svg {
+        color: #328CCB;
+        flex: 0 0 auto;
+    }
+
+    .anu-maternity-illustration {
+        color: #9BCDF0;
+        width: 230px;
+        height: 175px;
+        justify-self: end;
+        opacity: .92;
+    }
+
+    .anu-maternity-illustration svg {
+        width: 100%;
+        height: 100%;
+        display: block;
+    }
+
+    @media (max-width: 768px) {
+        .anu-site-emergency-bar {
+            height: 30px;
+        }
+
+        .anu-site-emergency-inner {
+            font-size: 0.68rem;
+        }
+
+        .anu-page .anu-dept-reference-card {
+            grid-template-columns: 1fr;
+            padding: 24px 20px;
+        }
+
+        .anu-maternity-illustration {
+            width: 190px;
+            height: 145px;
+            justify-self: center;
+            order: -1;
+        }
+    }
+
     /* Responsive */
 
     @media (max-width: 1024px) {
@@ -996,49 +1151,9 @@ include __DIR__ . '/../includes/head.php';
         }
     }
 
-    @media (max-width: 1024px) {
-        .anu-dept-content {
-            max-width: calc(100% - 135px);
-        }
-
-        .anu-chip-row {
-            grid-template-columns: max-content max-content;
-        }
-
-        .anu-chip {
-            white-space: normal;
-        }
-    }
-
     @media (max-width: 768px) {
         .anu-container {
             width: min(100% - 24px, 680px);
-        }
-
-        .anu-dept-card {
-            padding: 26px 24px;
-        }
-
-        .anu-dept-content {
-            max-width: 100%;
-        }
-
-        .anu-dept-illustration {
-            width: 100px;
-            height: 100px;
-            right: 6px;
-            bottom: 8px;
-            top: auto;
-            transform: none;
-            opacity: .32;
-        }
-
-        .anu-chip-row {
-            grid-template-columns: 1fr;
-        }
-
-        .anu-chip {
-            white-space: normal;
         }
 
         .anu-section {
@@ -1092,10 +1207,6 @@ include __DIR__ . '/../includes/head.php';
     }
 
     @media (max-width: 520px) {
-        .anu-dept-illustration {
-            display: none;
-        }
-
         .anu-three-grid,
         .anu-five-grid,
         .anu-four-grid,
@@ -1451,103 +1562,58 @@ include __DIR__ . '/../includes/head.php';
          ===================================================== -->
 
     <section class="anu-section">
-
         <div class="anu-container">
-
             <div class="section-header">
-
                 <h2 class="section-title">
                     Areas of <span class="accent">Medical Care</span>
                 </h2>
-
                 <p class="section-intro">
-                    Her clinical practice is centred around Obstetrics,
-                    Gynaecology and Women's Health.
+                    Her clinical practice is centred around Obstetrics, Gynaecology and Women's Health.
                 </p>
-
             </div>
 
-
-            <div class="anu-five-grid">
-
-                <div class="card anu-care-card">
-
-                    <div class="icon-box">
-                        <?php echo getIcon('Baby', 'w-5 h-5'); ?>
+            <div class="anu-five-grid anu-reference-care-grid">
+                <div class="card anu-care-card anu-reference-care-card">
+                    <div class="anu-reference-icon">
+                        <?php echo anuReferenceIcon('obstetrics', 'w-6 h-6'); ?>
                     </div>
-
                     <h3>Obstetrics</h3>
-
-                    <p>
-                        Pregnancy-related consultations and care.
-                    </p>
-
+                    <p>Pregnancy-related consultations and care.</p>
                 </div>
 
-
-                <div class="card anu-care-card">
-
-                    <div class="icon-box pink">
-                        <?php echo getIcon('HeartPulse', 'w-5 h-5'); ?>
+                <div class="card anu-care-card anu-reference-care-card">
+                    <div class="anu-reference-icon pink">
+                        <?php echo anuReferenceIcon('gynecology', 'w-6 h-6'); ?>
                     </div>
-
                     <h3>Gynaecology</h3>
-
-                    <p>
-                        Evaluation and management of gynaecological concerns.
-                    </p>
-
+                    <p>Evaluation and management of gynaecological concerns.</p>
                 </div>
 
-
-                <div class="card anu-care-card">
-
-                    <div class="icon-box">
-                        <?php echo getIcon('PersonStanding', 'w-5 h-5'); ?>
+                <div class="card anu-care-card anu-reference-care-card">
+                    <div class="anu-reference-icon">
+                        <?php echo anuReferenceIcon('women', 'w-6 h-6'); ?>
                     </div>
-
                     <h3>Women's Health</h3>
-
-                    <p>
-                        Consultation for various women's health needs.
-                    </p>
-
+                    <p>Consultation for various women's health needs.</p>
                 </div>
 
-
-                <div class="card anu-care-card">
-
-                    <div class="icon-box orange">
-                        <?php echo getIcon('ClipboardPenLine', 'w-5 h-5'); ?>
+                <div class="card anu-care-card anu-reference-care-card">
+                    <div class="anu-reference-icon orange">
+                        <?php echo anuReferenceIcon('pregnancy', 'w-6 h-6'); ?>
                     </div>
-
                     <h3>Pregnancy Care</h3>
-
-                    <p>
-                        Assessment, guidance and follow-up during pregnancy.
-                    </p>
-
+                    <p>Assessment, guidance and follow-up during pregnancy.</p>
                 </div>
 
-
-                <div class="card anu-care-card">
-
-                    <div class="icon-box">
-                        <?php echo getIcon('ClipboardCheck', 'w-5 h-5'); ?>
+                <div class="card anu-care-card anu-reference-care-card">
+                    <div class="anu-reference-icon">
+                        <?php echo anuReferenceIcon('evaluation', 'w-6 h-6'); ?>
                     </div>
-
                     <h3>General Evaluation</h3>
-
-                    <p>
-                        Clinical assessment and further investigation when needed.
-                    </p>
-
+                    <p>Clinical assessment and further investigation when needed.</p>
                 </div>
-
             </div>
-
         </div>
-
     </section>
 
 
@@ -1555,80 +1621,58 @@ include __DIR__ . '/../includes/head.php';
          DEPARTMENT CONNECTION
          ===================================================== -->
 
-    <section class="anu-section alt">
-
+    <section class="anu-section alt anu-department-reference-section">
         <div class="anu-container">
-
-            <div class="anu-dept-card">
-
-                <div class="anu-dept-content">
-
-                    <h2>
-                        Obstetrics &amp; Gynaecology <span class="accent">Services at Akropolis</span>
-                    </h2>
-
+            <div class="anu-dept-card anu-dept-reference-card">
+                <div class="anu-dept-reference-copy">
+                    <h2>Obstetrics &amp; Gynaecology <span>Services at Akropolis</span></h2>
                     <p>
-                        The department provides a range of women's health and maternity services with a focus on
-                        safe, evidence-based and patient-centred care.
+                        The department provides a range of women's health and maternity services with a focus on safe, evidence-based and patient-centred care.
                     </p>
 
-                    <div class="anu-chip-row">
-
+                    <div class="anu-chip-row anu-reference-chip-row">
                         <span class="anu-chip">
-                            <?php echo getIcon('CircleCheck', 'w-3.5 h-3.5 text-[#328CCB]'); ?>
+                            <?php echo anuReferenceIcon('maternity', 'w-4 h-4'); ?>
                             Maternity Care
                         </span>
-
                         <span class="anu-chip">
-                            <?php echo getIcon('CircleCheck', 'w-3.5 h-3.5 text-[#328CCB]'); ?>
+                            <?php echo anuReferenceIcon('highrisk', 'w-4 h-4'); ?>
                             High-Risk Pregnancy (evaluation &amp; management)
                         </span>
-
                         <span class="anu-chip">
-                            <?php echo getIcon('CircleCheck', 'w-3.5 h-3.5 text-[#328CCB]'); ?>
+                            <?php echo anuReferenceIcon('gynecare', 'w-4 h-4'); ?>
                             Gynaecology Care
                         </span>
-
                         <span class="anu-chip">
-                            <?php echo getIcon('CircleCheck', 'w-3.5 h-3.5 text-[#328CCB]'); ?>
+                            <?php echo anuReferenceIcon('infertility', 'w-4 h-4'); ?>
                             Infertility Evaluation &amp; Treatment (as indicated)
                         </span>
-
                     </div>
-
                 </div>
 
-                <!-- Reference-style maternal and infant line illustration -->
-                <div class="anu-dept-illustration" aria-hidden="true">
-                    <svg viewBox="0 0 180 180" fill="none" xmlns="http://www.w3.org/2000/svg">
-                        <path d="M116 34c-13 3-24 12-29 24-5 13-2 26 7 34 8 7 12 16 12 28 0 17-9 28-21 36"
-                              stroke="currentColor" stroke-width="3" stroke-linecap="round"/>
-                        <path d="M116 34c12-1 23 3 30 11 8 9 11 21 8 33-3 13-13 22-26 25"
-                              stroke="currentColor" stroke-width="3" stroke-linecap="round"/>
-                        <path d="M103 72c-12 2-21 8-27 18-7 11-8 24-3 36 6 14 18 23 34 27"
-                              stroke="currentColor" stroke-width="3" stroke-linecap="round"/>
-                        <path d="M95 76c7 9 13 14 22 16 10 2 18 0 25-5"
-                              stroke="currentColor" stroke-width="3" stroke-linecap="round"/>
-                        <circle cx="87" cy="91" r="10" stroke="currentColor" stroke-width="3"/>
-                        <path d="M76 101c5 7 13 11 22 11 9 0 17-4 23-10"
-                              stroke="currentColor" stroke-width="3" stroke-linecap="round"/>
-                        <path d="M75 120c8 7 16 11 27 12 10 1 20-1 28-6"
-                              stroke="currentColor" stroke-width="3" stroke-linecap="round"/>
-                        <path d="M64 144c11 10 25 16 40 17 16 1 31-4 43-14"
-                              stroke="currentColor" stroke-width="3" stroke-linecap="round"/>
-                        <path d="M52 157c15 9 31 13 48 13 21 0 39-7 55-20"
-                              stroke="currentColor" stroke-width="2.5" stroke-linecap="round" opacity=".75"/>
-                        <path d="M129 64c4 4 7 9 7 15 0 7-3 12-8 16"
-                              stroke="currentColor" stroke-width="2.5" stroke-linecap="round" opacity=".8"/>
-                        <path d="M42 137c7 0 14 3 19 8"
-                              stroke="currentColor" stroke-width="2.5" stroke-linecap="round" opacity=".75"/>
+                <div class="anu-maternity-illustration" aria-hidden="true">
+                    <svg viewBox="0 0 250 190" xmlns="http://www.w3.org/2000/svg" fill="none">
+                        <g stroke="currentColor" stroke-width="2.1" stroke-linecap="round" stroke-linejoin="round">
+                            <path d="M153 166c-2-25 5-47 23-61 13-10 26-13 37-8 10 5 16 15 16 29 0 20-12 36-30 45-13 7-30 9-46 8Z"/>
+                            <path d="M173 93c-3-17 2-31 15-41 11-8 25-9 36-3 9 5 15 13 16 24"/>
+                            <path d="M187 49c-8 3-14 9-17 17 10-2 17-1 24 3 6 4 11 10 13 18"/>
+                            <circle cx="184" cy="91" r="16"/>
+                            <path d="M172 90c4-5 10-8 16-8 5 0 10 2 14 6"/>
+                            <path d="M171 111c8 10 17 14 29 13 10-1 18-5 24-13"/>
+                            <path d="M155 145c-19-1-34-8-43-22-8-12-10-26-6-39 5-16 16-28 31-35 9-4 18-5 28-3"/>
+                            <path d="M107 83c-10 2-19 7-25 15-8 10-10 22-7 34"/>
+                            <path d="M86 83c3-12 10-21 20-27 11-7 23-8 34-5"/>
+                            <path d="M98 66c-2-10 1-20 9-27 8-7 18-9 28-6 7 2 13 7 17 14"/>
+                            <circle cx="113" cy="58" r="14"/>
+                            <path d="M101 58c4-5 9-7 14-7 5 0 9 2 13 5"/>
+                            <path d="M105 78c8 7 17 9 27 7 7-1 13-5 18-11"/>
+                            <path d="M78 132c8 10 18 18 31 23 15 6 31 8 46 7"/>
+                            <path d="M82 105c-4 7-5 15-3 23"/>
+                        </g>
                     </svg>
                 </div>
-
             </div>
-
         </div>
-
     </section>
 
 
