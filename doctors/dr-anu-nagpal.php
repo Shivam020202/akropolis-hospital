@@ -1,1511 +1,602 @@
 <?php
-/**
- * Dr. Anu Nagpal - Dedicated Doctor Profile Page
- * Akropolis Super Speciality Hospital
- *
- * URL:
- * https://akropolishospital.com/doctors/dr-anu-nagpal
- */
 
-declare(strict_types=1);
+require_once __DIR__ . '/../includes/data.php';
 
-$siteUrl = 'https://akropolishospital.com';
-$pageUrl = $siteUrl . '/doctors/dr-anu-nagpal';
+if (!function_exists('schemaHospital')) {
+    require_once __DIR__ . '/../includes/schema.php';
+}
 
-$doctorName = 'Dr. Anu Nagpal';
-$doctorTitle = 'Obstetrician & Gynecologist';
-$doctorCredentials = 'MBBS, MS - Obstetrics & Gynaecology';
+/*
+|--------------------------------------------------------------------------
+| Doctor
+|--------------------------------------------------------------------------
+*/
 
-$doctorImage = $siteUrl . '/assets/images/doctors/dr-anu-nagpal.jpg';
-$hospitalImage = $siteUrl . '/assets/images/hospital/akropolis-hospital-building.jpg';
-$logoImage = $siteUrl . '/assets/images/logo.png';
+$doctorId = 'dr-anu-nagpal';
 
-$hospitalName = 'Akropolis Super Speciality Hospital';
-$hospitalAddress = 'Near Vatika Chowk, Opposite Chinar Garden, Sector 69, Gurugram, Haryana 122101';
+$doctor = null;
 
-$hospitalPhone = '9100009744';
-$doctorPhone = '9100009733';
-$hospitalEmail = 'Info@akropolishospital.com';
+foreach ($doctors as $d) {
+    if (($d['id'] ?? '') === $doctorId) {
+        $doctor = $d;
+        break;
+    }
+}
 
-$opdTiming = 'Monday to Saturday, 9:00 AM to 5:00 PM';
+if (!$doctor) {
+    header('HTTP/1.0 404 Not Found');
 
-$pageTitle = 'Dr. Anu Nagpal | Obstetrician & Gynecologist in Gurugram | Akropolis Hospital';
+    $page_title = 'Doctor Not Found | Akropolis Super Speciality Hospital';
+    $page_description = 'The requested doctor profile could not be found.';
 
-$metaDescription =
-    'Dr. Anu Nagpal is an Obstetrician & Gynecologist at Akropolis Super Speciality Hospital, Sector 69, Gurugram. MBBS, MS in Obstetrics & Gynaecology with 11+ years of experience.';
+    include __DIR__ . '/../includes/head.php';
+    include __DIR__ . '/../includes/header-v2.php';
+    ?>
 
-$keywords = [
-    'Dr Anu Nagpal',
-    'Dr Anu Nagpal gynecologist',
-    'Obstetrician and Gynecologist in Gurgaon',
-    'Gynecologist in Gurugram',
-    'Obstetrician in Gurgaon',
-    'Gynaecologist in Sector 69',
-    'women health doctor Gurgaon',
-    'Akropolis Super Speciality Hospital'
-];
+    <main class="min-h-screen bg-white flex items-center justify-center px-4">
+        <div class="text-center">
+            <h1 class="text-3xl font-bold text-gray-900 mb-4">
+                Doctor Not Found
+            </h1>
 
-$areasOfCare = [
-    [
-        'title' => 'Obstetrics',
-        'description' => 'Pregnancy-related consultations, assessment and care.'
-    ],
-    [
-        'title' => 'Gynaecology',
-        'description' => 'Evaluation and management of gynaecological concerns.'
-    ],
-    [
-        'title' => "Women's Health",
-        'description' => "Consultation for women's health needs across different life stages."
-    ],
-    [
-        'title' => 'Pregnancy Care',
-        'description' => 'Assessment, guidance and follow-up during pregnancy.'
-    ],
-    [
-        'title' => 'General Evaluation',
-        'description' => 'Clinical assessment and further investigation when required.'
-    ]
-];
-
-$departmentServices = [
-    'Maternity Care',
-    'High-Risk Pregnancy Evaluation & Management',
-    'Gynaecology Care',
-    'Infertility Evaluation & Treatment, where indicated'
-];
-
-$consultationReasons = [
-    'Menstrual health concerns',
-    'Pregnancy planning or early pregnancy care',
-    'Gynaecological symptoms or discomfort',
-    "General women's health evaluation and guidance"
-];
-
-$resources = [
-    [
-        'title' => 'Pregnancy Guide',
-        'description' => 'Helpful information for understanding pregnancy care and preparing for consultations.'
-    ],
-    [
-        'title' => 'Post-Delivery Care',
-        'description' => 'General guidance about recovery and care after delivery.'
-    ],
-    [
-        'title' => "Women's Wellness",
-        'description' => "General information about women's health and wellbeing."
-    ]
-];
-
-$faqs = [
-    [
-        'question' => 'Who is Dr. Anu Nagpal?',
-        'answer' => 'Dr. Anu Nagpal is an Obstetrician & Gynecologist at Akropolis Super Speciality Hospital in Sector 69, Gurugram. She has 11+ years of overall experience, including 7 years as a specialist.'
-    ],
-    [
-        'question' => "What are Dr. Anu Nagpal's qualifications?",
-        'answer' => 'Dr. Anu Nagpal has completed MBBS from Dr. B. R. Ambedkar University in 2013 and MS in Obstetrics & Gynaecology from MMU Mullana in 2016.'
-    ],
-    [
-        'question' => 'How much experience does Dr. Anu Nagpal have?',
-        'answer' => 'Dr. Anu Nagpal has 11+ years of overall experience, including 7 years as a specialist.'
-    ],
-    [
-        'question' => 'Where does Dr. Anu Nagpal practise?',
-        'answer' => 'Dr. Anu Nagpal practises at Akropolis Super Speciality Hospital near Vatika Chowk, opposite Chinar Garden, Sector 69, Gurugram, Haryana 122101.'
-    ],
-    [
-        'question' => 'What are Dr. Anu Nagpal’s OPD timings?',
-        'answer' => 'Her listed OPD timing is Monday to Saturday, 9:00 AM to 5:00 PM.'
-    ],
-    [
-        'question' => 'How can I book a consultation with Dr. Anu Nagpal?',
-        'answer' => 'Patients can enquire about an appointment with Dr. Anu Nagpal through Akropolis Super Speciality Hospital using the appointment option on this page or by contacting the hospital.'
-    ]
-];
-?>
-<!DOCTYPE html>
-<html lang="en">
-<head>
-
-    <meta charset="UTF-8">
-
-    <meta
-        name="viewport"
-        content="width=device-width, initial-scale=1.0"
-    >
-
-    <title><?= htmlspecialchars($pageTitle, ENT_QUOTES, 'UTF-8'); ?></title>
-
-    <meta
-        name="description"
-        content="<?= htmlspecialchars($metaDescription, ENT_QUOTES, 'UTF-8'); ?>"
-    >
-
-    <meta
-        name="keywords"
-        content="<?= htmlspecialchars(implode(', ', $keywords), ENT_QUOTES, 'UTF-8'); ?>"
-    >
-
-    <meta name="robots" content="index, follow">
-
-    <link
-        rel="canonical"
-        href="<?= htmlspecialchars($pageUrl, ENT_QUOTES, 'UTF-8'); ?>"
-    >
-
-    <!-- Open Graph -->
-    <meta
-        property="og:type"
-        content="profile"
-    >
-
-    <meta
-        property="og:title"
-        content="<?= htmlspecialchars($pageTitle, ENT_QUOTES, 'UTF-8'); ?>"
-    >
-
-    <meta
-        property="og:description"
-        content="<?= htmlspecialchars($metaDescription, ENT_QUOTES, 'UTF-8'); ?>"
-    >
-
-    <meta
-        property="og:url"
-        content="<?= htmlspecialchars($pageUrl, ENT_QUOTES, 'UTF-8'); ?>"
-    >
-
-    <meta
-        property="og:image"
-        content="<?= htmlspecialchars($doctorImage, ENT_QUOTES, 'UTF-8'); ?>"
-    >
-
-    <meta
-        property="og:site_name"
-        content="<?= htmlspecialchars($hospitalName, ENT_QUOTES, 'UTF-8'); ?>"
-    >
-
-    <!-- Twitter -->
-    <meta
-        name="twitter:card"
-        content="summary_large_image"
-    >
-
-    <meta
-        name="twitter:title"
-        content="<?= htmlspecialchars($pageTitle, ENT_QUOTES, 'UTF-8'); ?>"
-    >
-
-    <meta
-        name="twitter:description"
-        content="<?= htmlspecialchars($metaDescription, ENT_QUOTES, 'UTF-8'); ?>"
-    >
-
-    <meta
-        name="twitter:image"
-        content="<?= htmlspecialchars($doctorImage, ENT_QUOTES, 'UTF-8'); ?>"
-    >
-
-    <!-- Fonts -->
-    <link
-        rel="preconnect"
-        href="https://fonts.googleapis.com"
-    >
-
-    <link
-        rel="preconnect"
-        href="https://fonts.gstatic.com"
-        crossorigin
-    >
-
-    <link
-        href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap"
-        rel="stylesheet"
-    >
-
-    <!-- Icons -->
-    <link
-        rel="stylesheet"
-        href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css"
-    >
-
-    <!-- Structured Data: Physician -->
-    <script type="application/ld+json">
-    <?= json_encode([
-        '@context' => 'https://schema.org',
-        '@type' => 'Physician',
-        '@id' => $pageUrl . '#physician',
-        'name' => $doctorName,
-        'url' => $pageUrl,
-        'image' => $doctorImage,
-        'jobTitle' => $doctorTitle,
-        'description' => $metaDescription,
-        'medicalSpecialty' => [
-            'https://schema.org/Obstetrics',
-            'https://schema.org/Gynecologic'
-        ],
-        'worksFor' => [
-            '@type' => 'Hospital',
-            '@id' => $siteUrl . '/#hospital',
-            'name' => $hospitalName,
-            'url' => $siteUrl,
-            'address' => [
-                '@type' => 'PostalAddress',
-                'streetAddress' => 'Near Vatika Chowk, Opposite Chinar Garden, Sector 69',
-                'addressLocality' => 'Gurugram',
-                'addressRegion' => 'Haryana',
-                'postalCode' => '122101',
-                'addressCountry' => 'IN'
-            ]
-        ],
-        'affiliation' => [
-            '@type' => 'Hospital',
-            'name' => $hospitalName,
-            'url' => $siteUrl
-        ],
-        'address' => [
-            '@type' => 'PostalAddress',
-            'streetAddress' => 'Near Vatika Chowk, Opposite Chinar Garden, Sector 69',
-            'addressLocality' => 'Gurugram',
-            'addressRegion' => 'Haryana',
-            'postalCode' => '122101',
-            'addressCountry' => 'IN'
-        ],
-        'telephone' => '+91-' . $doctorPhone,
-        'availableService' => array_map(
-            static function ($service) {
-                return [
-                    '@type' => 'MedicalProcedure',
-                    'name' => $service
-                ];
-            },
-            $departmentServices
-        )
-    ], JSON_UNESCAPED_SLASHES | JSON_UNESCAPED_UNICODE | JSON_PRETTY_PRINT); ?>
-    </script>
-
-    <!-- Structured Data: Breadcrumb -->
-    <script type="application/ld+json">
-    <?= json_encode([
-        '@context' => 'https://schema.org',
-        '@type' => 'BreadcrumbList',
-        'itemListElement' => [
-            [
-                '@type' => 'ListItem',
-                'position' => 1,
-                'name' => 'Home',
-                'item' => $siteUrl . '/'
-            ],
-            [
-                '@type' => 'ListItem',
-                'position' => 2,
-                'name' => 'Doctors',
-                'item' => $siteUrl . '/doctors'
-            ],
-            [
-                '@type' => 'ListItem',
-                'position' => 3,
-                'name' => $doctorName,
-                'item' => $pageUrl
-            ]
-        ]
-    ], JSON_UNESCAPED_SLASHES | JSON_UNESCAPED_UNICODE | JSON_PRETTY_PRINT); ?>
-    </script>
-
-    <!-- Structured Data: FAQ -->
-    <script type="application/ld+json">
-    <?= json_encode([
-        '@context' => 'https://schema.org',
-        '@type' => 'FAQPage',
-        'mainEntity' => array_map(
-            static function ($faq) {
-                return [
-                    '@type' => 'Question',
-                    'name' => $faq['question'],
-                    'acceptedAnswer' => [
-                        '@type' => 'Answer',
-                        'text' => $faq['answer']
-                    ]
-                ];
-            },
-            $faqs
-        )
-    ], JSON_UNESCAPED_SLASHES | JSON_UNESCAPED_UNICODE | JSON_PRETTY_PRINT); ?>
-    </script>
-
-    <style>
-
-        :root {
-            --primary: #0c2b5e;
-            --secondary: #0d72c7;
-            --accent: #ed6b32;
-            --green: #1e9b58;
-            --text: #172033;
-            --muted: #5d6878;
-            --light: #f5f9fd;
-            --border: #e2eaf2;
-            --white: #ffffff;
-            --shadow: 0 8px 28px rgba(18, 52, 86, 0.08);
-            --radius: 16px;
-        }
-
-        * {
-            box-sizing: border-box;
-            margin: 0;
-            padding: 0;
-        }
-
-        html {
-            scroll-behavior: smooth;
-        }
-
-        body {
-            font-family: "Inter", Arial, sans-serif;
-            color: var(--text);
-            background: #ffffff;
-            line-height: 1.65;
-        }
-
-        a {
-            color: inherit;
-            text-decoration: none;
-        }
-
-        img {
-            max-width: 100%;
-            display: block;
-        }
-
-        .container {
-            width: min(1180px, calc(100% - 40px));
-            margin: 0 auto;
-        }
-
-        /* Emergency Bar */
-
-        .emergency-bar {
-            background: var(--accent);
-            color: #fff;
-            text-align: center;
-            padding: 8px 15px;
-            font-size: 13px;
-            font-weight: 600;
-        }
-
-        /* Header */
-
-        header {
-            background: #fff;
-            border-bottom: 1px solid var(--border);
-            position: sticky;
-            top: 0;
-            z-index: 1000;
-            box-shadow: 0 2px 10px rgba(0, 0, 0, 0.04);
-        }
-
-        .nav {
-            min-height: 76px;
-            display: flex;
-            align-items: center;
-            justify-content: space-between;
-            gap: 30px;
-        }
-
-        .logo img {
-            width: 175px;
-            height: auto;
-        }
-
-        .nav-links {
-            display: flex;
-            align-items: center;
-            gap: 26px;
-            font-size: 14px;
-            font-weight: 600;
-        }
-
-        .nav-links a:hover {
-            color: var(--secondary);
-        }
-
-        .nav-emergency {
-            background: var(--accent);
-            color: #fff;
-            padding: 11px 18px;
-            border-radius: 8px;
-            font-weight: 700;
-            font-size: 13px;
-        }
-
-        .mobile-menu {
-            display: none;
-            font-size: 24px;
-            cursor: pointer;
-        }
-
-        /* Breadcrumb */
-
-        .breadcrumb {
-            background: #f8fafc;
-            border-bottom: 1px solid var(--border);
-        }
-
-        .breadcrumb-inner {
-            padding: 15px 0;
-            font-size: 13px;
-            color: var(--muted);
-        }
-
-        .breadcrumb-inner a {
-            color: var(--secondary);
-        }
-
-        /* Hero */
-
-        .doctor-hero {
-            background:
-                linear-gradient(
-                    135deg,
-                    #f2f8fd 0%,
-                    #ffffff 60%,
-                    #f5fbff 100%
-                );
-            padding: 55px 0;
-        }
-
-        .hero-grid {
-            display: grid;
-            grid-template-columns: 260px 1fr 280px;
-            align-items: center;
-            gap: 40px;
-        }
-
-        .doctor-photo {
-            width: 260px;
-            height: 310px;
-            object-fit: cover;
-            border-radius: 18px;
-            box-shadow: var(--shadow);
-            border: 5px solid #fff;
-        }
-
-        .verified {
-            display: inline-flex;
-            align-items: center;
-            gap: 7px;
-            color: var(--green);
-            background: #ecfaf2;
-            padding: 6px 11px;
-            border-radius: 30px;
-            font-size: 12px;
-            font-weight: 700;
-            margin-bottom: 13px;
-        }
-
-        .hero-content h1 {
-            font-size: clamp(32px, 4vw, 46px);
-            line-height: 1.12;
-            color: var(--primary);
-            margin-bottom: 9px;
-        }
-
-        .hero-title {
-            color: var(--secondary);
-            font-size: 21px;
-            font-weight: 700;
-            margin-bottom: 8px;
-        }
-
-        .credentials {
-            font-size: 15px;
-            font-weight: 600;
-            color: var(--muted);
-            margin-bottom: 22px;
-        }
-
-        .hero-description {
-            max-width: 650px;
-            color: #4d5968;
-            margin-bottom: 25px;
-        }
-
-        .hero-actions {
-            display: flex;
-            flex-wrap: wrap;
-            gap: 12px;
-        }
-
-        .btn {
-            display: inline-flex;
-            align-items: center;
-            justify-content: center;
-            gap: 8px;
-            padding: 13px 20px;
-            border-radius: 9px;
-            font-weight: 700;
-            font-size: 14px;
-            transition: 0.2s ease;
-        }
-
-        .btn-primary {
-            background: var(--accent);
-            color: #fff;
-        }
-
-        .btn-primary:hover {
-            background: #d95b26;
-        }
-
-        .btn-outline {
-            color: var(--secondary);
-            border: 1px solid #9bc9eb;
-            background: #fff;
-        }
-
-        .btn-outline:hover {
-            background: #f2f9ff;
-        }
-
-        .hero-facts {
-            background: #fff;
-            padding: 22px;
-            border-radius: 16px;
-            box-shadow: var(--shadow);
-            border: 1px solid var(--border);
-        }
-
-        .fact {
-            display: flex;
-            gap: 13px;
-            padding: 13px 0;
-            border-bottom: 1px solid var(--border);
-        }
-
-        .fact:last-child {
-            border-bottom: 0;
-        }
-
-        .fact-icon {
-            width: 38px;
-            height: 38px;
-            border-radius: 10px;
-            background: #eef7ff;
-            color: var(--secondary);
-            display: grid;
-            place-items: center;
-            flex: 0 0 auto;
-        }
-
-        .fact strong {
-            display: block;
-            font-size: 12px;
-            color: var(--muted);
-            margin-bottom: 2px;
-        }
-
-        .fact span {
-            display: block;
-            font-size: 13px;
-            font-weight: 600;
-        }
-
-        /* General Sections */
-
-        section {
-            padding: 75px 0;
-        }
-
-        .section-light {
-            background: var(--light);
-        }
-
-        .section-heading {
-            margin-bottom: 35px;
-        }
-
-        .section-heading h2 {
-            color: var(--primary);
-            font-size: clamp(27px, 3vw, 35px);
-            line-height: 1.2;
-            margin-bottom: 10px;
-        }
-
-        .section-heading h2 span {
-            color: var(--secondary);
-        }
-
-        .section-heading p {
-            color: var(--muted);
-            max-width: 750px;
-        }
-
-        /* About */
-
-        .about-grid {
-            display: grid;
-            grid-template-columns: 1.4fr 0.8fr;
-            gap: 50px;
-            align-items: center;
-        }
-
-        .about-copy p {
-            margin-bottom: 17px;
-            color: #4e5968;
-        }
-
-        .about-image {
-            border-radius: 18px;
-            overflow: hidden;
-            box-shadow: var(--shadow);
-        }
-
-        .about-image img {
-            width: 100%;
-            height: 310px;
-            object-fit: cover;
-        }
-
-        /* Credentials */
-
-        .credential-grid {
-            display: grid;
-            grid-template-columns: repeat(3, 1fr);
-            gap: 20px;
-        }
-
-        .credential-card {
-            padding: 28px;
-            background: #fff;
-            border: 1px solid var(--border);
-            border-radius: var(--radius);
-            box-shadow: var(--shadow);
-        }
-
-        .credential-icon {
-            width: 45px;
-            height: 45px;
-            border-radius: 12px;
-            background: #eef7ff;
-            color: var(--secondary);
-            display: grid;
-            place-items: center;
-            margin-bottom: 17px;
-        }
-
-        .credential-card h3 {
-            color: var(--primary);
-            font-size: 17px;
-            margin-bottom: 8px;
-        }
-
-        .credential-card p {
-            color: var(--muted);
-            font-size: 14px;
-        }
-
-        /* Care Areas */
-
-        .care-grid {
-            display: grid;
-            grid-template-columns: repeat(5, 1fr);
-            gap: 16px;
-        }
-
-        .care-card {
-            padding: 24px 18px;
-            background: #fff;
-            border: 1px solid var(--border);
-            border-radius: 14px;
-            text-align: center;
-            box-shadow: 0 5px 18px rgba(20, 60, 100, 0.05);
-        }
-
-        .care-card i {
-            color: var(--secondary);
-            font-size: 25px;
-            margin-bottom: 13px;
-        }
-
-        .care-card h3 {
-            color: var(--primary);
-            font-size: 15px;
-            margin-bottom: 8px;
-        }
-
-        .care-card p {
-            color: var(--muted);
-            font-size: 12px;
-            line-height: 1.5;
-        }
-
-        /* Department */
-
-        .department-box {
-            background: linear-gradient(135deg, #eef8ff, #f8fcff);
-            border: 1px solid #d8ebfa;
-            border-radius: 20px;
-            padding: 38px;
-        }
-
-        .department-box h2 {
-            color: var(--primary);
-            margin-bottom: 10px;
-            font-size: 27px;
-        }
-
-        .department-box p {
-            color: var(--muted);
-            max-width: 800px;
-            margin-bottom: 22px;
-        }
-
-        .service-tags {
-            display: flex;
-            flex-wrap: wrap;
-            gap: 11px;
-        }
-
-        .service-tag {
-            background: #fff;
-            border: 1px solid #d5e8f7;
-            padding: 10px 15px;
-            border-radius: 30px;
-            color: var(--primary);
-            font-size: 13px;
-            font-weight: 600;
-        }
-
-        .service-tag i {
-            color: var(--secondary);
-            margin-right: 7px;
-        }
-
-        /* Consultation */
-
-        .consult-grid {
-            display: grid;
-            grid-template-columns: repeat(4, 1fr);
-            gap: 18px;
-        }
-
-        .consult-card {
-            background: #fff;
-            border: 1px solid var(--border);
-            border-radius: 15px;
-            padding: 24px 20px;
-            box-shadow: var(--shadow);
-        }
-
-        .consult-card i {
-            color: var(--secondary);
-            font-size: 22px;
-            margin-bottom: 13px;
-        }
-
-        .consult-card h3 {
-            color: var(--primary);
-            font-size: 15px;
-        }
-
-        /* Hospital */
-
-        .hospital-card {
-            display: grid;
-            grid-template-columns: 1fr 1fr;
-            gap: 40px;
-            align-items: center;
-            background: #fff;
-            border-radius: 20px;
-            border: 1px solid var(--border);
-            overflow: hidden;
-            box-shadow: var(--shadow);
-        }
-
-        .hospital-card img {
-            width: 100%;
-            height: 330px;
-            object-fit: cover;
-        }
-
-        .hospital-content {
-            padding: 35px 40px 35px 0;
-        }
-
-        .hospital-content h2 {
-            color: var(--primary);
-            font-size: 28px;
-            margin-bottom: 10px;
-        }
-
-        .hospital-content p {
-            color: var(--muted);
-            margin-bottom: 18px;
-        }
-
-        .address-box {
-            background: #fff5f0;
-            border: 1px solid #f5d8cb;
-            padding: 14px 16px;
-            border-radius: 10px;
-            color: #4d5968;
-            margin-bottom: 20px;
-        }
-
-        /* Resources */
-
-        .resource-grid {
-            display: grid;
-            grid-template-columns: repeat(3, 1fr);
-            gap: 20px;
-        }
-
-        .resource-card {
-            padding: 26px;
-            background: #fff;
-            border: 1px solid var(--border);
-            border-radius: 15px;
-            box-shadow: var(--shadow);
-        }
-
-        .resource-card h3 {
-            color: var(--primary);
-            margin-bottom: 7px;
-            font-size: 16px;
-        }
-
-        .resource-card p {
-            color: var(--muted);
-            font-size: 13px;
-        }
-
-        /* FAQ */
-
-        .faq-list {
-            max-width: 900px;
-            margin: 0 auto;
-        }
-
-        .faq-item {
-            border: 1px solid var(--border);
-            border-radius: 10px;
-            margin-bottom: 10px;
-            background: #fff;
-            overflow: hidden;
-        }
-
-        .faq-question {
-            width: 100%;
-            background: none;
-            border: 0;
-            padding: 18px 20px;
-            text-align: left;
-            font: inherit;
-            font-weight: 700;
-            color: var(--primary);
-            display: flex;
-            align-items: center;
-            justify-content: space-between;
-            cursor: pointer;
-        }
-
-        .faq-answer {
-            display: none;
-            padding: 0 20px 18px;
-            color: var(--muted);
-            font-size: 14px;
-        }
-
-        .faq-item.active .faq-answer {
-            display: block;
-        }
-
-        .faq-item.active .faq-question i {
-            transform: rotate(180deg);
-        }
-
-        /* CTA */
-
-        .appointment-section {
-            background: linear-gradient(
-                135deg,
-                #fff5f0,
-                #fffafa
-            );
-        }
-
-        .appointment-box {
-            max-width: 900px;
-            margin: auto;
-            text-align: center;
-        }
-
-        .appointment-box h2 {
-            color: var(--primary);
-            font-size: 32px;
-            margin-bottom: 10px;
-        }
-
-        .appointment-box p {
-            color: var(--muted);
-            margin-bottom: 25px;
-        }
-
-        /* Explore */
-
-        .explore-grid {
-            display: grid;
-            grid-template-columns: 1fr 1fr;
-            gap: 18px;
-        }
-
-        .explore-card {
-            border: 1px solid var(--border);
-            border-radius: 14px;
-            padding: 22px;
-            background: #fff;
-            display: flex;
-            align-items: center;
-            justify-content: space-between;
-            transition: 0.2s ease;
-        }
-
-        .explore-card:hover {
-            border-color: #aad2ee;
-            transform: translateY(-2px);
-        }
-
-        .explore-card strong {
-            color: var(--primary);
-            display: block;
-        }
-
-        .explore-card span {
-            color: var(--muted);
-            font-size: 13px;
-        }
-
-        .explore-card i {
-            color: var(--secondary);
-        }
-
-        /* Footer */
-
-        footer {
-            background: #0c1730;
-            color: #d8e1ed;
-            padding: 55px 0 20px;
-        }
-
-        .footer-grid {
-            display: grid;
-            grid-template-columns: 1.3fr 1fr 1fr 1.2fr;
-            gap: 35px;
-        }
-
-        .footer-logo {
-            background: #fff;
-            padding: 10px;
-            width: 160px;
-            border-radius: 7px;
-            margin-bottom: 16px;
-        }
-
-        .footer-logo img {
-            width: 100%;
-        }
-
-        .footer-about {
-            color: #aebbd0;
-            font-size: 13px;
-        }
-
-        .footer-column h3 {
-            color: #fff;
-            font-size: 15px;
-            margin-bottom: 15px;
-        }
-
-        .footer-column a {
-            display: block;
-            color: #aebbd0;
-            font-size: 13px;
-            margin-bottom: 9px;
-        }
-
-        .footer-column a:hover {
-            color: #fff;
-        }
-
-        .footer-contact {
-            color: #aebbd0;
-            font-size: 13px;
-            line-height: 1.8;
-        }
-
-        .footer-bottom {
-            margin-top: 35px;
-            padding-top: 18px;
-            border-top: 1px solid rgba(255,255,255,0.1);
-            text-align: center;
-            color: #8795aa;
-            font-size: 12px;
-        }
-
-        /* Mobile */
-
-        @media (max-width: 1000px) {
-
-            .hero-grid {
-                grid-template-columns: 220px 1fr;
-            }
-
-            .hero-facts {
-                grid-column: 1 / -1;
-            }
-
-            .care-grid {
-                grid-template-columns: repeat(3, 1fr);
-            }
-
-            .consult-grid {
-                grid-template-columns: repeat(2, 1fr);
-            }
-
-            .footer-grid {
-                grid-template-columns: repeat(2, 1fr);
-            }
-        }
-
-        @media (max-width: 760px) {
-
-            .container {
-                width: min(100% - 28px, 600px);
-            }
-
-            .nav-links,
-            .nav-emergency {
-                display: none;
-            }
-
-            .mobile-menu {
-                display: block;
-            }
-
-            .hero-grid,
-            .about-grid,
-            .hospital-card {
-                grid-template-columns: 1fr;
-            }
-
-            .doctor-photo {
-                width: 220px;
-                height: 270px;
-                margin: auto;
-            }
-
-            .hero-content {
-                text-align: center;
-            }
-
-            .hero-actions {
-                justify-content: center;
-            }
-
-            .hero-facts {
-                grid-column: auto;
-            }
-
-            .credential-grid,
-            .resource-grid {
-                grid-template-columns: 1fr;
-            }
-
-            .care-grid {
-                grid-template-columns: repeat(2, 1fr);
-            }
-
-            .hospital-content {
-                padding: 0 25px 30px;
-            }
-
-            .explore-grid {
-                grid-template-columns: 1fr;
-            }
-
-            .footer-grid {
-                grid-template-columns: 1fr;
-            }
-
-            section {
-                padding: 55px 0;
-            }
-        }
-
-        @media (max-width: 480px) {
-
-            .care-grid,
-            .consult-grid {
-                grid-template-columns: 1fr;
-            }
-
-            .hero-title {
-                font-size: 18px;
-            }
-
-            .department-box {
-                padding: 25px;
-            }
-
-            .appointment-box h2 {
-                font-size: 27px;
-            }
-        }
-
-    </style>
-
-</head>
-
-<body>
-
-    <!-- Emergency Bar -->
-    <div class="emergency-bar">
-        <i class="fa-solid fa-phone"></i>
-        Emergency 24×7:
-        <a href="tel:<?= htmlspecialchars($hospitalPhone); ?>">
-            <?= htmlspecialchars($hospitalPhone); ?>
-        </a>
-    </div>
-
-    <!-- Header -->
-    <header>
-
-        <div class="container nav">
+            <p class="text-gray-600 mb-6">
+                The requested doctor profile could not be found.
+            </p>
 
             <a
-                href="<?= $siteUrl; ?>/"
-                class="logo"
-                aria-label="Akropolis Super Speciality Hospital"
+                href="/doctors"
+                class="inline-flex items-center gap-2 bg-[#328CCB] hover:bg-[#287db7] text-white px-6 py-3 rounded-xl font-semibold transition"
             >
-                <img
-                    src="<?= htmlspecialchars($logoImage, ENT_QUOTES, 'UTF-8'); ?>"
-                    alt="Akropolis Super Speciality Hospital"
-                    width="175"
-                    height="auto"
-                >
+                <?php echo getIcon('ArrowLeft', 'h-5 w-5'); ?>
+                <span>Back to Doctors</span>
             </a>
+        </div>
+    </main>
 
-            <nav class="nav-links" aria-label="Main navigation">
+    <?php
+    include __DIR__ . '/../includes/footer.php';
+    include __DIR__ . '/../includes/scripts.php';
+    exit;
+}
 
-                <a href="<?= $siteUrl; ?>/">Home</a>
+/*
+|--------------------------------------------------------------------------
+| SEO
+|--------------------------------------------------------------------------
+*/
 
-                <a href="<?= $siteUrl; ?>/about">About</a>
+$page_title =
+    'Dr. Anu Nagpal, Obstetrician & Gynaecologist | Akropolis Super Speciality Hospital';
 
-                <a href="<?= $siteUrl; ?>/departments">
-                    Departments
+$page_description =
+    'Consult Dr. Anu Nagpal, Obstetrician & Gynaecologist at Akropolis Super Speciality Hospital in Sector 69, Gurugram. She has 11+ years of overall experience, including 7 years as a specialist, and provides care related to women’s health, pregnancy and gynaecological concerns.';
+
+$canonical_url = '/doctors/dr-anu-nagpal';
+
+/*
+|--------------------------------------------------------------------------
+| Physician + Breadcrumb Schema
+|--------------------------------------------------------------------------
+*/
+
+$schema_blocks = [
+    schemaPhysician([
+        'name'           => 'Dr. Anu Nagpal',
+        'id'             => 'dr-anu-nagpal',
+        'specialty'      => 'Obstetrician & Gynecologist',
+        'image'          => $doctor['image'] ?? '',
+        'bio'            => 'Dr. Anu Nagpal is an Obstetrician and Gynecologist at Akropolis Super Speciality Hospital in Gurugram with 11+ years of overall experience, including 7 years as a specialist.',
+        'qualifications' => [
+            'MBBS',
+            'MS - Obstetrics & Gynaecology'
+        ],
+    ]),
+
+    schemaBreadcrumb([
+        [
+            'name' => 'Home',
+            'url'  => '/'
+        ],
+        [
+            'name' => 'Doctors',
+            'url'  => '/doctors'
+        ],
+        [
+            'name' => 'Dr. Anu Nagpal',
+            'url'  => '/doctors/dr-anu-nagpal'
+        ],
+    ]),
+];
+
+include __DIR__ . '/../includes/head.php';
+
+?>
+
+<!-- =========================================================
+     EMERGENCY BAR
+========================================================= -->
+
+<div class="bg-[#D66C43] text-white py-2 px-4 text-center">
+    <div class="container mx-auto flex items-center justify-center gap-2 text-sm md:text-base font-semibold">
+        <?php echo getIcon('Phone', 'h-4 w-4'); ?>
+
+        <span>
+            Emergency 24×7:
+            <?php echo htmlspecialchars(CONTACT_INFO['emergency']); ?>
+        </span>
+    </div>
+</div>
+
+
+<!-- =========================================================
+     SITEWIDE HEADER
+========================================================= -->
+
+<?php include __DIR__ . '/../includes/header-v2.php'; ?>
+
+
+<main class="bg-white">
+
+
+    <!-- =====================================================
+         BREADCRUMB
+    ====================================================== -->
+
+    <section class="bg-white border-b border-gray-100">
+        <div class="container mx-auto px-4 py-4">
+
+            <nav
+                aria-label="Breadcrumb"
+                class="flex items-center gap-2 text-sm text-gray-500"
+            >
+
+                <a
+                    href="/"
+                    class="hover:text-[#328CCB] transition"
+                >
+                    <?php echo getIcon('Home', 'h-4 w-4'); ?>
                 </a>
 
-                <a href="<?= $siteUrl; ?>/doctors">
+                <span>/</span>
+
+                <a
+                    href="/doctors"
+                    class="hover:text-[#328CCB] transition"
+                >
                     Doctors
                 </a>
 
-                <a href="<?= $siteUrl; ?>/services">
-                    Services
-                </a>
+                <span>/</span>
 
-                <a href="<?= $siteUrl; ?>/blog">
-                    Blog
-                </a>
-
-                <a href="<?= $siteUrl; ?>/contact">
-                    Contact
-                </a>
-
-                <a
-                    href="<?= $siteUrl; ?>/contact"
-                    class="nav-emergency"
-                >
-                    <i class="fa-solid fa-phone"></i>
-                    Emergency
-                </a>
+                <span class="text-gray-700 font-medium">
+                    Dr. Anu Nagpal
+                </span>
 
             </nav>
 
-            <button
-                class="mobile-menu"
-                type="button"
-                aria-label="Open navigation"
-                onclick="toggleMenu()"
-            >
-                <i class="fa-solid fa-bars"></i>
-            </button>
-
         </div>
+    </section>
 
-    </header>
 
-    <!-- Breadcrumb -->
-    <div class="breadcrumb">
+    <!-- =====================================================
+         HERO / DOCTOR INTRODUCTION
+    ====================================================== -->
 
-        <div class="container breadcrumb-inner">
+    <section class="bg-gradient-to-b from-[#f3faff] to-white">
+        <div class="container mx-auto px-4 py-8 md:py-10">
 
-            <a href="<?= $siteUrl; ?>/">
-                Home
-            </a>
+            <div class="grid lg:grid-cols-12 gap-8 items-center">
 
-            &nbsp; / &nbsp;
+                <!-- Doctor Image -->
 
-            <a href="<?= $siteUrl; ?>/doctors">
-                Doctors
-            </a>
+                <div class="lg:col-span-3">
 
-            &nbsp; / &nbsp;
+                    <div class="rounded-2xl overflow-hidden shadow-lg bg-white border border-gray-100">
 
-            <strong>
-                Dr. Anu Nagpal
-            </strong>
+                        <img
+                            src="<?php echo htmlspecialchars($doctor['image'] ?? ''); ?>"
+                            alt="Dr. Anu Nagpal, Obstetrician and Gynecologist at Akropolis Super Speciality Hospital"
+                            class="w-full aspect-[3/4] object-cover"
+                            loading="eager"
+                            fetchpriority="high"
+                        />
 
-        </div>
+                    </div>
 
-    </div>
+                </div>
 
-    <!-- Hero -->
-    <section class="doctor-hero">
 
-        <div class="container hero-grid">
+                <!-- Doctor Information -->
 
-            <div>
+                <div class="lg:col-span-6">
 
-                <img
-                    src="<?= htmlspecialchars($doctorImage, ENT_QUOTES, 'UTF-8'); ?>"
-                    alt="Dr. Anu Nagpal, Obstetrician and Gynecologist at Akropolis Super Speciality Hospital"
-                    class="doctor-photo"
-                    width="260"
-                    height="310"
-                    loading="eager"
-                >
+                    <?php if (!empty($doctor['registrationVerified'])): ?>
+
+                        <div class="inline-flex items-center gap-2 bg-green-50 text-green-700 border border-green-100 px-3 py-1.5 rounded-full text-sm font-semibold mb-4">
+
+                            <?php echo getIcon('ShieldCheck', 'h-4 w-4'); ?>
+
+                            <span>Medical Registration Verified</span>
+
+                        </div>
+
+                    <?php endif; ?>
+
+
+                    <h1 class="text-3xl md:text-4xl lg:text-5xl font-extrabold text-[#10254A] leading-tight mb-2">
+                        Dr. Anu Nagpal
+                    </h1>
+
+
+                    <p class="text-lg md:text-xl font-bold text-[#328CCB] mb-2">
+                        Obstetrician &amp; Gynaecologist
+                    </p>
+
+
+                    <p class="text-gray-600 font-medium mb-6">
+                        MBBS, MS - Obstetrics &amp; Gynaecology
+                    </p>
+
+
+                    <!-- Quick Stats -->
+
+                    <div class="grid grid-cols-2 md:grid-cols-3 gap-3 mb-6">
+
+                        <div class="bg-white border border-gray-100 rounded-xl p-4 shadow-sm">
+
+                            <div class="flex items-center gap-2 mb-2 text-[#328CCB]">
+                                <?php echo getIcon('Award', 'h-5 w-5'); ?>
+
+                                <span class="text-sm font-semibold text-gray-500">
+                                    Experience
+                                </span>
+                            </div>
+
+                            <p class="font-bold text-gray-900">
+                                11+ Years
+                            </p>
+
+                            <p class="text-xs text-gray-500">
+                                Overall Experience
+                            </p>
+
+                        </div>
+
+
+                        <div class="bg-white border border-gray-100 rounded-xl p-4 shadow-sm">
+
+                            <div class="flex items-center gap-2 mb-2 text-[#328CCB]">
+                                <?php echo getIcon('Stethoscope', 'h-5 w-5'); ?>
+
+                                <span class="text-sm font-semibold text-gray-500">
+                                    Specialist
+                                </span>
+                            </div>
+
+                            <p class="font-bold text-gray-900">
+                                7 Years
+                            </p>
+
+                            <p class="text-xs text-gray-500">
+                                As Specialist
+                            </p>
+
+                        </div>
+
+
+                        <div class="bg-white border border-gray-100 rounded-xl p-4 shadow-sm">
+
+                            <div class="flex items-center gap-2 mb-2 text-[#D66C43]">
+                                <?php echo getIcon('Calendar', 'h-5 w-5'); ?>
+
+                                <span class="text-sm font-semibold text-gray-500">
+                                    Department
+                                </span>
+                            </div>
+
+                            <p class="font-bold text-gray-900">
+                                Obstetrics &amp;
+                            </p>
+
+                            <p class="text-xs text-gray-500">
+                                Gynaecology
+                            </p>
+
+                        </div>
+
+                    </div>
+
+
+                    <!-- CTA -->
+
+                    <div class="flex flex-wrap gap-3">
+
+                        <a
+                            href="/contact"
+                            class="inline-flex items-center justify-center gap-2 bg-[#D66C43] hover:bg-[#c55b36] text-white px-6 py-3 rounded-xl font-semibold shadow-md transition"
+                        >
+                            <?php echo getIcon('Calendar', 'h-5 w-5'); ?>
+                            <span>Book Appointment</span>
+                        </a>
+
+
+                        <a
+                            href="#opd-timings"
+                            class="inline-flex items-center justify-center gap-2 border-2 border-[#328CCB] text-[#328CCB] hover:bg-[#328CCB] hover:text-white px-6 py-3 rounded-xl font-semibold transition"
+                        >
+                            <?php echo getIcon('Clock', 'h-5 w-5'); ?>
+                            <span>View OPD Timings</span>
+                        </a>
+
+                    </div>
+
+                </div>
+
+
+                <!-- Appointment / Location Information -->
+
+                <div class="lg:col-span-3">
+
+                    <div
+                        id="opd-timings"
+                        class="bg-white rounded-2xl shadow-lg border border-gray-100 p-6"
+                    >
+
+                        <div class="space-y-6">
+
+
+                            <div class="flex items-start gap-3">
+
+                                <div class="bg-[#328CCB]/10 text-[#328CCB] p-2.5 rounded-xl">
+                                    <?php echo getIcon('Clock', 'h-5 w-5'); ?>
+                                </div>
+
+                                <div>
+                                    <p class="font-bold text-gray-900 text-sm">
+                                        OPD Timings
+                                    </p>
+
+                                    <p class="text-gray-600 text-sm mt-1">
+                                        Mon - Sat: 9:00 AM - 5:00 PM
+                                    </p>
+                                </div>
+
+                            </div>
+
+
+                            <div class="flex items-start gap-3">
+
+                                <div class="bg-[#D66C43]/10 text-[#D66C43] p-2.5 rounded-xl">
+                                    <?php echo getIcon('MapPin', 'h-5 w-5'); ?>
+                                </div>
+
+                                <div>
+                                    <p class="font-bold text-gray-900 text-sm">
+                                        Location
+                                    </p>
+
+                                    <p class="text-gray-600 text-sm mt-1">
+                                        Akropolis Super Speciality Hospital,
+                                        Sector 69, Gurugram
+                                    </p>
+                                </div>
+
+                            </div>
+
+
+                            <div class="flex items-start gap-3">
+
+                                <div class="bg-green-50 text-green-600 p-2.5 rounded-xl">
+                                    <?php echo getIcon('Building2', 'h-5 w-5'); ?>
+                                </div>
+
+                                <div>
+                                    <p class="font-bold text-gray-900 text-sm">
+                                        Department
+                                    </p>
+
+                                    <p class="text-gray-600 text-sm mt-1">
+                                        Obstetrics &amp; Gynaecology
+                                    </p>
+                                </div>
+
+                            </div>
+
+                        </div>
+
+                    </div>
+
+                </div>
 
             </div>
 
-            <div class="hero-content">
+        </div>
+    </section>
 
-                <div class="verified">
-                    <i class="fa-solid fa-circle-check"></i>
-                    Medical Registration Verified
+
+    <!-- =====================================================
+         ABOUT DR ANU NAGPAL
+    ====================================================== -->
+
+    <section class="py-12 md:py-16 bg-white">
+
+        <div class="container mx-auto px-4">
+
+            <div class="grid lg:grid-cols-12 gap-10 items-center">
+
+                <div class="lg:col-span-8">
+
+                    <div class="flex items-center gap-3 mb-5">
+
+                        <div class="bg-[#328CCB]/10 text-[#328CCB] p-3 rounded-xl">
+                            <?php echo getIcon('Stethoscope', 'h-6 w-6'); ?>
+                        </div>
+
+                        <h2 class="text-2xl md:text-3xl font-extrabold text-[#10254A]">
+                            About Dr. Anu Nagpal
+                        </h2>
+
+                    </div>
+
+
+                    <div class="space-y-4 text-gray-700 leading-relaxed">
+
+                        <p>
+                            Dr. Anu Nagpal is an Obstetrician and Gynecologist at
+                            Akropolis Super Speciality Hospital in Badshahpur, Gurgaon,
+                            with 11 years of overall experience, including 7 years as a
+                            specialist in Obstetrics and Gynaecology.
+                        </p>
+
+                        <p>
+                            She completed her MBBS from Dr. B. R. Ambedkar University
+                            in 2013 and her MS in Obstetrics &amp; Gynaecology from
+                            MMU Mullana in 2016. Her medical training provides a
+                            foundation for evaluating and managing women's health
+                            and pregnancy-related concerns based on each patient's
+                            individual needs.
+                        </p>
+
+                        <p>
+                            At Akropolis Super Speciality Hospital, Dr. Anu Nagpal is
+                            part of the hospital's Obstetrics &amp; Gynaecology services.
+                            Patients can discuss their symptoms, medical history,
+                            pregnancy-related concerns and other women's health needs
+                            during consultation.
+                        </p>
+
+                    </div>
+
                 </div>
 
-                <h1>
-                    Dr. Anu Nagpal
-                </h1>
 
-                <div class="hero-title">
-                    Obstetrician & Gynecologist
-                </div>
+                <div class="lg:col-span-4">
 
-                <div class="credentials">
-                    MBBS, MS - Obstetrics & Gynaecology
-                </div>
+                    <div class="rounded-2xl bg-gradient-to-br from-[#eff8ff] to-[#f8fbff] border border-[#e5f1fa] p-8 text-center">
 
-                <p class="hero-description">
-                    Dr. Anu Nagpal is an Obstetrician and Gynecologist
-                    practising at Akropolis Super Speciality Hospital
-                    in Sector 69, Gurugram. She has 11+ years of overall
-                    experience, including 7 years as a specialist in
-                    Obstetrics and Gynaecology.
-                </p>
+                        <div class="w-20 h-20 mx-auto mb-5 rounded-full bg-white shadow-sm flex items-center justify-center text-[#328CCB]">
 
-                <div class="hero-actions">
+                            <?php echo getIcon('HeartPulse', 'h-10 w-10'); ?>
 
-                    <a
-                        href="<?= $siteUrl; ?>/contact"
-                        class="btn btn-primary"
-                    >
-                        <i class="fa-regular fa-calendar"></i>
-                        Book Appointment
-                    </a>
+                        </div>
 
-                    <a
-                        href="#opd"
-                        class="btn btn-outline"
-                    >
-                        <i class="fa-regular fa-clock"></i>
-                        View OPD Timings
-                    </a>
+                        <h3 class="text-xl font-bold text-[#10254A] mb-2">
+                            Women's Health &amp; Maternity Care
+                        </h3>
+
+                        <p class="text-sm text-gray-600 leading-relaxed">
+                            Professional evaluation and guidance for pregnancy,
+                            gynaecological concerns and women's health needs.
+                        </p>
+
+                    </div>
 
                 </div>
 
             </div>
-
-            <aside class="hero-facts" id="opd">
-
-                <div class="fact">
-
-                    <div class="fact-icon">
-                        <i class="fa-regular fa-clock"></i>
-                    </div>
-
-                    <div>
-                        <strong>OPD Timing</strong>
-                        <span><?= htmlspecialchars($opdTiming); ?></span>
-                    </div>
-
-                </div>
-
-                <div class="fact">
-
-                    <div class="fact-icon">
-                        <i class="fa-solid fa-location-dot"></i>
-                    </div>
-
-                    <div>
-                        <strong>Location</strong>
-                        <span>
-                            Akropolis Super Speciality Hospital,
-                            Sector 69, Gurugram
-                        </span>
-                    </div>
-
-                </div>
-
-                <div class="fact">
-
-                    <div class="fact-icon">
-                        <i class="fa-solid fa-hospital"></i>
-                    </div>
-
-                    <div>
-                        <strong>Department</strong>
-                        <span>
-                            Obstetrics & Gynaecology
-                        </span>
-                    </div>
-
-                </div>
-
-            </aside>
 
         </div>
 
     </section>
 
-    <!-- About -->
-    <section>
 
-        <div class="container about-grid">
+    <!-- =====================================================
+         EDUCATION & CREDENTIALS
+    ====================================================== -->
 
-            <div class="about-copy">
+    <section class="py-12 md:py-16 bg-[#f6faff]">
 
-                <div class="section-heading">
+        <div class="container mx-auto px-4">
 
-                    <h2>
-                        About <span>Dr. Anu Nagpal</span>
-                    </h2>
+            <div class="mb-8">
 
-                </div>
-
-                <p>
-                    Dr. Anu Nagpal is an Obstetrician and Gynecologist
-                    at Akropolis Super Speciality Hospital in Badshahpur,
-                    Gurgaon, with 11+ years of overall experience,
-                    including 7 years as a specialist in Obstetrics
-                    and Gynaecology.
-                </p>
-
-                <p>
-                    She completed her MBBS from Dr. B. R. Ambedkar
-                    University in 2013 and her MS in Obstetrics &
-                    Gynaecology from MMU Mullana in 2016.
-                </p>
-
-                <p>
-                    Her clinical practice is centred around Obstetrics,
-                    Gynaecology and women's health. Patients can discuss
-                    their symptoms, medical history, pregnancy-related
-                    concerns and other women's health needs during
-                    consultation.
-                </p>
-
-            </div>
-
-            <div class="about-image">
-
-                <img
-                    src="<?= htmlspecialchars($doctorImage, ENT_QUOTES, 'UTF-8'); ?>"
-                    alt="Dr. Anu Nagpal"
-                    width="768"
-                    height="1024"
-                    loading="lazy"
-                >
-
-            </div>
-
-        </div>
-
-    </section>
-
-    <!-- Education & Credentials -->
-    <section class="section-light">
-
-        <div class="container">
-
-            <div class="section-heading">
-
-                <h2>
-                    Education & <span>Credentials</span>
+                <h2 class="text-2xl md:text-3xl font-extrabold text-[#10254A]">
+                    Education &amp; Credentials
                 </h2>
 
             </div>
 
-            <div class="credential-grid">
 
-                <div class="credential-card">
+            <div class="grid md:grid-cols-3 gap-5">
 
-                    <div class="credential-icon">
-                        <i class="fa-solid fa-graduation-cap"></i>
+
+                <!-- MBBS -->
+
+                <div class="bg-white rounded-2xl shadow-sm border border-gray-100 p-6">
+
+                    <div class="w-11 h-11 bg-[#328CCB]/10 text-[#328CCB] rounded-xl flex items-center justify-center mb-5">
+
+                        <?php echo getIcon('GraduationCap', 'h-5 w-5'); ?>
+
                     </div>
 
-                    <h3>MBBS</h3>
+                    <h3 class="font-bold text-lg text-gray-900 mb-2">
+                        MBBS
+                    </h3>
 
-                    <p>
+                    <p class="text-gray-600 text-sm">
                         Dr. B. R. Ambedkar University
-                        <br>
+                    </p>
+
+                    <p class="text-sm text-gray-500 mt-1">
                         2013
                     </p>
 
                 </div>
 
-                <div class="credential-card">
 
-                    <div class="credential-icon">
-                        <i class="fa-solid fa-graduation-cap"></i>
+                <!-- MS -->
+
+                <div class="bg-white rounded-2xl shadow-sm border border-gray-100 p-6">
+
+                    <div class="w-11 h-11 bg-[#328CCB]/10 text-[#328CCB] rounded-xl flex items-center justify-center mb-5">
+
+                        <?php echo getIcon('GraduationCap', 'h-5 w-5'); ?>
+
                     </div>
 
-                    <h3>
-                        MS - Obstetrics & Gynaecology
+                    <h3 class="font-bold text-lg text-gray-900 mb-2">
+                        MS - Obstetrics &amp; Gynaecology
                     </h3>
 
-                    <p>
+                    <p class="text-gray-600 text-sm">
                         MMU Mullana
-                        <br>
+                    </p>
+
+                    <p class="text-sm text-gray-500 mt-1">
                         2016
                     </p>
 
                 </div>
 
-                <div class="credential-card">
 
-                    <div class="credential-icon">
-                        <i class="fa-solid fa-briefcase-medical"></i>
+                <!-- Experience -->
+
+                <div class="bg-white rounded-2xl shadow-sm border border-gray-100 p-6">
+
+                    <div class="w-11 h-11 bg-[#D66C43]/10 text-[#D66C43] rounded-xl flex items-center justify-center mb-5">
+
+                        <?php echo getIcon('Briefcase', 'h-5 w-5'); ?>
+
                     </div>
 
-                    <h3>
+                    <h3 class="font-bold text-lg text-gray-900 mb-3">
                         Professional Experience
                     </h3>
 
-                    <p>
-                        11+ Years Overall Experience
-                        <br>
-                        7 Years as Specialist
-                    </p>
+                    <ul class="space-y-2 text-sm text-gray-600">
+
+                        <li class="flex items-center gap-2">
+                            <?php echo getIcon('CheckCircle', 'h-4 w-4 text-green-600'); ?>
+                            <span>11+ Years Overall Experience</span>
+                        </li>
+
+                        <li class="flex items-center gap-2">
+                            <?php echo getIcon('CheckCircle', 'h-4 w-4 text-green-600'); ?>
+                            <span>7 Years as Specialist</span>
+                        </li>
+
+                    </ul>
 
                 </div>
 
@@ -1515,199 +606,193 @@ $faqs = [
 
     </section>
 
-    <!-- Areas of Care -->
-    <section>
 
-        <div class="container">
+    <!-- =====================================================
+         AREAS OF MEDICAL CARE
+    ====================================================== -->
 
-            <div class="section-heading">
+    <section class="py-12 md:py-16 bg-white">
 
-                <h2>
-                    Areas of <span>Medical Care</span>
+        <div class="container mx-auto px-4">
+
+            <div class="mb-8">
+
+                <h2 class="text-2xl md:text-3xl font-extrabold text-[#10254A]">
+                    Areas of Medical Care
                 </h2>
 
-                <p>
+                <p class="text-gray-600 mt-2">
                     Her clinical practice is centred around Obstetrics,
                     Gynaecology and Women's Health.
                 </p>
 
             </div>
 
-            <div class="care-grid">
 
-                <?php foreach ($areasOfCare as $index => $area): ?>
+            <div class="grid sm:grid-cols-2 lg:grid-cols-5 gap-4">
 
-                    <article class="care-card">
 
-                        <i class="fa-solid
-                            <?= $index === 0 ? 'fa-person-pregnant' :
-                                ($index === 1 ? 'fa-venus' :
-                                ($index === 2 ? 'fa-person-dress' :
-                                ($index === 3 ? 'fa-heart' :
-                                'fa-clipboard-check'))); ?>">
-                        </i>
+                <div class="bg-white border border-gray-100 rounded-2xl shadow-sm p-5 text-center">
 
-                        <h3>
-                            <?= htmlspecialchars($area['title']); ?>
-                        </h3>
-
-                        <p>
-                            <?= htmlspecialchars($area['description']); ?>
-                        </p>
-
-                    </article>
-
-                <?php endforeach; ?>
-
-            </div>
-
-        </div>
-
-    </section>
-
-    <!-- Department Services -->
-    <section class="section-light">
-
-        <div class="container">
-
-            <div class="department-box">
-
-                <h2>
-                    Obstetrics & Gynaecology Services at Akropolis
-                </h2>
-
-                <p>
-                    The Obstetrics & Gynaecology department provides
-                    women's health and maternity-related services,
-                    with consultation and care based on each patient's
-                    individual medical needs.
-                </p>
-
-                <div class="service-tags">
-
-                    <?php foreach ($departmentServices as $service): ?>
-
-                        <div class="service-tag">
-
-                            <i class="fa-solid fa-circle-check"></i>
-
-                            <?= htmlspecialchars($service); ?>
-
-                        </div>
-
-                    <?php endforeach; ?>
-
-                </div>
-
-            </div>
-
-        </div>
-
-    </section>
-
-    <!-- When to Consult -->
-    <section>
-
-        <div class="container">
-
-            <div class="section-heading">
-
-                <h2>
-                    When Should You Consult an
-                    <span>Obstetrician & Gynecologist?</span>
-                </h2>
-
-                <p>
-                    A consultation may be appropriate when you have
-                    concerns related to:
-                </p>
-
-            </div>
-
-            <div class="consult-grid">
-
-                <?php foreach ($consultationReasons as $reason): ?>
-
-                    <div class="consult-card">
-
-                        <i class="fa-solid fa-circle-check"></i>
-
-                        <h3>
-                            <?= htmlspecialchars($reason); ?>
-                        </h3>
-
+                    <div class="w-12 h-12 mx-auto mb-4 bg-[#328CCB]/10 text-[#328CCB] rounded-full flex items-center justify-center">
+                        <?php echo getIcon('Baby', 'h-6 w-6'); ?>
                     </div>
 
-                <?php endforeach; ?>
+                    <h3 class="font-bold text-gray-900 mb-2">
+                        Obstetrics
+                    </h3>
 
-            </div>
-
-        </div>
-
-    </section>
-
-    <!-- Hospital Location -->
-    <section class="section-light">
-
-        <div class="container">
-
-            <div class="hospital-card">
-
-                <div>
-
-                    <img
-                        src="<?= htmlspecialchars($hospitalImage, ENT_QUOTES, 'UTF-8'); ?>"
-                        alt="Akropolis Super Speciality Hospital in Sector 69, Gurugram"
-                        width="1200"
-                        height="800"
-                        loading="lazy"
-                    >
-
-                </div>
-
-                <div class="hospital-content">
-
-                    <h2>
-                        Dr. Anu Nagpal at
-                        <span style="color:#0d72c7;">
-                            Akropolis Super Speciality Hospital
-                        </span>
-                    </h2>
-
-                    <p>
-                        Dr. Anu Nagpal practises at Akropolis Super
-                        Speciality Hospital in Badshahpur, Gurugram.
-                        The hospital is located near Vatika Chowk,
-                        opposite Chinar Garden, Sector 69.
+                    <p class="text-sm text-gray-600">
+                        Pregnancy-related consultations and care.
                     </p>
 
-                    <div class="address-box">
+                </div>
 
-                        <i class="fa-solid fa-location-dot"></i>
 
-                        <?= htmlspecialchars($hospitalAddress); ?>
+                <div class="bg-white border border-gray-100 rounded-2xl shadow-sm p-5 text-center">
+
+                    <div class="w-12 h-12 mx-auto mb-4 bg-pink-50 text-pink-500 rounded-full flex items-center justify-center">
+                        <?php echo getIcon('Heart', 'h-6 w-6'); ?>
+                    </div>
+
+                    <h3 class="font-bold text-gray-900 mb-2">
+                        Gynaecology
+                    </h3>
+
+                    <p class="text-sm text-gray-600">
+                        Evaluation and management of gynaecological concerns.
+                    </p>
+
+                </div>
+
+
+                <div class="bg-white border border-gray-100 rounded-2xl shadow-sm p-5 text-center">
+
+                    <div class="w-12 h-12 mx-auto mb-4 bg-purple-50 text-purple-600 rounded-full flex items-center justify-center">
+                        <?php echo getIcon('UserRound', 'h-6 w-6'); ?>
+                    </div>
+
+                    <h3 class="font-bold text-gray-900 mb-2">
+                        Women's Health
+                    </h3>
+
+                    <p class="text-sm text-gray-600">
+                        Consultation for various women's health needs.
+                    </p>
+
+                </div>
+
+
+                <div class="bg-white border border-gray-100 rounded-2xl shadow-sm p-5 text-center">
+
+                    <div class="w-12 h-12 mx-auto mb-4 bg-orange-50 text-orange-600 rounded-full flex items-center justify-center">
+                        <?php echo getIcon('HeartPulse', 'h-6 w-6'); ?>
+                    </div>
+
+                    <h3 class="font-bold text-gray-900 mb-2">
+                        Pregnancy Care
+                    </h3>
+
+                    <p class="text-sm text-gray-600">
+                        Assessment, guidance and follow-up during pregnancy.
+                    </p>
+
+                </div>
+
+
+                <div class="bg-white border border-gray-100 rounded-2xl shadow-sm p-5 text-center">
+
+                    <div class="w-12 h-12 mx-auto mb-4 bg-green-50 text-green-600 rounded-full flex items-center justify-center">
+                        <?php echo getIcon('ClipboardCheck', 'h-6 w-6'); ?>
+                    </div>
+
+                    <h3 class="font-bold text-gray-900 mb-2">
+                        General Evaluation
+                    </h3>
+
+                    <p class="text-sm text-gray-600">
+                        Clinical assessment and further investigation when needed.
+                    </p>
+
+                </div>
+
+            </div>
+
+        </div>
+
+    </section>
+
+
+    <!-- =====================================================
+         DEPARTMENT CONNECTION
+    ====================================================== -->
+
+    <section class="py-12 md:py-16 bg-[#f6faff]">
+
+        <div class="container mx-auto px-4">
+
+            <div class="rounded-2xl border border-[#dceefa] bg-gradient-to-r from-[#f1f9ff] to-white p-7 md:p-9">
+
+                <div class="flex items-start gap-4">
+
+                    <div class="w-12 h-12 shrink-0 bg-white rounded-xl shadow-sm flex items-center justify-center text-[#328CCB]">
+
+                        <?php echo getIcon('Baby', 'h-6 w-6'); ?>
 
                     </div>
 
-                    <div class="hero-actions">
+                    <div>
 
-                        <a
-                            href="<?= $siteUrl; ?>/contact"
-                            class="btn btn-primary"
-                        >
-                            <i class="fa-regular fa-calendar"></i>
-                            Book Appointment
-                        </a>
+                        <h2 class="text-xl md:text-2xl font-extrabold text-[#10254A] mb-2">
+                            Obstetrics &amp; Gynaecology Services at Akropolis
+                        </h2>
 
-                        <a
-                            href="https://www.google.com/maps/search/?api=1&query=Akropolis+Super+Speciality+Hospital+Sector+69+Gurugram"
-                            target="_blank"
-                            rel="noopener"
-                            class="btn btn-outline"
-                        >
-                            <i class="fa-solid fa-location-arrow"></i>
-                            Get Directions
-                        </a>
+                        <p class="text-gray-600 leading-relaxed mb-5 max-w-4xl">
+                            The Obstetrics &amp; Gynaecology department provides
+                            maternity-related services and women's healthcare,
+                            with consultation and care based on each patient's
+                            individual medical needs.
+                        </p>
+
+
+                        <div class="flex flex-wrap gap-3">
+
+                            <span class="inline-flex items-center gap-2 bg-white border border-gray-200 rounded-full px-4 py-2 text-sm font-medium text-gray-700">
+
+                                <?php echo getIcon('CheckCircle', 'h-4 w-4 text-[#328CCB]'); ?>
+
+                                Maternity Care
+
+                            </span>
+
+
+                            <span class="inline-flex items-center gap-2 bg-white border border-gray-200 rounded-full px-4 py-2 text-sm font-medium text-gray-700">
+
+                                <?php echo getIcon('CheckCircle', 'h-4 w-4 text-[#328CCB]'); ?>
+
+                                High-Risk Pregnancy Evaluation &amp; Management
+
+                            </span>
+
+
+                            <span class="inline-flex items-center gap-2 bg-white border border-gray-200 rounded-full px-4 py-2 text-sm font-medium text-gray-700">
+
+                                <?php echo getIcon('CheckCircle', 'h-4 w-4 text-[#328CCB]'); ?>
+
+                                Gynaecology Care
+
+                            </span>
+
+
+                            <span class="inline-flex items-center gap-2 bg-white border border-gray-200 rounded-full px-4 py-2 text-sm font-medium text-gray-700">
+
+                                <?php echo getIcon('CheckCircle', 'h-4 w-4 text-[#328CCB]'); ?>
+
+                                Infertility Evaluation &amp; Treatment, Where Indicated
+
+                            </span>
+
+                        </div>
 
                     </div>
 
@@ -1719,41 +804,97 @@ $faqs = [
 
     </section>
 
-    <!-- Patient Resources -->
-    <section>
 
-        <div class="container">
+    <!-- =====================================================
+         WHEN SHOULD YOU CONSULT
+    ====================================================== -->
 
-            <div class="section-heading">
+    <section class="py-12 md:py-16 bg-white">
 
-                <h2>
-                    Resources for <span>Patients</span>
+        <div class="container mx-auto px-4">
+
+            <div class="mb-8">
+
+                <h2 class="text-2xl md:text-3xl font-extrabold text-[#10254A]">
+                    When Should You Consult an Obstetrician &amp; Gynaecologist?
                 </h2>
 
-                <p>
-                    Helpful information to support women's health,
-                    pregnancy and maternity-related care.
+                <p class="text-gray-600 mt-2">
+                    A consultation may be appropriate when you have concerns related to:
                 </p>
 
             </div>
 
-            <div class="resource-grid">
 
-                <?php foreach ($resources as $resource): ?>
+            <div class="grid sm:grid-cols-2 lg:grid-cols-4 gap-4">
 
-                    <article class="resource-card">
 
-                        <h3>
-                            <?= htmlspecialchars($resource['title']); ?>
-                        </h3>
+                <div class="bg-white border border-gray-100 rounded-2xl shadow-sm p-5">
 
-                        <p>
-                            <?= htmlspecialchars($resource['description']); ?>
-                        </p>
+                    <div class="w-10 h-10 bg-[#328CCB]/10 text-[#328CCB] rounded-xl flex items-center justify-center mb-4">
+                        <?php echo getIcon('CalendarDays', 'h-5 w-5'); ?>
+                    </div>
 
-                    </article>
+                    <h3 class="font-bold text-gray-900 mb-2">
+                        Menstrual Health
+                    </h3>
 
-                <?php endforeach; ?>
+                    <p class="text-sm text-gray-600">
+                        Irregular, painful or otherwise concerning menstrual symptoms.
+                    </p>
+
+                </div>
+
+
+                <div class="bg-white border border-gray-100 rounded-2xl shadow-sm p-5">
+
+                    <div class="w-10 h-10 bg-[#328CCB]/10 text-[#328CCB] rounded-xl flex items-center justify-center mb-4">
+                        <?php echo getIcon('Baby', 'h-5 w-5'); ?>
+                    </div>
+
+                    <h3 class="font-bold text-gray-900 mb-2">
+                        Pregnancy Planning
+                    </h3>
+
+                    <p class="text-sm text-gray-600">
+                        Preconception guidance or early pregnancy care.
+                    </p>
+
+                </div>
+
+
+                <div class="bg-white border border-gray-100 rounded-2xl shadow-sm p-5">
+
+                    <div class="w-10 h-10 bg-[#328CCB]/10 text-[#328CCB] rounded-xl flex items-center justify-center mb-4">
+                        <?php echo getIcon('HeartPulse', 'h-5 w-5'); ?>
+                    </div>
+
+                    <h3 class="font-bold text-gray-900 mb-2">
+                        Gynaecological Symptoms
+                    </h3>
+
+                    <p class="text-sm text-gray-600">
+                        Symptoms, discomfort or concerns requiring medical evaluation.
+                    </p>
+
+                </div>
+
+
+                <div class="bg-white border border-gray-100 rounded-2xl shadow-sm p-5">
+
+                    <div class="w-10 h-10 bg-[#328CCB]/10 text-[#328CCB] rounded-xl flex items-center justify-center mb-4">
+                        <?php echo getIcon('Heart', 'h-5 w-5'); ?>
+                    </div>
+
+                    <h3 class="font-bold text-gray-900 mb-2">
+                        General Women's Health
+                    </h3>
+
+                    <p class="text-sm text-gray-600">
+                        Health evaluation, guidance and discussion of women's health concerns.
+                    </p>
+
+                </div>
 
             </div>
 
@@ -1761,52 +902,98 @@ $faqs = [
 
     </section>
 
-    <!-- FAQ -->
-    <section class="section-light">
 
-        <div class="container">
+    <!-- =====================================================
+         HOSPITAL / LOCATION
+    ====================================================== -->
 
-            <div class="section-heading">
+    <section class="py-12 md:py-16 bg-[#f6faff]">
 
-                <h2>
-                    Frequently Asked <span>Questions</span>
-                </h2>
+        <div class="container mx-auto px-4">
 
-                <p>
-                    Common questions about Dr. Anu Nagpal,
-                    her qualifications, consultation and practice.
-                </p>
+            <div class="bg-white rounded-2xl shadow-lg border border-gray-100 overflow-hidden">
 
-            </div>
+                <div class="grid lg:grid-cols-2">
 
-            <div class="faq-list">
+                    <!-- Visual -->
 
-                <?php foreach ($faqs as $faq): ?>
+                    <div class="min-h-[280px] bg-gradient-to-br from-[#eaf6ff] via-white to-[#f6fbff] flex items-center justify-center">
 
-                    <div class="faq-item">
+                        <div class="text-center px-8">
 
-                        <button
-                            class="faq-question"
-                            type="button"
-                        >
+                            <div class="w-20 h-20 mx-auto mb-5 bg-white rounded-2xl shadow-md flex items-center justify-center text-[#328CCB]">
 
-                            <span>
-                                <?= htmlspecialchars($faq['question']); ?>
-                            </span>
+                                <?php echo getIcon('Building2', 'h-10 w-10'); ?>
 
-                            <i class="fa-solid fa-chevron-down"></i>
+                            </div>
 
-                        </button>
+                            <p class="font-semibold text-gray-700">
+                                Akropolis Super Speciality Hospital
+                            </p>
 
-                        <div class="faq-answer">
-
-                            <?= htmlspecialchars($faq['answer']); ?>
+                            <p class="text-sm text-gray-500 mt-1">
+                                Sector 69, Gurugram
+                            </p>
 
                         </div>
 
                     </div>
 
-                <?php endforeach; ?>
+
+                    <!-- Location Information -->
+
+                    <div class="p-7 md:p-10">
+
+                        <h2 class="text-2xl md:text-3xl font-extrabold text-[#10254A] mb-3">
+                            Dr. Anu Nagpal at Akropolis Super Speciality Hospital
+                        </h2>
+
+                        <p class="text-gray-600 leading-relaxed mb-5">
+                            Dr. Anu Nagpal practices at Akropolis Super Speciality
+                            Hospital in Badshahpur, Gurugram.
+                        </p>
+
+
+                        <div class="flex items-start gap-3 bg-[#fff7f3] border border-[#f4ded4] rounded-xl p-4 mb-6">
+
+                            <div class="text-[#D66C43] mt-0.5">
+                                <?php echo getIcon('MapPin', 'h-5 w-5'); ?>
+                            </div>
+
+                            <p class="text-sm text-gray-700">
+                                Near Vatika Chowk, Opposite Chinar Garden,
+                                Sector 69, Gurugram, Haryana 122101
+                            </p>
+
+                        </div>
+
+
+                        <div class="flex flex-wrap gap-3">
+
+                            <a
+                                href="/contact"
+                                class="inline-flex items-center gap-2 bg-[#D66C43] hover:bg-[#c55b36] text-white px-5 py-3 rounded-xl font-semibold transition"
+                            >
+                                <?php echo getIcon('Calendar', 'h-5 w-5'); ?>
+                                <span>Book Appointment</span>
+                            </a>
+
+
+                            <a
+                                href="https://www.google.com/maps/search/?api=1&query=Akropolis+Super+Speciality+Hospital+Sector+69+Gurugram"
+                                target="_blank"
+                                rel="noopener"
+                                class="inline-flex items-center gap-2 border-2 border-[#328CCB] text-[#328CCB] hover:bg-[#328CCB] hover:text-white px-5 py-3 rounded-xl font-semibold transition"
+                            >
+                                <?php echo getIcon('MapPin', 'h-5 w-5'); ?>
+                                <span>Get Directions</span>
+                            </a>
+
+                        </div>
+
+                    </div>
+
+                </div>
 
             </div>
 
@@ -1814,29 +1001,276 @@ $faqs = [
 
     </section>
 
-    <!-- Appointment CTA -->
-    <section class="appointment-section">
 
-        <div class="container">
+    <!-- =====================================================
+         RESOURCES
+    ====================================================== -->
 
-            <div class="appointment-box">
+    <section class="py-12 md:py-16 bg-white">
 
-                <h2>
+        <div class="container mx-auto px-4">
+
+            <div class="mb-8">
+
+                <h2 class="text-2xl md:text-3xl font-extrabold text-[#10254A]">
+                    Resources for Patients
+                </h2>
+
+                <p class="text-gray-600 mt-2">
+                    Helpful information to support women's health, pregnancy
+                    and maternity-related care.
+                </p>
+
+            </div>
+
+
+            <div class="grid md:grid-cols-3 gap-5">
+
+
+                <a
+                    href="/blog"
+                    class="group bg-white border border-gray-100 rounded-2xl shadow-sm p-6 hover:shadow-md transition"
+                >
+
+                    <div class="w-11 h-11 bg-[#328CCB]/10 text-[#328CCB] rounded-xl flex items-center justify-center mb-4">
+                        <?php echo getIcon('BookOpen', 'h-5 w-5'); ?>
+                    </div>
+
+                    <h3 class="font-bold text-gray-900 mb-2 group-hover:text-[#328CCB] transition">
+                        Pregnancy Guide
+                    </h3>
+
+                    <p class="text-sm text-gray-600">
+                        Key information for understanding pregnancy and preparing for consultations.
+                    </p>
+
+                </a>
+
+
+                <a
+                    href="/blog"
+                    class="group bg-white border border-gray-100 rounded-2xl shadow-sm p-6 hover:shadow-md transition"
+                >
+
+                    <div class="w-11 h-11 bg-pink-50 text-pink-500 rounded-xl flex items-center justify-center mb-4">
+                        <?php echo getIcon('Heart', 'h-5 w-5'); ?>
+                    </div>
+
+                    <h3 class="font-bold text-gray-900 mb-2 group-hover:text-[#328CCB] transition">
+                        Post-Delivery Care
+                    </h3>
+
+                    <p class="text-sm text-gray-600">
+                        General information about recovery and care after delivery.
+                    </p>
+
+                </a>
+
+
+                <a
+                    href="/blog"
+                    class="group bg-white border border-gray-100 rounded-2xl shadow-sm p-6 hover:shadow-md transition"
+                >
+
+                    <div class="w-11 h-11 bg-purple-50 text-purple-600 rounded-xl flex items-center justify-center mb-4">
+                        <?php echo getIcon('Users', 'h-5 w-5'); ?>
+                    </div>
+
+                    <h3 class="font-bold text-gray-900 mb-2 group-hover:text-[#328CCB] transition">
+                        Women's Wellness
+                    </h3>
+
+                    <p class="text-sm text-gray-600">
+                        General information about women's health and wellbeing.
+                    </p>
+
+                </a>
+
+            </div>
+
+        </div>
+
+    </section>
+
+
+    <!-- =====================================================
+         FAQ
+    ====================================================== -->
+
+    <section class="py-12 md:py-16 bg-[#f6faff]">
+
+        <div class="container mx-auto px-4 max-w-5xl">
+
+            <div class="mb-8">
+
+                <h2 class="text-2xl md:text-3xl font-extrabold text-[#10254A]">
+                    Frequently Asked Questions
+                </h2>
+
+                <p class="text-gray-600 mt-2">
+                    Common questions about Dr. Anu Nagpal, her qualifications,
+                    consultation and practice.
+                </p>
+
+            </div>
+
+
+            <div class="space-y-3">
+
+
+                <details class="group bg-white border border-gray-200 rounded-xl overflow-hidden">
+
+                    <summary class="flex items-center justify-between cursor-pointer px-5 py-4 font-semibold text-gray-900">
+
+                        <span>Who is Dr. Anu Nagpal?</span>
+
+                        <?php echo getIcon('ChevronDown', 'h-5 w-5 text-gray-500 group-open:rotate-180 transition'); ?>
+
+                    </summary>
+
+                    <div class="px-5 pb-5 text-gray-600 leading-relaxed">
+                        Dr. Anu Nagpal is an Obstetrician and Gynecologist at
+                        Akropolis Super Speciality Hospital with 11+ years of
+                        overall experience, including 7 years as a specialist.
+                    </div>
+
+                </details>
+
+
+                <details class="group bg-white border border-gray-200 rounded-xl overflow-hidden">
+
+                    <summary class="flex items-center justify-between cursor-pointer px-5 py-4 font-semibold text-gray-900">
+
+                        <span>What are Dr. Anu Nagpal's qualifications?</span>
+
+                        <?php echo getIcon('ChevronDown', 'h-5 w-5 text-gray-500 group-open:rotate-180 transition'); ?>
+
+                    </summary>
+
+                    <div class="px-5 pb-5 text-gray-600 leading-relaxed">
+                        She completed MBBS from Dr. B. R. Ambedkar University
+                        in 2013 and MS in Obstetrics &amp; Gynaecology from
+                        MMU Mullana in 2016.
+                    </div>
+
+                </details>
+
+
+                <details class="group bg-white border border-gray-200 rounded-xl overflow-hidden">
+
+                    <summary class="flex items-center justify-between cursor-pointer px-5 py-4 font-semibold text-gray-900">
+
+                        <span>How much experience does Dr. Anu Nagpal have?</span>
+
+                        <?php echo getIcon('ChevronDown', 'h-5 w-5 text-gray-500 group-open:rotate-180 transition'); ?>
+
+                    </summary>
+
+                    <div class="px-5 pb-5 text-gray-600 leading-relaxed">
+                        Dr. Anu Nagpal has 11+ years of overall experience,
+                        including 7 years as a specialist.
+                    </div>
+
+                </details>
+
+
+                <details class="group bg-white border border-gray-200 rounded-xl overflow-hidden">
+
+                    <summary class="flex items-center justify-between cursor-pointer px-5 py-4 font-semibold text-gray-900">
+
+                        <span>Where does Dr. Anu Nagpal practise?</span>
+
+                        <?php echo getIcon('ChevronDown', 'h-5 w-5 text-gray-500 group-open:rotate-180 transition'); ?>
+
+                    </summary>
+
+                    <div class="px-5 pb-5 text-gray-600 leading-relaxed">
+                        Dr. Anu Nagpal practises at Akropolis Super Speciality
+                        Hospital in Sector 69, Gurugram, near Vatika Chowk
+                        and opposite Chinar Garden.
+                    </div>
+
+                </details>
+
+
+                <details class="group bg-white border border-gray-200 rounded-xl overflow-hidden">
+
+                    <summary class="flex items-center justify-between cursor-pointer px-5 py-4 font-semibold text-gray-900">
+
+                        <span>What are Dr. Anu Nagpal's OPD timings?</span>
+
+                        <?php echo getIcon('ChevronDown', 'h-5 w-5 text-gray-500 group-open:rotate-180 transition'); ?>
+
+                    </summary>
+
+                    <div class="px-5 pb-5 text-gray-600 leading-relaxed">
+                        Her listed OPD timings are Monday to Saturday,
+                        9:00 AM to 5:00 PM.
+                    </div>
+
+                </details>
+
+
+                <details class="group bg-white border border-gray-200 rounded-xl overflow-hidden">
+
+                    <summary class="flex items-center justify-between cursor-pointer px-5 py-4 font-semibold text-gray-900">
+
+                        <span>How can I book a consultation with Dr. Anu Nagpal?</span>
+
+                        <?php echo getIcon('ChevronDown', 'h-5 w-5 text-gray-500 group-open:rotate-180 transition'); ?>
+
+                    </summary>
+
+                    <div class="px-5 pb-5 text-gray-600 leading-relaxed">
+                        You can use the appointment option on this page or
+                        contact Akropolis Super Speciality Hospital to enquire
+                        about a consultation.
+                    </div>
+
+                </details>
+
+            </div>
+
+        </div>
+
+    </section>
+
+
+    <!-- =====================================================
+         CONSULTATION CTA
+    ====================================================== -->
+
+    <section class="py-12 md:py-16 bg-[#fff7f3]">
+
+        <div class="container mx-auto px-4 text-center">
+
+            <div class="max-w-3xl mx-auto">
+
+                <div class="w-14 h-14 mx-auto mb-5 rounded-2xl bg-white shadow-sm flex items-center justify-center text-[#D66C43]">
+
+                    <?php echo getIcon('CalendarCheck', 'h-7 w-7'); ?>
+
+                </div>
+
+
+                <h2 class="text-2xl md:text-3xl font-extrabold text-[#10254A] mb-3">
                     Schedule a Consultation
                 </h2>
 
-                <p>
-                    If you would like to discuss a women's health,
-                    pregnancy or gynaecological concern, enquire
-                    about an appointment with Dr. Anu Nagpal.
+
+                <p class="text-gray-600 mb-6">
+                    If you would like to discuss a women's health, pregnancy
+                    or gynaecological concern, enquire about an appointment
+                    with Dr. Anu Nagpal.
                 </p>
 
+
                 <a
-                    href="<?= $siteUrl; ?>/contact"
-                    class="btn btn-primary"
+                    href="/contact"
+                    class="inline-flex items-center gap-2 bg-[#D66C43] hover:bg-[#c55b36] text-white px-7 py-3.5 rounded-xl font-semibold shadow-md transition"
                 >
-                    <i class="fa-regular fa-calendar"></i>
-                    Book Appointment
+                    <?php echo getIcon('Calendar', 'h-5 w-5'); ?>
+                    <span>Book Appointment</span>
                 </a>
 
             </div>
@@ -1845,60 +1279,85 @@ $faqs = [
 
     </section>
 
-    <!-- Explore More -->
-    <section>
 
-        <div class="container">
+    <!-- =====================================================
+         EXPLORE MORE
+    ====================================================== -->
 
-            <div class="section-heading">
+    <section class="py-12 md:py-16 bg-white">
 
-                <h2>
-                    Explore <span>More</span>
-                </h2>
+        <div class="container mx-auto px-4">
 
-            </div>
+            <h2 class="text-2xl md:text-3xl font-extrabold text-[#10254A] mb-7">
+                Explore More
+            </h2>
 
-            <div class="explore-grid">
+
+            <div class="grid md:grid-cols-2 gap-5">
+
 
                 <a
-                    href="<?= $siteUrl; ?>/departments/obstetrics-gynecology"
-                    class="explore-card"
+                    href="/departments/obstetrics-gynecology"
+                    class="group flex items-center justify-between gap-4 bg-white border border-gray-100 rounded-2xl shadow-sm p-6 hover:shadow-md transition"
                 >
 
-                    <div>
+                    <div class="flex items-center gap-4">
 
-                        <strong>
-                            Obstetrics & Gynaecology Department
-                        </strong>
+                        <div class="w-12 h-12 rounded-xl bg-pink-50 text-pink-500 flex items-center justify-center shrink-0">
 
-                        <span>
-                            Explore women's health and maternity services.
-                        </span>
+                            <?php echo getIcon('Baby', 'h-6 w-6'); ?>
+
+                        </div>
+
+                        <div>
+
+                            <h3 class="font-bold text-gray-900 group-hover:text-[#328CCB] transition">
+                                Obstetrics &amp; Gynaecology Department
+                            </h3>
+
+                            <p class="text-sm text-gray-600 mt-1">
+                                Comprehensive women's health and maternity services.
+                            </p>
+
+                        </div>
 
                     </div>
 
-                    <i class="fa-solid fa-chevron-right"></i>
+
+                    <?php echo getIcon('ChevronRight', 'h-5 w-5 text-gray-400 group-hover:text-[#328CCB]'); ?>
 
                 </a>
 
+
                 <a
-                    href="<?= $siteUrl; ?>/doctors"
-                    class="explore-card"
+                    href="/doctors"
+                    class="group flex items-center justify-between gap-4 bg-white border border-gray-100 rounded-2xl shadow-sm p-6 hover:shadow-md transition"
                 >
 
-                    <div>
+                    <div class="flex items-center gap-4">
 
-                        <strong>
-                            Meet Our Doctors
-                        </strong>
+                        <div class="w-12 h-12 rounded-xl bg-[#328CCB]/10 text-[#328CCB] flex items-center justify-center shrink-0">
 
-                        <span>
-                            View specialists across Akropolis Hospital.
-                        </span>
+                            <?php echo getIcon('Users', 'h-6 w-6'); ?>
+
+                        </div>
+
+                        <div>
+
+                            <h3 class="font-bold text-gray-900 group-hover:text-[#328CCB] transition">
+                                Meet Our Doctors
+                            </h3>
+
+                            <p class="text-sm text-gray-600 mt-1">
+                                View other specialists at Akropolis Hospital.
+                            </p>
+
+                        </div>
 
                     </div>
 
-                    <i class="fa-solid fa-chevron-right"></i>
+
+                    <?php echo getIcon('ChevronRight', 'h-5 w-5 text-gray-400 group-hover:text-[#328CCB]'); ?>
 
                 </a>
 
@@ -1908,140 +1367,22 @@ $faqs = [
 
     </section>
 
-    <!-- Footer -->
-    <footer>
+</main>
 
-        <div class="container footer-grid">
 
-            <div>
+<!-- =========================================================
+     SITEWIDE FOOTER
+     
+     IMPORTANT:
+     Do NOT recreate the footer here.
+     This keeps the exact same footer used across the website.
+========================================================= -->
 
-                <div class="footer-logo">
+<?php include __DIR__ . '/../includes/footer.php'; ?>
 
-                    <img
-                        src="<?= htmlspecialchars($logoImage, ENT_QUOTES, 'UTF-8'); ?>"
-                        alt="Akropolis Super Speciality Hospital"
-                        width="160"
-                        height="auto"
-                        loading="lazy"
-                    >
 
-                </div>
+<!-- =========================================================
+     SITEWIDE SCRIPTS
+========================================================= -->
 
-                <p class="footer-about">
-                    Akropolis Super Speciality Hospital provides
-                    specialist healthcare, diagnostic services and
-                    emergency support in Gurugram.
-                </p>
-
-            </div>
-
-            <div class="footer-column">
-
-                <h3>Quick Links</h3>
-
-                <a href="<?= $siteUrl; ?>/">Home</a>
-                <a href="<?= $siteUrl; ?>/about">About Us</a>
-                <a href="<?= $siteUrl; ?>/departments">Departments</a>
-                <a href="<?= $siteUrl; ?>/doctors">Doctors</a>
-                <a href="<?= $siteUrl; ?>/blog">Blog</a>
-                <a href="<?= $siteUrl; ?>/contact">Contact</a>
-
-            </div>
-
-            <div class="footer-column">
-
-                <h3>Patient Services</h3>
-
-                <a href="<?= $siteUrl; ?>/ct-scan">CT Scan</a>
-                <a href="<?= $siteUrl; ?>/endoscopy">Endoscopy</a>
-                <a href="<?= $siteUrl; ?>/colonoscopy">Colonoscopy</a>
-                <a href="<?= $siteUrl; ?>/bronchoscopy">Bronchoscopy</a>
-                <a href="<?= $siteUrl; ?>/dialysis">Dialysis</a>
-                <a href="<?= $siteUrl; ?>/laboratory">Laboratory</a>
-
-            </div>
-
-            <div class="footer-column">
-
-                <h3>Contact Info</h3>
-
-                <div class="footer-contact">
-
-                    <strong>
-                        <?= htmlspecialchars($hospitalName); ?>
-                    </strong>
-
-                    <br>
-
-                    <?= htmlspecialchars($hospitalAddress); ?>
-
-                    <br><br>
-
-                    <a href="tel:<?= htmlspecialchars($hospitalPhone); ?>">
-                        <?= htmlspecialchars($hospitalPhone); ?>
-                    </a>
-
-                    <br>
-
-                    <a href="mailto:<?= htmlspecialchars($hospitalEmail); ?>">
-                        <?= htmlspecialchars($hospitalEmail); ?>
-                    </a>
-
-                </div>
-
-            </div>
-
-        </div>
-
-        <div class="container footer-bottom">
-
-            © <?= date('Y'); ?>
-            Akropolis Super Speciality Hospital.
-            All rights reserved.
-
-        </div>
-
-    </footer>
-
-    <script>
-
-        function toggleMenu() {
-
-            const nav = document.querySelector('.nav-links');
-
-            if (!nav) {
-                return;
-            }
-
-            nav.classList.toggle('mobile-open');
-
-        }
-
-        document.querySelectorAll('.faq-question').forEach(function(button) {
-
-            button.addEventListener('click', function() {
-
-                const item = button.closest('.faq-item');
-
-                if (!item) {
-                    return;
-                }
-
-                document.querySelectorAll('.faq-item').forEach(function(otherItem) {
-
-                    if (otherItem !== item) {
-                        otherItem.classList.remove('active');
-                    }
-
-                });
-
-                item.classList.toggle('active');
-
-            });
-
-        });
-
-    </script>
-
-</body>
-</html>
+<?php include __DIR__ . '/../includes/scripts.php'; ?>
