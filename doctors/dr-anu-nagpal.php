@@ -8,6 +8,12 @@ if (!function_exists('schemaHospital')) {
     require_once __DIR__ . '/../includes/schema.php';
 }
 
+/*
+|--------------------------------------------------------------------------
+| Find Doctor
+|--------------------------------------------------------------------------
+*/
+
 $doctor = null;
 
 foreach ($doctors as $d) {
@@ -50,12 +56,24 @@ if (!$doctor) {
     exit;
 }
 
+/*
+|--------------------------------------------------------------------------
+| SEO
+|--------------------------------------------------------------------------
+*/
+
 $page_title = 'Dr. Anu Nagpal, Obstetrician & Gynaecologist | Akropolis';
 
 $page_description =
     'Meet Dr. Anu Nagpal, Obstetrician and Gynaecologist at Akropolis Super Speciality Hospital in Gurugram. She has 11 years of overall experience, including 7 years as a specialist, and provides obstetric and gynaecological care.';
 
 $canonical_url = '/doctors/dr-anu-nagpal';
+
+/*
+|--------------------------------------------------------------------------
+| Physician + Breadcrumb Schema
+|--------------------------------------------------------------------------
+*/
 
 $schema_blocks = [
     schemaPhysician([
@@ -78,7 +96,22 @@ include __DIR__ . '/../includes/head.php';
 
 ?>
 
+<!-- Sitewide Emergency Bar -->
+<div class="bg-[#D66C43] text-white py-2 px-4 text-center sticky top-0 z-50">
+    <div class="container mx-auto flex items-center justify-center space-x-2">
+        <?php echo getIcon('Phone', 'h-4 w-4'); ?>
+        <span class="font-semibold text-sm md:text-base">
+            Emergency 24×7: <?php echo CONTACT_INFO['emergency']; ?>
+        </span>
+    </div>
+</div>
+
+<!-- Sitewide Main Navigation -->
 <?php include __DIR__ . '/../includes/header-v2.php'; ?>
+
+<!-- =========================================================
+     PAGE-SPECIFIC STYLES
+     ========================================================= -->
 
 <style>
     .anu-page {
@@ -88,13 +121,12 @@ include __DIR__ . '/../includes/head.php';
         --ak-text: #15233A;
         --ak-muted: #667085;
         --ak-border: #E7EDF4;
+        --ak-light-blue: #F4FAFE;
         --ak-soft-blue: #EEF8FD;
         --ak-soft-orange: #FFF5F1;
     }
 
-    .anu-page *,
-    .anu-page *::before,
-    .anu-page *::after {
+    .anu-page * {
         box-sizing: border-box;
     }
 
@@ -116,58 +148,61 @@ include __DIR__ . '/../includes/head.php';
         letter-spacing: -0.025em;
     }
 
-    .anu-section {
-        padding: 42px 0;
-        background: #fff;
-    }
-
-    .anu-section-heading {
-        margin-bottom: 20px;
-    }
-
-    .anu-section-heading.center {
-        text-align: center;
-    }
-
-    .anu-title {
-        color: var(--ak-blue-dark);
-        font-size: clamp(1.55rem, 2vw, 2rem);
+    .anu-page .section-title {
+        font-size: clamp(1.65rem, 2.2vw, 2.15rem);
         line-height: 1.2;
-        margin-bottom: 7px;
-        font-weight: 800;
-        letter-spacing: -0.025em;
+        margin-bottom: 8px;
     }
 
-    .anu-title .accent,
-    .anu-hospital-content .accent {
+    .anu-page .section-title .accent {
         color: var(--ak-blue);
     }
 
-    .anu-intro {
+    .anu-page .section-intro {
         color: var(--ak-muted);
-        font-size: .82rem;
-        line-height: 1.6;
+        font-size: 0.95rem;
+        line-height: 1.65;
         max-width: 760px;
-        margin-bottom: 0;
     }
 
-    .anu-section-heading.center .anu-intro {
+    .anu-page .section-header {
+        margin-bottom: 28px;
+    }
+
+    .anu-page .section-header.center {
+        text-align: center;
+    }
+
+    .anu-page .section-header.center .section-intro {
         margin-left: auto;
         margin-right: auto;
     }
 
-    .anu-card {
-        background: #fff;
-        border: 1px solid var(--ak-border);
-        border-radius: 13px;
-        box-shadow: 0 7px 22px rgba(17, 52, 86, .055);
+    .anu-page .eyebrow {
+        display: inline-flex;
+        align-items: center;
+        gap: 7px;
+        padding: 5px 11px;
+        border-radius: 999px;
+        background: var(--ak-soft-blue);
+        color: var(--ak-blue);
+        font-size: 0.72rem;
+        font-weight: 700;
+        margin-bottom: 10px;
     }
 
-    .anu-icon {
-        width: 44px;
-        height: 44px;
-        min-width: 44px;
-        border-radius: 11px;
+    .anu-page .card {
+        background: #fff;
+        border: 1px solid var(--ak-border);
+        border-radius: 16px;
+        box-shadow: 0 8px 28px rgba(17, 52, 86, 0.07);
+    }
+
+    .anu-page .icon-box {
+        width: 46px;
+        height: 46px;
+        min-width: 46px;
+        border-radius: 12px;
         display: inline-flex;
         align-items: center;
         justify-content: center;
@@ -175,24 +210,34 @@ include __DIR__ . '/../includes/head.php';
         color: var(--ak-blue);
     }
 
-    .anu-icon.pink {
-        background: #FFF0F5;
-        color: #D9487C;
-    }
-
-    .anu-icon.orange {
+    .anu-page .icon-box.orange {
         background: rgba(214,108,67,.10);
         color: var(--ak-orange);
     }
 
-    .anu-icon.green {
+    .anu-page .icon-box.green {
         background: #ECFDF3;
         color: #16A05D;
     }
 
-    /* =========================================================
-       BREADCRUMB
-       ========================================================= */
+    .anu-page .icon-box.pink {
+        background: #FFF0F5;
+        color: #D9487C;
+    }
+
+    .anu-page .check {
+        width: 18px;
+        height: 18px;
+        min-width: 18px;
+        border-radius: 50%;
+        display: inline-flex;
+        align-items: center;
+        justify-content: center;
+        background: #EAF7EF;
+        color: #159447;
+    }
+
+    /* Breadcrumb */
 
     .anu-breadcrumb {
         background: #fff;
@@ -200,12 +245,12 @@ include __DIR__ . '/../includes/head.php';
     }
 
     .anu-breadcrumb-inner {
-        min-height: 42px;
+        min-height: 50px;
         display: flex;
         align-items: center;
-        gap: 7px;
+        gap: 8px;
         color: #667085;
-        font-size: .72rem;
+        font-size: 0.78rem;
     }
 
     .anu-breadcrumb a {
@@ -222,42 +267,39 @@ include __DIR__ . '/../includes/head.php';
         font-weight: 700;
     }
 
-    /* =========================================================
-       HERO
-       ========================================================= */
+    /* Hero */
 
     .anu-hero {
         background:
             linear-gradient(
                 90deg,
                 #F7FCFF 0%,
-                #F7FCFF 56%,
+                #F7FCFF 55%,
                 #EDF8FE 100%
             );
-        padding: 30px 0;
+        padding: 42px 0;
     }
 
     .anu-hero-grid {
         display: grid;
-        grid-template-columns: 150px minmax(0, 1fr) 310px;
-        gap: 22px;
+        grid-template-columns: 150px minmax(0, 1fr) 300px;
+        gap: 24px;
         align-items: center;
     }
 
     .anu-doctor-photo {
         width: 150px;
         height: 150px;
-        border-radius: 16px;
+        border-radius: 18px;
         overflow: hidden;
         border: 4px solid #fff;
-        background: #edf4f8;
         box-shadow: 0 8px 25px rgba(18,59,112,.12);
+        background: #edf4f8;
     }
 
     .anu-doctor-photo img {
         width: 100%;
         height: 100%;
-        display: block;
         object-fit: cover;
     }
 
@@ -268,17 +310,17 @@ include __DIR__ . '/../includes/head.php';
         background: #EAF9EF;
         color: #168B4D;
         border-radius: 999px;
-        padding: 4px 9px;
-        font-size: .68rem;
+        padding: 5px 10px;
+        font-size: 0.72rem;
         font-weight: 700;
-        margin-bottom: 7px;
+        margin-bottom: 8px;
     }
 
     .anu-hero h1 {
         color: var(--ak-blue-dark);
-        font-size: clamp(1.9rem, 2.7vw, 2.35rem);
-        line-height: 1.08;
-        margin-bottom: 5px;
+        font-size: clamp(2rem, 3vw, 2.65rem);
+        line-height: 1.1;
+        margin-bottom: 7px;
         font-weight: 850;
         letter-spacing: -0.035em;
     }
@@ -286,72 +328,61 @@ include __DIR__ . '/../includes/head.php';
     .anu-speciality {
         color: var(--ak-blue);
         font-weight: 750;
-        font-size: 1rem;
-        margin-bottom: 5px;
+        font-size: 1.05rem;
+        margin-bottom: 7px;
     }
 
     .anu-qualification {
         color: #526071;
-        font-size: .82rem;
-        margin-bottom: 12px;
+        font-size: 0.9rem;
+        margin-bottom: 16px;
     }
 
     .anu-stat-row {
         display: flex;
         flex-wrap: wrap;
-        gap: 8px;
+        gap: 10px;
     }
 
     .anu-stat {
         display: inline-flex;
         align-items: center;
         gap: 8px;
-        min-width: 132px;
-        padding: 8px 10px;
         background: #fff;
         border: 1px solid var(--ak-border);
-        border-radius: 9px;
+        border-radius: 10px;
+        padding: 9px 12px;
+        font-size: 0.76rem;
+        color: #344054;
     }
 
     .anu-stat strong {
-        display: block;
         color: var(--ak-blue-dark);
-        font-size: .74rem;
-        line-height: 1.2;
+        display: block;
+        font-size: 0.8rem;
     }
 
     .anu-stat small {
-        display: block;
         color: #667085;
-        font-size: .64rem;
-        line-height: 1.35;
-    }
-
-    .anu-stat.verified strong {
-        color: #168B4D;
-    }
-
-    .anu-hero-actions,
-    .anu-hospital-actions {
-        display: flex;
-        flex-wrap: wrap;
-        gap: 9px;
     }
 
     .anu-hero-actions {
-        margin-top: 13px;
+        display: flex;
+        gap: 10px;
+        margin-top: 17px;
+        flex-wrap: wrap;
     }
 
     .anu-btn {
         display: inline-flex;
         align-items: center;
         justify-content: center;
-        gap: 7px;
-        min-height: 40px;
-        padding: 0 15px;
+        gap: 8px;
+        min-height: 43px;
+        padding: 0 17px;
         border-radius: 8px;
         text-decoration: none;
-        font-size: .76rem;
+        font-size: 0.82rem;
         font-weight: 750;
         transition: .2s ease;
     }
@@ -359,12 +390,13 @@ include __DIR__ . '/../includes/head.php';
     .anu-btn-primary {
         background: var(--ak-orange);
         color: #fff;
-        box-shadow: 0 5px 15px rgba(214,108,67,.18);
+        box-shadow: 0 6px 18px rgba(214,108,67,.20);
     }
 
     .anu-btn-primary:hover {
-        background: #C85E38;
+        background: #c85e38;
         color: #fff;
+        transform: translateY(-1px);
     }
 
     .anu-btn-secondary {
@@ -381,183 +413,169 @@ include __DIR__ . '/../includes/head.php';
     .anu-hero-side {
         background: #fff;
         border: 1px solid var(--ak-border);
-        border-radius: 14px;
-        padding: 15px;
-        box-shadow: 0 7px 22px rgba(17,52,86,.055);
+        border-radius: 15px;
+        padding: 18px;
+        box-shadow: 0 8px 25px rgba(17,52,86,.06);
     }
 
     .anu-side-item {
         display: flex;
-        gap: 9px;
+        gap: 11px;
         align-items: flex-start;
     }
 
     .anu-side-item + .anu-side-item {
         border-top: 1px solid #EEF2F6;
-        margin-top: 12px;
-        padding-top: 12px;
+        margin-top: 15px;
+        padding-top: 15px;
     }
 
-    .anu-side-icon {
-        width: 32px;
-        height: 32px;
-        min-width: 32px;
-        border-radius: 8px;
+    .anu-side-item .mini-icon {
+        width: 34px;
+        height: 34px;
+        min-width: 34px;
+        border-radius: 9px;
+        background: var(--ak-soft-blue);
+        color: var(--ak-blue);
         display: flex;
         align-items: center;
         justify-content: center;
-        background: var(--ak-soft-blue);
-        color: var(--ak-blue);
     }
 
     .anu-side-item strong {
         display: block;
         color: var(--ak-text);
-        font-size: .7rem;
-        margin-bottom: 2px;
+        font-size: 0.75rem;
+        margin-bottom: 3px;
     }
 
     .anu-side-item span {
         display: block;
         color: #667085;
-        font-size: .65rem;
-        line-height: 1.4;
+        font-size: 0.72rem;
+        line-height: 1.45;
     }
 
-    /* =========================================================
-       ABOUT
-       ========================================================= */
+    /* Generic sections */
+
+    .anu-section {
+        padding: 58px 0;
+    }
+
+    .anu-section.alt {
+        background: var(--ak-light-blue);
+    }
 
     .anu-about-grid {
         display: grid;
-        grid-template-columns: minmax(0, 1.35fr) minmax(320px, .65fr);
+        grid-template-columns: minmax(0, 1.35fr) minmax(300px, .65fr);
         gap: 42px;
         align-items: center;
     }
 
     .anu-about-copy p {
         color: #4B5565;
-        line-height: 1.65;
-        font-size: .8rem;
-        margin-bottom: 12px;
+        line-height: 1.72;
+        font-size: 0.93rem;
+        margin-bottom: 14px;
     }
 
     .anu-about-image {
-        height: 250px;
-        border-radius: 15px;
+        border-radius: 17px;
         overflow: hidden;
+        min-height: 245px;
         background: #edf5f9;
-        box-shadow: 0 8px 25px rgba(17,52,86,.07);
+        box-shadow: 0 8px 25px rgba(17,52,86,.08);
     }
 
     .anu-about-image img {
         width: 100%;
         height: 100%;
-        display: block;
+        min-height: 245px;
         object-fit: cover;
     }
 
-    /* =========================================================
-       EDUCATION
-       ========================================================= */
+    /* Education */
 
     .anu-three-grid {
         display: grid;
         grid-template-columns: repeat(3, 1fr);
-        gap: 16px;
+        gap: 18px;
     }
 
     .anu-education-card {
-        min-height: 112px;
-        padding: 18px;
+        padding: 23px;
+        min-height: 150px;
     }
 
-    .anu-card-row {
+    .anu-education-card .card-top {
         display: flex;
         align-items: flex-start;
-        gap: 12px;
-    }
-
-    .anu-education-card h3,
-    .anu-resource-card h3,
-    .anu-care-card h3,
-    .anu-reason-card h3 {
-        color: var(--ak-text);
-        font-weight: 800;
+        gap: 14px;
     }
 
     .anu-education-card h3 {
-        font-size: .82rem;
-        margin-bottom: 5px;
+        color: var(--ak-text);
+        font-size: 0.95rem;
+        font-weight: 800;
+        margin-bottom: 6px;
     }
 
     .anu-education-card p {
         color: #667085;
-        font-size: .68rem;
-        line-height: 1.5;
+        font-size: 0.78rem;
+        line-height: 1.55;
         margin: 0;
     }
 
-    /* =========================================================
-       AREAS OF MEDICAL CARE
-       ========================================================= */
+    /* Areas */
 
     .anu-five-grid {
         display: grid;
         grid-template-columns: repeat(5, 1fr);
-        gap: 13px;
+        gap: 14px;
     }
 
     .anu-care-card {
-        min-height: 155px;
-        padding: 18px 13px;
+        padding: 21px 15px;
         text-align: center;
+        min-height: 170px;
     }
 
-    .anu-care-card .anu-icon {
-        margin: 0 auto 11px;
+    .anu-care-card .icon-box {
+        margin: 0 auto 13px;
     }
 
     .anu-care-card h3 {
-        font-size: .76rem;
-        margin-bottom: 6px;
+        color: var(--ak-text);
+        font-size: 0.84rem;
+        font-weight: 800;
+        margin-bottom: 7px;
     }
 
     .anu-care-card p {
         color: #667085;
-        font-size: .64rem;
-        line-height: 1.45;
+        font-size: 0.71rem;
+        line-height: 1.5;
         margin: 0;
     }
 
-    /* =========================================================
-       DEPARTMENT CONNECTION
-       ========================================================= */
-
-    .anu-dept-section {
-        background: #F4FAFE;
-    }
+    /* Department relationship */
 
     .anu-dept-card {
-        display: grid;
-        grid-template-columns: minmax(0, 1fr) 220px;
-        align-items: center;
-        min-height: 155px;
-        padding: 24px 28px;
+        position: relative;
         overflow: hidden;
+        padding: 28px 34px 30px;
+        min-height: 170px;
+        background: linear-gradient(105deg, #F0FAFF 0%, #F7FCFF 100%);
         border: 1px solid #D7EDF9;
-        border-radius: 16px;
-        background: linear-gradient(
-            105deg,
-            #F0FAFF 0%,
-            #F7FCFF 100%
-        );
+        border-radius: 17px;
     }
 
     .anu-dept-content {
-        min-width: 0;
         position: relative;
-        z-index: 1;
+        z-index: 2;
+        max-width: calc(100% - 180px);
     }
 
     .anu-dept-card h2 {
@@ -566,178 +584,217 @@ include __DIR__ . '/../includes/head.php';
         margin-bottom: 7px;
     }
 
+    .anu-dept-card h2 .accent {
+        color: var(--ak-blue);
+    }
+
     .anu-dept-card p {
         color: #5E6B7A;
-        max-width: 760px;
-        font-size: .76rem;
+        max-width: 720px;
         line-height: 1.55;
-        margin-bottom: 13px;
+        font-size: 0.82rem;
+        margin-bottom: 16px;
     }
 
     .anu-chip-row {
-        display: flex;
-        flex-wrap: wrap;
-        gap: 7px;
+        display: grid;
+        grid-template-columns: max-content max-content max-content;
+        gap: 8px;
+        align-items: start;
     }
 
     .anu-chip {
         display: inline-flex;
         align-items: center;
-        gap: 5px;
-        padding: 6px 10px;
+        gap: 7px;
+        width: fit-content;
         background: #fff;
         border: 1px solid #DDEAF2;
-        border-radius: 999px;
+        border-radius: 8px;
+        padding: 7px 11px;
         color: #344054;
-        font-size: .65rem;
+        font-size: 0.72rem;
+        line-height: 1.25;
         font-weight: 700;
+        box-shadow: 0 2px 5px rgba(17,52,86,.025);
+        white-space: nowrap;
     }
 
-    /*
-     * Image path intentionally left as a replacement slot.
-     * Replace the file when the final illustration is available.
-     */
+    .anu-chip svg {
+        flex: 0 0 auto;
+    }
+
     .anu-dept-illustration {
-        min-height: 145px;
-        background-image: url('/assets/images/obstetrics-gynecology-services-illustration.png');
-        background-repeat: no-repeat;
-        background-position: center right;
-        background-size: contain;
+        position: absolute;
+        right: 14px;
+        top: 50%;
+        width: 150px;
+        height: 150px;
+        transform: translateY(-50%);
+        color: #8FC8EF;
+        opacity: .72;
+        z-index: 1;
+        pointer-events: none;
     }
 
-    /* =========================================================
-       WHEN TO CONSULT
-       ========================================================= */
+    .anu-dept-illustration svg {
+        width: 100%;
+        height: 100%;
+        display: block;
+    }
+
+    /* Consultation reasons */
 
     .anu-four-grid {
         display: grid;
         grid-template-columns: repeat(4, 1fr);
-        gap: 14px;
+        gap: 15px;
     }
 
     .anu-reason-card {
-        padding: 18px;
-        min-height: 142px;
+        padding: 20px;
     }
 
     .anu-reason-card h3 {
-        font-size: .76rem;
-        margin: 10px 0 5px;
+        color: var(--ak-text);
+        font-size: 0.82rem;
+        font-weight: 800;
+        margin: 12px 0 6px;
     }
 
     .anu-reason-card p {
         color: #667085;
-        font-size: .64rem;
-        line-height: 1.45;
+        font-size: 0.71rem;
+        line-height: 1.5;
         margin: 0;
     }
 
-    /* =========================================================
-       HOSPITAL / LOCATION
-       ========================================================= */
+    /* Hospital */
 
     .anu-hospital-card {
         display: grid;
         grid-template-columns: 1fr 1.05fr;
         overflow: hidden;
+        border-radius: 17px;
         background: #fff;
         border: 1px solid var(--ak-border);
-        border-radius: 16px;
         box-shadow: 0 8px 28px rgba(17,52,86,.07);
     }
 
-    /*
-     * Image path intentionally left as a replacement slot.
-     * Replace the file when the final hospital image is available.
-     */
     .anu-hospital-image {
-        min-height: 285px;
-        background-color: #EDF7FC;
-        background-image: url('/assets/images/akropolis-hospital-building.jpg');
-        background-repeat: no-repeat;
-        background-position: center;
-        background-size: cover;
+        min-height: 300px;
+        background:
+            linear-gradient(135deg, #DDEFF8, #F6FBFD);
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        color: var(--ak-blue);
+        text-align: center;
+        padding: 30px;
+    }
+
+    .anu-hospital-image .placeholder {
+        max-width: 300px;
+    }
+
+    .anu-hospital-image .placeholder .icon-box {
+        margin: 0 auto 14px;
+    }
+
+    .anu-hospital-image .placeholder strong {
+        display: block;
+        color: var(--ak-blue-dark);
+        font-size: 0.95rem;
+    }
+
+    .anu-hospital-image .placeholder span {
+        display: block;
+        color: #667085;
+        font-size: 0.75rem;
+        margin-top: 5px;
     }
 
     .anu-hospital-content {
-        padding: 28px;
+        padding: 31px;
     }
 
     .anu-hospital-content h2 {
-        font-size: 1.4rem;
-        line-height: 1.25;
+        font-size: 1.45rem;
         margin-bottom: 8px;
     }
 
     .anu-hospital-content p {
         color: #667085;
-        font-size: .76rem;
-        line-height: 1.55;
+        font-size: 0.82rem;
+        line-height: 1.6;
     }
 
     .anu-address {
         display: flex;
+        gap: 9px;
         align-items: flex-start;
-        gap: 8px;
-        margin: 14px 0;
-        padding: 10px 12px;
         background: var(--ak-soft-orange);
         border: 1px solid #F6D8CC;
-        border-radius: 9px;
+        border-radius: 10px;
+        padding: 11px 13px;
         color: #4B5565;
-        font-size: .68rem;
-        line-height: 1.45;
+        font-size: 0.75rem;
+        line-height: 1.5;
+        margin: 15px 0;
     }
 
-    /* =========================================================
-       RESOURCES
-       ========================================================= */
+    .anu-hospital-actions {
+        display: flex;
+        gap: 9px;
+        flex-wrap: wrap;
+    }
+
+    /* Resources */
 
     .anu-resource-card {
-        min-height: 125px;
-        padding: 18px;
-        text-decoration: none;
+        padding: 20px;
+        min-height: 140px;
     }
 
     .anu-resource-card h3 {
-        font-size: .76rem;
-        margin: 10px 0 5px;
+        color: var(--ak-text);
+        font-size: 0.82rem;
+        font-weight: 800;
+        margin: 12px 0 5px;
     }
 
     .anu-resource-card p {
         color: #667085;
-        font-size: .64rem;
-        line-height: 1.45;
+        font-size: 0.7rem;
+        line-height: 1.5;
         margin: 0;
     }
 
-    /* =========================================================
-       FAQ
-       ========================================================= */
+    /* FAQ */
 
     .anu-faq {
-        max-width: 980px;
+        max-width: 850px;
         margin: 0 auto;
     }
 
     .anu-faq-item {
         background: #fff;
         border: 1px solid var(--ak-border);
-        border-radius: 8px;
-        margin-bottom: 7px;
+        border-radius: 9px;
+        margin-bottom: 9px;
         overflow: hidden;
     }
 
     .anu-faq-item summary {
         cursor: pointer;
         list-style: none;
+        padding: 15px 17px;
         display: flex;
         align-items: center;
         justify-content: space-between;
         gap: 15px;
-        padding: 12px 15px;
         color: var(--ak-text);
-        font-size: .7rem;
+        font-size: 0.8rem;
         font-weight: 750;
     }
 
@@ -748,7 +805,7 @@ include __DIR__ . '/../includes/head.php';
     .anu-faq-item summary::after {
         content: '+';
         color: var(--ak-blue);
-        font-size: 1rem;
+        font-size: 1.15rem;
         font-weight: 500;
     }
 
@@ -757,39 +814,31 @@ include __DIR__ . '/../includes/head.php';
     }
 
     .anu-faq-answer {
-        padding: 0 15px 14px;
+        padding: 0 17px 17px;
         color: #667085;
-        font-size: .68rem;
-        line-height: 1.55;
+        font-size: 0.76rem;
+        line-height: 1.65;
     }
 
-    /* =========================================================
-       CONSULTATION
-       ========================================================= */
+    /* Consultation */
 
     .anu-consultation {
-        background: linear-gradient(
-            100deg,
-            #FFF6F2,
-            #FFF9F7
-        );
+        background: linear-gradient(100deg, #FFF6F2, #FFF9F7);
         border-top: 1px solid #F8E7E0;
         border-bottom: 1px solid #F8E7E0;
     }
 
     .anu-consult-grid {
         display: grid;
-        grid-template-columns: 76px minmax(0, 1fr);
-        gap: 22px;
+        grid-template-columns: 90px minmax(0, 1fr);
+        gap: 25px;
         align-items: center;
-        max-width: 980px;
-        margin: 0 auto;
     }
 
     .anu-calendar-icon {
-        width: 68px;
-        height: 68px;
-        border-radius: 16px;
+        width: 76px;
+        height: 76px;
+        border-radius: 18px;
         background: #fff;
         border: 1px solid #F1DCD4;
         color: var(--ak-orange);
@@ -799,93 +848,99 @@ include __DIR__ . '/../includes/head.php';
     }
 
     .anu-consultation h2 {
-        color: var(--ak-blue-dark);
         text-align: center;
-        font-size: 1.45rem;
-        margin-bottom: 5px;
+        font-size: 1.55rem;
+        margin-bottom: 6px;
     }
 
-    .anu-consult-intro {
-        color: #667085;
+    .anu-consultation .consult-intro {
         text-align: center;
-        font-size: .68rem;
-        line-height: 1.45;
-        margin-bottom: 14px;
+        color: #667085;
+        font-size: 0.78rem;
+        margin-bottom: 20px;
     }
 
     .anu-form {
         background: #fff;
         border: 1px solid #F0E2DD;
-        border-radius: 12px;
-        padding: 15px;
+        border-radius: 13px;
+        padding: 20px;
         box-shadow: 0 7px 22px rgba(80,50,40,.05);
     }
 
     .anu-form-grid {
         display: grid;
-        grid-template-columns: repeat(2, minmax(0, 1fr));
-        gap: 10px;
+        grid-template-columns: repeat(2, 1fr);
+        gap: 12px;
     }
 
     .anu-form label {
         display: block;
         color: #344054;
-        font-size: .62rem;
+        font-size: 0.7rem;
         font-weight: 750;
-        margin-bottom: 4px;
+        margin-bottom: 5px;
     }
 
     .anu-form input,
-    .anu-form select {
+    .anu-form select,
+    .anu-form textarea {
         width: 100%;
-        height: 36px;
-        padding: 0 10px;
         border: 1px solid #DDE3EA;
-        border-radius: 7px;
-        background: #fff;
+        border-radius: 8px;
+        padding: 10px 11px;
         color: #344054;
-        font-size: .65rem;
+        font-size: 0.75rem;
         outline: none;
+        background: #fff;
     }
 
     .anu-form input:focus,
-    .anu-form select:focus {
+    .anu-form select:focus,
+    .anu-form textarea:focus {
         border-color: var(--ak-blue);
         box-shadow: 0 0 0 3px rgba(50,140,203,.10);
     }
 
+    .anu-form textarea {
+        min-height: 80px;
+        resize: vertical;
+    }
+
+    .anu-form-full {
+        grid-column: 1 / -1;
+    }
+
     .anu-form-submit {
         width: 100%;
-        min-height: 38px;
-        margin-top: 10px;
         border: 0;
-        border-radius: 7px;
+        margin-top: 13px;
         background: var(--ak-orange);
         color: #fff;
-        font-size: .68rem;
+        border-radius: 8px;
+        padding: 12px;
+        font-size: 0.8rem;
         font-weight: 800;
         cursor: pointer;
     }
 
     .anu-form-submit:hover {
-        background: #C85E38;
+        background: #c85e38;
     }
 
     .anu-form-note {
-        color: #8A94A3;
         text-align: center;
-        font-size: .58rem;
-        margin: 6px 0 0;
+        color: #8A94A3;
+        font-size: 0.65rem;
+        margin: 8px 0 0;
     }
 
-    /* =========================================================
-       EXPLORE MORE
-       ========================================================= */
+    /* Explore */
 
     .anu-explore-grid {
         display: grid;
         grid-template-columns: repeat(2, 1fr);
-        gap: 14px;
+        gap: 15px;
     }
 
     .anu-explore-card {
@@ -893,7 +948,7 @@ include __DIR__ . '/../includes/head.php';
         align-items: center;
         justify-content: space-between;
         gap: 15px;
-        padding: 16px 18px;
+        padding: 18px 20px;
         color: inherit;
         text-decoration: none;
     }
@@ -901,19 +956,19 @@ include __DIR__ . '/../includes/head.php';
     .anu-explore-left {
         display: flex;
         align-items: center;
-        gap: 11px;
+        gap: 12px;
     }
 
     .anu-explore-card h3 {
         color: var(--ak-blue-dark);
-        font-size: .72rem;
-        margin-bottom: 3px;
+        font-size: 0.82rem;
+        margin-bottom: 4px;
         font-weight: 800;
     }
 
     .anu-explore-card p {
         color: #667085;
-        font-size: .62rem;
+        font-size: 0.69rem;
         margin: 0;
     }
 
@@ -921,13 +976,11 @@ include __DIR__ . '/../includes/head.php';
         color: var(--ak-blue);
     }
 
-    /* =========================================================
-       RESPONSIVE
-       ========================================================= */
+    /* Responsive */
 
-    @media (max-width: 1100px) {
+    @media (max-width: 1024px) {
         .anu-hero-grid {
-            grid-template-columns: 140px minmax(0, 1fr);
+            grid-template-columns: 130px minmax(0, 1fr);
         }
 
         .anu-hero-side {
@@ -943,23 +996,62 @@ include __DIR__ . '/../includes/head.php';
         }
     }
 
+    @media (max-width: 1024px) {
+        .anu-dept-content {
+            max-width: calc(100% - 135px);
+        }
+
+        .anu-chip-row {
+            grid-template-columns: max-content max-content;
+        }
+
+        .anu-chip {
+            white-space: normal;
+        }
+    }
+
     @media (max-width: 768px) {
         .anu-container {
             width: min(100% - 24px, 680px);
         }
 
+        .anu-dept-card {
+            padding: 26px 24px;
+        }
+
+        .anu-dept-content {
+            max-width: 100%;
+        }
+
+        .anu-dept-illustration {
+            width: 100px;
+            height: 100px;
+            right: 6px;
+            bottom: 8px;
+            top: auto;
+            transform: none;
+            opacity: .32;
+        }
+
+        .anu-chip-row {
+            grid-template-columns: 1fr;
+        }
+
+        .anu-chip {
+            white-space: normal;
+        }
+
         .anu-section {
-            padding: 36px 0;
+            padding: 42px 0;
         }
 
         .anu-hero {
-            padding: 28px 0;
+            padding: 30px 0;
         }
 
-        .anu-hero-grid,
-        .anu-about-grid,
-        .anu-hospital-card {
+        .anu-hero-grid {
             grid-template-columns: 1fr;
+            text-align: center;
         }
 
         .anu-doctor-photo {
@@ -967,32 +1059,23 @@ include __DIR__ . '/../includes/head.php';
         }
 
         .anu-stat-row,
-        .anu-hero-actions,
-        .anu-hospital-actions {
+        .anu-hero-actions {
             justify-content: center;
         }
 
-        .anu-hero-grid > div:nth-child(2) {
-            text-align: center;
+        .anu-about-grid,
+        .anu-hospital-card {
+            grid-template-columns: 1fr;
         }
 
         .anu-about-image {
-            height: 220px;
+            min-height: 220px;
         }
 
         .anu-three-grid,
         .anu-five-grid,
         .anu-four-grid {
-            grid-template-columns: repeat(2, 1fr);
-        }
-
-        .anu-dept-card {
-            grid-template-columns: 1fr;
-        }
-
-        .anu-dept-illustration {
-            min-height: 100px;
-            background-position: center;
+            grid-template-columns: 1fr 1fr;
         }
 
         .anu-consult-grid {
@@ -1009,11 +1092,19 @@ include __DIR__ . '/../includes/head.php';
     }
 
     @media (max-width: 520px) {
+        .anu-dept-illustration {
+            display: none;
+        }
+
         .anu-three-grid,
         .anu-five-grid,
         .anu-four-grid,
         .anu-form-grid {
             grid-template-columns: 1fr;
+        }
+
+        .anu-form-full {
+            grid-column: auto;
         }
 
         .anu-doctor-photo {
@@ -1025,22 +1116,19 @@ include __DIR__ . '/../includes/head.php';
             font-size: 1.85rem;
         }
 
-        .anu-stat {
-            min-width: 125px;
-        }
-
         .anu-hospital-content {
-            padding: 22px;
+            padding: 23px;
         }
     }
 </style>
 
+<!-- =========================================================
+     MAIN DOCTOR PAGE
+     ========================================================= -->
+
 <main class="anu-page">
 
-    <!-- =====================================================
-         BREADCRUMB
-         ===================================================== -->
-
+    <!-- Breadcrumb -->
     <div class="anu-breadcrumb">
         <div class="anu-container anu-breadcrumb-inner">
 
@@ -1065,50 +1153,37 @@ include __DIR__ . '/../includes/head.php';
          ===================================================== -->
 
     <section class="anu-hero">
-
         <div class="anu-container">
 
             <div class="anu-hero-grid">
 
                 <!-- Doctor Image -->
                 <div class="anu-doctor-photo">
-
                     <img
                         src="<?php echo htmlspecialchars($doctor['image'] ?? ''); ?>"
                         alt="Dr. Anu Nagpal, Obstetrician and Gynaecologist at Akropolis Super Speciality Hospital"
                         loading="eager"
                     >
-
                 </div>
 
 
-                <!-- Doctor Information -->
+                <!-- Doctor Introduction -->
                 <div>
 
                     <?php if (!empty($doctor['registrationVerified'])): ?>
 
                         <div class="anu-verified">
-
                             <?php echo getIcon('ShieldCheck', 'w-3.5 h-3.5'); ?>
-
-                            <span>
-                                Medical Registration Verified
-                            </span>
-
+                            <span>Medical Registration Verified</span>
                         </div>
 
                     <?php endif; ?>
 
-
-                    <h1>
-                        Dr. Anu Nagpal
-                    </h1>
-
+                    <h1>Dr. Anu Nagpal</h1>
 
                     <div class="anu-speciality">
                         Obstetrician &amp; Gynaecologist
                     </div>
-
 
                     <div class="anu-qualification">
                         MBBS, MS - Obstetrics &amp; Gynaecology
@@ -1117,10 +1192,8 @@ include __DIR__ . '/../includes/head.php';
 
                     <div class="anu-stat-row">
 
-                        <!-- Experience -->
                         <div class="anu-stat">
-
-                            <div class="anu-icon">
+                            <div class="icon-box">
                                 <?php echo getIcon('Award', 'w-4 h-4'); ?>
                             </div>
 
@@ -1128,14 +1201,11 @@ include __DIR__ . '/../includes/head.php';
                                 <strong>11+ Years</strong>
                                 <small>Overall Experience</small>
                             </div>
-
                         </div>
 
 
-                        <!-- Specialist Experience -->
                         <div class="anu-stat">
-
-                            <div class="anu-icon">
+                            <div class="icon-box">
                                 <?php echo getIcon('UserRound', 'w-4 h-4'); ?>
                             </div>
 
@@ -1143,22 +1213,6 @@ include __DIR__ . '/../includes/head.php';
                                 <strong>7 Years</strong>
                                 <small>As Specialist</small>
                             </div>
-
-                        </div>
-
-
-                        <!-- Registration -->
-                        <div class="anu-stat verified">
-
-                            <div class="anu-icon green">
-                                <?php echo getIcon('ShieldCheck', 'w-4 h-4'); ?>
-                            </div>
-
-                            <div>
-                                <strong>Verified</strong>
-                                <small>Medical Registration</small>
-                            </div>
-
                         </div>
 
                     </div>
@@ -1170,27 +1224,16 @@ include __DIR__ . '/../includes/head.php';
                             href="/contact"
                             class="anu-btn anu-btn-primary"
                         >
-
                             <?php echo getIcon('CalendarDays', 'w-4 h-4'); ?>
-
-                            <span>
-                                Book Appointment
-                            </span>
-
+                            <span>Book Appointment</span>
                         </a>
-
 
                         <a
                             href="#opd-timings"
                             class="anu-btn anu-btn-secondary"
                         >
-
                             <?php echo getIcon('Clock3', 'w-4 h-4'); ?>
-
-                            <span>
-                                View OPD Timings
-                            </span>
-
+                            <span>View OPD Timings</span>
                         </a>
 
                     </div>
@@ -1201,77 +1244,46 @@ include __DIR__ . '/../includes/head.php';
                 <!-- Quick Information -->
                 <div class="anu-hero-side">
 
-                    <!-- OPD -->
-                    <div
-                        class="anu-side-item"
-                        id="opd-timings"
-                    >
+                    <div class="anu-side-item" id="opd-timings">
 
-                        <div class="anu-side-icon">
-
+                        <div class="mini-icon">
                             <?php echo getIcon('Clock3', 'w-4 h-4'); ?>
-
                         </div>
 
                         <div>
-
-                            <strong>
-                                OPD Timings
-                            </strong>
-
-                            <span>
-                                Mon - Sat: 9:00 AM - 5:00 PM
-                            </span>
-
+                            <strong>OPD Timings</strong>
+                            <span>Mon - Sat: 9:00 AM - 5:00 PM</span>
                         </div>
 
                     </div>
 
 
-                    <!-- Location -->
                     <div class="anu-side-item">
 
-                        <div class="anu-side-icon">
-
+                        <div class="mini-icon">
                             <?php echo getIcon('MapPin', 'w-4 h-4'); ?>
-
                         </div>
 
                         <div>
-
-                            <strong>
-                                Location
-                            </strong>
-
+                            <strong>Location</strong>
                             <span>
                                 Akropolis Super Speciality Hospital,
                                 Sector 69, Gurugram
                             </span>
-
                         </div>
 
                     </div>
 
 
-                    <!-- Department -->
                     <div class="anu-side-item">
 
-                        <div class="anu-side-icon">
-
+                        <div class="mini-icon">
                             <?php echo getIcon('Building2', 'w-4 h-4'); ?>
-
                         </div>
 
                         <div>
-
-                            <strong>
-                                Department
-                            </strong>
-
-                            <span>
-                                Obstetrics &amp; Gynaecology
-                            </span>
-
+                            <strong>Department</strong>
+                            <span>Obstetrics &amp; Gynaecology</span>
                         </div>
 
                     </div>
@@ -1281,7 +1293,6 @@ include __DIR__ . '/../includes/head.php';
             </div>
 
         </div>
-
     </section>
 
 
@@ -1290,54 +1301,44 @@ include __DIR__ . '/../includes/head.php';
          ===================================================== -->
 
     <section class="anu-section">
-
         <div class="anu-container">
 
             <div class="anu-about-grid">
 
                 <div class="anu-about-copy">
 
-                    <div class="anu-section-heading">
+                    <div class="section-header">
 
-                        <h2 class="anu-title">
+                        <h2 class="section-title">
                             About <span class="accent">Dr. Anu Nagpal</span>
                         </h2>
 
                     </div>
 
-
                     <p>
                         Dr. Anu Nagpal is an Obstetrician and Gynaecologist at
-                        Akropolis Super Speciality Hospital in Badshahpur,
-                        Gurgaon. She has 11 years of overall experience,
-                        including 7 years as a specialist in Obstetrics and
-                        Gynaecology.
+                        Akropolis Super Speciality Hospital in Badshahpur, Gurgaon.
+                        She has 11 years of overall experience, including 7 years
+                        as a specialist in Obstetrics and Gynaecology.
                     </p>
-
 
                     <p>
-                        She completed her MBBS from Dr. B. R. Ambedkar University
-                        in 2013 and her MS in Obstetrics &amp; Gynaecology from
-                        MMU Mullana in 2016. Her medical training provides the
-                        foundation for evaluating and managing women's health and
-                        pregnancy-related concerns based on each patient's
-                        individual needs.
+                        She completed MBBS from Dr. B. R. Ambedkar University in
+                        2013 and MS - Obstetrics &amp; Gynaecology from MMU Mullana
+                        in 2016.
                     </p>
-
 
                     <p>
                         At Akropolis Super Speciality Hospital, Dr. Anu Nagpal is
-                        part of the hospital's Obstetrics &amp; Gynaecology
-                        services. Patients can discuss their symptoms, medical
-                        history, pregnancy-related concerns and other women's
-                        health needs during a consultation.
+                        part of the hospital's Obstetrics &amp; Gynaecology services.
+                        Patients can discuss their symptoms, medical history,
+                        pregnancy-related concerns and other women's health needs
+                        during a consultation.
                     </p>
 
                 </div>
 
 
-                <!-- Keep this image path as supplied.
-                     Replace the file later. -->
                 <div class="anu-about-image">
 
                     <img
@@ -1351,7 +1352,6 @@ include __DIR__ . '/../includes/head.php';
             </div>
 
         </div>
-
     </section>
 
 
@@ -1359,13 +1359,13 @@ include __DIR__ . '/../includes/head.php';
          EDUCATION & CREDENTIALS
          ===================================================== -->
 
-    <section class="anu-section">
+    <section class="anu-section alt">
 
         <div class="anu-container">
 
-            <div class="anu-section-heading">
+            <div class="section-header">
 
-                <h2 class="anu-title">
+                <h2 class="section-title">
                     Education <span class="accent">&amp; Credentials</span>
                 </h2>
 
@@ -1374,28 +1374,21 @@ include __DIR__ . '/../includes/head.php';
 
             <div class="anu-three-grid">
 
-                <!-- MBBS -->
-                <div class="anu-card anu-education-card">
+                <div class="card anu-education-card">
 
-                    <div class="anu-card-row">
+                    <div class="card-top">
 
-                        <div class="anu-icon">
-
+                        <div class="icon-box">
                             <?php echo getIcon('GraduationCap', 'w-5 h-5'); ?>
-
                         </div>
 
                         <div>
-
-                            <h3>
-                                MBBS
-                            </h3>
+                            <h3>MBBS</h3>
 
                             <p>
                                 Dr. B. R. Ambedkar University<br>
                                 2013
                             </p>
-
                         </div>
 
                     </div>
@@ -1403,28 +1396,21 @@ include __DIR__ . '/../includes/head.php';
                 </div>
 
 
-                <!-- MS -->
-                <div class="anu-card anu-education-card">
+                <div class="card anu-education-card">
 
-                    <div class="anu-card-row">
+                    <div class="card-top">
 
-                        <div class="anu-icon">
-
+                        <div class="icon-box">
                             <?php echo getIcon('GraduationCap', 'w-5 h-5'); ?>
-
                         </div>
 
                         <div>
-
-                            <h3>
-                                MS - Obstetrics &amp; Gynaecology
-                            </h3>
+                            <h3>MS - Obstetrics &amp; Gynaecology</h3>
 
                             <p>
                                 MMU Mullana<br>
                                 2016
                             </p>
-
                         </div>
 
                     </div>
@@ -1432,28 +1418,21 @@ include __DIR__ . '/../includes/head.php';
                 </div>
 
 
-                <!-- Experience -->
-                <div class="anu-card anu-education-card">
+                <div class="card anu-education-card">
 
-                    <div class="anu-card-row">
+                    <div class="card-top">
 
-                        <div class="anu-icon orange">
-
+                        <div class="icon-box orange">
                             <?php echo getIcon('BriefcaseBusiness', 'w-5 h-5'); ?>
-
                         </div>
 
                         <div>
-
-                            <h3>
-                                Professional Experience
-                            </h3>
+                            <h3>Professional Experience</h3>
 
                             <p>
                                 11+ Years Overall Experience<br>
                                 7 Years as a Specialist
                             </p>
-
                         </div>
 
                     </div>
@@ -1475,13 +1454,13 @@ include __DIR__ . '/../includes/head.php';
 
         <div class="anu-container">
 
-            <div class="anu-section-heading">
+            <div class="section-header">
 
-                <h2 class="anu-title">
+                <h2 class="section-title">
                     Areas of <span class="accent">Medical Care</span>
                 </h2>
 
-                <p class="anu-intro">
+                <p class="section-intro">
                     Her clinical practice is centred around Obstetrics,
                     Gynaecology and Women's Health.
                 </p>
@@ -1491,18 +1470,13 @@ include __DIR__ . '/../includes/head.php';
 
             <div class="anu-five-grid">
 
-                <!-- Obstetrics -->
-                <div class="anu-card anu-care-card">
+                <div class="card anu-care-card">
 
-                    <div class="anu-icon">
-
+                    <div class="icon-box">
                         <?php echo getIcon('Baby', 'w-5 h-5'); ?>
-
                     </div>
 
-                    <h3>
-                        Obstetrics
-                    </h3>
+                    <h3>Obstetrics</h3>
 
                     <p>
                         Pregnancy-related consultations and care.
@@ -1511,18 +1485,13 @@ include __DIR__ . '/../includes/head.php';
                 </div>
 
 
-                <!-- Gynaecology -->
-                <div class="anu-card anu-care-card">
+                <div class="card anu-care-card">
 
-                    <div class="anu-icon pink">
-
-                        <?php echo getIcon('Venus', 'w-5 h-5'); ?>
-
+                    <div class="icon-box pink">
+                        <?php echo getIcon('HeartPulse', 'w-5 h-5'); ?>
                     </div>
 
-                    <h3>
-                        Gynaecology
-                    </h3>
+                    <h3>Gynaecology</h3>
 
                     <p>
                         Evaluation and management of gynaecological concerns.
@@ -1531,18 +1500,13 @@ include __DIR__ . '/../includes/head.php';
                 </div>
 
 
-                <!-- Women's Health -->
-                <div class="anu-card anu-care-card">
+                <div class="card anu-care-card">
 
-                    <div class="anu-icon">
-
+                    <div class="icon-box">
                         <?php echo getIcon('PersonStanding', 'w-5 h-5'); ?>
-
                     </div>
 
-                    <h3>
-                        Women's Health
-                    </h3>
+                    <h3>Women's Health</h3>
 
                     <p>
                         Consultation for various women's health needs.
@@ -1551,18 +1515,13 @@ include __DIR__ . '/../includes/head.php';
                 </div>
 
 
-                <!-- Pregnancy Care -->
-                <div class="anu-card anu-care-card">
+                <div class="card anu-care-card">
 
-                    <div class="anu-icon orange">
-
+                    <div class="icon-box orange">
                         <?php echo getIcon('ClipboardPenLine', 'w-5 h-5'); ?>
-
                     </div>
 
-                    <h3>
-                        Pregnancy Care
-                    </h3>
+                    <h3>Pregnancy Care</h3>
 
                     <p>
                         Assessment, guidance and follow-up during pregnancy.
@@ -1571,18 +1530,13 @@ include __DIR__ . '/../includes/head.php';
                 </div>
 
 
-                <!-- General Evaluation -->
-                <div class="anu-card anu-care-card">
+                <div class="card anu-care-card">
 
-                    <div class="anu-icon">
-
+                    <div class="icon-box">
                         <?php echo getIcon('ClipboardCheck', 'w-5 h-5'); ?>
-
                     </div>
 
-                    <h3>
-                        General Evaluation
-                    </h3>
+                    <h3>General Evaluation</h3>
 
                     <p>
                         Clinical assessment and further investigation when needed.
@@ -1598,10 +1552,10 @@ include __DIR__ . '/../includes/head.php';
 
 
     <!-- =====================================================
-         OBSTETRICS & GYNAECOLOGY SERVICES
+         DEPARTMENT CONNECTION
          ===================================================== -->
 
-    <section class="anu-section anu-dept-section">
+    <section class="anu-section alt">
 
         <div class="anu-container">
 
@@ -1610,77 +1564,66 @@ include __DIR__ . '/../includes/head.php';
                 <div class="anu-dept-content">
 
                     <h2>
-                        Obstetrics &amp; Gynaecology Services at Akropolis
+                        Obstetrics &amp; Gynaecology <span class="accent">Services at Akropolis</span>
                     </h2>
 
                     <p>
-                        The department provides a range of women's health and
-                        maternity services with a focus on safe, evidence-based
-                        and patient-centred care.
+                        The department provides a range of women's health and maternity services with a focus on
+                        safe, evidence-based and patient-centred care.
                     </p>
-
 
                     <div class="anu-chip-row">
 
                         <span class="anu-chip">
-
-                            <?php echo getIcon(
-                                'CircleCheck',
-                                'w-3.5 h-3.5 text-[#328CCB]'
-                            ); ?>
-
+                            <?php echo getIcon('CircleCheck', 'w-3.5 h-3.5 text-[#328CCB]'); ?>
                             Maternity Care
-
                         </span>
 
-
                         <span class="anu-chip">
-
-                            <?php echo getIcon(
-                                'CircleCheck',
-                                'w-3.5 h-3.5 text-[#328CCB]'
-                            ); ?>
-
-                            High-Risk Pregnancy
-                            (evaluation &amp; management)
-
+                            <?php echo getIcon('CircleCheck', 'w-3.5 h-3.5 text-[#328CCB]'); ?>
+                            High-Risk Pregnancy (evaluation &amp; management)
                         </span>
 
-
                         <span class="anu-chip">
-
-                            <?php echo getIcon(
-                                'CircleCheck',
-                                'w-3.5 h-3.5 text-[#328CCB]'
-                            ); ?>
-
+                            <?php echo getIcon('CircleCheck', 'w-3.5 h-3.5 text-[#328CCB]'); ?>
                             Gynaecology Care
-
                         </span>
 
-
                         <span class="anu-chip">
-
-                            <?php echo getIcon(
-                                'CircleCheck',
-                                'w-3.5 h-3.5 text-[#328CCB]'
-                            ); ?>
-
-                            Infertility Evaluation &amp;
-                            Treatment (as indicated)
-
+                            <?php echo getIcon('CircleCheck', 'w-3.5 h-3.5 text-[#328CCB]'); ?>
+                            Infertility Evaluation &amp; Treatment (as indicated)
                         </span>
 
                     </div>
 
                 </div>
 
-
-                <!-- Keep this image path as a replacement slot. -->
-                <div
-                    class="anu-dept-illustration"
-                    aria-hidden="true"
-                ></div>
+                <!-- Reference-style maternal and infant line illustration -->
+                <div class="anu-dept-illustration" aria-hidden="true">
+                    <svg viewBox="0 0 180 180" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path d="M116 34c-13 3-24 12-29 24-5 13-2 26 7 34 8 7 12 16 12 28 0 17-9 28-21 36"
+                              stroke="currentColor" stroke-width="3" stroke-linecap="round"/>
+                        <path d="M116 34c12-1 23 3 30 11 8 9 11 21 8 33-3 13-13 22-26 25"
+                              stroke="currentColor" stroke-width="3" stroke-linecap="round"/>
+                        <path d="M103 72c-12 2-21 8-27 18-7 11-8 24-3 36 6 14 18 23 34 27"
+                              stroke="currentColor" stroke-width="3" stroke-linecap="round"/>
+                        <path d="M95 76c7 9 13 14 22 16 10 2 18 0 25-5"
+                              stroke="currentColor" stroke-width="3" stroke-linecap="round"/>
+                        <circle cx="87" cy="91" r="10" stroke="currentColor" stroke-width="3"/>
+                        <path d="M76 101c5 7 13 11 22 11 9 0 17-4 23-10"
+                              stroke="currentColor" stroke-width="3" stroke-linecap="round"/>
+                        <path d="M75 120c8 7 16 11 27 12 10 1 20-1 28-6"
+                              stroke="currentColor" stroke-width="3" stroke-linecap="round"/>
+                        <path d="M64 144c11 10 25 16 40 17 16 1 31-4 43-14"
+                              stroke="currentColor" stroke-width="3" stroke-linecap="round"/>
+                        <path d="M52 157c15 9 31 13 48 13 21 0 39-7 55-20"
+                              stroke="currentColor" stroke-width="2.5" stroke-linecap="round" opacity=".75"/>
+                        <path d="M129 64c4 4 7 9 7 15 0 7-3 12-8 16"
+                              stroke="currentColor" stroke-width="2.5" stroke-linecap="round" opacity=".8"/>
+                        <path d="M42 137c7 0 14 3 19 8"
+                              stroke="currentColor" stroke-width="2.5" stroke-linecap="round" opacity=".75"/>
+                    </svg>
+                </div>
 
             </div>
 
@@ -1690,23 +1633,23 @@ include __DIR__ . '/../includes/head.php';
 
 
     <!-- =====================================================
-         WHEN SHOULD YOU CONSULT
+         WHEN TO CONSULT
          ===================================================== -->
 
     <section class="anu-section">
 
         <div class="anu-container">
 
-            <div class="anu-section-heading">
+            <div class="section-header">
 
-                <h2 class="anu-title">
+                <h2 class="section-title">
                     When Should You Consult an
                     <span class="accent">
                         Obstetrician &amp; Gynaecologist?
                     </span>
                 </h2>
 
-                <p class="anu-intro">
+                <p class="section-intro">
                     A consultation may be appropriate when you have concerns
                     related to:
                 </p>
@@ -1716,21 +1659,13 @@ include __DIR__ . '/../includes/head.php';
 
             <div class="anu-four-grid">
 
-                <!-- Menstrual Health -->
-                <div class="anu-card anu-reason-card">
+                <div class="card anu-reason-card">
 
-                    <div class="anu-icon">
-
-                        <?php echo getIcon(
-                            'CalendarHeart',
-                            'w-5 h-5'
-                        ); ?>
-
+                    <div class="icon-box">
+                        <?php echo getIcon('CalendarHeart', 'w-5 h-5'); ?>
                     </div>
 
-                    <h3>
-                        Menstrual Health
-                    </h3>
+                    <h3>Menstrual Health</h3>
 
                     <p>
                         Irregular, painful or otherwise concerning menstrual
@@ -1740,21 +1675,13 @@ include __DIR__ . '/../includes/head.php';
                 </div>
 
 
-                <!-- Pregnancy Planning -->
-                <div class="anu-card anu-reason-card">
+                <div class="card anu-reason-card">
 
-                    <div class="anu-icon">
-
-                        <?php echo getIcon(
-                            'Baby',
-                            'w-5 h-5'
-                        ); ?>
-
+                    <div class="icon-box">
+                        <?php echo getIcon('Baby', 'w-5 h-5'); ?>
                     </div>
 
-                    <h3>
-                        Pregnancy Planning
-                    </h3>
+                    <h3>Pregnancy Planning</h3>
 
                     <p>
                         Planning for pregnancy or seeking early pregnancy care.
@@ -1763,21 +1690,13 @@ include __DIR__ . '/../includes/head.php';
                 </div>
 
 
-                <!-- Gynaecological Symptoms -->
-                <div class="anu-card anu-reason-card">
+                <div class="card anu-reason-card">
 
-                    <div class="anu-icon pink">
-
-                        <?php echo getIcon(
-                            'HeartPulse',
-                            'w-5 h-5'
-                        ); ?>
-
+                    <div class="icon-box pink">
+                        <?php echo getIcon('HeartPulse', 'w-5 h-5'); ?>
                     </div>
 
-                    <h3>
-                        Gynaecological Symptoms
-                    </h3>
+                    <h3>Gynaecological Symptoms</h3>
 
                     <p>
                         Symptoms or discomfort requiring professional evaluation.
@@ -1786,21 +1705,13 @@ include __DIR__ . '/../includes/head.php';
                 </div>
 
 
-                <!-- General Women's Health -->
-                <div class="anu-card anu-reason-card">
+                <div class="card anu-reason-card">
 
-                    <div class="anu-icon">
-
-                        <?php echo getIcon(
-                            'HeartHandshake',
-                            'w-5 h-5'
-                        ); ?>
-
+                    <div class="icon-box">
+                        <?php echo getIcon('HeartHandshake', 'w-5 h-5'); ?>
                     </div>
 
-                    <h3>
-                        General Women's Health
-                    </h3>
+                    <h3>General Women's Health</h3>
 
                     <p>
                         Evaluation, guidance and discussion of women's health
@@ -1820,27 +1731,38 @@ include __DIR__ . '/../includes/head.php';
          HOSPITAL / LOCATION
          ===================================================== -->
 
-    <section class="anu-section">
+    <section class="anu-section alt">
 
         <div class="anu-container">
 
             <div class="anu-hospital-card">
 
-                <!-- Keep this image path as a replacement slot. -->
-                <div
-                    class="anu-hospital-image"
-                    role="img"
-                    aria-label="Akropolis Super Speciality Hospital, Sector 69, Gurugram"
-                ></div>
+                <div class="anu-hospital-image">
+
+                    <div class="placeholder">
+
+                        <div class="icon-box">
+                            <?php echo getIcon('Building2', 'w-6 h-6'); ?>
+                        </div>
+
+                        <strong>
+                            Akropolis Super Speciality Hospital
+                        </strong>
+
+                        <span>
+                            Sector 69, Gurugram
+                        </span>
+
+                    </div>
+
+                </div>
 
 
                 <div class="anu-hospital-content">
 
                     <h2>
                         Dr. Anu Nagpal at Akropolis
-                        <span class="accent">
-                            Super Speciality Hospital
-                        </span>
+                        <span class="accent">Super Speciality Hospital</span>
                     </h2>
 
                     <p>
@@ -1851,10 +1773,7 @@ include __DIR__ . '/../includes/head.php';
 
                     <div class="anu-address">
 
-                        <?php echo getIcon(
-                            'MapPin',
-                            'w-5 h-5 text-[#D66C43] flex-shrink-0'
-                        ); ?>
+                        <?php echo getIcon('MapPin', 'w-5 h-5 text-[#D66C43] flex-shrink-0'); ?>
 
                         <span>
                             Near Vatika Chowk, Opposite Chinar Garden,
@@ -1870,35 +1789,18 @@ include __DIR__ . '/../includes/head.php';
                             href="/contact"
                             class="anu-btn anu-btn-primary"
                         >
-
-                            <?php echo getIcon(
-                                'CalendarDays',
-                                'w-4 h-4'
-                            ); ?>
-
-                            <span>
-                                Book Appointment
-                            </span>
-
+                            <?php echo getIcon('CalendarDays', 'w-4 h-4'); ?>
+                            <span>Book Appointment</span>
                         </a>
 
-
                         <a
-                            href="https://www.google.com/maps/search/?api=1&amp;query=Akropolis+Super+Speciality+Hospital+Sector+69+Gurugram"
+                            href="https://www.google.com/maps/search/?api=1&query=Akropolis+Super+Speciality+Hospital+Sector+69+Gurugram"
                             target="_blank"
                             rel="noopener"
                             class="anu-btn anu-btn-secondary"
                         >
-
-                            <?php echo getIcon(
-                                'MapPinned',
-                                'w-4 h-4'
-                            ); ?>
-
-                            <span>
-                                Get Directions
-                            </span>
-
+                            <?php echo getIcon('MapPinned', 'w-4 h-4'); ?>
+                            <span>Get Directions</span>
                         </a>
 
                     </div>
@@ -1913,20 +1815,20 @@ include __DIR__ . '/../includes/head.php';
 
 
     <!-- =====================================================
-         RESOURCES FOR PATIENTS
+         RESOURCES
          ===================================================== -->
 
     <section class="anu-section">
 
         <div class="anu-container">
 
-            <div class="anu-section-heading">
+            <div class="section-header">
 
-                <h2 class="anu-title">
+                <h2 class="section-title">
                     Resources for <span class="accent">Patients</span>
                 </h2>
 
-                <p class="anu-intro">
+                <p class="section-intro">
                     Helpful information to support women's health, pregnancy
                     and maternity-related care.
                 </p>
@@ -1936,51 +1838,37 @@ include __DIR__ . '/../includes/head.php';
 
             <div class="anu-three-grid">
 
-                <!-- Pregnancy Guide -->
                 <a
                     href="/blog"
-                    class="anu-card anu-resource-card"
+                    class="card anu-resource-card"
+                    style="text-decoration:none;"
                 >
 
-                    <div class="anu-icon">
-
-                        <?php echo getIcon(
-                            'BookOpen',
-                            'w-5 h-5'
-                        ); ?>
-
+                    <div class="icon-box">
+                        <?php echo getIcon('BookOpen', 'w-5 h-5'); ?>
                     </div>
 
-                    <h3>
-                        Pregnancy Guide
-                    </h3>
+                    <h3>Pregnancy Guide</h3>
 
                     <p>
-                        Key information for understanding pregnancy and
-                        preparing for consultations.
+                        Key information for understanding pregnancy and preparing
+                        for consultations.
                     </p>
 
                 </a>
 
 
-                <!-- Post Delivery -->
                 <a
                     href="/blog"
-                    class="anu-card anu-resource-card"
+                    class="card anu-resource-card"
+                    style="text-decoration:none;"
                 >
 
-                    <div class="anu-icon pink">
-
-                        <?php echo getIcon(
-                            'Heart',
-                            'w-5 h-5'
-                        ); ?>
-
+                    <div class="icon-box pink">
+                        <?php echo getIcon('Heart', 'w-5 h-5'); ?>
                     </div>
 
-                    <h3>
-                        Post-Delivery Care
-                    </h3>
+                    <h3>Post-Delivery Care</h3>
 
                     <p>
                         Recovery and care guidance after delivery.
@@ -1989,24 +1877,17 @@ include __DIR__ . '/../includes/head.php';
                 </a>
 
 
-                <!-- Women's Wellness -->
                 <a
                     href="/blog"
-                    class="anu-card anu-resource-card"
+                    class="card anu-resource-card"
+                    style="text-decoration:none;"
                 >
 
-                    <div class="anu-icon">
-
-                        <?php echo getIcon(
-                            'Users',
-                            'w-5 h-5'
-                        ); ?>
-
+                    <div class="icon-box">
+                        <?php echo getIcon('Users', 'w-5 h-5'); ?>
                     </div>
 
-                    <h3>
-                        Women's Wellness
-                    </h3>
+                    <h3>Women's Wellness</h3>
 
                     <p>
                         General information about women's health and well-being.
@@ -2025,17 +1906,17 @@ include __DIR__ . '/../includes/head.php';
          FAQ
          ===================================================== -->
 
-    <section class="anu-section">
+    <section class="anu-section alt">
 
         <div class="anu-container">
 
-            <div class="anu-section-heading center">
+            <div class="section-header center">
 
-                <h2 class="anu-title">
+                <h2 class="section-title">
                     Frequently Asked <span class="accent">Questions</span>
                 </h2>
 
-                <p class="anu-intro">
+                <p class="section-intro">
                     Common questions about Dr. Anu Nagpal, her qualifications,
                     consultation and practice.
                 </p>
@@ -2045,7 +1926,6 @@ include __DIR__ . '/../includes/head.php';
 
             <div class="anu-faq">
 
-                <!-- FAQ 1 -->
                 <details class="anu-faq-item">
 
                     <summary>
@@ -2053,18 +1933,15 @@ include __DIR__ . '/../includes/head.php';
                     </summary>
 
                     <div class="anu-faq-answer">
-
                         Dr. Anu Nagpal is an Obstetrician and Gynaecologist
                         practising at Akropolis Super Speciality Hospital in
                         Badshahpur, Gurugram. She has 11 years of overall
                         experience, including 7 years as a specialist.
-
                     </div>
 
                 </details>
 
 
-                <!-- FAQ 2 -->
                 <details class="anu-faq-item">
 
                     <summary>
@@ -2072,17 +1949,14 @@ include __DIR__ . '/../includes/head.php';
                     </summary>
 
                     <div class="anu-faq-answer">
-
                         Dr. Anu Nagpal completed MBBS from Dr. B. R. Ambedkar
                         University in 2013 and MS - Obstetrics &amp; Gynaecology
                         from MMU Mullana in 2016.
-
                     </div>
 
                 </details>
 
 
-                <!-- FAQ 3 -->
                 <details class="anu-faq-item">
 
                     <summary>
@@ -2090,17 +1964,14 @@ include __DIR__ . '/../includes/head.php';
                     </summary>
 
                     <div class="anu-faq-answer">
-
                         Dr. Anu Nagpal has 11 years of overall experience,
                         including 7 years as a specialist in Obstetrics and
                         Gynaecology.
-
                     </div>
 
                 </details>
 
 
-                <!-- FAQ 4 -->
                 <details class="anu-faq-item">
 
                     <summary>
@@ -2108,17 +1979,28 @@ include __DIR__ . '/../includes/head.php';
                     </summary>
 
                     <div class="anu-faq-answer">
-
                         Dr. Anu Nagpal practises at Akropolis Super Speciality
                         Hospital in Badshahpur, Gurugram, near Vatika Chowk,
                         opposite Chinar Garden, Sector 69.
-
                     </div>
 
                 </details>
 
 
-                <!-- FAQ 5 -->
+                <details class="anu-faq-item">
+
+                    <summary>
+                        What are Dr. Anu Nagpal's OPD timings?
+                    </summary>
+
+                    <div class="anu-faq-answer">
+                        Her listed OPD timing is Monday to Saturday,
+                        9:00 AM to 5:00 PM.
+                    </div>
+
+                </details>
+
+
                 <details class="anu-faq-item">
 
                     <summary>
@@ -2126,11 +2008,9 @@ include __DIR__ . '/../includes/head.php';
                     </summary>
 
                     <div class="anu-faq-answer">
-
                         You can use the appointment options on this page or
                         contact Akropolis Super Speciality Hospital to enquire
                         about an appointment with Dr. Anu Nagpal.
-
                     </div>
 
                 </details>
@@ -2143,7 +2023,7 @@ include __DIR__ . '/../includes/head.php';
 
 
     <!-- =====================================================
-         SCHEDULE A CONSULTATION
+         CONSULTATION
          ===================================================== -->
 
     <section class="anu-section anu-consultation">
@@ -2152,14 +2032,8 @@ include __DIR__ . '/../includes/head.php';
 
             <div class="anu-consult-grid">
 
-                <!-- Calendar Icon -->
                 <div class="anu-calendar-icon">
-
-                    <?php echo getIcon(
-                        'CalendarDays',
-                        'w-9 h-9'
-                    ); ?>
-
+                    <?php echo getIcon('CalendarDays', 'w-9 h-9'); ?>
                 </div>
 
 
@@ -2169,8 +2043,7 @@ include __DIR__ . '/../includes/head.php';
                         Schedule a Consultation
                     </h2>
 
-
-                    <p class="anu-consult-intro">
+                    <p class="consult-intro">
                         If you would like to discuss a women's health,
                         pregnancy or gynaecological concern, enquire about
                         an appointment with Dr. Anu Nagpal.
@@ -2185,9 +2058,7 @@ include __DIR__ . '/../includes/head.php';
 
                         <div class="anu-form-grid">
 
-                            <!-- Full Name -->
                             <div>
-
                                 <label for="anu-name">
                                     Full Name
                                 </label>
@@ -2200,13 +2071,10 @@ include __DIR__ . '/../includes/head.php';
                                     autocomplete="name"
                                     required
                                 >
-
                             </div>
 
 
-                            <!-- Phone -->
                             <div>
-
                                 <label for="anu-phone">
                                     Phone Number
                                 </label>
@@ -2219,13 +2087,10 @@ include __DIR__ . '/../includes/head.php';
                                     autocomplete="tel"
                                     required
                                 >
-
                             </div>
 
 
-                            <!-- Date -->
                             <div>
-
                                 <label for="anu-date">
                                     Preferred Date
                                 </label>
@@ -2236,13 +2101,10 @@ include __DIR__ . '/../includes/head.php';
                                     type="date"
                                     required
                                 >
-
                             </div>
 
 
-                            <!-- Time -->
                             <div>
-
                                 <label for="anu-time">
                                     Preferred Time
                                 </label>
@@ -2274,6 +2136,20 @@ include __DIR__ . '/../includes/head.php';
                                     </option>
 
                                 </select>
+                            </div>
+
+
+                            <div class="anu-form-full">
+
+                                <label for="anu-message">
+                                    Message
+                                </label>
+
+                                <textarea
+                                    id="anu-message"
+                                    name="message"
+                                    placeholder="Please describe your concern or appointment requirement"
+                                ></textarea>
 
                             </div>
 
@@ -2284,14 +2160,8 @@ include __DIR__ . '/../includes/head.php';
                             type="submit"
                             class="anu-form-submit"
                         >
-
-                            <?php echo getIcon(
-                                'CalendarCheck',
-                                'w-4 h-4 inline-block mr-1'
-                            ); ?>
-
+                            <?php echo getIcon('CalendarCheck', 'w-4 h-4 inline-block mr-1'); ?>
                             Book Appointment
-
                         </button>
 
 
@@ -2318,9 +2188,9 @@ include __DIR__ . '/../includes/head.php';
 
         <div class="anu-container">
 
-            <div class="anu-section-heading">
+            <div class="section-header">
 
-                <h2 class="anu-title">
+                <h2 class="section-title">
                     Explore <span class="accent">More</span>
                 </h2>
 
@@ -2329,21 +2199,15 @@ include __DIR__ . '/../includes/head.php';
 
             <div class="anu-explore-grid">
 
-                <!-- Department -->
                 <a
                     href="/departments/obstetrics-gynecology"
-                    class="anu-card anu-explore-card"
+                    class="card anu-explore-card"
                 >
 
                     <div class="anu-explore-left">
 
-                        <div class="anu-icon pink">
-
-                            <?php echo getIcon(
-                                'Venus',
-                                'w-5 h-5'
-                            ); ?>
-
+                        <div class="icon-box pink">
+                            <?php echo getIcon('Venus', 'w-5 h-5'); ?>
                         </div>
 
                         <div>
@@ -2360,34 +2224,22 @@ include __DIR__ . '/../includes/head.php';
 
                     </div>
 
-
                     <div class="anu-arrow">
-
-                        <?php echo getIcon(
-                            'ChevronRight',
-                            'w-5 h-5'
-                        ); ?>
-
+                        <?php echo getIcon('ChevronRight', 'w-5 h-5'); ?>
                     </div>
 
                 </a>
 
 
-                <!-- Doctors -->
                 <a
                     href="/doctors"
-                    class="anu-card anu-explore-card"
+                    class="card anu-explore-card"
                 >
 
                     <div class="anu-explore-left">
 
-                        <div class="anu-icon">
-
-                            <?php echo getIcon(
-                                'UsersRound',
-                                'w-5 h-5'
-                            ); ?>
-
+                        <div class="icon-box">
+                            <?php echo getIcon('UsersRound', 'w-5 h-5'); ?>
                         </div>
 
                         <div>
@@ -2404,14 +2256,8 @@ include __DIR__ . '/../includes/head.php';
 
                     </div>
 
-
                     <div class="anu-arrow">
-
-                        <?php echo getIcon(
-                            'ChevronRight',
-                            'w-5 h-5'
-                        ); ?>
-
+                        <?php echo getIcon('ChevronRight', 'w-5 h-5'); ?>
                     </div>
 
                 </a>
@@ -2427,11 +2273,7 @@ include __DIR__ . '/../includes/head.php';
 
 <!-- =========================================================
      SITEWIDE FOOTER
-     =========================================================
-
-     The existing footer and sitewide navigation are intentionally
-     not modified.
--->
+     ========================================================= -->
 
 <?php include __DIR__ . '/../includes/footer.php'; ?>
 
