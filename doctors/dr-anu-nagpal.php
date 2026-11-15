@@ -1432,7 +1432,7 @@ if (!function_exists('anuReferenceIcon')) {
 
                         <div>
                             <strong>OPD Timings</strong>
-                            <span>Mon - Sat: 9:00 AM - 5:00 PM</span>
+                            <span>Mon - Fri: 8:00 AM - 8:00 PM</span>
                         </div>
 
                     </div>
@@ -2092,8 +2092,8 @@ if (!function_exists('anuReferenceIcon')) {
                     </summary>
 
                     <div class="anu-faq-answer">
-                        Her listed OPD timing is Monday to Saturday,
-                        9:00 AM to 5:00 PM.
+                        Her listed OPD timing is Monday to Friday,
+                        8:00 AM - 8:00 PM.
                     </div>
 
                 </details>
