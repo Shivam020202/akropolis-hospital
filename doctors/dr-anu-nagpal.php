@@ -1050,122 +1050,135 @@ if (!function_exists('anuReferenceIcon')) {
         line-height: 1.45;
     }
 
+    /* =========================================================
+   OBSTETRICS & GYNAECOLOGY SERVICES AT AKROPOLIS
+   ========================================================= */
+
+.anu-department-reference-section {
+    padding-top: 32px;
+    padding-bottom: 32px;
+}
+
+.anu-page .anu-dept-reference-card {
+    min-height: 184px;
+    padding: 20px 24px;
+    display: grid;
+    grid-template-columns: minmax(0, 1fr) 215px;
+    gap: 18px;
+    align-items: center;
+    border-radius: 14px;
+    background: linear-gradient(
+        104deg,
+        #F1FAFE 0%,
+        #F7FCFF 100%
+    );
+    border: 1px solid #D9EDF8;
+    box-shadow: none;
+    overflow: hidden;
+}
+
+.anu-dept-reference-copy {
+    position: relative;
+    z-index: 2;
+}
+
+.anu-page .anu-dept-reference-card h2 {
+    font-size: 1.22rem;
+    line-height: 1.2;
+    margin: 0 0 7px;
+    color: #123B70;
+    font-weight: 800;
+}
+
+.anu-page .anu-dept-reference-card h2 span {
+    color: #328CCB;
+}
+
+.anu-page .anu-dept-reference-card > .anu-dept-reference-copy > p {
+    max-width: 650px;
+    margin: 0 0 14px;
+    font-size: 0.70rem;
+    line-height: 1.48;
+    color: #596878;
+}
+
+.anu-page .anu-reference-chip-row {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    gap: 7px 8px;
+}
+
+.anu-page .anu-reference-chip-row .anu-chip {
+    display: inline-flex;
+    align-items: center;
+    gap: 6px;
+    padding: 6px 10px;
+    min-height: 28px;
+    border-radius: 8px;
+    font-size: 0.63rem;
+    line-height: 1.2;
+    font-weight: 600;
+    color: #334155;
+    background: #ffffff;
+    border: 1px solid #DCEBF4;
+    white-space: nowrap;
+}
+
+.anu-page .anu-reference-chip-row .anu-chip svg {
+    width: 14px;
+    height: 14px;
+    color: #328CCB;
+    flex: 0 0 auto;
+}
+
+.anu-maternity-illustration {
+    width: 205px;
+    height: 158px;
+    justify-self: end;
+    align-self: center;
+    color: #9BCDF0;
+    opacity: 0.92;
+}
+
+.anu-maternity-illustration svg {
+    width: 100%;
+    height: 100%;
+    display: block;
+}
+
+@media (max-width: 768px) {
+
     .anu-department-reference-section {
-        padding-top: 42px;
-        padding-bottom: 42px;
+        padding-top: 28px;
+        padding-bottom: 28px;
     }
 
     .anu-page .anu-dept-reference-card {
-        min-height: 205px;
-        padding: 27px 30px;
-        display: grid;
-        grid-template-columns: minmax(0, 1fr) 245px;
-        gap: 25px;
-        align-items: center;
-        border-radius: 16px;
-        background: linear-gradient(104deg, #F1FAFE 0%, #F7FCFF 100%);
-        border: 1px solid #D9EDF8;
-        box-shadow: none;
-    }
-
-    .anu-dept-reference-copy {
-        position: relative;
-        z-index: 2;
+        grid-template-columns: 1fr;
+        min-height: auto;
+        padding: 22px 18px;
+        gap: 10px;
     }
 
     .anu-page .anu-dept-reference-card h2 {
-        font-size: 1.23rem;
-        line-height: 1.25;
-        margin-bottom: 7px;
-        color: #123B70;
-    }
-
-    .anu-page .anu-dept-reference-card h2 span {
-        color: #328CCB;
+        font-size: 1.08rem;
     }
 
     .anu-page .anu-dept-reference-card > .anu-dept-reference-copy > p {
-        max-width: 720px;
-        margin-bottom: 16px;
-        font-size: 0.74rem;
-        line-height: 1.55;
-        color: #596878;
-    }
-
-    .anu-page .anu-reference-chip-row {
-        gap: 8px;
+        font-size: 0.68rem;
     }
 
     .anu-page .anu-reference-chip-row .anu-chip {
-        padding: 6px 10px;
-        border-radius: 8px;
-        font-size: 0.65rem;
-        line-height: 1.25;
-        color: #334155;
-        background: #fff;
-        border-color: #DCEBF4;
-    }
-
-    .anu-page .anu-reference-chip-row .anu-chip svg {
-        color: #328CCB;
-        flex: 0 0 auto;
+        white-space: normal;
     }
 
     .anu-maternity-illustration {
-        color: #9BCDF0;
-        width: 230px;
-        height: 175px;
-        justify-self: end;
-        opacity: .92;
+        width: 175px;
+        height: 135px;
+        justify-self: center;
     }
-
-    .anu-maternity-illustration svg {
-        width: 100%;
-        height: 100%;
-        display: block;
-    }
-
-    @media (max-width: 768px) {
-        .anu-site-emergency-bar {
-            height: 30px;
-        }
-
-        .anu-site-emergency-inner {
-            font-size: 0.68rem;
-        }
-
-        .anu-page .anu-dept-reference-card {
-            grid-template-columns: 1fr;
-            padding: 24px 20px;
-        }
-
-        .anu-maternity-illustration {
-            width: 190px;
-            height: 145px;
-            justify-self: center;
-            order: -1;
-        }
-    }
-
-    /* Responsive */
-
-    @media (max-width: 1024px) {
-        .anu-hero-grid {
-            grid-template-columns: 130px minmax(0, 1fr);
-        }
-
-        .anu-hero-side {
-            grid-column: 1 / -1;
-        }
-
-        .anu-five-grid {
-            grid-template-columns: repeat(3, 1fr);
-        }
-
-        .anu-four-grid {
-            grid-template-columns: repeat(2, 1fr);
-        }
-    }
+}
 
     @media (max-width: 768px) {
         .anu-container {
@@ -1638,58 +1651,82 @@ if (!function_exists('anuReferenceIcon')) {
          ===================================================== -->
 
     <section class="anu-section alt anu-department-reference-section">
-        <div class="anu-container">
-            <div class="anu-dept-card anu-dept-reference-card">
-                <div class="anu-dept-reference-copy">
-                    <h2>Obstetrics &amp; Gynaecology <span>Services at Akropolis</span></h2>
-                    <p>
-                        The department provides a range of women's health and maternity services with a focus on safe, evidence-based and patient-centred care.
-                    </p>
+    <div class="anu-container">
+        <div class="anu-dept-card anu-dept-reference-card">
 
-                    <div class="anu-chip-row anu-reference-chip-row">
-                        <span class="anu-chip">
-                            <?php echo anuReferenceIcon('maternity', 'w-4 h-4'); ?>
-                            Maternity Care
-                        </span>
-                        <span class="anu-chip">
-                            <?php echo anuReferenceIcon('highrisk', 'w-4 h-4'); ?>
-                            High-Risk Pregnancy (evaluation &amp; management)
-                        </span>
-                        <span class="anu-chip">
-                            <?php echo anuReferenceIcon('gynecare', 'w-4 h-4'); ?>
-                            Gynaecology Care
-                        </span>
-                        <span class="anu-chip">
-                            <?php echo anuReferenceIcon('infertility', 'w-4 h-4'); ?>
-                            Infertility Evaluation &amp; Treatment (as indicated)
-                        </span>
-                    </div>
+            <div class="anu-dept-reference-copy">
+
+                <h2>
+                    Obstetrics &amp; Gynaecology
+                    <span>Services at Akropolis</span>
+                </h2>
+
+                <p>
+                    The department provides a range of women's health and maternity services with a focus on safe, evidence-based and patient-centred care.
+                </p>
+
+                <div class="anu-chip-row anu-reference-chip-row">
+
+                    <span class="anu-chip">
+                        <?php echo anuReferenceIcon('maternity', 'w-4 h-4'); ?>
+                        <span>Maternity Care</span>
+                    </span>
+
+                    <span class="anu-chip">
+                        <?php echo anuReferenceIcon('highrisk', 'w-4 h-4'); ?>
+                        <span>High-Risk Pregnancy (evaluation &amp; management)</span>
+                    </span>
+
+                    <span class="anu-chip">
+                        <?php echo anuReferenceIcon('gynecare', 'w-4 h-4'); ?>
+                        <span>Gynaecology Care</span>
+                    </span>
+
+                    <span class="anu-chip">
+                        <?php echo anuReferenceIcon('infertility', 'w-4 h-4'); ?>
+                        <span>Infertility Evaluation &amp; Treatment (as indicated)</span>
+                    </span>
+
                 </div>
 
-                <div class="anu-maternity-illustration" aria-hidden="true">
-                    <svg viewBox="0 0 250 190" xmlns="http://www.w3.org/2000/svg" fill="none">
-                        <g stroke="currentColor" stroke-width="2.1" stroke-linecap="round" stroke-linejoin="round">
-                            <path d="M153 166c-2-25 5-47 23-61 13-10 26-13 37-8 10 5 16 15 16 29 0 20-12 36-30 45-13 7-30 9-46 8Z"/>
-                            <path d="M173 93c-3-17 2-31 15-41 11-8 25-9 36-3 9 5 15 13 16 24"/>
-                            <path d="M187 49c-8 3-14 9-17 17 10-2 17-1 24 3 6 4 11 10 13 18"/>
-                            <circle cx="184" cy="91" r="16"/>
-                            <path d="M172 90c4-5 10-8 16-8 5 0 10 2 14 6"/>
-                            <path d="M171 111c8 10 17 14 29 13 10-1 18-5 24-13"/>
-                            <path d="M155 145c-19-1-34-8-43-22-8-12-10-26-6-39 5-16 16-28 31-35 9-4 18-5 28-3"/>
-                            <path d="M107 83c-10 2-19 7-25 15-8 10-10 22-7 34"/>
-                            <path d="M86 83c3-12 10-21 20-27 11-7 23-8 34-5"/>
-                            <path d="M98 66c-2-10 1-20 9-27 8-7 18-9 28-6 7 2 13 7 17 14"/>
-                            <circle cx="113" cy="58" r="14"/>
-                            <path d="M101 58c4-5 9-7 14-7 5 0 9 2 13 5"/>
-                            <path d="M105 78c8 7 17 9 27 7 7-1 13-5 18-11"/>
-                            <path d="M78 132c8 10 18 18 31 23 15 6 31 8 46 7"/>
-                            <path d="M82 105c-4 7-5 15-3 23"/>
-                        </g>
-                    </svg>
-                </div>
             </div>
+
+            <div class="anu-maternity-illustration" aria-hidden="true">
+
+                <svg
+                    viewBox="0 0 250 190"
+                    xmlns="http://www.w3.org/2000/svg"
+                    fill="none"
+                >
+                    <g
+                        stroke="currentColor"
+                        stroke-width="2.1"
+                        stroke-linecap="round"
+                        stroke-linejoin="round"
+                    >
+                        <path d="M153 166c-2-25 5-47 23-61 13-10 26-13 37-8 10 5 16 15 16 29 0 20-12 36-30 45-13 7-30 9-46 8Z"/>
+                        <path d="M173 93c-3-17 2-31 15-41 11-8 25-9 36-3 9 5 15 13 16 24"/>
+                        <path d="M187 49c-8 3-14 9-17 17 10-2 17-1 24 3 6 4 11 10 13 18"/>
+                        <circle cx="184" cy="91" r="16"/>
+                        <path d="M172 90c4-5 10-8 16-8 5 0 10 2 14 6"/>
+                        <path d="M171 111c8 10 17 14 29 13 10-1 18-5 24-13"/>
+                        <path d="M155 145c-19-1-34-8-43-22-8-12-10-26-6-39 5-16 16-28 31-35 9-4 18-5 28-3"/>
+                        <path d="M107 83c-10 2-19 7-25 15-8 10-10 22-7 34"/>
+                        <path d="M86 83c3-12 10-21 20-27 11-7 23-8 34-5"/>
+                        <path d="M98 66c-2-10 1-20 9-27 8-7 18-9 28-6 7 2 13 7 17 14"/>
+                        <circle cx="113" cy="58" r="14"/>
+                        <path d="M101 58c4-5 9-7 14-7 5 0 9 2 13 5"/>
+                        <path d="M105 78c8 7 17 9 27 7 7-1 13-5 18-11"/>
+                        <path d="M78 132c8 10 18 18 31 23 15 6 31 8 46 7"/>
+                        <path d="M82 105c-4 7-5 15-3 23"/>
+                    </g>
+                </svg>
+
+            </div>
+
         </div>
-    </section>
+    </div>
+</section>
 
 
     <!-- =====================================================
