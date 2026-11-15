@@ -65,7 +65,7 @@ if (!$doctor) {
 $page_title = 'Dr. Anu Nagpal, Obstetrician & Gynaecologist | Akropolis';
 
 $page_description =
-    'Meet Dr. Anu Nagpal, Obstetrician and Gynaecologist at Akropolis Super Speciality Hospital in Gurugram. She has 11 years of overall experience, including 7 years as a specialist, and provides obstetric and gynaecological care.';
+    'Consult Dr. Anu Nagpal, one of the best Gynaecologists and Obstetricians in Gurgaon (Gurugram), at Akropolis Super Speciality Hospital. View her qualifications, experience, OPD timings and appointment details.';
 
 $canonical_url = '/doctors/dr-anu-nagpal';
 
