@@ -1118,8 +1118,7 @@ include __DIR__ . '/../includes/head.php';
             </h2>
 
             <p class="text-gray-600 text-lg">
-                His supplied professional profile lists research covering trauma,
-                fractures, arthroscopy, rotator cuff repair and ACL reconstruction.
+                Dr. Prateek Girotra has published research on fracture management, arthroscopic surgery, rotator cuff repair, ACL reconstruction, and paediatric orthopaedics, with his work appearing in orthopaedic and medical research journals.
             </p>
 
         </div>
