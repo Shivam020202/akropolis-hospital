@@ -1431,7 +1431,7 @@ if (!function_exists('anuReferenceIcon')) {
 
                         <div>
                             <strong>OPD Timings</strong>
-                            <span>Mon - Fri: 8:00 AM - 8:00 PM</span>
+                            <span>Mon - Sat: 8:00 AM - 8:00 PM</span>
                         </div>
 
                     </div>
@@ -2091,7 +2091,7 @@ if (!function_exists('anuReferenceIcon')) {
                     </summary>
 
                     <div class="anu-faq-answer">
-                        Her listed OPD timing is Monday to Friday,
+                        Dr Anu OPD timing is Monday to Saturday,
                         8:00 AM - 8:00 PM.
                     </div>
 
@@ -2207,32 +2207,38 @@ if (!function_exists('anuReferenceIcon')) {
                                 </label>
 
                                 <select
-                                    id="anu-time"
-                                    name="preferred_time"
-                                    required
-                                >
+    id="anu-time"
+    name="preferred_time"
+    required
+>
+    <option value="">
+        Select a time
+    </option>
 
-                                    <option value="">
-                                        Select a time
-                                    </option>
+    <option value="8:00 AM - 10:00 AM">
+        8:00 AM - 10:00 AM
+    </option>
 
-                                    <option value="9:00 AM - 11:00 AM">
-                                        9:00 AM - 11:00 AM
-                                    </option>
+    <option value="10:00 AM - 12:00 PM">
+        10:00 AM - 12:00 PM
+    </option>
 
-                                    <option value="11:00 AM - 1:00 PM">
-                                        11:00 AM - 1:00 PM
-                                    </option>
+    <option value="12:00 PM - 2:00 PM">
+        12:00 PM - 2:00 PM
+    </option>
 
-                                    <option value="1:00 PM - 3:00 PM">
-                                        1:00 PM - 3:00 PM
-                                    </option>
+    <option value="2:00 PM - 4:00 PM">
+        2:00 PM - 4:00 PM
+    </option>
 
-                                    <option value="3:00 PM - 5:00 PM">
-                                        3:00 PM - 5:00 PM
-                                    </option>
+    <option value="4:00 PM - 6:00 PM">
+        4:00 PM - 6:00 PM
+    </option>
 
-                                </select>
+    <option value="6:00 PM - 8:00 PM">
+        6:00 PM - 8:00 PM
+    </option>
+</select>
                             </div>
 
 
