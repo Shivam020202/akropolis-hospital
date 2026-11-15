@@ -80,7 +80,6 @@ $schema_blocks = [
         'name'           => $doctor['name'] ?? 'Dr. Anu Nagpal',
         'id'             => $doctor['id'] ?? 'dr-anu-nagpal',
         'specialty'      => $doctor['specialization'] ?? 'Obstetrician & Gynaecologist',
-        'image'          => $doctor['image'] ?? '',
         'bio'            => $doctor['bio'] ?? ($doctor['description'] ?? ''),
         'qualifications' => $doctor['qualifications'] ?? [],
     ]),

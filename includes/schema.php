@@ -370,21 +370,91 @@ function schemaMedicalPage(
 
 // ── Physician / Doctor Schema ─────────────────────────────────────────────────
 function schemaPhysician(array $doctor): string {
+    $specialty = strtolower(trim($doctor['specialty'] ?? ''));
+
+    // Map doctor specialties to valid Schema.org MedicalSpecialty values.
+    $medicalSpecialty = [];
+
+    if (
+        str_contains($specialty, 'obstetric') ||
+        str_contains($specialty, 'gynaecolog') ||
+        str_contains($specialty, 'gynecolog')
+    ) {
+        $medicalSpecialty = [
+            'https://schema.org/Obstetric',
+            'https://schema.org/Gynecologic'
+        ];
+    } elseif (
+        str_contains($specialty, 'orthopaedic') ||
+        str_contains($specialty, 'orthopedic')
+    ) {
+        $medicalSpecialty = [
+            'https://schema.org/Musculoskeletal'
+        ];
+    } elseif (str_contains($specialty, 'cardiolog')) {
+        $medicalSpecialty = [
+            'https://schema.org/Cardiovascular'
+        ];
+    } elseif (str_contains($specialty, 'neurolog')) {
+        $medicalSpecialty = [
+            'https://schema.org/Neurologic'
+        ];
+    } elseif (str_contains($specialty, 'nephrolog')) {
+        $medicalSpecialty = [
+            'https://schema.org/Renal'
+        ];
+    } elseif (str_contains($specialty, 'gastroenterolog')) {
+        $medicalSpecialty = [
+            'https://schema.org/Gastroenterologic'
+        ];
+    } elseif (str_contains($specialty, 'pediatric')) {
+        $medicalSpecialty = [
+            'https://schema.org/Pediatric'
+        ];
+    } elseif (str_contains($specialty, 'dermatolog')) {
+        $medicalSpecialty = [
+            'https://schema.org/Dermatology'
+        ];
+    } elseif (
+        str_contains($specialty, 'ent') ||
+        str_contains($specialty, 'otorhinolaryng')
+    ) {
+        $medicalSpecialty = [
+            'https://schema.org/Otolaryngologic'
+        ];
+    } elseif (str_contains($specialty, 'ophthalmolog')) {
+        $medicalSpecialty = [
+            'https://schema.org/Ophthalmology'
+        ];
+    } elseif (str_contains($specialty, 'plastic')) {
+        $medicalSpecialty = [
+            'https://schema.org/PlasticSurgery'
+        ];
+    } elseif (str_contains($specialty, 'oncolog')) {
+        $medicalSpecialty = [
+            'https://schema.org/Oncologic'
+        ];
+    } else {
+        $medicalSpecialty = [
+            'https://schema.org/MedicalSpecialty'
+        ];
+    }
+
     $schema = [
         '@context' => 'https://schema.org',
         '@type'    => 'Physician',
 
         'name' => $doctor['name'] ?? '',
 
-        'jobTitle' => $doctor['specialty'] ?? 'Specialist',
-
-        'worksFor' => [
-            '@id' => 'https://akropolishospital.com/#hospital',
-        ],
-
         'url' => 'https://akropolishospital.com/doctors/' . ($doctor['id'] ?? ''),
 
-        'medicalSpecialty' => $doctor['specialty'] ?? '',
+        'medicalSpecialty' => $medicalSpecialty,
+
+        'hospitalAffiliation' => [
+            '@type' => 'Hospital',
+            '@id'   => 'https://akropolishospital.com/#hospital',
+            'name'  => 'Akropolis Super Speciality Hospital'
+        ],
     ];
 
     if (!empty($doctor['image'])) {
