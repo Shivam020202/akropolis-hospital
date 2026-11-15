@@ -1521,7 +1521,7 @@ if (!function_exists('anuReferenceIcon')) {
                 <div class="anu-about-image">
 
                     <img
-                        src="https://images.pexels.com/photos/1556652/pexels-photo-1556652.jpeg?auto=compress&cs=tinysrgb&w=900"
+                        src="\assets\images\shared-template\baby-bump.avif"
                         alt="Obstetrics and Gynaecology care at Akropolis Super Speciality Hospital"
                         loading="lazy"
                     >
