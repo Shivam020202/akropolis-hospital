@@ -1050,10 +1050,6 @@ if (!function_exists('anuReferenceIcon')) {
         line-height: 1.45;
     }
 
-    /* =========================================================
-   OBSTETRICS & GYNAECOLOGY SERVICES AT AKROPOLIS
-   ========================================================= */
-
 /* =========================================================
    OBSTETRICS & GYNAECOLOGY SERVICES AT AKROPOLIS
    ========================================================= */
@@ -1065,17 +1061,13 @@ if (!function_exists('anuReferenceIcon')) {
 
 .anu-page .anu-dept-reference-card {
     min-height: 184px;
-    padding: 20px 24px;
+    padding: 20px 28px;
     display: grid;
-    grid-template-columns: minmax(0, 1fr) 205px;
-    gap: 18px;
+    grid-template-columns: 760px minmax(0, 1fr);
+    gap: 20px;
     align-items: center;
     border-radius: 14px;
-    background: linear-gradient(
-        104deg,
-        #F1FAFE 0%,
-        #F7FCFF 100%
-    );
+    background: linear-gradient(104deg, #F1FAFE 0%, #F7FCFF 100%);
     border: 1px solid #D9EDF8;
     box-shadow: none;
     overflow: hidden;
@@ -1084,6 +1076,8 @@ if (!function_exists('anuReferenceIcon')) {
 .anu-dept-reference-copy {
     position: relative;
     z-index: 2;
+    width: 760px;
+    max-width: 760px;
 }
 
 .anu-page .anu-dept-reference-card h2 {
@@ -1099,10 +1093,10 @@ if (!function_exists('anuReferenceIcon')) {
 }
 
 .anu-page .anu-dept-reference-card > .anu-dept-reference-copy > p {
-    max-width: 650px;
-    margin: 0 0 14px;
+    max-width: 690px;
+    margin: 0 0 13px;
     font-size: 0.70rem;
-    line-height: 1.48;
+    line-height: 1.45;
     color: #596878;
 }
 
@@ -1111,14 +1105,16 @@ if (!function_exists('anuReferenceIcon')) {
     flex-wrap: wrap;
     align-items: center;
     gap: 7px 8px;
+    width: 690px;
+    max-width: 690px;
 }
 
 .anu-page .anu-reference-chip-row .anu-chip {
     display: inline-flex;
     align-items: center;
     gap: 6px;
-    padding: 6px 10px;
     min-height: 28px;
+    padding: 6px 10px;
     border-radius: 8px;
     font-size: 0.63rem;
     line-height: 1.2;
@@ -1136,12 +1132,16 @@ if (!function_exists('anuReferenceIcon')) {
     flex: 0 0 auto;
 }
 
+.anu-page .anu-reference-chip-row .anu-chip:nth-child(4) {
+    margin-right: 100%;
+}
+
 .anu-maternity-illustration {
-    width: 195px;
-    height: 150px;
+    color: #9BCDF0;
+    width: 205px;
+    height: 155px;
     justify-self: end;
     align-self: center;
-    color: #9BCDF0;
     opacity: 0.92;
 }
 
