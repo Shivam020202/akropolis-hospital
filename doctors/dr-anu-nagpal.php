@@ -124,6 +124,20 @@ if (!function_exists('anuReferenceIcon')) {
             'gynecare' => '<circle cx="12" cy="12" r="8"/><path d="M8 9.5c1.2-1.6 2.5-2.3 4-2.3s2.8.7 4 2.3"/><path d="M8.5 13c1.2 2 2.4 3 3.5 3s2.3-1 3.5-3"/>',
             'infertility' => '<circle cx="12" cy="12" r="8"/><path d="M8.8 11.5c1.5-2.2 4.9-2.2 6.4 0 1.2 1.8.2 4.1-1.7 5.2-1 .6-1.8 1.1-1.8 2"/><path d="M12 8v1"/>',
             'calendar' => '<rect x="4" y="5" width="16" height="15" rx="2"/><path d="M8 3v4M16 3v4M4 9h16"/><path d="M8.5 14l2 2 5-5"/>',
+            'home' => '<path d="m3 10 9-7 9 7"/><path d="M5 9.5V21h14V9.5"/><path d="M9 21v-6h6v6"/>',
+            'shieldcheck' => '<path d="M12 3 19 6v5c0 4.5-2.8 8.2-7 10-4.2-1.8-7-5.5-7-10V6l7-3Z"/><path d="m9 12 2 2 4-4"/>',
+            'userround' => '<circle cx="12" cy="8" r="3.5"/><path d="M5 21c.6-4 3-6 7-6s6.4 2 7 6"/>',
+            'calendardays' => '<rect x="3" y="4" width="18" height="17" rx="2"/><path d="M8 2v4M16 2v4M3 9h18"/><path d="M8 13h.01M12 13h.01M16 13h.01M8 17h.01M12 17h.01"/>',
+            'clock3' => '<circle cx="12" cy="12" r="9"/><path d="M12 7v5l3 2"/>',
+            'graduationcap' => '<path d="m2 10 10-5 10 5-10 5-10-5Z"/><path d="M6 12v5c3 2 9 2 12 0v-5"/><path d="M22 10v6"/>',
+            'briefcasebusiness' => '<rect x="3" y="7" width="18" height="13" rx="2"/><path d="M8 7V5a2 2 0 0 1 2-2h4a2 2 0 0 1 2 2v2M3 12h18M10 12v2h4v-2"/>',
+            'calendarheart' => '<rect x="3" y="4" width="18" height="17" rx="2"/><path d="M8 2v4M16 2v4M3 9h18"/><path d="M12 17s-4-2.2-4-5a2.2 2.2 0 0 1 4-1.2A2.2 2.2 0 0 1 16 12c0 2.8-4 5-4 5Z"/>',
+            'heartshake' => '<path d="M20.8 8.8c0 5-8.8 10.2-8.8 10.2S3.2 13.8 3.2 8.8A4.8 4.8 0 0 1 12 6.1a4.8 4.8 0 0 1 8.8 2.7Z"/><path d="M8 12h2l1.5-2 2 4 1.5-2H17"/>',
+            'mappinned' => '<path d="M20 10c0 5-8 11-8 11S4 15 4 10a8 8 0 1 1 16 0Z"/><circle cx="12" cy="10" r="2.5"/>',
+            'calendarcheck' => '<rect x="3" y="4" width="18" height="17" rx="2"/><path d="M8 2v4M16 2v4M3 9h18"/><path d="m8 15 2 2 5-5"/>',
+            'venus' => '<circle cx="12" cy="8" r="4"/><path d="M12 12v9M8.5 18h7"/>',
+            'usersround' => '<circle cx="9" cy="8" r="3"/><path d="M3 20c.5-3.5 2.5-5 6-5s5.5 1.5 6 5"/><path d="M16 5.5a3 3 0 0 1 0 5.8M18 15c1.8.7 2.8 2 3 5"/>',
+            'circlecheck' => '<circle cx="12" cy="12" r="9"/><path d="m8.5 12 2.2 2.2 4.8-4.8"/>',
         ];
         $body = $icons[$name] ?? $icons['evaluation'];
         return '<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" class="' . htmlspecialchars($class, ENT_QUOTES, 'UTF-8') . '" aria-hidden="true">' . $body . '</svg>';
@@ -667,14 +681,16 @@ if (!function_exists('anuReferenceIcon')) {
 
     .anu-hospital-image {
         min-height: 300px;
-        background:
-            linear-gradient(135deg, #DDEFF8, #F6FBFD);
-        display: flex;
-        align-items: center;
-        justify-content: center;
-        color: var(--ak-blue);
-        text-align: center;
-        padding: 30px;
+        background: #EEF7FB;
+        overflow: hidden;
+    }
+
+    .anu-hospital-image img {
+        width: 100%;
+        height: 100%;
+        min-height: 300px;
+        display: block;
+        object-fit: cover;
     }
 
     .anu-hospital-image .placeholder {
@@ -1243,7 +1259,7 @@ if (!function_exists('anuReferenceIcon')) {
     <div class="anu-breadcrumb">
         <div class="anu-container anu-breadcrumb-inner">
 
-            <?php echo getIcon('Home', 'w-3.5 h-3.5'); ?>
+            <?php echo anuReferenceIcon('home', 'w-3.5 h-3.5'); ?>
 
             <a href="/">Home</a>
 
@@ -1284,7 +1300,7 @@ if (!function_exists('anuReferenceIcon')) {
                     <?php if (!empty($doctor['registrationVerified'])): ?>
 
                         <div class="anu-verified">
-                            <?php echo getIcon('ShieldCheck', 'w-3.5 h-3.5'); ?>
+                            <?php echo anuReferenceIcon('shieldcheck', 'w-3.5 h-3.5'); ?>
                             <span>Medical Registration Verified</span>
                         </div>
 
@@ -1317,7 +1333,7 @@ if (!function_exists('anuReferenceIcon')) {
 
                         <div class="anu-stat">
                             <div class="icon-box">
-                                <?php echo getIcon('UserRound', 'w-4 h-4'); ?>
+                                <?php echo anuReferenceIcon('userround', 'w-4 h-4'); ?>
                             </div>
 
                             <div>
@@ -1335,7 +1351,7 @@ if (!function_exists('anuReferenceIcon')) {
                             href="/contact"
                             class="anu-btn anu-btn-primary"
                         >
-                            <?php echo getIcon('CalendarDays', 'w-4 h-4'); ?>
+                            <?php echo anuReferenceIcon('calendardays', 'w-4 h-4'); ?>
                             <span>Book Appointment</span>
                         </a>
 
@@ -1343,7 +1359,7 @@ if (!function_exists('anuReferenceIcon')) {
                             href="#opd-timings"
                             class="anu-btn anu-btn-secondary"
                         >
-                            <?php echo getIcon('Clock3', 'w-4 h-4'); ?>
+                            <?php echo anuReferenceIcon('clock3', 'w-4 h-4'); ?>
                             <span>View OPD Timings</span>
                         </a>
 
@@ -1358,7 +1374,7 @@ if (!function_exists('anuReferenceIcon')) {
                     <div class="anu-side-item" id="opd-timings">
 
                         <div class="mini-icon">
-                            <?php echo getIcon('Clock3', 'w-4 h-4'); ?>
+                            <?php echo anuReferenceIcon('clock3', 'w-4 h-4'); ?>
                         </div>
 
                         <div>
@@ -1453,7 +1469,7 @@ if (!function_exists('anuReferenceIcon')) {
                 <div class="anu-about-image">
 
                     <img
-                        src="/assets/images/obstetrics-and-gynaecology.jpg"
+                        src="https://images.pexels.com/photos/1556652/pexels-photo-1556652.jpeg?auto=compress&cs=tinysrgb&w=900"
                         alt="Obstetrics and Gynaecology care at Akropolis Super Speciality Hospital"
                         loading="lazy"
                     >
@@ -1490,7 +1506,7 @@ if (!function_exists('anuReferenceIcon')) {
                     <div class="card-top">
 
                         <div class="icon-box">
-                            <?php echo getIcon('GraduationCap', 'w-5 h-5'); ?>
+                            <?php echo anuReferenceIcon('graduationcap', 'w-5 h-5'); ?>
                         </div>
 
                         <div>
@@ -1512,7 +1528,7 @@ if (!function_exists('anuReferenceIcon')) {
                     <div class="card-top">
 
                         <div class="icon-box">
-                            <?php echo getIcon('GraduationCap', 'w-5 h-5'); ?>
+                            <?php echo anuReferenceIcon('graduationcap', 'w-5 h-5'); ?>
                         </div>
 
                         <div>
@@ -1534,7 +1550,7 @@ if (!function_exists('anuReferenceIcon')) {
                     <div class="card-top">
 
                         <div class="icon-box orange">
-                            <?php echo getIcon('BriefcaseBusiness', 'w-5 h-5'); ?>
+                            <?php echo anuReferenceIcon('briefcasebusiness', 'w-5 h-5'); ?>
                         </div>
 
                         <div>
@@ -1706,7 +1722,7 @@ if (!function_exists('anuReferenceIcon')) {
                 <div class="card anu-reason-card">
 
                     <div class="icon-box">
-                        <?php echo getIcon('CalendarHeart', 'w-5 h-5'); ?>
+                        <?php echo anuReferenceIcon('calendarheart', 'w-5 h-5'); ?>
                     </div>
 
                     <h3>Menstrual Health</h3>
@@ -1752,7 +1768,7 @@ if (!function_exists('anuReferenceIcon')) {
                 <div class="card anu-reason-card">
 
                     <div class="icon-box">
-                        <?php echo getIcon('HeartHandshake', 'w-5 h-5'); ?>
+                        <?php echo anuReferenceIcon('hearthandshake', 'w-5 h-5'); ?>
                     </div>
 
                     <h3>General Women's Health</h3>
@@ -1783,21 +1799,11 @@ if (!function_exists('anuReferenceIcon')) {
 
                 <div class="anu-hospital-image">
 
-                    <div class="placeholder">
-
-                        <div class="icon-box">
-                            <?php echo getIcon('Building2', 'w-6 h-6'); ?>
-                        </div>
-
-                        <strong>
-                            Akropolis Super Speciality Hospital
-                        </strong>
-
-                        <span>
-                            Sector 69, Gurugram
-                        </span>
-
-                    </div>
+                    <img
+                        src="/assets/images/homepage/akropolis-building-hero-banner.webp"
+                        alt="Akropolis Super Speciality Hospital in Sector 69, Gurugram"
+                        loading="lazy"
+                    >
 
                 </div>
 
@@ -1833,7 +1839,7 @@ if (!function_exists('anuReferenceIcon')) {
                             href="/contact"
                             class="anu-btn anu-btn-primary"
                         >
-                            <?php echo getIcon('CalendarDays', 'w-4 h-4'); ?>
+                            <?php echo anuReferenceIcon('calendardays', 'w-4 h-4'); ?>
                             <span>Book Appointment</span>
                         </a>
 
@@ -1843,7 +1849,7 @@ if (!function_exists('anuReferenceIcon')) {
                             rel="noopener"
                             class="anu-btn anu-btn-secondary"
                         >
-                            <?php echo getIcon('MapPinned', 'w-4 h-4'); ?>
+                            <?php echo anuReferenceIcon('mappinned', 'w-4 h-4'); ?>
                             <span>Get Directions</span>
                         </a>
 
@@ -2077,7 +2083,7 @@ if (!function_exists('anuReferenceIcon')) {
             <div class="anu-consult-grid">
 
                 <div class="anu-calendar-icon">
-                    <?php echo getIcon('CalendarDays', 'w-9 h-9'); ?>
+                    <?php echo anuReferenceIcon('calendardays', 'w-9 h-9'); ?>
                 </div>
 
 
@@ -2204,7 +2210,7 @@ if (!function_exists('anuReferenceIcon')) {
                             type="submit"
                             class="anu-form-submit"
                         >
-                            <?php echo getIcon('CalendarCheck', 'w-4 h-4 inline-block mr-1'); ?>
+                            <?php echo anuReferenceIcon('calendarcheck', 'w-4 h-4 inline-block mr-1'); ?>
                             Book Appointment
                         </button>
 
@@ -2251,7 +2257,7 @@ if (!function_exists('anuReferenceIcon')) {
                     <div class="anu-explore-left">
 
                         <div class="icon-box pink">
-                            <?php echo getIcon('Venus', 'w-5 h-5'); ?>
+                            <?php echo anuReferenceIcon('venus', 'w-5 h-5'); ?>
                         </div>
 
                         <div>
@@ -2283,7 +2289,7 @@ if (!function_exists('anuReferenceIcon')) {
                     <div class="anu-explore-left">
 
                         <div class="icon-box">
-                            <?php echo getIcon('UsersRound', 'w-5 h-5'); ?>
+                            <?php echo anuReferenceIcon('usersround', 'w-5 h-5'); ?>
                         </div>
 
                         <div>
