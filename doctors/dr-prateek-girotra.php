@@ -1260,27 +1260,29 @@ include __DIR__ . '/../includes/head.php';
      CONFERENCES & ACADEMIC INVOLVEMENT
 ========================================================= -->
 
-<section class="doctor-section academic-section">
-    <div class="doctor-container">
+<section class="py-16 lg:py-20 bg-white">
 
-        <div class="section-header text-center">
-            <span class="section-eyebrow">
-                Academic &amp; Teaching Involvement
+    <div class="container mx-auto px-4 max-w-6xl">
+
+        <div class="max-w-4xl mx-auto text-center">
+
+            <span class="inline-flex items-center gap-2 text-[#328CCB] bg-blue-50 rounded-full px-4 py-2 text-sm font-semibold mb-4">
+                <?php echo getIcon('Presentation', 'w-4 h-4'); ?>
+                Academic Involvement
             </span>
 
-            <h2 class="section-title">
+            <h2 class="text-3xl md:text-4xl font-bold text-gray-900 mb-5">
                 Conferences &amp; Teaching
             </h2>
 
-            <p class="section-description">
-                Dr. Prateek Girotra has participated in conferences and
-                teaching programmes across various parts of the country,
-                reflecting his continued involvement in professional learning
-                and academic engagement in orthopaedics.
+            <p class="text-gray-600 text-lg leading-8">
+                Dr. Prateek Girotra has participated in conferences and teaching programmes across various parts of the country, reflecting his continued involvement in professional learning and academic engagement in orthopaedics.
             </p>
+
         </div>
 
     </div>
+
 </section>
 
 
