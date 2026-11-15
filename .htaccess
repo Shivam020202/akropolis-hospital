@@ -1,4 +1,7 @@
 RewriteEngine On
+# Serve AVIF images with the correct MIME type
+AddType image/avif .avif
+
 # Serve the dynamically generated sitemap
 RewriteRule ^sitemap\.xml$ sitemap.php [L]
 
