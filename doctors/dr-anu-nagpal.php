@@ -1054,6 +1054,10 @@ if (!function_exists('anuReferenceIcon')) {
    OBSTETRICS & GYNAECOLOGY SERVICES AT AKROPOLIS
    ========================================================= */
 
+/* =========================================================
+   OBSTETRICS & GYNAECOLOGY SERVICES AT AKROPOLIS
+   ========================================================= */
+
 .anu-department-reference-section {
     padding-top: 32px;
     padding-bottom: 32px;
@@ -1063,7 +1067,7 @@ if (!function_exists('anuReferenceIcon')) {
     min-height: 184px;
     padding: 20px 24px;
     display: grid;
-    grid-template-columns: minmax(0, 1fr) 215px;
+    grid-template-columns: minmax(0, 1fr) 205px;
     gap: 18px;
     align-items: center;
     border-radius: 14px;
@@ -1133,8 +1137,8 @@ if (!function_exists('anuReferenceIcon')) {
 }
 
 .anu-maternity-illustration {
-    width: 205px;
-    height: 158px;
+    width: 195px;
+    height: 150px;
     justify-self: end;
     align-self: center;
     color: #9BCDF0;
@@ -1145,6 +1149,39 @@ if (!function_exists('anuReferenceIcon')) {
     width: 100%;
     height: 100%;
     display: block;
+}
+
+@media (max-width: 768px) {
+
+    .anu-department-reference-section {
+        padding-top: 28px;
+        padding-bottom: 28px;
+    }
+
+    .anu-page .anu-dept-reference-card {
+        grid-template-columns: 1fr;
+        min-height: auto;
+        padding: 22px 18px;
+        gap: 10px;
+    }
+
+    .anu-page .anu-dept-reference-card h2 {
+        font-size: 1.08rem;
+    }
+
+    .anu-page .anu-dept-reference-card > .anu-dept-reference-copy > p {
+        font-size: 0.68rem;
+    }
+
+    .anu-page .anu-reference-chip-row .anu-chip {
+        white-space: normal;
+    }
+
+    .anu-maternity-illustration {
+        width: 175px;
+        height: 135px;
+        justify-self: center;
+    }
 }
 
 @media (max-width: 768px) {
