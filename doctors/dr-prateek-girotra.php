@@ -148,13 +148,13 @@ $doctor_faqs = [
     [
         'question' => 'What are Dr. Prateek Girotra’s OPD timings?',
         'answer' =>
-            'The listed OPD timing is Monday to Saturday, 8:00 AM to 8:00 PM.'
+            'Dr. Prateek Girotra is available for consultation Monday to Saturday, from 8:00 AM to 8:00 PM.'
     ],
 
     [
         'question' => 'Does Dr. Prateek Girotra have research publications?',
         'answer' =>
-            'Yes. His professional profile lists research and publications covering fractures, arthroscopy, rotator cuff repair, ACL reconstruction and other orthopaedic topics.'
+            'Yes. Dr. Prateek Girotra has contributed to research and publications covering fractures, arthroscopy, rotator cuff repair, ACL reconstruction and other areas of orthopaedic care.'
     ]
 
 ];
@@ -1148,8 +1148,15 @@ include __DIR__ . '/../includes/head.php';
 
             ];
 
-            foreach ($publications as $publication):
-            ?>
+$publications = array_values(
+    array_filter(
+        $publications,
+        fn($publication) => trim((string) $publication) !== ''
+    )
+);
+
+foreach ($publications as $publication):
+?>
 
                 <article class="flex gap-4 bg-[#F7FAFC] rounded-2xl border border-gray-100 p-6">
 
@@ -1207,8 +1214,7 @@ include __DIR__ . '/../includes/head.php';
                 </h2>
 
                 <p class="text-gray-600 text-lg leading-8">
-                    Dr. Prateek Girotra's professional profile lists memberships
-                    across orthopaedic, arthroscopy and medical associations.
+                    Dr. Prateek Girotra is associated with professional organisations in orthopaedics, arthroscopy, arthroplasty and broader medical practice, reflecting his involvement in the orthopaedic and medical community.
                 </p>
 
             </div>
@@ -1313,7 +1319,7 @@ include __DIR__ . '/../includes/head.php';
                 </h2>
 
                 <p class="text-gray-600 leading-7 mb-6">
-                    The listed outpatient consultation timing is:
+                    Dr. Prateek Girotra is available for consultation at Akropolis Super Speciality Hospital during the following hours:
                 </p>
 
 
