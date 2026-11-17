@@ -465,13 +465,6 @@ function schemaPhysician(array $doctor): string {
         $schema['description'] = $doctor['bio'];
     }
 
-    if (!empty($doctor['qualifications'])) {
-        $schema['alumniOf'] = [
-            '@type' => 'EducationalOrganization',
-            'name'  => implode(', ', $doctor['qualifications']),
-        ];
-    }
-
     return json_encode(
         $schema,
         JSON_UNESCAPED_SLASHES | JSON_PRETTY_PRINT
