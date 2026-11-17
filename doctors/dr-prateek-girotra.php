@@ -1174,18 +1174,6 @@ foreach ($publications as $publication):
 
         </div>
 
-
-        <div class="mt-8 p-5 rounded-2xl bg-blue-50 border border-blue-100">
-
-            <div class="flex items-start gap-3">
-
-                <?php echo getIcon('Info', 'w-5 h-5 text-[#328CCB] mt-0.5 shrink-0'); ?>
-
-
-            </div>
-
-        </div>
-
     </div>
 
 </section>
