@@ -299,7 +299,7 @@ $blogs = [
     <li><strong>Neurological assessment:</strong> Checking sensation and other signs when nerve involvement is suspected.</li>
 </ul>
 
-<p>The aim is to match the patient's symptoms with the structure that is most likely responsible.</p>
+<p>The aim is to match the patient&rsquo;s symptoms with the structure that is most likely responsible.</p>
 
 <h3>3. When Is Imaging Needed?</h3>
 
@@ -338,7 +338,7 @@ $blogs = [
 
 <p>For common plantar heel pain, current clinical guidance supports a combination of education, appropriate activity modification, plantar fascia and calf stretching, progressive strengthening and other targeted physical therapy measures. Orthoses may be useful as part of a broader treatment plan rather than as the only treatment. :chatgpt-content-reference{index="1"}</p>
 
-<p>The goal is not simply to stop the pain for a few days. The goal is to improve the foot's ability to tolerate normal loading again.</p>
+<p>The goal is not simply to stop the pain for a few days. The goal is to improve the foot&rsquo;s ability to tolerate normal loading again.</p>
 
 <h3>1. Modify the Load, Not All Movement</h3>
 
@@ -414,7 +414,7 @@ $blogs = [
     <li>Avoiding shoes that repeatedly press against a painful area at the back of the heel.</li>
 </ul>
 
-<p>There is no single shoe that is correct for every foot. Comfort and the individual's symptoms matter.</p>
+<p>There is no single shoe that is correct for every foot. Comfort and the individual&rsquo;s symptoms matter.</p>
 
 <h3>6. Orthotic Insoles and Heel Supports</h3>
 
@@ -422,7 +422,7 @@ $blogs = [
 
 <p>However, current evidence does not support using an orthosis as the only treatment for short-term plantar fasciitis relief. Orthoses may be useful when combined with other treatments such as stretching and exercise. :chatgpt-content-reference{index="5"}</p>
 
-<p>That means an expensive custom device is not automatically better simply because it is custom made. The decision should be based on the person's symptoms, foot mechanics, comfort and overall treatment plan.</p>
+<p>That means an expensive custom device is not automatically better simply because it is custom made. The decision should be based on the person&rsquo;s symptoms, foot mechanics, comfort and overall treatment plan.</p>
 
 <h3>7. Taping Can Provide Short-Term Support</h3>
 
