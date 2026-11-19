@@ -505,19 +505,19 @@ $blogs = [
     </li>
     <li>
         <a href="https://www.uspreventiveservicestaskforce.org/uspstf/recommendation/osteoporosis-screening" target="_blank" rel="noopener noreferrer"><strong>U.S. Preventive Services Task Force: Osteoporosis Screening</strong></a><br>
-        Provides the 2025 recommendation on screening for osteoporosis to prevent fractures. :chatgpt-content-reference{index="1"}
+        Provides the 2025 recommendation on screening for osteoporosis to prevent fractures. 
     </li>
     <li>
         <a href="https://www.nogg.org.uk/full-guideline" target="_blank" rel="noopener noreferrer"><strong>National Osteoporosis Guideline Group: Clinical Guideline for the Prevention and Treatment of Osteoporosis</strong></a><br>
-        Provides the 2024 clinical guideline covering fracture-risk assessment, prevention, treatment and monitoring. :chatgpt-content-reference{index="2"}
+        Provides the 2024 clinical guideline covering fracture-risk assessment, prevention, treatment and monitoring. 
     </li>
     <li>
         <a href="https://www.endocrine.org/clinical-practice-guidelines/osteoporosis-in-postmenopausal-women" target="_blank" rel="noopener noreferrer"><strong>Endocrine Society: Pharmacological Management of Osteoporosis in Postmenopausal Women</strong></a><br>
-        Provides clinical guidance on pharmacological treatment, fracture-risk reassessment and treatment monitoring. :chatgpt-content-reference{index="3"}
+        Provides clinical guidance on pharmacological treatment, fracture-risk reassessment and treatment monitoring. 
     </li>
     <li>
         <a href="https://my.clevelandclinic.org/health/diseases/4443-osteoporosis" target="_blank" rel="noopener noreferrer"><strong>Cleveland Clinic: Osteoporosis</strong></a><br>
-        Provides patient-focused information on osteoporosis symptoms, risk factors, diagnosis and treatment. :chatgpt-content-reference{index="4"}
+        Provides patient-focused information on osteoporosis symptoms, risk factors, diagnosis and treatment.
     </li>
 </ul>
 
