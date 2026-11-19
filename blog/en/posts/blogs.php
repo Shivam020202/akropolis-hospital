@@ -261,7 +261,7 @@ $blogs = [
     <li><strong>Previous injury:</strong> An earlier foot or ankle injury can change movement and load distribution.</li>
 </ul>
 
-<p>These factors increase the likelihood of heel problems, but they do not mean that one particular factor is responsible for every person's pain.</p>
+<p>These factors increase the likelihood of heel problems, but they do not mean that one particular factor is responsible for the pain.</p>
 
 <h2>How Is Heel Pain Diagnosed?</h2>
 
