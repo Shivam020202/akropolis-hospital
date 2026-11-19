@@ -492,10 +492,6 @@ $blogs = [
 
 <ul>
     <li>
-        <a href="https://pmc.ncbi.nlm.nih.gov/articles/PMC12948155/" target="_blank" rel="noopener noreferrer"><strong>Indian Menopause Society: Clinical Practice Guidelines for Menopause 2026</strong></a><br>
-        Provides guidance on osteoporosis risk assessment, DXA, FRAX, OSTA, prevention and treatment in the Indian context.
-    </li>
-    <li>
         <a href="https://www.niams.nih.gov/health-topics/osteoporosis" target="_blank" rel="noopener noreferrer"><strong>NIAMS: Osteoporosis</strong></a><br>
         Provides information on osteoporosis, bone density testing, risk factors, prevention and treatment.
     </li>
@@ -510,10 +506,6 @@ $blogs = [
     <li>
         <a href="https://www.nogg.org.uk/full-guideline" target="_blank" rel="noopener noreferrer"><strong>National Osteoporosis Guideline Group: Clinical Guideline for the Prevention and Treatment of Osteoporosis</strong></a><br>
         Provides the 2024 clinical guideline covering fracture-risk assessment, prevention, treatment and monitoring. 
-    </li>
-    <li>
-        <a href="https://www.endocrine.org/clinical-practice-guidelines/osteoporosis-in-postmenopausal-women" target="_blank" rel="noopener noreferrer"><strong>Endocrine Society: Pharmacological Management of Osteoporosis in Postmenopausal Women</strong></a><br>
-        Provides clinical guidance on pharmacological treatment, fracture-risk reassessment and treatment monitoring. 
     </li>
     <li>
         <a href="https://my.clevelandclinic.org/health/diseases/4443-osteoporosis" target="_blank" rel="noopener noreferrer"><strong>Cleveland Clinic: Osteoporosis</strong></a><br>
