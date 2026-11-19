@@ -1536,7 +1536,6 @@ $blogs = [
 <div class="my-8 rounded-2xl border border-gray-200 bg-gray-50 p-6 text-sm text-gray-700">
 <strong>Medical Disclaimer:</strong> This article is intended for general educational purposes only. It does not replace professional medical advice, diagnosis or treatment. Knee pain and meniscus injuries can vary considerably between individuals. Consult a qualified healthcare professional for an appropriate examination and a treatment plan based on your condition.
 </div>'
-'
 ],
 
 [
