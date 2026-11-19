@@ -66,7 +66,8 @@ $blogs = [
         ]
     ],
 
-    'content' => '<div class="my-6 rounded-xl border border-blue-200 bg-blue-50 p-6">
+    'content' => '
+    <div class="my-6 rounded-xl border border-blue-200 bg-blue-50 p-6">
     <h2 class="!mt-0 !border-0 !pl-0 text-xl font-bold text-blue-900">Quick Answer: Why Does Your Heel Hurt While Walking?</h2>
     <p class="!mb-0">Heel pain while walking can come from plantar fasciitis, the Achilles tendon, heel fat pad, bone, nerves or other tissues around the foot. Pain under the heel that is worst with the first steps after waking is a common pattern of plantar fasciitis, but the location and behaviour of the pain matter. <strong>Heel Pain Treatment</strong> should be based on the underlying cause rather than the symptom alone.</p>
 </div>
