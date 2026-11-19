@@ -8,12 +8,531 @@
 
 $blogs = [
 [
+    'slug' => 'osteoporosis-risk-factors-diagnosis-prevention-treatment',
+    'title' => 'Osteoporosis: Risk Factors, Diagnosis, Prevention and Treatment',
+    'excerpt' => 'Osteoporosis can weaken bones without causing symptoms until a fracture occurs. Learn how risk factors, bone density, fracture history and overall fracture risk guide diagnosis, prevention and treatment.',
+    'image' => '/assets/images/blog/English/osteoporosis-risk-factors-diagnosis-prevention-treatment.webp',
+    'image_alt' => 'Medical illustration showing healthy bone and osteoporotic bone with reduced bone density',
+    'author' => 'Dr. Prateek Girotra',
+    'category' => 'Orthopedics',
+    'tags' => [
+        'Osteoporosis',
+        'Osteoporosis Risk Factors',
+        'Osteoporosis Diagnosis',
+        'Osteoporosis Prevention',
+        'Osteoporosis Treatment',
+        'Bone Density',
+        'DXA Scan',
+        'Fracture Risk',
+        'Bone Health',
+        'Fragility Fracture'
+    ],
+    'read_time' => '11 min read',
+    'published_at' => '2026-11-19',
+    'status' => 'published',
+
+    'faqs' => [
+        [
+            'question' => 'What is osteoporosis?',
+            'answer' => 'Osteoporosis is a disease that weakens bones and increases the risk of fractures. It often develops without noticeable symptoms and may first become apparent after a fracture.'
+        ],
+        [
+            'question' => 'What are the main risk factors for osteoporosis?',
+            'answer' => 'Important risk factors include increasing age, menopause, family history, low body weight, previous fragility fractures, physical inactivity, smoking, heavy alcohol use, certain medical conditions and long-term use of medicines such as corticosteroids.'
+        ],
+        [
+            'question' => 'How is osteoporosis diagnosed?',
+            'answer' => 'Diagnosis usually combines medical history, fracture history and bone mineral density measured by a DXA scan. Doctors may also use a fracture-risk assessment such as FRAX to understand the likelihood of future fractures.'
+        ],
+        [
+            'question' => 'What does a T-score of -2.5 mean?',
+            'answer' => 'In postmenopausal women and men aged 50 years or older, a T-score of -2.5 or lower at the lumbar spine, total hip or femoral neck is in the osteoporosis range. The result still needs to be interpreted alongside fracture history and other clinical factors.'
+        ],
+        [
+            'question' => 'Can osteoporosis be prevented?',
+            'answer' => 'Risk can often be reduced through adequate nutrition, appropriate weight-bearing and resistance exercise, smoking cessation, sensible alcohol intake and fall prevention. Some risk factors, such as age and family history, cannot be changed.'
+        ],
+        [
+            'question' => 'Is walking enough to prevent osteoporosis?',
+            'answer' => 'Walking is useful weight-bearing activity, but it may not be enough on its own. Resistance exercise and balance training can also be important, particularly as muscle strength and fall risk become more important with age.'
+        ],
+        [
+            'question' => 'Does everyone with osteoporosis need medication?',
+            'answer' => 'Not everyone has the same fracture risk. Treatment decisions consider bone density, previous fractures, clinical risk factors and overall fracture probability. People at high or very high risk are more likely to benefit from medication.'
+        ],
+        [
+            'question' => 'What medicines are used to treat osteoporosis?',
+            'answer' => 'Common treatment options include bisphosphonates and denosumab. Selected people at very high fracture risk may be considered for bone-building medicines such as teriparatide, abaloparatide or romosozumab.'
+        ],
+        [
+            'question' => 'Can osteoporosis cause back pain?',
+            'answer' => 'Osteoporosis itself usually does not cause pain. However, a vertebral fracture caused by weakened bone can produce sudden or persistent back pain, loss of height or a change in posture.'
+        ]
+    ],
+
+    'content' => '<div class="my-6 rounded-xl border border-blue-200 bg-blue-50 p-6">
+    <h2 class="!mt-0 !border-0 !pl-0 text-xl font-bold text-blue-900">Quick Answer</h2>
+    <p class="!mb-0">Osteoporosis weakens bones and increases fracture risk, often without causing symptoms before a fracture occurs. Risk factors include age, menopause, family history, low body weight, certain medicines, medical conditions and lifestyle factors. Diagnosis usually combines clinical risk assessment with a DXA bone density scan, while prevention and treatment focus on maintaining bone strength and reducing the risk of future fractures.</p>
+</div>
+
+<p>Osteoporosis is often described as a disease of weak bones. That is true, but it does not explain the part that matters most to a patient: <strong>how likely is a fracture, why is that risk increased, and what can actually be done about it?</strong></p>
+
+<p>Bone is living tissue. It is continuously being broken down and rebuilt. With osteoporosis, bone loss and changes in bone structure can make the skeleton less able to withstand normal loads. A fracture can then occur after a fall or injury that would not normally break healthy bone.</p>
+
+<p>The difficulty is that this process is usually silent.</p>
+
+<p>A person can lose bone strength for years without feeling anything unusual. The first sign may be a wrist fracture after a simple fall, a hip fracture, or a vertebral fracture that causes sudden back pain or gradual loss of height.</p>
+
+<p>That is why understanding <strong>Osteoporosis Risk Factors</strong> matters. The aim is not to wait for a fracture and then discover that the bones were fragile. It is to identify people at meaningful risk early enough to reduce that risk.</p>
+
+<h2>What Is Osteoporosis?</h2>
+
+<p>Osteoporosis is a disease in which bone becomes weaker and more likely to fracture. The weakness can result from reduced bone mineral density and mass as well as changes in the internal structure and quality of bone.</p>
+
+<p>It is useful to think of bone strength as more than a single number. A DXA scan measures bone mineral density, but fracture risk also depends on previous fractures, age, falls, medicines, medical conditions and other clinical factors.</p>
+
+<p>This is why two people with similar DXA results may not have exactly the same fracture risk.</p>
+
+<p>For a doctor, the important question is therefore not simply, "What is the bone density?" It is, "What does this result mean for this particular person\'s risk of breaking a bone?"</p>
+
+<h2>Why Does Osteoporosis Develop?</h2>
+
+<p>Healthy bone is constantly remodelled. Old bone is removed and new bone is formed. This process changes throughout life.</p>
+
+<p>With ageing, the balance can gradually shift toward bone loss. Menopause can accelerate this process because of the fall in oestrogen. Other factors, including certain medicines, medical conditions, poor nutrition, smoking and prolonged inactivity, can add to the loss.</p>
+
+<p>Bone loss is therefore not caused by one universal factor.</p>
+
+<p>For some people, age and hormonal changes are the main contributors. For others, long-term corticosteroid treatment, an underlying medical condition, low body weight or a combination of several factors may be more important.</p>
+
+<h2>Osteoporosis Risk Factors</h2>
+
+<p>Some risk factors cannot be changed, while others can be modified. Knowing the difference helps because prevention should focus on the factors that are actually within the person\'s control.</p>
+
+<h3>Age and Menopause</h3>
+
+<p>Bone loss becomes more common with age. In women, the reduction in oestrogen around and after menopause can accelerate bone loss, particularly during the early postmenopausal period.</p>
+
+<p>This does not mean that every woman will develop osteoporosis after menopause. It means that menopause becomes one part of the overall risk assessment.</p>
+
+<p>Men can also develop osteoporosis, particularly with increasing age, low testosterone or other medical and medication-related risk factors.</p>
+
+<h3>Family History and Previous Fracture</h3>
+
+<p>A parent with osteoporosis or a hip fracture can increase the likelihood of osteoporosis.</p>
+
+<p>A previous low-trauma fracture is even more important clinically. If a bone fractures after a relatively minor fall or injury that would not normally cause a fracture, it can be a sign that the underlying skeleton is fragile.</p>
+
+<p>A previous fragility fracture can change treatment decisions even when the DXA result does not fall neatly into the osteoporosis range.</p>
+
+<h3>Low Body Weight</h3>
+
+<p>Low body weight is associated with lower bone mass and higher fracture risk. It can also occur alongside inadequate nutrition, muscle loss or another medical condition.</p>
+
+<p>Unintentional weight loss therefore deserves attention rather than being dismissed as a normal part of ageing.</p>
+
+<h3>Physical Inactivity</h3>
+
+<p>Bone responds to mechanical loading. Long periods of inactivity can contribute to bone loss and also reduce muscle strength and balance.</p>
+
+<p>That creates a second problem. A person with weaker bones is already more vulnerable to fracture, and weaker muscles or poor balance can increase the chance of falling in the first place.</p>
+
+<h3>Smoking and Excessive Alcohol</h3>
+
+<p>Smoking is associated with poorer bone health and increased fracture risk. Heavy alcohol use can also affect bone health and increase the likelihood of falls.</p>
+
+<p>These are particularly important risk factors because they can be changed.</p>
+
+<h3>Diet and Nutritional Factors</h3>
+
+<p>Calcium, vitamin D and adequate protein all have roles in maintaining bone and muscle health.</p>
+
+<p>However, osteoporosis should not be reduced to a calcium deficiency. Taking calcium supplements without considering the person\'s diet, medical history and total intake does not address every cause of bone loss.</p>
+
+<p>The more useful approach is to identify whether the person is actually meeting nutritional requirements and whether a deficiency or increased need needs to be addressed.</p>
+
+<h3>Medicines That Affect Bone</h3>
+
+<p>Long-term corticosteroid treatment is an important cause of secondary osteoporosis. Other medicines can also affect bone health depending on the drug, dose and duration of treatment.</p>
+
+<p>These may include some medicines used for epilepsy and certain treatments used in cancer care. Some other medicines may also contribute in particular circumstances.</p>
+
+<p>A person should not stop a prescribed medicine because of osteoporosis concerns. The correct approach is to discuss the benefit and potential bone effects with the prescribing doctor.</p>
+
+<h3>Medical Conditions</h3>
+
+<p>Several medical conditions can increase the risk of osteoporosis or fractures. These include some endocrine disorders, digestive conditions that affect nutrient absorption, rheumatoid arthritis, certain cancers and other chronic diseases.</p>
+
+<p>When osteoporosis occurs at an unexpectedly young age or seems more severe than expected, looking for an underlying cause becomes particularly important.</p>
+
+<h2>Does Osteoporosis Cause Symptoms?</h2>
+
+<p>Usually, osteoporosis does not cause symptoms while bone density is gradually falling.</p>
+
+<p>That is why a person can feel completely well and still have a high fracture risk.</p>
+
+<p>Symptoms often appear because a fracture has occurred. A vertebral fracture may cause:</p>
+
+<ul>
+    <li>Sudden or persistent back pain.</li>
+    <li>Loss of height.</li>
+    <li>Increasing forward curvature of the spine.</li>
+    <li>Difficulty with normal activities because of pain.</li>
+</ul>
+
+<p>A hip or wrist fracture is usually more obvious because it causes pain and difficulty using the affected limb.</p>
+
+<p>New severe back pain after a minor movement or fall should not simply be attributed to muscle strain, particularly in someone with osteoporosis or several fracture risk factors.</p>
+
+<h2>How Is Osteoporosis Diagnosed?</h2>
+
+<p>Diagnosis is not based on a DXA number alone.</p>
+
+<p>A proper assessment brings together medical history, previous fractures, physical findings, bone mineral density and, when appropriate, an estimate of future fracture risk.</p>
+
+<h3>Medical History and Examination</h3>
+
+<p>The assessment may include questions about:</p>
+
+<ul>
+    <li>Previous fractures and how they occurred.</li>
+    <li>Family history of osteoporosis or hip fracture.</li>
+    <li>Menopause and hormonal history.</li>
+    <li>Long-term corticosteroid or other relevant medicine use.</li>
+    <li>Smoking and alcohol intake.</li>
+    <li>Diet and physical activity.</li>
+    <li>Medical conditions that can affect bone.</li>
+    <li>Falls, balance and mobility.</li>
+    <li>Changes in height or posture.</li>
+</ul>
+
+<p>These questions matter because some factors increase fracture risk independently of bone density.</p>
+
+<h3>DXA Bone Density Scan</h3>
+
+<p>Dual-energy X-ray absorptiometry, usually called a DXA or DEXA scan, is the standard method for measuring bone mineral density.</p>
+
+<p>The hip and lumbar spine are the main sites assessed for diagnosis in most adults. The scan is quick, painless and uses a low level of radiation.</p>
+
+<p>DXA can help to:</p>
+
+<ul>
+    <li>Identify low bone density.</li>
+    <li>Support the diagnosis of osteoporosis.</li>
+    <li>Estimate fracture risk alongside clinical factors.</li>
+    <li>Provide a baseline for monitoring selected patients during treatment.</li>
+</ul>
+
+<p>DXA is extremely useful, but the result still needs clinical interpretation.</p>
+
+<h3>Understanding the T-Score</h3>
+
+<p>For postmenopausal women and men aged 50 years or older, T-scores are commonly used to describe bone density.</p>
+
+<table class="w-full">
+    <thead>
+        <tr>
+            <th>T-Score</th>
+            <th>General Interpretation</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr>
+            <td><strong>-1.0 or higher</strong></td>
+            <td>Generally within the normal bone density range.</td>
+        </tr>
+        <tr>
+            <td><strong>Between -1.0 and -2.5</strong></td>
+            <td>Low bone mass, commonly described as osteopenia.</td>
+        </tr>
+        <tr>
+            <td><strong>-2.5 or lower</strong></td>
+            <td>In the osteoporosis range.</td>
+        </tr>
+    </tbody>
+</table>
+
+<p>For postmenopausal women, osteoporosis can also be diagnosed when a fragility fracture is present, even if the BMD does not meet the -2.5 threshold.</p>
+
+<p>This is an important distinction. A fracture tells us that the skeleton has already failed under relatively low trauma, so the clinical situation cannot be judged by the DXA number alone.</p>
+
+<h3>What Is a Z-Score?</h3>
+
+<p>Z-scores compare bone density with what is expected for a person of the same age and sex. They are particularly relevant in younger adults, including premenopausal women and men younger than 50.</p>
+
+<p>A low Z-score can prompt doctors to look more carefully for an underlying medical condition, medication effect or other secondary cause of low bone density.</p>
+
+<h3>Fracture Risk Assessment</h3>
+
+<p>A fracture-risk assessment helps answer a different question from the DXA scan.</p>
+
+<p>Instead of asking only how much bone mineral is present, it estimates how likely the person is to experience a fracture over a defined period.</p>
+
+<p>FRAX is one commonly used tool. It combines clinical risk factors, with or without femoral-neck BMD, to estimate the 10-year probability of a major osteoporotic fracture and hip fracture.</p>
+
+<p>For Indian patients, an India-specific FRAX model is available. However, current Indian guidance notes limitations in its calibration and recommends interpreting fracture risk in the wider clinical context rather than relying on FRAX alone.</p>
+
+<p>Another tool, OSTA, uses age and body weight to help identify women who may be at higher risk when DXA is not immediately available. It is useful for initial risk stratification but cannot replace DXA or a full fracture-risk assessment when treatment decisions require more precise information.</p>
+
+<h2>How Is Osteoporosis Assessed in India?</h2>
+
+<p>There is an important difference between asking who should be assessed and simply offering a DXA scan to everyone.</p>
+
+<p>The 2026 Indian Menopause Society guidance recommends a <strong>targeted case-finding approach</strong> rather than population-wide DXA screening. Risk factors and clinical assessment help identify people who are more likely to benefit from further testing.</p>
+
+<p>In practice, the assessment may progress from clinical risk factors to fracture-risk estimation and, where appropriate, DXA measurement.</p>
+
+<p>This approach is particularly useful because fracture risk is not determined by bone density alone. Falls, previous fractures, age, medications and underlying medical conditions can all change the picture.</p>
+
+<p>For an Indian patient, the goal is therefore not simply to obtain a DXA number. It is to determine whether that number, together with the person\'s clinical history, represents a meaningful risk of fracture.</p>
+
+<h2>Osteoporosis Risk Factors Prevention: What Can You Do?</h2>
+
+<p>Prevention is not about trying to make bones permanently immune to ageing. The practical goal is to maintain bone and muscle health, avoid preventable bone loss and reduce the chance that a fall becomes a fracture.</p>
+
+<h3>Maintain Adequate Calcium and Vitamin D</h3>
+
+<p>Calcium is required for normal bone structure and body function. Vitamin D helps the body absorb calcium and supports bone health.</p>
+
+<p>Diet is generally the preferred source of calcium when adequate intake is possible. Supplements may be useful when dietary intake is insufficient or when a person has a specific need.</p>
+
+<p>Vitamin D supplementation should also be individualised. High-dose supplementation without a clear reason is not a substitute for proper assessment.</p>
+
+<p>For older adults and people with osteoporosis, the overall nutritional plan should also provide enough protein to support muscle health.</p>
+
+<h3>Use Exercise to Build Strength, Not Just Steps</h3>
+
+<p>Walking is useful, but bone health requires more than simply counting daily steps.</p>
+
+<p>A well-designed exercise programme may combine:</p>
+
+<ul>
+    <li>Weight-bearing activity.</li>
+    <li>Progressive resistance or strength training.</li>
+    <li>Balance exercises.</li>
+    <li>Mobility and functional exercises suited to the person\'s ability.</li>
+</ul>
+
+<p>Resistance exercise is particularly valuable because muscle strength contributes to both physical function and fall prevention.</p>
+
+<p>However, people with established osteoporosis should not copy a high-intensity exercise routine without considering fracture risk. Someone with vertebral fractures, severe osteoporosis or significant weakness may need a supervised programme with appropriate modifications.</p>
+
+<h3>Stop Smoking and Avoid Heavy Alcohol Use</h3>
+
+<p>Smoking and heavy alcohol consumption are modifiable contributors to poor bone health and fracture risk.</p>
+
+<p>Stopping smoking and reducing excessive alcohol intake therefore form part of osteoporosis prevention, alongside nutrition and exercise.</p>
+
+<h3>Reduce the Risk of Falls</h3>
+
+<p>Fall prevention is sometimes treated as a separate issue from osteoporosis. Clinically, the two are closely connected.</p>
+
+<p>If bone is fragile, a fall that would otherwise cause only a bruise can result in a fracture.</p>
+
+<p>Fall prevention may include:</p>
+
+<ul>
+    <li>Improving leg strength and balance.</li>
+    <li>Addressing vision problems.</li>
+    <li>Reviewing medicines that contribute to dizziness or drowsiness.</li>
+    <li>Improving lighting and removing trip hazards at home.</li>
+    <li>Using suitable footwear.</li>
+    <li>Using walking aids when clinically appropriate.</li>
+</ul>
+
+<h2>When Does Osteoporosis Need Treatment?</h2>
+
+<p>Not everyone with low bone density needs the same treatment.</p>
+
+<p>This is one of the most important points in osteoporosis management.</p>
+
+<p>A person with mildly reduced bone density and low overall fracture risk may need lifestyle measures and follow-up. Someone with a fragility fracture, osteoporosis-range BMD or a high estimated fracture probability may benefit from medication.</p>
+
+<p>The decision becomes more urgent when the person has features of very high fracture risk, such as a recent vertebral fracture, multiple vertebral fractures, very low BMD or other major clinical risk factors.</p>
+
+<p>In those situations, specialist assessment may be appropriate because the choice and sequence of treatment can be different.</p>
+
+<h2>Osteoporosis Risk Factors Treatment: What Are the Treatment Options?</h2>
+
+<p>The goal of treatment is not simply to increase the DXA score. The main goal is to <strong>reduce the likelihood of a future fracture</strong>.</p>
+
+<h3>Bisphosphonates</h3>
+
+<p>Bisphosphonates reduce bone breakdown and are an important first-line treatment for many people at high fracture risk.</p>
+
+<p>Examples include alendronate, risedronate and intravenous zoledronic acid.</p>
+
+<p>The choice depends on factors such as kidney function, gastrointestinal problems, ability to follow the dosing requirements, previous fracture history and patient preference.</p>
+
+<p>Bisphosphonate treatment also needs periodic review. Current guidance commonly recommends reassessing fracture risk after several years of therapy rather than assuming that treatment must continue unchanged forever.</p>
+
+<h3>Denosumab</h3>
+
+<p>Denosumab is another antiresorptive medicine that can reduce fracture risk and may be appropriate when bisphosphonates are unsuitable, not tolerated or otherwise not preferred.</p>
+
+<p>It is important to understand one practical point: denosumab should not simply be stopped or significantly delayed without a plan for subsequent bone-protective treatment. Stopping can lead to rapid increases in bone turnover and a rebound in vertebral fracture risk.</p>
+
+<p>This is one reason osteoporosis treatment should be planned as a long-term strategy rather than as a short course of injections.</p>
+
+<h3>Bone-Building Medicines for Very High Risk</h3>
+
+<p>Some patients have a fracture risk high enough that simply slowing bone loss may not be the most appropriate initial strategy.</p>
+
+<p>For selected postmenopausal women at very high fracture risk, medicines such as teriparatide, abaloparatide or romosozumab may be considered.</p>
+
+<p>These treatments are generally reserved for specific clinical situations, particularly severe osteoporosis or vertebral fracture patterns. They are not routine medicines for everyone with a low DXA result.</p>
+
+<p>Romosozumab also has important cardiovascular considerations, so it is not appropriate for every patient.</p>
+
+<p>After a course of an anabolic or bone-building treatment, an antiresorptive medicine is generally used to help maintain the bone-density gains.</p>
+
+<h3>Menopause Hormone Therapy in Selected Patients</h3>
+
+<p>For some younger postmenopausal women, menopausal hormone therapy may have a role in bone protection when the overall benefits and risks are appropriate.</p>
+
+<p>It is not a universal osteoporosis treatment. The decision depends on age, years since menopause, symptoms, cardiovascular and cancer risk, and other individual factors.</p>
+
+<h2>How Long Does Osteoporosis Treatment Continue?</h2>
+
+<p>Osteoporosis is a long-term condition, so treatment needs long-term planning.</p>
+
+<p>For oral bisphosphonates, many guidelines recommend reassessing fracture risk after about five years. For intravenous bisphosphonate treatment, reassessment is often considered after about three years.</p>
+
+<p>Some lower-risk patients may then be suitable for a monitored treatment pause. People who remain at high risk may need longer treatment.</p>
+
+<p>The decision depends on the medicine used, fracture history, age, BMD, ongoing risk factors and treatment response.</p>
+
+<p>Denosumab requires a different approach because it should not be stopped without appropriate follow-on treatment.</p>
+
+<p>Follow-up is therefore not optional. The treatment plan should be reviewed as the person\'s fracture risk changes.</p>
+
+<h2>What If Bone Density Does Not Improve Much During Treatment?</h2>
+
+<p>This can be confusing for patients.</p>
+
+<p>Osteoporosis treatment does not always produce a dramatic increase in bone density. In many patients, preventing further bone loss and reducing fracture risk are more important than achieving a large change in the DXA number.</p>
+
+<p>If bone density falls substantially or a new fracture occurs despite treatment, the answer is not automatically to switch medicines.</p>
+
+<p>Doctors may first look at adherence, calcium and vitamin D status, the possibility of an underlying condition, other medicines and whether the current treatment is appropriate for the person\'s level of fracture risk.</p>
+
+<p>This is where follow-up becomes clinically important.</p>
+
+<h2>When Should You Be Evaluated for Osteoporosis?</h2>
+
+<p>There is no single age at which every person needs a DXA scan.</p>
+
+<p>Current U.S. Preventive Services Task Force guidance recommends screening women aged 65 years or older and postmenopausal women younger than 65 who are at increased fracture risk. For men, the USPSTF currently considers the evidence insufficient to recommend routine population screening, although clinicians may use their judgement when risk factors are present.</p>
+
+<p>Indian guidance places greater emphasis on targeted case-finding rather than population-wide DXA screening.</p>
+
+<p>An assessment may be particularly important if you have:</p>
+
+<ul>
+    <li>A previous low-trauma or fragility fracture.</li>
+    <li>A parent who had a hip fracture.</li>
+    <li>Early or surgical menopause.</li>
+    <li>Long-term corticosteroid use.</li>
+    <li>Low body weight or significant unintentional weight loss.</li>
+    <li>A medical condition associated with bone loss.</li>
+    <li>Significant loss of height or a change in posture.</li>
+    <li>Repeated falls or poor balance.</li>
+    <li>A previous DXA showing low bone density.</li>
+</ul>
+
+<p>The right time for testing depends on the overall clinical picture.</p>
+
+<h2>What Happens After an Osteoporosis Diagnosis?</h2>
+
+<p>A diagnosis should not end with the sentence, "Your bone density is low."</p>
+
+<p>The next step is to understand the person\'s fracture risk and decide what can reduce it.</p>
+
+<p>A useful clinical assessment asks:</p>
+
+<ul>
+    <li>Has a fragility fracture already occurred?</li>
+    <li>How low is the bone density?</li>
+    <li>Are there additional risk factors?</li>
+    <li>Is there an underlying medical cause?</li>
+    <li>Is the person at risk of falling?</li>
+    <li>Would lifestyle measures be sufficient, or is medication needed?</li>
+    <li>If medication is needed, which treatment best matches the person\'s fracture risk and medical profile?</li>
+</ul>
+
+<p>This approach is more useful than treating every DXA result in exactly the same way.</p>
+
+<h2>The Main Takeaway About Osteoporosis</h2>
+
+<p>Osteoporosis is not simply a disease of low calcium or an unavoidable consequence of ageing.</p>
+
+<p>It is a condition in which bone strength and fracture risk can be affected by age, hormonal changes, genetics, previous fractures, body weight, medicines, medical conditions, nutrition, physical activity and falls.</p>
+
+<p>The most useful assessment therefore combines <strong>Osteoporosis Risk Factors</strong>, fracture history, bone mineral density and overall fracture risk.</p>
+
+<p>Prevention focuses on maintaining bone and muscle health, addressing modifiable risk factors and preventing falls. When fracture risk becomes high, medication may be needed. When risk is very high, the choice and sequence of treatment may need specialist input.</p>
+
+<p>The goal is not simply to improve a scan. The goal is to prevent the fracture that osteoporosis makes more likely.</p>
+
+<h2>When to Consult an Orthopaedic Specialist</h2>
+
+<p>If you have had a low-impact fracture, have several osteoporosis risk factors, have noticed significant loss of height, have persistent back pain or have been told that your bone density is low, it is worth discussing the result with a doctor rather than interpreting the DXA number on its own.</p>
+
+<p>At <strong>Akropolis Super Speciality Hospital</strong>, osteoporosis and bone-related conditions are managed through the <a href="/orthopedics">Orthopedics department</a>. You can also learn more about <a href="/doctors/dr-prateek-girotra">Dr Prateek Girotra</a> and his specialist profile.</p>
+
+<div class="my-10 rounded-2xl bg-gradient-to-r from-[#328CCB] to-[#2a7bb5] p-8 text-center text-white shadow-xl">
+    <h3 class="!mt-0 !mb-3 !border-0 !pl-0 !text-white">Concerned About Your Bone Health?</h3>
+    <p class="!mb-6 !text-white">If you have osteoporosis risk factors, a previous low-impact fracture or concerns about your bone density, a clinical assessment can help determine whether you need further testing or treatment.</p>
+    <a href="/contact" class="article-cta inline-block rounded-full bg-[#D66C43] px-8 py-3 font-bold no-underline transition-all hover:bg-[#c55a36]" style="color:#ffffff !important; text-decoration:none !important;">Book a Consultation</a>
+</div>
+
+<h2>Medical References and Further Reading</h2>
+
+<p>The following sources were reviewed while preparing this article. They are provided for patient education and do not replace an individual medical assessment.</p>
+
+<ul>
+    <li>
+        <a href="https://pmc.ncbi.nlm.nih.gov/articles/PMC12948155/" target="_blank" rel="noopener noreferrer"><strong>Indian Menopause Society: Clinical Practice Guidelines for Menopause 2026</strong></a><br>
+        Provides guidance on osteoporosis risk assessment, DXA, FRAX, OSTA, prevention and treatment in the Indian context.
+    </li>
+    <li>
+        <a href="https://www.niams.nih.gov/health-topics/osteoporosis" target="_blank" rel="noopener noreferrer"><strong>NIAMS: Osteoporosis</strong></a><br>
+        Provides information on osteoporosis, bone density testing, risk factors, prevention and treatment.
+    </li>
+    <li>
+        <a href="https://medlineplus.gov/osteoporosis.html" target="_blank" rel="noopener noreferrer"><strong>MedlinePlus: Osteoporosis</strong></a><br>
+        Provides patient-focused information on osteoporosis, including symptoms, causes, diagnosis, prevention and treatment.
+    </li>
+    <li>
+        <a href="https://www.uspreventiveservicestaskforce.org/uspstf/recommendation/osteoporosis-screening" target="_blank" rel="noopener noreferrer"><strong>U.S. Preventive Services Task Force: Osteoporosis Screening</strong></a><br>
+        Provides the 2025 recommendation on screening for osteoporosis to prevent fractures. :chatgpt-content-reference{index="1"}
+    </li>
+    <li>
+        <a href="https://www.nogg.org.uk/full-guideline" target="_blank" rel="noopener noreferrer"><strong>National Osteoporosis Guideline Group: Clinical Guideline for the Prevention and Treatment of Osteoporosis</strong></a><br>
+        Provides the 2024 clinical guideline covering fracture-risk assessment, prevention, treatment and monitoring. :chatgpt-content-reference{index="2"}
+    </li>
+    <li>
+        <a href="https://www.endocrine.org/clinical-practice-guidelines/osteoporosis-in-postmenopausal-women" target="_blank" rel="noopener noreferrer"><strong>Endocrine Society: Pharmacological Management of Osteoporosis in Postmenopausal Women</strong></a><br>
+        Provides clinical guidance on pharmacological treatment, fracture-risk reassessment and treatment monitoring. :chatgpt-content-reference{index="3"}
+    </li>
+    <li>
+        <a href="https://my.clevelandclinic.org/health/diseases/4443-osteoporosis" target="_blank" rel="noopener noreferrer"><strong>Cleveland Clinic: Osteoporosis</strong></a><br>
+        Provides patient-focused information on osteoporosis symptoms, risk factors, diagnosis and treatment. :chatgpt-content-reference{index="4"}
+    </li>
+</ul>
+
+<div class="my-8 rounded-2xl border border-gray-200 bg-gray-50 p-6 text-sm text-gray-700">
+    <strong>Medical Disclaimer:</strong> This article is intended for general educational purposes only. It does not replace professional medical advice, diagnosis or treatment. Osteoporosis and fracture risk vary between individuals. A healthcare professional should consider your medical history, fracture history, bone density, medications and other risk factors before recommending a treatment plan.
+</div>'
+],
+
+[
     'slug' => 'heel-pain-while-walking-causes-treatment',
     'title' => 'Heel Pain While Walking: Causes and Treatment',
     'excerpt' => 'Heel pain while walking can make standing, exercising and everyday activities uncomfortable. Learn about common heel pain causes, plantar fasciitis, diagnosis, treatment options and when to consult an orthopaedic specialist.',
     'image' => '/assets/images/blog/English/heel-pain-causes-treatment.webp',
     'image_alt' => 'Medical illustration showing the plantar fascia and common areas of heel pain',
-    'author' => 'Dr Prateek Girotra',
+    'author' => 'Dr. Prateek Girotra',
     'category' => 'Orthopedics',
     'tags' => [
         'Heel Pain',
