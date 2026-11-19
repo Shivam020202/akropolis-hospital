@@ -336,7 +336,7 @@ $blogs = [
 
 <p><strong>Heel Pain Treatment</strong> should depend on the structure involved, the duration of symptoms and the effect on daily activity.</p>
 
-<p>For common plantar heel pain, current clinical guidance supports a combination of education, appropriate activity modification, plantar fascia and calf stretching, progressive strengthening and other targeted physical therapy measures. Orthoses may be useful as part of a broader treatment plan rather than as the only treatment. :chatgpt-content-reference{index="1"}</p>
+<p>For common plantar heel pain, current clinical guidance supports a combination of education, appropriate activity modification, plantar fascia and calf stretching, progressive strengthening and other targeted physical therapy measures. Orthoses may be useful as part of a broader treatment plan rather than as the only treatment.</p>
 
 <p>The goal is not simply to stop the pain for a few days. The goal is to improve the foot&rsquo;s ability to tolerate normal loading again.</p>
 
@@ -360,7 +360,7 @@ $blogs = [
 
 <h3>2. Stretch the Plantar Fascia and Calf</h3>
 
-<p>Stretching is one of the better-supported components of rehabilitation for plantar heel pain. The 2023 clinical practice guideline specifically recommends plantar fascia-specific stretching and gastrocnemius and soleus stretching for improving pain and function. :chatgpt-content-reference{index="2"}</p>
+<p>Stretching is one of the better-supported components of rehabilitation for plantar heel pain. The 2023 clinical practice guideline specifically recommends plantar fascia-specific stretching and gastrocnemius and soleus stretching for improving pain and function.</p>
 
 <p>Examples include:</p>
 
@@ -385,7 +385,7 @@ $blogs = [
     <li>Gradual return to running or sport when appropriate.</li>
 </ul>
 
-<p>Current clinical guidance supports therapeutic exercise that includes resistance training for the foot and ankle musculature as part of management for plantar heel pain. :chatgpt-content-reference{index="3"}</p>
+<p>Current clinical guidance supports therapeutic exercise that includes resistance training for the foot and ankle musculature as part of management for plantar heel pain.</p>
 
 <p>This is one reason why simply resting until the pain disappears may not be enough for someone who wants to return to regular running or sport.</p>
 
@@ -395,7 +395,7 @@ $blogs = [
 
 <p>A physiotherapist can assess ankle mobility, foot strength, movement patterns and the amount of load your foot is currently able to tolerate. Treatment may then combine exercise, manual therapy, education and other appropriate techniques.</p>
 
-<p>The 2023 clinical practice guideline supports manual therapy for relevant joint and soft-tissue restrictions and recommends it alongside other rehabilitation measures when appropriate. :chatgpt-content-reference{index="4"}</p>
+<p>The 2023 clinical practice guideline supports manual therapy for relevant joint and soft-tissue restrictions and recommends it alongside other rehabilitation measures when appropriate.</p>
 
 <p>The aim is to improve function, not simply provide temporary pain relief.</p>
 
@@ -420,13 +420,13 @@ $blogs = [
 
 <p>Insoles and orthoses can sometimes reduce discomfort by changing how load is distributed through the foot.</p>
 
-<p>However, current evidence does not support using an orthosis as the only treatment for short-term plantar fasciitis relief. Orthoses may be useful when combined with other treatments such as stretching and exercise. :chatgpt-content-reference{index="5"}</p>
+<p>However, current evidence does not support using an orthosis as the only treatment for short-term plantar fasciitis relief. Orthoses may be useful when combined with other treatments such as stretching and exercise.</p>
 
 <p>That means an expensive custom device is not automatically better simply because it is custom made. The decision should be based on the person&rsquo;s symptoms, foot mechanics, comfort and overall treatment plan.</p>
 
 <h3>7. Taping Can Provide Short-Term Support</h3>
 
-<p>Foot taping may provide short-term improvements in pain and function when used alongside other rehabilitation measures. The 2023 clinical practice guideline supports rigid or elastic taping as part of a broader treatment programme. :chatgpt-content-reference{index="6"}</p>
+<p>Foot taping may provide short-term improvements in pain and function when used alongside other rehabilitation measures. The 2023 clinical practice guideline supports rigid or elastic taping as part of a broader treatment programme.</p>
 
 <p>Taping is therefore better viewed as one tool within rehabilitation rather than a permanent solution to the underlying problem.</p>
 
@@ -434,7 +434,7 @@ $blogs = [
 
 <p>Some people continue to experience significant pain with their first steps in the morning despite other measures.</p>
 
-<p>For these patients, a night splint may be considered. The 2023 clinical practice guideline recommends a 1 to 3 month programme of night splints for people with heel pain or plantar fasciitis who consistently have first-step pain in the morning. :chatgpt-content-reference{index="7"}</p>
+<p>For these patients, a night splint may be considered. The 2023 clinical practice guideline recommends a 1 to 3 month programme of night splints for people with heel pain or plantar fasciitis who consistently have first-step pain in the morning.</p>
 
 <p>Night splints are not necessary for everyone. They are most relevant when the morning first-step pattern remains a significant problem.</p>
 
@@ -454,7 +454,7 @@ $blogs = [
 
 <p><strong>Corticosteroid injections</strong> may provide short-term relief in selected cases, but they also have potential risks. Repeated injections around the plantar fascia can weaken the tissue and may increase the risk of rupture or changes to the heel fat pad.</p>
 
-<p><strong>Extracorporeal shockwave therapy</strong> is another option sometimes considered for persistent plantar heel pain. However, the evidence for its effectiveness remains inconsistent, and current NICE guidance recommends special arrangements around governance, consent and audit when it is used for refractory plantar fasciitis. :chatgpt-content-reference{index="8"}</p>
+<p><strong>Extracorporeal shockwave therapy</strong> is another option sometimes considered for persistent plantar heel pain. However, the evidence for its effectiveness remains inconsistent, and current NICE guidance recommends special arrangements around governance, consent and audit when it is used for refractory plantar fasciitis.</p>
 
 <p>This is why the appropriate question is not simply "Which advanced treatment should I take?" It is "Has the diagnosis been confirmed, and is this treatment appropriate for my particular problem?"</p>
 
@@ -511,7 +511,7 @@ $blogs = [
 
 <p>That is why the location and behaviour of the pain matter. Pain under the heel with first-step discomfort points towards plantar fasciitis, while pain at the back of the heel may suggest an Achilles or bursal problem. Pain after an injury, inability to bear weight, neurological symptoms or significant swelling changes the clinical picture and may require a different evaluation.</p>
 
-<p>For common plantar heel pain, treatment is usually built around reducing aggravating loads, improving flexibility, strengthening the foot and ankle and gradually restoring normal activity. Current clinical guidance supports plantar fascia and calf stretching, therapeutic exercise and appropriate physical therapy, while orthoses and other measures can be added when they fit the individual treatment plan. :chatgpt-content-reference{index="9"}</p>
+<p>For common plantar heel pain, treatment is usually built around reducing aggravating loads, improving flexibility, strengthening the foot and ankle and gradually restoring normal activity. Current clinical guidance supports plantar fascia and calf stretching, therapeutic exercise and appropriate physical therapy, while orthoses and other measures can be added when they fit the individual treatment plan.</p>
 
 <p>The goal should not be to find the quickest treatment available. It should be to understand why the heel is hurting and choose treatment that addresses that reason.</p>
 
@@ -560,8 +560,8 @@ $blogs = [
 
 <div class="my-8 rounded-2xl border border-gray-200 bg-gray-50 p-6 text-sm text-gray-700">
     <strong>Medical Disclaimer:</strong> This article is intended for general educational purposes only. It does not replace professional medical advice, diagnosis or treatment. Heel pain can have several causes, and similar symptoms may require very different treatments. Consult a qualified healthcare professional for an appropriate examination and treatment plan based on your condition.
-</div>
-'
+</div>'
+
 ],
 
 [
