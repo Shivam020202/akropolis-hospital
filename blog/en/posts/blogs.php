@@ -3501,11 +3501,9 @@ This article is for general educational purposes only and does not replace profe
     'content' => '<div class="quick-answer my-6 rounded-xl border-l-4 border-[#328CCB] bg-blue-50 p-5">
 <h2 class="!mt-0">Quick Answer</h2>
 
-<p>There is no single price for knee replacement surgery in India. The final cost depends on the type of replacement required, the implant selected, hospital facilities, surgeon and anesthesia fees, room category, investigations, the patient’s general health, and the rehabilitation required after surgery. Published estimates commonly fall in the range of approximately ₹1.5 lakh to ₹5.5 lakh or more per knee, but this should be used only for general financial planning, not as a quotation for an individual patient.</p>
+<p>Knee replacement surgery in India can cost approximately <strong>₹1.5 lakh to ₹5.5 lakh or more per knee</strong>, depending on the hospital, implant, procedure, room category, surgeon fees, and medical requirements. The actual cost varies from patient to patient, so a published range should not be treated as a fixed quotation.</p>
 
-<p>From a patient’s point of view, the important question is not simply, <strong>“How much does knee replacement cost?”</strong> It is, <strong>“What exactly is included in the amount I have been quoted?”</strong> Two hospitals can quote different prices for what appears to be the same operation because their implants, room categories, professional fees, investigations, hospital services, and rehabilitation support may be different.</p>
-
-<p>Before booking surgery, ask for a written and itemized estimate. It should make clear what is included, what may be charged separately, and what could increase the final bill if additional medical care is required.</p>
+<p>Before choosing a hospital, ask for a written estimate showing exactly what is included, what is charged separately, and what additional costs may arise during treatment and recovery.</p>
 </div>
 
 <p>When knee arthritis becomes advanced, the problem is not simply knee pain. Patients may gradually find that walking, climbing stairs, getting up from a chair, sleeping comfortably, or even completing routine household activities becomes difficult. Medicines, physiotherapy, activity modification, injections, or other non-surgical measures may provide relief for a period of time. When these measures no longer provide adequate relief and the joint damage is significant, knee replacement may become a treatment option.</p>
