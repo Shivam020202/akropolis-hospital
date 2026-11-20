@@ -1232,7 +1232,7 @@ include __DIR__ . '/../includes/head.php';
                                         class="inline-flex items-center justify-center gap-2 min-h-[42px] px-4 py-2 rounded-xl bg-white border border-[#328CCB]/20 text-[#328CCB] text-sm font-semibold hover:bg-[#328CCB] hover:text-white transition-all duration-200"
                                         aria-label="View published article"
                                     >
-                                      <?php echo getIcon('ArrowUpRight', 'w-5 h-5 shrink-0'); ?>
+                                      <?php echo getIcon('ExternalLink', 'w-4 h-4 shrink-0'); ?>
                                         <span>View Article</span>
                                     </a>
 
