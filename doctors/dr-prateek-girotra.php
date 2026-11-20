@@ -1188,7 +1188,8 @@ $publications = array_values(
     )
 );
 
-<?php foreach ($publications as $index => $publication): ?>
+foreach ($publications as $index => $publication):
+?>
 
     <article class="bg-[#F7FAFC] rounded-2xl border border-gray-100 p-6 flex flex-col justify-between">
 
