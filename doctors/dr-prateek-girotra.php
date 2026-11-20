@@ -1129,24 +1129,57 @@ include __DIR__ . '/../includes/head.php';
 
             <?php
             $publications = [
+    'Functional outcome of locking compression plate in the management of proximal tibia fracture. Int. J. Orthop. Sci. 2020;6(1):152-156.',
 
-                'Functional outcome of locking compression plate in the management of proximal tibia fracture — International Journal of Orthopaedic Sciences, 2020; 6(1):152–156.',
+    'Arthroscopic repair of rotator cuff tears: analysis and functional outcome — International Journal of Research in Orthopaedics, 2020.',
 
-                'Arthroscopic repair of rotator cuff tears: analysis and functional outcome — International Journal of Research in Orthopaedics, 2020.',
+    'Demographic profile and functional outcome following fixation of malleolar fractures in adults — International Journal of Research in Orthopaedics, March 2020.',
 
-                'Demographic profile and functional outcome following fixation of malleolar fractures in adults — International Journal of Research in Orthopaedics, March 2020.',
+    'A Comparative Study of Operative Management of Intraarticular Fracture Distal end of Radius (External Fixator Versus ORIF with Buttress Plating). Int J Med Res Prof. 2019 Sept; 5(5):45-49.',
 
-                'Comparative study of operative management of intra-articular distal radius fractures — IJMRP, September 2019.',
+    'Evaluation of effectiveness of Ponseti’s method in the clubfoot management under 1-year children: a prospective study. International Journal of Research in Orthopaedics, 2021;7(2):228-233.',
 
-                'Evaluation of Ponseti Method in clubfoot management.',
+    'Comparison of functional outcome of arthroscopic anterior cruciate ligament reconstruction using an autologous four-strand single semitendinosus tendon versus semitendinosus and gracilis tendon graft. Int. J. Orthop. Sci. 2020;6(1):622-627.',
 
-                'ACL reconstruction outcomes: semitendinosus vs gracilis grafts — International Journal of Orthopaedic Sciences, 2020.',
+    'Arthroscopic assisted mini-open single row repair of rotator cuff tears: a quality of life impairment study. Int. J. Orthop. Sci. 2020;6(1):1351-1355.',
 
-                'Arthroscopic assisted mini-open rotator cuff repair: QoL study.',
+    'Transportal single bundle ACL reconstruction with quadruple hamstring graft using suspensory femoral and hybrid tibial fixation: A prospective study. Int. J. Orthop. Sci. 2020;6(1):1089-1098.'
+];
 
-                'Transportal single bundle ACL reconstruction using quadruple hamstring graft — International Journal of Orthopaedic Sciences, 2022.'
-
-            ];
+$publication_links = [
+    [
+        'article' => 'https://www.orthopaper.com/archives/2020.v6.i1.1852/functional-outcome-of-locking-compression-plate-in-the-management-of-proximal-tibia-fracture',
+        'pdf' => 'https://www.orthopaper.com/archives/2020/vol6issue1/PartC/6-1-28-333.pdf'
+    ],
+    [
+        'article' => 'https://www.ijoro.org/index.php/ijoro/article/view/1463',
+        'pdf' => 'https://www.ijoro.org/index.php/ijoro/article/view/1463/811'
+    ],
+    [
+        'article' => 'https://www.ijoro.org/index.php/ijoro/article/view/1416',
+        'pdf' => 'https://www.ijoro.org/index.php/ijoro/article/view/1416/794'
+    ],
+    [
+        'article' => null,
+        'pdf' => 'https://www.ijmrp.com/Admin_Portal/Upload/Vol5Issue5/9%20IJMRP%205%285%29%2045-49.pdf'
+    ],
+    [
+        'article' => 'https://www.ijoro.org/index.php/ijoro/article/view/1886/0',
+        'pdf' => 'https://www.ijoro.org/index.php/ijoro/article/view/1886/1059'
+    ],
+    [
+        'article' => 'https://www.orthopaper.com/archives/2020.v6.i1.3012/comparison-of-functional-outcome-of-arthroscopic-anterior-cruciate-ligament-reconstruction-using-an-autologous-four-strand-single-semitendinosus-tendon-versus-semitendinosus-and-gracilis-tendon-graft',
+        'pdf' => 'https://www.orthopaper.com/archives/2020/vol6issue1/PartK/8-1-45-457.pdf'
+    ],
+    [
+        'article' => 'https://www.orthopaper.com/archives/2020.v6.i1.3014/arthroscopic-assisted-mini-open-single-row-repair-of-rotator-cuff-tears-a-quality-of-life-impairment-study',
+        'pdf' => 'https://www.orthopaper.com/archives/2020/vol6issue1/PartR/8-1-46-934.pdf'
+    ],
+    [
+        'article' => 'https://www.orthopaper.com/archives/2020.v6.i1.3019/transportal-single-bundle-acl-reconstruction-with-quadruple-hamstring-graft-using-suspensory-femoral-and-hybrid-tibial-fixation-a-prospective-study',
+        'pdf' => 'https://www.orthopaper.com/archives/2020/vol6issue1/PartN/8-1-49-351.pdf'
+    ]
+];
 
 $publications = array_values(
     array_filter(
@@ -1155,22 +1188,61 @@ $publications = array_values(
     )
 );
 
-foreach ($publications as $publication):
-?>
+<?php foreach ($publications as $index => $publication): ?>
 
-                <article class="flex gap-4 bg-[#F7FAFC] rounded-2xl border border-gray-100 p-6">
+    <article class="bg-[#F7FAFC] rounded-2xl border border-gray-100 p-6 flex flex-col justify-between">
 
-                    <div class="w-9 h-9 shrink-0 rounded-lg bg-white text-[#328CCB] flex items-center justify-center shadow-sm">
+        <div class="flex gap-4">
+
+            <div class="w-9 h-9 shrink-0 rounded-lg bg-white text-[#328CCB] flex items-center justify-center shadow-sm">
+                <?php echo getIcon('FileText', 'w-4 h-4'); ?>
+            </div>
+
+            <p class="text-gray-700 leading-7">
+                <?php echo htmlspecialchars($publication, ENT_QUOTES, 'UTF-8'); ?>
+            </p>
+
+        </div>
+
+        <?php if (!empty($publication_links[$index]['article']) || !empty($publication_links[$index]['pdf'])): ?>
+
+            <div class="mt-5 ml-13 flex flex-wrap gap-3">
+
+                <?php if (!empty($publication_links[$index]['article'])): ?>
+
+                    <a
+                        href="<?php echo htmlspecialchars($publication_links[$index]['article'], ENT_QUOTES, 'UTF-8'); ?>"
+                        target="_blank"
+                        rel="noopener noreferrer"
+                        class="inline-flex items-center gap-2 text-sm font-semibold text-[#328CCB] hover:text-[#1f6fa8] transition-colors"
+                    >
+                        <?php echo getIcon('ExternalLink', 'w-4 h-4'); ?>
+                        View Article
+                    </a>
+
+                <?php endif; ?>
+
+                <?php if (!empty($publication_links[$index]['pdf'])): ?>
+
+                    <a
+                        href="<?php echo htmlspecialchars($publication_links[$index]['pdf'], ENT_QUOTES, 'UTF-8'); ?>"
+                        target="_blank"
+                        rel="noopener noreferrer"
+                        class="inline-flex items-center gap-2 text-sm font-semibold text-gray-600 hover:text-[#328CCB] transition-colors"
+                    >
                         <?php echo getIcon('FileText', 'w-4 h-4'); ?>
-                    </div>
+                        Original Research PDF
+                    </a>
 
-                    <p class="text-gray-700 leading-7">
-                        <?php echo htmlspecialchars($publication, ENT_QUOTES, 'UTF-8'); ?>
-                    </p>
+                <?php endif; ?>
 
-                </article>
+            </div>
 
-            <?php endforeach; ?>
+        <?php endif; ?>
+
+    </article>
+
+<?php endforeach; ?>
 
         </div>
 
