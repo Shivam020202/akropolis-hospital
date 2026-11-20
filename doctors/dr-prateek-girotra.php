@@ -1106,10 +1106,65 @@ include __DIR__ . '/../includes/head.php';
 
     <div class="container mx-auto px-4 max-w-6xl">
 
+        <?php
+        $publications = [
+            [
+                'title' => 'Functional outcome of locking compression plate in the management of proximal tibia fracture. Int. J. Orthop. Sci. 2020;6(1):152-156.',
+                'article_url' => 'https://www.orthopaper.com/archives/2020.v6.i1.1852/functional-outcome-of-locking-compression-plate-in-the-management-of-proximal-tibia-fracture',
+                'pdf_url' => 'https://www.orthopaper.com/archives/2020/vol6issue1/PartC/6-1-28-333.pdf',
+            ],
+            [
+                'title' => 'Jacob, R. V., Girotra, P., & Prashanth Kumar, K. (2020). Arthroscopic repair of rotator cuff tears: analysis and functional outcome. International Journal of Research in Orthopaedics, 6(2), 256–259.',
+                'article_url' => 'https://www.ijoro.org/index.php/ijoro/article/view/1463',
+                'pdf_url' => 'https://www.ijoro.org/index.php/ijoro/article/view/1463/811',
+            ],
+            [
+                'title' => 'Jacob, R. V., Kumar, S., Singh, N. K., & Girotra, P. (2020). Demographic profile and functional outcome following fixation of malleolar fractures in adults. International Journal of Research in Orthopaedics, 6(2), 313–318.',
+                'article_url' => 'https://www.ijoro.org/index.php/ijoro/article/view/1416',
+                'pdf_url' => 'https://www.ijoro.org/index.php/ijoro/article/view/1416/794',
+            ],
+            [
+                'title' => 'Naveen Kumar Singh, Nishat Setia, Prateek Girotra, Ravindra Singh. A Comparative Study of Operative Management of Intraarticular Fracture Distal end of Radius (External Fixator Versus ORIF with Buttress Plating). Int J Med Res Prof. 2019 Sept; 5(5):45-49.',
+                'article_url' => '',
+                'pdf_url' => 'https://www.ijmrp.com/Admin_Portal/Upload/Vol5Issue5/9%20IJMRP%205%285%29%2045-49.pdf',
+            ],
+            [
+                'title' => 'Girotra, P., Kumar, K. P., & Jacob, R. V. (2021). Evaluation of effectiveness of Ponseti’s method in the clubfoot management under 1-year children: a prospective study. International Journal of Research in Orthopaedics, 7(2), 228–233.',
+                'article_url' => 'https://www.ijoro.org/index.php/ijoro/article/view/1886/0',
+                'pdf_url' => 'https://www.ijoro.org/index.php/ijoro/article/view/1886/1059',
+            ],
+            [
+                'title' => 'Prateek Girotra, Varun Gautam and Anu Nagpal. Comparison of functional outcome of arthroscopic anterior cruciate ligament reconstruction using an autologous four-strand single semitendinosus tendon versus semitendinosus and gracilis tendon graft. Int. J. Orthop. Sci. 2020;6(1):622-627.',
+                'article_url' => 'https://www.orthopaper.com/archives/2020.v6.i1.3012/comparison-of-functional-outcome-of-arthroscopic-anterior-cruciate-ligament-reconstruction-using-an-autologous-four-strand-single-semitendinosus-tendon-versus-semitendinosus-and-gracilis-tendon-graft',
+                'pdf_url' => 'https://www.orthopaper.com/archives/2020/vol6issue1/PartK/8-1-45-457.pdf',
+            ],
+            [
+                'title' => 'Varun Gautam, Prateek Girotra and Anu Nagpal. Arthroscopic assisted mini-open single row repair of rotator cuff tears: a quality of life impairment study. Int. J. Orthop. Sci. 2020;6(1):1351-1355.',
+                'article_url' => 'https://www.orthopaper.com/archives/2020.v6.i1.3014/arthroscopic-assisted-mini-open-single-row-repair-of-rotator-cuff-tears-a-quality-of-life-impairment-study',
+                'pdf_url' => 'https://www.orthopaper.com/archives/2020/vol6issue1/PartR/8-1-46-934.pdf',
+            ],
+            [
+                'title' => 'Dr. Varun Gautam, Dr. Anu Nagpal and Dr. Prateek Girotra. Transportal single bundle ACL reconstruction with quadruple hamstring graft using suspensory femoral and hybrid tibial fixation: A prospective study. Int. J. Orthop. Sci. 2020;6(1):1089-1098.',
+                'article_url' => 'https://www.orthopaper.com/archives/2020.v6.i1.3019/transportal-single-bundle-ACL-reconstruction-with-quadruple-hamstring-graft-using-suspensory-femoral-and-hybrid-tibial-fixation-a-prospective-study',
+                'pdf_url' => 'https://www.orthopaper.com/archives/2020/vol6issue1/PartN/8-1-49-351.pdf',
+            ],
+        ];
+
+        $publications = array_values(
+            array_filter(
+                $publications,
+                fn($publication) =>
+                    is_array($publication)
+                    && trim((string)($publication['title'] ?? '')) !== ''
+            )
+        );
+        ?>
+
+        <!-- Section Header -->
         <div class="max-w-3xl mb-12">
 
             <span class="inline-flex items-center gap-2 text-[#328CCB] bg-blue-50 rounded-full px-4 py-2 text-sm font-semibold mb-4">
-                <?php echo getIcon('FileText', 'w-4 h-4'); ?>
+                <?php echo getIcon('BookOpen', 'w-4 h-4'); ?>
                 Academic Work
             </span>
 
@@ -1117,133 +1172,97 @@ include __DIR__ . '/../includes/head.php';
                 Research &amp; Publications
             </h2>
 
-            <p class="text-gray-600 text-lg">
-                Dr. Prateek Girotra has published research on fracture management, arthroscopic surgery, rotator cuff repair, ACL reconstruction, and paediatric orthopaedics, with his work appearing in orthopaedic and medical research journals.
+            <p class="text-gray-600 text-lg leading-8">
+                Dr. Prateek Girotra has contributed to orthopaedic research covering fracture management, arthroscopic surgery, rotator cuff repair, ACL reconstruction, and paediatric orthopaedics, with research published in peer-reviewed medical journals.
             </p>
 
         </div>
 
 
-        <div class="grid md:grid-cols-2 gap-5">
+        <!-- Publications Grid -->
+        <div class="grid grid-cols-1 md:grid-cols-2 gap-5">
+
+            <?php foreach ($publications as $publication): ?>
+
+                <?php
+                $articleUrl = trim((string)($publication['article_url'] ?? ''));
+                $pdfUrl = trim((string)($publication['pdf_url'] ?? ''));
+                ?>
+
+                <article
+                    class="bg-[#F7FAFC] rounded-2xl border border-gray-100 p-6 flex flex-col justify-between transition-all duration-300 hover:shadow-md hover:border-[#328CCB]/20"
+                >
+
+                    <!-- Publication Content -->
+                    <div class="flex items-start gap-4">
+
+                        <div
+                            class="w-11 h-11 shrink-0 rounded-xl bg-white text-[#328CCB] flex items-center justify-center shadow-sm border border-gray-100"
+                            aria-hidden="true"
+                        >
+                            <?php echo getIcon('FileText', 'w-5 h-5'); ?>
+                        </div>
+
+                        <p class="text-gray-700 leading-7">
+                            <?php
+                            echo htmlspecialchars(
+                                $publication['title'],
+                                ENT_QUOTES,
+                                'UTF-8'
+                            );
+                            ?>
+                        </p>
+
+                    </div>
 
 
-            <?php
-            $publications = [
-    'Functional outcome of locking compression plate in the management of proximal tibia fracture. Int. J. Orthop. Sci. 2020;6(1):152-156.',
+                    <!-- Publication Links -->
+                    <?php if ($articleUrl !== '' || $pdfUrl !== ''): ?>
 
-    'Arthroscopic repair of rotator cuff tears: analysis and functional outcome — International Journal of Research in Orthopaedics, 2020.',
+                        <div class="mt-6 pt-4 border-t border-gray-200">
 
-    'Demographic profile and functional outcome following fixation of malleolar fractures in adults — International Journal of Research in Orthopaedics, March 2020.',
+                            <div class="flex flex-wrap items-center justify-center gap-3">
 
-    'A Comparative Study of Operative Management of Intraarticular Fracture Distal end of Radius (External Fixator Versus ORIF with Buttress Plating). Int J Med Res Prof. 2019 Sept; 5(5):45-49.',
+                                <?php if ($articleUrl !== ''): ?>
 
-    'Evaluation of effectiveness of Ponseti’s method in the clubfoot management under 1-year children: a prospective study. International Journal of Research in Orthopaedics, 2021;7(2):228-233.',
+                                    <a
+                                        href="<?php echo htmlspecialchars($articleUrl, ENT_QUOTES, 'UTF-8'); ?>"
+                                        target="_blank"
+                                        rel="noopener noreferrer"
+                                        class="inline-flex items-center justify-center gap-2 min-h-[42px] px-4 py-2 rounded-xl bg-white border border-[#328CCB]/20 text-[#328CCB] text-sm font-semibold hover:bg-[#328CCB] hover:text-white transition-all duration-200"
+                                        aria-label="View published article"
+                                    >
+                                        <?php echo getIcon('ExternalLink', 'w-4 h-4 shrink-0'); ?>
+                                        <span>View Article</span>
+                                    </a>
 
-    'Comparison of functional outcome of arthroscopic anterior cruciate ligament reconstruction using an autologous four-strand single semitendinosus tendon versus semitendinosus and gracilis tendon graft. Int. J. Orthop. Sci. 2020;6(1):622-627.',
+                                <?php endif; ?>
 
-    'Arthroscopic assisted mini-open single row repair of rotator cuff tears: a quality of life impairment study. Int. J. Orthop. Sci. 2020;6(1):1351-1355.',
 
-    'Transportal single bundle ACL reconstruction with quadruple hamstring graft using suspensory femoral and hybrid tibial fixation: A prospective study. Int. J. Orthop. Sci. 2020;6(1):1089-1098.'
-];
+                                <?php if ($pdfUrl !== ''): ?>
 
-$publication_links = [
-    [
-        'article' => 'https://www.orthopaper.com/archives/2020.v6.i1.1852/functional-outcome-of-locking-compression-plate-in-the-management-of-proximal-tibia-fracture',
-        'pdf' => 'https://www.orthopaper.com/archives/2020/vol6issue1/PartC/6-1-28-333.pdf'
-    ],
-    [
-        'article' => 'https://www.ijoro.org/index.php/ijoro/article/view/1463',
-        'pdf' => 'https://www.ijoro.org/index.php/ijoro/article/view/1463/811'
-    ],
-    [
-        'article' => 'https://www.ijoro.org/index.php/ijoro/article/view/1416',
-        'pdf' => 'https://www.ijoro.org/index.php/ijoro/article/view/1416/794'
-    ],
-    [
-        'article' => null,
-        'pdf' => 'https://www.ijmrp.com/Admin_Portal/Upload/Vol5Issue5/9%20IJMRP%205%285%29%2045-49.pdf'
-    ],
-    [
-        'article' => 'https://www.ijoro.org/index.php/ijoro/article/view/1886/0',
-        'pdf' => 'https://www.ijoro.org/index.php/ijoro/article/view/1886/1059'
-    ],
-    [
-        'article' => 'https://www.orthopaper.com/archives/2020.v6.i1.3012/comparison-of-functional-outcome-of-arthroscopic-anterior-cruciate-ligament-reconstruction-using-an-autologous-four-strand-single-semitendinosus-tendon-versus-semitendinosus-and-gracilis-tendon-graft',
-        'pdf' => 'https://www.orthopaper.com/archives/2020/vol6issue1/PartK/8-1-45-457.pdf'
-    ],
-    [
-        'article' => 'https://www.orthopaper.com/archives/2020.v6.i1.3014/arthroscopic-assisted-mini-open-single-row-repair-of-rotator-cuff-tears-a-quality-of-life-impairment-study',
-        'pdf' => 'https://www.orthopaper.com/archives/2020/vol6issue1/PartR/8-1-46-934.pdf'
-    ],
-    [
-        'article' => 'https://www.orthopaper.com/archives/2020.v6.i1.3019/transportal-single-bundle-acl-reconstruction-with-quadruple-hamstring-graft-using-suspensory-femoral-and-hybrid-tibial-fixation-a-prospective-study',
-        'pdf' => 'https://www.orthopaper.com/archives/2020/vol6issue1/PartN/8-1-49-351.pdf'
-    ]
-];
+                                    <a
+                                        href="<?php echo htmlspecialchars($pdfUrl, ENT_QUOTES, 'UTF-8'); ?>"
+                                        target="_blank"
+                                        rel="noopener noreferrer"
+                                        class="inline-flex items-center justify-center gap-2 min-h-[42px] px-4 py-2 rounded-xl bg-white border border-gray-200 text-gray-700 text-sm font-semibold hover:border-[#328CCB]/30 hover:text-[#328CCB] transition-all duration-200"
+                                        aria-label="View original research article PDF"
+                                    >
+                                        <?php echo getIcon('FileDown', 'w-4 h-4 shrink-0'); ?>
+                                        <span>Original Research PDF</span>
+                                    </a>
 
-$publications = array_values(
-    array_filter(
-        $publications,
-        fn($publication) => trim((string) $publication) !== ''
-    )
-);
+                                <?php endif; ?>
 
-foreach ($publications as $index => $publication):
-?>
+                            </div>
 
-    <article class="bg-[#F7FAFC] rounded-2xl border border-gray-100 p-6 flex flex-col justify-between">
+                        </div>
 
-        <div class="flex gap-4">
+                    <?php endif; ?>
 
-            <div class="w-9 h-9 shrink-0 rounded-lg bg-white text-[#328CCB] flex items-center justify-center shadow-sm">
-                <?php echo getIcon('FileText', 'w-4 h-4'); ?>
-            </div>
+                </article>
 
-            <p class="text-gray-700 leading-7">
-                <?php echo htmlspecialchars($publication, ENT_QUOTES, 'UTF-8'); ?>
-            </p>
-
-        </div>
-
-        <?php if (!empty($publication_links[$index]['article']) || !empty($publication_links[$index]['pdf'])): ?>
-
-            <div class="mt-5 ml-13 flex flex-wrap gap-3">
-
-                <?php if (!empty($publication_links[$index]['article'])): ?>
-
-                    <a
-                        href="<?php echo htmlspecialchars($publication_links[$index]['article'], ENT_QUOTES, 'UTF-8'); ?>"
-                        target="_blank"
-                        rel="noopener noreferrer"
-                        class="inline-flex items-center gap-2 text-sm font-semibold text-[#328CCB] hover:text-[#1f6fa8] transition-colors"
-                    >
-                        <?php echo getIcon('ExternalLink', 'w-4 h-4'); ?>
-                        View Article
-                    </a>
-
-                <?php endif; ?>
-
-                <?php if (!empty($publication_links[$index]['pdf'])): ?>
-
-                    <a
-                        href="<?php echo htmlspecialchars($publication_links[$index]['pdf'], ENT_QUOTES, 'UTF-8'); ?>"
-                        target="_blank"
-                        rel="noopener noreferrer"
-                        class="inline-flex items-center gap-2 text-sm font-semibold text-gray-600 hover:text-[#328CCB] transition-colors"
-                    >
-                        <?php echo getIcon('FileText', 'w-4 h-4'); ?>
-                        Original Research PDF
-                    </a>
-
-                <?php endif; ?>
-
-            </div>
-
-        <?php endif; ?>
-
-    </article>
-
-<?php endforeach; ?>
+            <?php endforeach; ?>
 
         </div>
 
