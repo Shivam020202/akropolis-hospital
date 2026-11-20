@@ -1232,7 +1232,7 @@ include __DIR__ . '/../includes/head.php';
                                         class="inline-flex items-center justify-center gap-2 min-h-[42px] px-4 py-2 rounded-xl bg-white border border-[#328CCB]/20 text-[#328CCB] text-sm font-semibold hover:bg-[#328CCB] hover:text-white transition-all duration-200"
                                         aria-label="View published article"
                                     >
-                                        <?php echo getIcon('ExternalLink', 'w-4 h-4 shrink-0'); ?>
+                                       <?php echo getIcon('ExternalLink', 'w-5 h-5 shrink-0'); ?>
                                         <span>View Article</span>
                                     </a>
 
@@ -1248,7 +1248,7 @@ include __DIR__ . '/../includes/head.php';
                                         class="inline-flex items-center justify-center gap-2 min-h-[42px] px-4 py-2 rounded-xl bg-white border border-gray-200 text-gray-700 text-sm font-semibold hover:border-[#328CCB]/30 hover:text-[#328CCB] transition-all duration-200"
                                         aria-label="View original research article PDF"
                                     >
-                                        <?php echo getIcon('FileDown', 'w-4 h-4 shrink-0'); ?>
+                                       <?php echo getIcon('FileText', 'w-5 h-5 shrink-0'); ?>
                                         <span>Original Research PDF</span>
                                     </a>
 
