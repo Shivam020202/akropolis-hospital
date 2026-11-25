@@ -253,17 +253,17 @@ $blogs = [
 
 <p>Physiotherapy is an important treatment option for many symptomatic rotator cuff tears. A rehabilitation programme may focus on restoring movement, improving rotator cuff and shoulder-blade muscle strength and gradually returning to normal activity.</p>
 
-<p>For symptomatic small to medium full-thickness tears, the 2025 AAOS guideline found that both physical therapy and operative treatment can produce significant improvement in patient-reported outcomes. :chatgpt-content-reference{index="2"}</p>
+<p>For symptomatic small to medium full-thickness tears, the 2025 AAOS guideline found that both physical therapy and operative treatment can produce significant improvement in patient-reported outcomes. </p>
 
 <p>This is an important point for patients who assume that a full-thickness tear automatically requires surgery. It does not. The choice depends on the individual clinical situation.</p>
 
-<p>There is another side to that decision. Long-term non-operative treatment can improve symptoms and function, but some full-thickness tears may enlarge over five to ten years, with progression of muscle atrophy and fatty infiltration. :chatgpt-content-reference{index="3"}</p>
+<p>There is another side to that decision. Long-term non-operative treatment can improve symptoms and function, but some full-thickness tears may enlarge over five to ten years, with progression of muscle atrophy and fatty infiltration. </p>
 
 <p>Therefore, choosing physiotherapy does not mean ignoring the tear. The shoulder should be monitored according to the person’s symptoms, function and future treatment needs.</p>
 
 <h3>4. Corticosteroid injection</h3>
 
-<p>A single corticosteroid injection with local anaesthetic can be considered in selected patients for short-term improvement in pain and function. It may be useful when pain is interfering with sleep, daily activities or rehabilitation. :chatgpt-content-reference{index="4"}</p>
+<p>A single corticosteroid injection with local anaesthetic can be considered in selected patients for short-term improvement in pain and function. It may be useful when pain is interfering with sleep, daily activities or rehabilitation. </p>
 
 <p>An injection reduces symptoms; it does not reattach a torn tendon to the bone.</p>
 
@@ -273,7 +273,7 @@ $blogs = [
 
 <p>PRP is often marketed as a way to heal a torn tendon. The evidence does not support presenting it as a universal replacement for established treatment.</p>
 
-<p>The 2025 AAOS guideline does not recommend routine platelet-derived biological augmentation for improving patient-reported outcomes. It notes limited evidence that liquid PRP used during rotator cuff repair may reduce retear rates, but this is different from using PRP as a routine stand-alone treatment for a tear. :chatgpt-content-reference{index="5"}</p>
+<p>The 2025 AAOS guideline does not recommend routine platelet-derived biological augmentation for improving patient-reported outcomes. It notes limited evidence that liquid PRP used during rotator cuff repair may reduce retear rates, but this is different from using PRP as a routine stand-alone treatment for a tear. </p>
 
 <p>Patients should therefore be cautious about claims that an injection can reliably regrow or repair a torn rotator cuff.</p>
 
@@ -322,7 +322,7 @@ $blogs = [
 
 <p>No.</p>
 
-<p>Acromioplasty involves reshaping or removing part of the acromion to create more space above the rotator cuff. It has historically been performed with some rotator cuff repairs, but current evidence does not support its routine use for therapeutic benefit in small to medium full-thickness tears when compared with arthroscopic repair alone. :chatgpt-content-reference{index="6"}</p>
+<p>Acromioplasty involves reshaping or removing part of the acromion to create more space above the rotator cuff. It has historically been performed with some rotator cuff repairs, but current evidence does not support its routine use for therapeutic benefit in small to medium full-thickness tears when compared with arthroscopic repair alone. </p>
 
 <p>Whether any additional procedure is appropriate depends on the individual anatomy, tear pattern and findings during treatment. The important point for patients is that acromioplasty is not automatically required simply because a rotator cuff tear is being repaired.</p>
 
@@ -340,7 +340,7 @@ $blogs = [
 
 <p>It can, although progression is not inevitable in every person.</p>
 
-<p>The 2025 AAOS guideline notes that with long-term non-operative management of symptomatic full-thickness tears, tear size, muscle atrophy and fatty infiltration may progress over five to ten years. :chatgpt-content-reference{index="7"}</p>
+<p>The 2025 AAOS guideline notes that with long-term non-operative management of symptomatic full-thickness tears, tear size, muscle atrophy and fatty infiltration may progress over five to ten years. </p>
 
 <p>This does not mean that every tear needs immediate surgery. It means that choosing observation or rehabilitation should be a deliberate decision, particularly when there is substantial weakness, a traumatic tear or a possibility that future repair may be important.</p>
 
@@ -390,10 +390,6 @@ $blogs = [
     <li>
         <a href="https://www.aaos.org/quality/quality-programs/rotator-cuff/" target="_blank" rel="noopener noreferrer"><strong>American Academy of Orthopaedic Surgeons: Management of Rotator Cuff Injuries</strong></a><br>
         Provides the 2025 evidence-based clinical practice guideline covering diagnosis, non-surgical treatment, surgery, injections and rehabilitation for adult rotator cuff injuries.
-    </li>
-    <li>
-        <a href="https://www.mayoclinic.org/diseases-conditions/rotator-cuff-injury/diagnosis-treatment/drc-20350231" target="_blank" rel="noopener noreferrer"><strong>Mayo Clinic: Rotator Cuff Injury: Diagnosis and Treatment</strong></a><br>
-        Explains clinical examination, imaging, physical therapy, injections and surgical treatment for rotator cuff injuries.
     </li>
     <li>
         <a href="https://my.clevelandclinic.org/health/diseases/8291-rotator-cuff-tear" target="_blank" rel="noopener noreferrer"><strong>Cleveland Clinic: Rotator Cuff Tear</strong></a><br>
