@@ -8,6 +8,421 @@
 
 $blogs = [
 [
+    'slug' => 'rotator-cuff-tear-symptoms-diagnosis-treatment-options',
+    'title' => 'Rotator Cuff Tear: Symptoms, Diagnosis and Treatment Options',
+    'excerpt' => 'A rotator cuff tear can cause shoulder pain, weakness and difficulty lifting the arm. Learn about rotator cuff tear symptoms, diagnosis and treatment options, including physiotherapy, injections and surgery.',
+    'image' => '/assets/images/blog/English/rotator-cuff-tear-symptoms-diagnosis-treatment-options-800x600.webp',
+    'image_alt' => 'Medical illustration showing a rotator cuff tear in the shoulder',
+    'author' => 'Dr Prateek Girotra',
+    'category' => 'Orthopedics',
+    'tags' => [
+        'Rotator Cuff Tear',
+        'Rotator Cuff Tear Symptoms',
+        'Rotator Cuff Tear Diagnosis',
+        'Rotator Cuff Tear Treatment Options',
+        'Shoulder Pain',
+        'Shoulder Injury',
+        'Rotator Cuff Injury',
+        'Shoulder Surgery',
+        'Physiotherapy',
+        'Orthopedics'
+    ],
+    'read_time' => '10 min read',
+    'published_at' => '2026-11-25',
+    'status' => 'published',
+
+    'faqs' => [
+        [
+            'question' => 'What are the common symptoms of a rotator cuff tear?',
+            'answer' => 'Common symptoms include shoulder pain, night pain, weakness when lifting or rotating the arm, and difficulty with activities such as dressing or reaching overhead. A sudden tear can cause immediate pain and weakness.'
+        ],
+        [
+            'question' => 'Can a rotator cuff tear improve without surgery?',
+            'answer' => 'Yes. Many symptomatic tears can be managed initially with activity modification, pain management and physiotherapy. Symptoms and function can improve even when the tendon itself does not completely heal.'
+        ],
+        [
+            'question' => 'Is MRI necessary to diagnose a rotator cuff tear?',
+            'answer' => 'Not always. Diagnosis starts with the medical history and physical examination. X-rays may help identify other causes of shoulder pain, while ultrasound or MRI may be used when imaging is needed to assess the rotator cuff.'
+        ],
+        [
+            'question' => 'What is the difference between a partial and full-thickness rotator cuff tear?',
+            'answer' => 'A partial-thickness tear damages part of the tendon without extending through its entire thickness. A full-thickness tear extends through the complete thickness of the tendon and may involve separation from its attachment to the bone.'
+        ],
+        [
+            'question' => 'Does every rotator cuff tear require surgery?',
+            'answer' => 'No. Treatment depends on the type and size of the tear, symptoms, weakness, functional requirements and response to non-surgical treatment. Selected traumatic or persistent symptomatic tears may benefit from repair.'
+        ],
+        [
+            'question' => 'Can a rotator cuff tear cause pain at night?',
+            'answer' => 'Yes. Night pain is common in symptomatic rotator cuff problems and may make it uncomfortable to sleep on the affected side. Night pain alone, however, cannot confirm a rotator cuff tear.'
+        ],
+        [
+            'question' => 'What exercises are used for a rotator cuff tear?',
+            'answer' => 'Exercise programmes are individualised and may include range-of-motion work, rotator cuff strengthening, scapular control and progressive resistance exercises. The programme should match the tear, symptoms, strength and stage of recovery.'
+        ],
+        [
+            'question' => 'When should I see an orthopaedic specialist for a rotator cuff tear?',
+            'answer' => 'An assessment is appropriate when shoulder pain persists, weakness affects daily activities, symptoms follow an injury, you cannot raise the arm normally or pain repeatedly disturbs sleep. Sudden major weakness after an injury warrants prompt assessment.'
+        ]
+    ],
+
+    'content' => '<div class="my-6 rounded-xl border border-blue-200 bg-blue-50 p-6">
+    <h2 class="!mt-0 !border-0 !pl-0 text-xl font-bold text-blue-900">Quick Answer</h2>
+    <p class="!mb-0">A rotator cuff tear can cause shoulder pain, night pain, weakness and difficulty lifting or rotating the arm. Diagnosis usually starts with a clinical examination and may include X-rays, ultrasound or MRI depending on the suspected problem. Treatment can range from activity modification and physiotherapy to injections or surgery, depending on the tear, symptoms, weakness and functional demands.</p>
+</div>
+
+<p>Shoulder pain does not always mean that a rotator cuff is torn. Tendon irritation, bursitis, frozen shoulder, arthritis and problems originating from the neck can cause similar symptoms.</p>
+
+<p>The more useful question is whether a tear, if present, actually explains the person’s symptoms and loss of function. A tear seen on an MRI may cause little or no pain in one person, while a smaller tear may be associated with substantial weakness in another.</p>
+
+<p>That distinction matters because treatment should be based on the whole clinical picture rather than the scan alone.</p>
+
+<h2>What Is a Rotator Cuff Tear?</h2>
+
+<p>The rotator cuff is a group of four muscles and their tendons that help stabilise the shoulder and control movements such as lifting and rotating the arm. The four tendons are the supraspinatus, infraspinatus, subscapularis and teres minor.</p>
+
+<p>A rotator cuff tear occurs when one of these tendons is partly or completely damaged. The supraspinatus is commonly involved, although tears can affect any of the four tendons.</p>
+
+<p>Tears are generally described as <strong>partial-thickness</strong> or <strong>full-thickness</strong>. A partial-thickness tear involves some tendon fibres. A full-thickness tear extends through the complete thickness of the tendon and may involve separation of the tendon from its attachment to the bone.</p>
+
+<p>A tear may happen suddenly after an injury or develop gradually as the tendon becomes less resilient with age and repeated loading.</p>
+
+<h2>What Causes a Rotator Cuff Tear?</h2>
+
+<h3>Age-related tendon changes</h3>
+
+<p>Rotator cuff tendons can change as a person gets older. Repeated loading over many years may contribute to tendon degeneration and make a tear more likely.</p>
+
+<p>As a result, some people develop a tear without remembering a specific accident. The first noticeable symptom may simply be increasing pain, weakness or difficulty with certain movements.</p>
+
+<h3>Acute injury</h3>
+
+<p>A fall, forceful lifting movement, shoulder dislocation or other significant injury can damage the rotator cuff. An acute tear may cause sudden pain followed by noticeable weakness.</p>
+
+<p>A sudden loss of strength after an injury deserves particular attention because it can indicate a more significant tendon injury.</p>
+
+<h3>Repeated shoulder loading</h3>
+
+<p>Repeated overhead activity can place considerable demand on the rotator cuff. This can occur with some sports, gym exercises and occupations that involve frequent lifting or working with the arms above shoulder level.</p>
+
+<p>These activities do not mean that a tear will definitely occur. They are considered together with age, tendon condition, previous injury and the person’s symptoms.</p>
+
+<h2>Rotator Cuff Tear Symptoms</h2>
+
+<p>Rotator Cuff Tear Symptoms vary from person to person. Pain is common, but weakness can be just as important when assessing the shoulder.</p>
+
+<ul>
+    <li><strong>Shoulder pain:</strong> Pain is often felt around the front or outer part of the shoulder and may extend into the upper arm.</li>
+    <li><strong>Night pain:</strong> Symptoms may become more noticeable when resting or lying on the affected side.</li>
+    <li><strong>Weakness:</strong> Lifting, carrying or rotating the arm may become difficult.</li>
+    <li><strong>Pain with overhead activity:</strong> Reaching for a shelf, lifting an object or performing certain exercises may increase symptoms.</li>
+    <li><strong>Difficulty with daily activities:</strong> Dressing, combing the hair or reaching behind the back may become uncomfortable or difficult.</li>
+    <li><strong>Clicking or popping:</strong> Some people notice clicking, popping or other sensations during shoulder movement.</li>
+</ul>
+
+<h3>Pain-limited movement versus true weakness</h3>
+
+<p>This distinction is clinically useful. A person may be unable to raise the arm because the movement is too painful, while another person may have difficulty raising it because the shoulder cannot generate enough force even when pain is not the main limitation.</p>
+
+<p>Marked weakness after a sudden injury raises more concern for a significant rotator cuff tear than pain alone. During an examination, the doctor therefore looks at both movement and strength rather than relying only on how much pain the person reports.</p>
+
+<p>Not every rotator cuff tear causes symptoms. Some tears are found on imaging in people who do not have significant shoulder complaints. This is one reason an imaging report should always be interpreted alongside the history and examination.</p>
+
+<h2>How Can a Rotator Cuff Tear Be Different From Other Shoulder Problems?</h2>
+
+<p>Several conditions can produce shoulder pain and restricted movement. Their symptoms can overlap, so a diagnosis should not be made from one symptom alone.</p>
+
+<table class="w-full">
+    <thead>
+        <tr>
+            <th>Condition</th>
+            <th>Typical pattern</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr>
+            <td><strong>Rotator cuff tear</strong></td>
+            <td>Pain with shoulder movement, weakness and difficulty lifting or rotating the arm. A traumatic tear may cause sudden weakness.</td>
+        </tr>
+        <tr>
+            <td><strong>Frozen shoulder</strong></td>
+            <td>Pain followed by significant stiffness, with both active and passive shoulder movement becoming restricted.</td>
+        </tr>
+        <tr>
+            <td><strong>Shoulder arthritis</strong></td>
+            <td>Pain, stiffness and reduced movement that may be associated with changes in the joint seen on X-ray.</td>
+        </tr>
+        <tr>
+            <td><strong>Neck-related nerve symptoms</strong></td>
+            <td>Pain may travel from the neck into the arm and can be accompanied by tingling, numbness or weakness.</td>
+        </tr>
+    </tbody>
+</table>
+
+<p>If shoulder symptoms are accompanied by significant neck pain, numbness or tingling, the neck may also need assessment. You can read more about <a href="/blog/en/cervical-spondylosis-symptoms-neck-stiffness-treatment">cervical spondylosis and neck-related symptoms</a>.</p>
+
+<p>Marked shoulder stiffness can point toward another condition such as <a href="/blog/en/frozen-shoulder-symptoms-causes-treatment-recovery-time">frozen shoulder</a> rather than an isolated rotator cuff tear.</p>
+
+<h2>Rotator Cuff Tear Diagnosis</h2>
+
+<p>Rotator Cuff Tear Diagnosis starts with the medical history and physical examination. Imaging is then used when it can answer an important clinical question or help define the extent of the suspected injury.</p>
+
+<h3>Medical history</h3>
+
+<p>The doctor will usually ask when the pain started, whether there was an injury, which movements are difficult, whether there is weakness, whether symptoms disturb sleep and what activities the shoulder needs to perform.</p>
+
+<p>Previous shoulder problems, surgery, work demands, sports activities and associated neck symptoms can also change the assessment.</p>
+
+<p>The mechanism matters. Gradually increasing shoulder pain in an older person is a different clinical situation from sudden weakness after a fall or forceful lifting injury.</p>
+
+<h3>Physical examination</h3>
+
+<p>The examination usually includes inspection of the shoulder, assessment of active and passive movement, strength testing and specific tests for different parts of the rotator cuff.</p>
+
+<p>The doctor may assess the supraspinatus, infraspinatus and subscapularis separately. The neck, shoulder blade movement and other structures may also be examined because shoulder symptoms do not always originate from the rotator cuff.</p>
+
+<p>No single examination test can answer every diagnostic question. A combination of findings provides a more reliable assessment.</p>
+
+<h3>X-ray</h3>
+
+<p>An X-ray does not show the rotator cuff tendon directly. It can, however, identify fractures, arthritis, bone spurs and other bony changes that may contribute to shoulder symptoms.</p>
+
+<p>This makes X-rays useful even when the main concern is a tendon injury.</p>
+
+<h3>Ultrasound</h3>
+
+<p>Musculoskeletal ultrasound can evaluate the rotator cuff tendons dynamically and can identify many partial and full-thickness tears. It also allows the shoulder to be assessed during movement and can be useful when a high-quality ultrasound examination is available.</p>
+
+<p>The usefulness of ultrasound depends partly on the equipment and the experience of the person performing and interpreting the examination.</p>
+
+<h3>MRI</h3>
+
+<p>MRI provides detailed images of the rotator cuff and other soft tissues around the shoulder. It can show the location and extent of a tear and provide information about tendon retraction, muscle changes and associated shoulder problems.</p>
+
+<p>MRI is particularly useful when the clinical findings and initial imaging do not provide enough information, when a significant tear is suspected or when detailed information is needed for treatment planning.</p>
+
+<p>An MRI should answer a clinical question rather than be treated as the final decision-maker. A tear seen on MRI does not automatically mean that surgery is required.</p>
+
+<h2>Does an MRI Tear Always Explain Shoulder Pain?</h2>
+
+<p>No.</p>
+
+<p>Rotator cuff tears can exist without significant symptoms, particularly as tendon changes become more common with age. At the same time, a patient with a smaller tear may have substantial pain or weakness that interferes with daily activities.</p>
+
+<p>This is why the size of the tear is only one part of the assessment. The doctor also considers the symptoms, strength, range of movement, injury history, tendon and muscle condition and the person’s functional needs.</p>
+
+<p>The goal of imaging is not simply to label the shoulder. It is to understand what is causing the problem and whether the findings change treatment.</p>
+
+<h2>What Does the Size of a Rotator Cuff Tear Mean?</h2>
+
+<p>Tear size matters, but it does not determine treatment on its own.</p>
+
+<p>The assessment may consider:</p>
+
+<ul>
+    <li>Whether the tear is partial or full thickness.</li>
+    <li>Which tendon or tendons are involved.</li>
+    <li>The size and depth of the tear.</li>
+    <li>Whether the tendon has pulled back from its normal attachment.</li>
+    <li>The condition of the rotator cuff muscles.</li>
+    <li>The amount of pain and weakness.</li>
+    <li>The person’s age and general health.</li>
+    <li>Work, sport and daily functional requirements.</li>
+    <li>Whether symptoms improve with non-surgical treatment.</li>
+</ul>
+
+<p>This is why two people with similar imaging findings can receive different treatment recommendations.</p>
+
+<h2>Rotator Cuff Tear Treatment Options</h2>
+
+<p>Rotator Cuff Tear Treatment Options range from non-surgical care to surgery. The choice depends on the type of tear, symptoms, weakness, functional requirements and response to rehabilitation.</p>
+
+<h3>1. Activity modification</h3>
+
+<p>Reducing movements that repeatedly provoke pain can help settle symptoms. This may involve temporarily reducing heavy lifting, repetitive overhead activity or specific gym exercises.</p>
+
+<p>Activity modification does not mean keeping the shoulder completely still for a prolonged period. Excessive protection can contribute to stiffness and loss of strength.</p>
+
+<h3>2. Pain management</h3>
+
+<p>Appropriate pain relief can make it easier to remain active and participate in rehabilitation. The choice of medicine depends on factors such as age, kidney function, stomach health, cardiovascular risk and other medicines being taken.</p>
+
+<p>A medicine that is appropriate for one person may therefore be unsuitable for another. Pain medicines should be used according to medical advice when there are relevant health conditions or medication interactions.</p>
+
+<h3>3. Physiotherapy and exercise</h3>
+
+<p>Physiotherapy is an important treatment option for many symptomatic rotator cuff tears. A rehabilitation programme may focus on restoring movement, improving rotator cuff and shoulder-blade muscle strength and gradually returning to normal activity.</p>
+
+<p>For symptomatic small to medium full-thickness tears, the 2025 AAOS guideline found that both physical therapy and operative treatment can produce significant improvement in patient-reported outcomes. :chatgpt-content-reference{index="2"}</p>
+
+<p>This is an important point for patients who assume that a full-thickness tear automatically requires surgery. It does not. The choice depends on the individual clinical situation.</p>
+
+<p>There is another side to that decision. Long-term non-operative treatment can improve symptoms and function, but some full-thickness tears may enlarge over five to ten years, with progression of muscle atrophy and fatty infiltration. :chatgpt-content-reference{index="3"}</p>
+
+<p>Therefore, choosing physiotherapy does not mean ignoring the tear. The shoulder should be monitored according to the person’s symptoms, function and future treatment needs.</p>
+
+<h3>4. Corticosteroid injection</h3>
+
+<p>A single corticosteroid injection with local anaesthetic can be considered in selected patients for short-term improvement in pain and function. It may be useful when pain is interfering with sleep, daily activities or rehabilitation. :chatgpt-content-reference{index="4"}</p>
+
+<p>An injection reduces symptoms; it does not reattach a torn tendon to the bone.</p>
+
+<p>Repeated injections require caution, particularly when surgery may be considered. The treating specialist should decide whether an injection is appropriate and how it fits into the overall treatment plan.</p>
+
+<h3>5. PRP and other regenerative injections</h3>
+
+<p>PRP is often marketed as a way to heal a torn tendon. The evidence does not support presenting it as a universal replacement for established treatment.</p>
+
+<p>The 2025 AAOS guideline does not recommend routine platelet-derived biological augmentation for improving patient-reported outcomes. It notes limited evidence that liquid PRP used during rotator cuff repair may reduce retear rates, but this is different from using PRP as a routine stand-alone treatment for a tear. :chatgpt-content-reference{index="5"}</p>
+
+<p>Patients should therefore be cautious about claims that an injection can reliably regrow or repair a torn rotator cuff.</p>
+
+<h2>When Is Rotator Cuff Surgery Considered?</h2>
+
+<p>Surgery is not recommended simply because an MRI shows a tear.</p>
+
+<p>An orthopaedic specialist may discuss surgery when factors such as these are present:</p>
+
+<ul>
+    <li>A significant traumatic tear followed by persistent weakness.</li>
+    <li>A high-grade partial tear that continues to cause symptoms despite appropriate conservative treatment.</li>
+    <li>Persistent pain or functional limitation despite a suitable rehabilitation programme.</li>
+    <li>Functional demands at work, sport or daily life that cannot be met with non-surgical treatment.</li>
+    <li>A tear pattern where delaying treatment may affect future repair options.</li>
+    <li>A large or massive tear that requires a more specialised treatment strategy.</li>
+</ul>
+
+<p>The timing matters in some patients. A younger or active person with an acute traumatic tear and substantial weakness may have different treatment priorities from an older person with a gradual degenerative tear and manageable symptoms.</p>
+
+<p>The decision should therefore consider both the current problem and what is likely to happen if the tear is observed over time.</p>
+
+<h2>What Surgery Is Used for a Rotator Cuff Tear?</h2>
+
+<h3>Arthroscopic rotator cuff repair</h3>
+
+<p>Arthroscopic repair uses a small camera and specialised instruments inserted through small incisions. When the tendon is repairable, the surgeon reattaches it to its normal area of attachment on the bone.</p>
+
+<p>Arthroscopic repair is commonly used for repairable rotator cuff tears.</p>
+
+<h3>Debridement or repair for partial tears</h3>
+
+<p>Some partial-thickness tears can be treated with debridement, while higher-grade partial tears that remain symptomatic despite conservative treatment may be considered for repair. The appropriate procedure depends on the depth, location and condition of the remaining tendon.</p>
+
+<h3>Tendon transfer</h3>
+
+<p>If a tear is too damaged or retracted to be repaired directly, a tendon transfer may be considered in selected patients. A nearby tendon is used to help restore shoulder function.</p>
+
+<h3>Reverse shoulder replacement</h3>
+
+<p>Some patients with massive, irreparable rotator cuff tears develop severe loss of shoulder function, sometimes together with arthritis caused by the cuff deficiency. In selected cases, reverse shoulder replacement may be considered.</p>
+
+<p>This is not a routine treatment for an ordinary rotator cuff tear. It is reserved for specific clinical situations after a detailed assessment.</p>
+
+<h2>Does Every Rotator Cuff Repair Need Acromioplasty?</h2>
+
+<p>No.</p>
+
+<p>Acromioplasty involves reshaping or removing part of the acromion to create more space above the rotator cuff. It has historically been performed with some rotator cuff repairs, but current evidence does not support its routine use for therapeutic benefit in small to medium full-thickness tears when compared with arthroscopic repair alone. :chatgpt-content-reference{index="6"}</p>
+
+<p>Whether any additional procedure is appropriate depends on the individual anatomy, tear pattern and findings during treatment. The important point for patients is that acromioplasty is not automatically required simply because a rotator cuff tear is being repaired.</p>
+
+<h2>What Happens After Rotator Cuff Surgery?</h2>
+
+<p>Rotator cuff repair is followed by a period of protected rehabilitation. The repaired tendon needs time to heal, so normal shoulder use does not return immediately after surgery.</p>
+
+<p>Early rehabilitation may focus on protecting the repair and maintaining appropriate movement. Strengthening is introduced progressively as healing allows.</p>
+
+<p>The exact rehabilitation plan depends on the tear, repair technique, tendon quality, other procedures performed and the surgeon’s protocol.</p>
+
+<p>Returning to heavy lifting, overhead work or sport too early can place unnecessary stress on the healing tendon.</p>
+
+<h2>Can a Rotator Cuff Tear Get Worse?</h2>
+
+<p>It can, although progression is not inevitable in every person.</p>
+
+<p>The 2025 AAOS guideline notes that with long-term non-operative management of symptomatic full-thickness tears, tear size, muscle atrophy and fatty infiltration may progress over five to ten years. :chatgpt-content-reference{index="7"}</p>
+
+<p>This does not mean that every tear needs immediate surgery. It means that choosing observation or rehabilitation should be a deliberate decision, particularly when there is substantial weakness, a traumatic tear or a possibility that future repair may be important.</p>
+
+<h2>When Should You See an Orthopaedic Specialist?</h2>
+
+<p>An assessment is appropriate if:</p>
+
+<ul>
+    <li>Shoulder pain persists or repeatedly returns.</li>
+    <li>Pain regularly disturbs your sleep.</li>
+    <li>You notice weakness when lifting or rotating the arm.</li>
+    <li>You cannot perform normal overhead activities.</li>
+    <li>Symptoms began after a fall, sudden lifting movement or other injury.</li>
+    <li>You have been told that an MRI or ultrasound shows a rotator cuff tear.</li>
+    <li>Your symptoms have not improved as expected with rehabilitation.</li>
+</ul>
+
+<p>Prompt assessment is particularly important after a significant injury if you suddenly cannot raise the arm or develop marked weakness. Severe injury associated with deformity, significant swelling, numbness or loss of sensation also requires timely medical evaluation.</p>
+
+<h2>What Is the Best Treatment for a Rotator Cuff Tear?</h2>
+
+<p>There is no single treatment that is best for every rotator cuff tear.</p>
+
+<p>The appropriate approach depends on whether the tear is partial or full thickness, whether it followed an injury, how much weakness is present, the condition of the tendon and muscles, and what the person needs the shoulder to do.</p>
+
+<p>For some people, physiotherapy and activity modification provide enough improvement to manage the condition without surgery. For others, particularly selected traumatic or persistent symptomatic tears, repair may offer a better treatment option.</p>
+
+<p>The real clinical question is therefore not simply <strong>"Do I have a tear?"</strong> It is <strong>"Does this tear explain my symptoms, and which treatment gives me the best balance of benefit, risk and long-term shoulder function?"</strong></p>
+
+<h2>When to Consult an Orthopaedic Specialist</h2>
+
+<p>If shoulder pain, weakness or difficulty lifting the arm is affecting your daily life, a proper assessment can help determine whether the problem is a rotator cuff tear or another shoulder condition.</p>
+
+<p>At <strong>Akropolis Super Speciality Hospital</strong>, shoulder and sports-related conditions are managed through the <a href="/orthopedics">Orthopedics department</a>. You can also learn more about <a href="/doctors/dr-prateek-girotra">Dr Prateek Girotra</a> and his specialist profile.</p>
+
+<div class="my-10 rounded-2xl bg-gradient-to-r from-[#328CCB] to-[#2a7bb5] p-8 text-center text-white shadow-xl">
+    <h3 class="!mt-0 !mb-3 !border-0 !pl-0 !text-white">Having Persistent Shoulder Pain or Weakness?</h3>
+    <p class="!mb-6 !text-white">If shoulder pain, weakness or difficulty raising your arm is affecting your daily activities, an orthopaedic assessment can help identify the cause and guide the next step.</p>
+    <a href="/contact" class="article-cta inline-block rounded-full bg-[#D66C43] px-8 py-3 font-bold no-underline transition-all hover:bg-[#c55a36]" style="color:#ffffff !important; text-decoration:none !important;">Book a Consultation</a>
+</div>
+
+<h2>Medical References and Further Reading</h2>
+
+<p>The following sources were reviewed while preparing this article. They are provided for patient education and do not replace an individual medical assessment.</p>
+
+<ul>
+    <li>
+        <a href="https://www.aaos.org/quality/quality-programs/rotator-cuff/" target="_blank" rel="noopener noreferrer"><strong>American Academy of Orthopaedic Surgeons: Management of Rotator Cuff Injuries</strong></a><br>
+        Provides the 2025 evidence-based clinical practice guideline covering diagnosis, non-surgical treatment, surgery, injections and rehabilitation for adult rotator cuff injuries.
+    </li>
+    <li>
+        <a href="https://www.mayoclinic.org/diseases-conditions/rotator-cuff-injury/diagnosis-treatment/drc-20350231" target="_blank" rel="noopener noreferrer"><strong>Mayo Clinic: Rotator Cuff Injury: Diagnosis and Treatment</strong></a><br>
+        Explains clinical examination, imaging, physical therapy, injections and surgical treatment for rotator cuff injuries.
+    </li>
+    <li>
+        <a href="https://my.clevelandclinic.org/health/diseases/8291-rotator-cuff-tear" target="_blank" rel="noopener noreferrer"><strong>Cleveland Clinic: Rotator Cuff Tear</strong></a><br>
+        Provides patient-focused information about rotator cuff tear symptoms, causes, diagnosis, non-surgical treatment and surgery.
+    </li>
+    <li>
+        <a href="https://www.hss.edu/health-library/conditions-and-treatments/list/rotator-cuff-tear" target="_blank" rel="noopener noreferrer"><strong>Hospital for Special Surgery: Rotator Cuff Tear</strong></a><br>
+        Provides information about rotator cuff anatomy, tear types, symptoms, examination, imaging and treatment.
+    </li>
+    <li>
+        <a href="https://www.ortho.wustl.edu/content/Patient-Care/3411/Services/Shoulder-Elbow/Overview/Rotator-Cuff/Rotator-cuff-tears-Symptoms-diagnosis-and-treatment.aspx" target="_blank" rel="noopener noreferrer"><strong>Washington University Orthopaedics: Rotator Cuff Tears: Symptoms, Diagnosis and Treatment</strong></a><br>
+        Provides orthopaedic information on the presentation, diagnosis and treatment of rotator cuff tears.
+    </li>
+    <li>
+        <a href="https://acsearch.acr.org/docs/3101482/narrative/" target="_blank" rel="noopener noreferrer"><strong>American College of Radiology: Chronic Shoulder Pain</strong></a><br>
+        Provides imaging guidance for chronic shoulder pain, including the role of radiography, ultrasound and MRI when rotator cuff disease is suspected.
+    </li>
+    <li>
+        <a href="https://pmc.ncbi.nlm.nih.gov/articles/PMC3607722/" target="_blank" rel="noopener noreferrer"><strong>Rotator Cuff Tear: Physical Examination and Conservative Treatment</strong></a><br>
+        Reviews physical examination and conservative treatment approaches for rotator cuff tears.
+    </li>
+</ul>
+
+<div class="my-8 rounded-2xl border border-gray-200 bg-gray-50 p-6 text-sm text-gray-700">
+    <strong>Medical Disclaimer:</strong> This article is intended for general educational purposes only. It does not replace professional medical advice, diagnosis or treatment. Rotator cuff tears vary in size, location and severity, and treatment decisions depend on individual symptoms, examination findings, imaging and functional requirements.
+</div>'
+],
+
+[
     'slug' => 'osteoporosis-risk-factors-diagnosis-prevention-treatment',
     'title' => 'Osteoporosis: Risk Factors, Diagnosis, Prevention and Treatment',
     'excerpt' => 'Osteoporosis can weaken bones without causing symptoms until a fracture occurs. Learn how risk factors, bone density, fracture history and overall fracture risk guide diagnosis, prevention and treatment.',
