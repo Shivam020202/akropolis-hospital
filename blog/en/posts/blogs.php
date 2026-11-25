@@ -8,6 +8,449 @@
 
 $blogs = [
 [
+    'slug' => 'ankle-sprain-symptoms-treatment-recovery-time',
+    'title' => 'Ankle Sprain: Symptoms, Treatment and Recovery Time',
+    'excerpt' => 'An ankle sprain can cause pain, swelling, bruising and difficulty walking after the ankle twists or rolls. Learn about Ankle Sprain Symptoms, treatment options, recovery time and when an injury needs medical assessment.',
+    'image' => '/assets/images/blog/English/ankle-sprain.webp',
+    'image_alt' => 'Medical illustration showing an ankle sprain involving the outer ankle ligaments',
+    'author' => 'Dr Prateek Girotra',
+    'category' => 'Orthopedics',
+    'tags' => [
+        'Ankle Sprain',
+        'Ankle Sprain Symptoms',
+        'Ankle Sprain Treatment',
+        'Ankle Sprain Recovery Time',
+        'Ankle Ligament Injury',
+        'Sprained Ankle',
+        'Ankle Pain',
+        'Sports Injury',
+        'Orthopedics'
+    ],
+    'read_time' => '10 min read',
+    'published_at' => '2026-11-26',
+    'status' => 'published',
+
+    'faqs' => [
+        [
+            'question' => 'What are the common symptoms of an ankle sprain?',
+            'answer' => 'Common symptoms include pain, tenderness, swelling, bruising, stiffness and difficulty putting weight on the affected foot. More severe sprains can cause significant instability or make walking difficult.'
+        ],
+        [
+            'question' => 'How long does an ankle sprain take to heal?',
+            'answer' => 'A mild ankle sprain may improve within one to two weeks, while a moderate injury often takes several weeks. Severe sprains and high ankle sprains can take considerably longer, sometimes several months. Recovery varies between individuals.'
+        ],
+        [
+            'question' => 'Can I walk on a sprained ankle?',
+            'answer' => 'Some people can walk with a mild sprain, while moderate or severe injuries may require protected weight-bearing with a brace, crutches or another support. Being able to walk does not by itself prove that the injury is minor.'
+        ],
+        [
+            'question' => 'Does every ankle sprain need an X-ray?',
+            'answer' => 'No. X-rays are mainly used when the examination suggests that a fracture may be present. Clinical decision rules such as the Ottawa Ankle Rules can help determine when radiographs are appropriate after an acute ankle injury.'
+        ],
+        [
+            'question' => 'What is the difference between a Grade 1, Grade 2 and Grade 3 ankle sprain?',
+            'answer' => 'Grade 1 involves stretching and minor ligament damage, Grade 2 involves a partial tear and Grade 3 involves a complete ligament tear. The grade describes ligament injury severity, but recovery can vary between people.'
+        ],
+        [
+            'question' => 'When should I see an orthopaedic doctor for an ankle sprain?',
+            'answer' => 'Seek medical assessment if you cannot bear weight, have severe pain or swelling, significant bruising, tenderness over the bone, visible deformity, numbness, or symptoms that are not improving as expected.'
+        ],
+        [
+            'question' => 'Can an ankle sprain cause long-term instability?',
+            'answer' => 'Yes. Some people develop chronic ankle instability after a sprain, particularly when strength, balance and movement control do not fully recover or when repeated sprains occur. Structured rehabilitation can help reduce the risk of recurrence.'
+        ],
+        [
+            'question' => 'Is physiotherapy necessary after an ankle sprain?',
+            'answer' => 'Not every mild sprain requires supervised physiotherapy, but rehabilitation exercises are important for restoring movement, strength, balance and ankle stability. More significant sprains often benefit from structured rehabilitation.'
+        ]
+    ],
+
+    'content' => '<div class="my-6 rounded-xl border border-blue-200 bg-blue-50 p-6">
+    <h2 class="!mt-0 !border-0 !pl-0 text-xl font-bold text-blue-900">Quick Answer</h2>
+    <p class="!mb-0">An ankle sprain occurs when one or more ankle ligaments are stretched or torn, usually after the ankle rolls or twists. Common symptoms include pain, swelling, bruising, tenderness and difficulty walking. Treatment usually involves protection, appropriate support, progressive weight-bearing and rehabilitation. Mild sprains may improve within one to two weeks, while more severe injuries can take several weeks or months.</p>
+</div>
+
+<p>An ankle sprain can happen during cricket, football, badminton or running, but it can also occur during an ordinary walk when the foot lands awkwardly or the ankle rolls on an uneven surface.</p>
+
+<p>After the injury, most people want to know two things: how serious the injury is and how long it will take to recover. Those questions are connected, but the first priority is making sure the injury is actually a sprain and not a fracture or another type of ankle injury.</p>
+
+<p><strong>Ankle Sprain Symptoms</strong> can overlap with those of a fracture, high ankle sprain or tendon injury. The amount of pain alone does not always tell you how serious the injury is. The location of tenderness, ability to bear weight, ankle stability and the way symptoms change over the following days are also important.</p>
+
+<h2>What Is an Ankle Sprain?</h2>
+
+<p>An ankle sprain is an injury to one or more ligaments around the ankle. Ligaments are strong bands of tissue that connect bones and help keep a joint stable.</p>
+
+<p>Most ankle sprains affect the ligaments on the outer side of the ankle. They commonly occur when the foot rolls inward while the ankle moves outward, stretching the outer ligaments beyond their normal range.</p>
+
+<p>The three main lateral ankle ligaments are the anterior talofibular ligament, calcaneofibular ligament and posterior talofibular ligament. The anterior talofibular ligament is commonly involved in lateral ankle sprains.</p>
+
+<p>A different injury, called a <strong>high ankle sprain</strong>, affects the syndesmotic ligaments that connect the lower ends of the tibia and fibula above the ankle joint. High ankle sprains can behave differently from ordinary lateral ankle sprains and often require a longer recovery.</p>
+
+<h2>What Causes an Ankle Sprain?</h2>
+
+<p>An ankle sprain occurs when a force pushes the ankle beyond the range that its ligaments can safely tolerate.</p>
+
+<p>Common situations include:</p>
+
+<ul>
+    <li>Rolling the ankle while walking or running on an uneven surface.</li>
+    <li>Landing awkwardly after a jump.</li>
+    <li>Suddenly changing direction during sport.</li>
+    <li>Stepping on another person\'s foot during a game.</li>
+    <li>Falling or twisting the foot during a misstep.</li>
+    <li>Returning to sport before a previous ankle injury has fully recovered.</li>
+</ul>
+
+<p>A previous ankle sprain is particularly relevant. If strength, balance or movement control have not fully recovered, the ankle may remain vulnerable to another injury.</p>
+
+<h2>Ankle Sprain Symptoms</h2>
+
+<p>Ankle Sprain Symptoms depend on how much the ligament has been injured and whether other structures are involved.</p>
+
+<p>Common symptoms include:</p>
+
+<ul>
+    <li><strong>Pain:</strong> Pain may be immediate and often increases when putting weight on the foot or moving the ankle.</li>
+    <li><strong>Tenderness:</strong> The area around the injured ligament may be painful when touched.</li>
+    <li><strong>Swelling:</strong> Swelling may develop around the injured area soon after the injury.</li>
+    <li><strong>Bruising:</strong> Moderate or severe sprains can cause bruising around the ankle or foot.</li>
+    <li><strong>Stiffness:</strong> Swelling and pain can reduce ankle movement.</li>
+    <li><strong>Difficulty walking:</strong> Weight-bearing may be painful or difficult, particularly with more significant injuries.</li>
+    <li><strong>Instability:</strong> The ankle may feel weak or as though it could give way.</li>
+</ul>
+
+<p>One important point is that <strong>pain severity does not reliably determine the grade of a sprain</strong>. A painful ankle may still have a relatively minor ligament injury, while a more significant injury may not always produce the level of pain a person expects.</p>
+
+<h2>When an Ankle Sprain May Be More Than a Simple Sprain</h2>
+
+<p>A twisted ankle does not always mean an isolated lateral ligament injury. A fracture, high ankle sprain, tendon injury or cartilage injury can produce similar symptoms.</p>
+
+<p>The location of the pain can provide an important clue. Pain directly over the ankle bones raises more concern for a fracture, while pain higher above the ankle may suggest a syndesmotic injury.</p>
+
+<p>Persistent symptoms also change the clinical question. If the ankle is not following the expected recovery pattern, it may be necessary to reconsider the diagnosis rather than simply continue the same home treatment.</p>
+
+<h2>Ankle Sprain Grades</h2>
+
+<p>Doctors may describe lateral ankle sprains as Grade 1, Grade 2 or Grade 3 according to the extent of ligament damage.</p>
+
+<table class="w-full">
+    <thead>
+        <tr>
+            <th>Grade</th>
+            <th>What it means</th>
+            <th>Typical features</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr>
+            <td><strong>Grade 1</strong></td>
+            <td>The ligament is stretched with minor fibre damage.</td>
+            <td>Mild pain and tenderness, limited swelling and usually preserved ability to walk.</td>
+        </tr>
+        <tr>
+            <td><strong>Grade 2</strong></td>
+            <td>The ligament is partially torn.</td>
+            <td>More noticeable swelling, bruising and pain, with possible difficulty walking or some instability.</td>
+        </tr>
+        <tr>
+            <td><strong>Grade 3</strong></td>
+            <td>The ligament is completely torn.</td>
+            <td>Marked swelling, bruising, significant instability and difficulty bearing weight are common.</td>
+        </tr>
+    </tbody>
+</table>
+
+<p>The grade describes the extent of ligament damage, but it does not give an exact recovery date. Recovery also depends on whether other structures are injured and how well strength, movement and balance return.</p>
+
+<h2>What Is a High Ankle Sprain?</h2>
+
+<p>A high ankle sprain is an injury to the syndesmotic ligaments that connect the tibia and fibula above the ankle joint.</p>
+
+<p>Unlike a typical lateral ankle sprain, pain may be felt higher above the ankle and can become more noticeable when the lower leg and foot are rotated or when weight is placed through the leg.</p>
+
+<p>High ankle sprains often take longer to recover than ordinary lateral sprains. A severe injury or associated instability can extend the recovery period further.</p>
+
+<h2>Ankle Sprain Diagnosis</h2>
+
+<p>Ankle Sprain Diagnosis starts with understanding how the injury happened and examining the ankle. Imaging is not automatically required for every sprain.</p>
+
+<h3>1. Medical history</h3>
+
+<p>The doctor will ask how the ankle twisted, when the pain started, whether swelling appeared quickly, whether you could walk after the injury and whether you have had previous ankle sprains.</p>
+
+<p>The location of tenderness is also important. Pain directly over certain bones can raise concern for a fracture rather than an isolated ligament injury.</p>
+
+<h3>2. Physical examination</h3>
+
+<p>The examination may include assessment of swelling, bruising, tenderness, range of motion, weight-bearing ability and ankle stability.</p>
+
+<p>The foot and lower leg may also need to be examined because symptoms do not always come from the ligament that initially appears to be injured.</p>
+
+<p>When the ankle is very swollen and painful immediately after the injury, some stability tests can be difficult to interpret. In selected cases, reassessing the ankle after several days can provide a clearer picture of the injury.</p>
+
+<h3>3. When is an X-ray needed?</h3>
+
+<p>An X-ray is mainly used to look for a fracture rather than to directly show a torn ankle ligament.</p>
+
+<p>Clinical decision rules such as the <strong>Ottawa Ankle Rules</strong> can help determine whether an X-ray is appropriate after acute ankle trauma. The assessment considers specific areas of bone tenderness and the ability to bear weight and walk after the injury.</p>
+
+<p>These rules support clinical decision-making but do not replace a medical examination. A doctor may recommend imaging when the injury pattern or examination raises concern for a fracture or another significant injury.</p>
+
+<h3>4. When are MRI or ultrasound needed?</h3>
+
+<p>MRI is not routinely required for a straightforward acute ankle sprain that is improving as expected.</p>
+
+<p>Further imaging may become useful when symptoms persist, the diagnosis remains uncertain, chronic instability develops or another injury such as a tendon, cartilage or syndesmotic injury needs evaluation.</p>
+
+<p>Ultrasound can assess selected soft-tissue structures and may be useful in appropriate cases when performed by an experienced clinician.</p>
+
+<p>The purpose of imaging is to answer a clinical question. A scan should support the examination rather than replace it.</p>
+
+<h2>Ankle Sprain Treatment</h2>
+
+<p>Ankle Sprain Treatment depends on the severity of the injury and how well the ankle is functioning.</p>
+
+<p>For most acute lateral ankle sprains, treatment is functional rather than prolonged complete immobilisation. Protection, appropriate external support, pain control, progressive weight-bearing and rehabilitation are important parts of recovery.</p>
+
+<h3>1. Protect the ankle initially</h3>
+
+<p>After the injury, stop the activity that caused the pain and protect the ankle from further twisting or impact.</p>
+
+<p>A brace, taping or another external support may be recommended depending on the severity of the injury. Crutches can be useful when walking is too painful or unsafe.</p>
+
+<p>The aim is not prolonged inactivity. Protection should gradually give way to controlled movement and weight-bearing as the ankle allows.</p>
+
+<h3>2. Control pain and swelling</h3>
+
+<p>Keeping the ankle elevated while resting can help with swelling. A cold pack wrapped in a towel may also provide short-term comfort during the early phase. It should not be applied directly to the skin.</p>
+
+<p>Paracetamol or a nonsteroidal anti-inflammatory medicine may be appropriate for some people. However, NSAIDs are not suitable for everyone. Kidney disease, stomach ulcers, certain heart conditions, pregnancy and some medicines can affect whether they are appropriate.</p>
+
+<p>If you have an existing medical condition or take regular medicines, ask a doctor or pharmacist before using anti-inflammatory medicines.</p>
+
+<h3>3. Begin progressive weight-bearing</h3>
+
+<p>Once severe pain is controlled, gradual weight-bearing is generally preferable to prolonged complete rest for an uncomplicated lateral ankle sprain.</p>
+
+<p>The amount of weight you can place through the foot should be guided by pain, stability and the severity of the injury. A brace or other support can make walking safer during the early stages.</p>
+
+<p>Being able to walk is not the same as being ready to run, jump or play sport.</p>
+
+<h3>4. Restore ankle movement</h3>
+
+<p>Prolonged stiffness can make normal walking and later rehabilitation more difficult. Gentle ankle movement can usually be introduced as pain permits.</p>
+
+<p>The exercises should match the stage of injury. A more severe sprain may need a short period of greater protection before movement and loading are progressed.</p>
+
+<h3>5. Physiotherapy and rehabilitation</h3>
+
+<p>Rehabilitation is one of the most important parts of Ankle Sprain Treatment, particularly after a moderate or severe injury.</p>
+
+<p>A rehabilitation programme may address:</p>
+
+<ul>
+    <li>Ankle range of motion.</li>
+    <li>Calf and ankle strength.</li>
+    <li>Balance and proprioception.</li>
+    <li>Control of the foot and lower limb during movement.</li>
+    <li>Gradual return to walking, running and sport.</li>
+</ul>
+
+<p>Balance and proprioceptive exercises are particularly important because an ankle can feel comfortable before it has fully regained stability and movement control.</p>
+
+<p>For someone who wants to return to cricket, football or badminton, rehabilitation should eventually reproduce the demands of that activity. Walking without pain is only one stage of recovery.</p>
+
+<h3>6. When is immobilisation used?</h3>
+
+<p>More severe ankle sprains may benefit from a short period of immobilisation or greater external support. Current clinical guidance supports limited immobilisation for selected severe acute sprains, followed by progressive functional activity and rehabilitation.</p>
+
+<p>The support may range from a semi-rigid brace to a walking boot or, in selected injuries, a cast. The choice depends on the injury and examination findings.</p>
+
+<h2>Does an Ankle Sprain Need Surgery?</h2>
+
+<p>Most acute lateral ankle sprains are treated without surgery.</p>
+
+<p>A complete ligament tear does not automatically mean that an operation is required. Many complete lateral ligament injuries can be managed with appropriate protection followed by structured rehabilitation.</p>
+
+<p>Surgery may be considered in selected situations, particularly when there is a significant associated injury or persistent ankle instability that does not improve with appropriate non-surgical treatment.</p>
+
+<p>If the ankle repeatedly gives way months after the original injury, the problem may have changed from an acute sprain to <strong>chronic ankle instability</strong>. That situation deserves reassessment rather than simply repeating the same home treatment.</p>
+
+<h2>Ankle Sprain Recovery Time</h2>
+
+<p>Ankle Sprain Recovery Time depends on the extent of ligament damage, whether other structures were injured and how the ankle responds to rehabilitation.</p>
+
+<table class="w-full">
+    <thead>
+        <tr>
+            <th>Injury severity</th>
+            <th>General recovery range</th>
+            <th>What to expect</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr>
+            <td><strong>Mild sprain</strong></td>
+            <td>Often around 1 to 2 weeks</td>
+            <td>Pain and swelling may improve relatively quickly, followed by a gradual return to normal activity.</td>
+        </tr>
+        <tr>
+            <td><strong>Moderate sprain</strong></td>
+            <td>Often several weeks</td>
+            <td>Walking, strength and balance may take longer to recover, and structured rehabilitation is often useful.</td>
+        </tr>
+        <tr>
+            <td><strong>Severe sprain</strong></td>
+            <td>Often 6 weeks to several months</td>
+            <td>A complete ligament injury may require longer protection and rehabilitation before the ankle is ready for demanding activity.</td>
+        </tr>
+        <tr>
+            <td><strong>High ankle sprain</strong></td>
+            <td>Often 6 to 12 weeks or longer</td>
+            <td>Recovery can be slower because the syndesmotic ligaments are exposed to different loading demands.</td>
+        </tr>
+    </tbody>
+</table>
+
+<p>These are general ranges, not deadlines. A person may be able to walk normally before the ankle is ready for running, jumping or competitive sport.</p>
+
+<p>Recovery should therefore be judged by function as well as time. The ankle should progressively regain movement, strength, balance and the ability to tolerate the demands of the person\'s normal activities.</p>
+
+<h2>What Can Delay Ankle Sprain Recovery?</h2>
+
+<p>The recovery timeline can change when the injury is more severe, when another structure is damaged or when the ankle remains weak or unstable.</p>
+
+<p>Recovery may take longer when:</p>
+
+<ul>
+    <li>The initial ligament injury was severe.</li>
+    <li>There is an associated fracture, tendon injury or cartilage injury.</li>
+    <li>A high ankle sprain is present.</li>
+    <li>The person returns to running or sport too early.</li>
+    <li>Rehabilitation is stopped as soon as pain improves.</li>
+    <li>The ankle remains weak or has poor balance.</li>
+    <li>Repeated sprains occur.</li>
+    <li>Chronic ankle instability develops.</li>
+</ul>
+
+<p>One common mistake is treating the disappearance of pain as the end of rehabilitation. Pain can improve before strength, balance and movement control have fully recovered.</p>
+
+<h2>When Can You Return to Walking, Running or Sport?</h2>
+
+<p>Return to activity should be based on function rather than a fixed number of days.</p>
+
+<p>Before returning to running or sport, the ankle should be able to tolerate the movements required for that activity without significant pain, swelling or instability.</p>
+
+<p>A gradual progression may include:</p>
+
+<ol>
+    <li>Comfortable everyday walking.</li>
+    <li>Restoration of normal ankle movement and basic strength.</li>
+    <li>Single-leg balance and controlled functional exercises.</li>
+    <li>Light jogging when appropriate.</li>
+    <li>Progressive changes of direction, jumping and sport-specific drills.</li>
+    <li>Full participation once strength, balance and movement control are adequate.</li>
+</ol>
+
+<p>Someone returning to cricket, football or badminton needs more than an ankle that feels comfortable while walking. The ankle also needs to tolerate sudden direction changes, landing and repeated loading.</p>
+
+<h2>Can an Ankle Sprain Happen Again?</h2>
+
+<p>Yes. A previous ankle sprain is an important risk factor for another sprain.</p>
+
+<p>The problem is not always simply the ligament itself. Strength, balance, proprioception and movement control can remain impaired after the initial pain disappears.</p>
+
+<p>That is why rehabilitation should continue until the ankle has regained the function needed for the person\'s normal activities and sport.</p>
+
+<p>For people with a history of repeated sprains, an ankle brace during higher-risk sports and balance-focused exercises may help reduce recurrence.</p>
+
+<h2>When Should You See an Orthopaedic Specialist?</h2>
+
+<p>Not every ankle sprain needs immediate specialist treatment. However, some symptoms should not be assumed to be a simple sprain.</p>
+
+<p>Seek medical assessment promptly if:</p>
+
+<ul>
+    <li>You cannot bear weight or walk because of pain.</li>
+    <li>There is severe or rapidly increasing swelling.</li>
+    <li>You have marked tenderness directly over the ankle bones.</li>
+    <li>The ankle or foot looks deformed.</li>
+    <li>You have numbness, significant loss of sensation or a cold or unusually pale foot.</li>
+    <li>The injury followed a major fall, collision or other significant trauma.</li>
+    <li>The ankle repeatedly gives way.</li>
+    <li>Pain or swelling is not improving as expected.</li>
+</ul>
+
+<p>These findings can indicate a fracture, more significant ligament injury or another problem that needs a different treatment approach.</p>
+
+<h2>How to Prevent Another Ankle Sprain</h2>
+
+<p>Once the ankle has recovered, prevention should focus on the factors that contributed to the original injury.</p>
+
+<ul>
+    <li>Complete the recommended rehabilitation programme.</li>
+    <li>Continue balance and ankle-strengthening exercises.</li>
+    <li>Use an ankle brace or taping during higher-risk sports when advised.</li>
+    <li>Return to running and sport gradually rather than immediately after pain disappears.</li>
+    <li>Pay attention to previous ankle instability or repeated giving-way episodes.</li>
+    <li>Use suitable footwear for the activity.</li>
+</ul>
+
+<p>There is no way to prevent every ankle sprain, but restoring strength and balance after an injury can reduce the risk of another one.</p>
+
+<h2>What Is the Best Ankle Sprain Treatment?</h2>
+
+<p>There is no single treatment that is best for every ankle sprain.</p>
+
+<p>A mild lateral sprain may improve with protection, pain control, progressive movement and home exercises. A more significant injury may need an ankle brace, crutches, short-term immobilisation and structured rehabilitation. A high ankle sprain, fracture or persistent instability requires a different assessment.</p>
+
+<p>The right treatment depends on what has actually been injured and how the ankle is functioning. Treating every twisted ankle in exactly the same way can miss an associated injury or leave persistent instability unaddressed.</p>
+
+<h2>When to Consult an Orthopaedic Specialist</h2>
+
+<p>If ankle pain, swelling, instability or difficulty walking is not improving as expected, an orthopaedic assessment can help determine whether you have a straightforward ligament sprain or another injury that requires a different treatment approach.</p>
+
+<p>You can learn more about the <a href="/orthopedics">Orthopedics department at Akropolis Super Speciality Hospital</a> or read about <a href="/doctors/dr-prateek-girotra">Dr Prateek Girotra</a>.</p>
+
+<div class="my-10 rounded-2xl bg-gradient-to-r from-[#328CCB] to-[#2a7bb5] p-8 text-center text-white shadow-xl">
+    <h3 class="!mt-0 !mb-3 !border-0 !pl-0 !text-white">Persistent Ankle Pain or Instability?</h3>
+    <p class="!mb-6 !text-white">If your ankle is not recovering as expected, an orthopaedic assessment can help identify the extent of the injury and guide the next step.</p>
+    <a href="/contact" class="article-cta inline-block rounded-full bg-[#D66C43] px-8 py-3 font-bold no-underline transition-all hover:bg-[#c55a36]" style="color:#ffffff !important; text-decoration:none !important;">Book a Consultation</a>
+</div>
+
+<h2>Medical References and Further Reading</h2>
+
+<p>The following sources were reviewed while preparing this article. They are provided for patient education and do not replace an individual medical assessment.</p>
+
+<ul>
+    <li>
+        <a href="https://my.clevelandclinic.org/health/diseases/22048-sprained-ankle" target="_blank" rel="noopener noreferrer"><strong>Cleveland Clinic: Sprained Ankle</strong></a><br>
+        Provides patient-focused information on ankle sprain causes, symptoms, grades, diagnosis, treatment and recovery.
+    </li>
+    <li>
+        <a href="https://www.hss.edu/health-library/conditions-and-treatments/list/sprained-ankle" target="_blank" rel="noopener noreferrer"><strong>Hospital for Special Surgery: Sprained Ankle</strong></a><br>
+        Explains symptoms, early treatment, weight-bearing, rehabilitation and recovery after an ankle sprain.
+    </li>
+    <li>
+        <a href="https://www.orthopt.org/uploads/content_files/files/jospt.2021.0302.pdf" target="_blank" rel="noopener noreferrer"><strong>JOSPT: Clinical Practice Guideline for Lateral Ankle Ligament Sprains</strong></a><br>
+        Provides evidence-based recommendations on assessment, external support, progressive weight-bearing, rehabilitation, balance training and prevention of recurrent ankle sprains.
+    </li>
+    <li>
+        <a href="https://www.aafp.org/afp/2025/1200/acute-ankle-sprains" target="_blank" rel="noopener noreferrer"><strong>American Family Physician: Management of Acute Ankle Sprains</strong></a><br>
+        Reviews clinical examination, Ottawa Ankle Rules, functional treatment, external support, rehabilitation and evaluation of persistent symptoms.
+    </li>
+    <li>
+        <a href="https://acsearch.acr.org/docs/69436/Narrative/" target="_blank" rel="noopener noreferrer"><strong>American College of Radiology: Acute Trauma to the Ankle</strong></a><br>
+        Provides imaging guidance for acute ankle trauma and helps determine when radiography is appropriate.
+    </li>
+</ul>
+
+<div class="my-8 rounded-2xl border border-gray-200 bg-gray-50 p-6 text-sm text-gray-700">
+    <strong>Medical Disclaimer:</strong> This article is intended for general educational purposes only. It does not replace professional medical advice, diagnosis or treatment. Ankle injuries vary in severity, and the appropriate treatment depends on the examination findings, injury pattern, associated injuries and individual recovery needs.
+</div>'
+],
+
+[
     'slug' => 'rotator-cuff-tear-symptoms-diagnosis-treatment-options',
     'title' => 'Rotator Cuff Tear: Symptoms, Diagnosis and Treatment Options',
     'excerpt' => 'A rotator cuff tear can cause shoulder pain, weakness and difficulty lifting the arm. Learn about rotator cuff tear symptoms, diagnosis and treatment options, including physiotherapy, injections and surgery.',
@@ -1470,10 +1913,6 @@ $blogs = [
     <li>
         <strong><a href="https://www.nhs.uk/conditions/plantar-fasciitis/" target="_blank" rel="nofollow noopener">NHS: Plantar Fasciitis</a></strong>
         <p>Explains common symptoms, contributing factors, self-care and treatment options for persistent plantar fasciitis.</p>
-    </li>
-    <li>
-        <strong><a href="https://www.mayoclinic.org/diseases-conditions/plantar-fasciitis/diagnosis-treatment/drc-20354851" target="_blank" rel="nofollow noopener">Mayo Clinic: Plantar Fasciitis Diagnosis and Treatment</a></strong>
-        <p>Provides current information about diagnosis, imaging, self-care and treatment for plantar fasciitis.</p>
     </li>
     <li>
         <strong><a href="https://www.nice.org.uk/guidance/htg200" target="_blank" rel="nofollow noopener">NICE: Extracorporeal Shockwave Therapy for Refractory Plantar Fasciitis</a></strong>
