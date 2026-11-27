@@ -1456,15 +1456,14 @@ include __DIR__ . '/../includes/head.php';
                 </h2>
 
                 <p class="text-gray-600 leading-7 mb-6">
-                    Near Vatika Chowk, Opposite Chinar Garden,
-                    Sector 69, Gurugram, Haryana 122101.
+                    OPD No.1, Akropolis Hospital, Sector 69, Gurugram, Haryana 122101.
                 </p>
 
 
                 <div class="space-y-4 mb-7">
 
                     <a
-                        href="tel:9100009744"
+                        href="tel:7303777692"
                         class="flex items-center gap-3 text-gray-700 hover:text-[#328CCB] transition"
                     >
 
